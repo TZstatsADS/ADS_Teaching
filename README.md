@@ -1,1 +1,2 @@
-# ADS_Teaching
+# Applied Data Science 
+### Teaching Materials
