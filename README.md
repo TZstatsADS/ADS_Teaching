@@ -8,4 +8,4 @@
 #### Week 2
 - Simple plots by R
 - [GitHub tutorial] (https://github.com/TZstatsADS/Tutorial_GitHub)
-- [More plots by R] (Tutorials/wk2-Rplots.rmd)
+- [More plots by R] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-Rplots.Rmd)
