@@ -71,6 +71,6 @@ SL.hist.virginica=hist(unlist(
 plot(SL.hist.setosa, col=rgb(0,0,1,1/4), xlim=c(4,8), 
      main="Sepal Length by species",
      xlab="Sepal length")  
-plot(SL.hist.versicolor, col=rgb(1,0,0,1/4), xlim=c(4,8), add=T)
-plot(SL.hist.virginica, col=rgb(0,1,0,1/4), xlim=c(4,8), add=T)
+plot(SL.hist.versicolor, col=rgb(1,0,0,1/4), add=T)
+plot(SL.hist.virginica, col=rgb(0,1,0,1/4), add=T)
 ```
