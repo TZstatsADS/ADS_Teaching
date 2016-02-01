@@ -17,7 +17,10 @@ In this Rmarkdown presentation, we will explore the 2013 American Community Surv
 
 ```{r, message=F}
 library(dplyr)
-load("../data/husa.RData")
+library(repmis)
+# dropbox data link: https://www.dropbox.com/s/09uc0xg0ujkfa44/ss13husa.csv?dl=0
+acs13husa <- source_DropboxData(file = "ss13husa.csv", 
+             key = "09uc0xg0ujkfa44", sep = ",", header = TRUE)
 ```
 
 ## Basic information about data
@@ -48,9 +51,9 @@ Dplyr aims to provide a function for each basic verb of data manipulation.
 ## Add state names and abbreviations
 
 ```{r, message=F}
-ST.anno=read.csv("../data/statenames.csv")
-acs13husa=mutate(acs13husa, STname=ST.anno[ST, 2], 
-                 STabbr=ST.anno[ST, 3])
+ST.anno=read.csv("../data/statenames.csv", header=T)
+ST.anno=mutate(ST.anno, STabbr=abbr, STname=name)
+acs13husa = left_join(acs13husa, ST.anno, by = c("ST" = "code"))
 select(sample_n(acs13husa,5), starts_with("ST"))
 ```
 
