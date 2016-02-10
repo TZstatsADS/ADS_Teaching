@@ -14,3 +14,4 @@
 #### Week 4
 - [Spatial Data Analysis] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/Spatial%20Data%20Analysis%20and%20Mapping.pdf)
 - [R Tutorial: Geospatial Data and Maps] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/Geospatial_Gridded_shp_Maps.pdf)
+- [Data]
