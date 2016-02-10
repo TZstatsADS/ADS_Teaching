@@ -12,4 +12,4 @@
 - [More plots by R] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-Rplots.Rmd)
 
 #### Week 4
-- [Spatial Data Analysis] 
+- [Spatial Data Analysis] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/Spatial%20Data%20Analysis%20and%20Mapping.pdf)
