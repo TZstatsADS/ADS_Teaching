@@ -12,7 +12,7 @@
 - [More plots by R] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-Rplots.Rmd)
 
 #### Week 3
-- [Shiny App](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk3-ShinyApp.Rmd)
+- [Shiny App](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk3-ShinyApp.RMD)
 
 #### Week 4
 - [Spatial Data Analysis] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Spatial%20Data%20Analysis%20and%20Mapping.pdf)
