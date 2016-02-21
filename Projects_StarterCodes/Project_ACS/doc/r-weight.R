@@ -1,6 +1,10 @@
 library(survey)
 
-db_rclus1<-svrepdesign(weights=~WGTP, repweights=acs13husa[,152:231], 
-                       type="JKn", rscale = 4/80,
-                       data=acs13husa, combined=FALSE)
-svymean(~api00+api99,db_rclus1)
+options( "survey.replicates.mse" = TRUE) 
+
+acs.wt<-svrepdesign(weights=~WGTP, repweights=acs13husa[,152:231], 
+                       type="JKn", scale = 4/80, rscale=rep(1,80),
+                       data=acs13husa, combined=TRUE)
+
+svymean(~VALP, acs.wt, na.rm=T)
+

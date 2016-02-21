@@ -11,7 +11,10 @@
 - [GitHub tutorial] (https://github.com/TZstatsADS/Tutorial_GitHub)
 - [More plots by R] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-Rplots.Rmd)
 
+#### Week 3
+- [Shiny App](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-ShinyApp.html)
+
 #### Week 4
-- [Spatial Data Analysis] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/Spatial%20Data%20Analysis%20and%20Mapping.pdf)
-- [R Tutorial: Geospatial Data and Maps] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/Geospatial_Gridded_shp_Maps.pdf)
-- [Data] (https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/example_shape_data_week4)
+- [Spatial Data Analysis] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Spatial%20Data%20Analysis%20and%20Mapping.pdf)
+- [R Tutorial: Geospatial Data and Maps] (https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Geospatial_Gridded_shp_Maps.pdf)
+- [Data] (https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk4-example_shape_data)
