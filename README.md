@@ -26,3 +26,5 @@
 #### Week 5
 - [Making presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-MakingPresentation.pdf)
 
+#### Week 6
+- [Image Analysis]
