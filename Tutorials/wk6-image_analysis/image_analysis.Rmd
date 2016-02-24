@@ -389,6 +389,7 @@ The numbers of spatial bins $N$ and $M$ are also tuning parameters in addition t
 
 ## Visual Bag-of-Words
 Coming soon in Advanced Image Analysis.
+* 
 
 
 ## Cat & Dog Classification
@@ -427,7 +428,12 @@ XML is a file extension for an Extensible Markup Language (XML) file format used
 ```{r}
 library(XML)
 ann <- xmlParse("sample_annotation.xml")
+print(ann)
+```
+
+```{r}
 head_box <- xmlToDataFrame(ann, nodes=getNodeSet(ann,"//annotation/object/bndbox"))
+print(head_box)
 ```
 
 
