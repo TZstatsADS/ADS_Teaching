@@ -31,5 +31,5 @@
 No tutorial
 
 #### Week 7
-- [Model evaluation](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-Project_evaluation.pptx)
+- [Model evaluation](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-Project_evaluation.key)
 - [Basic Image Analysis](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-image_analysis/)
