@@ -1,0 +1,649 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>Advanced Image Analysis</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$$$','$$$']]}});</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<h1>Advanced Image Analysis</h1>
+
+<p>Yuting Ma</p>
+
+<p>W4249: Applied Data Science</p>
+
+<h2>Scale Invariant Feature Transformation (SIFT)</h2>
+
+<ul>
+<li>Scale Invariant Feature Transformation (SIFT) was introduced by D.Lowe, University of British Columbia,in 2004. It is currently one of the most commonly used feature detector and descriptor for image analysis. It operates in 4 parts:
+
+<ul>
+<li>Detector
+
+<ol>
+<li> Find Scale-Space Extrema</li>
+<li> Keypoint Localization &amp; Filtering
+
+<ul>
+<li>Improve keypoints and throw out bad ones</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>Descriptor
+
+<ol>
+<li> Orientation Assignment
+
+<ul>
+<li>Remove effects of rotation and scale</li>
+</ul>
+</li>
+<li> Create descriptor
+
+<ul>
+<li>Using histograms of orientations</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>Feature Detection</h3>
+
+<h4>Scale-Space Extrema Detection</h4>
+
+<ol>
+<li>Construct a scale space
+
+<ul>
+<li>Increase in octave in a number of scale levels
+<img src="./demo_img/octave.png" alt="Alt text" /></li>
+</ul>
+</li>
+<li>Image is convolved with Gaussian filters at different scales
+
+<ul>
+<li>$$$L(x, y, k \sigma)$$$ is the convolution of the original image $$$I(x,y)$$$ with Guassian blur $$$G(x, y, k\sigma)$$$ --> $$$L(x, y, k\sigma) = G(x,y, \sigma)*I(x,y) $$$</li>
+<li>$$$k\sigma$$$ is the scale</li>
+</ul>
+</li>
+<li>The difference of successive Gaussian-blurred images are taken --> Difference of Gaussian (DoG)
+
+<ul>
+<li>\[ D(x, y, \sigma) = L(x, y, k_i \sigma) - L(x, y, k_j \sigma)) \]= difference at different scales $k_i$ and $k_j$
+<img src="./demo_img/scale_octave.png" alt="Alt text" /></li>
+</ul>
+</li>
+<li><p>Keypoints are then taken as <strong>maxima/minima</strong> of the Difference of Gaussians (DoG) that occur at multiple scales.</p></li>
+<li><p>Parameter to tune:</p>
+
+<ul>
+<li>Number of octaves</li>
+<li>Number of scale levels</li>
+<li>Initial $$$\sigma$$$</li>
+<li>Initial $$$k$$$</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>Keypoint Localization</h4>
+
+<ul>
+<li>Scale-space extrema detection results in too many keypoints, some of which are unstable.</li>
+<li>Keypoint localization used Taylor series expansion of scale space to get more accurate location of extrema
+
+<ul>
+<li>It removes detected keypoints with intensity lower than a <strong>constrastThreshold</strong></li>
+<li>It removes detected keypoints that are consider to be at the edges.
+
+<ul>
+<li>It uses a 2x2 Hessian matrix (H) to compute the pricipal curvature. If a ratio between the squared trace and the determinant is less than a <strong>edgeThreshold</strong>, the keypoint is discarded.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Parameters:
+
+<ul>
+<li>constrastThreshold</li>
+<li>edgeThreshold</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>Feature Description</h3>
+
+<p>After getting a set of "good" keypoints, we need to quantify the characteristics of the local image patch.</p>
+
+<h4>Orientation Assignment</h4>
+
+<ul>
+<li>An orientation is assigned to each keypoint to achieve invariance to image rotation.
+<img src="./demo_img/orient.png" alt="Alt text" /></li>
+<li>A neigbourhood is taken around the keypoint location depending on the scale, and the gradient magnitude and direction is calculated in that region. (Computation details, see reference.)</li>
+<li>An orientation histogram with 36 bins covering 360 degrees is created
+
+<ul>
+<li>It is weighted by gradient magnitude and gaussian-weighted circular window with $\sigma$ equal to 1.5 times the scale of keypoint.</li>
+</ul>
+</li>
+<li>The highest peak in the histogram is taken and any peak above 80% of it is also considered to calculate the orientation. It creates keypoints with same location and scale, but different directions.</li>
+</ul>
+
+
+<p><img src="./demo_img/orient2.png" alt="Alt text" /></p>
+
+<ul>
+<li>Finally a parabola is fit to the 3 histogram values closest to each peak to interpolate the peak position for better accuracy</li>
+<li>It contribute to stability of matching.</li>
+</ul>
+
+
+<h4>Keypoint Descriptor</h4>
+
+<p>SIFT descriptor is a 128-dimenional vector, derived by:
+1. Construct a 4*4 gradient Window in correspongding direction
+2. Histogram of 4x4 samples per window in 8 directions
+3. Gaussian weighting around center( is 0.5 times that of the scale of
+a keypoint)</p>
+
+<h2>Use OpenCV-Python for Image Analysis</h2>
+
+<h3>Use OpenCV-Python From R</h3>
+
+<h4>Installation</h4>
+
+<ul>
+<li>Install Python</li>
+<li>Install OpenCV for Python
+
+<ul>
+<li><a href="http://www.pyimagesearch.com/2015/06/15/install-opencv-3-0-and-python-2-7-on-osx/">A Guide of install OpenCV 3.0 and Python 2.7+ on OSX</a></li>
+<li>It is recommended that OpenCV is installed in a virtualenv</li>
+</ul>
+</li>
+<li>Install R package "rPython"</li>
+</ul>
+
+
+<h4>How to Use</h4>
+
+<ol>
+<li><p>Open terminal, activate (work on) the virtualenv created with OpenCV by <code>source myvirtualenv/bin/activate</code> or <code>workon myvirtualenv</code>.</p></li>
+<li><p>Run R in the virtualenv and <code>library(rPython)</code></p></li>
+<li>Write a sample Python code with <code>import cv2</code> to see if the module can be successfully imported. For instance:</li>
+</ol>
+
+
+<pre><code># test.py
+import numpy as np
+import cv2
+img = cv2.imread('cat.jpg')
+d = img.shape
+</code></pre>
+
+<p>4.Try to call test.py from R and load variables from Python to R.</p>
+
+<pre><code>&gt; library(rPython)
+&gt; #Load/run the main Python script
+&gt; python.load("test.py")
+&gt; # Get the variable from python
+&gt; python.load("test.py")
+&gt; d &lt;- python.get("d")
+&gt; d
+[1] 400 600   3
+</code></pre>
+
+<ul>
+<li>Note that the object loaded from Python to R need to be <strong>JSON serializable</strong>. JSON is a format that encodes objects in a string. Serialization means to convert an object into that string, and deserialization is its inverse operation. When transmitting data or storing them in a file, the data are required to be byte strings, but complex objects are seldom in this format.</li>
+<li>The most commonly used data structure in Python is <code>ndarray</code> from numpy, which is analogous to n-dimensional array in R. However, <code>ndarray</code> is not JSON serializable so it cannot be directly loaded to R. To overcome this issue, you can convert <code>ndarray</code> to <code>list</code> in your Python script. For instance: by adding <code>x_list = x.tolist()</code> where <code>x</code> is a <code>ndarray</code>, it will be read as an list in R.</li>
+</ul>
+
+
+<h4>Potential Problem and Solution</h4>
+
+<ul>
+<li>If you have different version of python
+
+<ul>
+<li>From terminal (before open R), eg.: <code>export RPYTHON_PYTHON_VERSION=2.7.11</code></li>
+<li>always check your <code>Sys.getenv()</code> in R.</li>
+</ul>
+</li>
+<li>When installing OpenCV, after step 7 you may need to restart the system to reconfigure the <code>.bash_profile</code> before proceeding to step 8.</li>
+<li>You need to have opencv libraries ready for R to use. So if runs into library error, you may need to copy opencv DYLD libraries to R library: <code>cp -R ~/opencv/build/lib /Library/Frameworks/R.framework/Resources/lib</code></li>
+<li>Unfortunately, I haven't figured out how to configure RStudio to the python virtualenv. RStudio links to the system Python path by default. Hope you can help me with it.</li>
+<li>Unfortunately too, rPython is currently not available for Windows OS.
+
+<ul>
+<li>Solution:
+
+<ul>
+<li>Use some virtual machines like VMware or VirtualBox on windows and install Linux and carry out your work</li>
+<li>Call python from R through Rcpp, which basically connect R and python via C++</li>
+<li>Directly use python and use intermediate outputs to facilitate the data analysis.
+
+<ul>
+<li>http://gallery.rcpp.org/articles/rcpp-python/</li>
+<li>Cons: lack of interactivity</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>Use SIFT in OpenCV</h3>
+
+<pre><code># test_sift.py
+import numpy as np
+import cv2
+img = cv2.imread('cat.jpg')
+gray= cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+sift = cv2.xfeatures2d.SIFT_create()
+(kps, descs) = sift.detectAndCompute(gray, None)
+print("# kps: {}, descriptors: {}".format(len(kps), descs.shape))
+img=cv2.drawKeypoints(gray,kps, img)
+cv2.imwrite('sift_keypoints.jpg',img)
+descs_list = descs.tolist()
+</code></pre>
+
+<ul>
+<li>The output image with key points detected
+<img src="./sift_keypoints.jpg" alt="Alt text" /></li>
+</ul>
+
+
+<p>In R:</p>
+
+<pre><code>&gt; python.load("test_sift.py")
+&gt; descs_list &lt;- python.get("descs_list")
+&gt; # Convert list to array
+&gt; img_descs &lt;- do.call()
+&gt; length(img_descs)
+[1] 305
+&gt; img_sift &lt;- do.call("rbind", img_descs)
+&gt; dim(img_sift)
+[1] 305 128
+&gt; img_sift[1:5, 1:5]
+     [,1] [,2] [,3] [,4] [,5]
+[1,]   56   10    8   13   16
+[2,]    3   29   26   35   15
+[3,]    0    0    2   36   83
+[4,]   71   42    6    1    2
+[5,]    0    0    1   16  115
+</code></pre>
+
+<h3>Other Methods in OpenCv</h3>
+
+<h4>Harris Corner Detection</h4>
+
+<pre><code># test_corner.py
+import cv2
+import numpy as np
+filename = 'cat.jpg'
+img = cv2.imread(filename)
+gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+gray = np.float32(gray)
+dst = cv2.cornerHarris(gray,2,3,0.04)
+#result is dilated for marking the corners, not important
+dst = cv2.dilate(dst,None)
+# Threshold for an optimal value, it may vary depending on the image.
+img[dst&gt;0.01*dst.max()]=[0,0,255]
+cv2.imshow('dst',img)
+if cv2.waitKey(0) &amp; 0xff == 27:
+    cv2.destroyAllWindows()
+</code></pre>
+
+<p>The detected points are:
+<img src="./demo_img/corner.png" alt="Alt text" /></p>
+
+<p>And a lot more to be explored.</p>
+
+<h2>Use Matlab For Image Analysis</h2>
+
+<h3>Use SIFT in Matlab</h3>
+
+<p>SIFT and other advanced image analysis tools are available in Matlab from library <a href="http://www.vlfeat.org/">VlFeat</a>. The <a href="http://www.vlfeat.org/applications/caltech-101-code.html">sample code</a> of implementing SIFT in matlab is also avaiable.</p>
+
+<h3>Other Methods</h3>
+
+<p>In addition to the ordinary SIFT, VlFeat also offers some other useful tools for feature extraction and description, which might be more efficient computationally. For instance:</p>
+
+<ul>
+<li><a href="http://www.vlfeat.org/overview/mser.html">MSER feature detector</a></li>
+<li><a href="http://www.vlfeat.org/api/dsift.html">Dense SIFT</a></li>
+<li><a href="http://www.vlfeat.org/overview/hog.html">HOG features</a></li>
+</ul>
+
+
+<h2>Caffe: A Deep Learning Framework</h2>
+
+<p>The <a href="http://caffe.berkeleyvision.org/">Caffe framework from UC Berkeley</a> is designed to let researchers create and explore Convolutional Neural Networks (CNN) and other Deep Neural Networks (DNNs) easily. It provides end-to-end learning to many tasks, especially in image recognition. Particularly, Caffe has a pretrained model, CaffeNet, that is trained on one of the most comprehensive image database, <a href="http://image-net.org/">ImageNet</a>, from which the learned features can be extracted from each layer of the neural network.</p>
+
+<p>The details of Caffe is out of the scope of this class as well as deep learning in general. Here is a very brief and basic introduction to help you understand the structure of Caffe in order to facilitate the usage.</p>
+
+<h3>Installation</h3>
+
+<p>Unfortunately, it is absolutely nontrival to install Caffe appropriatelt and to run it sucessfully. Please see the tutorial for a definitely non-expert installation guide.</p>
+
+<h3>Automating Perception by Deep Learning</h3>
+
+<ul>
+<li></li>
+</ul>
+
+
+<p>Deep learning is a branch of machine learning that is advancing the state of the art for perceptual problems like vision and speech recognition. We can pose these tasks as mapping concrete inputs such as image pixels or audio waveforms to abstract outputs like the identity of a face or a spoken word. The “depth” of deep learning models comes from composing functions into a series of transformations from input, through intermediate representations, and on to output. The overall composition gives a deep, layered model, in which each layer encodes progress from low-level details to high-level concepts. This yields a rich, hierarchical representation of the perceptual problem. Figure 1 shows the kinds of visual features captured in the intermediate layers of the model between the pixels and the output. A simple classifier can recognize a category from these learned features while a classifier on the raw pixels has a more complex decision to make.</p>
+
+<h3>Convolutional Neural Network</h3>
+
+<p><img src="./demo_img/cnn.jpg" alt="Alt text" />
+(Demo credit: http://systemdesign.altera.com/can-you-see-using-convolutional-neural-networks/)</p>
+
+<p>A CNN consists of a number of convolutional and subsampling layers followed by fully connected layers, where the "depth" comes from. It maps concrete inputs such as image pixels or audio waveforms to abstract outputs like the identity of a face or a spoken word.</p>
+
+<ul>
+<li>Convolutional layer (CONV):
+
+<ul>
+<li>Input:  m x m x r image where m is the height and width of the image and r is the number of channels, e.g. an RGB image has r=3.</li>
+<li>The convolutional layer will have k filters (or kernels) of size n x n x q where n is smaller than the dimension of the image and q can either be the same as the number of channels r or smaller and may vary for each kernel. The size of the filters gives rise to the locally connected structure which are each convolved with the image to produce k feature maps of size m−n+1.</li>
+</ul>
+</li>
+</ul>
+
+
+<p><img src="./demo_img/convolution.gif" alt="Alt text" /></p>
+
+<p>(demo credit: http://deeplearning.stanford.edu/wiki/index.php/Feature_extraction_using_convolution)</p>
+
+<ul>
+<li>RELU layer:
+
+<ul>
+<li>Apply an elementwise activation function, such as the max(0,x) thresholding at zero. This leaves the size of the volume unchanged</li>
+</ul>
+</li>
+<li>Subsampling layer (POOL):
+
+<ul>
+<li>Each map is then subsampled typically with mean or max pooling over p x p contiguous regions where p ranges between 2 for small images (e.g. MNIST) and is usually not more than 5 for larger inputs.</li>
+</ul>
+</li>
+<li>Fully-connected layer (FC):
+
+<ul>
+<li>As with ordinary Neural Networks and each neuron in this layer will be connected to all the numbers in the previous volume.</li>
+</ul>
+</li>
+</ul>
+
+
+<p>The overall composition gives a deep, layered model, in which each layer encodes progress from <strong>low-level details</strong> to <strong>high-level concepts</strong>. This yields a rich, hierarchical representation of the perceptual problem.
+* Low-level features: simple elements of shapes and colors with small number of pixels.
+* High-level features: recognizable components of the output</p>
+
+<p><img src="./demo_img/feature.png" alt="Alt text" /></p>
+
+<p>(Demo credit: https://devblogs.nvidia.com/parallelforall/deep-learning-computer-vision-caffe-cudnn/)</p>
+
+<h3>Extract Features from CaffeNet</h3>
+
+<p>(Skip the part of load python object to R, which is similar as OpenCV)</p>
+
+<ul>
+<li><p>First, import required modules, set plotting parameters, and run (from /caffe root folder) <code>./scripts/download_model_binary.py models/bvlc_reference_caffenet</code> to get the pretrained CaffeNet model if it hasn't already been fetched.</p></li>
+<li><p>Load CaffeNet</p></li>
+</ul>
+
+
+<pre><code>import numpy as np
+import matplotlib.pyplot as plt
+# Make sure that caffe is on the python path:
+caffe_root = '/Users/Yuting_Ma/Downloads/caffe/'  # this file is expected to be in {caffe_root}/examples
+import sys
+sys.path.insert(0, caffe_root + 'python')
+import caffe
+plt.rcParams['figure.figsize'] = (10, 10)
+plt.rcParams['image.interpolation'] = 'nearest'
+plt.rcParams['image.cmap'] = 'gray'
+import os
+caffe.set_mode_cpu()
+net = caffe.Net(caffe_root + 'models/bvlc_reference_caffenet/deploy.prototxt',
+                caffe_root + 'models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel',
+                caffe.TEST)
+</code></pre>
+
+<ul>
+<li>For each layer, show the output shape</li>
+</ul>
+
+
+<pre><code>&gt;&gt;&gt; # With CUP-only configuration
+&gt;&gt;&gt; for layer_name, blob in net.blobs.iteritems():
+&gt;&gt;&gt;     print layer_name + '\t' + str(blob.data.shape)
+data    (50, 3, 227, 227)
+conv1   (50, 96, 55, 55)
+pool1   (50, 96, 27, 27)
+norm1   (50, 96, 27, 27)
+conv2   (50, 256, 27, 27)
+pool2   (50, 256, 13, 13)
+norm2   (50, 256, 13, 13)
+conv3   (50, 384, 13, 13)
+conv4   (50, 384, 13, 13)
+conv5   (50, 256, 13, 13)
+pool5   (50, 256, 6, 6)
+fc6 (50, 4096)
+fc7 (50, 4096)
+fc8 (50, 1000)
+prob    (50, 1000)
+</code></pre>
+
+<ul>
+<li>Visualize extracted features, for instance, from the first convolution layer:</li>
+</ul>
+
+
+<pre><code>def vis_square(data):
+    """Take an array of shape (n, height, width) or (n, height, width, 3)
+       and visualize each (height, width) thing in a grid of size approx. sqrt(n) by sqrt(n)"""
+    # normalize data for display
+    data = (data - data.min()) / (data.max() - data.min())
+    # force the number of filters to be square
+    n = int(np.ceil(np.sqrt(data.shape[0])))
+    padding = (((0, n ** 2 - data.shape[0]),
+               (0, 1), (0, 1))                 # add some space between filters
+               + ((0, 0),) * (data.ndim - 3))  # don't pad the last dimension (if there is one)
+    data = np.pad(data, padding, mode='constant', constant_values=1)  # pad with ones (white)
+    # tile the filters into an image
+    data = data.reshape((n, n) + data.shape[1:]).transpose((0, 2, 1, 3) + tuple(range(4, data.ndim + 1)))
+    data = data.reshape((n * data.shape[1], n * data.shape[3]) + data.shape[4:])
+    plt.imshow(data); plt.axis('off')
+</code></pre>
+
+<pre><code>filters = net.params['conv1'][0].data
+vis_square(filters.transpose(0, 2, 3, 1))
+</code></pre>
+
+<p><img src="./demo_img/conv1.jpeg" alt="Alt text" /></p>
+
+<p> (Code adapted from <a href="http://nbviewer.jupyter.org/github/BVLC/caffe/blob/master/examples/00-classification.ipynb">Caffe classification tutorial</a>)</p>
+
+<ul>
+<li>In some research papers (<a href="http://arxiv.org/pdf/1402.0453v2.pdf">example</a>), people use features extracted from the last 3 fully connected layers of CaffeNet as visual vocabulary for image classification.</li>
+</ul>
+
+
+<h2>References</h2>
+
+<ul>
+<li><a href="http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html">OpenCV 3.0 official doumentation</a></li>
+<li><a href="http://www.inf.fu-berlin.de/lehre/SS09/CV/uebungen/uebung09/SIFT.pdf">A Nice SIFT Tutorial</a></li>
+<li><a href="http://www.vlfeat.org/index.html">VlFeat</a></li>
+<li><a href="http://cs231n.github.io/convolutional-networks/">Convolutional Neural Network for Visual Recognition</a></li>
+<li><a href="http://caffe.berkeleyvision.org/">Caffe Tutorials</a></li>
+<li><a href="http://deeplearning.net/tutorial/lenet.html">Deeplearning.net</a></li>
+<li><a href="http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial">Stanford UFLDL Tutorial</a></li>
+</ul>
+
+</body>
+</html>

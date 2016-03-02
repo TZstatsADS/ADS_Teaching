@@ -33,3 +33,6 @@ No tutorial
 #### Week 7
 - [Model evaluation](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-Project_evaluation.key)
 - [Basic Image Analysis](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-image_analysis/)
+- [Advanced Image Analysis: Overview]
+- [Advanced Image Analysis: Tutorial]
+- [Install CPU-Only Caffe on Mac OS (For Python Interface)]
