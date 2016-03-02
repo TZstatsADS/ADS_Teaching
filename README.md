@@ -35,4 +35,4 @@ No tutorial
 - [Basic Image Analysis](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-image_analysis/)
 - [Advanced Image Analysis: Overview](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-image_analysis/ads_image_analysis_overview.pptx)
 - [Advanced Image Analysis: Tutorial](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-image_analysis/advanced_image_analysis.md)
-- [Install CPU-Only Caffe on Mac OS (For Python Interface)]()
+- [Install CPU-Only Caffe on Mac OS (For Python Interface)](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-image_analysis/install_cpu-only_caffe_on_mac_os.md)
