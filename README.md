@@ -1,4 +1,5 @@
 # Applied Data Science 
+### Spring 2016
 ### Teaching Materials
 
 #### Week 1
@@ -27,4 +28,8 @@
 - [Making presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-MakingPresentation.pdf)
 
 #### Week 6
-- [Basic Image Analysis](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-image_analysis)
+No tutorial
+
+#### Week 7
+- [Model evaluation](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-Project_evaluation.pptx)
+- [Basic Image Analysis](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk6-image_analysis/)
