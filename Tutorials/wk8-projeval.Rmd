@@ -1,0 +1,110 @@
+---
+title: "Evaluation for Project 3"
+author: "Yuting Ma"
+date: "March 9, 2016"
+output: html_document
+---
+
+### Submission Structure
+The submission folder must contain the following objects
+*  `./lib`
+    +  `train.R`
+    +  `test.R`
+*  `./output`
+    +  `feature_eval.RData`
+
+### Load constructed features for the entire evaluation image set
+* Note that the constructed features for evaluation must be saved as a 2D array (matrix) format
+* Each row of the feature matrix **MUST** match the given file name indices. 
+    + Sample filename-index file will look like
+```{r, eval=FALSE}
+  ind               name
+1   1   Abyssinian_1.jpg
+2   2  Abyssinian_10.jpg
+3   3 Abyssinian_100.jpg
+4   4 Abyssinian_101.jpg
+5   5 Abyssinian_102.jpg
+6   6 Abyssinian_103.jpg
+```
+* The file `feature_eval.RData` should contain the object `feature_eval`, which is a matrix of size $n \times p$ with each row corresponds to each raw image.
+```{r, eval=FALSE}
+load("./output/feature_eval.RData") 
+```
+
+
+### Load class labels for evaluation image set
+* The file  `label_eval.RData` contains an object `label_eval`, which is a vector of length n (2000) with 0/1 entries.
+```{r, eval=FALSE}
+load("label_eval.RData") 
+```
+
+### Cross Validation
+* `train.R`
+    + Input: 
+        - `dat_train`: constructed features for training data
+        - `label_train`: class labels for training data
+    + Output: model specification in any format that can be read in `test.R`
+* `test.R`
+    + Input: 
+        - `fit_train`: model specification resulted from the training process, can be any format
+        - `dat_test`: construted features for testing data
+    + Output: a vector of class label prediction in 0/1
+* Required packages need to be properly installed in `train.R` and `test.R`
+    + The packages should be compatible with `R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"`
+* Randomization: All group will be evaluated on the same partitions of data
+
+```{r, eval=FALSE}
+source("./lib/train.R")
+source("./lib/test.R")
+
+n <- 2000
+n_rep <- 20
+K <- 5
+ind_cat <- which(eval_label == 1) # 1000 cats
+ind_dog <- which(eval_label == 0) # 1000 dogs
+n_cat_fold <- n_dog_fold <- 200
+
+CV_err <- rep(0, n_rep)
+CV_fit <- array(dim=c(n, n_rep))
+train_time <- array(dim=c(K, n_rep))
+
+for(r in 1:n_rep){
+  set.seed(309+r)
+  assign_cat <- sample(rep(1:K, times=n_cat_fold))
+  set.seed(1310+r)
+  assign_dog <- sample(rep(1:K, times=n_dog_fold))
+  
+  CV_index <- rep(NA, n)
+  CV_index[ind_cat] <- assign_cat
+  CV_index[ind_dog] <- assign_dog
+  
+  for(c in 1:K){
+    cat("fold= ", c, "\n")
+    ind_test <- which(CV_index == c)
+    dat_train <- feature_eval[-ind_test,]
+    label_train <- label_eval[-ind_test]
+    dat_test <- feature_eval[ind_test,]
+    label_test <- label_eval[ind_test]
+    train_time[c,r] <- system.time(mod_train <- train(dat_train, label_train))[1]
+    pred_test <- test(mod_train, dat_test)
+    CV_fit[ind_test, r] <- pred_test
+  }
+  cv_err[r] <- mean(CV_fit[,r] != label_eval)
+}
+
+save(CV_fit, cv_err, train_time, file="CV_result.RData")
+```
+
+### Evaluation
+* CV error will be used to evalute the performance
+```{r, eval=FALSE}
+mean(CV_fit != label_eval)
+```
+* Stability is evaluated using the variance of CV error among different data partitions.
+```{r, eval=FALSE}
+sd(CV_err)
+```
+* Average training time will be used to evaluate computational efficiency
+```{r, eval=FALSE}
+mean(train_time)
+```
