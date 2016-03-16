@@ -129,6 +129,7 @@ for req in $(cat ./python/requirements.txt); do pip install $req; done
 	+ With Anaconda: follow the instruction, uncomment all variables with Anaconda specification and comment out corresponding variables with original Python paths. 
 4. Read through carefully and modify configuration to suit your need!!!
 
+Here is a [sample Makefile.config]() I used for installation with Python 2.7.11 (not Anaconda).
 
 ### Make Caffe
 1. `make clean`
