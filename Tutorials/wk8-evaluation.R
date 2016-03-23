@@ -7,8 +7,8 @@ source("./lib/test.R")
 n <- 2000
 n_rep <- 20
 K <- 5
-ind_cat <- which(eval_label == 1) # 1000 cats
-ind_dog <- which(eval_label == 0) # 1000 dogs
+ind_cat <- which(label_eval == 1) # 1000 cats
+ind_dog <- which(label_eval == 0) # 1000 dogs
 n_cat_fold <- n_dog_fold <- 200
 
 CV_err_baseline <- rep(0, n_rep)
@@ -39,12 +39,12 @@ for(r in 1:n_rep){
     CV_fit_baseline[ind_test, r] <- pred_test$baseline
     CV_fit_adv[ind_test, r] <- pred_test$adv
   }
-  cv_err_baseline[r] <- mean(CV_fit_baseline[,r] != label_eval)
-  cv_err_adv[r] <- mean(CV_fit_adv[,r] != label_eval)
+  CV_err_baseline[r] <- mean(CV_fit_baseline[,r] != label_eval)
+  CV_err_adv[r] <- mean(CV_fit_adv[,r] != label_eval)
   
 }
 
-save(CV_fit_baseline, CV_fit_adv,  cv_err_baseline, cv_err_adv, train_time, file="CV_result.RData")
+save(CV_fit_baseline, CV_fit_adv,  CV_err_baseline, CV_err_adv, train_time, file="CV_result.RData")
 
 cat("Mean of Baseline CV Error =", round(mean(CV_err_baseline), digits=4), "\n")
 cat("SD of Baseline CV Error =", round(sd(CV_err_baseline), digits=4), "\n")
