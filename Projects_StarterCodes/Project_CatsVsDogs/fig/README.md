@@ -1,4 +1,4 @@
-# Project: American Community Survey
+# Project: Cats vs Dogs
 
 ### Figs folder
 
