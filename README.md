@@ -42,3 +42,7 @@ No tutorial
 - [More details on Proj. Eval.](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk8-projeval.Rmd)
 - [Example evaluation.R](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk8-evaluation.R)
 
+#### Week 10
+- [Project 3 Summary](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk10_summary_proj3.Rmd)
+
+

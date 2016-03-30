@@ -1,0 +1,280 @@
+---
+title: "Summary of Project 3"
+author: "Yuting Ma"
+date: "March 29, 2016"
+output: html_document
+---
+
+## Feature extraction, storage, running time (cost)
+
+### Submission Time
+```{r, echo=FALSE}
+submitTime <- c(64, 59, 55, 93, 90, 52, 100, 74, 55, 149)
+submitTime_label <- c("3:54PM","3:49PM","3:45PM","4:23PM","4:20PM","3:42PM","4:30PM","4:04PM","3:45PM","5:19PM")
+
+bar_time <- barplot(submitTime, main="Submission Time: Minutues from 2:50PM",
+        xlab="Team", ylab="Minutes", ylim=c(0, 160))
+text(bar_time, submitTime+5, submitTime_label, cex=0.7)
+axis(1, bar_time, labels=as.character(1:10))
+```
+
+### Dimensions of Extracted Features
+#### Baseline Model
+```{r, echo=FALSE}
+featureDim_bl <- c(0, 0, 512, 800, 125, 360, 0, 0, 800, 800)
+bar_dim_bl <- barplot(featureDim_bl, main="Extracted Baseline Feature Dimensions",
+                       xlab="Team", ylab="p", ylim=c(0, 850))
+text(bar_dim_bl, featureDim_bl+ 25, as.character(featureDim_bl), cex=0.8)
+axis(1, bar_time, labels=as.character(1:10))
+```
+
+
+#### Advanced Model
+
+```{r, echo=FALSE}
+featureDims_adv <- c(1360, 800, 9735, 4096, 1165, 500, 800, 800, 88, 150)
+bar_dim_adv <- barplot(log(featureDims_adv), main="Extracted Advanced Feature Dimensions (log)",
+                    xlab="Team", ylab="log(p)", ylim=c(0, 10))
+text(bar_dim_adv, log(featureDims_adv)+0.5, as.character(featureDims_adv), cex=0.8)
+axis(1, bar_time, labels=as.character(1:10))
+```
+
+### Submitted File Sizes
+
+```{r, echo=FALSE}
+fileSizes <- c(4.4, 1.9, 69.8,47.8, 2.3, 3.4, 2.6, 1.9, 3.1, 2.1)
+bar_file <- barplot(fileSizes, main="Sizes of submitted 'feature_eval.RData'",
+                      xlab="Team", ylab="p", ylim=c(0, 75))
+text(bar_file, fileSizes+ 2, as.character(fileSizes), cex=0.8)
+axis(1, bar_file, labels=as.character(1:10))
+```
+
+
+## Performance
+### Prediction Accuracy
+
+```{r, echo=FALSE}
+err_claimed <- c(1-0.953, 1-0.67, 1- 0.87, 1-0.97, 1-0.7213, 1- 0.778, 1-0.69, 0.285, 0.29, 0.26)
+err_adv_claimed <- rep(err_claimed, each=20)
+
+load("label_eval.RData")
+load("pred_untuned.RData")
+ind_fun <- which(is.na(label_eval))
+err_untuned <- apply(pred_untuned, 2, function(x) mean(x[-ind_fun] != label_eval[-ind_fun]))
+err_adv_untuned <- rep(err_untuned[-8]  , each=20)
+
+type_names <- c("claimed", "untuned", "re-trained")
+team_names <- paste0("Team ", 1:10)
+
+load("output_proj3.RData")
+err_adv_all <- data.frame(Team=rep(rep(team_names, each=20), times=3), 
+  					  Type=rep(type_names, each=200),
+						  Error= c(err_adv_claimed, err_adv_untuned, as.vector(t(output$err_adv_retrained))))
+
+err_adv_all$Type <- factor(err_adv_all$Type, levels= type_names)
+err_adv_all$Team <- factor(err_adv_all$Team, levels= team_names)
+
+err_adv_all$isNA <- is.na(err_adv_all$Error)
+err_adv_all$Error[err_adv_all$isNA] <- 0.5
+err_adv_all$isNA <- as.numeric(err_adv_all$isNA)
+
+err_adv_all$Error <- err_adv_all$Error*100
+
+type_names <- c("claimed", "untuned", "re-trained")
+team_names <- paste0("Team ", 1:10)
+
+library(ggplot2)
+(ggplot(err_adv_all, aes(y=Error, x=Team, fill=Type, colour=Type)) 
++ geom_boxplot(width=0.5,outlier.colour = NULL)
+#+ scale_alpha_continuous(guide=FALSE, range=c(0.01,0.99))
++theme(axis.line = element_line(colour = "black"),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.border = element_rect(colour = "black", fill=NA),
+      axis.text=element_text(size=12),
+      axis.title=element_text(size=12),
+      legend.text=element_text(size=12),
+      legend.title=element_text(size=12, face="bold"),
+      legend.position="bottom",
+      strip.text.y = element_text(size = 13, face="bold"),
+      panel.background = element_blank())
++ labs(title="Advanced Model CV Error (%)", x="Team", y="Error Rate")
++ scale_colour_brewer(palette = "Dark2", guide = FALSE)
++ scale_fill_brewer(palette = "Pastel2", labels=type_names, guide = guide_legend(title = "Type"))
++ geom_vline(xintercept = seq(1.5, 12.5, 1), linetype = "longdash", colour="lightgrey")) 
+
+```
+
+
+### Computational Efficiency
+
+Team 9 is the only team that implemented model selection within the training process, which takes much longer time. However, to be fair in the comparison, their average training CPU time per fold per replicate is divided 7, which is the number of their candidate parameter values. They've also performed a 5-fold CV within each GBM training. 
+
+```{r, echo=FALSE}
+load("output_proj3.RData")
+time_sum <- data.frame(Team = rep(rep(team_names, each=20), times=2),
+                       Time=c(as.vector(t(output$train_time_avg)), as.vector(t(output$pred_time_avg))),
+                       Type=rep(c("Training Time", "Prediction Time"), each=200))
+
+time_sum$Team <- factor(time_sum$Team, levels= team_names)
+time_sum$Type <- factor(time_sum$Type, levels=c("Training Time", "Prediction Time"))
+
+# Adjustment for team 9
+time_sum$Time[which(time_sum$Team == "Team 9")] <- time_sum$Time[which(time_sum$Team == "Team 9")]/7
+
+library(ggplot2)
+(ggplot(time_sum, aes(y=Time, x=Team, fill=Type, colour=Type)) 
++ geom_boxplot(width=0.5,outlier.colour = NULL)
++ scale_y_log10()
++theme(axis.line = element_line(colour = "black"),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.border = element_rect(colour = "black", fill=NA),
+      axis.text=element_text(size=12),
+      axis.title=element_text(size=12),
+      legend.text=element_text(size=12),
+      legend.title=element_text(size=12, face="bold"),
+      legend.position="bottom",
+      strip.text.y = element_text(size = 13, face="bold"),
+      panel.background = element_blank())
++ labs(title="CPU Time Per Fold Per Rep", x="Team", y="Seconds (log)")
++ scale_colour_brewer(palette = "Dark2", guide = FALSE)
++ scale_fill_brewer(palette = "Pastel2", labels=c("Training Time", "Prediction Time"), guide = guide_legend(title = "Type"))
++ geom_vline(xintercept = seq(1.5, 12.5, 1), linetype = "longdash", colour="lightgrey"))                       
+```
+
+
+## Fun Images
+
+The percentages of votes to cat (1) of 18 fun images. 
+
+```{r, echo=FALSE, message=FALSE}
+load("output_proj3.RData")
+load("ind_fun.RData")
+ind_bl <- which(!is.na(rowSums(output$label_fun_bl)))
+label_fun <- rbind(output$label_fun_adv, output$label_fun_bl[ind_bl,])/20
+colnames(label_fun) <- paste0("img_valid_", ind_fun, ".jpg")
+rownames(label_fun) <- c(paste0("Team_", 1:10, "_adv"), paste0("Team_", ind_bl, "_bl"))
+
+library(gplots)
+require(RColorBrewer)
+cols <- colorRampPalette(brewer.pal(10, "RdBu"))(256)
+heatmap.2(label_fun, Rowv=F, Colv=F, dendrogram="none", col=cols, trace="none", margins=c(12,8), srtCol=45,
+          density.info="none",key=TRUE, symkey=FALSE, main="Vote for Cats")
+```
+
+
+```{r, echo=FALSE}
+# reset par to default values
+resetPar <- function() {
+    dev.new()
+    op <- par(no.readonly = TRUE)
+    dev.off()
+    op
+}
+
+library(EBImage)
+load("ind_fun.RData")
+par(mar=c(7,4,4,2))
+for(i in c(1:9, 11:18)){
+  ind <- ind_fun[i]
+  img <- readImage(paste0("./fun_img/img_valid_", ind, ".jpg"))
+  display(img)
+  text(x = 20, y = 20, label = paste0("img_valid_", ind, ".jpg"), adj = c(0,1), col = "red", cex = 2)
+  par(resetPar())
+  par(mar=c(7,4,4,2))
+  barplot(label_fun[,i]*100, main=paste0("Vote for Cat: img_valid_", ind, ".jpg"),
+          ylab="% of Cat Vote", xlab="", las=2, ylim=c(0, 100))
+}
+```
+
+
+## Team Performance Clustering
+
+We use Multidimensional Scaling (MDS) to cluster the performance of each team using the prediction in the first replicate. 
+
+### Retrained Advanced Model
+```{r, echo=FALSE}
+load("output_proj3.RData")
+fit_adv_r1 <- output$fit_adv_r1
+load("ind_fun.RData")
+
+### 2d projection
+l1_dist <- function(a,b){
+  return(mean(a != b))
+}
+
+### distance matrix of prediction from advanced models
+dist_mat <- array(dim=c(11,11))
+for(i in 1:9){
+  for(j in (i+1):10){
+    dist_mat[i,j] <- l1_dist(fit_adv_r1[-ind_fun,i], fit_adv_r1[-ind_fun,j])
+  }
+}
+load("label_eval.RData")
+for(i in 1:10){
+  dist_mat[i,11] <- l1_dist(fit_adv_r1[-ind_fun,i], label_eval[-ind_fun])
+}
+diag(dist_mat) <- 0
+dist_mat[lower.tri(dist_mat)] <- t(dist_mat)[lower.tri(dist_mat)]
+
+
+###### MDS
+# Classical MDS
+# N rows (objects) x p columns (variables)
+# each row identified by a unique row name
+
+fit_mds <- cmdscale(dist_mat,eig=TRUE, k=2) # k is the number of dim
+fit_mds # view results
+
+# plot solution 
+x_mds <- fit_mds$points[,1]
+y_mds <- fit_mds$points[,2]
+plot(x_mds, y_mds, xlab="Coordinate 1", ylab="Coordinate 2", 
+     main="MDS of Re-trained Advanced Model",  type="n", xlim=c(-0.35, 0.2))
+text(x_mds, y_mds, labels = c(paste0("Team_", 1:10), "Truth"), cex=c(rep(0.8, 10), 1), col=c(rep("black", 10), "red"))
+
+```
+
+### Untuned Advanced Model
+```{r, echo=FALSE}
+load("pred_untuned.RData")
+ind_untuned <- c(1,3,4,5,6,8,10)
+fit_untuned <- pred_untuned[,ind_untuned]
+colnames(fit_untuned) <- paste0("Team ", c(1,3:6, 8, 9))
+
+dist_mat_untuned <- array(dim=c(8,8))
+for(i in 1:6){
+  for(j in (i+1):7){
+    dist_mat_untuned[i,j] <- l1_dist(fit_untuned[-ind_fun,i], fit_untuned[-ind_fun,j])
+  }
+}
+load("label_eval.RData")
+for(i in 1:7){
+  dist_mat_untuned[i,8] <- l1_dist(fit_untuned[-ind_fun,i], label_eval[-ind_fun])
+}
+diag(dist_mat_untuned) <- 0
+dist_mat_untuned[lower.tri(dist_mat_untuned)] <- t(dist_mat_untuned)[lower.tri(dist_mat_untuned)]
+
+fit_mds_untuned <- cmdscale(dist_mat_untuned,eig=TRUE, k=2) # k is the number of dim
+fit_mds_untuned # view results
+
+# plot solution 
+x_mds_untuned <- fit_mds_untuned$points[,1]
+y_mds_untuned <- fit_mds_untuned$points[,2]
+plot(x_mds_untuned, y_mds_untuned, xlab="Coordinate 1", ylab="Coordinate 2", 
+     main="MDS of Untuned Advanced Model",  type="n", xlim=c(-0.3, 0.4))
+text(x_mds_untuned, y_mds_untuned, labels = c(paste0("Team_", c(1,3:6,8,9)), "Truth"), cex=c(rep(0.8, 7), 1), col=c(rep("black", 7), "red"))
+
+```
+
+
+## Summary of Common Problems
+
+* 9 teams did not have model selection
+* 3 teams did not have baseline model
+* 5 teams did not return the correct prediction values in either advanced model or baseline model 
+    + predictions are 1& 2 instead of 0&1
+    + predicted probabilities/link values are returned instead of class labels.
+* 4 teams did not deal with constant features, which ran into scaling error. 
+    + `Variable(s) ‘V22’ and ‘V46’ and ‘V110’ constant. Cannot scale data.`
