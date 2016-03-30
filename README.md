@@ -44,5 +44,7 @@ No tutorial
 
 #### Week 10
 - [Project 3 Summary](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk10_summary_proj3.pdf)
+- [Project 4 description](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk10-project4_desc.md)
+- [Tutorial on relational data](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk10-Tutorial4.Rmd)
 
 
