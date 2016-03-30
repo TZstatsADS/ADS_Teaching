@@ -1,0 +1,310 @@
+---
+title: "Collective Intelligence"
+author: "Tian Zheng"
+date: "March 30, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(tidyr)
+library(hexbin)
+```
+
+## Collective Intelligence
+
+[From wikipedia] shared or group intelligence that emerges from the collaboration, collective efforts, and competition of many individuals and appears in consensus decision making.
+
+### Web 2.0
+
+[From wikipedia] World Wide Web sites that emphasize user-generated content.
+
+### Examples 
+
+- Rankings of products based on reviews
+- Suggested friends based on your current friend list
+- Ranking of scientific papers based on citations
+- Suggested movies based on movies you have watched
+- Sorting search results 
+
+### Collective flitering
+
+- Our online behaviors are being collected. 
+- Derive understanding on the latent `qualities` that drive our behaviors.
+- Such understanding will guide recommendation engine to give recommendations.
+- Including recommendations to ourselves.
+- If we like everything the it recommended to us, does that mean it works?
+
+
+## Project 4: Amazon movie reviews
+
+- http://snap.stanford.edu/data/web-Movies.html
+- Number of reviews	7,911,684
+- Number of users	889,176
+- Number of products	253,059
+- Users with > 50 reviews	16,341
+- Median no. of words per review	101
+- Timespan	Aug 1997 - Oct 2012
+
+### Example
+
+> product/productId: B003AI2VGA
+
+> review/userId: A141HP4LYPWMSR
+
+> review/profileName: Brian E. Erland "Rainbow Sphinx"
+
+> review/helpfulness: 7/7
+
+> review/score: 3.0
+
+> review/time: 1182729600
+
+> review/summary: "There Is So Much Darkness Now ~ Come For The Miracle"
+
+> review/text: Synopsis: On the daily trek from ...
+
+### Read in the data
+
+- txt raw data was 8.7 GB. 
+- Very slow for R to process directly.
+- Used Python to convert the file to CSV. (see the lib folder)
+- For the purpose of this tutorial, I kept
+  - productId
+  - userId
+  - helpfulness
+  - score
+- Output file: output/moiveiscsv.csv
+
+
+### Parsing the helpfuness votes
+```{r read data}
+movies.raw=read.csv("../output/moviescsv.csv")
+
+movies.raw=movies.raw%>%
+  separate(review_helpfulness, 
+           c("helpful.v", "total.v"), sep = "/", 
+           remove=FALSE)
+  
+movies.raw=movies.raw%>%mutate(review_h=as.numeric(helpful.v)/as.numeric(total.v))
+
+sample_n(movies.raw, 3)
+```
+
+### Compute some user summaries
+```{r user summaries}
+user.table=movies.raw%>%
+                #sample_n(100000)%>%
+                group_by(review_userid)%>%
+                summarize(
+                  user.count=n(),
+                  UReview_ave=mean(review_score, na.rm=T),
+                  UReview_read=mean(as.numeric(total.v), na.rm=T),
+                  UReview_help=mean(review_h, na.rm=T)
+                )
+
+head(user.table, n=3)
+```
+
+### Add user summaries to individual reviews
+
+```{r}
+movies.raw=left_join(movies.raw, user.table, by="review_userid")
+
+sample_n(movies.raw, 3)
+```
+
+### Compute some movie summaries
+```{r product summaries}
+product.table=movies.raw%>%
+                #sample_n(100000)%>%
+                group_by(product_productid)%>%
+                summarize(
+                  prod.count=n(),
+                  PReview_read=sum(as.numeric(total.v)),
+                  PReview_ave=mean(review_score, na.rm=F)
+                )
+
+head(product.table, n=3)
+```
+
+### Add user summaries to individual reviews
+
+```{r}
+movies.raw=left_join(movies.raw, product.table, by="product_productid")
+sample_n(movies.raw, 3)
+```
+
+
+### Summary statistics
+
+```{r prod degree hist}
+hist(product.table$prod.count, main="Number of reviews received by movies",
+     xlab="product degree")
+product.table$product_productid[which.max(product.table$prod.count)]
+```
+
+```{r get prod info}
+library(rvest)
+
+ASIN.inq="B001TK80AW"
+movie1<- html(paste("http://www.amazon.com/exec/obidos/ASIN/",
+                    ASIN.inq, sep=""))
+
+movie1 %>% 
+  html_node("title") %>%
+  html_text()
+```
+
+Compare mean and median
+
+```{r}
+median(product.table$prod.count)
+mean(product.table$prod.count)
+```
+
+```{r hist prod}
+log.hist=hist(product.table$prod.count,
+              breaks=(0):max(product.table$prod.count)+0.5,
+              plot=F)
+plot(log(log.hist$breaks[-1]-0.5)/log(10), log(log.hist$density)/log(10), 
+     #type="h",
+     main="Number of reviews received by movies",
+     xaxt="n", yaxt="n", 
+     xlab="product degree (log)",
+     ylab="density (log)")
+axis(1, at=0:4, labels=format(10^(0:4), scientific = F))
+axis(2, at=-(4:0), labels=format(10^(-(4:0)), scientific = F))
+```
+
+```{r hist user}
+log.hist=hist(user.table$user.count,
+              breaks=(0):max(user.table$user.count)+0.5,
+              plot=F)
+plot(log(log.hist$breaks[-1]-0.5)/log(10), log(log.hist$density)/log(10), 
+     #type="h",
+     main="Number of reviews given by user",
+     xaxt="n", yaxt="n", 
+     xlab="user degree (log)",
+     ylab="density (log)")
+axis(1, at=0:4, labels=format(10^(0:4), scientific = F))
+axis(2, at=-(4:0), labels=format(10^(-(4:0)), scientific = F))
+```
+
+#### Power-law distribution 
+
+- The shape of the histogram of the number of reviews received by movies on the log-scale suggest a possible [scale-free](https://en.wikipedia.org/wiki/Scale-free_network) network. 
+- Possible explanations for scale-free networks include preferential attachment and fitness models.
+
+
+### Which are the best movies?
+First let's look at simple average of reviews
+
+```{r}
+movies.summary=movies.raw%>%
+                  #sample_n(10000)%>%
+                  group_by(product_productid)%>%
+                  summarize(
+                    reviewCt=n(),
+                    reviewAvg=mean(review_score, na.rm=T))
+
+best.movie=movies.summary$product_productid[which.max(movies.summary$reviewAvg)]
+best.movie=as.character(best.movie)
+movies.summary[which.max(movies.summary$reviewAvg),]
+```
+
+```{r simply the best}
+library(rvest)
+
+ASIN.inq=best.movie
+movie.url=paste("http://www.amazon.com/exec/obidos/ASIN/",
+                    ASIN.inq, sep="")
+movie1<- html(movie.url)
+
+browseURL(movie.url, browser = getOption("browser"),
+          encodeIfNeeded = FALSE)
+
+
+movie1.title=movie1 %>% 
+              html_node("title") %>%
+              html_text()
+```
+By simple recommendation, we have [`r movie1.title`](`r movie.url`) as the best movie.
+
+#### Other simple modifications
+We can use a Bayesian approach to adjust for movies with few reviews. 
+
+```{r bayes method}
+movies.summary=movies.raw%>%
+                  #sample_n(10000)%>%
+                  group_by(product_productid)%>%
+                  summarize(
+                    reviewCt=n(),
+                    reviewAvg=mean(review_score, na.rm=T))%>%
+                  mutate(reviewBAvg=(reviewAvg*reviewCt+3*6)/(reviewCt+6))
+
+best.movie=movies.summary$product_productid[which.max(movies.summary$reviewBAvg)]
+best.movie=as.character(best.movie)
+movies.summary[which.max(movies.summary$reviewBAvg),]
+```
+
+```{r bayes best}
+library(rvest)
+
+ASIN.inq=best.movie
+movie.url=paste("http://www.amazon.com/exec/obidos/ASIN/",
+                    ASIN.inq, sep="")
+movie1<- html(movie.url)
+
+browseURL(movie.url, browser = getOption("browser"),
+          encodeIfNeeded = FALSE)
+
+
+movie1.title=movie1 %>% 
+              html_node("title") %>%
+              html_text()
+```
+By Bayesian method recommendation, we have [`r movie1.title`](`r movie.url`) as the best movie.
+
+#### normalized rating
+Another method would be to normalize individual users' review by their overall review levels. 
+
+### Information other than reviews
+```{r}
+plot(hexbin(product.table$prod.count, product.table$PReview_ave),
+     xlab="number of reviews",
+     ylab="average review")
+```
+
+```{r}
+hist(user.table$UReview_ave,
+     main="User review average",
+     xlab="average review")
+```
+
+```{r}
+plot(hexbin(user.table$user.count, user.table$UReview_ave),
+     xlab="number of reviews",
+     ylab="average review")
+```
+
+```{r}
+plot(lowess(user.table$user.count, user.table$UReview_ave), col=2,
+     xlab="number of reviews",
+     ylab="average review")
+```
+
+### Collective filtering
+
+- For each movie, we have a set of reviews. 
+- We can compare a pair of movies using these reviews and the users who wrote these reviews. 
+- For each user, we have a set of movies a user reviewed. 
+- We can compare a pair of users using the movies they like. 
+- A collective filter will be built upon similarity between movies and similarity between users. 
+- For a new user with a few reviews, we can 
+  - identify similar users and recommend movies liked by these users.
+  - or recommend movies similar to the movies already liked by this user.
+  - a combined recommendation (weighted ranking).
+
+
