@@ -1,8 +1,8 @@
 ###GitHub Tutorial
 
 #### Installation:
-* Install Git: http://git-scm.com/downloads (Windows & OS X)
-* Install GitHub Desktop: https://desktop.github.com/
+* Install Git: [http://git-scm.com/downloads] (Windows & OS X)
+* Install GitHub Desktop: [https://desktop.github.com/]
 
 #### Initialization:
 * Create a new empty repository
@@ -47,7 +47,7 @@
 	* Make a commit and push to repository: `git push origin <branchname>`
 	* update local repository to newest commit: `git pull`
 	* Merge another branch into you active branch: `git merge <otherbranchname>`
-* A brief guide: http://rogerdudler.github.io/git-guide/
+* A brief guide: [http://rogerdudler.github.io/git-guide/]
 
 #### Git Glossary
 * **commit**: record your changes to the local repository.
