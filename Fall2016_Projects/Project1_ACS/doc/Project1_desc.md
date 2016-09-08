@@ -30,6 +30,6 @@ For presentation, the team should present the story and results from their R Not
 * R [testthat](https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf) package
 * A brief [guide](http://rogerdudler.github.io/git-guide/) to git.
 * Putting your project on [GitHub](https://guides.github.com/introduction/getting-your-project-on-github/).
-* [Rcharts](http://rcharts.io/gallery/), quick interactive plots
+* [Rcharts](https://ramnathv.github.io/rCharts/), quick interactive plots
 * [htmlwidgets](http://www.htmlwidgets.org/), javascript library adaptation in R. 
 
