@@ -3,14 +3,14 @@
 
 ### Project cycle 1: American community surveys
 #### Week 1 (9/7)
-+ [Introduction to ADS](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-Intro.pdf) and Project 1 description
-+ [Introduction to GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Spring2016/Tutorials/wk2-Tutorial_GitHub-master) (Jingying Zhou)
++ [Introduction to ADS](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-Intro.pdf) and [Project 1](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Fall2016_Projects/Project1_ACS) description
 + [Example project 1](https://github.com/TZstatsADS/Spr2016-Proj1-Grp9-MajorMatters) (Jingying Zhou)
 + Sign-in for Project 1 groups on Classroom GitHub
-+ Tutorial 1: 
++ Tutorial 1: [R Notebook](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project1_ACS/lib/tutorial1.Rmd) with [html output](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project1_ACS/lib/tutorial1.nb.html)
 + More resources are listed in the project description.
 
 #### Week 2 (9/14)
++ [Introduction to GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Spring2016/Tutorials/wk2-Tutorial_GitHub-master) (Jingying Zhou)
 
 ### Project cycle 2
 
