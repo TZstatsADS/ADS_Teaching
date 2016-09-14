@@ -1,7 +1,7 @@
 ###GitHub Tutorial
 
 #### Installation:
-* Install Git: [http://git-scm.com/downloads] (Windows & OS X)
+* Install Git: [http://git-scm.com/downloads] Windows & OS X
 * Install GitHub Desktop: [https://desktop.github.com/]
 
 #### Initialization:
