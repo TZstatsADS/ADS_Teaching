@@ -6,7 +6,7 @@
 + [Introduction to ADS](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-Intro.pdf) and [Project 1](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Fall2016_Projects/Project1_ACS) description
 + [Example project 1](https://github.com/TZstatsADS/Spr2016-Proj1-Grp9-MajorMatters) (Jingying Zhou)
 + Sign-in for Project 1 groups on Classroom GitHub
-+ Tutorial 1: [R Notebook](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project1_ACS/lib/tutorial1.Rmd)([html output](https://rawgit.com/TZstatsADS/ADS_Teaching/master/Fall2016_Projects/Project1_ACS/lib/tutorial1.nb.html)), download data for project 1 into your own data folder and run in Rstudio with downloaded data. You can download [html output](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project1_ACS/lib/tutorial1.nb.html) and view it in a brower. 
++ Tutorial 1: [R Notebook](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project1_ACS/lib/tutorial1.Rmd)([html output](https://rawgit.com/TZstatsADS/ADS_Teaching/master/Fall2016_Projects/Project1_ACS/lib/tutorial1.nb.html)), download data for project 1 into your own data folder and run in Rstudio with downloaded data. You can view [html output](http://rawgit.com/TZstatsADS/ADS_Teaching/master/Fall2016_Projects/Project1_ACS/lib/tutorial1.nb.html), enabled by [rawgit](https://rawgit.com/). 
 + More resources are listed in the project description.
 
 #### Week 2 (9/14)
