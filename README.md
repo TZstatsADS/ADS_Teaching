@@ -12,9 +12,11 @@
 #### Week 2 (9/14)
 + [Introduction to GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Spring2016/Tutorials/wk2-Tutorial_GitHub-master) (Jingying Zhou)
 
-### Project cycle 2
-
+### Project cycle 2: shiny app development for New York City open data
 #### Week 3
++ [Example project 2](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html)
++ [Intro to project 2]
++ Project description 
 
 #### Week 4
 
