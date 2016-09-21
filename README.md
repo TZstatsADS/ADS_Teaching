@@ -15,8 +15,8 @@
 ### Project cycle 2: shiny app development for New York City open data
 #### Week 3
 + [Example project 2](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html)
-+ [Intro to project 2]
-+ Project description 
++ [Intro to project 2](Tutorials/project2_intro.pptx)
++ [Project 2 description](Tutorials/project2_desc.md)
 
 #### Week 4
 
