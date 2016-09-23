@@ -21,8 +21,13 @@
 + Teams and github joining links will be posted on Thursday 9/22.
 
 #### Week 4 (9/29)
++ Tutorial on shiny apps
++ Tutorial on setting up your own shiny server
++ Showcase: 311 complaints
 
 #### Week 5 (10/5)
++ Discussion of Spring 2016 shiny apps
++ Tutorial on presentation
 
 ### Project cycle 3
 
