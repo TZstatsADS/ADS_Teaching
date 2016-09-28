@@ -21,9 +21,9 @@
 + Teams and github joining links will be posted on Thursday 9/22.
 
 #### Week 4 (9/29)
-+ Tutorial on shiny apps
-+ Tutorial on setting up your own shiny server
-+ Showcase: 311 complaints
++ [Tutorial on shiny apps](https://yuhansun.shinyapps.io/Shiny_in_a_NutShell/)
++ [Tutorial on setting up your own shiny server](http://54.88.208.114:3838/Shiny_in_a_NutShell/)
++ [Showcase: 311 complaints](https://yuhansun.shinyapps.io/group3/)
 
 #### Week 5 (10/5)
 + Discussion of Spring 2016 shiny apps
