@@ -54,3 +54,4 @@ Tools
 - [Street address to coordinates](http://www.inside-r.org/packages/cran/RDSTK/docs/street2coordinates)
 - [postGIS](http://rpubs.com/dgolicher/6373) process and visualize spatial data
 - [Geo Visualization using ggplot and ggmap](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf)
+- [Build your own Shiny server on AWS](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/), [[Amazon Machine Image](http://www.louisaslett.com/RStudio_AMI/)]
