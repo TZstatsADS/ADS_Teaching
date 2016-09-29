@@ -1270,7 +1270,8 @@ For more reference, please see [customize](http://shiny.rstudio.com/articles/css
 [Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/01/shiny-cheatsheet.pdf)
 
 [Shiny Server Professional v1.4.6 Administrator's Guide](http://docs.rstudio.com/shiny-server/)
-https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/
+
+[Installing rstudio shiny server on aws](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/)
 
 [Debug](http://shiny.rstudio.com/articles/debugging.html)
 
