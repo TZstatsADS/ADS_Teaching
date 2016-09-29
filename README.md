@@ -24,6 +24,7 @@
 + [Tutorial on shiny apps](https://yuhansun.shinyapps.io/Shiny_in_a_NutShell/)
 + [Tutorial on setting up your own shiny server](http://54.88.208.114:3838/Shiny_in_a_NutShell/)
 + [Showcase: 311 complaints](https://yuhansun.shinyapps.io/group3/)
++ [Amazon Machine Image for Rstudio server, with shiny server](http://www.louisaslett.com/RStudio_AMI/)
 
 #### Week 5 (10/5)
 + Discussion of Spring 2016 shiny apps
