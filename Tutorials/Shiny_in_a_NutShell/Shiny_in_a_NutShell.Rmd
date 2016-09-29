@@ -1,0 +1,1282 @@
+---
+title: "Shiny in a Nutshell"
+author: "Yuhan Sun"
+output: 
+  html_document:
+    toc: true
+    css: bootstrap.css
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+    
+> A web application framework for R. Turn your analyses into interactive web applications
+
+
+To learn more, see [website](http://shiny.rstudio.com/).  
+More examples, see [gallery](http://shiny.rstudio.com/gallery/)
+
+
+    
+# 1 Installation
+***
+</br>
+
+```{r,eval=FALSE}
+install.packages("shiny")
+library(shiny)
+```
+
+</br>
+</br>
+
+# 2 To Start with
+*** 
+
+</br>
+
+Shiny apps have two basic components:
+
+* a user-interface script (ui.R)
+
+* a server script (server.R)
+
+</br>
+
+## 2.1 Create an app
+***
+
+### Step 1: Store ui.R and server.R in the same folder.
+
+```{r,echo=FALSE}
+fluidPage(
+  tabsetPanel(
+    tabPanel('server.R',
+             code('library(shiny)
+shinyServer(function(input, output) {
+  output$plot=renderPlot({
+    hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+         xlab = "Duration (minutes)", main = "Geyser eruption duration")
+    
+    dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+    lines(dens, col = "blue")
+  })
+})')),
+    tabPanel('ui.R',
+             code('
+shinyUI(
+fluidPage(
+  sidebarPanel(
+    selectInput("n_breaks", label = "Number of bins:",
+                choices = c(10, 20, 35, 50), selected = 20),
+    
+    sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+                min = 0.2, max = 2, value = 1, step = 0.2)
+  ),
+  mainPanel(
+    plotOutput("plot")
+  )
+))
+                                    '))
+  )
+)
+
+
+
+
+```
+</br>
+</br>
+
+### Step 2:
+  
+__Option 1__
+```{r,eval=FALSE}
+runApp(getwd()) # the working directory where you stored the two files
+```
+
+
+__Option 2__
+    
+Press the 'run App' bottom
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="http://shiny.rstudio.com/tutorial/lesson1/images/launch-options.png" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+
+### Step 3: Publish
+  
+
+__Option 1__
+    
+Create an accoount in [website](http://shiny.rstudio.com/). Get the name, token and secret information. Then deploy the App
+```{r,eval=FALSE}
+library(rsconnect)
+rsconnect::setAccountInfo(name='abc',
+                          token='def',
+                          secret='ghi')
+deployApp(account='dss')
+```
+
+
+__Option 2__
+    
+
+
+Press the 'publish' bottom and a window would pop up. Follow the instruction and deploy the app.
+
+</br>
+</br>
+
+## 2.2 Create a html file or a presentation
+***
+
+### Step 1:
+
+Create a new markdown file
+
+
+### Step 2:
+Choose the 'shiny' option and follow the templete.
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="http://rmarkdown.rstudio.com/images/new-shiny-document.png" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+
+##2.3 A Simple Example
+***
+
+```{r,echo=FALSE}
+# ui.R
+inputPanel(
+  selectInput("n_breaks", label = "Number of bins:",
+              choices = c(10, 20, 35, 50), selected = 20),
+  
+  sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+              min = 0.2, max = 2, value = 1, step = 0.2)
+)
+
+#server.R
+renderPlot({
+  hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+       xlab = "Duration (minutes)", main = "Geyser eruption duration")
+  
+  dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+  lines(dens, col = "blue")
+})
+
+```
+</br>
+</br>
+
+##2.4 Detailed Codes
+***
+
+```{r,eval=FALSE}
+# ui.R
+shinyUI(
+fluidPage(
+  sidebarPanel(
+    selectInput("n_breaks", label = "Number of bins:",
+                choices = c(10, 20, 35, 50), selected = 20),
+    
+    sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+                min = 0.2, max = 2, value = 1, step = 0.2)
+  ),
+  mainPanel(
+    plotOutput('plot')
+  )
+))
+  
+#server.R
+library(shiny)
+shinyServer(function(input, output) {
+  output$plot=renderPlot({
+    hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+         xlab = "Duration (minutes)", main = "Geyser eruption duration")
+    
+    dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+    lines(dens, col = "blue")
+  })
+})
+
+```
+</br>
+</br>
+
+
+## 2.5 Conditional Panel and Error Message
+***
+
+```{r,echo=FALSE}
+fluidPage(
+  sidebarPanel(
+     radioButtons("chooseAction", strong("Choose action:"),
+                 choices = c("select" = "select",
+                             "input"="input"),inline=F),
+conditionalPanel( condition= "input.chooseAction == 'input'",   
+  numericInput("n_breaks2", label = h3("Number of bins:"), value = 10)),
+conditionalPanel( condition= "input.chooseAction == 'select'",   
+  selectInput("n_breaks3", label = "Number of bins:",
+                choices = c(10, 20, 35, 50), selected = 20)),
+
+  sliderInput("bw_adjust2", label = "Bandwidth adjustment:",
+              min = 0.2, max = 2, value = 1, step = 0.2)
+  ),
+  mainPanel(
+    conditionalPanel(condition='input.n_breaks2<40',
+   plotOutput('hist')),
+   conditionalPanel(condition='input.n_breaks2>40',
+    br()               
+                 
+                    )
+  )
+)
+
+
+output$hist=renderPlot({
+  
+  if (input$chooseAction == 'input'){n_breaks=as.numeric(input$n_breaks2)} 
+  else{n_breaks=as.numeric(input$n_breaks3)} 
+  if(n_breaks>40) {return(NULL)}
+  hist(faithful$eruptions, probability = TRUE, breaks = n_breaks,
+       xlab = "Duration (minutes)", main = "Geyser eruption duration")
+  
+  dens <- density(faithful$eruptions, adjust = input$bw_adjust2)
+  lines(dens, col = "blue")})
+
+output$Error=renderText(print('Error Message'))
+```
+</br>
+
+
+#3 Basics
+***
+
+##3.1 UI: User-Interface
+</br>
+
+### 3.1.1 Fluid Page
+***
+
+```{r,echo=FALSE}
+# ui.R
+
+shinyUI(fluidPage(
+  titlePanel("Title Panel"),
+  sidebarLayout(
+    sidebarPanel(
+      h2("Sidebar Panel"),
+      br(),
+      p("This is the sidebal panel where we usually have our control panel"),
+      code('selectInput("var", 
+label = "Choose a variable",
+choices = c("White",
+"Blue", "Red")'),
+      selectInput("var", 
+        label = "Choose a variable to display",
+        choices = c("White",
+          "Blue", "Red"))
+      
+    ),
+    mainPanel(
+      tabsetPanel(
+        tabPanel('Tab 1',
+                 h1("Main Panel"),
+                 h2('with tabset Panel'),
+                 br(),
+                 p('We can put plots'),
+                 code('plotOutput("plot")'),
+                 br(),
+                 p('put text'),
+                 code('verbatimTextOutput("summary")'),
+                 br(),
+                 p('put table'),
+                 code('tableOutput("table")'),
+                 br(),
+                 p('html'),
+                 code('htmlOutput')),
+        tabPanel('Tab 2',
+                 p('')
+                 # ,
+                 # includeHTML('Income.html')
+                 )
+      )
+    )
+  )
+))
+
+
+```
+
+
+</br>
+</br>
+
+### 3.1.2 Navigation Page
+***
+
+```{r,echo=FALSE,message=FALSE}
+library(networkD3)
+library(d3heatmap)
+shinyUI(navbarPage("App Title",
+  tabPanel("Page 1",
+           fluidPage(
+             sidebarPanel(
+               h1('side Bar'),
+               br(),
+               h4('Shiny in a NutShell')
+             ),
+             mainPanel(
+               fluidPage(
+               h1('Main Panel'),
+               d3heatmapOutput('heatmap'))
+             )
+           )),
+  tabPanel("Page 2",
+           forceNetworkOutput('force')),
+  navbarMenu("More",
+    tabPanel("Summary"),
+    tabPanel("Table")
+  )
+))
+
+library(networkD3)
+data(MisLinks, MisNodes)
+
+
+output$force=renderForceNetwork({
+  net=forceNetwork(Links = MisLinks, Nodes = MisNodes, Source = "source",
+             Target = "target", Value = "value", NodeID = "name",
+             Group = "group", opacity = 0.4)
+})
+
+output$heatmap=renderD3heatmap(
+  d3heatmap(mtcars, scale="column", colors="Blues")
+)
+
+```
+</br>
+</br>
+
+
+##3.2  Widgets
+***
+
+To add a widget to your app, place a widget function in sidebarPanel or mainPanel in your ui.R file.
+
+Each widget function requires several arguments. The first two arguments for each widget are
+
+* A __Name for the widget__. The user will not see this name, but you can use it to access the widget’s value. The name should be a character string.
+
+* A __label__. This label will appear with the widget in your app. It should be a character string, but it can be an empty string "".
+</br>
+</br>
+
+### 3.2.1 Action bottom
+***
+
+```{r,echo=FALSE}
+# ui
+fluidPage(
+ sidebarPanel(
+    h3("Action button"),
+    actionButton("action", label = "Action"),
+    hr(),
+    p("Current Value:", style = "color:#888888;"), 
+    verbatimTextOutput("action")
+  ),
+ mainPanel(
+   tabsetPanel(type = "tabs", 
+        tabPanel("server.R", 
+                 code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$action=renderPrint({ input$action })
+
+})')
+                 ), 
+        tabPanel("ui.R", 
+                 code('shinyUI(
+
+fluidPage(
+  wellPanel(
+    h3("Action button"),
+    actionButton("action", label = "Action"),
+    hr(),
+    p("Current Value:", style = "color:#888888;"),
+    verbatimTextOutput("action")
+    )
+  )
+)')
+                 ))
+ )
+)
+
+#server
+output$action=renderPrint({ input$action })
+
+
+
+```
+</br>
+</br>
+
+###3.2.2 Single checkbox
+***
+
+```{r,echo=FALSE}
+
+fluidPage(
+  sidebarPanel(
+        h3("Single checkbox"),
+        checkboxInput("checkbox", label = "Choice A", 
+                      value = TRUE),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("checkbox")
+      ),
+  mainPanel(
+    tabsetPanel(
+      tabPanel('server.R',
+              code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$checkbox <- renderPrint({ input$checkbox })
+
+})')),
+      tabPanel('ui.R',
+               code('shinyUI(
+
+fluidPage(
+  wellPanel(
+        h3("Single checkbox"),
+        
+        checkboxInput("checkbox", label = "Choice A", 
+                      value = TRUE),
+        hr(),
+       
+        verbatimTextOutput("checkbox"),
+       
+      )
+  )
+)')
+               )
+    )
+  )
+)
+
+output$checkbox <- renderPrint({ input$checkbox })
+```
+</br>
+</br>
+
+
+
+
+###3.2.3 Select box
+***
+
+```{r,echo=FALSE}
+fluidPage(
+  sidebarPanel(
+        selectInput("select", label = h3("Select box"), 
+        choices = list("Choice 1" = 1, "Choice 2" = 2,
+                       "Choice 3" = 3), selected = 1),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("select")
+      ),
+  mainPanel(
+    tabsetPanel(
+      tabPanel('server.R',
+               code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$select <- renderPrint({ input$select })
+
+})')
+               ),
+      tabPanel('ui.R',
+               code('shinyUI(
+
+fluidPage(
+ wellPanel(
+        selectInput("select", label = h3("Select box"), 
+        p("Current Value:", style = "color:#888888;"),
+        choices = list("Choice 1" = 1, "Choice 2" = 2,
+                       "Choice 3" = 3), selected = 1),
+        hr(),
+       
+        verbatimTextOutput("select")
+        
+      )
+  )
+)')
+               )
+    )
+  )
+)
+
+
+output$select <- renderPrint({ input$select })
+```
+</br>
+</br>
+
+
+###3.2.4 File input
+***
+
+```{r,echo=FALSE}
+
+fluidPage(
+  sidebarPanel(
+        fileInput("file", label = h3("File input")),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("file")
+      ),
+  mainPanel(
+    tabsetPanel(
+      tabPanel('server.R',
+               code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$select <- renderPrint({ input$select })
+
+})')
+               ),
+      tabPanel('ui.R',
+               code('shinyUI(
+
+fluidPage(
+ wellPanel(
+        fileInput("file", label = h3("File input")),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("file")
+      )
+  )
+)')
+               )
+    )
+  )
+)
+
+output$file <- renderPrint({ input$file })
+```
+
+</br>
+</br>
+
+###3.2.5 Slider
+***
+```{r,echo=FALSE}
+
+fluidPage(
+  sidebarPanel(
+        sliderInput("slider1", label = h3("Slider"), min = 0, max = 100, 
+                    value = 50),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("slider1")),
+  mainPanel(
+    tabsetPanel(
+      tabPanel('server.R',
+                code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$slider1 <- renderPrint({ input$slider1 })
+
+})')
+               ),
+      tabPanel('ui.R',
+               code('shinyUI(
+
+fluidPage(
+wellPanel(
+        sliderInput("slider1", label = h3("Slider"), min = 0, max = 100, 
+                    value = 50),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("slider1")
+      )
+  )
+)')
+               )
+    )
+  )
+      )
+output$slider1 <- renderPrint({ input$slider1 })
+
+```
+</br>
+</br>
+
+
+
+##3.3 Display reactive output
+***
+
+```{r,echo=FALSE,message=FALSE}
+library(googleVis)
+library(shiny)
+load('EQI_state.RData')
+
+myType <- reactive({
+    input$Type
+  })
+  output$gvis <- renderGvis({
+    myData=EQI_state
+    gvisGeoChart(myData,
+                 locationvar="state", colorvar=as.character(myType()),
+                 options=list(region="US", displayMode="regions", 
+                              resolution="provinces",
+                              width=500, height=400,
+                              colorAxis="{colors:['#FFFFFF', '#0000FF']}"
+                 ))     
+  })
+
+shinyUI(pageWithSidebar(
+  headerPanel("EQI"),
+  sidebarPanel(
+    selectInput("Type", label = "Types",
+                choices = c('Air','Water','Land','Sociod','Built','EQI'), selected = 'EQI')
+  ),
+  mainPanel(
+    h3(textOutput("year")), 
+    htmlOutput("gvis")
+  )
+)
+)
+```
+</br>
+</br>
+
+
+
+##3.4 Display Data table
+***
+```{r,echo=FALSE}
+# ui
+library(shiny)
+library(ggplot2)  # for the diamonds dataset
+
+fluidPage(
+  title = 'Examples of DataTables',
+  sidebarLayout(
+    sidebarPanel(
+      conditionalPanel(
+        'input.dataset === "diamonds"',
+        checkboxGroupInput('show_vars', 'Columns in diamonds to show:',
+                           names(diamonds), selected = names(diamonds))
+      ),
+      conditionalPanel(
+        'input.dataset === "mtcars"',
+        helpText('Click the column header to sort a column.')
+      ),
+      conditionalPanel(
+        'input.dataset === "iris"',
+        helpText('Display 5 records by default.')
+      )
+    ),
+    mainPanel(
+      tabsetPanel(
+        id = 'dataset',
+        tabPanel('diamonds', DT::dataTableOutput('mytable1')),
+        tabPanel('mtcars', DT::dataTableOutput('mytable2')),
+        tabPanel('iris', DT::dataTableOutput('mytable3'))
+      )
+    )
+  )
+)
+
+# server
+
+
+
+  # choose columns to display
+  diamonds2 = diamonds[sample(nrow(diamonds), 1000), ]
+  output$mytable1 <- DT::renderDataTable({
+    DT::datatable(diamonds2[, input$show_vars, drop = FALSE])
+  })
+
+  # sorted columns are colored now because CSS are attached to them
+  output$mytable2 <- DT::renderDataTable({
+    DT::datatable(mtcars, options = list(orderClasses = TRUE))
+  })
+
+  # customize the length drop-down menu; display 5 rows per page by default
+  output$mytable3 <- DT::renderDataTable({
+    DT::datatable(iris, options = list(lengthMenu = c(5, 30, 50), pageLength = 5))
+  })
+
+
+```
+</br>
+</br>
+
+
+##3.5 Plots
+***
+  
+#### Also works well with __ggplot__ ,  __plot_ly__,  and __GoogleVis__
+  
+```{r,echo=FALSE}
+# ui
+pageWithSidebar(
+  headerPanel('Iris k-means clustering'),
+  sidebarPanel(
+    selectInput('xcol', 'X Variable', names(iris)),
+    selectInput('ycol', 'Y Variable', names(iris),
+                selected=names(iris)[[2]]),
+    numericInput('clusters', 'Cluster count', 3,
+                 min = 1, max = 9)
+  ),
+  mainPanel(
+    plotOutput('plot1')
+  )
+)
+
+#server
+
+
+  # Combine the selected variables into a new data frame
+  selectedData <- reactive({
+    iris[, c(input$xcol, input$ycol)]
+  })
+
+  clusters <- reactive({
+    kmeans(selectedData(), input$clusters)
+  })
+
+  output$plot1 <- renderPlot({
+    palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
+      "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999"))
+
+    par(mar = c(5.1, 4.1, 0, 1))
+    plot(selectedData(),
+         col = clusters()$cluster,
+         pch = 20, cex = 3)
+    points(clusters()$centers, pch = 4, cex = 4, lwd = 4)
+  })
+
+
+```
+</br>
+</br>
+
+
+#4 Advanced
+***
+
+##4.1 leaflet Package
+</br>
+
+[leaflet](http://rstudio.github.io/leaflet/)
+
+> Leaflet is one of the most popular open-source JavaScript libraries for interactive maps. 
+
+</br>
+
+#### Sample
+
+__Please Click__: [sample](https://yuhansun.shinyapps.io/group3/)
+
+</br>
+
+#### Compose maps using arbitrary combinations of:
+
+*  Map tiles
+    *  Default (OpenStreetMap)
+    *  Third_party 
+*  Markers
+*  Polygons
+*  Lines
+*  Popups
+*  GeoJSON
+</br>
+</br>
+</br>
+
+#### Simple example
+```{r,message=FALSE}
+library(leaflet)
+
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=-73.961468, lat=40.810308, popup="Applied Data Science")
+m 
+
+
+
+```
+</br>
+</br>
+
+#4 Deploy
+***
+
+##4.1 Deploy on RStudio
+
+__Please refer to 2.1 Step 3__
+
+
+</br>
+</br>
+
+
+
+### Tunning the model
+***
+
+click [here](https://www.shinyapps.io/) to login to your shiny account.  
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny6.jpeg?raw=true" float = "center" ALT="image" width="600">
+  </span>
+</div>
+
+__Pay attention to the usage__ (only 25 active hours/month)
+  
+go to setting to customize:
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny7.jpeg?raw=true" float = "center" ALT="image" width="600">
+  </span>
+</div>
+  
+The __log__ is usefull for debugging:
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny8.jpeg?raw=true" float = "center" ALT="image" width="600">
+  </span>
+</div>
+
+</br>
+</br>
+
+##4.2 Deploy on the server
+***
+
+__Please note that, this tutorial is for Mac and is subject to change__
+
+
+### DigitalOcean
+***
+
+__You can skip step 1 to Step 3 if you already have your own ubuntu server__
+
+
+__Useful Reference:__
+
+[Deploying Your Very Own Shiny Server](https://www.r-bloggers.com/deploying-your-very-own-shiny-server/.)
+  
+[How to get your very own RStudio Server and Shiny Server with DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-shiny-server-on-ubuntu-14-04)
+  
+[Setup rstudio shiny server digitalOcean](http://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/)
+
+</br>
+</br>
+
+#### Step 1: Create an account in DigitalOcean
+***
+   
+Go to DigitalOcean from this reference link: [click me](https://m.do.co/c/de267b091a33) and get 2 month free trail. (You need to provide debit/credit card information to verify your account and you will see $10 credit in your billing page). __Don't forget to deactivate the account if you no longer want to use it !__  
+</br>
+</br>
+
+#### Step 2: Create a new droplet 
+***  
+Create a new droplet. You might find this useful: [click me!](https://www.digitalocean.com/community/tutorials/how-to-create-your-first-digitalocean-droplet-virtual-server)
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC='https://assets.digitalocean.com/site/ControlPanel/cp_create_distro.png' float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+Choose an image: __Ubuntu__
+  
+Choose a size: __$5 month__
+
+Choose a datacenter region: __New York__
+
+Add your SSH keys (Optional but __Recommend__): If you don't have any experience with SSH before, it could be a little bit tricky but it is highly recommended to have one to keep your sever safe.  
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny9.jpeg?raw=true" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny10.jpeg?raw=true" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+Click 'Create', then you have one !
+</br>
+</br>
+
+
+#### Step3: Login in to your server
+***
+
+Once you have your droplet, you will be direct to a page about the information of your droplet. You will see the IP address on this page. In this toturial, I will use a random IP address: 45.55.73.172 as an example. __Please replace it with your own IP address !__  
+
+Open your terminal and type : ```ssh 45.55.73.172``` , then you will see warning like this:
+  
+```
+The authenticity of host '45.55.73.172 (45.55.73.172)' can't be established.
+ECDSA key fingerprint is
+79:95:46:1a:ab:37:11:8e:86:54:36:38:bb:3c:fa:c0.
+Are you sure you want to continue connecting (yes/no)?
+```  
+Type 'yes'. If you happened to destroy a droplet directly prior to creating the one that you are connecting to, you may see a warning like this:
+```
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+...
+```
+If this is the case, your new droplet probably has the same IP address as the old, destroyed droplet, but a different host SSH key. This is fine, and you can remove the warning, by deleting the old droplet's host key from your system, by running this command: ```ssh-keygen -R 45.55.73.172```.
+
+
+A useful reference: [Click me](https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh)
+</br>
+</br>
+
+
+#### Step 4: Connect Droplet with SSH:
+***
+
+The password that is used to authenticate the user that you are logging in as. If you added a public SSH key to your droplet when you created it, you must have the private SSH key of the key pair (and passphrase, if it has one). If you did not add an SSH key to your Droplet when you created it, you should have received an email from DigitalOcean with the aforementioned connection information and credentials. The emailed password is temporary, and must be changed after the first login.
+
+</br>
+</br>
+
+#### Step 5 Add a new user
+***
+
+In order to ensure that we will not shoot ourselves in the root, we need to add a new user. In this case, I named a new user 'ads'.  
+```
+adduser ads
+gpasswd -a ads sudo
+su - ads
+```
+
+Then you can login to your sever with 'lanmo' account in the future typing ```ssh ads@45.55.73.172``` in the terminal.
+</br>
+</br>
+
+#### Step 6 Install nginx
+***
+
+```
+sudo apt-get update
+sudo apt-get -y install nginx
+```
+
+Then go to http://45.55.73.172. If you see a welcome page, it means you successfully completed the above procedures.
+</br>
+</br>
+
+#### Step 7 Install R
+***
+
+To ensure we get the most recent version of R, we need to first add __trusty__ to our sources.list
+
+```
+sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list'
+```
+  
+Add the public keys:
+```
+gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+gpg -a --export E084DAB9 | sudo apt-key add -
+```
+  
+Install R
+```
+sudo apt-get update
+sudo apt-get -y install r-base
+```
+
+Then type ```R```, if you can see the welcome message from R it means you are able to run R. Then type ```quit()``` to quit R.
+
+Since we are all familar with R, one must-have package should be 'devtools'. But before we get 'devtools' installed, we need to install some dependencies first.
+```
+sudo apt-get -y install libcurl4-gnutls-dev
+sudo apt-get -y install libxml2-dev
+sudo apt-get -y install libssl-dev
+```
+
+Then we can install R packages from the following command:
+```
+sudo su - -c "R -e \"install.packages('devtools', repos='http://cran.rstudio.com/')\""
+sudo su - -c "R -e \"install.packages('shiny', repos='http://cran.rstudio.com/')\""
+```
+</br>
+</br>
+
+#### Step 8 Install RStudio Server
+***
+
+Please refer to this page [click me](https://www.rstudio.com/products/rstudio/download-server/) to have the latest version.
+  
+```
+sudo apt-get -y install libapparmor1 gdebi-core
+wget https://download2.rstudio.org/rstudio-server-0.99.903-amd64.deb
+sudo gdebi rstudio-server-0.99.903-amd64.deb
+
+```
+
+By default, RStudio uses port 8787, so to access RStudio go to http://45.55.73.172:8787/.  Hopefully you can see this page:
+
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny11.png?raw=true" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+
+
+</br>
+</br>
+
+#### Step 9 Install Shiny Server
+***
+
+First we need to install the Shiny pakage
+```
+sudo su - -c "R -e \"install.packages('shiny', repos='http://cran.rstudio.com/')\""
+```
+
+Just like the installation of Rstudio, we need to get the latest version of Shiny from here: [click me](https://www.rstudio.com/products/shiny/download-server/)
+
+```
+wget https://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.4.6.809-amd64.deb
+sudo gdebi shiny-server-1.4.6.809-amd64.deb
+```
+
+Then go to http://45.55.73.172:3838/. Hopefully you can see the default welcome page of Shiny, just like this:
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny12.png?raw=true" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+Please read carefully through the whole page.
+</br>
+
+__Further reading__: [Set up proper user permissions on Shiny Server](http://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/)
+</br>
+</br>
+
+#### Step 10 Deploy the Shiny App on server
+***
+
+All the shiny files are store in /srv/shiny-server. So we just need to copy the whole Shiny App file under this path and access http://ip:3838/your shiny app, then we can see the APP. A sample case is: http://45.55.73.172:3838/sample-apps
+
+From the terminal (not the ubuntu one, open a new window) we can use 
+```
+scp -r [local path of shiny app folder] ads@45.55.73.172:/srv/shiny-server
+```
+</br>
+</br>
+
+
+
+
+### AWS
+***
+
+Reference: [Setting up an AWS instance for R, RStudio, OpenCPU, or Shiny Server](http://ipub.com/aws)
+</br>
+</br>
+
+####Step 1: Create AWS EC2 Ubuntu instance
+***
+Go to AWS [website](https://aws.amazon.com/) to create an account.
+
+Within the AWS management console, go to EC2 and create a new Ubuntu instance:
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="http://cf.ipub.com/wp-content/uploads/2015/11/img_564dd51dc8ddf.png" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+In the next step, choose the free trial.
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny13.png?raw=true" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+Click Select on the latest Ubuntu Server, and then click Review and Launch. 
+
+Next, the wizard will ask you about the key pair. The AWS key pair is needed to ssh into your Ubuntu instance, and we’ll use it later to connect to our AWS instance and install R. If you have created an EC2 instance before, you can re-use its keys. Otherwise, create and download a new key pair:
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="http://cf.ipub.com/wp-content/uploads/2015/11/img_564df1123087b.png" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+Then launch the instance.
+</br>
+</br>
+
+#### Step 2: Connect to the Server
+***
+
+In the EC2 instances dashboard, you will find your new instance. Select the instance and click 'connect'. You can see the Public DNS and the Public IP from the description of the instance.
+
+Open the terminal and type: (ubuntu@public DNS)
+```
+ssh -i "[path to your key pair]" ubuntu@ec2-**-**-***-***.compute-1.amazonaws.com
+```
+
+Then you get connected with your sever.
+</br>
+</br>
+
+#### Step 3: 
+***
+Please refer to Step 7 to Step 10. The same procedure.  
+</br>
+</br>
+
+Copy the file 
+```
+scp -r -i [path to your key] "[local shiny app]"  ubuntu@ec2-**-**-***-***.compute-1.amazonaws.com:/srv/shiny-server
+```
+
+</br>
+</br>
+
+
+### Useful reference
+
+[Installing rstudio shiny server on aws](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/)
+
+[deploying shiny server on amazon some troubleshoots and solutions](https://www.r-bloggers.com/deploying-shiny-server-on-amazon-some-troubleshoots-and-solutions/)
+
+</br>
+</br>
+
+
+#5 More
+***
+
+Function Reference: [reference](http://shiny.rstudio.com/reference/shiny/latest/)
+
+##Add css
+***
+
+We can also add css to our shiny app to control how you want your Shiny app to look.
+  
+For more reference, please see [customize](http://shiny.rstudio.com/articles/css.html)
+
+</br>
+</br>
+
+##Small things
+***
+
+### Progress indicator
+> If your Shiny app contains computations that take a long time to complete, a progress bar can improve the user experience by communicating how far along the computation is, and how much is left. 
+
+[Reference](http://shiny.rstudio.com/articles/progress.html)
+</br>
+</br>
+
+### Downloadable reports
+[Reference](http://shiny.rstudio.com/articles/generating-reports.html)
+
+[Reference](http://shiny.rstudio.com/gallery/download-knitr-reports.html)
+</br>
+</br>
+
+### Dashboard
+[Reference](http://rstudio.github.io/shinydashboard/)
+</br>
+</br>
+
+### Error Message
+[Reference](http://shiny.rstudio.com/articles/validation.html)
+</br>
+</br>
+
+### Isolate
+[Reference](http://shiny.rstudio.com/gallery/isolate-demo.html)
+</br>
+</br>
+
+### Send Message
+[Reference](http://shiny.rstudio.com/gallery/server-to-client-custom-messages.html)
+</br>
+</br>
+
+### Shiny chat
+[Reference](http://shiny.rstudio.com/gallery/chat-room.html)
+</br>
+</br>
+
+### Modal dialogs
+[Reference](http://shiny.rstudio.com/articles/modal-dialogs.html)
+</br>
+</br>
+
+### Large Database
+[Reference](http://shiny.rstudio.com/articles/overview.html)
+</br>
+</br>
+
+
+### DT
+[Reference](http://rstudio.github.io/DT/)
+
+## More things need to be explored...
+</br>
+</br>
+
+
+# Other Resources:  
+[Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/01/shiny-cheatsheet.pdf)
+
+[Shiny Server Professional v1.4.6 Administrator's Guide](http://docs.rstudio.com/shiny-server/)
+
+[Installing rstudio shiny server on aws](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/)
+
+[Debug](http://shiny.rstudio.com/articles/debugging.html)
+
+```{r}
+
+
+```
+
