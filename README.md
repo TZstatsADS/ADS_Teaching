@@ -28,7 +28,7 @@
 
 #### Week 5 (10/5)
 + Discussion of Spring 2016 shiny apps
-+ Tutorial on presentation
++ [Tutorial on presentation](Tutorials/MakingPresentation.pdf)
 
 ### Project cycle 3
 
