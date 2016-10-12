@@ -27,12 +27,14 @@
 + [Amazon Machine Image for Rstudio server, with shiny server](http://www.louisaslett.com/RStudio_AMI/)
 
 #### Week 5 (10/5)
-+ Discussion of Spring 2016 shiny apps
++ [Discussion of Spring 2016 shiny apps](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html)
 + [Tutorial on presentation](Tutorials/MakingPresentation.pdf)
 
 ### Project cycle 3
 
 #### Week 6 (10/12)
++ [Project 3 description](Fall2016_Projects/Project3_PoodleKFC/doc/project3_desc.md)
++ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html)
 
 #### Week 7 (10/19)
 
