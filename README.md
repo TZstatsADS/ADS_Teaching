@@ -38,8 +38,12 @@
 + [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html) (Yuting Ma)
 
 #### Week 7 (10/19)
++ Overview of predictive modeling
++ Image analysis (Ruixiong Shi)
++ Gradient boosting (Chengliang Tang)
 
 #### Week 8 (10/26) 
++ Model evaluation and validation
 
 ### Project cycle 4
 
