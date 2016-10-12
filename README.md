@@ -11,6 +11,7 @@
 
 #### Week 2 (9/14)
 + [Introduction to GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Spring2016/Tutorials/wk2-Tutorial_GitHub-master) (Jingying Zhou)
++ [Discussion of Spring 2016 ACS project](http://tzstatsads.github.io//2016/08/31/Spr2016Project1-summary.html) (Chengliang Tang)
 
 ### Project cycle 2: shiny app development for New York City open data
 #### Week 3 (9/22)
@@ -21,20 +22,20 @@
 + Teams and github joining links will be posted on Thursday 9/22.
 
 #### Week 4 (9/29)
-+ [Tutorial on shiny apps](https://yuhansun.shinyapps.io/Shiny_in_a_NutShell/)
-+ [Tutorial on setting up your own shiny server](http://54.88.208.114:3838/Shiny_in_a_NutShell/)
++ [Tutorial on shiny apps](https://yuhansun.shinyapps.io/Shiny_in_a_NutShell/) (Yuhan Sun)
++ [Tutorial on setting up your own shiny server](http://54.88.208.114:3838/Shiny_in_a_NutShell/) (Yuhan Sun)
 + [Showcase: 311 complaints](https://yuhansun.shinyapps.io/group3/)
 + [Amazon Machine Image for Rstudio server, with shiny server](http://www.louisaslett.com/RStudio_AMI/)
 
 #### Week 5 (10/5)
-+ [Discussion of Spring 2016 shiny apps](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html)
++ [Discussion of Spring 2016 shiny apps](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html) (Chengliang Tang)
 + [Tutorial on presentation](Tutorials/MakingPresentation.pdf)
 
 ### Project cycle 3
 
 #### Week 6 (10/12)
 + [Project 3 description](Fall2016_Projects/Project3_PoodleKFC/doc/project3_desc.md)
-+ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html)
++ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html) (Yuting Ma)
 
 #### Week 7 (10/19)
 
