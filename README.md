@@ -31,7 +31,7 @@
 + [Discussion of Spring 2016 shiny apps](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html) (Chengliang Tang)
 + [Tutorial on presentation](Tutorials/MakingPresentation.pdf)
 
-### Project cycle 3: predictive modeling for images of poodles vs. fried chicken
+### Project cycle 3: [predictive modeling for images of poodles vs. fried chicken](Fall2016_Projects/Project3_PoodleKFC)
 
 #### Week 6 (10/12)
 + [Project 3 description](Fall2016_Projects/Project3_PoodleKFC/doc/project3_desc.md)
