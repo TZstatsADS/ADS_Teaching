@@ -13,7 +13,7 @@
 + [Introduction to GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Spring2016/Tutorials/wk2-Tutorial_GitHub-master) (Jingying Zhou)
 + [Discussion of Spring 2016 ACS project](http://tzstatsads.github.io//2016/08/31/Spr2016Project1-summary.html) (Chengliang Tang)
 
-### Project cycle 2: shiny app development for New York City open data
+### Project cycle 2: [shiny app development for New York City open data](Fall2016_Projects/Project2_OpenDataNYC)
 #### Week 3 (9/22)
 + [Example project 2](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html) summary of project 2, Spring 2016
 + [Intro to project 2](Tutorials/project2_intro.pptx)
