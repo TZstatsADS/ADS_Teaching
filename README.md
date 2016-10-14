@@ -1,7 +1,7 @@
 ## Stat GU4243/G5243 Applied Data Science
 ### Fall 2016 - Teaching Materials
 
-### Project cycle 1: American community surveys
+### Project cycle 1: American community surveys [starter codes](Fall2016_Projects/Project1_ACS)
 #### Week 1 (9/7)
 + [Introduction to ADS](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-Intro.pdf) and [Project 1](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Fall2016_Projects/Project1_ACS) description
 + [Example project 1](https://github.com/TZstatsADS/Spr2016-Proj1-Grp9-MajorMatters) (Jingying Zhou)
@@ -13,7 +13,7 @@
 + [Introduction to GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Spring2016/Tutorials/wk2-Tutorial_GitHub-master) (Jingying Zhou)
 + [Discussion of Spring 2016 ACS project](http://tzstatsads.github.io//2016/08/31/Spr2016Project1-summary.html) (Chengliang Tang)
 
-### Project cycle 2: [shiny app development for New York City open data](Fall2016_Projects/Project2_OpenDataNYC)
+### Project cycle 2: shiny app development for New York City open data [starter codes](Fall2016_Projects/Project2_OpenDataNYC)
 #### Week 3 (9/22)
 + [Example project 2](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html) summary of project 2, Spring 2016
 + [Intro to project 2](Tutorials/project2_intro.pptx)
@@ -31,7 +31,7 @@
 + [Discussion of Spring 2016 shiny apps](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html) (Chengliang Tang)
 + [Tutorial on presentation](Tutorials/MakingPresentation.pdf)
 
-### Project cycle 3: [predictive modeling for images of poodles vs. fried chicken](Fall2016_Projects/Project3_PoodleKFC)
+### Project cycle 3: predictive modeling for images of poodles vs. fried chicken [starter codes](Fall2016_Projects/Project3_PoodleKFC)
 
 #### Week 6 (10/12)
 + [Project 3 description](Fall2016_Projects/Project3_PoodleKFC/doc/project3_desc.md)
