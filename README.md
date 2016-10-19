@@ -34,7 +34,6 @@
 ### Project cycle 3: predictive modeling for images of poodles vs. fried chicken ([starter codes](Fall2016_Projects/Project3_PoodleKFC))
 
 #### Week 6 (10/12)
-<<<<<<< HEAD
 + [Project 3 description](Tutorials/project3_desc.md)
 + [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html) (Yuting Ma)
 
