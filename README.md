@@ -36,23 +36,14 @@
 #### Week 6 (10/12)
 <<<<<<< HEAD
 + [Project 3 description](Tutorials/project3_desc.md)
++ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html) (Yuting Ma)
 
 #### Week 7 (10/19)
 + [Overview of project 3](Tutorials/project_evaluation.pdf)
 + [Overview of classification](Tutorials/TutorialModelSelection.pdf)
-+ Tutorial on image processing
-+ Tutorial on gradient boosting machines (GBM)
++ Tutorial on image processing (Ruixiong Shi)
++ Tutorial on gradient boosting machines (GBM) (Chengliang Tang)
 + [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/)
-
-=======
-+ [Project 3 description](Fall2016_Projects/Project3_PoodleKFC/doc/project3_desc.md)
-+ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html) (Yuting Ma)
-
-#### Week 7 (10/19)
-+ Overview of predictive modeling
-+ Image analysis (Ruixiong Shi)
-+ Gradient boosting (Chengliang Tang)
->>>>>>> origin/master
 
 #### Week 8 (10/26) 
 + Model evaluation and validation
