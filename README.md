@@ -40,8 +40,8 @@
 #### Week 7 (10/19)
 + [Overview of project 3](Tutorials/project_evaluation.pdf)
 + [Overview of classification](Tutorials/TutorialModelSelection.pdf)
-+ Tutorial on image processing (Ruixiong Shi)
-+ Tutorial on gradient boosting machines (GBM) (Chengliang Tang)
++ Tutorial on image processing (Ruixiong Shi): [[PPT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/ads_image_analysis_overview.pptx)], [[Rmd](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/image_analysis.Rmd)], [[About SIFT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/advanced_image_analysis.md)].
++ [Tutorial on gradient boosting machines (GBM)](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
 + [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 
 #### Week 8 (10/26) 
