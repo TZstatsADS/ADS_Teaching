@@ -42,7 +42,7 @@
 + [Overview of classification](Tutorials/TutorialModelSelection.pdf)
 + Tutorial on image processing (Ruixiong Shi)
 + Tutorial on gradient boosting machines (GBM) (Chengliang Tang)
-+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/)
++ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 
 #### Week 8 (10/26) 
 + Model evaluation and validation
