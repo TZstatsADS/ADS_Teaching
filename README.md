@@ -33,8 +33,15 @@
 ### Project cycle 3
 
 #### Week 6 (10/12)
++ [Project 3 description](Tutorials/project3_desc.md)
 
 #### Week 7 (10/19)
++ [Overview of project 3](Tutorials/project_evaluation.pdf)
++ [Overview of classification](Tutorials/TutorialModelSelection.pdf)
++ Tutorial on image processing
++ Tutorial on gradient boosting machines (GBM)
++ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/)
+
 
 #### Week 8 (10/26) 
 
