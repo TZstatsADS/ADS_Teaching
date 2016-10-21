@@ -38,7 +38,7 @@
 + [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html) (Yuting Ma)
 
 #### Week 7 (10/19)
-+ [Overview of project 3](Tutorials/project_evaluation.pdf)
++ [Overview of project 3](Tutorials/Project_evaluation.pdf)
 + [Overview of classification](Tutorials/TutorialModelSelection.pdf)
 + Tutorial on image processing (Ruixiong Shi): [[PPT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/ads_image_analysis_overview.pptx)], [[Rmd](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/image_analysis.Rmd)], [[About SIFT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/advanced_image_analysis.md)].
 + [Tutorial on gradient boosting machines (GBM)](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
