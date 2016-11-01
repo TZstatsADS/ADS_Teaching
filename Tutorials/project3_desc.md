@@ -10,7 +10,7 @@ For this project, you will receive [a set of 2000 images of poodle dogs and frie
 
 The portability of this AI program (holding storage and running memory cost) and the computational efficiency (test running time cost) are of great concern to your client. This translates to a balance between the complexity of variable/features/models used and the predictive performance. 
 
-![image](predictiveprogram.png)
+![image]https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project3_PoodleKFC/doc/predictiveprogram.png)
 
 Assume that the **current practice** on your client side is just using [boosted](https://en.wikipedia.org/wiki/Boosting_(machine_learning)) [decision stumps](https://en.wikipedia.org/wiki/Decision_stump) on [SIFT features](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform). `R` pakcage [`gbm`](https://cran.r-project.org/package=gbm) can be used to implement this classifier. 
 
