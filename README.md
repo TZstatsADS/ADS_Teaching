@@ -15,6 +15,7 @@
 
 ### Project cycle 2: shiny app development for New York City open data ([starter codes](Fall2016_Projects/Project2_OpenDataNYC))
 #### Week 3 (9/22)
++ Project 1 presentations
 + [Example project 2](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html) summary of project 2, Spring 2016
 + [Intro to project 2](Tutorials/project2_intro.pptx)
 + [Project 2 description](Tutorials/project2_desc.md)
@@ -34,6 +35,7 @@
 ### Project cycle 3: predictive modeling for images of poodles vs. fried chicken ([starter codes](Fall2016_Projects/Project3_PoodleKFC))
 
 #### Week 6 (10/12)
++ Project 2 presentations
 + [Project 3 description](Tutorials/project3_desc.md)
 + [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html) (Yuting Ma)
 
@@ -47,15 +49,23 @@
 #### Week 8 (10/26) 
 + Model evaluation and validation
 
-### Project cycle 4
+### Project cycle 4: Association mining of music and text
 
 #### Week 9 (11/2)
++ Project 3 presentations
++ [Project 4 description](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project4_Words4music/doc/Project4_desc.md)
 
 #### Week 10 (11/9)
 
-### Project cycle 5
++ Text data processing
++ Simularity and clustering
++ Association mining
++ Examples for project 4
 
 #### Week 11 (11/16)
++ Project 4 Presentations
+
+### Project cycle 5: free topic
 
 #### Week 12 (11/30)
 
