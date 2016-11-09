@@ -48,7 +48,8 @@
 
 #### Week 8 (10/26) 
 + Model evaluation and validation
-
++ [Submission and Evaluation](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/project3_submission.pdf)
++ [Project 3 Summary for 2016 Spring](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk10_summary_proj3.pdf)
 ### Project cycle 4: Association mining of music and text
 
 #### Week 9 (11/2)
