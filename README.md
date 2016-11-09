@@ -59,10 +59,8 @@
 + [Project 4 description](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project4_Words4music/doc/Project4_desc.md)
 
 #### Week 10 (11/9)
-
-+ Text data processing
-+ Simularity and clustering
-+ Association mining
++ [Project 3 fun images](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/prediction%20results%20for%20fun%20images.pdf)
++ Discussion on [Project 4 description](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project4_Words4music/doc/Project4_desc.md)
 + Examples for project 4
 
 #### Week 11 (11/16)
