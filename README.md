@@ -62,7 +62,7 @@
 + [Project 3 fun images](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/prediction%20results%20for%20fun%20images.pdf)
 + Discussion on [Project 4 description](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016_Projects/Project4_Words4music/doc/Project4_desc.md)
 + [Project 4 evaluation](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/project4_eval.pdf)
-+ Examples for project 4
++ [Example on Topic Modeling for project 4](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/Topic%20Modelling)
 
 #### Week 11 (11/16)
 + Project 4 Presentations
