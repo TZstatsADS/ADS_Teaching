@@ -13,13 +13,13 @@ For this project, you will receive [a set of 2350 songs from the million song da
 
 The data set released contain:
 
-+ `Common_id.txt`: ids for the songs that have both lyrics and sound analysis information. 2350 in total;
++ `Common_id.txt`: ids for the songs that have both lyrics and sound analysis information. 2350 in total; 
 + `lyr.Rdata`: dim: 2350*5001. [bag-of-words](https://en.wikipedia.org/wiki/Bag-of-words_model) for 2350 songs stored in an `R` dataframe;
-+ `data.zip`: [h5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) format music feature files for the 2350 songs;
-+ `msm_dataset_train.txt` original text of the lyrics data. (Potentially can be used for [n-gram](https://en.wikipedia.org/wiki/N-gram) models).
++ `data.zip`: [h5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format) format music feature files for the 2350 songs; **Use ONLY the "analysis" part of the h5 file**. 
++ `msm_dataset_train.txt` original text of the lyrics data. 
 
 #### Submission
-On 11/16/2016, you will receive music features of 100 songs. We will provide you with a dictionary of 5000 words. For each song, you need to produce a *ranked list* (with the most likely being the first) of 100 suggested lyric words from the given dictionary. 
+On 11/16/2016, you will receive music features (only the **"analysis"** part) of 100 songs. We will provide you with a dictionary of 5000 words. For each song, you need to produce a *ranked list* (with the most likely being the first) of 100 suggested lyric words from the given dictionary. We will use average predictive rank sum as the [evaluation criterion](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/project4_eval.pdf).
 
 ### Project organization
 
