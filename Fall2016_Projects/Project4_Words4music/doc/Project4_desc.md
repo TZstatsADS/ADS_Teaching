@@ -19,7 +19,7 @@ The data set released contain:
 + `msm_dataset_train.txt` original text of the lyrics data. 
 
 #### Submission
-On 11/16/2016, you will receive music features (only the **"analysis"** part) of 100 songs. We will provide you with a dictionary of 5000 words. For each song, you need to produce a *ranked list* (with the most likely being the first) of 100 suggested lyric words from the given dictionary. We will use average predictive rank sum as the [evaluation criterion](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/project4_eval.pdf).
+On 11/16/2016, you will receive music features (only the **"analysis"** part) of 100 songs. We will provide you with a dictionary of 5000 words. For each song, you need to produce a *ranked list* (with the most likely being the first) of the candidate lyric words from the given dictionary. We will use average predictive rank sum as the [evaluation criterion](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/project4_eval.pdf).
 
 ### Project organization
 
