@@ -70,6 +70,9 @@
 ### Project cycle 5: free topic
 
 #### Week 12 (11/30)
++ Discussion on project 3 and project 4 test data results
++ Brainstorm for project 5
 
 #### Week 13 (12/7) 
++ Project 5 Presentations
 
