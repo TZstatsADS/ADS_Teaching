@@ -70,7 +70,7 @@
 ### Project cycle 5: free topic
 
 #### Week 12 (11/30)
-+ Discussion on project 3 and project 4 test data results
++ Discussion on [project](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/project3_summary.html) 3 and project 4 test data results
 + Brainstorm for project 5
 
 #### Week 13 (12/7) 
