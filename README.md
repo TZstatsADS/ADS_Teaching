@@ -7,7 +7,7 @@
 #### Week 3 (2/3)
 + Project 1 presentations
 
-### Project cycle 2: shiny app development ([starter codes](link)
+### Project cycle 2: shiny app development ([starter codes](link))
 #### Week 4 (2/10)
 #### Week 5 (2/17)
 #### Week 6 (2/24)
