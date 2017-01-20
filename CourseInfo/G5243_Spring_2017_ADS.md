@@ -35,7 +35,7 @@ Students will be working in teams of 5 students that will be randomly formed. Fo
 
 We will have a total of five project cycles for this course:
 
-1. Collaborative R notebook project. 
+1. [Individual] R notebook project. 
 2. Open data visualization project.
 3. Predictive analytics of images.
 4. Relational (network) data analysis.
@@ -63,8 +63,22 @@ Below is a tentative schedule we will follow.
 
 Students' performance will be based on 
 
+* Project products (instructor-reviewed and/or peer-reviewed, averaged over 5 projects) 90%
 * Participation (instructors' observation) 10%
-* Project products (instructor-reviewed and peer-reviewed, averaged over 5 projects) 90%
+
+	##### A note on participation evaluation. 
+	This semester, we will enforce formal evaluation of participation as follows. 
+	
+	* Each project needs to show clear collaboration and task assignments on GitHub using GitHub's features such as issues and projects. (We will provide a tutorial on how to use these features in week 1). 
+	* Team should use GitHub to coordinate code sharing and project development throughout the project. 
+	* Students should participate actively in class discussion and piazza discussion. 
+	* We will give participation score for each project cycle, the average of which will contribute to 10% of your final grade. The participation will be graded on the following curve. 
+	
+		* A: project leader, major contributor who contribute substantially in every stage of the project and class discussions. 
+		* A-: majro contributor who contributed substantially to two stages of the project and some discussions. 
+		* B+: average participation, participate in the discussion at every stage and contribute substentially in at least one stage of the project and some discussions. 
+		* B or lower: below average performance.   
+	* This is to ensure a positive learning process for all of us.  
 
 #### Communication
 Projects grades are managed in courseworks. We will be using the discussion/announcement tools in courseworks (via Piazza) for our online class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions online. 
@@ -83,6 +97,7 @@ There is not a single required text. As part of this course, we will learn from 
 * We learn together through projects. Please stay positive and congenial. Share what you know with your peers and also learn from them.
 
 * Working towards deadlines can be stressful. Remember, emails or online posts do not have tones. Be mindful about how your phrase your questions, comments, inquries and suggestions. Also be generous when reading them. 
+
 * Academic Integrity is the cornerstone of meaningful teaching and learning. It is especially important for our project-based course. Remember what matters more is how much you learn not what grade you will get. In your project, document references and resources that have been incorporated into your project and accredit them appriporiately. Plagiarism is one of the most likely forms of cheating in this course. Here are [some tips](http://library.columbia.edu/subject-guides/social-sciences/plagiarism.html) to avoid plagiarism.
 
 * Be a good team member and contribute to each project as much as you can. Don't underestimate the efforts of your teammates. Something seems simple may not be that simple. 
