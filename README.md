@@ -8,7 +8,8 @@
 #### Week 1 (1/20)
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_startercodes/Project1-RNotebook/doc/Proj1_desc.md)
-+ Tutorial 1 Rnotebook
++ [Tutorial 1 Rnotebook](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutorial_rnotebook.html) + [Example](https://github.com/TZstatsADS/Fall2016-proj1-grp7)
++ [Turorial 2 GitHub Issues](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutotrial_issues.html)
 
 #### Week 2 (1/27)
 #### Week 3 (2/3)
