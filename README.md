@@ -6,7 +6,7 @@
 ### Project cycle 1: (Individual) R notebook on presidential addresses
 ([starter codes](link))
 #### Week 1 (1/20)
-+ Introduction to ADS
++ [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_startercodes/Project1-RNotebook/doc/Proj1_desc.md)
 + Tutorial 1 Rnotebook
 
