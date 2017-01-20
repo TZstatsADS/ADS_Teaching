@@ -1,8 +1,15 @@
 ## Stat GU4243/G5243 Applied Data Science
 ### Spring 2017 - Teaching Materials
 
-### Project cycle 1: title ([starter codes](link))
+[Syllabus](CourseInfo/G5243_Spring_2017_ADS.md)
+
+### Project cycle 1: (Individual) R notebook on presidential addresses
+([starter codes](link))
 #### Week 1 (1/20)
++ Introduction to ADS
++ Project 1 description
++ Tutorial 1 Rnotebook
+
 #### Week 2 (1/27)
 #### Week 3 (2/3)
 + Project 1 presentations
