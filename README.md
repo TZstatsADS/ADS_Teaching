@@ -4,7 +4,7 @@
 [Syllabus](CourseInfo/G5243_Spring_2017_ADS.md)
 
 ### Project cycle 1: (Individual) R notebook on presidential addresses
-([starter codes](link))
+([starter codes](/Projects_startercodes/Project1-RNotebook/))
 #### Week 1 (1/20)
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_startercodes/Project1-RNotebook/doc/Proj1_desc.md)
