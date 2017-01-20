@@ -7,7 +7,7 @@
 ([starter codes](link))
 #### Week 1 (1/20)
 + Introduction to ADS
-+ Project 1 description
++ [Project 1 description](Projects_startercodes/Project1-RNotebook/doc/Proj1_desc.md)
 + Tutorial 1 Rnotebook
 
 #### Week 2 (1/27)
