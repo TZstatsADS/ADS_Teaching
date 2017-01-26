@@ -12,7 +12,7 @@
 + [Turorial 2 GitHub Issues](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutotrial_issues.html)
 
 #### Week 2 (1/27)
-+ A tutorial on GitHub
++ [A tutorial on GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Spring2016/Tutorials/wk2-Tutorial_GitHub-master)
 + An example R notebook on presidential speeches
 + R notebook as a presentation
 + Discussion and Q&A
