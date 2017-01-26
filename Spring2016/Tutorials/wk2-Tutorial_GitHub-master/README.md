@@ -12,7 +12,7 @@
 * Create a repository from existing local folder
 	* from desktop: drag the folder to github desktop
 	* from terminal: `cd` to existing folder and `git init`. Commit and push all the files/changes (see below).
-* Create a new R project in Studio with Git version control
+* Create a new R project in RStudio with Git version control
     * https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
 * Fork and Clone an existing git repository
 	- from desktop
