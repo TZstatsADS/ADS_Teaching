@@ -13,7 +13,7 @@
 	* from desktop: drag the folder to github desktop
 	* from terminal: `cd` to existing folder and `git init`. Commit and push all the files/changes (see below).
 * Fork and Clone an existing git repository
-	- from desktop
+	- [from desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/)
 	- from terminal: `git clone username@host/path/to/repository`
 
 #### Work on GitHub Desktop
