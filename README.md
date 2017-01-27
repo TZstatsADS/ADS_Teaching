@@ -12,9 +12,9 @@
 + [Turorial 2 GitHub Issues](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutotrial_issues.html)
 
 #### Week 2 (1/27)
-+ [A tutorial on GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Tutorials/wk2-GitHub_simplified)
-+ An example R notebook on presidential speeches
-+ R notebook as a presentation
++ [A tutorial on GitHub](Tutorials/wk2-GitHub_simplified)
++ [An example R notebook on presidential speeches](Tutorials/wk2-TextMining)
++ [R notebook as a presentation](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/646b8f8b/Tutorials/wk2-TextMining/doc/InteractiveWordCloud.nb.html)
 + Discussion and Q&A
 
 #### Week 3 (2/3)
