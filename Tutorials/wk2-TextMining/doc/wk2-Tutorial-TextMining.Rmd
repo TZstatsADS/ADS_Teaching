@@ -1,0 +1,744 @@
+---
+title: "Tutorial (week 2) B: text mining"
+output: html_notebook
+    toc: true
+    toc_depth: 2
+---
+
+# Step 0: check and install needed packages. Load the libraries and functions. 
+
+```{r, message=FALSE, warning=FALSE}
+packages.used=c("rvest", "tibble", "qdap", 
+                "sentimentr", "gplots", "dplyr",
+                "tm", "syuzhet", "factoextra", 
+                "beeswarm", "scales", "RColorBrewer",
+                "RANN", "tm", "topicmodels")
+
+# check packages that need to be installed.
+packages.needed=setdiff(packages.used, 
+                        intersect(installed.packages()[,1], 
+                                  packages.used))
+# install additional packages
+if(length(packages.needed)>0){
+  install.packages(packages.needed, dependencies = TRUE)
+}
+
+# load packages
+library("rvest")
+library("tibble")
+library("qdap")
+library("sentimentr")
+library("gplots")
+library("dplyr")
+library("tm")
+library("syuzhet")
+library("factoextra")
+library("beeswarm")
+library("scales")
+library("RColorBrewer")
+library("RANN")
+library("tm")
+library("topicmodels")
+
+source("../lib/plotstacked.R")
+source("../lib/speechFuncs.R")
+```
+This notebook was prepared with the following environmental settings.
+
+```{r}
+print(R.version)
+```
+
+# Step 1: Data harvest: scrap speech URLs from <http://www.presidency.ucsb.edu/>.
+
+Following the example of [Jerid Francom](http://francojc.github.io/web-scraping-with-rvest/), we used [Selectorgadget](http://selectorgadget.com/) to choose the links we would like to scrap. For this project, we selected all inaugural addresses of past presidents, nomination speeches of major party candidates and farewell addresses. We also included several public speeches from Donald Trump for our textual analysis of presidential speeches. 
+
+```{r, message=FALSE, warning=FALSE}
+### Inauguaral speeches
+main.page <- read_html(x = "http://www.presidency.ucsb.edu/inaugurals.php")
+# Get link URLs
+# f.speechlinks is a function for extracting links from the list of speeches. 
+inaug=f.speechlinks(main.page)
+#head(inaug)
+as.Date(inaug[,1], format="%B %e, %Y")
+inaug=inaug[-nrow(inaug),] # remove the last line, irrelevant due to error.
+
+#### Nomination speeches
+main.page=read_html("http://www.presidency.ucsb.edu/nomination.php")
+# Get link URLs
+nomin <- f.speechlinks(main.page)
+#head(nomin)
+#
+#### Farewell speeches
+main.page=read_html("http://www.presidency.ucsb.edu/farewell_addresses.php")
+# Get link URLs
+farewell <- f.speechlinks(main.page)
+#head(farewell)
+```
+
+# Step 2: Using speech metadata posted on <http://www.presidency.ucsb.edu/>, we prepared CSV data sets for the speeches we will scrap. 
+
+```{r}
+inaug.list=read.csv("../data/inauglist.csv", stringsAsFactors = FALSE)
+nomin.list=read.csv("../data/nominlist.csv", stringsAsFactors = FALSE)
+farewell.list=read.csv("../data/farewelllist.csv", stringsAsFactors = FALSE)
+```
+
+We assemble all scrapped speeches into one list. Note here that we don't have the full text yet, only the links to full text transcripts. 
+
+# Step 3: scrap the texts of speeches from the speech URLs.
+
+```{r}
+speech.list=rbind(inaug.list, nomin.list, farewell.list)
+speech.list$type=c(rep("inaug", nrow(inaug.list)),
+                   rep("nomin", nrow(nomin.list)),
+                   rep("farewell", nrow(farewell.list)))
+speech.url=rbind(inaug, nomin, farewell)
+speech.list=cbind(speech.list, speech.url)
+```
+
+Based on the list of speeches, we scrap the main text part of the transcript's html page. For simple html pages of this kind,  [Selectorgadget](http://selectorgadget.com/) is very convenient for identifying the html node that `rvest` can use to scrap its content. For reproducibility, we also save our scrapped speeches into our local folder as individual speech files. 
+
+```{r}
+# Loop over each row in speech.list
+speech.list$fulltext=NA
+for(i in seq(nrow(speech.list))) {
+  text <- read_html(speech.list$urls[i]) %>% # load the page
+    html_nodes(".displaytext") %>% # isloate the text
+    html_text() # get the text
+  speech.list$fulltext[i]=text
+  # Create the file name
+  filename <- paste0("../data/fulltext/", 
+                     speech.list$type[i],
+                     speech.list$File[i], "-", 
+                     speech.list$Term[i], ".txt")
+  sink(file = filename) %>% # open file to write 
+  cat(text)  # write the file
+  sink() # close the file
+}
+```
+
+Trump, as president-elect that has not been a politician, do not have a lot of formal speeches yet. For our textual analysis, we manually add several public transcripts from Trump:
++ [Transcript: Donald Trump's full immigration speech, annotated. LA Times, 08/31/2016] (http://www.latimes.com/politics/la-na-pol-donald-trump-immigration-speech-transcript-20160831-snap-htmlstory.html)
++ [Transcript of Donald Trump’s speech on national security in Philadelphia
+- The Hill, 09/07/16](http://thehill.com/blogs/pundits-blog/campaign/294817-transcript-of-donald-trumps-speech-on-national-security-in)
++ [Transcript of President-elect Trump's news conference
+CNBC, 01/11/2017](http://www.cnbc.com/2017/01/11/transcript-of-president-elect-donald-j-trumps-news-conference.html)
+
+```{r}
+speech1=paste(readLines("../data/fulltext/SpeechDonaldTrump-NA.txt", 
+                  n=-1, skipNul=TRUE),
+              collapse=" ")
+speech2=paste(readLines("../data/fulltext/SpeechDonaldTrump-NA2.txt", 
+                  n=-1, skipNul=TRUE),
+              collapse=" ")
+speech3=paste(readLines("../data/fulltext/PressDonaldTrump-NA.txt", 
+                  n=-1, skipNul=TRUE),
+              collapse=" ")
+
+Trump.speeches=data.frame(
+  President=rep("Donald J. Trump", 3),
+  File=rep("DonaldJTrump", 3),
+  Term=rep(0, 3),
+  Party=rep("Republican", 3),
+  Date=c("August 31, 2016", "September 7, 2016", "January 11, 2017"),
+  Words=c(word_count(speech1), word_count(speech2), word_count(speech3)),
+  Win=rep("yes", 3),
+  type=rep("speeches", 3),
+  links=rep(NA, 3),
+  urls=rep(NA, 3),
+  fulltext=c(speech1, speech2, speech3)
+)
+
+speech.list=rbind(speech.list, Trump.speeches)
+```
+
+# Step 4: data Processing --- generate list of sentences
+
+We will use sentences as units of analysis for this project, as sentences are natural languge units for organizing thoughts and ideas. For each extracted sentence, we apply sentiment analysis using [NRC sentiment lexion](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). "The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). The annotations were manually done by crowdsourcing."
+
+We assign an sequential id to each sentence in a speech (`sent.id`) and also calculated the number of words in each sentence as *sentence length* (`word.count`).
+
+```{r, message=FALSE, warning=FALSE}
+sentence.list=NULL
+for(i in 1:nrow(speech.list)){
+  sentences=sent_detect(speech.list$fulltext[i],
+                        endmarks = c("?", ".", "!", "|",";"))
+  if(length(sentences)>0){
+    emotions=get_nrc_sentiment(sentences)
+    word.count=word_count(sentences)
+    # colnames(emotions)=paste0("emo.", colnames(emotions))
+    # in case the word counts are zeros?
+    emotions=diag(1/(word.count+0.01))%*%as.matrix(emotions)
+    sentence.list=rbind(sentence.list, 
+                        cbind(speech.list[i,-ncol(speech.list)],
+                              sentences=as.character(sentences), 
+                              word.count,
+                              emotions,
+                              sent.id=1:length(sentences)
+                              )
+    )
+  }
+}
+```
+
+Some non-sentences exist in raw data due to erroneous extra end-of sentence marks. 
+```{r}
+sentence.list=
+  sentence.list%>%
+  filter(!is.na(word.count)) 
+
+```
+
+# Step 5: Data analysis --- length of sentences
+
+For simpler visualization, we chose a subset of better known presidents or presidential candidates on which to focus our analysis. 
+
+```{r}
+sel.comparison=c("DonaldJTrump","JohnMcCain", "GeorgeBush", "MittRomney", "GeorgeWBush",
+                 "RonaldReagan","AlbertGore,Jr", "HillaryClinton","JohnFKerry", 
+                 "WilliamJClinton","HarrySTruman", "BarackObama", "LyndonBJohnson",
+                 "GeraldRFord", "JimmyCarter", "DwightDEisenhower", "FranklinDRoosevelt",
+                 "HerbertHoover","JohnFKennedy","RichardNixon","WoodrowWilson", 
+                 "AbrahamLincoln", "TheodoreRoosevelt", "JamesGarfield", 
+                 "JohnQuincyAdams", "UlyssesSGrant", "ThomasJefferson",
+                 "GeorgeWashington", "WilliamHowardTaft", "AndrewJackson",
+                 "WilliamHenryHarrison", "JohnAdams")
+```
+
+## Overview of sentence length distribution by different types of speeches. 
+
+### Nomination speeches 
+
+First, we look at *nomination acceptance speeches* at major party's national conventions. For relevant to Trump's speeches, we limit our attention to speeches for the first terms of former U.S. presidents.  We noticed that a number of presidents have very short sentences in their nomination acceptance speeches. 
+
+#### First term
+
+```{r, fig.width = 3, fig.height = 3}
+
+par(mar=c(4, 11, 2, 2))
+
+#sel.comparison=levels(sentence.list$FileOrdered)
+sentence.list.sel=filter(sentence.list, 
+                        type=="nomin", Term==1, File%in%sel.comparison)
+sentence.list.sel$File=factor(sentence.list.sel$File)
+
+sentence.list.sel$FileOrdered=reorder(sentence.list.sel$File, 
+                                  sentence.list.sel$word.count, 
+                                  mean, 
+                                  order=T)
+
+beeswarm(word.count~FileOrdered, 
+         data=sentence.list.sel,
+         horizontal = TRUE, 
+         pch=16, col=alpha(brewer.pal(9, "Set1"), 0.6), 
+         cex=0.55, cex.axis=0.8, cex.lab=0.8,
+         spacing=5/nlevels(sentence.list.sel$FileOrdered),
+         las=2, xlab="Number of words in a sentence.", ylab="",
+         main="Nomination speeches")
+
+```
+
+#### Second term
+
+```{r, fig.width = 3, fig.height = 1.3}
+
+par(mar=c(4, 11, 2, 2))
+
+#sel.comparison=levels(sentence.list$FileOrdered)
+sentence.list.sel=filter(sentence.list, 
+                        type=="nomin", Term==2, File%in%sel.comparison)
+sentence.list.sel$File=factor(sentence.list.sel$File)
+
+sentence.list.sel$FileOrdered=reorder(sentence.list.sel$File, 
+                                  sentence.list.sel$word.count, 
+                                  mean, 
+                                  order=T)
+
+beeswarm(word.count~FileOrdered, 
+         data=sentence.list.sel,
+         horizontal = TRUE, 
+         pch=16, col=alpha(brewer.pal(9, "Set1"), 0.6), 
+         cex=0.55, cex.axis=0.8, cex.lab=0.8,
+         spacing=1.2/nlevels(sentence.list.sel$FileOrdered),
+         las=2, xlab="Number of words in a sentence.", ylab="",
+         main="Nomination speeches, 2nd term")
+
+```
+
+What are these short sentences?
+```{r}
+sentence.list%>%
+  filter(File=="DonaldJTrump", 
+         type=="nomin", 
+         word.count<=3)%>%
+  select(sentences)%>%sample_n(10)
+
+sentence.list%>%
+  filter(File=="AlbertGore,Jr", 
+         type=="nomin", 
+         word.count<=3)%>%
+  select(sentences)%>%sample_n(10)
+
+sentence.list%>%
+  filter(File=="Clinton", 
+         type=="nomin", 
+         word.count<=3)%>%
+  select(sentences)
+
+sentence.list%>%
+  filter(File=="WilliamJClinton", 
+         type=="nomin", Term==1,
+         word.count<=3)%>%
+  select(sentences)
+```
+
+
+### Inaugural speeches
+
+We notice that the sentences in inaugural speeches are longer than those in nomination acceptance speeches. 
+
+```{r, fig.width = 3, fig.height = 3}
+sentence.list.sel=sentence.list%>%filter(type=="inaug", File%in%sel.comparison, Term==1)
+sentence.list.sel$File=factor(sentence.list.sel$File)
+
+sentence.list.sel$FileOrdered=reorder(sentence.list.sel$File, 
+                                  sentence.list.sel$word.count, 
+                                  mean, 
+                                  order=T)
+par(mar=c(4, 11, 2, 2))
+
+beeswarm(word.count~FileOrdered, 
+         data=sentence.list.sel,
+         horizontal = TRUE,
+         pch=16, col=alpha(brewer.pal(9, "Set1"), 0.6), 
+         cex=0.55, cex.axis=0.8, cex.lab=0.8,
+         spacing=5/nlevels(sentence.list.sel$FileOrdered),
+         las=2, ylab="", xlab="Number of words in a sentence.",
+         main="Inaugural Speeches")
+```
+
+Short sentences in inaugural speeches. 
+```{r}
+sentence.list%>%
+  filter(File=="BarackObama", 
+         type=="inaug", 
+         word.count<=3)%>%
+  select(sentences)
+```
+
+
+# Step 5: Data analysis --- sentiment analsis
+
+## Sentence length variation over the course of the speech, with emotions. 
+
+How our presidents (or candidates) alternate between long and short sentences and how they shift between different sentiments in their speeches. It is interesting to note that some presidential candidates' speech are more colorful than others. Here we used the same color theme as in the movie "Inside Out."
+
+![image](http://www.staffordschools.net/cms/lib011/VA01818723/Centricity/Domain/3574/character_icon.png)
+
+```{r, fig.height=2.5, fig.width=2}
+par(mfrow=c(4,1), mar=c(1,0,2,0), bty="n", xaxt="n", yaxt="n", font.main=1)
+
+f.plotsent.len(In.list=sentence.list, InFile="HillaryClinton", 
+               InType="nomin", InTerm=1, President="Hillary Clinton")
+
+f.plotsent.len(In.list=sentence.list, InFile="DonaldJTrump", 
+               InType="nomin", InTerm=1, President="Donald Trump")
+
+f.plotsent.len(In.list=sentence.list, InFile="BarackObama", 
+               InType="nomin", InTerm=1, President="Barack Obama")
+
+f.plotsent.len(In.list=sentence.list, InFile="GeorgeWBush", 
+               InType="nomin", InTerm=1, President="George W. Bush")
+```
+
+### What are the emotionally charged sentences?
+
+```{r}
+print("Hillary Clinton")
+speech.df=tbl_df(sentence.list)%>%
+  filter(File=="HillaryClinton", type=="nomin", word.count>=4)%>%
+  select(sentences, anger:trust)
+speech.df=as.data.frame(speech.df)
+as.character(speech.df$sentences[apply(speech.df[,-1], 2, which.max)])
+
+print("Barack Obama")
+speech.df=tbl_df(sentence.list)%>%
+  filter(File=="BarackObama", type=="nomin", Term==1, word.count>=5)%>%
+  select(sentences, anger:trust)
+speech.df=as.data.frame(speech.df)
+as.character(speech.df$sentences[apply(speech.df[,-1], 2, which.max)])
+
+print("George W Bush")
+speech.df=tbl_df(sentence.list)%>%
+  filter(File=="GeorgeWBush", type=="nomin", Term==1, word.count>=4)%>%
+  select(sentences, anger:trust)
+speech.df=as.data.frame(speech.df)
+as.character(speech.df$sentences[apply(speech.df[,-1], 2, which.max)])
+
+print("Donald Trump")
+speech.df=tbl_df(sentence.list)%>%
+  filter(File=="DonaldJTrump", type=="nomin", Term==1, word.count>=5)%>%
+  select(sentences, anger:trust)
+speech.df=as.data.frame(speech.df)
+as.character(speech.df$sentences[apply(speech.df[,-1], 2, which.max)])
+
+```
+
+
+## Clustering of emotions
+```{r, fig.width=2, fig.height=2}
+heatmap.2(cor(sentence.list%>%filter(type=="inaug")%>%select(anger:trust)), 
+          scale = "none", 
+          col = bluered(100), , margin=c(6, 6), key=F,
+          trace = "none", density.info = "none")
+
+par(mar=c(4, 6, 2, 1))
+emo.means=colMeans(select(sentence.list, anger:trust)>0.01)
+col.use=c("red2", "darkgoldenrod1", 
+            "chartreuse3", "blueviolet",
+            "darkgoldenrod2", "dodgerblue3", 
+            "darkgoldenrod1", "darkgoldenrod1")
+barplot(emo.means[order(emo.means)], las=2, col=col.use[order(emo.means)], horiz=T, main="Inaugural Speeches")
+```
+
+```{r, fig.height=3.3, fig.width=3.7}
+presid.summary=tbl_df(sentence.list)%>%
+  filter(type=="nomin", File%in%sel.comparison)%>%
+  #group_by(paste0(type, File))%>%
+  group_by(File)%>%
+  summarise(
+    anger=mean(anger),
+    anticipation=mean(anticipation),
+    disgust=mean(disgust),
+    fear=mean(fear),
+    joy=mean(joy),
+    sadness=mean(sadness),
+    surprise=mean(surprise),
+    trust=mean(trust)
+    #negative=mean(negative),
+    #positive=mean(positive)
+  )
+
+presid.summary=as.data.frame(presid.summary)
+rownames(presid.summary)=as.character((presid.summary[,1]))
+km.res=kmeans(presid.summary[,-1], iter.max=200,
+              5)
+fviz_cluster(km.res, 
+             stand=F, repel= TRUE,
+             data = presid.summary[,-1], xlab="", xaxt="n",
+             show.clust.cent=FALSE)
+```
+
+# Step 5: Data analysis --- Topic modeling
+
+For topic modeling, we prepare a corpus of sentence snipets as follows. For each speech, we start with sentences and prepare a snipet with a given sentence with the flanking sentences. 
+
+```{r}
+corpus.list=sentence.list[2:(nrow(sentence.list)-1), ]
+sentence.pre=sentence.list$sentences[1:(nrow(sentence.list)-2)]
+sentence.post=sentence.list$sentences[3:(nrow(sentence.list)-1)]
+corpus.list$snipets=paste(sentence.pre, corpus.list$sentences, sentence.post, sep=" ")
+rm.rows=(1:nrow(corpus.list))[corpus.list$sent.id==1]
+rm.rows=c(rm.rows, rm.rows-1)
+corpus.list=corpus.list[-rm.rows, ]
+```
+
+## Text mining
+```{r}
+docs <- Corpus(VectorSource(corpus.list$snipets))
+writeLines(as.character(docs[[sample(1:nrow(corpus.list), 1)]]))
+```
+
+### Text basic processing
+Adapted from <https://eight2late.wordpress.com/2015/09/29/a-gentle-introduction-to-topic-modeling-using-r/>.
+
+```{r}
+#remove potentially problematic symbols
+docs <-tm_map(docs,content_transformer(tolower))
+writeLines(as.character(docs[[sample(1:nrow(corpus.list), 1)]]))
+
+#remove punctuation
+docs <- tm_map(docs, removePunctuation)
+writeLines(as.character(docs[[sample(1:nrow(corpus.list), 1)]]))
+
+#Strip digits
+docs <- tm_map(docs, removeNumbers)
+writeLines(as.character(docs[[sample(1:nrow(corpus.list), 1)]]))
+
+#remove stopwords
+docs <- tm_map(docs, removeWords, stopwords("english"))
+writeLines(as.character(docs[[sample(1:nrow(corpus.list), 1)]]))
+
+#remove whitespace
+docs <- tm_map(docs, stripWhitespace)
+writeLines(as.character(docs[[sample(1:nrow(corpus.list), 1)]]))
+
+#Stem document
+docs <- tm_map(docs,stemDocument)
+writeLines(as.character(docs[[sample(1:nrow(corpus.list), 1)]]))
+```
+
+### Topic modeling
+
+Gengerate document-term matrices. 
+
+```{r}
+dtm <- DocumentTermMatrix(docs)
+#convert rownames to filenames#convert rownames to filenames
+rownames(dtm) <- paste(corpus.list$type, corpus.list$File,
+                       corpus.list$Term, corpus.list$sent.id, sep="_")
+
+rowTotals <- apply(dtm , 1, sum) #Find the sum of words in each Document
+
+dtm  <- dtm[rowTotals> 0, ]
+corpus.list=corpus.list[rowTotals>0, ]
+
+```
+
+Run LDA
+
+```{r}
+#Set parameters for Gibbs sampling
+burnin <- 4000
+iter <- 2000
+thin <- 500
+seed <-list(2003,5,63,100001,765)
+nstart <- 5
+best <- TRUE
+
+#Number of topics
+k <- 15
+
+#Run LDA using Gibbs sampling
+ldaOut <-LDA(dtm, k, method="Gibbs", control=list(nstart=nstart, 
+                                                 seed = seed, best=best,
+                                                 burnin = burnin, iter = iter, 
+                                                 thin=thin))
+#write out results
+#docs to topics
+ldaOut.topics <- as.matrix(topics(ldaOut))
+table(c(1:k, ldaOut.topics))
+write.csv(ldaOut.topics,file=paste("../out/LDAGibbs",k,"DocsToTopics.csv"))
+
+#top 6 terms in each topic
+ldaOut.terms <- as.matrix(terms(ldaOut,20))
+write.csv(ldaOut.terms,file=paste("../out/LDAGibbs",k,"TopicsToTerms.csv"))
+
+#probabilities associated with each topic assignment
+topicProbabilities <- as.data.frame(ldaOut@gamma)
+write.csv(topicProbabilities,file=paste("../out/LDAGibbs",k,"TopicProbabilities.csv"))
+```
+```{r}
+terms.beta=ldaOut@beta
+terms.beta=scale(terms.beta)
+topics.terms=NULL
+for(i in 1:k){
+  topics.terms=rbind(topics.terms, ldaOut@terms[order(terms.beta[i,], decreasing = TRUE)[1:7]])
+}
+topics.terms
+ldaOut.terms
+```
+
+Based on the most popular terms and the most salient terms for each topic, we assign a hashtag to each topic. This part require manual setup as the topics are likely to change. 
+
+```{r}
+topics.hash=c("Economy", "America", "Defense", "Belief", "Election", "Patriotism", "Unity", "Government", "Reform", "Temporal", "WorkingFamilies", "Freedom", "Equality", "Misc", "Legislation")
+corpus.list$ldatopic=as.vector(ldaOut.topics)
+corpus.list$ldahash=topics.hash[ldaOut.topics]
+
+colnames(topicProbabilities)=topics.hash
+corpus.list.df=cbind(corpus.list, topicProbabilities)
+```
+
+## Clustering of topics
+```{r, fig.width=3, fig.height=4}
+par(mar=c(1,1,1,1))
+topic.summary=tbl_df(corpus.list.df)%>%
+              filter(type%in%c("nomin", "inaug"), File%in%sel.comparison)%>%
+              select(File, Economy:Legislation)%>%
+              group_by(File)%>%
+              summarise_each(funs(mean))
+topic.summary=as.data.frame(topic.summary)
+rownames(topic.summary)=topic.summary[,1]
+
+# [1] "Economy"         "America"         "Defense"         "Belief"         
+# [5] "Election"        "Patriotism"      "Unity"           "Government"     
+# [9] "Reform"          "Temporal"        "WorkingFamilies" "Freedom"        
+# [13] "Equality"        "Misc"            "Legislation"       
+
+topic.plot=c(1, 13, 9, 11, 8, 3, 7)
+print(topics.hash[topic.plot])
+
+heatmap.2(as.matrix(topic.summary[,topic.plot+1]), 
+          scale = "column", key=F, 
+          col = bluered(100),
+          cexRow = 0.9, cexCol = 0.9, margins = c(8, 8),
+          trace = "none", density.info = "none")
+```
+
+```{r, fig.width=3.3, fig.height=5}
+# [1] "Economy"         "America"         "Defense"         "Belief"         
+# [5] "Election"        "Patriotism"      "Unity"           "Government"     
+# [9] "Reform"          "Temporal"        "WorkingFamilies" "Freedom"        
+# [13] "Equality"        "Misc"            "Legislation"       
+ 
+
+par(mfrow=c(5, 1), mar=c(1,1,2,0), bty="n", xaxt="n", yaxt="n")
+
+topic.plot=c(1, 13, 14, 15, 8, 9, 12)
+print(topics.hash[topic.plot])
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="GeorgeBush", type=="nomin",Term==1)%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1], 
+             xlab="Sentences", ylab="Topic share", main="George Bush, Nomination")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="WilliamJClinton", type=="nomin", Term==1)%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+            xlab="Sentences", ylab="Topic share", main="Bill Clinton, Nomination")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="GeorgeWBush", type=="nomin", Term==1)%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1], 
+            xlab="Sentences", ylab="Topic share", main="George W Bush, Nomination")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="BarackObama", type=="nomin", Term==1)%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+            xlab="Sentences", ylab="Topic share", main="Barack Obama, Nomination")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="DonaldJTrump", type=="nomin")%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+            xlab="Sentences", ylab="Topic share", main="Donald Trump, Nomination")
+```
+
+```{r, fig.width=3.3, fig.height=5}
+# [1] "Economy"         "America"         "Defense"         "Belief"         
+# [5] "Election"        "Patriotism"      "Unity"           "Government"     
+# [9] "Reform"          "Temporal"        "WorkingFamilies" "Freedom"        
+# [13] "Equality"        "Misc"            "Legislation"       
+
+
+par(mfrow=c(5, 1), mar=c(1,1,2,0), bty="n", xaxt="n", yaxt="n")
+
+
+topic.plot=c(1, 13, 14, 15, 8, 9, 12)
+print(topics.hash[topic.plot])
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="GeorgeBush", type=="inaug", Term==1)%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="George Bush, inaugural Speeches")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="WilliamJClinton", type=="inaug", Term==1)%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="William J Clinton, inaugural Speeches")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="GeorgeWBush", type=="inaug", Term==1)%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="George W. Bush, inaugural Speeches")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="BarackObama", type=="inaug", Term==1)%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="Barack Obama, inaugural Speeches")
+```
+```{r, fig.width=4, fig.height=5}
+# [1] "Economy"         "America"         "Defense"         "Belief"         
+# [5] "Election"        "Patriotism"      "Unity"           "Government"     
+# [9] "Reform"          "Temporal"        "WorkingFamilies" "Freedom"        
+# [13] "Equality"        "Misc"            "Legislation"       
+
+
+par(mfrow=c(5, 1))
+
+topic.plot=c(1, 13, 14, 15, 8, 9, 12)
+print(topics.hash[topic.plot])
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="RonaldReagan", type=="farewell")%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="Ronald Reagan, Farewell Speeches")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="GeorgeBush", type=="farewell")%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="George Bush, Farewell Speeches")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="WilliamJClinton", type=="farewell")%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="William J. Clinton, Farewell Speeches")
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="GeorgeWBush", type=="farewell")%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="George W Bush, Farewell Speeches")
+
+
+speech.df=tbl_df(corpus.list.df)%>%filter(File=="BarackObama", type=="farewell")%>%select(sent.id, Economy:Legislation)
+speech.df=as.matrix(speech.df)
+speech.df[,-1]=replace(speech.df[,-1], speech.df[,-1]<1/15, 0.001)
+speech.df[,-1]=f.smooth.topic(x=speech.df[,1], y=speech.df[,-1])
+plot.stacked(speech.df[,1], speech.df[,topic.plot+1],
+             xlab="Sentences", ylab="Topic share", main="Barack Obama, Farewell Speeches")
+```
+
+```{r}
+speech.df=tbl_df(corpus.list.df)%>%filter(type=="nomin", word.count<20)%>%select(sentences, Economy:Legislation)
+
+as.character(speech.df$sentences[apply(as.data.frame(speech.df[,-1]), 2, which.max)])
+
+names(speech.df)[-1]
+
+```
+
+
+```{r, fig.width=3, fig.height=3}
+presid.summary=tbl_df(corpus.list.df)%>%
+  filter(type=="inaug", File%in%sel.comparison)%>%
+  select(File, Economy:Legislation)%>%
+  group_by(File)%>%
+  summarise_each(funs(mean))
+
+presid.summary=as.data.frame(presid.summary)
+rownames(presid.summary)=as.character((presid.summary[,1]))
+km.res=kmeans(scale(presid.summary[,-1]), iter.max=200,
+              5)
+fviz_cluster(km.res, 
+             stand=T, repel= TRUE,
+             data = presid.summary[,-1],
+             show.clust.cent=FALSE)
+```
+
