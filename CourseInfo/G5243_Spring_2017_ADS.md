@@ -7,6 +7,7 @@
 * Classes: Fridays 2:40pm-5:25pm, Mudd 833
 * Instructor: Tian Zheng (Office hours: Mondays 12:00-2:00 PM, Room 1007, SSW).  Email: <tian.zheng@columbia.edu> [(@tz33cu)](http://github.com/tz33cu)
 * TA: Chengliang Tang. <ct2747@columbia.edu> [(@ChengliangTang)](http://github.com/ChengliangTang)
+* Course assistant: Xuechun Sun <xs2254@columbia.edu> [(@XuechunSun)](https://github.com/XuechunSun)
 * Course websites (all accessible via courseworks or github): 
   * Grades and basic course info: <http://courseworks.columbia.edu>
   * Discussion board: Piazza <https://piazza.com/class/iwl5uvemyut5fp>
