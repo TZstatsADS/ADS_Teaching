@@ -3,7 +3,7 @@
 
 [Syllabus](CourseInfo/G5243_Spring_2017_ADS.md)
 
-### Project cycle 1: (Individual) R notebook on presidential addresses
+### Project cycle 1: (Individual) R notebook on presidential addresses 
 ([starter codes](/Projects_startercodes/Project1-RNotebook/))
 #### Week 1 (1/20)
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
@@ -20,7 +20,8 @@
 #### Week 3 (2/3)
 + Project 1 presentations
 
-### Project cycle 2: shiny app development ([starter codes](Projects_startercodes/Project2_OpenData/))
+### Project cycle 2: shiny app development 
+([starter codes](Projects_startercodes/Project2_OpenData/))
 
 #### Week 3 (2/3)
 + [Project 2](Projects_startercodes/Project2_OpenData/doc/project2_desc.md) starts.
