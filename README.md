@@ -20,6 +20,9 @@
 #### Week 3 (2/3)
 + Project 1 presentations
 + [Project 2](Projects_startercodes/Project2_OpenData/doc/project2_desc.md) starts
+  + Check Piazza for your project team and GitHub join link.
+  + After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
+  + You can find an example toy shiny app and a short tutorial in the starter codes. 
 + [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html)
 
 ### Project cycle 2: shiny app development ([starter codes](link))
