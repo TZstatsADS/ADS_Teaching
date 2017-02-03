@@ -19,6 +19,8 @@
 
 #### Week 3 (2/3)
 + Project 1 presentations
++ [Project 2](Projects_startercodes/Project2_OpenData/doc/project2_desc.md) starts
++ [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html)
 
 ### Project cycle 2: shiny app development ([starter codes](link))
 #### Week 4 (2/10)
