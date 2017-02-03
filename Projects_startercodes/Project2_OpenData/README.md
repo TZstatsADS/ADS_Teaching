@@ -1,6 +1,6 @@
 # Project 2: Open Data App - an RShiny app development project
 
-### [Project Description](doc/Project2_desc.md)
+### [Project Description](doc/project2_desc.md)
 
 ![screenshot](doc/screenshot2.png)
 
