@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: 'Tutorial 2: EDAV using shiny'\nauthor: \"Tian Zheng\"\ndate: \"February 2, 2016\"\noutput: ioslides_presentation\n---\n## Load the data manipulation libraries\n\n```{r}\nlibrary(dplyr)\nlibrary(data.table)\n```\n\n## Install shiny\n```{r, eval=F}\ninstall.packages(\"shiny\")\nlibrary(shiny)\nrunExample(\"01_hello\")\n```\n\n## Data for this tutorial\nFrom NYC open data, we downloaded 2009 housing sales data of Manhattan.\n```{r}\nmh2009=read.csv(file=\"../data/ManhattanHousing.csv\")\nmh2009=\n  mh2009%>%\n  filter(ZIP.CODE>0)%>%\n  mutate(region=as.character(ZIP.CODE))\n```\n\n## Number of sales \n```{r}\ncount.df=mh2009%>%\n  group_by(region)%>%\n  summarise(\n  value=n()\n  )\nsave(count.df, file=\"../output/count.RData\")\n```\n\n## Visualize using `choroplethr`\n\"A choropleth map (from Greek χώρο (\"area/region\") + πλήθος (\"multitude\")) is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map, such as population density or per-capita income.\"\n\n## Install the package. \n```{r, eval=F}\ninstall.packages(\"choroplethr\")\n \n# install.packages(\"devtools\")\nlibrary(devtools)\ninstall_github('arilamstein/choroplethrZip@v1.4.0')\ninstall_github(\"arilamstein/choroplethrCaCensusTract@v1.1.0\")\n```\n\n## 2009 Manhattan housing sales\n```{r}\nlibrary(choroplethrZip)\nzip_choropleth(count.df,\n    title       = \"2009 Manhattan housing sales\",\n    legend      = \"Number of sales\",\n    county_zoom = 36061)\n```\n\n## Geocode addresses \nWe can obtain more geo information about individual sales.\n```{r, message=F}\nlibrary(ggmap)\nmh2009.selgeo=\n  mh2009%>%\n  sample_n(10)%>%\n  select(starts_with(\"ADD\"))%>%\n  mutate(ADDRESS_Ext=paste(ADDRESS, \"New York, NY\", sep=\",\"))%>%\n  mutate_geocode(ADDRESS_Ext)\n```\n\n## Plot using longitude and latitude\n```{r, message=F}\nqmplot(lon, lat, data=mh2009.selgeo,  colour = I(2), size = I(3))\n```\n\n## Shiny app\nA shiny app needs two files.\n- `ui.r` a user-interface script\n- `server.r` a server script (the actual analysis)\n\n## Prepare input data for the shiny app\n```{r}\nmh2009.use=\n  mh2009%>%\n  mutate(sale.month=month(as.Date(SALE.DATE, \"%m/%d/%y\")))%>%\n  mutate(sale.price=ifelse(SALE.PRICE==0, NA, SALE.PRICE))%>%\n  mutate(footage=ifelse(GROSS.SQUARE.FEET==0, NA, GROSS.SQUARE.FEET))%>%\n  mutate(unit.price=sale.price/footage)%>%\n  mutate(bldg.type=substr(BUILDING.CLASS.CATEGORY, 1, 2))%>%\n  filter(bldg.type %in% c(\"10\", \"13\", \"25\", \"28\"))%>%\n  arrange(bldg.type)\nsave(mh2009.use, file=\"../output/mh2009use.RData\")\n```\n\n## Prepare input data for the shiny app\n```{r}\nman.nbhd=c(\"Central Harlem\", \"Chelsea and Clinton\",\n           \"East Harlem\", \"Gramercy Park and Murray Hill\",\n           \"Greenwich Village and Soho\", \"Lower Manhattan\",\n           \"Lower East Side\", \"Upper East Side\", \"Upper West Side\",\n           \"Inwood and Washington Heights\")\nzip.nbhd=list(1:length(man.nbhd))\nzip.nbhd[[1]]=c(10026, 10027, 10030, 10037, 10039)\nzip.nbhd[[2]]=c(10001, 10011, 10018, 10019, 10020)\nzip.nbhd[[3]]=c(10036, 10029, 10035)\nzip.nbhd[[4]]=c(10010, 10016, 10017, 10022)\nzip.nbhd[[5]]=c(10012, 10013, 10014)\nzip.nbhd[[6]]=c(10004, 10005, 10006, 10007, 10038, 10280)\nzip.nbhd[[7]]=c(10002, 10003, 10009)\nzip.nbhd[[8]]=c(10021, 10028, 10044, 10065, 10075, 10128)\nzip.nbhd[[9]]=c(10023, 10024, 10025)\nzip.nbhd[[10]]=c(10031, 10032, 10033, 10034, 10040)\n```\n",
+    "created" : 1474579447401.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "813588207",
+    "id" : "6D97CD4A",
+    "lastKnownWriteTime" : 1472770102,
+    "last_content_update" : 1472770102,
+    "path" : "~/Dropbox/Tian_Teaching/G5243-ADS/Projects/Fall2016/Project2_OpenDataNYC/doc/Tutorial2.RMD",
+    "project_path" : "doc/Tutorial2.RMD",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
