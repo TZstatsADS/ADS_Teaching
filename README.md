@@ -31,9 +31,11 @@
     + the project description, 
     + an example toy shiny app 
     + a short tutorial to get you started.
-+ [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html)
 
 #### Week 4 (2/10)
++ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html)
++ Shiny Tutorial (Chengliang Tang)
++ Spatial visualization
 #### Week 5 (2/17)
 #### Week 6 (2/24)
 + Project 2 presentations
