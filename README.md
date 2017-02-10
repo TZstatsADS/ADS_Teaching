@@ -34,7 +34,7 @@
 
 #### Week 4 (2/10)
 + Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html)
-+ Shiny Tutorial(Chengliang Tang) [zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Shiny_tutorial.zip) + online link
++ Shiny Tutorial(Chengliang Tang) [zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Shiny_tutorial.zip)(online link) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
 + Spatial visualization
 
 #### Week 5 (2/17)
