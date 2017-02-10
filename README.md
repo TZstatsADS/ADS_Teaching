@@ -14,7 +14,7 @@
 #### Week 2 (1/27)
 + [A tutorial on GitHub](Tutorials/wk2-GitHub_simplified)
 + [An example R notebook on presidential speeches](Tutorials/wk2-TextMining)
-+ [R notebook as a presentation](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd), ([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-TextMining/Tutorial2.zip))
++ [R notebook as a presentation](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd), ([zipped folder](/Tutorials/wk2-TextMining/Tutorial2.zip))
 + Discussion and Q&A
 
 #### Week 3 (2/3)
@@ -33,9 +33,9 @@
     + a short tutorial to get you started.
 
 #### Week 4 (2/10)
-+ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html)
++ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html)[app](Projects_startercodes/Project2_OpenData/app/)
 + Shiny Tutorial(Chengliang Tang) [zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Shiny_tutorial.zip)([online link](https://chengliangtang.shinyapps.io/Shiny_tutorial/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
-+ Spatial visualization
++ [Spatial data visualization](/Tutorials/wk4-DataVis.pdf)
 
 #### Week 5 (2/17)
 #### Week 6 (2/24)
