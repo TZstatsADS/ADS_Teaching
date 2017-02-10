@@ -1,4 +1,5 @@
 library(shiny)
+library(leaflet)
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
@@ -33,7 +34,8 @@ shinyUI(fluidPage(
         # Panel 1 has three summary plots of sales. 
         tabPanel("Sales summary", plotOutput("distPlot")), 
         # Panel 2 has a map display of sales' distribution
-        tabPanel("Sales map", plotOutput("distPlot1")))
+        tabPanel("Sales map", plotOutput("distPlot1"))),
+      leafletOutput("map", width = "80%", height = "400px")
     )
  )
 ))

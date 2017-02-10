@@ -2,6 +2,9 @@ library(shiny)
 library(choroplethr)
 library(choroplethrZip)
 library(dplyr)
+library(leaflet)
+library(maps)
+library(rgdal)
 
 ## Define Manhattan's neighborhood
 man.nbhd=c("all neighborhoods", "Central Harlem", 
@@ -117,5 +120,49 @@ shinyServer(function(input, output) {
                    title       = "2009 Manhattan housing sales",
                    legend      = "Number of sales",
                    county_zoom = 36061)
+  })
+  
+  ## Panel 3: leaflet
+  output$map <- renderLeaflet({
+    count.df.sel=count.df
+    if(input$nbhd>0){
+      count.df.sel=count.df%>%
+        filter(region %in% zip.nbhd[[as.numeric(input$nbhd)]])
+    }
+    
+    # From https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u/data
+    NYCzipcodes <- readOGR("../data/ZIP_CODE_040114.shp",
+                           #layer = "ZIP_CODE", 
+                           verbose = FALSE)
+    
+    selZip <- subset(NYCzipcodes, NYCzipcodes$ZIPCODE %in% count.df.sel$region)
+    
+    # ----- Transform to EPSG 4326 - WGS84 (required)
+    subdat<-spTransform(selZip, CRS("+init=epsg:4326"))
+    
+    # ----- save the data slot
+    subdat_data=subdat@data[,c("ZIPCODE", "POPULATION")]
+    subdat.rownames=rownames(subdat_data)
+    subdat_data=
+      subdat_data%>%left_join(count.df, by=c("ZIPCODE" = "region"))
+    rownames(subdat_data)=subdat.rownames
+    
+    # ----- to write to geojson we need a SpatialPolygonsDataFrame
+    subdat<-SpatialPolygonsDataFrame(subdat, data=subdat_data)
+    
+    # ----- set uo color pallette https://rstudio.github.io/leaflet/colors.html
+    # Create a continuous palette function
+    pal <- colorNumeric(
+      palette = "Blues",
+      domain = subdat$POPULATION
+    )
+    
+    leaflet(subdat) %>%
+      addTiles()%>%
+      addPolygons(
+        stroke = T, weight=1,
+        fillOpacity = 0.6,
+        color = ~pal(POPULATION)
+      )
   })
 })
