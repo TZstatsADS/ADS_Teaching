@@ -59,6 +59,8 @@ Here the examples are for inspiration. The order is abitrary. I do not endorse a
 
 #### Stories
 
+Blogs
+
 - [50 years of crimes in US](https://public.tableau.com/en-us/s/gallery/50-years-crime-us) an interactive visualization of crime trends. 
 - [200 Years of U.S. Immigration](http://insightfulinteraction.com/immigration200years.html) a visualization that clearly demonstrated the effects of the 1924 immigration act. 
 - [311 sanitation complaints](http://www.spatialinformationdesignlab.org/projects/civic-data-management-311-sanitation-complaints)
@@ -66,6 +68,19 @@ Here the examples are for inspiration. The order is abitrary. I do not endorse a
 - [spatial.ly](http://spatial.ly/blog/) Website of Dr. James Cheshire, a geographer on spatial visualizations that tell stories.
 - [NYC taxi data](http://www.andresmh.com/nyctaxitrips/), some [exploration](http://hafen.github.io/taxi/#initial-exploration), a cool [visualization](http://nyctaxi.herokuapp.com/).
 - [Winners of New York City Tree Counts DataJam](http://treescountdatajam.devpost.com/updates/5503-and-the-winners-are)
+
+News articles:
+<ul>
+<li>Reuters graphics - <a href="http://fingfx.thomsonreuters.com/gfx/rngs/CHINA-DEBT-GRAPHIC/0100315H2LG/index.html" target="_blank">China's debt problem</a></li>
+<li>NYT: <a href="http://www.nytimes.com/interactive/2012/10/15/us/politics/swing-history.html?_r=0" target="_blank">over the decades, how states have shifted</a> (sankey diagram similar to this can be made using the <a href="https://christophergandrud.github.io/networkD3/" target="_blank">networkD3</a> package, or <a href="https://sites.dartmouth.edu/learninganalytics/2016/08/22/analyzing-content-access-to-inform-content-design/" target="_blank">givsSankey</a> package)</li>
+<li>Medium: <a href="https://medium.com/@dqn/what-i-use-for-data-driven-journalism-4333364db944#.12xqj44g8" target="_blank">What I use for data-driven journalism</a></li>
+</ul><a href="https://medium.com/@dqn/what-i-use-for-data-driven-journalism-4333364db944#.12xqj44g8" target="_blank"></a>
+
+Examples
+<ul>
+<li><a href="http://www.r-graph-gallery.com/portfolio/interactive-r-graphics/" target="_blank">Interactive graphics </a>from <a href="http://www.r-graph-gallery.com/" target="_blank">R Graph Gallery</a></li>
+<li><a href="http://moderndata.plot.ly/15-python-and-r-charts-with-interactive-controls-buttons-dropdowns-and-sliders/ " target="_blank"> Plotly: 15 interactive charts with sliders, dropdowns, and buttons </a></li>
+</ul>
 
 #### A small set of potential tools 
 
@@ -78,5 +93,12 @@ Here the examples are for inspiration. The order is abitrary. I do not endorse a
 - [RGoogleMaps](https://cran.r-project.org/web/packages/RgoogleMaps/)
 - [Geocoding in R](http://www.rpubs.com/cengel248/177198)
 - [postGIS](http://rpubs.com/dgolicher/6373) process and visualize spatial data
+- [leaflet](https://rstudio.github.io/leaflet/shiny.html) interactive spatial visualization.
 - [Geo Visualization using ggplot and ggmap](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf)
 - [Build your own Shiny server on AWS](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/), [[Amazon Machine Image](http://www.louisaslett.com/RStudio_AMI/)]
+
+#### Paper to read
+<ul>
+<li><a href="http://www.stat.columbia.edu/~gelman/research/published/vis14.pdf" target="_blank">Infovis and Statistical Graphics</a> (Gelman and Unwin)</li>
+</ul>
+
