@@ -38,6 +38,10 @@
 + [Spatial data visualization](/Tutorials/wk4-DataVis.pdf)
 
 #### Week 5 (2/17)
++ Feebback on project 1
++ [Tutorial on giving presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/MakingPresentation.pdf)
++ Brainstorm on project 2
+
 #### Week 6 (2/24)
 + Project 2 presentations
 
