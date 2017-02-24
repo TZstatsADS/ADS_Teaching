@@ -45,7 +45,7 @@
 #### Week 6 (2/24)
 + Project 2 presentations
 
-### Project cycle 3: predictive modeling ([starter codes](link))
+### Project cycle 3: predictive modeling ([starter codes](Projects_startercodes/Project3_PoodleKFC))
 
 #### Week 6 (2/24)
 + [Project 2](Projects_startercodes/Project3_PoodleKFC/doc/project3_desc.md) starts.
