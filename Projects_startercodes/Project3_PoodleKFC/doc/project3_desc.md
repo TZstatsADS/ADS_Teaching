@@ -1,11 +1,11 @@
-### STAT GU4243/GR5243 Spring 2017 Applied Data Science
+## STAT GU4243/GR5243 Spring 2017 Applied Data Science
 ### Project 3 Predictive analytics-model evaluation and selection
 
-#### - for poodle versus fried chickens (KFC?)
+### - for poodle versus fried chickens (KFC?)
 
 In this project, we will carry out **model evaluation and selection** for predictive analytics on image data. As data scientists, we often need to **evaluate** different modeling/analysis strategies and decide what is the best. Such decisions need to be supported by sound evidence in the form of *model assessment, validation and comparison*. In addition, we also need to **communicate our decision and supporting evidence** clearly and convincingly in an accessible fashion.
 
-##### Challenge
+#### Challenge
 For this project, you will receive [a set of 2000 greyscale images of poodle dogs and fried chickens](https://drive.google.com/open?id=0B0_uWEzqIWoENDB5RmZZWG5wTFU)[require logged into Columbia LionMail in your browser]. Here is an alternative [data link](https://drive.google.com/open?id=0B9sEbphmsGtERlNHMWR6WmxyRDg). These two links lead to **identical** data. 
 
 Your client is interested in creating an mobile AI program that accurately distinguish pictures of poodle dogs from pictures of fried chicken. 
@@ -16,13 +16,43 @@ The portability of this AI program (holding storage and memory cost) and the com
 
 Assume that the **current practice** on your client side is just using [boosted](https://en.wikipedia.org/wiki/Boosting_(machine_learning)) [decision stumps](https://en.wikipedia.org/wiki/Decision_stump) on [SIFT features](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform). `R` pakcage [`gbm`](https://cran.r-project.org/package=gbm) can be used to implement this classifier. 
 
+#### Evaluation criteria 
+- Ease of reproducibility by the client (the instruction team)
+	* are the codes for the proposed methods well annotated and documented?
+	* can the analysis be re-run nearly automatically using the project's `main.rmd`.
+- Level of reproducibility
+	* Can client derive the same evaluation conclusion as presented in the team's final presentation?
+	* How close are the reported performances (presentation and online) to the reproduced performances?
+- Portability of proposed strategies
+	* Computational speed for feature extraction and model training.
+	* Computational speed for prediction.
+	* Memory use for model training and prediction.- Presentation and organization
+	* Is the presentation convincing about the intuition of the proposed strategies?
+	* Is it supported by adequate and appropriate evidence?
+	* Is the GitHub organized and prepared in a way that makes it easier for readers to understand the proposed strategies and its advantages and limitations?
+
+*(More details will be posted as grading rubrics in courseoworks/canvas)*
+
+#### Project details
+
 For this project, you are to carry out a business feasibility evaluation project that try to propose a **feasible** improvement over the current practice in terms of running cost (storage, memory and time) **and** prediction accuracy. 
 
-Throughout the course of this project, we will give tutorials on the following topics:
+##### Project time table.
 
-- Image processing and features extraction.
-- Overview of classification in terms of model evaluation and comparison.
+- week 1 (2/24): introduction and project description
+- week 2 (3/3): image processing and feature extraction
+- week 3 (3/10): supervised learning and model assessment
+- Final presentation (3/24)
 
+##### Project learning support 
+
+Each week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
+
+
+
+
+
+##### Final presentation
 For presentation, the team should present their **proposal** for an improvement and support this proposal with evidence on 
 
 - Performance improvement;
@@ -64,15 +94,6 @@ GitHub_proj/
 - The `output` folder is the holding place for feature extracted, other intermediate and final results.
 
 The instructional team will download each team's GitHub repo and cross-examine each team's proposal for reproducibility on the current dataset and for reliability using a different dataset.
-
-##### Project learning support 
-
-Each week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
-
-- week 1 (2/24): introduction and project description
-- week 2 (3/3): image processing and feature extraction
-- week 3 (3/10): supervised learning and model assessment
-- Final presentation (3/24)
 
 ##### Suggested team workflow
 1. [wk1] Week 1 is the **planning** week. Read data description, fully understand the **project requirement**, and browse data and the starter codes. 
