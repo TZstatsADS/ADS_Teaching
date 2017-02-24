@@ -47,6 +47,14 @@
 
 ### Project cycle 3: predictive modeling ([starter codes](link))
 
+#### Week 6 (2/24)
++ [Project 2](Projects_startercodes/Project3_PoodleKFC/doc/project3_desc.md) starts.
+  + Check Piazza for your project team and GitHub join link.
+  + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
+  + You can find in the *starter codes* 
+    + the project description, 
+    + an example project 
+
 #### Week 7 (3/3)
 #### Week 8 (3/10)
 #### *spring break*
