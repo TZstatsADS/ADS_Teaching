@@ -54,6 +54,8 @@
   + You can find in the *starter codes* 
     + the project description, 
     + an example project 
++ [Intro to Project 2](Tutorials/wk6-Project_evaluation.pdf) 
++ [Example `main.rmd`][Project 2](Projects_startercodes/Project3_PoodleKFC/doc/main.rmd) ([pdf]([Project 2](Projects_startercodes/Project3_PoodleKFC/doc/main.pdf)))
 
 #### Week 7 (3/3)
 #### Week 8 (3/10)
