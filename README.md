@@ -55,7 +55,7 @@
     + the project description, 
     + an example project 
 + [Intro to Project 2](Tutorials/wk6-Project_evaluation.pdf) 
-+ [Example `main.rmd`](Projects_startercodes/Project3_PoodleKFC/doc/main.rmd) ([pdf](Projects_startercodes/Project3_PoodleKFC/doc/main.pdf))
++ [Example `main.Rmd`](Projects_startercodes/Project3_PoodleKFC/doc/main.Rmd) ([pdf](Projects_startercodes/Project3_PoodleKFC/doc/main.pdf))
 
 #### Week 7 (3/3)
 #### Week 8 (3/10)
