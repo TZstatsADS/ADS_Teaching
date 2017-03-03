@@ -59,6 +59,7 @@
 
 #### Week 7 (3/3)
 + Tutorial (Chengliang) on [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/eda5671a/Tutorials/wk7-Image%20Analysis/EBImage/image_analysis.html) and SIFT
+
 #### Week 8 (3/10)
 #### *spring break*
 #### Week 9 (3/24) 
