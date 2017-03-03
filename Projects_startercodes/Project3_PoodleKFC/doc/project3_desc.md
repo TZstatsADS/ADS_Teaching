@@ -26,7 +26,8 @@ Assume that the **current practice** on your client side is just using [boosted]
 - Portability of proposed strategies
 	* Computational speed for feature extraction and model training.
 	* Computational speed for prediction.
-	* Memory use for model training and prediction.- Presentation and organization
+	* Memory use for model training and prediction.
+- Presentation and organization
 	* Is the presentation convincing about the intuition of the proposed strategies?
 	* Is it supported by adequate and appropriate evidence?
 	* Is the GitHub organized and prepared in a way that makes it easier for readers to understand the proposed strategies and its advantages and limitations?
