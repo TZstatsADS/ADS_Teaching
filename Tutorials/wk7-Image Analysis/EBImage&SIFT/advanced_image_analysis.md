@@ -71,7 +71,6 @@ After getting a set of "good" keypoints, we need to quantify the characteristics
 	- It is weighted by gradient magnitude and gaussian-weighted circular window with $\sigma$ equal to 1.5 times the scale of keypoint. 
 * The highest peak in the histogram is taken and any peak above 80% of it is also considered to calculate the orientation. It creates keypoints with same location and scale, but different directions. So, orientation can split up one keypoint into multiple keypoints.
 ![Alt text](./demo_img/orient2.png)
-<img src="http://aishack.in/static/img/tut/sift-orientation-histogram.jpg" style="border:none;">
 
 * It contribute to stability of matching.
 
