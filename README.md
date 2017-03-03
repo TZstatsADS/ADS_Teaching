@@ -14,7 +14,7 @@
 #### Week 2 (1/27)
 + [A tutorial on GitHub](Tutorials/wk2-GitHub_simplified)
 + [An example R notebook on presidential speeches](Tutorials/wk2-TextMining)
-+ [R notebook as a presentation](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd), ([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-TextMining/Tutorial2.zip))
++ [R notebook as a presentation](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd), ([zipped folder](/Tutorials/wk2-TextMining/Tutorial2.zip))
 + Discussion and Q&A
 
 #### Week 3 (2/3)
@@ -33,15 +33,29 @@
     + a short tutorial to get you started.
 
 #### Week 4 (2/10)
-+ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html)
-+ Shiny Tutorial (Chengliang Tang)
-+ Spatial visualization
++ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html) ([app](Projects_startercodes/Project2_OpenData/app/))
++ Shiny Tutorial (Chengliang Tang) ([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/Shiny_tutorial/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
++ [Spatial data visualization](/Tutorials/wk4-DataVis.pdf)
 
 #### Week 5 (2/17)
++ Feebback on project 1
++ [Tutorial on giving presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/MakingPresentation.pdf)
++ Brainstorm on project 2
+
 #### Week 6 (2/24)
 + Project 2 presentations
 
-### Project cycle 3: predictive modeling ([starter codes](link))
+### Project cycle 3: predictive modeling ([starter codes](Projects_startercodes/Project3_PoodleKFC))
+
+#### Week 6 (2/24)
++ [Project 3](Projects_startercodes/Project3_PoodleKFC/doc/project3_desc.md) starts.
+  + Check Piazza for your project team and GitHub join link.
+  + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
+  + You can find in the *starter codes* 
+    + the project description, 
+    + an example project 
++ [Intro to Project 3](Tutorials/wk6-Project_evaluation.pdf) 
++ [Example `main.Rmd`](Projects_startercodes/Project3_PoodleKFC/doc/main.Rmd) ([pdf](Projects_startercodes/Project3_PoodleKFC/doc/main.pdf))
 
 #### Week 7 (3/3)
 #### Week 8 (3/10)
