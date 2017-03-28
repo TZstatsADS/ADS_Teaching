@@ -1,7 +1,7 @@
-## Stat GU4243/G5243 Applied Data Science
+# Stat GU4243/G5243 Applied Data Science
 ### Spring 2017 - Teaching Materials
-
 [Syllabus](CourseInfo/G5243_Spring_2017_ADS.md)
+
 ### Table of Contents
 1. [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses)
 2. [Project 2](#project-cycle-2-shiny-app-development)
