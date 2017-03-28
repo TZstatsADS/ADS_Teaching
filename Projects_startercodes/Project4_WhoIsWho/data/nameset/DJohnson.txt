@@ -1,0 +1,368 @@
+10_1 D Johnson; An V Le ; John D Wilkins ; Stephen M Matyas<>Design of the Commercial Data Masking Facility Data Privacy Algorithm <>ACM Conference Computer and Communications Security
+10_2 D Johnson; An V Le ; John D Wilkins ; Stephen M Matyas<>A Public Key Extension to the Common Cryptographic Architecture <>IBM Systems Journal
+10_3 D Johnson; George M Dolan<>Transaction Security System Extensions to the Common Cryptographic Architecture <>IBM Systems Journal
+10_4 D Johnson; An V Le ; George M Dolan ; Michael J Kelly ; Stephen M Matyas<>Common Cryptographic Architecture Cryptographic Application Programming Interface <>IBM Systems Journal
+11_1 D Johnson; David J Lilja ; John Riedl<>A Distributed Hardware Mechanism for Process Synchronization on Shared-Bus Multiprocessors <>ICPP International Conference Parallel Processing
+11_2 D Johnson; David J Lilja ; John Riedl<>A Circulating Active Barrier Synchronization Mechanism <>ICPP International Conference Parallel Processing
+11_3 D Johnson; David J Lilja ; James Anderson ; John Riedl<>Low-Cost, High-Performance Barrier Synchronization on Networks of Workstations <>J Parallel Distrib Comput
+12_1 D Johnson; Daniel R L Brown<>Formal Security Proofs for a Signature Scheme with Partial Message Recovery <>RSA
+12_2 D Johnson; <>AES and Future Resiliency: More Thoughts and Questions <>AES Candidate Conference
+13_1 D Johnson; Brian Kingsbury ; James Beck ; John Wawrzynek ; Krste Asanovic ; Nelson Morgan<>SPERT-II: A Vector Microprocessor System and its Application to Large Problems in Backpropagation Training <>NIPS Neural Information Processing Systems
+13_2 D Johnson; Brian Kingsbury ; James Beck ; John Wawrzynek ; Krste Asanovic ; Nelson Morgan<>Spert-II: A Vector Microprocessor System <>IEEE Computer
+14_1 D Johnson; <>Trap Architectures for Lisp Systems <>LISP and Functional Programming
+14_2 D Johnson; <>The Case for a Read Barrier <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+15_1 D Johnson; Charles Berman ; James Coplien ; John Daniels ; Kenneth S Rubin ; Laura Hill<>Managing Object Oriented Projects - Panel Session <>OOPSLA Conference Object Oriented Programming Systems Languages and Applications
+15_2 D Johnson; Charles Berman ; James Coplien ; John Daniels ; Kenneth S Rubin ; Laura Hill<>Object-oriented project management panel <>OOPS Messenger
+1_16 D Johnson;<>Network Design,<>J Algorithms
+1_17 D Johnson;<>Interactive Proof Systems for Fun and Profit,<>J Algorithms
+1_18 D Johnson;<>Updates, Updates, Updates,<>J Algorithms
+1_19 D Johnson;<>Approximation Algorithms for Combinatorial Problems<>STOC ACM Symposium Theory of Computing
+1_140 D Johnson;D S Johnson; J K Lenstra; A H G Rinnooy Kan<>The Complexity of the Network Design Problem,<>Networks
+1_141 D Johnson;D S Johnson; F P Preparata<>The Densest Hemisphere Problem,<>Theoretical Comp Sci
+1_142 D Johnson;D S Johnson<>The Genealogy of Theoretical Computer Science,<>SIGACT News
+1_143 D Johnson;D S Johnson; M Minkoff;; S Phillips<>The Prize Collecting Steiner Tree Problem: Theory and Practice,<>Proc th Ann ACM SIAM Society for Industrial and Applied Mathematics Symp Discrete Algorithms
+1_144 D Johnson;D S Johnson ; L A McGeoch<>The Traveling Salesman Problem: A Case Study in Local Optimization,<>Local Search Combinatorial Optimization E H L Aarts and J K Lenstra editors John Wiley and Sons Ltd
+1_145 D Johnson;D S Johnson ; A Klug<>Testing Containment of Conjunctive Queries under Functional and Inclusion Dependencies,<>Journal of Computer and Systems Sciences
+1_90 D Johnson;M R Garey<>Scheduling Tasks with Nonuniform Deadlines on Two Processors <>J ACM
+1_146 D Johnson;D S Johnson <>A Theoretician's Guide to the Experimental Analysis of Algorithms,<> Proceedings of the th and th DIMACS Implementation Challenges M Goldwasser D S Johnson and C C McGeoch Editors American Mathematical Society
+1_91 D Johnson;M R Garey; R L Graham; D S Johnson<>Some NP-Complete Geometric Problems,<>Proc th Annual ACM Symp Theory of Computing
+1_147 D Johnson;Claire Kenyon ; J&aacute;nos Csirik<>Better approximation algorithms for bin covering <>SODA Symposium Discrete Algorithms
+1_92 D Johnson;M R Garey; D S Johnson ; L Stockmeyer<>Some Simplified NP-Complete Graph Problems,<>Theoretical Comp Sci
+1_148 D Johnson;Claire Kenyon ; J&aacute;nos Csirik ; James B Orlin ; Peter W Shor ; Richard R Weber<>On the sum-of-squares algorithm for bin packing <>STOC ACM Symposium Theory of Computing
+1_93 D Johnson;M R Garey<>``Strong'' NP-Completeness Results: Motivation, Examples, and Implications <>J ACM
+1_149 D Johnson;Claire Kenyon ; J&aacute;nos Csirik ; Peter W Shor ; Richard R Weber<>A Self Organizing Bin Packing Heuristic <>ALENEX Algorithm Engineering and Experiments
+1_94 D Johnson;M R Garey; D S Johnson; G L Miller ; C H Papadimitriou<>The Complexity of Coloring Circular Arcs and Chords,<>SIAM Society for Industrial and Applied Mathematics J Algebraic and Discrete Methods
+1_95 D Johnson;M R Garey; R L Graham ; D S Johnson<>The Complexity of Computing Steiner Minimal Trees,<>SIAM Society for Industrial and Applied Mathematics J Appl Math
+1_96 D Johnson;M R Garey; D S Johnson; R Sethi<>The Complexity of Flowshop and Jobshop Scheduling,<>Math of Oper Research
+1_97 D Johnson;M R Garey<>The Complexity of Near-Optimal Graph Coloring <>J ACM
+1_98 D Johnson;M R Garey; D S Johnson; H S Witsenhausen<>The Complexity of the Generalized Lloyd-Max Problem,<>IEEE Trans Information Theory IT
+1_99 D Johnson;M R Garey ; Robert Endre Tarjan<>The Planar Hamiltonian Circuit Problem is NP-Complete <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_20 D Johnson;<>Approximation Algorithms for Combinatorial Problems <>J Comput Syst Sci
+1_21 D Johnson;<>Parallel Processing,<>J Algorithms
+1_22 D Johnson;<>Partitioning, Covering, and Packing Problems,<>J Algorithms
+1_23 D Johnson;<>Oracles, Bin Packing, and and Ordering Problems,<>J Algorithms
+1_24 D Johnson;<>Randomized Algorithms and Complexity Classes,<>J Algorithms
+1_25 D Johnson;<>Routing Problems,<>J Algorithms
+1_26 D Johnson;<>Solving NP-Hard Problems Quickly On Average ,<>J Algorithms
+1_27 D Johnson;<>The Many Faces of Polynomial Time,<>J Algorithms
+1_28 D Johnson;<>The NP-Completeness Column: An Ongoing Guide <>J Algorithms
+1_29 D Johnson;<>The Story So Far,<>J Algorithms
+1_150 D Johnson;Daniel J Kleitman ; Joseph Y -T Leung ; S F Assmann<>On a Dual Version of the One-Dimensional Bin Packing Problem <>J Algorithms
+1_151 D Johnson;Anthony C Klug<>Optimizing Conjunctive Queries When Attribute Domains Are not Disjoint Extended Abstract <>FOCS IEEE Symposium Foundations of Computer Science
+1_152 D Johnson;Anthony C Klug<>Optimizing Conjunctive Queries that Contain Untyped Variables <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_153 D Johnson;Anthony C Klug<>Testing Containment of Conjunctive Queries Under Functional and Inclusion Dependencies <>PODS Symposium Principles of Database Systems
+1_154 D Johnson;Anthony C Klug<>Testing Containment of Conjunctive Queries under Functional and Inclusion Dependencies <>J Comput Syst Sci
+1_155 D Johnson;Andrea S LaPaugh ; Ron Y Pinter<>Minimizing Channel Density by Lateral Shifting of Components <>SODA Symposium Discrete Algorithms
+1_156 D Johnson;Andrea S LaPaugh ; Edward G Coffman ; M R Garey<>Scheduling File Transfers <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_157 D Johnson;Andrea S LaPaugh ; Edward G Coffman ; M R Garey<>Scheduling File Transfers in a Distributed Network <>PODC Symposium Principles of Distributed Computing
+1_158 Z M Mao; D Johnson; O Spatscheck; J E van der Merwe;; J Wang<>Efficient and robust streaming provisioning in VPNs,<>Proceedings WWW World Wide Web Conference Series
+1_159 Z M Mao; D Johnson; J Rexford; J Wang;; R Katz<>Scalable and accurate identification of AS-level forwarding paths,<> Proceedings INFOCOM The Conference Computer Communications
+1_30 D Johnson;<>The Tale of the Second Prover,<>J Algorithms
+1_31 D Johnson;<>The Twelve Open Problems From [G&J]<>Updates J Algorithms
+1_32 D Johnson;<>The Traveling Salesman Problem: A report on the State of the Art <>IFIP International Federation for Information Processing Congress
+1_33 D Johnson;D L Applegate; L S Buriol; B L Dillard; D S Johnson;; P W Shor <>The Cutting-Stock Approach to Bin Packing: Theory and Experiments,<>Procedings of the Fifth Workshop Algorithm Engineering and Experimentation R E Ladner Editor SIAM Society for Industrial and Applied Mathematics
+1_34 D Johnson;C R Aragon; D S Johnson; L A McGeoch; C Schevon<>Optimization by Simulated Annealing: An Experimental Evaluation; Part II, Graph Coloring and Number Partitioning,<>Operations Research
+1_35 D Johnson;S F Assmann; D S Johnson; D J Kleitman; J Y -T Leung<>On a Dual Version of the One-Dimensional Bin Packing Problem,<>J Algorithms
+1_36 D Johnson;Alexander I Barvinok ; Arie Tamir ; Gerhard J Woeginger ; Russell Woodroofe ; S&aacute;ndor P Fekete<>The geometric maximum traveling salesman problem <>J ACM
+1_37 D Johnson;Alexander I Barvinok ; Gerhard J Woeginger ; Russell Woodroofe<>The Maximum Traveling Salesman Problem Under Polyhedral Norms <>IPCO Integer Programming Combinatorial Optimization
+1_38 D Johnson;J L Bentley; D S Johnson; F T Leighton ; C C McGeoch<>An Experimental Study of Bin Packing,<>Proc st Ann Allerton Conf Communication Control and Computing
+1_39 D Johnson;J L Bentley; D S Johnson; F T Leighton; C C McGeoch; L A McGeoch<>Some Unexpected Behavior Results for Bin-Packing,<>Proc th Ann ACM Symp Theory of Computing
+1_160 D Johnson;Catherine C McGeoch ; Frank Thomson Leighton ; Jon Louis Bentley ; Lyle A McGeoch<>Some Unexpected Expected Behavior Results for Bin Packing<>STOC ACM Symposium Theory of Computing
+1_161 D Johnson;N S Megiddo; S L Hakimi; M R Garey; D S Johnson; C H Papadimitriou<>The Complexity of Searching a Graph,<>J Assoc Comp Mach
+1_162 D Johnson;Jacobus E van der Merwe ; Jia Wang ; Oliver Spatscheck ; Zhuoqing Morley Mao<>Efficient and robust streaming provisioning in VPNs <>WWW World Wide Web Conference Series
+1_163 D Johnson;Maria Minkoff ; Steven Phillips<>The prize collecting Steiner tree problem: theory and practice <>SODA Symposium Discrete Algorithms
+1_164 D Johnson;G Ostheimer ; Lyle A McGeoch ; Michael L Fredman<>Data Structures for Traveling Salesmen <>SODA Symposium Discrete Algorithms
+1_165 D Johnson;G Ostheimer ; Lyle A McGeoch ; Michael L Fredman<>Data Structures for Traveling Salesmen <>J Algorithms
+1_166 D Johnson;Christos H Papadimitriou ; Mihalis Yannakakis<>How Easy is Local Search?<>J Comput Syst Sci
+1_167 D Johnson;Christos H Papadimitriou ; Mihalis Yannakakis<>How Easy Is Local Search? Extended Abstract <>FOCS IEEE Symposium Foundations of Computer Science
+1_168 D Johnson;Christos H Papadimitriou<>On Generating All Maximal Independent Sets <>Inf Process Lett
+1_169 D Johnson;Christos H Papadimitriou ; Elias Dahlhaus ; Mihalis Yannakakis ; Paul D Seymour<>The Complexity of Multiway Cuts Extended Abstract <>STOC ACM Symposium Theory of Computing
+1_40 D Johnson;Francine Berman ; Frank Thomson Leighton ; Larry Snyder ; Peter W Shor<>Generalized Planar Matching <>J Algorithms
+1_41 D Johnson;Francine Berman<>Performance of the Efficient Data-Driven Evaluation Scheme <>J Parallel Distrib Comput
+1_42 D Johnson;W M Boyce; M R Garey; D S Johnson<>A Note on Bisecting Minimum Spanning Trees,<>Networks
+1_43 D Johnson;P Brucker; M R Garey; D S Johnson<>Scheduling Equal-Length Tasks Under Treelike Precedence Constraints to Minimize Maximum Lateness,<>Math of Oper Research
+1_44 D Johnson;F R K Chung; M R Garey; D S Johnson<>On Packing Two-Dimensional Bins,<>SIAM Society for Industrial and Applied Mathematics J Algebraic and Discrete Methods
+1_45 D Johnson;V Chvatal; M R Garey; D S Johnson<>Two Results Concerning Multicoloring,<>Ann Disc Math
+1_46 D Johnson;Jill Cirasella ; Lyle A McGeoch ; Weixiong Zhang<>The Asymmetric Traveling Salesman Problem: Algorithms, Instance Generators, and Tests <>ALENEX Algorithm Engineering and Experiments
+1_47 D Johnson;E G Coffman; ; M R Garey; D S Johnson<>Bin Packing with Divisible Item Sizes,<>J Complexity
+1_48 D Johnson;E G Coffman; ; D S Johnson; L A McGeoch; P W Shor; R R Weber<>Bin Packing with Discrete Item Sizes, Part III: Average Case Behavior of FFD and BFD,<>
+1_49 D Johnson;E G Coffman; ; C A Courcoubetis; M R Garey; D S Johnson; P W Shor; R R Weber;; M Yannakakis<>Bin Packing with Discrete Item Sizes, Part I: Perfect Packing Theorems and the Average Case Behavior of Optimal Packings,<>SIAM Society for Industrial and Applied Mathematics J Discrete Math
+1_170 D Johnson;Christos H Papadimitriou ; Elias Dahlhaus ; Mihalis Yannakakis ; Paul D Seymour<>The Complexity of Multiterminal Cuts <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_171 D Johnson;Christos H Papadimitriou ; M R Garey ; Nimrod Megiddo ; S Louis Hakimi<>The complexity of searching a graph <>J ACM
+1_172 D Johnson;Christos H Papadimitriou ; M R Garey ; Nimrod Megiddo ; S Louis Hakimi<>The Complexity of Searching a Graph Preliminary Version <>FOCS IEEE Symposium Foundations of Computer Science
+1_173 D Johnson;Franco P Preparata<>The Densest Hemisphere Problem <>Theor Comput Sci
+1_174 D Johnson;Franco P Preparata ; M R Garey ; Robert Endre Tarjan<>Triangulating a Simple Polygon <>Inf Process Lett
+1_175 D Johnson;Edward E Rothberg ; Lyle A McGeoch<>Asymptotic Experimental Analysis for the Held-Karp Traveling Salesman Bound <>SODA Symposium Discrete Algorithms
+1_176 D Johnson;Barbara B Simons ; M R Garey ; Robert Endre Tarjan<>Scheduling Unit-Time Tasks with Arbitrary Release Times and Deadlines <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_177 D Johnson;H C So ; M R Garey<>An Application of Graph Coloring to Printed Circuit Testing Working Paper <>FOCS IEEE Symposium Foundations of Computer Science
+1_178 D Johnson;Larry J Stockmeyer ; M R Garey<>Some Simplified NP-Complete Graph Problems <>Theor Comput Sci
+1_179 D Johnson;Larry J Stockmeyer ; M R Garey<>Some Simplified NP-Complete Problems<>STOC ACM Symposium Theory of Computing
+1_100 D Johnson;M R Garey<>The Rectilinear Steiner Tree Problem in NP Complete <>SIAM Society for Industrial and Applied Mathematics Journal of Applied Mathematics
+1_101 D Johnson;M R Garey; D S Johnson<>The Rectilinear Steiner Tree Problem is NP-Complete,<>SIAM Society for Industrial and Applied Mathematics J Appl Math
+1_102 D Johnson;M R Garey; D S Johnson<>A / Theorem for Bin Packing,<>J Complexity
+1_103 D Johnson;M R Garey; D S Johnson<>Two-Processor Scheduling with Start-Times and Deadlines,<>SIAM Society for Industrial and Applied Mathematics J Computing
+1_104 D Johnson;M R Garey; D S Johnson; F P Preparata ; R E Tarjan<>Triangulating a Simple Polygon,<>Information Processing Letters
+1_50 D Johnson;Edward G Coffman ; Peter W Shor ; Richard R Weber<>Bin packing with discrete item sizes, part II: Tight bounds on First Fit <>Random Structures and Algorithms
+1_105 D Johnson;M Goldwasser; D S Johnson; ; C C McGeoch Editors <>Proceedings of the th and th DIMACS Implementation Challenges,<>American Mathematical Society
+1_51 D Johnson;E G Coffman; M R Garey; D S Johnson<>Dynamic Bin Packing,<>SIAM Society for Industrial and Applied Mathematics J Computing
+1_106 D Johnson;Z J Haas; J H Winters; ; D S Johnson<>Simulation Results of the Capacity of Cellular Systems,<>IEEE Trans Vehicular Technology
+1_52 D Johnson;E G Coffman; ; C A Courcoubetis; M R Garey; D S Johnson; L A McGeoch; P W Shor; R R Weber; M Yannakakis<>Fundamental Discrepancies between Average-Case Analyses under Discrete and Continuous Distributions: A Bin Packing Case Study,<>Proc rd Ann ACM Symp Theory of Computing Journal versions See below
+1_107 D Johnson;Frank K Hwang ; M R Garey<>Algorithms for a Set Partitioning Problem Arising in the Design of Multipurpose Units <>IEEE Trans Computers
+1_53 D Johnson;E G Coffman; ; D S Johnson; F T Leighton; P W Shor; R R Weber<>Average Case Behavior of FFD and Optimal Bin Packings on U[ ,a] Distributions,<>
+1_108 D Johnson;J&aacute;nos Csirik<>Bounded Space On-Line Bin Packing: Best is Better than First <>SODA Symposium Discrete Algorithms
+1_54 D Johnson;E G Coffman; ; D S Johnson; P W Shor; R R Weber<>Markov Chains, Computer Proofs, and Average-Case Analysis of Best Fit Bin Packing,<>Proc th Ann ACM Symp Theory of Computing
+1_109 D Johnson;J&aacute;nos Csirik<>Bounded Space On-Line Bin Packing: Best Is Better than First <>Algorithmica
+1_55 D Johnson;Edward G Coffman ; M R Garey<>An Application of Bin-Packing to Multiprocessor Scheduling <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_56 D Johnson;E G Coffman; M R Garey; D S Johnson<>Approximation Algorithms for Bin-Packing - An Updated Survey,<>Algorithm Design for Computer System Design G Ausiello M Lucertini and P Serafini editors Springer Verlag
+1_57 D Johnson;E G Coffman; ; M R Garey;; D S Johnson<>Approximation Algorithms for Bin Packing: A Survey,<>Approximation Algorithms for NP Hard Problems D Hochbaum editor PWS Publishing
+1_58 D Johnson;E G Coffman; ; D S Johnson; G S Lueker; P W Shor<>Probabilistic Analysis of Packing and Related Partitioning Problems,<>Statistical Science
+1_59 D Johnson;E G Coffman; ; C Courcoubetis; M R Garey; D S Johnson; P W Shor; R R Weber;; M Yannakakis<>Perfect Packing Theorems and the Average Case Behavior of Optimal and Online Bin Packing,<>SIAM Society for Industrial and Applied Mathematics Review Updated version of above
+1_180 D Johnson;Mario Szegedy<>What are the Least Tractable Instances of max Tndependent Set?<>SODA Symposium Discrete Algorithms
+1_181 D Johnson;C Young; D S Johnson; D R Karger; M D Smith<>Near-optimal Intraprocedural Branch Alignment,<>Proceedings Symp Programming Languages Design and Implementation
+1_110 D Johnson;D S Johnson Editor ; Maintainer <> th DIMACS Implementation Challenge: The Traveling Salesman Problem,<> http www research att com dsj chtsp index html
+1_111 D Johnson;D S Johnson Editor <>Challenges for Theoretical Computer Science: DRAFT June ,<> http www research att com dsj nsflist html
+1_112 D Johnson;D S Johnson Editor <>STOC/FOCS Bibliography,<>ACM Press
+1_113 D Johnson;D S Johnson; M A Trick Editors <>Cliques, Coloring, and Satisfiability: Proceedings of the nd DIMACS Implementation Challenge,<>American Mathematical Society
+1_114 D Johnson;D S Johnson; C H Papadimitriou<>Computational Complexity,<>The Traveling Salesman Problem E L Lawler J K Lenstra A H G Rinnooy Kan and D B Shmoys editors John Wiley and Sons Ltd
+1_60 D Johnson;Edward G Coffman ; M R Garey ; Robert Endre Tarjan<>Performance Bounds for Level-Oriented Two-Dimensional Packing Algorithms <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_115 D Johnson;D S Johnson<>A Catalogue of Complexity Classes,<>The Handbook of Theor Comp Sci J Van Leeuwen editor Elsevier
+1_61 D Johnson;E G Coffman; ; M R Garey; D S Johnson ; A S LaPaugh<>Scheduling File Transfers,<>SIAM Society for Industrial and Applied Mathematics J Comput
+1_116 D Johnson;D S Johnson; T Nishizeki; A Nozaki; H S Wilf Editors <>Discrete Algorithms and Complexity: Proceedings of the Japan-US Joint Seminar, June - , , Kyoto, Japan,<>Academic Press New
+1_62 D Johnson;C J Colbourn ; D S Johnson<>Unit Disk Graphs,<>Discrete Math
+1_117 D Johnson;D S Johnson<>Fast Algorithms for Bin Packing,<>Journal of Computer and System Sciences
+1_63 D Johnson;Costas Courcoubetis ; Edward G Coffman ; M R Garey ; Mihalis Yannakakis ; Peter W Shor ; Richard R Weber<>Bin Packing with Discrete Item Sizes, Part I: Perfect Packing Theorems and the Average Case Behavior of Optimal Packings <>SIAM Society for Industrial and Applied Mathematics J Discrete Math
+1_118 D Johnson;D S Johnson; C H Papadimitriou; M Yannakakis<>How Easy is Local Search?,<>Journal of Computer and System Sciences Preliminary version Proc th Ann IEEE Symp Foundations of Computer Science
+1_64 D Johnson;Costas Courcoubetis ; Edward G Coffman ; Lyle A McGeoch ; M R Garey ; Mihalis Yannakakis ; Peter W Shor ; Richard R Weber<>Fundamental Discrepancies between Average-Case Analyses under Discrete and Continuous Distributions: A Bin Packing Case Study<>STOC ACM Symposium Theory of Computing
+1_119 D Johnson;D S Johnson ; H O Pollack<>Hypergraph Planarity and the Complexity of Drawing Venn Diagrams,<>J Graph Theory
+1_65 D Johnson;J Csirik ; D S Johnson<>Bounded Space On-Line Bin Packing: Best is Better than First,<>Algorithmica Preliminary version appeared Proc Ann ACM SIAM Society for Industrial and Applied Mathematics Symp Discrete Algorithms
+1_66 D Johnson;J Csirik; D S Johnson; ; C Kenyon<>Better Approximation Algorithms for Bin Covering,<>Proc th Ann ACM SIAM Society for Industrial and Applied Mathematics Symp Discrete Algorithms
+1_67 D Johnson;J Csirik; D S Johnson; C Kenyon; J B Orlin; P W Shor; R R Weber<>On the Sum-of-Squares Algorithm for Bin Packing,<>Proc Annual ACM Symp Theory of Computing Journal version to J ACM
+1_68 D Johnson;J Csirik; D S Johnson; C Kenyon; P W Shor; R R Weber<>A Self-Organizing Bin Packing Heuristic,<>Algorithm Engineering and Experimentation M T Goodrich and C C McGeoch Eds Springer Lecture Notes Computer Science
+1_69 D Johnson;E Dahlhaus; D S Johnson; C H Papadimitriou; P D Seymour; M Yannakakis<>The Complexity of Multiterminal Cuts,<>SIAM Society for Industrial and Applied Mathematics J Computing
+1_120 D Johnson;D S Johnson<>Local Optimization and the Traveling Salesman Problem,<>Proc th Colloq Automata Lang and Prog
+1_121 D Johnson;D S Johnson; A S LaPaugh ; R Y Pinter<>Minimizing Channel Density by Lateral Shifting of Components,<>Proc th Ann ACM SIAM Society for Industrial and Applied Mathematics Symp Discrete Algorithms
+1_122 D Johnson;D S Johnson; L A McGeoch<>Experimental Analysis of Heuristics for the STSP,<>The Traveling Salesman Problem and its Variations G Gutin and A Punnen Editors Kluwer Academic Publishers Dordrecht
+1_123 D Johnson;D S Johnson; G Gutin; L A McGeoch; A Yeo; W Zhang;; A Zverovich<>Experimental Analysis of Heuristics for the ATSP,<>The Traveling Salesman Problem and its Variations G Gutin and A Punnen Editors Kluwer Academic Publishers Dordrecht
+1_124 D Johnson;D S Johnson<>More Approaches to the Travelling Salesman Guide,<>Nature page
+1_70 D Johnson;W H E Day; D S Johnson; D Sankoff<>The Computational Complexity of Inferring Rooted Phylogenies by Parsimony,<>Math Biosciences
+1_125 D Johnson;D S Johnson; C H Papadimitriou ; M Yannakakis<>On Generating all Maximal Independent Sets,<>Information Processing Letters
+1_71 D Johnson;Alan J Demers ; Jeffrey D Ullman ; M R Garey ; Ronald L Graham<>Worst-Case Performance Bounds for Simple One-Dimensional Packing Algorithms <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_126 D Johnson;D S Johnson ; M Szegedy<>What are the Least Tractable Instances of Max Independent Set?,<>Proc th Ann ACM SIAM Society for Industrial and Applied Mathematics Symp Discrete Algorithms S S
+1_1 D Johnson;<>Communicating Processes,<>J Algorithms
+1_72 D Johnson;A S Fraenkel; M R Garey; D S Johnson; T Schaefer; Y Yesha<>The Complexity of Checkers on an NxN Board: Preliminary Report,<>Proc th Annual Symposium Foundations of Computer Science
+1_127 D Johnson;D S Johnson; K A Niemi<>On Knapsacks, Partitions, and a New Dynamic Programming Technique for Trees,<>Math of Oper Research
+1_2 D Johnson;<>Computing in the Math Department, Part I,<>J Algorithms
+1_73 D Johnson;Aviezri S Fraenkel ; M R Garey ; T Schaefer ; Y Yesha<>The Complexity of Checkers on an N * N Board - Preliminary Report<>FOCS IEEE Symposium Foundations of Computer Science
+1_128 D Johnson;D S Johnson<>NP-Completeness: An Ongoing Guide,<>Academic Press Collection of NP completeness columns
+1_3 D Johnson;<>Computing with One Hand Tied behind Your Back,<>J Algorithms
+1_74 D Johnson;M L Fredman; D S Johnson; L A McGeoch ; G Ostheimer<>Data Structures for Traveling Salesmen,<>J Algorithms
+1_129 D Johnson;D S Johnson<>On Property $B_r$,<>J Comb Theory B
+1_4 D Johnson;<>Concurrent Processing,<>J Algorithms
+1_75 D Johnson;M R Garey; R L Graham; D S Johnson; D E Knuth<>Complexity Results for Bandwidth Minimization,<>SIAM Society for Industrial and Applied Mathematics J Appl Math
+1_5 D Johnson;<>A Catalog of Complexity Classes <>Handbook of Theoretical Computer Science Volume A Algorithms and Complexity A
+1_76 D Johnson;M R Garey; D S Johnson<>Complexity Results for Multiprocessor Scheduling Under Resource Constraints,<>SIAM Society for Industrial and Applied Mathematics J Computing
+1_6 D Johnson;<>Data Structures for Traveling Salesmen Abstract <>SWAT Scandinavian Workshop Algorithm Theory
+1_77 D Johnson;M R Garey<>Composing Functions to Minimize Image Size <>SIAM Society for Industrial and Applied Mathematics J Comput
+1_7 D Johnson;<>Fun and Games,<>J Algorithms
+1_78 D Johnson;M R Garey ; D S Johnson; W H Freeman<>Computers and Intractability: A Guide to the Theory of NP-Completeness<>
+1_8 D Johnson;<>Fast Algorithms for Bin Packing <>J Comput Syst Sci
+1_9 D Johnson;<>Fast Allocation Algorithms<>FOCS IEEE Symposium Foundations of Computer Science
+1_79 D Johnson;M R Garey; D S Johnson<>Crossing Number is NP-Complete,<>SIAM Society for Industrial and Applied Mathematics J Algebraic and Discrete Methods
+1_130 D Johnson;D S Johnson; J L Bentley; L A McGeoch;; E E Rothberg <>Near-Opimal Solutions to Very Large Traveling Salesman Problems,<> Monograph preparation
+1_131 D Johnson;D S Johnson<>Worst Case Behavior of Graph Coloring Algorithms,<>Proc th Southeastern Conf Comb Graph Theory and Computing
+1_132 D Johnson;D S Johnson; M R Garey; R L Graham; A Demers; J D Ullman<>Worst Case Performance Bounds for Simple One-Dimensional Packing Algorithms,<>SIAM Society for Industrial and Applied Mathematics J Computing
+1_133 D Johnson;D S Johnson ; C C McGeoch Editors <>Network Flows and Matching: Proceedings of the st DIMACS Implementation Challenge,<>American Mathematical Society
+1_134 D Johnson;D S Johnson<>Approximation Algorithms for Combinatorial Problems,<>Journal of Computer and System Sciences
+1_80 D Johnson;M R Garey; F K Hwang; D S Johnson<>Algorithms for a Set Partitioning Problem Arising in the Design of Multi-Purpose Units,<>IEEE Trans Computers C
+1_135 D Johnson;D S Johnson; C H Papadimitriou<>Performance Guarantees for Heuristics,<>The Traveling Salesman Problem E L Lawler J K Lenstra A H G Rinnooy Kan and D B Shmoys editors John Wiley and Sons Ltd
+1_81 D Johnson;M R Garey; R L Graham ; D S Johnson<>On a Number Theoretic Bin Packing Conjecture,<>Proc th Hungarian Combinatorics Colloquium
+1_136 D Johnson;D S Johnson ; A Klug<>Optimizing Conjunctive Queries that Contain Untyped Variables,<>SIAM Society for Industrial and Applied Mathematics J Computing
+1_82 D Johnson;M R Garey; D S Johnson ; H C So<>An Application of Graph Coloring To Printed Circuit Testing,<>IEEE Trans Circuits and Systems CAS
+1_137 D Johnson;D S Johnson; C R Aragon; L A McGeoch; C Shevon<>Optimization by Simulated Annealing: An Experimental Evaluation; Part I, Graph Partitioning,<>Operations Research
+1_83 D Johnson;M R Garey ; D S Johnson<>A Note on A Note on 'Some Simplified NP-Complete Graph Problems' ,<>SIGACT News page
+1_138 D Johnson;D S Johnson<>Slow Ant,<>New Scientist page
+1_84 D Johnson;M R Garey ; D S Johnson<>Approximation Algorithms For Bin Packing Problems: A Survey,<>Analysis and Design of Algorithms Combinatorial Optimization G Ausiello and M Lucertini editors Springer Verlag
+1_139 D Johnson;D S Johnson; L A McGeoch;; E E Rothberg<>Asymptotic Experimental Analysis for the Held-Karp Traveling Salesman Bound,<>Proc th Ann ACM SIAM Society for Industrial and Applied Mathematics Symp Discrete Algorithms
+1_85 D Johnson;M R Garey ; D S Johnson<>Approximation Algorithms for Combinatorial Problems: An Annotated Bibliography,<>Algorithms and Complexity New Directions and Recent Results J F Traub editor Academic Press
+1_86 D Johnson;M R Garey; R L Graham ; D S Johnson<>Performance Guarantees for Scheduling Algorithms,<>Operations Research
+1_87 D Johnson;M R Garey; R L Graham; D S Johnson; A Yao<>Resource Constrained Scheduling as Generalized Bin Packing,<>J Comb Theory A
+1_88 D Johnson;M R Garey; D S Johnson; B B Simons; R E Tarjan<>Scheduling Unit-Time Tasks with Arbitrary Release Times and Deadlines,<>SIAM Society for Industrial and Applied Mathematics J Computing
+1_89 D Johnson;M R Garey; D S Johnson; R E Tarjan ; M Yannakakis<>Scheduling Opposing Forests,<>SIAM Society for Industrial and Applied Mathematics J Algebraic and Discrete Methods
+1_10 D Johnson;<>Graph Restrictions and Their Effect,<>J Algorithms
+1_11 D Johnson;<>Knapsacks, Linear Programs, and a Gamut of Problems,<>J Algorithms
+1_12 D Johnson;<>Local Optimization and the Traveling Salesman Problem <>ICALP Automata Languages and Programming
+1_13 D Johnson;<>Embedding Problems,<>J Algorithms
+1_14 D Johnson;<>Uniqueness,<>J Algorithms
+1_15 D Johnson;<>Announcements, Updates, and Greatest Hits,<>J Algorithms
+2_30 D Johnson; Teofilo F Gonzalez<>A New Algorithm for Preemptive Scheduling of Trees <>J ACM
+2_31 D Johnson; Brian Minnihan ; Celia Wrathall ; Webb Miller<>Reducibility Among Floating-Point Graphs <>J ACM
+2_32 D Johnson; Samuel D Kashdan<>Lower Bounds for Selection in X+Y and Other Multisets <>J ACM
+2_33 D Johnson; <>A Priority Queue in Which Initialization and Queue Operations Take O log log D Time <>Mathematical Systems Theory
+2_1 D Johnson; Panagiotis Takis Metaxas<>Connected Components in O \lg^ / |V| Parallel Time for the CREW PRAM<>FOCS IEEE Symposium Foundations of Computer Science
+2_2 D Johnson; Shankar M Venkatesan<>Parallel Algorithms for Minimum Cuts and Maximum Flows in Planar Networks Preliminary Version <>FOCS IEEE Symposium Foundations of Computer Science
+2_3 D Johnson; Shankar M Venkatesan<>Partition of Planar Flow Networks Preliminary Version <>FOCS IEEE Symposium Foundations of Computer Science
+2_4 D Johnson; Larry Raab<>Finding Optimal Quorum Assignments for Distributed Databases <>ICPP International Conference Parallel Processing
+2_5 D Johnson; Panagiotis Takis Metaxas<>Optimal Algorithms for the Vertex Updating Problem of a Minimum Spanning Tree <>IPPS International Parallel Processing Symposium
+2_6 D Johnson; Larry Raab<>A Tight Upper Bound on the Benefits of Replication and Consistency Control Protocols <>PODS Symposium Principles of Database Systems
+2_7 D Johnson; Panagiotis Takis Metaxas<>A Parallel Algorithm for Computing Minimum Spanning Trees <>SPAA ACM Symposium Parallel Algorithms and Architectures
+2_8 D Johnson; Greg N Frederickson<>Generalized Selection and Ranking Preliminary Version <>STOC ACM Symposium Theory of Computing
+2_9 D Johnson; Greg N Frederickson<>Generating and Searching Sets Induced by Networks <>ICALP Automata Languages and Programming
+2_10 D Johnson; Greg N Frederickson<>Finding k-th Paths and p-Centers by Generating and Searching Good Data Structures <>J Algorithms
+2_11 D Johnson; Panagiotis Takis Metaxas<>A Parallel Algorithm for Computing Minimum Spanning Trees <>J Algorithms
+2_12 D Johnson; Fillia Makedon ; James Matthews ; Matthew Cheyney ; Panagiotis Takis Metaxas ; Peter A Gloor<>Toward Multimedia Conference Proceedings <>Commun ACM
+2_13 D Johnson; Larry Raab<>Effects of Replication on Data Availability <>International Journal Computer Simulation
+2_14 D Johnson; Greg N Frederickson<>The Complexity of Selection and Ranking in X+Y and Matrices with Sorted Columns <>J Comput Syst Sci
+2_15 D Johnson; Panagiotis Takis Metaxas<>Connected Components in O log^ / n Parallel Time for the CREW PRAM <>J Comput Syst Sci
+2_16 D Johnson; Larry Raab<>A Tight Upper Bound on the Benefits of Replica Control Protocols <>J Comput Syst Sci
+2_17 D Johnson; <>Finding All the Elementary Circuits of a Directed Graph <>SIAM Society for Industrial and Applied Mathematics J Comput
+2_18 D Johnson; Refael Hassin<>An O n log&# ; n Algorithm for Maximum Flow in Undirected Planar Networks <>SIAM Society for Industrial and Applied Mathematics J Comput
+2_19 D Johnson; Greg N Frederickson<>Erratum: Generalized Selection and Ranking: Sorted Matrices <>SIAM Society for Industrial and Applied Mathematics J Comput
+2_20 D Johnson; Greg N Frederickson<>Generalized Selection and Ranking: Sorted Matrices <>SIAM Society for Industrial and Applied Mathematics J Comput
+2_21 D Johnson; Tetsuo Mizoguchi<>Selecting the Kth element in X + Y and X_ + X_ + + X_m <>SIAM Society for Industrial and Applied Mathematics J Comput
+2_22 D Johnson; Larry Raab<>Complexity of Network Reliability and Optimal Resource Placement Problems <>SIAM Society for Industrial and Applied Mathematics J Comput
+2_23 D Johnson; Panagiotis Takis Metaxas<>Optimal Algorithms for the Single and Multiple Vertex Updating Problems of a Minimum Spanning Tree <>Algorithmica
+2_24 D Johnson; Michael Goldweber<>Minimizing Access Costs in Replicated Distributed System Abstract <>PODC Symposium Principles of Distributed Computing
+2_25 D Johnson; <>Priority Queues with Update and Finding Minimum Spanning Trees <>Inf Process Lett
+2_26 D Johnson; Teofilo F Gonzalez<>Sorting Numbers in Linear Expected Time and Optimal Extra Space <>Inf Process Lett
+2_27 D Johnson; <>A Note on Dijkstra's Shortest Path Algorithm <>J ACM
+2_28 D Johnson; <>Efficient Algorithms for Shortest Paths in Sparse Networks <>J ACM
+2_29 D Johnson; <>Parallel algorithms for minimum cuts and maximum flows in planar networks <>J ACM
+3_10 D Johnson; Jorjeta Jetcheva<>Adaptive demand-driven multicast routing in multi-hop wireless ad hoc networks <>MobiHoc
+3_11 D Johnson; Adrian Perrig ; Yih-Chun Hu<>Packet Leashes: A Defense against Wormhole Attacks in Wireless Networks <>INFOCOM The Conference Computer Communications
+3_12 D Johnson; Andrew Myles ; Charles E Perkins<>IMHP: A Mobile Host Protocol for the Internet <>Computer Networks and ISDN Systems
+3_13 D Johnson; Andrew Myles ; Charles E Perkins<>A Mobile Host Protocol Supporting Route Optimization and Authentication <>IEEE Journal Selected Areas Communications
+3_14 D Johnson; Charles E Perkins<>Route Optimization for Mobile IP <>Cluster Computing
+3_15 D Johnson; Charles E Perkins<>Editorial - Mobile Networking in the Internet <>MONET European Network of Excellence
+3_16 D Johnson; J D Tygar ; Sean W Smith<>Completely Asynchronous Optimistic Recovery with Minimal Rollbacks <>FTCS Symposium Fault Tolerant Computing
+3_17 D Johnson; <>Internet Support for Wireless and Mobile Networking <>PODC Symposium Principles of Distributed Computing
+3_18 D Johnson; Willy Zwaenepoel<>Recovery in Distributed Systems Using Asynchronous Message Logging and Checkpointing <>PODC Symposium Principles of Distributed Computing
+3_19 D Johnson; <>Efficient Transparent Optimistic Rollback Recovery for Distributed Application Programs <>Symposium Reliable Distributed Systems
+3_1 D Johnson; Christopher Rose<>Editorial <>Wireless Networks
+3_2 D Johnson; Santashil Palchaudhuri<>Power Mode Scheduling for Ad Hoc Networks <>ICNP International Conference Network Protocols
+3_3 D Johnson; Yih-Chun Hu<>Ensuring cache freshness in on-demand ad hoc network routing protocols <>POMC Workshop Principles of Computing
+3_4 D Johnson; Adrian Perrig ; Yih-Chun Hu<>SEAD: Secure Efficient Distance Vector Routing for Mobile Wireless Ad Hoc Networks <>WMCSA Workshop Computing Systems and Applications
+3_5 D Johnson; Amit Kumar Saha ; Jorjeta Jetcheva ; Santashil Palchaudhuri ; Yih-Chun Hu<>Design and Evaluation of a Metropolitan Area Multitier Wireless Ad Hoc Network Architecture <>WMCSA Workshop Computing Systems and Applications
+3_6 D Johnson; Yih-Chun Hu<>Caching strategies in on-demand routing protocols for wireless ad hoc networks <>MOBICOM Computing and Networking
+3_7 D Johnson; Charles E Perkins<>Mobility Support in IPv <>MOBICOM Computing and Networking
+3_8 D Johnson; David A Maltz ; Jorjeta Jetcheva ; Josh Broch ; Yih-Chun Hu<>A Performance Comparison of Multi-Hop Wireless Ad Hoc Network Routing Protocols <>MOBICOM Computing and Networking
+3_9 D Johnson; Yih-Chun Hu<>Implicit source routes for on-demand ad hoc network routing <>MobiHoc
+3_20 D Johnson; E N Elnozahy ; Willy Zwaenepoel<>The Performance of Consistent Checkpointing <>Symposium Reliable Distributed Systems
+3_21 D Johnson; Sean W Smith<>Minimizing Timestamp Size for Completely Asynchronous Optimistic Recovery with Minimal Rollback <>Symposium Reliable Distributed Systems
+3_22 D Johnson; Willy Zwaenepoel<>Recovery in Distributed Systems Using Optimistic Message Logging and Checkpointing <>J Algorithms
+3_23 D Johnson; Willy Zwaenepoel<>The Peregrine High-performance RPC System <>Softw Pract Exper
+3_24 D Johnson; E N Elnozahy ; Lorenzo Alvisi ; Yi-Min Wang<>A survey of rollback-recovery protocols in message-passing systems <>ACM Comput Surv
+3_25 D Johnson; Willy Zwaenepoel<>Transparent Optimistic Rollback Recovery <>Operating Systems Review
+3_26 D Johnson; <>Scalable and Robust Internetwork Routing for Mobile Hosts <>ICDCS International Conference Distributed Computing Systems
+3_27 D Johnson; <>Ubiquitous Mobil Host Internetworking <>Workshop Workstation Operating Systems
+4_10 D Johnson;David E Johnson;Elaine Cohen<>An improved method for haptic tracing of sculptured surfaces,<>Symp Haptic Interfaces Proc ASME Dynamic Systems and Control Division DSC Computer Animation
+4_11 D Johnson;David E Johnson;Thomas V Thompson II;Matthew Kaplan;Donald Nelson;Elaine Cohen<>Painting Textures with a Haptic Interface,<>Virtual Reality VR Virtual Reality
+4_12 David Johnson;Peter Willemsen<>Six Degree-of-Freedom Haptic Rendering of Complex Polygonal Models,<>Proc Haptics Symposium
+4_13 David Johnson;Elaine Cohen<>Spatialized Normal Cone Hierarchies,<>Proc ACM Symposium Interactive D Graphics Research Triangle Park ICSC Symposium Neural Computation
+4_14 D Johnson;Ali Nahvi ; Donald D Nelson ; John M Hollerbach<>Haptic Manipulation of Virtual Mechanisms from Mechanical CAD Designs <>ICRA International Conference Robotics and Automation
+4_15 D Johnson;A Nahvi;D D Nelson;J M Hollerbach;D E Johnson;<>Haptic manipulation of virtual mechanisms from mechanical CAD designs;Belgium Leuven; May - <>Proc IEEE Intl Conf Robotics Automation
+4_16 D D Nelson;D Johnson;E Cohen<>Haptic Rendering of Surface-to-Surface Sculpted Model Interaction,<>Proc th Annual Symp Haptic Interfaces for Virtual Environment and Teleoperator Systems Nashville ASME
+4_17 D Johnson;Donald D Nelson ; Elaine Cohen ; Matthew Kaplan ; Thomas V Thompson II<>Painting Textures with a Haptic Interface <>VR Virtual Reality
+4_18 D Johnson;Peter Willemsen<>Six Degree-of-Freedom Haptic Rendering of Complex Polygonal Model <>HAPTICS
+4_1 D Johnson;Elaine Cohen<>Bound Coherence for Minimum Distance Computations <>ICRA International Conference Robotics and Automation
+4_2 D Johnson;Elaine Cohen ; Thomas V Thompson II<>Direct Haptic Rendering of Sculptured Models <>SI D
+4_3 D Johnson;Elaine Cohen<>A Framework for Efficient Minimum Distance Computations <>ICRA International Conference Robotics and Automation
+4_4 D Johnson;Elaine Cohen<>Spatialized normal come hierarchies <>SI D
+4_5 D Johnson;J M Hollerbach;E Cohen;W B Thompson;R Freier;D E Johnson;A Nahvi;D D Nelson;T V Thompson II;S C Jacobsen<>Haptic interfacing for virtual prototyping of mechanical CAD designs,<>ASME Design for Manufacturing Symposium Computer Animation
+4_6 D Johnson;T V Thompson II;D E Johnson;E Cohen<>Direct haptic rendering of sculptured models,<>Proc Symposium Interactive D Graphics
+4_7 D Johnson;David E Johnson;Elaine Cohen<>Bound Coherence for Minimum Distance Computations,<> International Conference Robotics and Automation ICRA International Conference Robotics and Automation
+4_8 D Johnson;David E Johnson;Elaine Cohen;<>A framework for efficient minimum distance computations;Belgium Leuven; May - <>Proc IEEE Intl Conf Robotics Automation
+4_9 D Johnson;David E Johnson;Elaine Cohen<>Minimum Distance Queries For Polygonal and Parametric Models,<>Technical Report UUCS University of Department of Computer Science
+5_1 D Johnson; <>Democracy and the Global Information Infrastructure <>GI Jahrestagung
+5_2 D Johnson; Jean-Fran&ccedil;ois Blanchette<>Cryptography, data retention, and the panopticon society abstract <>ACM Policy
+5_3 D Johnson; Keith Miller<>Anonymity, pseudonymity, or inescapable identity on the net abstract <>ACM Policy
+5_4 D Johnson; Keith Miller<>Ethical Issues for Computer Scientists and Engineers <>The Computer Science and Engineering Handbook
+5_5 D Johnson; <>Ethics Online: Shaping Social Behavior Online Takes More THan New Laws and Modified Edicts <>Commun ACM
+5_6 D Johnson; John M Mulvey<>Accountability and Computer Decision Systems <>Commun ACM
+5_7 D Johnson; Donald Gotterbarn ; Judith Perolle ; Ronald E Anderson<>Using the New ACM Code of Ethics in Decision Making <>Commun ACM
+6_1 D Johnson; Joshua D Guttman<>Three Applications of Formal Methods at MITRE <>FME Formal Methods Europe
+6_2 D Johnson; J Todd Wittbold<>Information Flow in Nondeterministic Systems <>IEEE Symposium Security and Privacy
+6_3 D Johnson; F Javier Thayer<>Stating Security Requirements with Tolerable Sets <>ACM Trans Comput Syst
+6_4 D Johnson; F Javier Thayer<>Security and the Composition of Machines <>CSFW IEEE Computer Security Foundations Workshop
+6_5 D Johnson; F Javier Thayer<>Security Properties Consistent with the Testing Semantics for Communicating Processes <>CSFW IEEE Computer Security Foundations Workshop
+6_6 D Johnson; L Benzinger<>Layering Boundary Protections: An Experiment in Information Assurance <>ACSAC Annual Computer Security Applications Conference
+7_1 D Johnson;<>The Design of Post-Analysis in the Jets Japanese/English Machine Translation System <>FGCS Fifth Generation Computer Systems
+7_2 D Johnson;Fred Damerau ; Tong Zhang<>Text Chunking using Regularized Winnow <>ACL Meeting of the Association for Computational Linguistics
+7_3 T Goetz;F Oles;D Johnson;T Zhang <>The KitCat Text Categorization Toolkit <>IBM Technical Report
+7_4 D Johnson;S Lappin <>A Critique of the Minimalist Program <>Linguistics and Philosophy
+7_5 D Johnson;L Moss <>Dynamic Interpretations of Constraint-based Formalisms <>Journal of Logic Language and Information
+7_6 D Johnson;L Moss <>Grammar Formalisms Viewed as Evolving Algebras <>Linguistics and Philosophy
+7_7 D Johnson;L Moss <>Evolving Algebras and Mathematical Models of Language <>L Polos and M Masuch eds Applied Logic How What and Why Kluwer
+7_8 D Johnson;S Lappin <>Local Constraints vs Economy <>CSLI UP Computer Animation
+7_9 D Johnson;L Moss eds <>Linguistics and Philosophy: Special Issue on the Mathematics of Language <>
+7_10 D Johnson;A Meyers;L Moss <>A Unification-based Parser for Relational Grammar <>Proceedings of the st Annual Meeting Association for Cmputational Linguistics
+7_11 D Johnson;S Lappin <>Wh-questions: Unification in a Typed Feature Structure Grammar vs Feature Checking in the Minimalist Program <>Proceedings of the Twelfth Annual Conference of the Association for Theoretical Linguistics
+7_12 D Johnson;L Moss <>An Overview of Stratified Feature Grammar <>C Martin Vide ed Current Issues Mathematical Linguistics Elsevier
+7_13 D Johnson;P Postal<>Arc Pair Grammar <>UP
+7_14 D Johnson;H Watanabe <>Relational Grammar-based Generation in the JETS Japanese-English Machine Translation System <>Machine Translation
+7_15 D Johnson;L Moss <>Some Formal Properties of Stratified Feature Grammar <>Annals of Artificial Intelligence and Mathematics
+7_16 D Johnson;L Moss <>Stratified Feature Structures for Multistratal Relational Analyses <>J Cole G Green and J Morgan eds Linguistics and Computation CSLI Computer Animation
+7_17 D Johnson;T Hampp <>Text Categorization Toolkit <>U S Patent
+7_18 D Johnson <>A Feature Structure Formalism for Relational Grammar <>Proceedings of the First International Conference Mathematical Linguistics Taragona
+7_19 D Johnson <>Governed Rules in the GENIE English Generator <>Proceedings of the Natural Language Processing Workshop Information Society of
+7_20 D Johnson <>Generation in JETS <>Proceedings of the Annual Meeting Natural Language Processing Information Processing Society of Kyoto
+7_21 D Johnson <>GENIE: a Transportable English Generator <>Proceedings of the IBM Conference Natural Language Processing Thornwood
+7_22 D Johnson <>Multimodal Natural Language Interface for Cross-Application Tasks <>U S Patent
+7_23 D Johnson <>On the Linguistic Design of Post-Analysis in the JETS Japanese-English Machine Translation System <>Proceedings of the International Conference Fifth Generation Computer Systems Tokyo
+7_24 D Johnson <>A Relational Grammar Approach to Machine Translation <>Proceedings of the Natural Language Processing Workshop Information Society of
+7_25 D Johnson <>Technical Infrastructure <>Machine Translation Japanese Technology Evaluation Center Loyola IEEE Meta Data Conference NTIS Pub PB
+7_26 D Johnson <>Toward a Theory of Relationally Based Grammar <>Publishing Inc
+7_27 S Lappin;R Levine;D Johnson <>The Revolution Confused: A Reply to our Critics <>Natural Language and Linguistic Theory
+7_28 S Lappin;R Levine;D Johnson <>The Revolution Maximally Confused <>Natural Language and Linguistic Theory press
+7_29 S Lappin;R Levine;D Johnson <>The Structure of Unscientific Revolutions <>Natural Language and Linguistic Theory
+7_30 D Johnson;Adam Meyers ; Lawrence S Moss<>A Unification-Based Parser for Relational Grammar <>ACL Meeting of the Association for Computational Linguistics
+7_31 D Johnson;Lawrence S Moss<>Dynamic Interpretations of Constraint-Based Grammar Formalisms <>Journal of Logic Language and Information
+7_32 D Johnson;Lawrence S Moss<>Some Formal Properties of Stratified Feature Grammars <>Annals of Mathematics and Artificial Intelligence
+7_33 D Johnson;Frank J Oles ; Thilo Goetz ; Tong Zhang<>A decision-tree-based symbolic rule induction system for text categorization <>IBM Systems Journal
+7_34 S Weiss;C Apte;F Damerau;D Johnson;F Oles;T Goetz;T Hampp <>Boosting Text-Mining Performance <>IEEE Intelligent Systems
+7_35 W Zadrozny;M Szummer;S Jarecki;D Johnson;Leora Morgenstern <>Natural Language Understanding with a Grammar of Constructions <>COLING Conference Computational Linguistics Tokyo
+7_36 T Zhang;F Damerau;D Johnson <>Text Chunking Using Regularized Winnow <>Proceedings of the th Conference Association of Computational Linguistics
+8_10 D Johnson;D H Johnson; R M Glantz <>When does interval coding occur?<>CNS
+8_11 D Johnson;D H Johnson ; W Ray <>Optimal stimulus coding by neural populations using rate codes <> to J Computational Neuroscience
+8_12 D Johnson;D H Johnson; H Rodriguez-Diaz <>Optimizing physical layer data transmission for minimal signal distortion <>ICASSP
+8_13 D Johnson;D H Johnson ; S Sinanovic <>Symmetrizing the Kullback-Leibler Distance <>
+8_14 D Johnson;D H Johnson <>Basics of Information Processing <>
+8_15 D Johnson;D H Johnson <>Dialogue Concerning Neural Coding and Information Theory <>
+8_16 D Johnson;D H Johnson <>From Signal to Information Processing Presentation <>
+8_17 D Johnson;D H Johnson <>Four top reasons why mutual information does not assess neural information processing <>
+8_18 D Johnson;D H Johnson <>Limits of population coding <>CNS
+8_19 D Johnson;D H Johnson <>Information processing performance limits of neural populations <>Neural Coding Workshop
+8_20 D Johnson;D H Johnson <>Neural population structures and consequences for neural coding <> to J Computational Neuroscience
+8_21 D Johnson;D H Johnson <>Point process models of single-neuron discharges <>J Computational Neuroscience
+8_22 D Johnson;D H Johnson <>Optimal linear detectors for additive noise channels <>IEEE Trans Signal Processing
+8_23 D Johnson;D H Johnson <>Origins of the Equivalent Circuit Concept: The Current-Source Equivalent <>Proc IEEE
+8_24 D Johnson;D H Johnson <>Origins of the Equivalent Circuit Concept: The Voltage-Source Equivalent <>Proc IEEE
+8_25 D Johnson;D H Johnson <>Signal Encoding in the Firing Patterns of Auditory Neurons,<>Invited talk IMA Journal of Applied Mathematics Workshop Audition
+8_1 D Johnson;A G Dabak ; D H Johnson <>Relations between Kullback-Leibler distance and Fisher information <>
+8_26 D Johnson;O E Kelly; D H Johnson; B Delgutte;; P Cariani <>Fractal noise strength in auditory-nerve fiber recordings <>J Acoust Soc Am
+8_2 D Johnson;I Goodman ; D H Johnson <>New multivariate dependence measures and applications to neural ensembles <>Workshop Statistical Signal Processing
+8_3 D Johnson;Charlotte M Gruner<>Comparison of optimal and suboptimal spike sorting algorithms to theoretical limits <>Neurocomputing
+8_27 D Johnson;C C Leang ; D H Johnson <>On the asymptotics of M-hypothesis Bayesian detection <>IEEE Trans Info Th
+8_4 D Johnson;Charlotte M Gruner<>Correlation and neural information coding fidelity and efficiency <>Neurocomputing
+8_28 D Johnson;M A Lexa ; D H Johnson <>Information processing of linear block decoders <>
+8_5 D Johnson;C M Gruner ; D H Johnson <>Correlation; neural information coding fidelity ; efficiency <>Neurocomputing
+8_29 D Johnson;A M Lexa; D H Johnson <>An information processing approach to distributed detection <>Workshop Statistical Signal Processing
+8_6 D Johnson;Charlotte M Gruner ; Raymon M Glantz<>Quantifying information transfer in spike generation <>Neurocomputing
+8_7 D Johnson;D H Johnson ; J D Wise; <>A different first course in electrical engineering <>Signal Processing Magazine
+8_8 D Johnson;D H Johnson; C M Gruner; ; R M Glantz <>Quantifying information transfer in spike generation <>Neurocomputing
+8_9 D Johnson;D H Johnson; C M Gruner; K Baggerly;; C Seshagiri <>Information-theoretic analysis of neural coding <>J Computational Neuroscience
+8_30 D Johnson;A M Lexa ; D H Johnson <>A new look at the informational gain of soft decisions <>ICASSP
+8_31 D Johnson;A M Lexa; D H Johnson <>Optimizing binary decision systems by manipulating transmission intervals <>
+8_32 D Johnson;C S Miller; D H Johnson; J P Schroeter; L Myint; R M Glantz <>Visual responses of crayfish ocular motoneurons: An information theoretical analysis <>J Computational Neuroscience
+8_33 D Johnson;C S Miller; D H Johnson; J P Schroeter; L L Myint;; R M Glantz <>Visual signal in an optomotor reflex: Systems ; information theoretic analysis <>J Computational Neuroscience
+8_34 D Johnson;Clyde S Miller ; John P Schroeter ; Lay L Myint ; Raymon M Glantz<>Visual Signals in an Optomotor Reflex: Systems and Information Theoretic Analysis <>Journal of Computational Neuroscience
+8_35 D Johnson;C Rozell ; D H Johnson <>Information processing during transient responses in the crayfish visual system <>
+8_36 D Johnson;Chandran Seshagiri ; Charlotte M Gruner ; Keith A Baggerly<>Information-Theoretic Analysis of Neural Coding <>Journal of Computational Neuroscience
+8_37 D Johnson;S Sinanovic; D H Johnson <>Toward a theory of information processing <>International Symposium Information Theory
+8_38 D Johnson;W Wang; D H Johnson <>Linear transforms of symbolic data <>IEEE Trans Signal Processing
+8_39 D Johnson;L Yue ; D H Johnson <>Optimal binaural processing based on point process models of preprocessed cues <>J Acoust Soc Am
+8_40 D Johnson;M Zacksenhouse; D H Johnson; J Williams;; C Tsuchitani <>Single-neuron modeling of LSO unit responses <>J Neurophysiol
+9_1 D Johnson; Judith G Brodman<>What Small Business and Small Organizations Say About the CMM: Experience Report <>ICSE International Conference Software Engineering
+9_2 D Johnson; Judith G Brodman<>A Software Process Improvement Approach Tailored for Small Organizations and Small Projects Tutorial <>ICSE International Conference Software Engineering
+9_3 D Johnson; Judith G Brodman<>Return on Investment ROI from Software Process Improvement as Measured by US Industry <>Software Process Improvement and Practice
+9_4 D Johnson; Judith G Brodman<>Applying CMM Project Planning Practices to Diverse Environments <>IEEE Software
+9_5 D Johnson; Judith G Brodman<>Realities and Rewards of Software Process Improvement <>IEEE Software

@@ -1,0 +1,412 @@
+10_1 M Miller; Lisa H Berg<>Bringing electronic mail to the masses phase I: Eudora <>SIGUCCS Special Interest Group University and Computing Services
+10_2 M Miller; <>World Wide Web development at Notre Dame: it's easier to ask forgiveness than permission <>SIGUCCS Special Interest Group University and Computing Services
+10_3 M Miller; <>Managing Macs made painless: leveraging the right tools for the job <>SIGUCCS Special Interest Group University and Computing Services
+11_1 M Miller; Bernd Hamann ; Carol L Hunter ; Charles D Hansen ; Michael Cox ; Roger Crawfis<>Terascale visualization: approaches, pitfalls and issues panel <>IEEE Visualization
+11_2 M Miller; Bernd Hamann ; J Fritz Barnes ; William C Wynn<>Multiresolution and Adaptive Rendering Techniques for Structured, Curvilinear Data <>Scientific Visualization
+12_1 M Miller; L Jay Wantz<>Educational Metadata in Use <>Computer Networks
+12_2 M Miller; L Jay Wantz<>COOL Links: Ride the Wave <>Computer Networks
+1_103 M Miller;J Ryan;X Slamin<>Integral sum numbers of cocktail party graphs and symmetric complete bipartite graphs,<>Bulletin of ICA
+1_16 M Baca;J A MacDougall;M Miller;X Slamin;W D Wallis<>A survey of certain valuations of graphs,<>Discussiones Mathematicae Graph Theory
+1_104 M Miller;X Slamin<>On the monotonicity of minimum diameter with respect to order and maximum out-degree,<>Proceedings of COCOON Computing and Combinatorics Sydney Lecture Notes Computer Science D Z Du P Eades V Estivill Castro X Lin eds
+1_17 E T Baskoro;M Miller;J Siran;M Sutton<>Complete characterisation of almost Moore digraphs of degree three,<>Journal of Graph Theory
+1_105 M Miller;M Baca<>Antimagic valuations of generalized Petersen graphs,<>Australasian Journal of Combinatorics
+1_50 L Brankovic;P Horak;M Miller;G Wrightson<>Usability of compromise-free statistical databases,<>Proceedings of the Ninth International Conference Scientific and Statistical Database Management
+1_18 E T Baskoro;M Miller;J Plesnik;S Znam<>Digraphs of degree close to Moore bound,<>J Graph Theory
+1_106 M Miller;M Baca;Y Lin<>On two conjectures concerning a,d -antimagic labeling of antiprisms,<>JCMCC
+1_51 L Brankovic;M Miller;J Siran<>Usability of k-commpromise-free statistical databases,<>Proceedings of AWOCA Hunter Valley
+1_19 E T Baskoro;M Miller;J Plesnik<>Further results on almost Moore digraphs,<>Ars Combinatoria
+1_107 M Miller<>Open problems in graph theory: Labelings and extremal graphs, Plenary Address in Combinatorics, Prosiding Komperensi Nasional X Matematika,<>ITB Bandung Jurnal MIHMI
+1_52 L Brankovic;M Miller<>Spectrum of premature partial latin squares,<>Proceedings of AWOCA Perth
+1_140 M Sutton;M Miller<>On the sum number of wheels,<>Discrete Mathematics
+1_108 M Miller;J Ryan;X Slamin;K Sugeng;M Tuga<>Open problems in exclusive sum graph labeling,<>Proceedings of the Fourteenth Australasian Workshop Combinatorial Algorithms Seoul Korea
+1_53 L Brankovic;M Miller;J Cooper<>Utilising secret sharing for access to medical databases,<>HICS Conference Adelaide
+1_141 M Sutton;M Miller;J Ryan;X Slamin<>Open problems in mod sum graphs,<>Proceedings of AWOCA
+1_109 M Miller;I Roberts;J Simpson<>Application of symmetric chains to an optimization problem in the security of statistical databases,<>Bulletin of ICA Volume
+1_54 L Brankovic;M Miller;J Siran<>Towards a practical auditing method for the prevention of statistical database compromise,<>Seventh Australasian Database Conference Proceedings Australian Computer Science Communications
+1_142 M Sutton;M Miller<>Using graph labellings to store linkages in relational databases,<>Proceedings of AWOCA Hunter Valley
+1_55 E Chang;C Colman;W Ee;M Miller<>Comparison of Industry-Sited Projects and University-Sited Projects for Final Year Students,<> International Conference Software Engineering Research and Practice SERP Las Vegas
+1_143 W D Wallis;E T Baskoro;M Miller;X Slamin<>Edge-magic total labelings,<>Australasian Journal of Combinatorics
+1_56 M Miller;Catherine Colman ; Elizabeth Chang ; Wan Ee<>Comparison of Industry-Sited Projects and University-Sited Projects for Final Year Students <>Software Engineering Research and Practice
+1_144 M Miller;Graham Wrightson ; Ljiljana Brankovic ; Peter Norak<>Usability of Compromise-Free Statistical Databases<>SSDBM Statistical and Scientific Database Management
+1_57 E Dahlhaus;P Manuel;M Miller<>A characterisation of strongly chordal graphs,<>Discrete Mathematics
+1_90 J A MacDougall;M Miller;X Slamin;W D Wallis<>Vertex-magic total labelings of graphs,<>Utilitas Math
+1_58 E Dahlhaus;M Miller;J Ryan<>Komplexitat von Eisenbahnrangierproblemen,<>Kolloquium uber Kombinatorik Braunschweig
+1_91 J A MacDougall;M Miller;W Wallis<>Vertex-magic total labelings of wheels and related graphs,<>Utilitas Math
+1_59 E Dahlhaus;F Manne;M Miller;J Ryan<>Algorithms for combinatorial problems related to train marshalling,<>Proceedings of AWOCA Hunter Valley
+1_92 B D McKay;M Miller;J Siran<>A note on large graphs of diameter two and given maximum degree,<>J Combinatorial Theory
+1_93 M Miller;K eds Park<><>Proceedings of the Fourteenth Australasian Workshop Combinatorial Algorithms Seoul Korea
+1_94 M Miller;H M Nguyen;X Slamin<>Construction techniques for diregular and non-diregular large directed networks,<>Proceedings of AWOCA Frazer Island
+1_95 M Miller;J Siran<>Digraphs of degree two which miss the Moore bound by two,<>Discrete Mathematics
+1_96 M Miller;C A Rodger;R Simanjuntak<>Distance magic labelings of graphs,<>Australasian J Combin
+1_97 M Miller;J Ryan;X Slamin;W F Smyth<>Labelling wheels for minimum sum number,<>JCMCC
+1_98 M Miller;J Gimbert;J Siran;X Slamin<>Almost Moore digraphs are diregular,<>Discrete Mathematics
+1_99 M Miller<>A model of statistical database compromise incorporating supplementary knowledge, in Databases in the 's - , <>
+1_20 E T Baskoro;P Manuel;M Miller;J Ryan;M Sutton<>Generalized clique covering in circular arc graphs,<>Proceedings of AWOCA Darwin
+1_21 E T Baskoro;L Brankovic;M Miller;J Plesnik;J Ryan;J Siran<>Large digraphs with small diameter: A voltage assignment approach,<>JCMCC
+1_22 E Baskoro;X Surahmat;S M Nababan;M Miller<>On Ramsey numbers for trees versus wheels of five or six vertices,<>Graphs and Combinatorics
+1_110 M Miller;J A MacDougall;X Slamin;W D Wallis<>Problems in magic total labellings,<>Proceedings of AWOCA Perth
+1_23 E T Baskoro;M Miller<>On the construction of networks with minimum diameter,<>Proceedings of the th Australian Computer Science Conference
+1_111 M Miller;I Roberts;J Simpson<>Prevention of relative compromise using Audit Expert,<>Bulletin of ICA
+1_24 E T Baskoro;M Miller;J Plesnik<>On the structure of digraphs with order close to the Moore bound,<>Graphs and Combinatorics
+1_112 M Miller;J Cooper<>Security considerations for present and future medical databases,<>re printed by the IMIA Yearbook of Medical Informatics
+1_25 E T Baskoro;M Miller;J Siran<>A note on almost Moore digraphs of degree three,<>Acta Mathematica Universitatis Comenianae LXVI
+1_113 M Miller;J Cooper<>Security considerations for present and future medical databases,<>International Journal of Bio Medical Computing
+1_26 E T Baskoro;M Miller<>Open problems in constructing digraphs with minimal diameter,<>Proceedings of the th AWOCA Ubud
+1_114 M Miller<>Security issues in medical databases,<>HIANSW Third Annual Conference Hunter Valley
+1_27 E T Baskoro;M Miller<>A procedure for constructing a minimum-diameter digraph,<>Bulletin of ICA
+1_115 M Miller<>Some open problems in optimal digraphs,<>Tatra Mountains Mathematical Publications
+1_60 E Dahlhaus;P Manuel;M Miller<>Maximum h-colorable subgraph problem in balanced graphs,<>Information Processing Letters
+1_28 E T Baskoro;M Miller;J Plesnik;S Znam<>Regular digraphs of diameter and maximum order,<>Australasian Journal of Combinatorics
+1_116 M Miller;J Ryan;W F Smyth<>The sum number of a disjoint union of graphs,<>Proceedings of the Fourteenth Australasian Workshop Combinatorial Algorithms Seoul Korea
+1_61 E Dahlhaus;P Manuel;M Miller<>Parallel algorithms for generalised clique transversal problems,<>Ars Combinatoria
+1_29 F Bertault;M Miller<>Extended graph model for software visualization,<>Proceedings of SoftVis Sydney
+1_117 M Miller;J Ryan;W Smyth<>The sum number of the cocktail party graph,<>Bulletin of ICA
+1_62 M Miller;Elias Dahlhaus ; Joseph F Ryan ; Peter Horak<>The train marshalling problem <>Discrete Applied Mathematics
+1_118 M Miller;J Gimbert;F Ruskey;J Ryan<>Iterations of eccentric digraphs,<>Proceedings of AWOCA Frazer Island
+1_63 M Miller;Elias Dahlhaus ; Jan Kratochv&iacute;l ; Paul D Manuel<>Transversal Partitioning in Balanced Hypergraphs <>Discrete Applied Mathematics
+1_119 S Morris;J Cooper;D Bomba;L Brankovic;M Miller;F Pacecho<>Australian healthcare: a smart card for a clever country,<>International Journal of Bio Medical Computing
+1_64 E Dahlhaus;J Kratochvil;M Miller;P Manuel<>Transversal partitioning in balanced hypergraphs,<>Proceedings of the Twente Workshop Graphs and Combinatorial Optimization Enschede The
+1_65 M Miller;Anna Draganova ; Martin Sutton<>Mod sum number of wheels <>Ars Comb
+1_66 P Eades;H ElGindy;M Houles;M Miller;B Lenhart;D Rappaport;S Whitesides<>Dominance drawing of bipartite graphs,<>Proceedings of the Fifth Conference Computational Geometry
+1_67 P Eades;M Keil;P Manuel;M Miller<>Two dominating sets with minimum intersection in chordal graphs,<>Nordic Journal of Computing
+1_68 Z Feng;M Miller<>Data integrity in relational databases,<>Proceedings of th New Zealand Annual Computer Science Conference
+1_69 Z Feng;Y Jia;M Miller<>Null values in relational DBMS, in Databases in the 's B Srinivasan and J Zeleznikow ed ,<>World Scientific
+1_30 F Bertault;M Miller<>An algorithm for drawing compound graphs,<>Lecture Notes Computer Science ed Kratochvil
+1_31 J Boland;M Miller<>Eccentric digraph of a digraph,<>Proceedings of AWOCA Bandung Indonesia
+1_32 J Boland;F Buckley;M Miller<>Eccentric Digraphs,<>Discrete Mathematics
+1_120 H Nagamochi;M Miller;X Slamin<>Bounds on the number of isolates in sum graph labeling,<>Discrete Mathematics
+1_33 D Bomba;L Brankovic;J Cooper;M Miller;S Morris;F Pacecho<>Data Inference in Medical Databases,<>Inaugural Conference of the Asia Pacific Association of Medical Informatics
+1_121 M Miller;David Rappaport ; Hossam A ElGindy ; Michael E Houle ; Sue Whitesides ; William Lenhart<>Dominance Drawings of Bipartite Graphs <>CCCG Canadian Conference Computational Geometry
+1_34 D Bomba;L Brankovic;J Cooper;M Miller;S Morris;F Pacecho<>Security Measurement and Medical Databases,<>Inaugural Conference of the Asia Pacific Association of Medical Informatics
+1_122 M Miller;Alexander Rosa ; Ljiljana Brankovic ; Peter Horak<>Premature partial latin squares <>Ars Comb
+1_35 D Bomba;L Brankovic;J Cooper;M Miller;S Morris;F Pacecho<>Australian Healthcare: Smart Card for a Clever Country,<>Inaugural Conference of the Asia Pacific Association of Medical Informatics
+1_123 M Miller;Jennifer Seberry<>Relative Compromise of Statistical Databases <>Australian Computer Journal
+1_36 M Miller;Ljiljana Brankovic ; Peter Horak<>A Combinatorial Problem in Database Security <>Discrete Applied Mathematics
+1_124 R Simanjuntak;M Miller<>Largest planar digraphs of diameter two,<>Proceedings of AWOCA Frazer Island
+1_37 L Brankovic;M Miller;D Bomba;J Cooper;S Morris;F Pacecho<>Confidentiality of patient records and the data inference problem,<>HICS Conference Adelaide
+1_125 R Simanjuntak;M Miller<>Survey of a,d -antimagic graph labelings, Prosiding Komperensi Nasional X Matematika, ITB Bandung, July ,<>Jurnal MIHMI
+1_70 Z Feng;Y Jia;M Miller<>Nulls in relational DBMS,<>Proceedings DBIS Sydney
+1_38 L Brankovic;P Lieby;M Miller<>Flattening antichains with respect to the volume,<>Electronic Journal of Combinatorics R
+1_126 R Simanjuntak;M Miller;F Bertault<>Two new a,d antimagic labelings,<>Proceedings of AWOCA Hunter Valley
+1_71 Z Feng;Y Jia;M Miller<>An multivalued approach to relational DBMS,<>Proceedings of the Far East Conference Future Databases Kyoto
+1_39 L Brankovic;M Miller;J Siran<>Graphs, - matrices and usability of statistical databases,<>Congr Numer
+1_127 M Miller;Jozef Siran ; Ljiljana Brankovic<>Towards a Practical Auditing Method for the Prevention of Statistical Database Compromise <>Australasian Database Conference
+1_72 Z Feng;I Fris;M Miller<>An enhancement of domain integrity in relational database,<>Proceedings of International Conference for Young Computer Scientists Beijing
+1_1 M Baca;Y Lin;M Miller;M Z Youssef<>Edge-antimagic graphs<>Discrete Mathematics
+1_128 X Slamin;M Baca;Y Lin;M Miller;R Simanjuntak<>Edge-magic total labelings of wheels, fans and friendship graphs,<>Bulletin of ICA
+1_73 Z Feng;M Miller;M Zhang<>An intelligent database model,<>Third International Conference for Young Computer Scientists Beijing
+1_2 M Baca;M Miller<>d-antimagic labelings of plane graphs,<>Proceedings of AWOCA Hunter Valley
+1_129 X Slamin;M Miller<>Diregularity of digraphs close to Moore bound, Prosiding Komperensi Nasional X Matematika,<>ITB Bandung Jurnal MIHMI
+1_74 Z Feng;H Dai;M Miller<>A proposal towards data integrity subsystem for relational databases,<>Proceedings of Baltic International Conference Database Method Riga
+1_3 M Baca;M Miller<>Valuations of a certain class of convex polytopes,<>JCMCC
+1_75 M Miller;Fran&ccedil;ois Bertault<>An Algorithm for Drawing Compound Graphs <>Graph Drawing
+1_4 M Baca;Y Lin;M Miller<>Valuations of plane quartic graphs,<>JCMCC
+1_76 M Miller;Ivan Fris<>Minimum Diameter of Diregular Digraphs of Degree <>Comput J
+1_5 M Baca;M Miller;X Slamin<>Vertex-magic total labelings of generalized Petersen graphs,<>Int J of Computer Mathematics Issue
+1_77 P Horak;L Brankovic;M Miller<>Combinatorial problem in data security,<>Discrete Applied Mathematics
+1_6 M Baca;F Bertault;J A MacDougall;M Miller;R Simanjuntak;X Slamin<>Vertex-antimagic total labelings of graphs,<>Discussiones Mathematicae Graph Theory
+1_78 C Iliopoulos;M Miller;B eds Smyth<><> th Australasian Workshop Combinatorial Algorithms Special Issue Int J of Computer Mathematics Issue
+1_7 M Baca;M Miller;X Slamin<>Every generalized Petersen graph has a vertex-magic total labeling,<>Proceedings of AWOCA Hunter Valley
+1_8 M Baca;M Miller<>On d-magic labelings of type , , for prisms,<>JCMCC
+1_79 M Miller;Yingxian Jia ; Zhuopeng Feng<>A Multivalued Approach to Handle Nulls in RDB <>Future Databases
+1_9 M Baca;E T Baskoro;M Miller<>On d-antimagic labelings of honeycomb,<>Proceedings of AWOCA Bandung Indonesia
+1_40 L Brankovic;M Miller;J Plesnik;J Ryan;J Siran<>Large graphs with small diameter: A voltage assignment approach,<>Australasian Journal of Combinatorics
+1_41 L Brankovic;A Furche;M Miller;G Wrightson<>NewCash - Anonymous payments with receipts,<>Proceedings of SICON
+1_42 L Brankovic;M Miller<>An application of combinatorics to the security of statistical databases,<> th Conference of the Austr Math Society Armidale requested for publication Australian Mathematical Society Gazette
+1_130 X Slamin;E T Baskoro;M Miller<>Diregularity of digraphs of out-degree three and order two less than Moore bound,<>Proceedings of AWOCA Bandung Indonesia
+1_43 M Miller;Ljiljana Brankovic ; Peter Horak<>An Optimization Problem in Statistical Databases <>SIAM Society for Industrial and Applied Mathematics J Discrete Math
+1_131 M Miller;Slamin<>On the Monotonicity of Minimum Diameter with Respect to Order and Maximum Out-Degree <>COCOON Computing and Combinatorics
+1_44 L Brankovic;P Horak;M Miller<>An optimisation problem in statistical database security,<>SIAM Society for Industrial and Applied Mathematics Journal Discrete Mathematics
+1_132 X Slamin;M Miller<>On two conjectures concerning vertex-magic total labeling of generalized Petersen graphs,<>Bulletin of ICA
+1_45 L Brankovic;M Miller;J Siran<>On range query usability of statistical databases,<>Int J of Computer Mathematics Issue
+1_133 X Slamin;M Miller<>Open problems in sum and integral sum graph labellings,<>Proceedings of AWOCA
+1_46 L Brankovic;M Miller;J Plesnik;J Ryan;J Siran<>A note on constructing large Cayley graphs of given degree and diameter by voltage assignment,<>Electronic Journal of Combinatorics R
+1_134 X Slamin;M Miller<>Sum graph labelling and related problems,<>Jurnal MIHMI
+1_47 L Brankovic;M Miller<>Introduction to Statistical Database Security, Special Issue,<>Selected Topics of Cryptography and Information Security Communications of the CCISA
+1_135 K Sugeng;M Miller;M Baca<> a,d -edge-antimagic total labeling,<>Indonesia Conference Computational Geometry and Graph Theory Bandung Indonesia
+1_80 A V Kelarev;M Miller;O Sokratova<>Directed graphs and closure properties for languages,<>Proceedings of AWOCA Bandung Indonesia
+1_48 L Brankovic;M Miller<>Open problems in the security of statistical databases,<>Proceedings of AWOCA
+1_136 K A Sugeng;M Miller<>Open problems in secret sharing,<>Proceedings of AWOCA Frazer Island
+1_81 M Miller;Jan Kratochv&iacute;l ; Paul D Manuel<>Generalized Domination in Chordal Graphs <>Nordic Journal of Computing
+1_49 L Brankovic;P Horak;M Miller;A Rosa<>Premature partial latin squares,<>Ars Combinatoria
+1_137 M Sutton;M Miller;J Ryan;X Slamin<>Connected graphs which are not mod sum graphs,<>Discrete Mathematics
+1_82 J Kratochvil;P Manuel;M Miller;A Proskurowski<>Disjoint and unfolding domination in graphs,<>Australasian Journal of Combinatorics
+1_138 M Sutton;M Miller<>Mod sum graph labelling of Hmn and Kn,<>Australasian Journal of Combinatorics
+1_83 J Kratochvil;P Manuel;M Miller<>Generalized domination in chordal graphs,<>Nordic Journal of Computing
+1_139 M Sutton;A Draganova;M Miller<>Mod sum number of wheels,<>Ars Combinatoria
+1_84 J Kratochvil;M Miller;H N Nguyen<>Sum graph labels - an upper bound and related problems,<>Proceedings of AWOCA Bandung Indonesia
+1_85 Y Lin;M Miller;C Rodger<>Edge connectivity of cages,<>Proceedings of AWOCA Bandung Indonesia
+1_86 Y Lin;M Miller<>Generalisations of directed Moore graphs,<>Proceedings of AWOCA Frazer Island
+1_87 Y Lin;M Miller<>Vertex magic total labellings of complete graphs,<>Bulletin of ICA
+1_88 Y Lin;M Miller;R Simanjuntak;X Slamin<>Magic and antimagic labelings of wheels,<>Proceedings of AWOCA Hunter Valley
+1_89 Y Lin;X Slamin;M Baca;M Miller<>On $d$-antimagic labelings of prisms,<>Ars Combin
+1_10 M Baca;M Miller;J Ryan<>On d-antimagic labelings of prisms and antiprisms,<>Proceedings of AWOCA Bandung Indonesia
+1_11 M Baca;Y Lin;M Miller;R Simanjuntak<>New constructions of magic and antimagic graph labelings,<>Utilitas Math
+1_12 M Baca;S Jendrol;M Miller;J Ryan<>On irregular total labelings<>Discrete Mathematics
+1_100 M Miller;I Fris<>Maximum order digraphs for diameter or degree , Pullman volume of Graphs and Matrices,<>Lecture Notes Pure and Applied Mathematics
+1_13 M Baca;M Miller<>Antimagic face labeling of convex polytopes based on biprisms,<>Journal of Combinatorial Mathematics and Combinatorial Computing
+1_101 M Miller;C Rodger;R Simanjuntak<>On distance magic graphs,<>Proceedings of AWOCA Bandung Indonesia
+1_14 M Baca;S Jendrol;M Miller;J Ryan<>Antimagic labelings of generalised Petersen graphs that are plane,<>Ars Combinatoria
+1_102 M Miller;B Pascoe;I Roberts<>An Expert System for security of statistical databases,<>IJCAI International Joint Conference Artificial Intelligence Workshop Integrating Artificial Intelligence into Databases Sydney
+1_15 M Baca;E T Baskoro;S Jendrol;M Miller<>Antimagic labelings of hexagonal plane maps,<>Utilitas Math
+2_30 M Miller;Gary Christensen;M I Miller;Y Amit;U Grenander<>Global Shape Models for Anatomical Structures,<>Poor and Schwartz editors Proceedings of the th Conference Information Sciences and Systems University
+2_31 M Miller;G E Christensen;S C Joshi;M I Miller<>Volumetric Transformation of Brain Anatomy,<>IEEE Transactions Medical Imaging
+2_32 M Miller;Gary Christensen;Michael I Miller;Michael W Vannier;Ulf Grenander<>Individualizing Neuroanatomical Atlases Using a Massively Parallel Computer,<>IEEE Computer
+2_33 M Miller;Gary E Christensen ; Michael Vannier ; Ulf Grenander<>Individualizing Neuroanatomic Atlases Using a Massively Parallel Computer <>IEEE Computer
+2_120 M Miller;Michael I Miller<>Method and apparatus for image registration,<>United States Patent US Patent Office
+2_34 M Miller;G E Christensen;S C Joshi;M I Miller<>Individualizing Anatomical Atlases of the Head,<>Proc th Intl Conf Visualization Biomedical Computing
+2_121 M Miller;M I Miller;T J Schaewe;C S Bosch;J J H Ackerman<>A Mathematical Signal Model for Phase and Frequency Encoded Magnetic Resonance Imaging Data,<>J Magn Reson series B
+2_35 M Miller;Gary Christensen;M I Miller;J L Marsh;M W Vannier<>Automatic Analysis of Medical Images Using a Deformable Textbook,<>
+2_122 M Miller;Michael I Miller;Gary E Christensen;Yali Amit;Ulf Grenander<>Mathematical Textbook of Deformable Neuroanatomies,<>Proceedings of the National Academy of Science
+2_36 Gary Christensen;RD Rabbitt;MI Miller;SC Joshi;U Grenander;T Coogan;D Van Essen<>Topological properties of smooth anatomic maps,<>Y Bizais C Braillot and R Di Paola editors Information Processing Medical Imaging th International Conference Kluwer Academic Publishers
+2_123 M Miller;M I Miller;D L Snyder;S M Moore<>An Evaluation of the Use of Sieves for Producing Estimates of Radioactivity Distributions with the EM Algorithm for Positron Emission Tomography,<>IEEE Trans Nucl Sci
+2_37 M Cooper;Ulf Grenander;Michael Miller;Anuj Srivastava<>Accommodating Geometric and Thermodynamic Variability For Forward-Looking Infrared Sensors,<>Proc SPIE The International Society for Optical Engineering Algorithms for Synthetic Aperture Radar IV E Zelnio Ed
+2_124 M Miller;M I Miller;D L Snyder<>An Alternating Maximization of the Entropy/Likelihood Function for Image Reconstruction and Spectrum Estimation,<>Proc SPIE The International Society for Optical Engineering Advanced Architectures and Algorithms
+2_38 M Miller;M Cooper;A Srivastava;M I Miller<>Quadratic Analysis of Information Measures for Object Recognition,<>SPIE The International Society for Optical Engineering
+2_125 M Miller;M I Miller;D R Fuhrmann<>An EM Algorithm for Direction-of-Arrival Estimation for Narrowband Signals in Noise,<>Proc SPIE The International Society for Optical Engineering Advanced Algorithms and Architectures for Signal Process
+2_39 Matthew Cooper;Michael Miller<>Information Gain in Object Recognition Via Sensor Fusion,<>Proc of the Intl Conf Multisource Multisensor Information Fusion
+2_126 M Miller;M I Miller;K B Larson;J E Saffitz;D L Snyder;L J Thomas ;B Roysam<>A New Method for Analysis of Electron Microscopic Autoradiographs,<>Biotechniques
+2_127 M Miller;M I Miller;J Wang<>A New Stochastic Model for Auditory-Nerve Discharge,<>J Acoust Soc Am
+2_128 M Miller;M I Miller;A Trouve;L Younes<>On the Metrics and Euler-Lagrange Equations of Computational Anatomy,<>Annual Review of biomedical Engineering
+2_129 M Miller;M I Miller<>Application of Likelihood and Entropy for Toeplitz Constrained Covariance Estimation,<>Maximum Entropy and Bayesian Methods Science and Engineering Kluwer Academic Publishers
+2_40 M Miller;M Cooper;M I Miller<>Information Measures for Object Recognition,<>SPIE The International Society for Optical Engineering Conference Algorithms for Synthetic Aperture Radar Imagery V
+2_41 M Miller;M Cooper;M I Miller<>Information Measures for Object Recognition Accommodating Signature Variability,<>IEEE Transactions Information Theory pages
+2_42 M Cooper;Aaron Lanterman;Sarang Joshi;Michael Miller<>Representing The Variation of Thermodynamic State Via Principal Components Analysis,<>Proc Third Workshop Conventional Weapon ATR U S Army Missile Command
+2_43 M Miller;John G Csernanskuy;Lei Wang;Ph D ;Jeffrey Swank;Chin Chin Ting;j Philip Miller;Michael I Miller;John C Morris<>Hippocampal Volume and shape Variation Predicts Cognitive Decline in Nondemented Elder Subjects,<>World Congress
+2_130 M Miller;M I Miller;M B Sachs<>Representation of Voice Pitch in Discharge Patterns of Auditory-Nerve Fibers,<>Hearing Res
+2_44 M Miller;John G Csernansky;Mathew K Schindler;N Reagan Splinter;Lei Wang;Mohktar Gado;Lynn D Selemon;Devna Rastogi-Cruz;Joel A Posener;Paul A Thompson;Michael I Miller<>Abnormalities of Thalamic Volume and Shape in Schizophrenia,<>American Journal of Psychiatry
+2_131 M Miller;M I Miller;M B Sachs<>Representation of Stop Consonants in the Discharge Patterns of Auditory-Nerve Fibers,<>J Acoust Soc Am
+2_45 M Miller;John G Csernansky;John W Haller;Ayanashu Banerjee;Lei Wang;Sarang C Joshi;Gary E Christensen;Mokhtar Gado;Michael W Vannier;Michael I Miller<>A Comparison of the Hippocampus in Schizophrenia and Control Subjects using Automated Methods for Neuromorphometry,<>Schizophrenia Research
+2_132 M Miller;M I Miller<>Strategies for the Representation of Broadband Stimuli in the Discharge Patterns of Auditory Nerve Fibers,<>Proc NATO Advanced Res Workshop Auditory Frequency Selectivity Auditory Frequency Selectivity
+2_46 M Miller;John G Csernansky;John W Haller;Ayanashu Banerjee;Lei Wang;Sarang C Joshi;Gary E Christensen;Mokhtar Gado;Michael W Vannier;Michael I Miller<>A Comparison of the Hippocampus in Schizophrenia and Control Subjects Using Automated Methods for Neuromorphometry ,<> th Annual Meeting of the ACNP San Juan Puerto Rico
+2_133 M Miller;M I Miller;P E Barta;M B Sachs<>Strategies for the Representation of a Tone in Background Noise in the Temporal Aspects of the Discharge Patterns of Auditory-Nerve Fibers,<>J Acoust Soc Am
+2_47 M Miller;John G Csernansky;Lei Wang;Sarang C Joshi;Mokhtar Gado;John G Morris;Michael I Miller<>A Computerized Brain Mapping Method for Detailed Analyses of Neuroanatomical Shapes and Volumes,<>International Journal of Psychopharmacology Suppl S
+2_1 M Miller;Y Amit;M I Miller<>Large Deviations for Coding Markov Chains and Gibbs Random Fields,<>IEEE Trans Inform Theory
+2_134 M Miller;Ayananshu Banerjee;Gary Christensen;Sarang Joshi;Navin Khaneja;U Grenander;Larissa Matejic<>Statistical Methods in Computational Anatomy,<>Statistical Methods Medical Research
+2_48 M Miller;John G Csernansky;Lei Wang;Sarang C Joshi;Mokhtar Gado;John G Morris;Michael I Miller<>Hippocampal Deformities Detected in Schizophrenia and Alzheimer's Disease by High Dimensional Brain Mapping,<>European Neuropsychopharmacology Suppl S
+2_2 M Miller;Y Amit;M I Miller<>Large Deviations for the Asymptotics of Ziv-Lempel Codes for -D Gibbs Fields,<>IEEE Trans Inform Theory
+2_135 M Miller;M I Miller;K E Mark<>A Statistical Study of Cochlear Nerve Discharge Patterns in Response to Complex Speech Stimuli,<>J Acoust Soc Am
+2_49 M Miller;J G Csernansky;L Wang;D Rastogi-Cruz;J Posener;N Brickel;G Heydebrand;J Philip Miller;M I Miller<>Hippocampal Deformities in Schizophrenia Characterized by high Dimensional Brain mapping,<>The American Journal of Psychiatry
+2_3 M Miller;M Bakircioglu;U Grenander;N Khaneja;M I Miller<>Curve Matching on Brain Surfaces Using Frenet Distances,<>Human Brain Mapping
+2_136 M Miller;Michael I Miller;Matthew Cooper;Joseph Kostakis<>The Information Theory of Sensor Fusion,<> ONR GTRI Workshop Target Tracking Sensor Fusion
+2_4 M Miller;Muge Bakircioglu;Sarang Joshi;Michael I Miller<>Landmark Matching on Brain Surfaces Via Large Deformation Diffeomorphisms on the Sphere,<>Proceedings of the SPIE The International Society for Optical Engineering Medical Imaging
+2_137 M Miller;M I Miller;D L Snyder<>The Application of Maximum Entropy and Maximum-Likelihood for Spectral Estimation,<>Proc IEEE Intl Inform Theory Sympos IEEE Inform Theory Group p
+2_5 M Miller;M Bakircioglu;S Joshi;M I Miller<>Landmark Matching on the Sphere Via Large Deformation Diffeomorphisms,<>Proceedings of SPIE The International Society for Optical Engineering Medical Imaging Image Processing
+2_138 M Miller;M I Miller;D L Snyder<>The Role of Likelihood and Entropy in Incomplete-Data Problems: Applications to Estimating Point-Process Intensities and Toeplitz Constrained Covariances,<>Proc of the IEEE
+2_6 A Banerjee;Gary Christensen;John Haller;Sarang Joshi;Michael Miller;Marcus Raichle<>Accommodating Anatomical Variability in Functional Imaging via Deformable Templates,<>Proceedings of the th Annual Allerton Conference Communication Control and Computing University of at
+2_139 M Miller;Michael I Miller;Ulf Grenander;Joseph A Sullivan;Donald L Snyder<>Automatic Target Recognition Organized via Jump-Diffusion Algorithms,<>IEEE Transactions Image Processing
+2_7 M Miller;Ayananshu Banerjee ; Gary E Christensen ; John G Csernansky ; John W Haller ; Lei Wang ; Sarang C Joshi<>Gaussian Random Fields on Sub-Manifolds for Characterizing Brain Surfaces <>IPMI Information Processing Medical Imaging
+2_8 M Miller;A r Barker;C E Priebe;M I Miller;M Hosakari;J T Ratnanather;L Wang;M Gado;J C Morris;J C Csernansky<>Statistical Testing on Labelled Cortical Depth Maps to Identify Dementia Progression,<>Proceedings of Joint Statistical Meetings
+2_9 M Miller;R C Barrett;A W McCarthy;M I Miller;R E Morley<>Gaussian Convolutions on a Massively Parallel Processor,<>Proc st Annu Conf Inform Sci and Syst
+2_50 M Miller;J G Csernansky;L Wang;J Swank;J P Miller;M Gado;D McKeel;M I Miller;J C Morris<>Hippocampal Volume and Shape Predicts Cognitive Decline in the Elderly,<>Neuroimage
+2_51 M Miller;J G Csernansky;L Wang;J Swank;J P Miller;M Gado;D McKeel;M I Miller;J C Morris<>Hippocampal Volume and Shape Predicts Cognitive Decline in the Elderly,<>World Alzheimer Congress Stockholm
+2_52 M Miller;John G Csernansky;Lei Wang;Daniel Kido;Mokhtar Gado;John G Morris;Michael I Miller<>Hippocampal Morphometry in Dementia of the Alzheimer Type by Computer Algorithm,<>Society of Neuroscience Abstracts
+2_53 M Miller;John C Csernansky;Sarang Joshi;Lei Wang;Mokhtar Gado;J Philip Miller;Ulf Grenander;Michael I Miller<>Hippocampal Morphometry in Schizophrenia by High Dimensional Brain Mapping ,<>Proceedings of the National Academy of Science
+2_140 M Miller;M I Miller;D L Snyder;M J Turmon<>Iterative Maximum-Likelihood Estimation of Toeplitz-Constrained Covariances,<>Proc th Annu Allerton Conf Commun Contr and Computing
+2_54 M Miller;John G Csernansky;Lei Wang;Sarang Joshi;J Philip Miller;Mokhtar Gado;Daniel Kido;Daniel McKeel;John C Morris;Michael I Miller<>Early DAT is Distinguished from Aging by High Dimensional Mapping of the Hippocampus,<>Neurology
+2_141 M Miller;Pierre Moulin;Michael I Miller<>Detection Bounds for Automatic Target Recognition in Compressed Domain,<>ISIT
+2_55 M Miller;John G Csernansky;Lei Wang;Sarang Joshi;J Philip Miller;Mokhtar Gado;Daniel Kido;Daniel McKeel;John C Morris;Michael I Miller<>Early DAT is Distinguished from Aging by High Dimensional Mapping of the Hippocampus,<>First International Meeting of Alzheimer s Imaging Consortium DC
+2_142 M Miller;J O'Sullivan;Steven P Jacobs;Michael I Miller;Donald L Snyder<>A Likelihood-Based Approach to Joint Target Tracking and Identification,<>Conference Record Twenty Seventh Asilomar Conference Signals Systems Computers volume
+2_56 M Miller;P Dupuis;U Grenander;M I Miller<>Variational Problems on Flows of Diffeomorphisms for Image Matching,<>Quarterly J Applied Math ed D Mumford and W Freiberger
+2_143 Joseph O'Sullivan;Michael D DeVore;Vikas Kedia;Michael Miller<>SAR ATR Performance Using a Conditionally Gaussian Model,<>IEEE Transactions Aerospace and Electronic Systems Page
+2_57 M Miller;Van Essen;D C ;Lewis;J W ;Drury;H A ;Hadjikhani;N ;Tootell;R B H ;Bakircioglu;M ;Miller;M I <>Mapping visual cortex in monkeys and humans using surface-based atlases,<>Vision Research
+2_144 M Miller;Joel A Posener;Lei Wang;Joseph L Price;Mokhtar Gado;Michael A Province;Michael I Miller;Casey M Babb;John G Csernansky<>High Dimensional Mapping of the Hippocampus in Depression,<>The American Journal of Psychiatry
+2_58 M Miller;M Foltz;A Srivastava;M I Miller;U Grenander<>Detection of Multiple Airborne Targets from Multi-Sensor Data,<>SPIE The International Society for Optical Engineering Proceedings Volume Radar Ladar Signal Processing and Applications
+2_145 M Miller;C Preza;M I Miller;L J Thomas; ;J G McNally<>A Regularized Linear Method for Reconstruction of -D Microscopic Objects from Optical Sections,<>J Opt Soc Am A
+2_59 M Miller;D R Fuhrmann;M I Miller<>On the Existence of Positive Definite Maximum-Likelihood Estimates of Structured Covariance Matrices,<>IEEE Trans Inform Theory
+2_146 M Miller;C E Priebe;M I Miller;J T Ratnanather<>Segmenting Magnetic Resonance Images via hierarchical Mixture Modellling,<>Journal of the American Statistical Association
+2_147 M Miller;R Rabbitt;J Wiess;G E Christensen;M I Miller<>Mapping of Hyperelastic Deformable Templates,<>Proceedings of SPIE The International Society for Optical Engineering s Geometric Methods Applied Imaging San Diego Computer Animation
+2_148 M Miller;J T Ratnanather;C Jing;M I Miller<>Computational Anatomy of the Brain,<>National Partnership for Advanced Computational Infrastructure All Hands Meeting San Diego Supercomputer Center
+2_149 M Miller;J T Ratnanather;P E Barta;N A Honeycutt;N G Lee;H M Morris;A C Dziorny;M K Hurdal;G D Pearlson;M I Miller<>Dynamic programming generation of boundaries of local coordinatized submanifolds in the neocortex: application to the Planum Temporale ,<>Neuroimage
+2_60 M Miller;D R Fuhrmann;M I Miller<>On the Singularity of Maximum-Likelihood Estimates of Structured Covariance Matrices,<>Proc st Annu Conf Inform Sci and Syst
+2_61 M Miller;Joan Glaunès;Marc Vaillant;Michael I Miller<>Landmark Matching via Large Deformation Diffeomorphisms on the Sphere,<>Journal of Mathematical Imaging and Vision special issue of Mathematics and Image Analysis
+2_62 M Miller;Ulf Grenander;Michael I Miller<>Computational Anatomy: An Emerging Discipline,<>Quarterly of Applied Mathematics LVI
+2_63 M Miller;U Grenander;M I Miller<>Computational Anatomy: An Emerging Discipline,<>feature article Statistical Computing and Graphics Newsletter
+2_150 M Miller;J T Ratnanather;K N Botteron;T Nishino;A B Massie;R M Lal;S G Patel;S Peddi;R D Todd;M I Miller<>Validating Cortical Surface Analysis of Medial Prefrontal Cortex,<>NeuroImage
+2_64 M Miller;Ulf Grenander;M I Miller;G E Christensen<>Deformable Anatomical Data Bases Using Global Shape Models: a Position Paper for the Electronic Imaging of the Human Body Workshop,<>Proceedings of the Cooperative Working Group Whole Body D Electronic Imaging of the Human Body
+2_151 M Miller;B Roysam;M I Miller<>Combining Stochastic and Syntactic Processing with Analog Computation Methods,<>Digital Signal Process A Review Journal ed J
+2_65 M Miller;U Grenander;M I Miller;A Srivastava<>Hilbert-Schmidt Lower Bounds for Estimators on Matrix Lie Groups for ATR,<>IEEE Trans Pattern Analysis and Machine Intelligence
+2_152 M Miller;B Roysam;M I Miller<>Grammars and Bayes Priors for Hierarchial Image Processing on Massively Parallel Processors,<>Proc Allerton Conf
+2_66 M Miller;Ulf Grenander;Michael I Miller<>Representation of Knowledge In Complex Systems with discussion section ,<>Journal of the Royal Statitical Society
+2_153 M Miller;T J Schaewe;M I Miller<>Parallel Algorithms for Maximum A-Posterori Estimation of Spin Density and Spin-Spin Decay in Magnetic Resonance Imaging,<>IEEE Trans Med Imag
+2_67 Ulf Grenander;A Srivastava;M Miller<>Asymptotic Performance Analysis of Bayesian Object Recognition,<>IEEE Transactions Information Theory pages
+2_154 M Miller;R M Schmich;M I Miller<>Stochastic Models of the Fast and Slow Components of Synaptic Recovery and Post-Synaptic Action Potential Generation,<>Proc Assoc for Res Otolaryngology th Midwinter Meeting p
+2_68 M Miller;J Haller;G E Christensen;M I Miller;M Gado;D W McKeel ;J G Csernansky;M W Vannier<>A Comparison of Automated and Manual Segmentation of Hippocampus MR Images,<>SPIE The International Society for Optical Engineering Proceedings of the Conference Medical Imaging San Diego
+2_155 M Miller;R M Schmich;M I Miller<>Stochastic Intensity of Hodgkin-Huxley-Based Spike Generation Models,<>Proc Assoc for Res Otolaryngology th Midwinter Research Meeting
+2_156 M Miller;R M Schmich;M I Miller<>Stochastic Intensity of Neural Spike Discharge Based on Active Channel Dynamics,<>Computational Neuroscience Academic Press
+2_69 M Miller;J Haller;G E Christensen;S C Joshi;M Gado;M I Miller;M W Vannier<>Functional and structural mapping of human cerebral cortex: Solutions are in the surfaces,<>Y Bizais C Braillot and R Di Paola editors Information Processing Medical Imaging th International Conference Kluwer Academic Publishers Precision and Accuracy of a High Dimensional Transformation and Segmentation of MR Images of the Hippocampus
+2_157 M Miller;Robert M Schmich;Michael I Miller<>Stochastic Threshold Characterization of the Intensity of Active Channel Dynamical Action Potential Generation,<>The American Physiological Society
+2_158 M Miller;Eli Shusterman;Michael I Miller;Bixio Rimoldi<>Rate-Distortion Theoretic Codebook Design for Automatic Object Recognition,<>IEEE Transactions Information Theory pages
+2_159 M Miller;Kurt R Smith<>Bayesian Inference of Regular Grammar and Markov Source Models <>NIPS Neural Information Processing Systems
+2_70 M Miller;J W Haller;A Banerjee;G E Christensen;A Z Snyder;M I Miller;M E Raichle<>High Dimensional Transformation of PET and MRI to Atlas Space,<> Intl Conf Functional Mapping of the Human Brain
+2_71 M Miller;J Haller;G E Christensen;S C Joshi;J W Newcomer;M I Miller;J G Csernansky;M W Vannier<>Hippocampal MR Imaging Morphometry By Means of General Pattern Matching,<>Radiology
+2_72 M Miller;J Haller;G E Christensen;S C Joshi;M I Miller;M Gado;J Csernansky;M W Vannier<>MRI Segmentation Using High Dimensional Transformations of a Digital Atlas,<>Poster at American of Neuropsychopharmacology Conference San Juan Puerto Rico
+2_73 M Miller;Robert E Hogan;Kevin E Mark;Lei Wang;Sarang Joshi;Michael I Miller;Richard D Bucholz<>MR Imaging Deformation-Based Segmentation of the Hippocampus in Patients with Mesial Temporal Sclerosis and Temporal Lobe Epilepsy,<>Epilepsia Suppl page
+2_160 M Miller;D L Snyder;M I Miller;T J Schulz<>Constrained Probability-Density Estimation from Noisy Data,<>Proc Annu Conf Inform Sci and Syst
+2_74 M Miller;R E Hogan;K E Mark;L Wang;S Joshi;M I Miller;R D Bucholz<>Mesial Temporal Sclerosis and Temporal Lobe Epilepsy: MR Imaging Deformation-based Segmentation of the Hippocampus in Five Patients,<>Radiology
+2_161 M Miller;Donald Snyder;D G Politte;M I Miller<>A Case Study in Statistical Image Processing: Positron Emission Tomography, - <>Spatial Statistics and Imaging A Possolo Ed Monograph Series Institute of Mathematical Statistics Computer Animation
+2_75 M Miller;S Jacobs;Joseph A O'Sullivan;M Faisal;A Srivastava;D L Snyder;M I Miller<>Automatic Target Recognition Using Sequences of High Resolution Radar Range Profiles,<>ESSRL Monograph number ESSRL
+2_162 M Miller;D L Snyder;M I Miller;L J Thomas; ;D G Politte<>Noise and Edge Artifacts in Maximum-Likelihood Reconstruction for Emission Tomography,<>IEEE Trans Med Imag
+2_76 M Miller;Avinash Jain ; Kannan Ramchandran ; Pierre Moulin<>Information-Theoretic Bounds on Target Recognition Performance Based on Degraded Image Data <>IEEE Transactions Pattern Analysis and Machine Intelligence
+2_163 M Miller;D L Snyder;M I Miller<>Random Point Processes in Time and Space,<> ed New Springer Verlag
+2_77 M Miller;A Jain;P Moulin;M I Miller;K Ramchandran<>Information-Theoretic Bounds on Target Recognition Performance Based on Degraded Image Data,<>IEEE Transactions Pattern Analysis and Machine Intelligence pages
+2_164 M Miller;D L Snyder;M I Miller<>Estimation Under Quantum-Limited Conditions,<>Topical Meeting Quantum Limited Imaging and Image Process Technical Digest Opt Soc Am
+2_165 M Miller;D L Snyder;M I Miller<>The Use of Grenander's Sieves in Quantum-Limited Imaging,<>Proc th Annu Allerton Conf Commun Contr and Computing p
+2_78 M Miller;Avinash Jain;P Moulin;M I Miller;K Ramchandran<>Performance Bounds for ATR based on Compressed Data,<>Proc th Army Compression Workshop
+2_166 M Miller;Donald Snyder;J A O'Sullivan;M I Miller<>The Use of Maximum-Likelihood Estimation for Forming Images of Diffuse Radar-Targets from Delay-Doppler Data,<>IEEE Trans Inform Theory
+2_79 M Miller;D C Van Essen H Drury S Joshi;M I Miller<>Functional and Structural Mapping of Human Cerebral Cortex: Solutions Are In the Surfaces,<>Proceedings of the National Academy of Science
+2_167 M Miller;D L Snyder;M I Miller<>The Use of Sieves to Stabilize Images Produced with the EM Algorithm for Emission Tomography,<>IEEE Trans Nucl Sci
+2_168 M Miller;A Srivastava;M I Miller;U Grenander<>Bayesian Automated Target Recognition<> Handbook of Video and Image Processing editor Alan Bovik
+2_169 M Miller;Anuj Srivastava ; Ulf Grenander<>Hilbert-Schmidt Lower Bounds for Estimators on Matrix Lie Groups for ATR <>IEEE Transactions Pattern Analysis and Machine Intelligence
+2_80 M Miller;S Joshi;M I Miller;G E Christensen;A Banerjee;T Coogan;U Grenander<>Hierarchical Brain Mapping via A Generalized Dirichlet Solution for Mapping Brain Manifolds,<>Vision Geometry IV Proceedings of the SPIE The International Society for Optical Engineering s International Symposium Optical Science Engineering and Instrumentation San Diego Computer Animation
+2_81 M Miller;S Joshi;M I Miller<>Landmark Matching Via Large Deformation Diffeomorphisms,<>IEEE Transactions Image Processing pages
+2_82 M Miller;S Joshi;M I Miller<>Maximum a Posteriori estimation with Good's Roughness for Optical Sectioning Microsopy,<>Optical Society of America A
+2_83 M Miller;S Joshi;J Wang;M I Miller;D C Van Essen;U Grenander<>On the Differential Geometry of the Cortical Surface,<>Vision Geometry IV Proceedings of the SPIE The International Society for Optical Engineering s International Symposium Optical Science Engineering and Instrumentation San Diego Computer Animation
+2_170 M Miller;A Srivastava;U Grenander;G R Jensen;M I Miller<>Jump-Diffusion Markov Processes on Orthogonal Groups for Object Recognition,<>Journal of Statistical Planning and Inference Issues pages
+2_84 M Miller;S Joshi;Michael I Miller;Ulf Grenander<>On the Geometry and Shape of Brain Sub-Manifolds,<>International Journal of Pattern Recognition and Artificial Intelligence
+2_171 M Miller;A Srivastava;M I Miller;U Grenander<>Jump-Diffusion Processes on Matrix Lie Groups for Bayesian Inference,<>IEEE HOS Workshop
+2_85 M Miller;N Karamanos;M I Miller<>A New Method for Estimating Stimulus and Refractory Related Functions from Auditory-Nerve Discharges,<>Basic Issues Hearing ed H Duifhuis et Academic Press
+2_172 M Miller;A Srivastava;M I Miller;U Grenander<>Lie Group Parameterization for Dynamics Based Prior In ATR,<>Sixth Digital Signal Processing Workshop
+2_86 M Miller;N Khaneja ; Ulf Grenander<>Dynamic Programming Generation of Curves on Brain Surfaces <>IEEE Transactions Pattern Analysis and Machine Intelligence
+2_173 M Miller;A Srivastava;M I Miller;U Grenander<>Multiple Target Direction of Arrival Tracking,<>IEEE Transactions Signal Processing
+2_174 A Srivastava;M Cooper;M Miller;U Grenander<>Multi-Sensor Fusion and Performance Analysis of ATR,<>Proc FUSION
+2_87 M Miller;N Khaneja;M I Miller;U Grenander<>Dynamic Programming Generation of Geodesics and Sulci on Brain Surfaces,<>IEEE Trans Pattern Analysis and Machine Intelligence
+2_175 M Miller;Anuj Srivastava;Aaron D Lanterman;Ulf Grenander;Marc Loizeaux;Michael I Miller<>Monte Carlo Techniques for Automated Target Recognition,<>Sequential Monte Carlo Methods Practice eds Arnaud Doucet Nando Freitas Neil Gordon Springer Verlag
+2_88 M Miller;J Kostakis;Matthew Cooper;Thomas J Green; ;Michael I Miller;Joseph A O'Sullivan;Jeffrey H Shapiro;Donald L Snyder<>Multispectral Active-Passive Sensor Fusion for Ground-Based Target Orientation Estimation,<>Proc SPIE The International Society for Optical Engineering Automatic Target Recognition VIII Ed Firooz A Sadjadi
+2_176 M Miller;A Srivastava;M I Miller;U Grenander<>Ergodic Algorithms on Special Euclidean Groups for ATR,<>Syst and Contr the st Century Birkha ser
+2_89 M Miller;Joseph Kostakis;Matthew Cooper;Thomas J Green; ;Michael I Miller;Joseph A O'Sullivan;Donald L Snyder<>Multispectral Sensor Fusion for Ground-Based Target Orientation Estimation: FLIR, LADAR, HRR,<>Proc SPIE The International Society for Optical Engineering Automatic Target Recognition IX Ed Firooz A Sadjadi
+2_177 M Miller;A Srivastava;M I Miller;Ulf Grenander<>Ergodic Algorithms on Special Euclidean Groups for ATR,<>Proceedings MTNS Publisher Birkhauser
+2_178 M Miller;M J Turmon;M I Miller<>Maximum-Likelihood Estimation of Complex Sinusoids and Toeplitz Covariances,<>IEEE Trans Signal Process
+2_179 M Miller;M J Turmon;M I Miller<>Simulation Results for Maximum-Likehood Estimation of Toeplitz Constrained Covariances,<>Proc st Annu Conf Inform Sci and Syst p
+2_10 M Miller;M F Beg;G Bhanot;M I Miller;J T Ratnanather;R Walkup;L Younes<>Computing Geodesic Distances on Anatomies,<>NPACI All Hands Meeting UCSD Supercomputer Center
+2_11 M Miller;M Faisal Beg;Michael I Miller;Alain Trouve;Laurent Younes<>Computing Metrics via Geodesics on Flows of Diffeomorphisms,<>International Journal of Computer Vision
+2_12 M Faisal Beg;Michael Miller;Alain Trouve;Laurent Younes<>Computational Anatomy: Computing Metrics on Anatomical Shapes,<> IEEE Symposium Biomedical Imaging
+2_13 M Miller;M Faisal Beg;Dmitry Bitouk;Michael I Miller;Laurent Younes<>Metrics for Computational Anatomy and Image Analysis,<>NPACI All Hands Meeting San Diego SuperComputing Center UCSD
+2_14 M Miller;M F Beg;A Majethia;M Browne;T H Kaiser;M Martone;K F Wong;A B Massie;J Homer;J T Ratnanather;M I Miller<>Enhancing tools to manipulate anatomical images: a step towards a deferated neuroscience image database,<>NPACI All Hands Meeting San Diego Supercomputer Center Jolla Computer Animation
+2_100 M Miller;A Lanterman;M I Miller;D L Snyder<>Automatic Target Recognition via the Simulation of Infrared Scenes,<>Proc of the Sixth Annual Ground Target Modeling and Validation Conference Keweenaw Research Center Tech Univ
+2_15 M Miller;L E Bergeron;A J Goldberg;S Y Kwon;M I Miller<>A Robust Adaptive Transform Coder for Kb/s Speech Transmission,<>Proc Intl Conf Acoust Speech Signal Process
+2_101 M Miller;M Loizeaux;A Srivastava;M I Miller<>Estimation of Pose and location of Ground-Targets for ATR,<>Proceedings SPIE The International Society for Optical Engineering the International Society fo rOptical Engineering X Issue
+2_16 M Miller;Dmitri Bitouk;Michael I Miller;Laurent younes<>Clutter Metrics for ATR,<>IEEE Transactions Pattern Analysis and Machine Intelligence
+2_102 M Miller;K E Mark;M I Miller<>Bayesian Model Selection and Minimum Description -D Length Estimation of Auditory-Nerve Discharge Rates,<>J Acoust Soc Am
+2_17 M Miller;Dmitri Bitouk;Ulf Grenander;Michael I Miller;Paritosh Tyagi<>Fisher information in transported generator clutter models,<>AeroSense Automatic Target Recognition XI SPIE The International Society for Optical Engineering Proceedings
+2_103 M Miller;K E Mark;M I Miller;U Grenander<>Constrained Stochastic Language Models,<>Image Models and their Speech Model Cousins ed S Levinson and L Shepp New Springer Verlag
+2_18 M Miller;Dmitri Bitouk;Michael I Miller;Laurent Younes<>Empirically generated Metric Spaces for ATR in Clutter,<>Proceedings of the th Asilimor Conference signals Systems and Computers
+2_104 M Miller;K Mark;Michael I Miller;Ulf Grenander<>Parameter Estimation for Constrained Context Free Language Models,<>DARPA Speech and Natural Language Workshop
+2_19 Levy Bucholz;Abed Marzouk;Henderson Michael Miller<>A Patient Specific Deformable Brain Atlas Accounting for Structural Variability Between Individual Patients,<>AANS
+2_105 M Miller;M I Miller;A B Massie;J T Ratnanather;K N Botteron;J G Csernansky<>Bayesian construction of geometrically based cortical thickness metrics,<>Neuroimage
+2_106 M Miller;A Srivastava;U Grenander<>Conditional-Mean Estimation via Jump-Diffusion Processes in Multiple Target Tracking/Recognition,<>IEEE Transactions Signal Processing
+2_107 M Miller;M I Miller;C S Butler<> -D Maximum A-Posteriori Estimation of SPECT on Massively Parallel Computers,<>IEEE Trans Med Imag
+2_108 M Miller;M I Miller;L Younes<>Group Actions, Homeomorphisms, and Matching: A General Framework,<>International Journal of Computer Vision Volume pages
+2_109 M Miller;M I Miller;M Hosakere;A R Barker;C E Priebe;N Lee;J T Ratnanather;L Wang;M Gado;J C Morris;J G Csernansky<>Labeled cortical mantle distnace maps quantify differences between dementia of the Alzheimer type and healthy aging,<>Proceedings of the National Academy of Sciences pg
+2_90 M Miller;Aaron D Lanterman ; Ulf Grenander<>Bayesian Segmentation via Asymptotic Partition Functions <>IEEE Transactions Pattern Analysis and Machine Intelligence
+2_91 M Miller;Aaron Lanterman;Matthew L Cooper;Michael I Miller<>Efficient Estimation of Thermodynamic State Incorporating Bayesian Model Order Selection,<>Automatic Target Recognition IX SPIE The International Society for Optical Engineering Proc
+2_92 M Miller;A D Lanterman;M I Miller;D L Snyder<>General Metropolis-Hastings Jump Diffusions for Automatic Target Recognition in Infrared Scenes,<>J Opt Engineering
+2_93 M Miller;A D Lanterman;M I Miller;D L Snyder;W J Miceli<>Jump-diffusion Processes for the Automated Understanding of FLIR Scenes,<>Automatic Object Recognition IV Proc SPIE The International Society for Optical Engineering Ed Firooz J Sadjadi
+2_180 M Miller;M W Vannier;M I Miller;U Grenander<>Modeling and Data Structure for Registration to a Brain Atlas of Multidimentional Images,<>Functional Neuroimaging ed L Thatcher et New Academic Press
+2_94 M Miller;A D Lanterman;J A O'Sullivan;M I Miller<>Kullback-Liebler Distances for Quantifying Clutter and Models,<>Optical Engineering
+2_181 M Miller;L Wang;J S Swank;I E Glick;M Gado;M I Miller;J C Morris;J G Csernansky<>Changes in Hippocampal Volume and Shape Across Time Distinguis Dementia of the Alzheimer Type from Healthy Aging,<>NeuroImage
+2_95 M Miller;A Lanterman;M I Miller;D L Snyder<>Implementation of Jump-diffusion Algorithms for Understanding FLIR Scenes,<>Automatic Object Recognition V Proc SPIE The International Society for Optical Engineering Ed Firooz A Sadjadi
+2_182 M Miller;Lei Wang;Michael I Miller<>Construction of Statistical Templates for Cross-Modality Mapping,<>Proceedings of the First Aachen Conference Neuropsychology Neurosurgery Psychiatry and Neurology Aachen
+2_183 M Miller;Lei Wang;Jing Cui;Michael I Miller<>Validating High-Dimensional Transformations of the Hippocampus,<>NeuroImage Proceedings of the Fourth International Conference Functional Mapping of the Human Brain Montreal
+2_96 M Miller;A D Lanterman;D L Snyder;M I Miller<>Extension of Good's Roughness for maximum Penalized-Likelihood Estimation for Emission Tomography,<>IEEE Trans Medical Imaging
+2_184 M Miller;Lei Wang;Michael I Miller<>Large-Deformation Image Matching Via Volume Imagery,<>Proceedings of the International Symposium Optical Science Engineering and Instrumentation SPIE The International Society for Optical Engineering s rd Annual Meeting San Diego
+2_97 M Miller;A D Lanterman;M I Miller;D L Snyder<>Representations of Shape for Structural Inference in Infrared Scenes,<>Proc SPIE The International Society for Optical Engineering th Annu Intl Sympos Aerosp Defense Sensing Simulation and Contr
+2_185 M Miller;L Wang;J S Swank;M I Miller;J C Morris;J G Csernansky<>Progressive Hippocampal Atrophy Distinguishes DAT and Healthy Aging,<>Annual Meeting of the Society for Neuroscience
+2_98 M Miller;A Lanterman;M I Miller;D L Snyder<>Representations of Thermodynamic Variability in the Automated Understanding of FLIR Scenes,<>Automatic Object Recognition Proc SPIE The International Society for Optical Engineering Ed Firooz A Sadjadi
+2_186 M Miller;J Wang;M I Miller;A T Ogielski<>A Stochastic Model of Synaptic Transmission and Auditory Nerve Discharge, Part I ,<>Computation Neurons and Neural Systems ed F Eckman
+2_99 M Miller;A Lanterman;M I Miller;D L Snyder<>The Unification of Detection, Tracking, and Recognition for Millimeter Wave and Infrared Sensors,<>Radar Ladar Processing Proc SPIE The International Society for Optical Engineering Ed William J Miceli
+2_187 M Miller;J Wang;M I Miller;A T Ogielski<>A Stochastic Model of Synaptic Transmission and Auditory Nerve Discharge, Part II ,<>Computation Neurons and Neural Systems ed F Eckman
+2_188 M Miller;Lei Wang;Sarang C Joshi;Michael I Miller;John G Csernansky<>Statistical Analysis of Hippocampal Asymmetry in Schizophrenia,<>NeuroImage
+2_189 M Miller;Lei Wang;Sarang C Joshi;Michael I Miller;John G Csernansky<>Statistical Analysis of Hippocampal Asymmetry in Schizophrenia,<>Annual Meeting of the Society for Neuroscience New Orleans
+2_20 M Miller;Levy Bucholz;Schaewe Marzouk;Kurt Smith M I Miller;Abed Henderson<>The Determination of an Ideal Pallidotomy Target By the Incorporation of Intraoperative Physiological Recordings Deformed Into a Patient Specific Brain Atlas,<>AANS
+2_21 M Miller;C S Butler;M I Miller<>Maximum A-Posteriori Estimation for SPECT using Regularization Techniques on Massively-Parallel Computers,<>IEEE Trans Med Imag
+2_22 M Miller;C S Butler;M I Miller;T R Miller;J W Wallis<>Massively Parallel Computers for -D Single-Photon-Emission Computed Tomography,<>Phys Med Biol
+2_23 M Miller;C Ceritoglu;D Bitouk;M I Miller;H A Schmitt<>Asymptotic Performance in ATR in Infrared Images,<>SPIE The International Society for Optical Engineering
+2_24 M Miller;S C Chen;T J Schaewe;R S Teichman;M I Miller;S N Nadel;A S Green<>Parallel Algorithms for Maximum-Likelihood Nuclear Magnetic Resonance Spectroscopy,<>J Magn Reson Series A
+2_110 M Miller;M I Miller<>Algorithms for Removing Recovery Related Distortion from Auditory-Nerve Discharge Patterns,<>J Acoust Soc Am
+2_25 Gary Christensen;RD Rabbitt;MI Miller<> D Brain Mapping Using a Deformable Neuroanatomy,<>Physics Med and Biol
+2_111 M Miller;M I Miller;S C Joshi;G E Christensen<>Large Deformation Fluid Diffeomorphisms For Landmark and Image Matching<> Brain Warping Academic Press San Diego Computer Animation
+2_26 M Miller;Gary Christensen;M I Miller;M W Vannier<>A D Deformable Magnetic Resonance Textbook Based on Elasticity,<>Proceedings of the American Association for Artificial Intelligence Symposium Applications of Computer Vision Medical Image Processing University
+2_112 M Miller;M I Miller;S C Joshi;D R Maffitt;J G McNally;U Grenander<>Membranes, Mitochondria, and Amoebae: , , and Dimensional Shape Models,<>Advances Applied Statistics ed K Mardia England Carfax II
+2_27 M Miller;G Christensen;R D Rabbitt;M I Miller<>A Deformable Neuroanatomy Textbook Based On Viscous Fluid Mechanics,<>Invited paper Prince and Runolfsson editors Proceedings of the Conference Information Sciences and Systems Johns University
+2_113 M Miller;D R Fuhrmann;J A O'Sullivan;D L Snyder<>Maximum-Likelihood Methods for Toeplitz Covariance Estimation and Radar Imaging<>
+2_28 M Miller;G E Christensen;J F Williamson;K S C Chao;M I Miller;F B So;M W Vannier<>Deformable Anatomical Templates for Brachytherapy Treatment Planning in Radiotherapy of Cervical Cancer,<>Vision Geometry eds R A Metter A Y Wu and L J Latecki SPIE The International Society for Optical Engineering
+2_114 M Miller;M I Miller;D R Fuhrmann<>Maximum-Likelihood Narrow-Band Direction Finding and the EM Algorithm,<>IEEE Acoust Speech and Signal Process
+2_29 M Miller;G Christensen;Richard D Rabbitt;Michael I Miller<>Deformable Templates Using Large Deformation Kinematics,<>IEEE Transactions Image Processing
+2_115 M Miller;M I Miller;D L Snyder;T R Miller<>Maximum-Likelihood Reconstruction for Single-Photon Emission Computed-Tomography,<>IEEE Trans Nucl Sci
+2_116 M Miller;M I Miller;D R Fuhrmann<>Maximum-Likelihood Estimation of Direction of Arrivals of Multiple Narrowband Signals in Noise,<>Proc st Annu Conf Inform Sci and Syst
+2_117 M Miller;M I Miller;A S Greene<>Maximum-Likelihood Estimation for Nuclear Magnetic Resonance Spectroscopy,<>J Magn Reson
+2_118 M Miller;M I Miller;S C Chen;D A Keufler;D A D'Avignon<>Maximum-Likelihood Estimation and the EM Algorithm for -D NMR Spectroscopy,<>J Magn Reson Series A
+2_119 M Miller;M I Miller;K B Larson;J R Saffitz;D L Snyder;L J Thomas; <>Maximum-Likelihood Estimation Applied to Electron-Microscopic Autoradiography,<>J Electron Microscopy Technique
+2_190 M Miller;R L Winslow;P Helm;W Baumgartner ;J T Ratnanather;S Peddi;E McVeigh;M I Miller<>A Heart Failure Knowledgebase Combining Experimental Data with Tools for Integrative Biological Modeling,<>The Novartis Foundation Symposium Silico Simulation of Biological Processes University London
+2_191 M Miller;Laurent Younes<>Group Actions, Homeomorphisms, and Matching: A General Framework <>International Journal of Computer Vision
+2_192 M Miller;Song Chun Zhu;Michael I Miller<>Clutter, Occlusion and Performance Analysis in Target Detection,<>Workshop Target Detection Heavy Clutter
+2_193 M Miller;Song Chun Zhu;Aaron Lanterman;Michael I Miller<>Clutter Modeling and Performance Analysis in Automatic Target Recognition,<>Workshop Detection and Classification of Difficult Targets Redstone Arsenal
+3_10 Ted Kaehler; Hadon Nash; Mark Miller;<>Betting, Bribery, and Bankruptcy-A Simulated Economy that Learns to Predict<>IEEE CompCon Proceedings Appearing The Ecology of Computation North Press Elsevier
+3_11 M Miller;Kenneth M Kahn; Eric Dean Tribble; Mark S Miller; Daniel G Bobrow;<>Objects in Concurrent Logic Programming Languages<>OOPSLA Conference Object Oriented Programming Systems Languages and Applications
+3_12 Ken Kahn; E Dean Tribble; Mark Miller; Danny Bobrow; in Concurrent Prolog: Collected Papers<>Vulcan: Logical Concurrent Objects<>
+3_13 Ken Kahn;Mark Miller<>Language Design and Open Systems<>
+3_14 Mark Miller;K Eric Drexler<>Comparative Ecology: A Computational Perspective<>
+3_15 M Miller;Mark S Miller; Chip Morningstar; Bill Frantz;<>Capability-based Financial Instruments<> Proceedings of Financial Cryptography Springer Verlag
+3_16 Mark Miller; Ka-Ping Yee; Jonathan Shapiro <>Capability Myths Demolished,<>HP Tech Report HPL Johns Tech Report SRL
+3_17 M Miller;Mark S Miller; Daniel G Bobrow; Eric Dean Tribble; Jacob Levy;<>Logical Secrets<>the Proceedings of the International Conference Logic Programming ICLP International Conference Logic Programming and Concurrent Prolog Collected Papers
+3_18 M Miller;Mark S Miller;<>Learning Curve<>a book review of John s Hidden Order Reason Magazine
+3_19 Mark Miller;K Eric Drexler<>Markets and Computation: Agoric Open Systems<>
+3_1 M Miller;Curtis Abbott ; Daniel G Bobrow ; Ehud Y Shapiro ; Eric Dean Tribble ; Kenneth M Kahn<>Channels: A Generalization of Streams <>ICLP International Conference Logic Programming
+3_2 M Miller;Daniel G Bobrow ; Eric Dean Tribble ; Kenneth M Kahn<>Objects in Concurrent Logic Programming Languages <>OOPSLA Conference Object Oriented Programming Systems Languages and Applications
+3_3 M Miller;Daniel G Bobrow ; David S Fogelsong<>Definition Groups: Making Sources into First-Class Objects <>Research Directions Object Oriented Programming
+3_4 M Miller;Daniel G Bobrow ; Eric Dean Tribble ; Kenneth M Kahn<>Vulcan: Logical Concurrent Objects <>Research Directions Object Oriented Programming
+3_5 M Miller;Daniel G Bobrow ; Eric Dean Tribble ; Jacob Levy<>Logical Secrets <>ICLP International Conference Logic Programming
+3_6 K Eric Drexler;Mark Miller<>Incentive Engineering for Computational Resource Management<>
+3_7 Daniel Fogelsong; Danny Bobrow; Mark Miller;<>Definition Groups: Making Sources into First Class Objects<>Research Directions Object Oriented Programming
+3_8 M Miller;Bill Frantz ; Chip Morningstar<>Capability-Based Financial Instruments <>Financial Cryptography
+3_9 Susan Hirsh; Ken Kahn; Mark Miller;<>Interming: Unifying Keyword and Positional Notations<>Xerox PARC tech report
+3_20 M Miller;Mark S Miller; David Krieger; E Dean Tribble;<>An Introduction to Agoric Computation<>Agorics tech report ADd P
+3_21 M Miller;Mark S Miller;David Krieger;<>An Automated Auction in ATM Network Bandwidth<>Market Based Control Sun Labs tech report SML
+3_22 M Miller;Mark S Miller;Jonathan Shapiro <>Paradigm Regained: Abstraction Mechanisms for Access Control,<>HP Tech Report HPL Johns Tech Report SRL Proceedings of ASIAN Asian Computing Science Conference edited by Vijay Saraswat Springer Verlag
+3_23 M Miller;Mark S Miller; David Krieger; E Dean Tribble; Norm Hardy;<>Architectural Issues in Agoric Open Systems<>Agorics tech report ADd P
+3_24 M Miller;Mark S Miller; David Krieger; E Dean Tribble;<>Real Time Video Delivery with Market-based Resource Allocation<>Agorics tech report
+3_25 M Miller;Mark S Miller;Marc Stiegler<>The Digital Path: Smart Contracting and the Third World<>Austrian Perspectives the Internet Economy Routledge
+3_26 M Miller;Eric Dean Tribble; Mark S Miller; Kenneth M Kahn; Daniel G Bobrow; Curtis Abbott; Ehud Y Shapiro;<>Channels: A Generalization of Streams<>ICLP International Conference Logic Programming
+3_27 M Miller;E Dean Tribble; Mark S Miller; Norm Hardy; David Krieger;<>Joule: Distributed Application Foundations<>
+3_28 Mark Miller with E Dean Tribble; Ravi Pandya; Marc Stiegler;<>The Open Society and its Media<>Prospects Nanotechnology
+3_29 M Miller;Bill Tulloh;Mark S Miller <>Institutions as Abstraction Boundaries: Negotiated Categories and the Self-Reorganization of the Market Order<> Economics Philosophy Information Technology The Intellectual Contributions of Don Lavoie edited by Jack High George University
+3_30 M Miller;Ka-Ping Yee;Mark S Miller <>Auditors: An Extensible, Dynamic Code Verification Mechanism<>HP Tech Report preparation
+4_10 M Miller;J Yin; M S Miller; T R Ioerger; J Yen; R A Volz<>A Knowledge-Based Approach for Designing Intelligent Team Training Systems,<>Proceedings of the Fourth International Conference Autonomous Agents Barcelona acceptance rate
+4_11 M Miller;Jianwen Yin ; John Yen ; Richard A Volz ; Thomas R Ioerger<>Training Teams with Collaborative Agents <>Intelligent Tutoring Systems
+4_1 M Miller;Cong Chen ; John Yen ; Kaivan Kamali ; Richard A Volz ; Rui Wang ; Shuang Sun ; Xiaocong Fan<>Formal semantics and communication strategies for proactive information delivery among team-based agents <>AAMAS Autonomous Agents Multiagent Systems
+4_2 M Miller;J M D Hill; M S Miller; J Yen; U W Pooch<>Tactical Event Resolution Using Software Agents, Crisp Rules, and a Genetic Algorithm,<>Advanced Simulation Technologies Conference ASTC DC
+4_3 M Miller;M S Miller;R A Volz<>Training for Teamwork,<>The th World Multi Conference Systemics Cybernetics and Informatics
+4_4 M Miller;M S Miller; J Yin; T R Ioerger; J Yen; R A Volz<>Training Teams with Collaborative Agents,<>Proceedings of the Fifth International Conference Intelligent Tutoring Systems Montreal
+4_5 M Miller;D Xu; M S Miller; R A Volz; T R Ioerger<>Collaborative Agents for C Teamwork Simulation,<>Proceedings of the International Conference Artificial Intelligence Las Vegas II acceptance rate
+4_6 M Miller;Dianxiang Xu ; Jianwen Yin ; John Yen ; Richard A Volz ; Thomas R Ioerger<>CAST: Collaborative Agents for Simulating Teamwork <>IJCAI International Joint Conference Artificial Intelligence
+4_7 M Miller;Dianxiang Xu ; Jesse Plymale ; Richard A Volz<>Human-Agent Teamwork for Distributed Team Training <>ICTAI International Conference Tools with Artificial Intelligence
+4_8 M Miller;J Yen; J Yin; T R Ioerger; M S Miller; D Xu; R A Volz<>CAST: Collaborative Agents for Simulating Teamwork,<>Seventeenth International Joint Conference Artificial Intelligence acceptance rate
+4_9 M Miller;Jianwen Yin ; John Yen ; Richard A Volz ; Thomas R Ioerger<>A knowledge-based approach for designing intelligent team training systems <>Agents
+5_1 M Miller; Ingemar J Cox ; Jeffrey A Bloom<>Informed Embedding: Exploiting Image and Detector Information During Watermark Insertion <>ICIP International Conference Image Processing
+5_2 M Miller; Gwena&euml;l J Do&euml;rr ; Ingemar J Cox<>Informed Embedding for Multi-bit Watermarks <>IWDW International Workshop Digital Watermarking International
+5_3 M Miller; Ingemar J Cox ; Peter N Yianilos ; Stephen M Omohundro<>Target Testing and the PicHunter Bayesian Multimedia Retrieval System <>ADL Advances Digital Libraries
+5_4 M Miller; Ingemar J Cox ; Peter N Yianilos ; Thomas P Minka<>An Optimized Interaction Strategy for Bayesian Relevance Feedback <>CVPR Computer Vision and Pattern RecognitioN
+5_5 M Miller; Jeffrey A Bloom<>Computing the Probability of False Watermark Detection <>Information Hiding
+6_1 M Miller; Dennis J Underwood ; Robert P Sheridan ; Simon K Kearsley<>FLOG: A system to select 'quasi-flexible' ligands complementary to a receptor of known three-dimensional structure <>Journal of Computer Aided Molecular Design
+6_2 M Miller; Dennis J Underwood ; Robert P Sheridan ; Simon K Kearsley<>Flexibases: A way to enhance the use of molecular docking methods <>Journal of Computer Aided Molecular Design
+6_3 M Miller; Bradley P Feuston ; J Christopher Culberson ; Robert B Nachbar ; Simon K Kearsley<>Comparison of Knowledge-Based and Distance Geometry Approaches for Generation of Molecular Conformations <>Journal of Chemical Information and Computer Sciences
+6_4 M Miller; Robert P Sheridan<>A Method for Visualizing Recurrent Topological Substructures in Sets of Active Molecules <>Journal of Chemical Information and Computer Sciences
+6_5 M Miller; Dennis J Underwood ; Robert P Sheridan ; Simon K Kearsley<>Chemical Similarity Using Geometric Atom Pair Descriptors <>Journal of Chemical Information and Computer Sciences
+7_1 D Arnold; S Agrawal; S Blackford; J Dongarra; M Miller; S Vadhiyar; K Sagi;Z Shi<>Users' Guide to NetSolve v ,<>University of Computer Science Technical Report CS
+7_2 H Casanova; J Dongarra; C R Johnson; M Miller<>Application-specific Toolkits,<>The Grid Blueprint for a New Computing Infrastructure I Foster and C Kesselman eds Morgan Kaufman Publishers San Francisco
+7_3 H Casanova; T Bartol; F Berman; A Birnbaum; J Dongarra; M Ellisman; M Faerman; M Miller; G Obertelli; S Pomerantz; T Sejnowski; J Stiles; R Wolski<>The Virtual Instrument: Support for Grid-enabled Scientific Simulations,<>Journal of Parallel and Distributed Computing
+7_4 M Miller;Charles D Hansen ; Christopher R Johnson ; Steven G Parker<>Computational Steering and the SCIRun Integrated Problem Solving Environment <>Scientific Visualization
+7_5 M Miller;Charles D Hansen ; Christopher R Johnson ; Steven G Parker<>Simulation Steering with SCIRun in a Distributed Environment <>HPDC High Performance Distributed Computing Symposium
+7_6 M Miller;Charles D Hansen ; Christopher R Johnson<>Simulation Steering with SCIRun in a Distributed Environment <>PARA Applied Parallel Computing
+7_7 M Miller;Charles D Hansen ; Christopher R Johnson<>The SCIRun Problem Solving Environment: Implementation Within a Distributed Environment <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+7_8 M Miller; C Moulding; J Dongarra;C Johnson<>Grid-Enabling Problem Solving Environments: A Case Study of SCIRun and NetSolve,<>Proceedings of the High Performance Computing Symposium HPC Advanced Simulation Technologies Conference Society for Modeling and Simulation International
+7_9 M Miller; C Hansen; C R Johnson<>Simulation Steering with SCIRun in a Distributed Environment,<>Applied Parallel Computing th International Workshop PARA Applied Parallel Computing B Kagstrom J Dongarra E Elmroth and J Wasniewski eds Springer Verlag
+7_10 M Miller; C D Hansen; S G Parker;C R Johnson<>Simulation Steering with SCIRun in a Distributed Environment,<>Proceedings of the Seventh IEEE International Symposium High Performance Distributed Computing IEEE Press extended abstract and poster presentation
+7_11 S G Parker; M Miller; C D Hansen; C R Johnson<>An Integrated Problem Solving Environment: The SCIRun Computational Steering System,<>Proceedings of the st International Conference System Sciences HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES VII IEEE Press
+8_1 M Miller; Philip K Chan ; Salvatore J Stolfo ; Wei Fan ; Wenke Lee<>Using Artificial Anomalies to Detect Unknown and Known Network Intrusions <>ICDM IEEE International Conference Data Mining
+8_2 M Miller; Erez Zadok ; Salvatore J Stolfo ; Wei Fan ; Wenke Lee<>Toward Cost-Sensitive Modeling for Intrusion Detection and Response <>Journal of Computer Security
+8_3 M Miller; Salvatore J Stolfo ; Wei Fan ; Wenke Lee<>A Multiple Model Cost-Sensitive Approach for Intrusion Detection <>ECML European Conference Machine Learning
+9_1 M Miller; <>Context Shifts and Clashes in Dialogues: An Active Logic Perspective <>Fundam Inform
+9_2 M Miller; Donald Perlis<>Automated Inference in Active Logics <>Journal of Applied Non Classical Logics
+9_3 M Miller; Donald Perlis ; Madhura Nirkhe ; Sarit Kraus<>How to Plan to Meet a Deadline between Now and Then <>Journal of Logic and Computation

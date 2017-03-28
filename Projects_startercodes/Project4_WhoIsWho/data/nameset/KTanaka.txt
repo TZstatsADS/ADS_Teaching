@@ -1,0 +1,280 @@
+10_1 K Tanaka; Eiji Shinohara ; Hiroaki Matsumura ; Hiroshi Sunaga ; Michiharu Takemoto<>The Ubiquitous Service-Oriented Network USON - An Approach for a Ubiquitous World Based on P P Technology <>Peer to Peer Computing
+10_2 K Tanaka; Choong Seon Hong ; Shinkuro Honda ; Takeshi Yoneda ; Yutaka Matsushita<>Multimedia Communication Networking Architecture Model for High Speed Network <>LCN IEEE Conference Local Computer Networks
+1_103 M Yoshikawa;K Ishihara;K Tanaka<>Schema Design, Views and Incomplete Information in Object-oriented Databases,<> English Trans of IPSJ
+1_16 K Tanaka;Kaname Harumoto ; Keishi Tajima ; Masahiko Tsukamoto ; Masatoshi Arikawa ; Shinji Shimojo ; Shojiro Nishio ; Yasuo Ariki<>An Advanced Processing Environment for Managing the Continuous and Semistructured Features of Multimedia Content <>ADBIS Advances Databases and Information Systems DASFAA Database Systems for Advanced Applications
+1_104 M Yoshikawa;K Ishihara;K Tanaka<>Schema Virtualization in Object-Oriented Databases,<>Proc of the th IEEE Int Conf Data Engineering
+1_17 K Tanaka;Kenji Hatano ; Ryouichi Sano ; Yiwei Duan<>An Interactive Classification of Web Documents by Self-Organizing Maps and Search Engines <>DASFAA Database Systems for Advanced Applications
+1_105 M Yoshikawa;K Tanaka<>Towards Abstracting Complex Database Objects: Generalization, Reduction and Unification of Set-type Objects Extended Abstract ,<>Proc Int Conf Database Theory Lecture Notes Computer Science Springer Verlag
+1_50 K Tanaka;Akiyo Nadamoto ; Kazutoshi Sumiya ; Masaki Shikata<>MWM: Retrieval and Automatic Presentation of Manual Data for Mobile Terminals <>DEXA Database and Expert Systems Applications
+1_18 K Tanaka;Kenji Hatano ; Qing Qian<>A SOM-Based Information Organizer for Text and Video Data <>DASFAA Database Systems for Advanced Applications
+1_106 K Tanaka;Koji Zettsu ; Yutaka Kidawara<>Image Retrieval by Web Context: Filling the Gap between Image Keywords and Usage Keywords <>DEXA Database and Expert Systems Applications
+1_51 K Tanaka;Akiyo Nadamoto ; Hiroyuki Kondo<>WebCarrousel: Restructuring Web Search Results for Passive Viewing in Mobile Environments <>DASFAA Database Systems for Advanced Applications
+1_19 K Tanaka;Tatsuo Hirose ; Toshihiko Hata ; Y Nakanishi<>Querying Multiple Perspective Video by Camera Metaphor <>DASFAA Database Systems for Advanced Applications
+1_107 K Tanaka;Koji Zettsu ; Kuniaki Uehara<>Semantic Structures for Video Data Indexing <>AMCP Advanced Multimedia Content Processing
+1_52 K Tanaka;Akiyo Nadamoto ; Hiroyuki Kondo<>WebCarousel: Automatic Presentation and Semantic Restructuring of Web Search Result for Mobile Environments <>DEXA Database and Expert Systems Applications
+1_108 K Tanaka;Kohji Zettsu ; Kuniaki Uehara ; Nobuo Kimura<>A Time-Stamped Authoring Graph for Video Databases <>DEXA Database and Expert Systems Applications
+1_53 K Tanaka;Akiyo Nadamoto ; Kengo Koiso<>Associating and Presenting Metadata of Digital Archive Objects in Virtual Spaces as Synchronized Multimedia Content <>Kyoto International Conference Digital Libraries
+1_54 K Tanaka;Akiyo Nadamoto ; Atsushi Iizawa ; Kazutoshi Sumiya ; Taeko Hattori ; Takako Hashimoto ; Yukari Shirota<>A TV Program Generation System using Digest of Video Scenes and a Scripting Markup Language <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+1_55 K Tanaka;K Nanba ; N Nishikawa ; S Hirayama<>Query Pairs as Hypertext Links <>ICDE International Conference Data Engineering
+1_56 N Nishikawa;S Hirayama;K Nanba;K Tanaka<>Query Pairs As Hypertext Links<>Proc of the th Int Conf Data Engineering IEEE Computer Society
+1_57 S Nishio;K Tanaka<>Obase Object Database Model: Towards a More Flexible Object-Oriented Database System,<>Proc Int Symp Next Generation Database Systems and Their Applications NDA Fukuoka Cpp
+1_90 K Tanaka<>Towards an Integrated Environment for Editing, Viewing and Publishing Multimedia Database Objects,<>Proc Int Symp Computer World
+1_58 K Tanaka;Eitetsu Ohmoto<>HistoryChart: A Visual Language for Historical Databases <>DASFAA Database Systems for Advanced Applications
+1_91 K Tanaka<>Tutorial: Object-Oriented Database,<>Int Symp Database Systems for Advanced Applications Seoul Korea
+1_59 K Tanaka;Hiroaki Oiso ; Jun-ya Morishita ; Kazuhiro Ohtsuki ; Qing Qian ; Shinichi Ueshima<>Incremental Data Organization for Ancient Document Databases <>DASFAA Database Systems for Advanced Applications
+1_92 K Tanaka;Kuniaki Uehara ; Yutaka Kidawara<>Encapsulating Multimedia Contents and a Copyright Protection Mechanism into Distributed Objects <>DEXA Database and Expert Systems Applications
+1_93 K Tanaka;Chung Le Viet ; Shuzo Yajima ; Yahiko Kambayashi<>A file organization suitable for relational database operations <>Mathematical Studies of Information Processing
+1_94 C Le Viet;Y Kambayashi;S Yajima;K Tanaka<>A File Organization Suitable for Relational Database Operations,<>Lecture Notes Computer Science Springer Verlag
+1_95 K Tanaka;Takeshi Yabe<>Similarity Retrieval of Human Motion As Multi-Stream Time Series Data <>DANTE Delivery of Advanced Network Technology to Europe
+1_96 S yajima;Y Kambayashi;K Tanaka<>Bibliographic Information Processing Facilities for Relational Database System ARIS,<>Proc th Int Conf System Sciences
+1_97 K Tanaka;Chikashi Yajima ; Yoshihiro Nakanishi<>Querying Video Data by Spatio-Temporal Relationships of Moving Object Traces <>VDB Visual Database Systems
+1_98 K Tanaka;Shuzo Yajima ; Yahiko Kambayashi<>Problems of Relational Database Design <>Data Base Design Techniques I
+1_99 K Tanaka;Shuzo Yajima ; Yahiko Kambayashi<>Organization of quasi-consecutive retrieval files <>Inf Syst
+1_20 K Tanaka;Tatsuo Hirose ; Yoshihiro Nakanishi<>Modeling and Structuring Multiple Perspective Video for Browsing <>ER International Conference Conceptual Modeling the Entity Relationship Approach
+1_21 K Tanaka;Tatsuo Hirose ; Toshihiko Hata<>Skimming Multiple Perspective Video Using Tempo-Spatial Importance Measures <>VDB Visual Database Systems
+1_22 R Hull;M Yoshikawa;K Tanaka<>Behavior Analysis of Object-Oriented Databases: Method Structure, Execution Trees and Reachability Extended Abstract ,<>Proc rd Int Conf Foundations of Data Organizations and Algorithms Lecture Notes Computer Science Springer Verlag
+1_23 K Tanaka;Kozo Ishihara ; Masatoshi Yoshikawa<>Schema Virtualization in Object-Oriented Databases <>ICDE International Conference Data Engineering
+1_24 Y Kambayashi;K Takeda;S Yajima;K Tanaka<>Design Problems of Unnormalized Relations Utilizing Semantic Constraints in Relational Databases in Japanese ,<>Trans of IPSJ
+1_25 Y Kambayashi;K Tanaka<>Logical Integration of Locally Independent Relational Databases into a Distributed Database,<>Proc th Int Conf Very Large Data Bases Cannes
+1_26 Y Kambayashi;K Tanaka<>Interference Problems between Relational Queries and Dependency Constraints in Japanese ,<>Trans of IPSJ
+1_27 Y Kambayashi;S Yajima;K Tanaka<>Problems of Relational Database Design, Lecture Notes in Computer Science ,<>Springer Verlag
+1_60 K Tanaka;Hiroaki Oiso ; Keishi Tajima ; Masaki Kamiura<>Spatial Views and LOD-Based Access Control in VRML-object Databases <>WWCA Worldwide Computing and Its Applications
+1_28 Y Kambayashi;S Yajima;K Tanaka<>Properties of Embedded Multivalued Dependencies in Relational Databases,<>Trans of IECE E
+1_61 E Oomoto;K Tanaka<>Continuous Objects: A Data Model for Multi-Media Databases in Japanese ,<> Proc of the JSSST Object Oriented Computing Workshop appeared Object Oriented Computing I Kindai Kagakusha
+1_29 Y Kambayashi;S Yajima;K Tanaka<>Organization of Quasi-Consecutive Retrieval Files,<>Information Systems Pergamon Press
+1_62 E Oomoto;K Tanaka<>Design and Implementation of a Visual Query Language for Historical Databases,<>Database Systems for Next generation Applications Advanced Database Research and Development Series World Scientific Publishing
+1_63 E Oomoto;K Tanaka<>HistoryChart: A Visual Query language for Historical Databases,<>Proc Int Symp Database Systems for Advanced Applications DASFAA Database Systems for Advanced Applications
+1_64 E Oomoto;K Tanaka<>OVID: Design and Implementation of a Video-Object Database System,<>IEEE Trans Knowledge and Data Engineering
+1_65 K Tanaka;Eitetsu Oomoto<>Video Database Systems - Recent Trends in Research and Development Activities <>Handbook of Multimedia Information Management
+1_66 E Oomoto;K Tanaka<>Propagation-View: An Instance-based Inheritance Mechanism by Parial Order Relationships in Object-Oriented Databases, in Japanese ,<>Trans of IPSJ
+1_67 S Pradhan;T Jozen;K Tanaka<>Navigation of an Instance-based Object Database with Dynamic Inheritance Capability,<>Proc Int Symp Advanced Database Technologies and Thier Integration ADTI Nara JapanCpp
+1_68 K Tanaka;Qing Qian<>Two-Level Schemata and Generalized Links for Hypertext Database Models <>Future Databases
+1_69 Q Qiang;M Tanizaki;K Tanaka<>Abstraction and Inheritance of HyperLinks in an Object-Oriented Hypertext Database System TextLink/Gem,<>Proc Int Symp Advanced Database Technologies and Thier Integration ADTI Nara
+1_30 Y Kambayashi;S Yajima;K Tanaka<>A Relational Data Language with Simplified Binary Relation Handling Capability,<>Proc rd Int Conf Very Large Data Bases Tokyo
+1_31 Y Kambayashi;K Takeda;S Yajima;K Tanaka<>Representation of Relations for Database Output Utilizing Data Dependencies,<>Proc th Int Conf System Sciences U S A
+1_32 Y Kambayashi;S Yajima;K Tanaka<>Use of Abstracted Characteristics of Data in Relational Databases,<>Proc IEEE rd Int Computer Software and Applications Conf
+1_33 Y Kambayashi;S Yajima;K Tanaka<>Semantic Aspects of Data Dependencies and Their Application to Relational Database Design,<>Proc IEEE rd Int Computer Software and Applications Conf
+1_34 Y Kambayashi;K Takeda;K Tanaka<>Synthesis of Unnormallized Relations Incorporating More Meaning,<>Information Sciences Elsevier Science Pub Inc
+1_35 K Tanaka;Yahiko Kambayashi<>Testing of Join Dependency Preserving by a Modified Chase Method <>MFCS Mathematical Foundations of Computer Science
+1_36 K Tanaka;Hiroaki Kawagishi ; Kengo Koiso<>Dynamic Zone Retrieval and Landmark Computation for Spatial Data <>Digital Cities
+1_37 K Tanaka;Hiroaki Kawagishi ; Kengo Koiso ; Takahiro Matsumoto<>InfoLOD and LandMark: Browsing and Retrieving Spatial Data <>CODAS The Second International Symposium Cooperative Database Systems for Advanced Applications
+1_70 K Tanaka;Ma Qiang ; Shinya Miyazaki<>WebSCAN: Discovering and Notifying Important Changes of Web Sites <>DEXA Database and Expert Systems Applications
+1_38 K Tanaka;Hiroaki Kawagishi ; Kengo Koiso ; Takahiro Matsumoto ; Takehisa Mori<>InfoLOD and LandMark: Spatial Presentation of Attribute Information and Computing Representative Objects for Spatial Data <>Int J Cooperative Inf Syst
+1_71 N Sanada;K Tanaka<>Adding Methods to Relational Database Constructs,<>Proc th Annual Int Computer Software and Applications Conf COMPSAC International Computer Software and Applications Conference IEEE Computer Society Press
+1_39 S Kitamura;K Tanaka<>Design and Implementation of an Oriental Medicine Expert System, in Japanese ,<>Trans of the Institute of Systems Control and Information Engineers
+1_72 K Tanaka;Yoav Shoham<>A Dynamic Theory of Incentives in Multi-Agent Systems <>IJCAI International Joint Conference Artificial Intelligence
+1_1 K Tanaka;<>Advanced Applications and Future Research Issues of OODBs <>DASFAA Database Systems for Advanced Applications
+1_73 K Tanaka;Yuichi Sugiyama ; Yutaka Kidawara<>A cost model and copyright management for D digital contents using multilevel complex objects <>Systems and Computers
+1_2 K Tanaka;<>Tree-Structured Data Organization with Consecutive Retrieval Property <>FODO Conference Foundations of Data Organization and Algorithms
+1_74 K Tanaka;Kazutoshi Sumiya ; Satoshi Oyama ; Shinsuke Nakajima<>Context-Dependent Web Bookmarks and Their Usage as Queries <>WISE Web Information Systems Engineering
+1_3 K Tanaka;<>Tea-Time Museum: Croquet As a Browsing and Searching Environment for Digital Libraries <>C
+1_75 K Tanaka;Kazutoshi Sumiya ; Reiko Noda<>Hypermedia Broadcasting with Temporal Links <>DEXA Database and Expert Systems Applications
+1_4  ;K Tanaka<>Tree-Structured Data Organization with Consecutive Retrieval Property, Data Base File Organization,<>Academic Press Proc Conf Consecutive Retrieval Property
+1_76 K Tanaka;Kazutoshi Sumiya ; Reiko Noda<>A temporal link mechanism for hypermedia broadcasting <>Systems and Computers
+1_5 S Ceri;K Tanaka;D tsur;<>DOOD' Deductive and Object-Oriented Databases,<>Springer verlag
+1_77 K Tanaka;Keishi Tajima ; Masatsugu Kitagawa ; Yoshiaki Mizuuchi<>Cut as a Querying Unit for WWW, Netnews, e-mail <>Hypertext
+1_6 T -S Chang;K Tanaka<>Alternative Objects in Object-Oriented Databases<>Proc Int Symp Database Systems for Advanced Applications DASFAA Database Systems for Advanced Applications
+1_78 K Tanaka;Keishi Tajima ; Sujeet Pradhan ; Takashi Sogo<>Algebraic Retrieval of Fragmentarily Indexed Video <>New Generation Comput
+1_7 T -S Chang;K Tanaka<>On Natural Joins in Object-Oriented Databases,<>Proc st Int Conf Deductive and Object Oriented Databases DOOD Elsevier Science Publishers B V North
+1_8 K Tanaka;Akihiro Doi ; Kazutoshi Sumiya ; Kuniaki Uehara ; Tomoaki Kawaguchi<>ScoopCast: Dynamic Video Production and Delivery from Indexed Live Video Stream <>ICSC International Computing Science Conferences
+1_79 K Tanaka;Keishi Tajima ; Sujeet Pradhan<>A Query Model for Retrieving Relevant Intervals within a Video Stream <>ICMCS International Conference Multimedia Computing and Systems
+1_9 S Ghosh;Y Kambayashi;K Tanaka;<>FOUNDATIONS OF DATA ORGANIZATION,<>Plenum Press
+1_40 S Kitamura;S Tsuji;K Tanaka<>Visibility and Controllability in an Oriental Medicine Expert System,<>Proc of the th IEEE Annual Int Computer Software Applications Conf
+1_41 K Tanaka;Hidenari Kiyomitsu<>Navigation-Dependent Web-Views: Defining and Controlling Semantic Unit of Web Pages <>ICSC International Computing Science Conferences
+1_42 S Kobayashi;T Sakanoue;K Tanaka<>Uncertainty Management in Object-Oriented Database Systems,<>Proc Int Conf Database and Expert Systems Applications DEXA Springer Verlag
+1_43 K Tanaka;Kengo Koiso ; Kenji Kawakatsu ; Takehisa Mori<>Dynamic Generation of Virtual Spaces and Incremental Query Formulation Using Spatial Browsing <>DEXA Database and Expert Systems Applications Workshop
+1_44 K Tanaka;Kengo Koiso ; Takahiro Matsumoto<>Spatial Presentation and Aggregation of Georeferenced Data <>DASFAA Database Systems for Advanced Applications
+1_45 K Tanaka;Hiroyuki Kondo ; Takeshi Matsukura ; Yoichi Hirata<>Discovery of Semantic Relationships among Web Pages Based on Web Topic Structures <>DS Discovery Science
+1_46 K Tanaka;Chiyako Matsumoto ; Ma Qiang<>A Localness-Filter for Searched Web Pages <>APWeb
+1_47 K Tanaka;Chiyako Matsumoto ; Ma Qiang<>Web Information Retrieval Based on the Localness Degree <>DEXA Database and Expert Systems Applications
+1_80 K Tanaka;Keishi Tajima ; Sujeet Pradhan<>A Query Model to Synthesize Answer Intervals from Indexed Video Units <>IEEE Trans Knowl Data Eng
+1_48 K Tanaka;Akiyo Nadamoto ; Hiroyuki Kondo ; Kazutoshi Sumiya ; Machiko Kusahara ; Taeko Hattori<>Back to the TV: Information Visualization Interfaces based on TV-Program Metaphors <>IEEE International Conference Multimedia and Expo III
+1_81 K Tanaka;Keishi Tajima ; Sujeet Pradhan ; Takashi Sogo<>A New Algebraic Approach to Retrieve Meaningful Video Intervals from Fragmentarily Indexed Video Shots <>VDB Visual Database Systems
+1_49 K Tanaka;Akiyo Nadamoto<>A comparative web browser CWB for browsing and comparing web pages <>WWW World Wide Web Conference Series
+1_82 K Tanaka;Keishi Tajima<>New Techniques for the Discovery of Logical Documents in Web <>DANTE Delivery of Advanced Network Technology to Europe
+1_83 K Tanaka;Keishi Tajima ; Sujeet Pradhan<>Utilizing Prototype Objects and Powerdomains to Support Public Authoring of Video Databases <>CODAS The Second International Symposium Cooperative Database Systems for Advanced Applications
+1_84 K Tanaka;Atsunori Takeuchi ; Hidenari Kiyomitsu<>Web Reconfiguration by Spatio-Temporal Page Personalization Rules Based on Access <>SAINT Symposium Applications and the Internet
+1_85 K Tanaka;S Nishio;Kindai-Kagakusha;<>Object-Oriented Computing I in japanese ,<>
+1_86 K Tanaka<>Fundamental Concepts of Object-Oriented Databases in Japanese ,<>Information Processing IPSJ
+1_87 K Tanaka<>A Historical Database Model Based on Tuple Sequences and Its Integrity Constraints in Japanese ,<>Information Processing of IPSJ Selected the IPSJ th Anniversary Paper
+1_88 K Tanaka<>Integration of Hypermedia and Object-Oriented Database Technologies, in Japanese ,<>Proc Int Symp Computer World
+1_89 K Tanaka<>Storing and Manipulating Multimedia Database Objects by PostScript and Relational Databases,<>Proc Int Symp Interoperable Information Systems INTAP Tokyo
+1_10 S Ginsburg;K Tanaka<>Computation-tuple Sequences and Object Histories,<>ACM Trans Database Systems
+1_11 S Ginsburg;K Tanaka<>Computation-tuple Sequences and Object Histories: Extended Abstract,<>Proc Int Conf Foundations of Data Organization Kyoto Plenum Press
+1_12 K Tanaka;Seymour Ginsburg<>Interval Queries on Object Histories <>Theor Comput Sci
+1_100 K Tanaka;Shuzo Yajima ; Yahiko Kambayashi<>A Relational Data Language with Simplified Binary Relation Handling Capability <>VLDB Very Large Data Bases
+1_13 S Ginsburg;K Tanaka<>Interval Queries on Object Histories: Extended Abstract,<>Proc th Int Conf Very Large Data Bases
+1_101 K Tanaka;Kazuya Yoda ; Keishi Tajima<>Access control and authorization for CG data with multiple detail levels <>Systems and Computers
+1_14 K Tanaka;Hans-J&ouml;rg Schek ; M Tamer &Ouml;zsu ; Yanchun Zhang<>Special Issue on The nd Web Information Systems Engineering Conference WISE' <>World Wide Web
+1_102 K Tanaka;Masatoshi Yoshikawa ; Richard Hull<>Behavior Analysis of Object-Oriented Databases: Method Structure, Execution Trees, and Reachability Extended Abstract <>FODO Conference Foundations of Data Organization and Algorithms
+1_15 K Tanaka;Craig Harris ; Earl D Saberdoti ; Fran&ccedil;ois Bancilhon ; Michael Kifer ; Michael L Brodie ; Yoshifumi Masunaga<>Next Generation Database Management Systems Technology Panel <>DOOD Deductive and Object Oriented Databases
+2_30 K Tanaka; Makoto Takizawa ; Naokazu Nemoto<>Quality-based synchronization methods of multimedia objects <>Inf Sci
+2_31 K Tanaka; Keiji Izaki ; Makoto Takizawa<>Information Flow Control among Objects in Role-Based Access Control Model <>DEXA Database and Expert Systems Applications
+2_32 K Tanaka; Hiroaki Higaki ; Makoto Takizawa<>Object-Based Ordered Delivery of Messages in Object-Based Systems <>DEXA Database and Expert Systems Applications
+2_33 K Tanaka; Makoto Takizawa<>Protocol for Taking Object-Based Checkpoints <>DEXA Database and Expert Systems Applications
+2_34 K Tanaka; Makoto Takizawa<>Quorum-Based Locking Protocol in Nested Invocations of Methods <>DEXA Database and Expert Systems Applications
+2_35 K Tanaka; Makoto Takizawa ; Naokazu Nemoto<>Quality-Based Synchronization Methods of Multimedia Objects <>DEXA Database and Expert Systems Applications
+2_36 K Tanaka; Hiroaki Higaki ; Makoto Takizawa<>Significant Checkpoint in Distributed System <>DEXA Database and Expert Systems Applications
+2_37 K Tanaka; Mamoru Mitsuishi ; Takaaki Nagao ; Yasuyoshi Yokokohji<>Remote Rapid Manufacturing with Action Media as an Advanced User Interface <>ICRA International Conference Robotics and Automation
+2_1 K Tanaka; Keiji Izaki ; Makoto Takizawa<>Access Control Model in Object-Oriented Systems <>DBSec
+2_2 K Tanaka; Makoto Takizawa<>Quorum-Based Replication of Objects <>DEXA Database and Expert Systems Applications Workshop
+2_3 K Tanaka; Hiroaki Higaki ; Makoto Takizawa<>Protocol for Pseudo-Active Replication in Wide-Area Networks <>DEXA Database and Expert Systems Applications Workshop
+2_4 K Tanaka; Makoto Takizawa ; Motokazu Yokoyama<>QoS-Based Method for Compensating Multimedia Objects <>DEXA Database and Expert Systems Applications Workshop
+2_5 K Tanaka; Keiji Izaki ; Makoto Takizawa<>Authorization Model Based on Object-Oriented Concept <>ICOIN International Conference Information Networking
+2_6 K Tanaka; Makoto Takizawa<>Replica Management in Object-Based Systems <>ICOIN International Conference Information Networking
+2_7 K Tanaka; Keijirou Arai ; Makoto Takizawa<>Group Protocol for Delivering Requests to Replicas <>ICOIN International Conference Information Networking
+2_8 K Tanaka; Kenichi Shimamura ; Makoto Takizawa<>Object-Causally Ordered Group Protocol for Distributed Multimedia Systems <>ICOIN International Conference Information Networking
+2_9 K Tanaka; Makoto Takizawa ; Youhei Timura<>Causality of Messages in Object-Based Systems <>ICOIN International Conference Information Networking
+2_10 K Tanaka; Hiroaki Higaki ; Makoto Takizawa<>Protocol for Pseudo-Active Replication in Wide-Area Network <>ICPP International Conference Parallel Processing Workshops
+2_11 K Tanaka; Hiroaki Higaki ; Makoto Takizawa<>Checkpoints in Distributed Object-Based Systems <>ICPP International Conference Parallel Processing Workshops
+2_12 K Tanaka; Hiroaki Higaki ; Makoto Takizawa<>Quorum-Based Protocol for Group Communication <>ICPP International Conference Parallel Processing Workshops
+2_13 K Tanaka; Hiroaki Higaki ; Makoto Takizawa ; Michiaki Katsumoto<>Quality-Based Lock Modes of Multimedia Objects <>ICPP International Conference Parallel Processing Workshops
+2_14 K Tanaka; Makoto Takizawa<>Quorum-Based Locking Protocol for Replicas in Object-Based Systems <>ISADS International Symposium Autonomous Decentralized Systems
+2_15 K Tanaka; Makoto Takizawa<>Asynchronous Checkpointing Protocol for Object-Based Systems <>ISORC IEEE International symposium Object Oriented Real Time Distributed Computing
+2_16 K Tanaka; Makoto Takizawa ; Youhei Timura<>Group Protocol for Object-Based Systems <>ISORC IEEE International symposium Object Oriented Real Time Distributed Computing
+2_17 K Tanaka; Hiroaki Higaki ; Makoto Takizawa ; Naokazu Nemoto<>Pseudo-Active Replication Protocol for Reliable Replica Group <>ICDCS International Conference Distributed Computing Systems Workshop Group Communications and Computations
+2_18 K Tanaka; Kenichi Shimamura ; Makoto Takizawa<>Group Protocol for Exchanging Multimedia Objects in a Group <>ICDCS International Conference Distributed Computing Systems Workshop Group Communications and Computations
+2_19 K Tanaka; Makoto Takizawa ; Youhei Timura<>Group Communication Protocol in Object-Based Systems <>ICDCS International Conference Distributed Computing Systems Workshop Group Communications and Computations
+2_20 K Tanaka; Keiji Izaki ; Makoto Takizawa<>Information Flow Control in Role-Based Model for Distributed Objects <>ICPADS International Conference Parallel and Distributed Systems
+2_21 K Tanaka; Makoto Takizawa<>Checkpointing Protocol for Object-Based Systems <>ICPADS International Conference Parallel and Distributed Systems
+2_22 K Tanaka; Makoto Takizawa<>Optimization of Nested Invocation on Replicas in Object-Based Systems <>ICPADS International Conference Parallel and Distributed Systems
+2_23 K Tanaka; Makoto Takizawa<>Distributed checkpointing based on influential messages <>ICPADS International Conference Parallel and Distributed Systems
+2_24 K Tanaka; Keijirou Arai ; Makoto Takizawa<>Group Protocol for Quorum-Based Replication <>ICPADS International Conference Parallel and Distributed Systems
+2_25 K Tanaka; Makoto Takizawa ; Motokazu Yokoyama<>QoS-Based Method for Compensating Multimedia Objects <>ICPADS International Conference Parallel and Distributed Systems
+2_26 K Tanaka; Makoto Takizawa ; Youhei Timura<>Causal Precedent Relations among Messages in Object-Based Systems <>ICPADS International Conference Parallel and Distributed Systems
+2_27 K Tanaka; Makoto Takizawa<>Reliable Nested Invocation of Methods in Distributed Object-Based Systems <>DOA International Symposium Distributed Objects and Applications
+2_28 K Tanaka; Hiroaki Higaki ; Makoto Takizawa<>Pseudo-Active Replication of Distributed Objects in Wide-Area Networks <>DOA International Symposium Distributed Objects and Applications
+2_29 K Tanaka; Hiroaki Higaki ; Makoto Takizawa<>Quorum-based Locking Protocol for Replicated Objects <>DOA International Symposium Distributed Objects and Applications
+3_1 K Tanaka; Masaharu Mizumoto ; Motohide Umano<>Implementation of a Fuzzy-Set Theoretic Data Structure System Abstract <>VLDB Very Large Data Bases
+3_2 K Tanaka; Jun'ichi Toyoda ; Masaharu Mizumoto<>Some Considerations on Fuzzy Automata <>J Comput Syst Sci
+3_3 K Tanaka; Jun'ichi Toyoda ; Masaharu Mizumoto ; Yoshinori Ezawa<>Interactive Languages <>J Comput Syst Sci
+3_4 K Tanaka; Masaharu Mizumoto<>Some Properties of Fuzzy Sets of Type <>Information and Control
+3_5 K Tanaka; Masaharu Mizumoto<>Fuzzy Sets and Their Operations<>Information and Control
+3_6 K Tanaka; Jun'ichi Toyoda ; T Tsuji<>Relational Data Graphs and Some Properties of Them <>J Comput Syst Sci
+3_7 K Tanaka; Jun'ichi Toyoda ; Masaharu Mizumoto<>Various Kinds of Automata with Weights <>J Comput Syst Sci
+4_30 Kazuyuki Tanaka;Tohru Morita;Kazuo Hiroike<>Correlation Functions of a One-Dimensional Lattice Gas with Interactions up to Third-Nearest Neighbors <>Progress of Theoretical Physics Supplement
+4_31 Kazuyuki Tanaka;Tsuyoshi Horiguchi;Tohru Morita<>Critical Indices for the Two-Dimensional Ising Model with Nearest-Neighbor and Next-Nearest-Neighbor Interactions <>Physics Letters A
+4_32 Kazuyuki Tanaka;Tsuyoshi Horiguchi;Tohru Morita<>Critical Indices for the Two-Dimensional Ising Model with Nearest-Neighbor and Next-Nearest-Neighbor Interactions II Strip Cluster Approximation <>Physica A
+4_33 Kazuyuki Tanaka;Tohru Morita<>Free Energy for Layered Free Fermion Models <>Journal of The Physical Society of
+4_34 Kazuyuki Tanaka;Tsuyoshi Horiguchi<>Quantum Statistical-Mechanical Iterative Method in Image Restoration,<>IEICE Transactions A J A Japanese translated Electronics and Communications Part Fundamental Electronic Science English
+4_35 Kazuyuki Tanaka;Jun-ichi Inoue;D M Titterington<>Loopy belief propagation and probabilistic image processing,<>Neural Networks for Signal Processing XIII Proceedings of the IEEE Signal Processing Society Workshop Toulouse Paper Postscript Presentation Slide Powerpoint
+4_36 Kazuyuki Tanaka<>Image Restorations by using Compound Gauss-Markov Random Field Model with Quantumized Line Fields,<>IEICE Transactions D II J D II Japanese
+4_37 Kazuyuki Tanaka;Jun-ichi Inoue<>Maximum Likelihood Hyperparameter Estimation for Solvable Markov Random Field Model in Image Restoration,<>IEICE Transactions Information and Systems E D
+4_38 Kazuyuki Tanaka<>Maximum Marginal Likelihood Estimation and Constrained Optimization in Image Restoration,<>Transactions of Japanese Society for Artificial Intelligence
+4_39 Kazuyuki Tanaka<>Maximum Posterior Marginal Estimate in Statistical Method for Image Restoration,<>IEICE Transactions A J A Japanese
+4_40 Kazuyuki Tanaka;Tohru Morita<>Application of cluster variation method to image restoration problem,<>Theory and Applications of the Cluster Variation and Path Probability Methods ed J L Mor an L opez and J M Sanchez Plenum Press New Proceedings of the international workshop the theory and applications of the cluster variation and path probability methods Teotihuacan
+4_41 Kazuyuki Tanaka;Yositake Takane;Hiromichi Ebisawa;Tohru Morita<>Application of Cluster Variation Method to Three-Dimensional $t$-$J$ Model <>Journal of the Physical Society of
+4_42 Kazuyuki Tanaka;Tohru Morita<>Application of the culster variation method to three-dimensional $t$-$J$ model II <>Journal of the Korean Physical Society Supplementary Issue Proceedings of workshop statistical physics S S Korea University Krea
+4_43 Kazuyuki Tanaka<>Approximate Optimization Algorithms in Markov Random Field Model based on Statistical-mechanical techniques,<>Proceedings of International Workshop Soft Computing Industry Muroran Institute of Technology Press Muroran
+4_44 Kazuyuki Tanaka<>Probabilistic Computational Method in Image Restoration based on Statistical-mechanical Texhniques,<>Y Suzuki S Ovaska T Furuhashi R and Y Dote Eds Soft Computing Industrial Applications Springer Verlag Press London Proceedings of th line World Conference Soft Computing Industrial Applications
+4_45 Kazuyuki Tanaka;Jun-ichi Inoue;D M Titterington<>Probabilistic image processing by means of Bethe approximation for Q-Ising model,<>Journal of Physics A Mathematical and General
+4_46 Kazuyuki Tanaka<>Probabilistic Inference by means of Cluster Variation Method and Linear Response Theory,<>IEICE Transactions Information and Systems E D
+4_47 Kazuyuki Tanaka;Tsuyoshi Horiguchi<>Probabilistic, Iterated and Quantum-Iterated Computational Methods in Gray-Level Image Restration,<>Interdisciplinary Information Sciences Postscript
+4_48 Kazuyuki Tanaka;Tsuyoshi Horiguchi<>Solvable Markov Random Field Model in Color Image Restoration,<>Physical Review E Article Postscript
+4_49 Kazuyuki Tanaka;Tohru Morita;Kazuo HIROIKE<>Spin Pair Correlation Function of the Ising Model on the Brickwork Lattice with Second Neighbor Interactions <>Physica A
+4_10 K Tanaka;Makoto Kikuchi<>On Formalization of Model-Theoretic Proofs of G&ouml;del's Theorems <>Notre Dame Journal of Formal Logic
+4_11 Tohru Morita;Kazuyuki Tanaka<>Cluster ZTP in the Recovery of an Image <>Pattern Recognition Letters
+4_12 Tohru Morita;Kazuyuki Tanaka<>Diagrammatical Techniques for Two-Dimensional Ising models III Ising Model to Vertex Model <>Journal of the Physical Society of
+4_13 Tohru Morita;Kazuyuki Tanaka<>Determination of Parameters in an Image Recovery by Statistical-mechanical Means <>Physica A
+4_14 Tohru Morita;Kazuyuki Tanaka<>Generalized Heisenberg model of spin $S$ Greater than $ / $ equivalent to those of spin $ / $ or $ $ <>Journal of the Korean Physical Society Supplementary Issue Proceedings of workshop statistical physics S S Korea University Krea
+4_15 Tohru Morita;Kazuyuki Tanaka<>Generalized Heisenberg Model of Spin $S$ Greater than $ / $ Equivalent to that of Spin $ / $ <>Journal of the Physical Society of
+4_16 Tohru Morita;Kazuyuki Tanaka<>Generalized $t$-$J$ Model with General Half-odd-integral Spin $S$ <>Physics Letters A
+4_17 Tohru Morita;Kazuyuki Tanaka<>A Lattice Model of Flux Lines <>Physics Letters A see also Physics Letters A p
+4_50 Kazuyuki Tanaka<>Staistical-mechanical Iterative Algorithm by means of Cluster Variation Method in Compound Gauss-Markov Random Field Model,<>Transactions of Japanese Society for Artificial Intelligence
+4_18 Tohru Morita;Kazuyuki Tanaka;Kazuo Hiroike<>One-Dimension Binary Mixture of Hard Rods with Non-Additive Distances of Contact <>Molecular Physics
+4_51 Kazuyuki Tanaka;Mikako Ichioka;Tohru Morita<>Statistical-Mechanical Algorithm in MRF Model based on Variational Principle,<>Proceedings of the th international conference Pattern Recognition II Track B Pattern Recognition and Signal Analysis IEEE Computer Society Press Los Alamos Carifornia File
+4_19 Yasuo Murai;Kazuyuki Tanaka;Tohru Morita<>Numerical Study of D ANNNI model in the Cluster Variation Method <>Physica A
+4_52 Kazuyuki Tanaka;Tohru Morita<>Statistical-mechanical Study of the Image Restoration based on the Markov Random Field Model,<>Proceedings of international Workshop Soft Computing Industory Muroran Institute of Technology Press Muroran
+4_53 Kazuyuki Tanaka;Tohru Morita<>Statistical-Mechanical Iterative Algorithm for Image Restoration of a Gray Level Image,<>IEICE Transactions A J A Japanese
+4_54 Kazuyuki Tanaka;Mikako Ichioka;Tohru Morita<>Statistical-Mechanical Iterative Method in Image Restoration,<>IEICE Transactions A J A Japanese
+4_55 Kazuyuki Tanaka;Tohru Morita<>Asymptotic Behavior of Spin-Pair Correlation Function of Ising Model on Checkerboard Lattice <>Progress of Theoretical Physics
+4_56 Kazuyuki Tanaka;Tohru Morita<>Asymptotic Behavior of Spin-Pair Correlation Function of Ising Model on Generalized Kagom\'{e} Lattice <>Journal of the Physical Society of
+4_57 Kazuyuki Tanaka;Tohru Morita<>Asymptotic Behaviors of Modified Block Toeplitz Determinant <>Progress of Theoretical Physics
+4_58 Kazuyuki Tanaka;Tohru Morita<>Asymptotic Forms of Some Block Toeplitz Determinants <>Progress of Thoeretical Physics
+4_59 Kazuyuki Tanaka;Yositake Takane;Hiromichi Ebisawa;Tohru Morita<>Three-dimensional $t$-$J$ model and cluster variation method Physica B, - - <> Proceedings of XX International Conference Low Temperature Physics University
+4_20 K Tanaka;Naoki Shioji<>Fixed Point Theory in Weak Second-Order Arithmetic <>Ann Pure Appl Logic
+4_21 K Tanaka;Stephen G Simpson ; Takeshi Yamazaki<>Some conservation results on week K&ouml;nig's lemma <>Ann Pure Appl Logic
+4_22 Kazuyuki Tanaka;Tsuyoshi Horiguchi;Tohru Morita<>Coherent-Anomaly Analysis with Cluster Variation Method for Spin-Pair Correlation Function of Ising Model <>Journal of The Physical Society of
+4_23 Kazuyuki Tanaka;Tsuyoshi Horiguchi;Tohru Morita<>Coherent-Anomaly Analysis with Cluster Variation Method for Two-dimensional Ising Model with Nearest-Neighbor and Next-Nearest-Neighbor Interactions <>Progress of Theoretical Physics Supplement
+4_24 Kazuyuki Tanaka;Norihiro Hoshi;Tsuyoshi Horiguchi<>Color Image Compression Algorithm Using Self-Organizing Feature Map, Interdisciplinary<>Information Sciences Postscript Compressed Postscript
+4_25 Kazuyuki Tanaka;Hiromichi Ebisawa;Tohru Morita<>Cluster variation method for two-dimensional Hubbard and $t$-$J$ models Physica C, - , PT - <> Proceedings of conference Marerials Mechanisms of Superconductivity High Temperature Superconductors IV MMS HTSC IV
+4_26 Kazuyuki Tanaka;Tohru Morita<>Cluster Variation Method and Image Restoration Problem <>Physics Letters A
+4_27 Kazuyuki Tanaka;Daiki Furusato;Tsuyoshi Horiguchi<>Coupled Markov Random Field Models with Phases as Line Field and Region Field,<>IEICE Transactions D II J D II Japanese translated Systems and Computers English
+4_60 Kazuyuki Tanaka<>Theoretical Study of Hyperparameter Estimation by Maximization of Marginal Likelihood in Image Restoration by means of Cluster Variation Method,<>IEICE Transactions A J A Japanese translated Electronics and Communications Part Fundamental Electronic Science English
+4_28 Kazuyuki Tanaka;Tohru Morita<>Correlated Random Field Ising Model and Image Restoration Problem,<>edited by M Suzuki and N Kawashima World Scientific Publishing Coporation Press Proceedings of International Symposium Coferent Approaches to Fluctuations Kyoto
+4_61 Kazuyuki Tanaka<>Automatic Hyperparameter Estimation in Probabilistic Image Restoration Algorithm based on Gibbs Microcanonical Distribution <>IEICE Transactions D II J D II to be translated Systems and Computers
+4_29 Kazuyuki Tanaka;Tohru Morita;Kazuo Hiroike<>Correlation Functions of a One-Dimensional Lattice Gas with Nearest-Neighbor and Next-Nearest-Neighbor Interactions <>Progress of Theoretical Physics
+4_1 K Tanaka;<>Weak Axioms of Determinacy and Subsystems of Analysis II Sigma<sup> </sup><sub> </sub> Games <>Ann Pure Appl Logic
+4_62 K Tanaka;Takeshi Yamazaki<>A Non-Standard Construction of Haar Measure and Weak K&ouml;nig's Lemma <>J Symb Log
+4_2 K Tanaka;<>Non standard Analysis in WKLo <>Math Log Q
+4_3 K Tanaka;<>The Self-Embedding Theorem of WKL<sub> </sub> and a Non-Standard Method <>Ann Pure Appl Logic
+4_4 Yasushi Honda;Kazuyuki Tanaka;Tsuyoshi Horiguchi<>Critical Behavior of a Frustrated Spin- Ising Model <>Physical Review B
+4_5 Tsuyoshi Horiguchi;Kazuyuki Tanaka;Tohru Morita<>Coherent-Anomaly Method for the Wave-Number Dependence of the Susceptibility <>Journal of The Physical Society of
+4_6 Tsuyoshi Horiguchi;Kazuyuki Tanaka;Tohru Morita<>Low-Temperature Behavior of Antiferromagnetic Ising Model on Triangular Lattice <>Journal of The Physical Society of
+4_7 Jun-ichi Inoue;Kazuyuki Tanaka<>Dynamical properties of image restoration and hyper-parameter estimation, Neural Networks for Signal Processing XI<> Proceedings of the IEEE Signal Processing Society Workshop
+4_8 Jun-ichi Inoue;Kazuyuki Tanaka<>Dynamics of the maximum likelihood hyper-parameter estimation in image restoration: Gradient descent versus expectation and maximization algorithm,<>Physical Review E Article Postscript
+4_9 Jun-ichi Inoue;Kazuyuki Tanaka<>Mean Field Theory of EM Algorithm for Bayesian Gray Scale Image Restoration,<>Journal of Physics A Mathematical and General
+5_10 K Tanaka;Tetsuro Nishino; Robert Beals <>Negation-Limited Circuit Complexity of Symmetric Functions<>Information Processing Letters
+5_11 K Tanaka;Tetsuro Nishino<>On the complexity of negation-limited Boolean networks <>STOC ACM Symposium Theory of Computing
+5_12 K Tanaka;Tetsuro Nishino <>On the Complexity of Negation-Limited Boolean Networks Symposium on Theory of Computing, pages - , Montréal, Québec, Canada, May <>
+5_13 K Tanaka;Tetsuro Nishino <>On the Negation-Limited Circuit Complexity of Clique Functions<>IEICE Transactions Information and Systems E D
+5_14 K Tanaka;Tetsuro Nishino <>A Relationship Between the Number of Negations and the Circuit Size<>IEICE Transactions Information and Systems E D
+5_15 K Tanaka;Masanori Okada; Milan Vlach <>Minimizing Total Completion Time in a Flow Shop Under a -Idle Constraint<>Symposium Operations Research Jena
+5_16 K Tanaka;Tatsuaki Okamoto; Shigenori Uchiyama <>Quantum Public-Key Cryptosystems<>Advances Cryptology CRYPTO Lecture Notes Computer Science pages Santa Barbara
+5_17 K Tanaka;Tatsuaki Okamoto; Shigenori Uchiyama <>Quantum Public-Key Cryptosystems<>ERATO Workshop Quantum Information Science Tokyo poster session refereed
+5_18 K Tanaka;Keiji Omura <>Density Attack to the Knapsack Cryptosystems with Enumerative Source Encoding<> IEICE Transactions Fundamentals of Electronics Communications and Computer Sciences
+5_19 K Tanaka;Shao Chin Sung<>An exponential gap with the removal of one negation gate <>Inf Process Lett
+5_20 K Tanaka;Shao-Chin Sung <>Limiting Negations in Bounded-Depth Circuits - An Extension of Markov's Theorem<> ISAAC The th Annual International Symposium Algorithms and Computation Kyoto
+5_21 K Tanaka;Shao-Chin Sung <>Lower Bounds on Negation-Limited Inverters<>DMTCS CATS The Discrete Mathematics and Theoretical Computer Science Conference and The th Australasian Theory Symposium pages Auckland New Zealand
+5_22 K Tanaka;Shao-Chin Sung <>An Exponential Gap with the Removal of One Negation Gate<>Information Processing Letters
+5_23 K Tanaka;Shigenori Uchiyama ; Tatsuaki Okamoto<>Quantum Public-Key Cryptosystems <>CRYPTO International Crytology Conference
+5_24 K Tanaka;Milan Vlach<>Single Machine Scheduling with Positional Due and Release Dates<>International Symposium Mathematical Programming Lausanne
+5_25 K Tanaka;Milan Vlach <>Minimizing the Maximum Absolute Lateness and Range of Lateness under Generalized Due Dates on a Single Machine<>Annals of Operations Research
+5_26 K Tanaka;Milan Vlach <>Minimizing the Range of Lateness on a Single Machine under Generalized Due Dates<>Information Systems and Operational Research
+5_27 K Tanaka;Milan Vlach <>Improved Algorithms for Single Machine Scheduling with Fuzzy Due Dates<>Proceedings of the Second International Symposium Operations Research and its Applications pages Guilin
+5_28 K Tanaka;Milan Vlach <>Single Machine Scheduling with Fuzzy Due Dates<>Proceedings of the th International Fuzzy Systems Association World Congress volume pages Prague Czech
+5_29 K Tanaka;Milan Vlach <>Single Machine Scheduling with Generalized Due Dates<>Symposium Combinatorial Optimization London
+5_30 K Tanaka;Milan Vlach <>Single Machine Scheduling with Positional Due Dates and Positional Release Times<>International Conference Optimization and Optimal Control Lambrecht
+5_31 K Tanaka;Milan Vlach <>Single Machine Scheduling to Minimize the Maximum Lateness with Both Specific and Generalized Due Dates<>IEICE Transactions Fundamentals of Electronics Communications and Computer Sciences E A
+5_32 K Tanaka;Milan Vlach <>Single Machine Scheduling to Minimize the Maximum Lateness with Both Specific and Generalized Due Dates<>Proceedings of the Second International Symposium Operations Research and its Applications pages Guilin
+5_1 K Tanaka;<>Quantum Bit-Commitment for Small Storage Based on Quantum One-Way Permutations<>New Generation Computing
+5_2 K Tanaka;Robert Beals; Tetsuro Nishino <>More on the Complexity of Negation-Limited Circuits<>Proceedings of the th Annual ACM Symposium Theory of Computing pages Las Vegas
+5_3 K Tanaka;Robert Beals ; Tetsuro Nishino<>Negation-Limited Circuit Complexity of Symmetric Functions <>Inf Process Lett
+5_4 K Tanaka;Robert Beals; Tetsuro Nishino <>On the Complexity of Negation-Limited Boolean Networks<>SIAM Society for Industrial and Applied Mathematics Journal Computing
+5_5 K Tanaka;Magnús M Halldórsson <>Approximation and Special Cases of Common Subtrees and Editing Distance<>Proceedings of the th International Symposium Algorithms and Computation Lecture Notes Computer Science pages Osaka
+5_6 K Tanaka;Ryotaro Hayashi ; Tatsuaki<>An RSA Family of Trap-door Permutations with a Common Domain and its Applications<> PKC The th International Workshop Practice and Theory Public Key Cryptography
+5_7 K Tanaka;Toshiyuki Isshiki <>An Efficient Anonymous Group Identification Scheme with Human Memorizable Secret Keys<> WISICT The Winter International Symposium Information and Communication Technologies Cancun
+5_8 K Tanaka;Toshiyuki Isshiki <>An Efficient Anonymous Group Identification Scheme with Short Secret Keys<> IEICE Transactions Fundamentals of Electronics Communications and Computer Sciences
+5_9 K Tanaka;Magn&uacute;s M Halld&oacute;rsson<>Approximation and Special Cases of Common Subtrees and Editing Distance <>ISAAC International Symposium Algorithms and Computation
+6_1 EHernan Aguirre;Kiyoshi Tanaka;Tatsuo Sugimura<>Accelerated Image Halftoning Technique Using Improved Genetic Algorithm<> IEICE Trans Fundamentals E A
+6_2 EHernan Aguirre;Kiyoshi Tanaka<>Genetic algorithms on NK-landscapes: effec ts of selection, drift, mutation, and recombination<> Lecture Note Computer Science Springer
+6_3 EHernan Aguirre;Kiyoshi Tanaka;Tatsuo Sugimura;Shinjiro Oshita<>Halftone Image Generation with Improved Multiobjective Genetic Algorithm<> Lecture Note Computer Science Springer
+6_4 EHernan Aguirre;Kiyoshi Tanaka;Tatsuo Sugimura<>Empirical Model with Coopera tive-Competitive Genetic Operators to Improve GAs: Performance Investigation with Multiple / Knapsack Problem<> IP SJ Journal
+6_5 EHernan Aguirre;Kiyoshi Tanaka;Shinjiro Oshita<>Performance Study of a Di stributed Genetic Algorithm with Parallel Cooperative-Competitive Genetic Operators<> IEICE Trans Fundamentals E A
+6_6 EHernan Aguirre;Kiyoshi Tanaka<>Parallel Varying Mutation in Deterministic and Self-Adaptive Gas<> Lecture Note Computer Science Springer
+6_7 EHernan Aguirre;Kiyoshi Tanaka;Tatsuo Sugimura;Shinjiro Oshita<>Simultan eous Halftone Image Generation with Improved Multiobjective Genetic Algorithm<> IEICE Trans Fundamentals E A
+6_8 K Tanaka;Hern&aacute;n E Aguirre ; Tatsuo Sugimura<>Cooperative Crossover and Mutation Operators in Genetic Algorithms <>GECCO The Genetic and Evolutionary Computation Conference
+6_9 K Tanaka;Hern&aacute;n E Aguirre<>Genetic Algorithms on NK-Landscapes: Effects of Selection, Drift, Mutation, and Recombination <>EvoWorkshops
+6_10 K Tanaka;Hern&aacute;n E Aguirre ; Shinjiro Oshita ; Tatsuo Sugimura<>Halftone Image Generation with Improved Multiobjective Genetic Algorithm <>EMO Evolutionary Multi Criterion Optimization
+6_11 K Tanaka;Hern&aacute;n E Aguirre<>Parallel Varying Mutation in Deterministic and Self-adaptive GAs <>PPSN Parallel Problem Solving from Nature
+6_12 K Tanaka;Kazuo Ichikawa ; Kiichiro Fukami ; Koji Hiroshima ; Manabu Ichikawa ; Shoji Kondo ; Shoko Tanabe<>Web-Page Color Modification for Barrier-Free Color Vision with Genetic Algorithm <>GECCO The Genetic and Evolutionary Computation Conference
+6_13 EKineo Matsui;Kiyoshi Tanaka<>Video- Steganography: - How to Secretly Embe d a Signature in a Picture -<> Proc Technological Strategies for Protecting Intellectual Property the Networked Multimedia Environment
+6_14 K Tanaka;Emi Myodo ; Hern&aacute;n E Aguirre<>Improved Image Halftoning Technique Using GAs with Concurrent Inter-block Evaluation <>GECCO The Genetic and Evolutionary Computation Conference
+6_15 EShuichi Takano;Kiyoshi Tanaka;Tatsuo Sugimura<>Data Hiding via Steganograph ic Image Transformation<> IEICE Trans Fundamentals E A
+6_16 EShuichi Takano;Kiyoshi Tanaka;Tatsuo Sugimura<>Data Hiding under Fractal Image Generation via Fourier Filtering Method<> IEICE Trans Information Systems E D
+6_17 EYoshihiro Tanigaki;Kiyoshi Tanaka;Tatsuo Sugimura;Soji Kondo<>Color Wat ermarking Based on Color Vision Model<> IEICE Trans J D II Japanese
+6_18 ETomoya Umemura;Hernan Aguirre;Kiyoshi Tanaka<>Multi-level Image Halftoni ng Technique with Genetic Algorithms<> IEICE Trans Fundamentals E A
+6_19 EKenji Yano;Kiyoshi Tanaka<>Image Encryption Scheme based on a Truncated B aker Transformation<> IEICE Trans Fundamentals E A
+7_1 K Tanaka; Hirokazu Taki ; Norihiro Abe<>Understanding of Mechanical Assembly Instruction Manual by Integrating Vision and Language Processing and Simulation <>ICRA International Conference Robotics and Automation
+7_2 K Tanaka; Akira Yokota ; Hirokazu Taki ; Norihiro Abe ; Yasuhiro Watanabe ; Yoshimasu Kinoshita<>Surface Model Generation by the Relics from Slice Images, and the Approach to the Automatic Restoration <>ICHIM International Conference Hypermedia and Interactivity Museums
+7_3 K Tanaka; Hirokazu Taki ; Norihiro Abe<>A System for Understanding a Mechanical Assembly Instruction Manual Using Virtual Space <>ISMIS International Syposium Methodologies for Intelligent Systems
+7_4 K Tanaka; Akira Yokota ; Hirokazu Taki ; Norihiro Abe ; Yasuhiro Watanabe ; Yoshimasu Kinoshita<>Measurement of fragments with MRI and relic restoration using virtual reality technologies <>Systems and Computers
+7_5 K Tanaka; Jiang Yu Zheng ; Norihiro Abe ; Tetsuo Ohtsuka<>Multiple visual feature identification and integration for D recovery of rotating objects <>Systems and Computers
+8_4 K Tanaka; David Niemann ; Hua O Wang ; Jing Li<>Dynamic parallel distributed compensation for Takagi-Sugeno fuzzy systems: An LMI approach <>Inf Sci
+8_5 K Tanaka; Hidetsugu Abe ; Masahiro Sasaki ; Shin-ichi Sasaki ; Tohru Yamasaki ; Yoshihiro Kudo<>A convenient notation system for organic structure on the basis of connectivity stack <>Journal of Chemical Information and Computer Sciences
+8_1 K Tanaka; Kazunari Kubota<>Memory-Based Learner Model and its Application to a Game Coach <>ECAI European Conference Artificial Intelligence
+8_2 K Tanaka; <>Advanced Fuzzy Control of a Trailer Type Mobile Robot - Stability Analysis and Model-Based Fuzzy Control <>ICTAI International Conference Tools with Artificial Intelligence
+8_3 K Tanaka; Hua O Wang ; Tsuyoshi Hori<>A Dual Design Problem via Multiple Lyapunov Functions <>FUZZ IEEE
+9_1 K Tanaka; Scott E Hudson<>Providing visually rich resizable images for user interface components <>UIST User Interface Software and Technology
+9_2 K Tanaka; Jeremy M Heiner ; Scott E Hudson<>Linking and Messaging from Real Paper in the Paper PDA <>ACM Symposium User Interface Software and Technology
+9_3 K Tanaka; Jeremy M Heiner ; Scott E Hudson<>The Information Percolator: Ambient Information Display in a Decorative Object <>ACM Symposium User Interface Software and Technology

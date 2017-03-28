@@ -1,0 +1,577 @@
+10_1 A Gupta; Bjorn Kvande ; Irwin B Levinstein ; Kurt Maly ; Margrethe H Olson ; Ravi Mukkamala ; Rita Chambers ; Roy Whitney ; S Nanjangud<>PMES: privilege mangagement and enforcement system for secure distributed resource sharing <>IFIP International Federation for Information Processing World Conference IT Tools
+10_2 A Gupta; C S Vemuru ; H Syed ; Hussein M Abdel-Wahab ; Kurt Maly ; Mohamed Kholief ; Ravi Mukkamala ; S Dittakavi<>CoProcess: A Java-based Environment for Collaborative Process Management Over the Web <>WebNet
+10_3 A Gupta; Bjorn Kvande ; Irwin B Levinstein ; Kurt Maly ; Margrethe H Olson ; Ravi Mukkamala ; Rita Chambers ; Roy Whitney ; S Nanjangud<>A privilege management and enforcement system for distributed resource sharing <>WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises
+10_4 A Gupta; Alaa Youssef ; C Michael Overstreet ; Emilia Stoica ; Hussein M Abdel-Wahab ; J Christian Wild ; Kurt Mary<>The software architecture and interprocess communications of IRI: an Internet-based interactive distance learning system <>WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises
+10_5 A Gupta; A Prabhu ; C S Vemuru ; H Syed ; Hussein M Abdel-Wahab ; Kurt Maly ; Ravi Mukkamala<>Mosaic + XTV = CoReview <>Computer Networks and ISDN Systems
+10_6 A Gupta; A Gonzalez ; Ayman Adel Abdel Hamid ; C Michael Overstreet ; Hussein M Abdel-Wahab ; J Christian Wild ; Kurt Maly ; Sahar Ghanem ; Xiaoqing Zhu<>IRI-h, a Java-based distance education system <>ACM Journal of Educational Resources Computing
+10_7 A Gupta; Kurt Maly ; Satish Mynam<>BTU: A Host Communication Benchmark <>IEEE Computer
+10_8 A Gupta; Alaa Youssef ; C Michael Overstreet ; Ehab S Al-Shaer ; Emilia Stoica ; Hussein M Abdel-Wahab ; J Christian Wild ; Kurt Maly<>Interactive Distance Learning over Intranets <>IEEE Internet Computing
+10_9 A Gupta; C Michael Overstreet ; Hussein M Abdel-Wahab ; Kurt Maly ; Muthu Kumar ; Rahul Srivastava<>Performance trade-offs for a multimedia distributed application <>HPN High Performance Networking
+11_1 A Gupta; Mark Moran ; Riccardo Bettati ; Rolf Oppliger<>A Security Architecture for Tenet Scheme <>IDMS Interactive Distributed Multimedia Systems and Telecommunication Services
+11_2 A Gupta; Riccardo Bettati<>Dynamic Resource Allocation Migration for Multiparty Real-Time Communications <>ICDCS International Conference Distributed Computing Systems
+11_3 A Gupta; Domenico Ferrari ; Mark Moran ; Quyen Nguyen ; Rajendra Yavatkar ; Riccardo Bettati ; W Heffner ; Wingwai Howe<>Connection Establishment for Multi-Party Real-Time Communication <>NOSSDAV Network and Operating System Support for Digital Audio and Video
+11_4 A Gupta; Domenico Ferrari ; Giorgio Ventre<>Distributed Advance Reservation of Real-Time Connections <>NOSSDAV Network and Operating System Support for Digital Audio and Video
+11_5 A Gupta; Mark Moran ; Quyen Nguyen ; Wingwai Howe<>Resource Sharing for Multi-Party Real-Time Communication <>INFOCOM The Conference Computer Communications
+11_6 A Gupta; Domenico Ferrari ; Giorgio Ventre<>Distributed Advance Reservation of Real-Time Connections <>Multimedia Syst
+11_7 A Gupta; Domenico Ferrari<>Resource partitioning for real-time communication <>IEEE ACM Trans Netw
+11_8 A Gupta; Kurt Rothermel<>Failure Recovery for Multi-Party Real-Time Communication <>ICMCS International Conference Multimedia Computing and Systems
+12_20 S Ghosh; A Gupta; S V Pemmaraju<>A self-stabilizing algorithm for the maximum flow problem,<> th Annual IEEE International Conference Computers and Communication
+12_21 A Gupta ; C Mazumdar<>PMM: A parallel architecture for production systems,<>ACM Southeastcon
+12_22 A Gupta ; C Mazumdar<>A partially shared parallel Rete network for faster execution of production systems,<>Froniters of Knowledge Based Computing Vijay P Bhatkar and Kiran M Rege ed Narosa Publishing House
+12_23 N Gururaj ; A Gupta<>A simulator for distributed self-stabilizing algorithms,<>ADCOM International Conference Advanced Computing and Communication Bhubaneswar
+12_24 M E Kortright; A Gupta; R Borie<>Fast parallel algorithms for the balanced decomposition of series-parallel graphs,<>Congressus Numerantium
+12_25 V Madhu; P Singhal; A Gupta<>Design and implementation of a Linux-based IPv -IPv Bridge,<>CIT Bhubaneswar
+12_26 A Gupta;Animesh Nandi<>Estimating Link Characteristics of Internet Paths With FPathchar <>International Conference Internet Computing
+12_27 H S Paul; A Gupta; R Badrinath<>Combining diverse checkpoint and recovery algorithms for distributed systems,<> rd International Workshop Distributed Computing Calcutta
+12_28 H S Paul; A Gupta; R Badrinath<>Hierarchical coordinated checkpointing algorithms,<>PDCS Parallel and Distributed Computing Systems IASTED International Conference Parallel and Distributed Computing and Systems
+12_29 H S Paul; A Gupta; R Badrinath<>A heterogeneous checkpoint and recovery protocol,<>PDPTA Parallel and Distributed Processing Techniques and Applications International Conference Parallel and Distributd Processing Techniques and Applications Las Vegas
+12_1 S Banerjee; A Gupta; A Basu<>Online transcoding of web pages for mobile devices,<>HCI Human Computer Interaction Udine
+12_2 A Gupta;Anupam Basu ; Umesh Deshpande<>Adaptive Fault Tolerant Hospital Resource Scheduling <>CoopIS DOA International Symposium Distributed Objects and Applications ODBASE International Conference Ontologies Databases and Applications of SEmantics
+12_3 A Gupta;Anupam Basu ; Somnath Banerjee<>Online Transcoding of Web Pages for Mobile Devices <>HCI Human Computer Interaction
+12_4 A Basu ; A Gupta<>Intellegent mobile agent based framework for resource discovery and transcoding,<>Intelligent Computing and VLSI Very Large Scale Integration Allied Publishers
+12_5 R Borie ; A Gupta<>Balanced decomposition for partial-k trees,<>Congressus Numerantium
+12_6 U Deshpande; A Gupta; A Basu<>Coordinated problem solving through resource sharing in a distributed environment,<> IEEE Transactions Systems Man and Cybernatics
+12_7 U Deshpande; A Gupta; A Basu<>A coordination mechanism for hospital resource scheduling using a multi-agent framework,<> rd International Workshop Distributed Computing Calcutta
+12_8 U Deshpande; A Gupta; A Basu<>Adaptive fault tolerant hospital resource scheduling,<>International Conference Cooperative Information Systems LNCS
+12_9 U Deshpande; A Gupta; A Basu<>A distributed hospital resource scheduling system using a multi-agent framework,<>IETE Technical Review
+12_30 A Gupta;Himadri Sekhar Paul ; R Badrinath<>A Heterogeneous Checkpoint and Recovery Protocol in Cluster-Based Distributed Systems <>PDPTA Parallel and Distributed Processing Techniques and Applications
+12_31 H S Paul; A Gupta; R Badrinath<>Evaluation of different classes of checkpoint and recovery potocols iwth dPSIM,<>CIT th International Conference Information Technology Gopalpur Sea
+12_32 H S Paul; A Gupta; R Badrinath<>Performance comparison of checkpoint and recovery protocols,<> Concurrency and Computation Practice and Experience
+12_33 H S Paul; A Gupta; R Badrinath<>Simulation and performance estimation of checkpoint and recovery protocols,<>Poster presentation HPC ASIA Bangalore
+12_34 A Gupta;Sriram V Pemmaraju ; Sukumar Ghosh<>Fault-containing network protocols <>SAC Selected Areas Cryptography
+12_35 A Gupta;Sriram V Pemmaraju ; Sukumar Ghosh ; Ted Herman<>Fault-Containing Self-Stabilizing Algorithms <>PODC Symposium Principles of Distributed Computing
+12_36 A Gupta;Sriram V Pemmaraju ; Sukumar Ghosh<>A Self-Stabilizing Algorithm for the Maximum Flow Problem <>Distributed Computing
+12_37 S Ranjan; A Gupta; A Basu; A Meka; A Chaturvedi<>Adaptive mobile agents: modeling and a case study,<> Workshop Distributed Computing Calcutta
+12_38 S Shekhar; S Banerjee; A Gupta<>Online transcoding of news pages for handheld devices,<>International Conference Computer Sciences
+12_10 U Deshpande; A Gupta; A Basu<>Performance improvement of contract net based using instance based learning,<>International Workshop Distributed Computing Kolkata Proceedings Springer Verlag s LNCS series
+12_11 U Deshpande; A Gupta; A Basu<>Task assignment in a collaborative system with imprecise information,<>KBCS Mumbai
+12_12 S Ghosh; A Gupta; S V Pemmaraju<>Fault-containing network protocols,<>Annual ACM Symposium Applied Computing San Jose
+12_13 S Ghosh; A Gupta; S V Pemmaraju<>A fault-containing self-stabiling spanning tree algorithm,<>Journal of Computing and Information
+12_14 S Ghosh; A Gupta; T Herman; S V Pemmaraju<>Fault-containing self-stabilizing protocols,<> th Annual ACM Symposium Principles of Distributed Computing
+12_15 S Ghosh ; A Gupta<>An exercise in fault-containment: Self-stabilizing leader election,<>Information Processing Letters
+12_16 S Ghosh; A Gupta; S V Pemmaraju<>Randomized algorithms in graph theory,<>Technical Report TR Department of Computer Science The University of City
+12_17 S Ghosh; A Gupta; M H Karaata; S V Pemmaraju<>Self-stabilizing dynamic programming algorithms on trees,<> Workshop Self Stabilizing Systems Las Vegas
+12_18 S Ghosh; A Gupta; M H Karaata; S V Pemmaraju<>A self-stabilizing algorithm for maximal matching on trees,<>Technical Report TR Department of Computer Science The University of City
+12_19 S Ghosh; A Gupta; S V Pemmaraju<>A self-stabilizing algorithm for the maximum flow problem,<>Distributed Computing
+13_1 A Gupta; Marie-Pierre Dubuisson-Jolly ; Thomas O'Donnell<>A Cooperative Framework for Segmentation Using D Active Contours and D Hybrid Models as Applied to Branching Cylindrical Structures <>ICCV International Conference Computer Vision
+13_2 A Gupta; Cheng-Chung Liang ; Marie-Pierre Dubuisson-Jolly<>Optimal Polyline Tracking for Artery Motion Compensation in Coronary Angiography <>ICCV International Conference Computer Vision
+13_3 A Gupta; Terrance E Boult ; Thomas O'Donnell<>A new model for the recovery of cylindrical structures from medical image data <>CVRMed
+13_4 A Gupta; Bir Bhanu ; David Michael ; Terrance E Boult<>Introduction to the Special Issue on Innovative Applications of Computer Vision <>Mach Vis Appl
+13_5 A Gupta; Terrance E Boult ; Thomas O'Donnell<>Global Models with Parametric Offsets as Applied to Cardiac Motion Recovery <>CVPR Computer Vision and Pattern RecognitioN
+13_6 A Gupta; Gareth Funka-Lea<>The use of hybrid models to recover cardiac wall motion in tagged MR images <>CVPR Computer Vision and Pattern RecognitioN
+13_7 A Gupta; Gareth Funka-Lea ; Richard D White ; Sandra Simon Halliburton ; Shmuel Aharon ; Thomas O'Donnell<>Multi-Modality Model-Based Registration in the Cardiac Domain <>CVPR Computer Vision and Pattern RecognitioN
+14_1 A Gupta; Jeremy P Chew<>Fairness performance of dynamic weights in the ATM ABR service <>Perform Eval
+14_2 A Gupta; Jeremy P Chew<>Improving Fairness of Long VCs Using Active Fairness in the ATM ABR Service <>ICC International Conference Communications
+14_3 A Gupta; Xiaoqun Wang<>Controlling Isochronous Traffic in CRMA/ATM Interworking <>ICC International Conference Communications
+14_4 A Gupta; Bu-Sung Lee ; Md Shamsuzzaman<>A New Consolidation Algorithm for Point-to-Multipoint ABR Service in ATM Networks <>ICN International Competition Network
+14_5 A Gupta; Nicolas D Georganas<>Analysis of a Packet Switch with Input and Output Buffers and Speed Constraints <>INFOCOM The Conference Computer Communications
+14_6 A Gupta; Nicolas D Georganas<>Priority Performance of ATM Packet Switches <>INFOCOM The Conference Computer Communications
+14_7 A Gupta; Luis Orozco-Barbosa ; Nicolas D Georganas<>Switching Modules for ATM Switching Systems and Their Interconnection Networks <>Computer Networks and ISDN Systems
+15_30 Alok Gupta; B oris J ukic; Prabhudev Konana<>Pricing Virtual Private Networks - An Economic, Engineering and Experimental Approach,<>Business Modelling A MultiDisciplinary Approach Essays honor of Andrew B Whinston C Holsapple V Jacob H R Rao eds Kluwer Academic Publishers forthcoming
+15_31 Alok Gupta; Dale O Stahl; A ndrew B Whinston<>Priority Pricing of Integrated Services Networks, in Internet Economics, L W McKnight and J P Bailey, eds , MIT Press, Cambridge, MA, , - <>
+15_32 Alok Gupta; Dale O Stahl; Andrew B Whinston<> A Priority Pricing Approach to Manage Multi-Service Class Networks in Real-Time,<> The Journal of Electronic Publishing
+15_33 Alok Gupta; Dale O Stahl; Andrew B Whinston<>A Stochastic Equilibrium Model of Internet Pricing,<>Journal of Economic Dynamics and Control
+15_34 Alok Gupta; Boris Jukic; Mingzhi Li; Dale O Stahl; Andrew B Whinston<> Estimating Internet Users' Demand Characteristics,<>Computational Economics
+15_35 Alok Gupta; Boris Jukic; Manoj Parameswaran; Dale O Stahl; Andrew B Whinston<> Streamlining the Digital Economy: How to Avert a Tragedy of the Commons,<>IEEE Internet Computing
+15_36 Alok Gupta; Dale O Stahl; Andrew B Whinston<> The Economics of Network Management,<>Communications of the ACM
+15_37 Alok Gupta; Dale O Stahl; Andrew B Whinston<>The Internet: A Future Tragedy of the Commons?<>Computational Approaches to Economic Problems H Amman B Rustem and A B Whinston eds Kluwer Academic Publishers Dordrecht The
+15_38 Alok Gupta; Douglas J Morrice<>Transient S ensitivity Analysis in Computer Simulation,<>Proceedings of European Simulation Multiconference Barcelona Nominated for the Best Paper Award
+15_39 P Konana; Alok Gupta; Andrew B Whinston<> Integrating User Preferences and Real-time Workload in Electronic Commerce,<>Information Systems Research
+15_40 P Konana; Alok Gupta; Dale O Stahl; Andrew B Whinston<>Pricing and Real-Time Database Applications for Information Services: A Framework and Economic Justification,<>Proceedings of ICIS International Conference Information Systems Dcember Winner Runners up award for the Best Paper
+15_41 P Konana; Alok Gupta; Dale O Stahl; Andrew B Whinston<>Research Issues in Real-time DBMS in the Context of Electronic Commerce,<>Proceedings of ACM for Workshop Databases Active and Real time association with th International Conference Information and Knowledge Management
+15_42 A Gupta;Andrew B Whinston ; Boris Jukic ; Dale O Stahl ; Manoj Parameswaran<>Streamlining the Digital Economy: How to Avert a Tragedy of the Commons <>IEEE Internet Computing
+15_43 A Gupta;Andrew B Whinston ; Dale O Stahl<>The Economics of Network Management <>Commun ACM
+15_10 Ravi Bapna; Paulo Goes; Alok Gupta<>Simulating Online Yankee Auctions to Optimize Sellers Revenue,<>Proceedings of HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES Maui
+15_11 Ravi Bapna; Paulo Goes; Alok Gupta ; Yiwei Jin<>User Heterogeneity and its Impact on Electronic Auction Market Design: An Empirical Exploration,<>Forthcoming Management Information Systems Quarterly
+15_12 Ravi Bapna; Paulo Goes; Alok Gupta<> A Theoretical and Empirical Investigation of Multi-item On-line Auctions,<>Information Technology and Management
+15_13 A Gupta;R K Chellappa; Gupta; A <>Managing Computing Resources in Active Intranets ,<>International Journal of Network Management
+15_14 Andrew Chen; Paulo Goes; Alok Gupta; James Marsden<>Database Design in the Modern Organization - Identifying Robust Structures Under Changing Query Patterns and Arrival Rate Conditions,<>Forthcoming Decision Support Systems of Article Press version
+15_15 A Gupta;Paulo B Goes ; Ravi Bapna<>Insights and Analyses of Online Auctions <>Commun ACM
+15_16 A Gupta;Paulo B Goes ; Ravi Bapna<>Simulating Online Yankee Auctions to Optimize Sellers Revenue <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+15_17 A Gupta;Ram D Gopal<>Minitrack Introduction <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+15_18 Ram Gopal; Alok Gupta<>Trading Higher Software Piracy for Higher Profits: The Case of Phantom Piracy,<>Proceedings of HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES Big Island Nominated for the Best Paper Award
+15_19 Alok Gupta; Leigh Linden; Dale O Stahl; Andrew B Whinston<> Benefits and Costs of Adopting Usage Based Pricing in a Subnetwork,<>Information Technology and Management
+15_1 Gedas Adomavicius; Alok Gupta<>Towards Comprehensive Bidder Support in Online Combinatorial Auctions,<>Proceedings of WITS Workshop Information Technologies and Systems
+15_2 Ravi Bapna; Paulo Goes; Alok Gupta<> Comparative Analysis of Multi-Item Online Auctions: Evidence from the Laboratory,<>Decision Support System
+15_3 Ravi Bapna; Alok Gupta<>Online Mercantile Processes: A Closer Look at B C Online Auctions, in Handbook of Electronic Commerce in Business and Society, P B Lowry, R J Watson, and J O Cherrington eds , St Lucie Press, Boca Raton, FL, , - <>
+15_4 Ravi Bapna; Paulo Goes; Alok Gupta<>Online Mercantile Processes for Digital Products under Quality-of-Service and Uncertain Demand,<>Proceedings of WITS Workshop Information Technologies and Systems Sydney
+15_5 Ravi Bapna; Paulo Goes; Alok Gupta<> Analysis and Design of Business-to-Consumer Online Auctions,<>Management Science
+15_6 Ravi Bapna; Paulo Goes; Alok Gupta<> Insights and Analysis of Online Auctions,<>Communications of the ACM
+15_7 Ravi Bapna; Paulo Goes; Alok Gupta; Gilbert K aruga<>Predictive Calibration of Online Multi-Unit Ascending Auctions,<>Proceedings of WITS Workshop Information Technologies and Systems Barcelona Nominated for the Best Paper Award
+15_8 Ravi Bapna; Paulo Goes; Alok Gupta; Gilbert Karuga<>Optimal Design of the Online Auction Channel: Analytical, Empirical and Computational Insights,<>Decision Sciences of prepublication version
+15_9 Ravi Bapna; Paulo Goes; Alok Gupta<> Replicating Online Yankee Auctions to Analyze Auctioneers' and Bidders' Strategies,<>Information Systems Research
+15_20 Alok Gupta; Dale O Stahl; Andrew B Whinston<>A Conceptual Framework for Applying Parallel Computing to Flexible Manufacturing Systems,<>Proceedings of NSF Conference Design and Manufacturing
+15_21 Alok Gupta; Bo-Chiuan Su; Zhiping Walter<>Economic Analysis of Consumer Purchase Intentions in Electronic and Traditional Retail Channels: Competitive and Strategic Implications,<>Forthcoming Decision Support Systems
+15_22 A Gupta; Dale O Stahl; Andrew B Whinston<>Economic Issues in Electronic Commerce,<>Readings Electronic Ravi Kalakota and Andrew B Whinston eds Wesley Parts Reprinted under the same title Legal Issues Electronic R L ed Captus Press
+15_23 Alok Gupta; Dale O Stahl; Andrew B Whinston<>A Decentralized Approach to Estimate Activity Based Costs and Near-Optimal Resource Allocation in Flexible Manufacturing Systems,<>International Journal of Flexible Manufacturing Systems
+15_24 Alok Gupta; Y Alex Tung; James R Marsden<> Digital Signature: Use and Modification to Achieve Success in Next Generational E-Business Processes,<>Forthcoming Information Management
+15_25 Alok Gupta; Dale O Stahl; Andrew B Whinston<> Managing Computing Resources in Intranets: An Electronic Commerce Perspective,<>Decision Support Systems
+15_26 Alok Gupta; Boris Jukic; Dale O Stahl; Andrew B Whinston<> Extracting Consumers' Private Information for Implementing Incentive Compatible Internet Traffic Pricing,<>Journal of Management Information Systems
+15_27 Alok Gupta; Dale O Stahl; Andrew B Whinston<>An Economic Approach to Network Computing with Priority Classes,<>Journal of Organizational Computing and Electronic
+15_28 Alok Gupta; Dale O Stahl; Andrew B Whinston<>Application of Parallel Computing to Resource Pricing and Scheduling in Flexible Manufacturing Systems,<>Operations Research Methods Models and Applications J E Aronson and S Zionts eds Quorum Books
+15_29 Alok Gupta; Dale O Stahl; Andrew B Whinston<>Pricing of Services on The Internet,<>IMPACT How IC Research Affects Public Policy and Business Markets Quorum Books forthcoming
+16_1 A Gupta;Armin Biere ; Edmund M Clarke ; Poul Frederick Williams<>Combining Decision Diagrams and SAT Procedures for Efficient Symbolic Model Checking <>CAV Computer Aided Verification
+16_2 A Gupta;Edmund M Clarke ; James H Kukula ; Ofer Shrichman<>SAT Based Abstraction-Refinement Using ILP and Machine Learning Techniques <>CAV Computer Aided Verification
+16_3 Aarti Gupta; Anubhav Gupta; Zijiang Yang; Pranav Ashar<>Dynamic Detection and Removal of Inactive Clauses in SAT with Application in Image<>Computation DAC Design Automation Conference
+16_4 Aarti Gupta ; Pranav Ashar ; Zijiang Yang<>Dynamic Detection and Removal of Inactive Clauses in SAT with Application in Image Computation <>DAC Design Automation Conference
+16_5 Aarti Gupta ; Pranav Ashar ; Zijiang Yang<>SAT-Based Image Computation with Application in Reachability Analysis <>FMCAD Formal Methods Computer Aided Design
+16_6 A Gupta;Ram Suryanarayan ; Travis N Blalock<>A slew rate enhancement technique for operational amplifiers based on a tunable active Gm-based capacitance multiplication circuit <>ACM Great Lakes Symposium VLSI Very Large Scale Integration
+16_7 Poul Frederick Williams; Armin Biere; Edmund M Clarke; Anubhav Gupta<>Combining Decision Diagrams and SAT Procedures for Efficient Symbolic Model Checking<>CAV Computer Aided Verification
+17_1 A Gupta; John P Hayes<>Width minimization of two-dimensional CMOS cells using integer programming <>ICCAD International Conference Computer Aided Design
+17_2 A Gupta; John P Hayes<>Optimal -D cell layout with integrated transistor folding <>ICCAD International Conference Computer Aided Design
+17_3 A Gupta; John P Hayes<>CLIP: An Optimizing Layout Generator for Two-Dimensional CMOS Cells <>DAC Design Automation Conference
+17_4 A Gupta; John P Hayes<>CLIP: integer-programming-based optimal layout synthesis of D CMOS cells <>ACM Trans Design Autom Electr Syst
+18_1 A Gupta;Iliana Avila-Campillo; Todd J Green; Ashish Kumar Gupta; Makoto Onizuka; Demian Raven; Dan Suciu<>XMLTK: An XML Toolkit for Scalable XML Stream Processing<> PLANX
+18_2 A Gupta;Surajit Chaudhuri ; Vivek R Narasayya<>Compressing SQL workloads <>SIGMOD International Conference Management of Data Conference
+18_3 A Gupta;Ashish Kumar Gupta; Alon Halevy; Dan Suciu<>View Selection for Stream Processing<>WebDB
+18_4 A Gupta;Ashish Kumar Gupta; Dan Suciu<>Stream Processing of XPath Queries with Predicates<>SIGMOD International Conference Management of Data
+18_5 A Gupta;Ashish Kumar Gupta; Dan Suciu; Alon Halevy<>The View Selection Problem for Stream Processing<>PODS Symposium Principles of Database Systems
+18_6 A Gupta;Alon Y Halevy ; Dan Suciu<>View Selection for Stream Processing <>WebDB
+18_7 A Gupta;Alon Y Halevy ; Dan Suciu<>The view selection problem for XML content based routing <>PODS Symposium Principles of Database Systems
+18_8 A Gupta;Dan Suciu<>Stream Processing of XPath Queries with Predicates <>SIGMOD International Conference Management of Data Conference
+19_1 A Gupta; Kanad Chakraborty ; Pinaki Mazumder<>A Silicon Compiler for Fault-Tolerant ROMs <>DFT Defect and Fault Tolerance VLSI Systems
+19_2 A Gupta; Kanad Chakraborty ; Mayukh Bhattacharya ; Pinaki Mazumder ; Shriram Kulkarni<>A Physical Design Tool for Built-in Self-Repairable Static RAMs <>DATE Design Automation and Test Europe
+19_3 A Gupta; Larry Whitman ; Ramesh K Agarwal<>Supply chain agent decision aid system SCADAS <>Winter Simulation Conference
+1_103 A Gupta;Ben Verghese ; Mendel Rosenblum ; Rohit Chandra ; Scott Devine<>Scheduling and Page Migration for Multiprocessor Compute Servers <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_16 A Gupta;John Chapin ; Mendel Rosenblum ; Stephen Alan Herrod<>Memory System Performance of UNIX on CC-NUMA Multiprocessors <>SIGMETRICS Measurement and Modeling of Computer Systems
+1_104 A Gupta;Wolf-Dietrich Weber<>Cache Invalidation Patterns in Shared-Memory Multiprocessors <>IEEE Trans Computers
+1_17 A Gupta;David R Cheriton ; Hendrik A Goosen ; Patrick D Boyle<>The VMP Multiprocessor: Initial Experience, Refinements and Performance Evlauation <>ISCA International Symposium Computer Architecture
+1_105 A Gupta;Wolf-Dietrich Weber<>Exploring the Benefits of Multiple Hardware Contexts in a Multiprocessor Architecture: Preliminary Results <>ISCA International Symposium Computer Architecture
+1_50 A Gupta;Daniel Lenoski ; James Laudon ; John L Hennessy ; Kourosh Gharachorloo ; Phillip B Gibbons<>Memory Consistency and Event Ordering in Scalable Shared-Memory Multiprocessors <>ISCA International Symposium Computer Architecture
+1_18 A Gupta;Alex Colburn ; Ivan Tashev ; Jonathan J Cadiz ; Li-wei He ; Ross Cutler ; Steve Silverberg ; Yong Rui ; Zhengyou Zhang ; Zicheng Liu<>Distributed meetings: a meeting capture and broadcasting system <>ACM Multimedia
+1_106 A Gupta;Wolf-Dietrich Weber<>Analysis of Cache Invalidation Patterns in Multiprocessors <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_51 A Gupta;Daniel Lenoski ; James Laudon ; John L Hennessy ; Kourosh Gharachorloo<>The Directory-Based Cache Coherence Protocol for the DASH Multiprocessor <>ISCA International Symposium Computer Architecture
+1_19 Ross Cutler ;Yong Rui ; Anoop Gupta ;Jonathan J Cadiz ;Ivan Tashev ;Li-wei He ;Alex Colburn ;Zhengyou Zhang ;Zicheng Liu ;Steve Silverberg<>Distributed meetings,<> ACM_Multimedia
+1_107 Wolf-Dietrich Weber ;Todd C Mowry<>Reducing Memory and Traffic Requirements for Scalable Directory Based Cache Coherence Schemes,<> Anoop Gupta
+1_52 A Gupta;Daniel Lenoski ; David Nakahira ; James Laudon ; John L Hennessy ; Luis Stevens ; Truman Joe<>The DASH Prototype: Logic Overhead and Performance <>IEEE Trans Parallel Distrib Syst
+1_108 Steven Cameron Woo ;Moriyoshi Ohara ;Evan Torrie ;Jaswinder Pal Singh ; Anoop Gupta<>The SPLASH Programs,<> ISCA International Symposium Computer Architecture
+1_53 A Gupta;Daniel Lenoski ; David Nakahira ; James Laudon ; John L Hennessy ; Luis Stevens ; Truman Joe<>The DASH Prototype: Implementation and Performance <>ISCA International Symposium Computer Architecture
+1_54 A Gupta;Daniel Lenoski ; James Laudon ; John L Hennessy ; Kourosh Gharachorloo ; Mark Horowitz ; Monica S Lam ; Wolf-Dietrich Weber<>The Stanford Dash Multiprocessor <>IEEE Computer
+1_55 A Gupta;Margaret Martonosi ; Thomas E Anderson<>Effectiveness of Trace Sampling for Performance Debugging Tools <>SIGMETRICS Measurement and Modeling of Computer Systems
+1_56 A Gupta;Margaret Martonosi ; Thomas E Anderson<>MemSpy: Analyzing Memory System Bottlenecks in Programs <>SIGMETRICS Measurement and Modeling of Computer Systems
+1_57 A Gupta;Margaret Martonosi ; Thomas E Anderson<>Tuning Memory Performance of Sequential and Parallel Programs <>IEEE Computer
+1_90 A Gupta;Per Stenstr&ouml;m ; Truman Joe<>Comparative Performance Evaluation of Cache-Coherent NUMA and COMA Architectures <>ISCA International Symposium Computer Architecture
+1_58 A Gupta;Margaret Martonosi<>Tradeoffs in Message Passing and Shared Memory Implementations of a Standard Cell Router <>ICPP International Conference Parallel Processing
+1_91 A Gupta;Milind Tambe<>Suitability of Message Passing Computers for Implementing Production Systems <>AAAI National Conference Artificial Intelligence
+1_59 A Gupta;Todd C Mowry ; Wolf-Dietrich Weber<>Reducing Memory and Traffic Requirements for Scalable Directory-Based Cache Coherence Schemes <>ICPP International Conference Parallel Processing
+1_92 A Gupta;Dan Teodosiu ; John Chapin ; Mendel Rosenblum ; Scott Devine ; Tirthankar Lahiri<>Hive: Fault Containment for Shared-Memory Multiprocessors <>SOSP Symposium Operating Systems Principles
+1_93 A Gupta;Dan Teodosiu ; John Chapin ; Mendel Rosenblum ; Scott Devine ; Tirthankar Lahiri<>Implementing Efficient Fault Containment for Multiprocessors: Confining Faults in a Shared-Memory Multiprocessor Environment <>Commun ACM
+1_94 A Gupta;Evan Torrie ; Jaswinder Pal Singh ; Moriyoshi Ohara ; Steven Cameron Woo<>The SPLASH- Programs: Characterization and Methodological Considerations <>ISCA International Symposium Computer Architecture
+1_95 A Gupta;Andrew Tucker ; Josep Torrellas<>Benefits of Cache-Affinity Scheduling in Shared-Memory Multiprocessors: A Summary <>SIGMETRICS Measurement and Modeling of Computer Systems
+1_96 A Gupta;Andrew Tucker ; Josep Torrellas<>Evaluating the Performance of Cache-Affinity Scheduling in Shared-Memory Multiprocessors <>J Parallel Distrib Comput
+1_97 A Gupta;Andrew Tucker<>Exploiting Variable Grain Parallelism at Runtime <>PPOPP Principles Practice of Parallel Programming PPEALS Symposium Principles and Practice of Parallel Programming
+1_98 A Gupta;Andrew Tucker<>Process Control and Scheduling Issues for Multiprogrammed Shared-Memory Multiprocessors <>SOSP Symposium Operating Systems Principles
+1_99 A Gupta;Andrew Tucker ; Shigeru Urushibara<>The Impact of Operating System Scheduling Policies and Synchronization Methods of the Performance of Parallel Application <>SIGMETRICS Measurement and Modeling of Computer Systems
+1_20 Charles Forgy ; Anoop Gupta ;Allen Newell ;Robert G Wedig<>Initial Assessment of Architectures for Production Systems,<> AAAI National Conference Artificial Intelligence
+1_21 A Gupta;Charles Forgy<>Static and Run-Time Characteristics of OPS Production Systems <>J Parallel Distrib Comput
+1_22 Kourosh Gharachorloo ;Daniel Lenoski ;James Laudon ;Phillip B Gibbons ; Anoop Gupta ;John L Hennessy<>Memory Consistency and Event Ordering in Scalable SharedMemory Multiprocessors Retrospectives and Reprints ,<> _Years_ISC
+1_23 A Gupta;Kourosh Gharachorloo ; Rohit Chandra ; Vijayaraghavan Soundararajan<>Performance evaluation of hybrid hardware and software distributed shared memory protocols <>International Conference Supercomputing
+1_24 Kourosh Gharachorloo ; Anoop Gupta ;John L Hennessy<>Performance Evaluation of Memory Consistency Models for Shared Memory Multiprocessors,<> ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_25 A Gupta;Jonathan Grudin ; Liwei He<>Designing presentations for on-demand viewing <>CSCW Conference Computer Supported Cooperative Work
+1_26 Anoop Gupta ;Charles Forgy ;Allen Newell ;Robert G Wedig<>Parallel Algorithms and Architectures for RuleBased Systems,<> ISCA International Symposium Computer Architecture
+1_27 Anoop Gupta ;Milind Tambe<>Suitability of Message Passing Computers for Implementing Production Systems,<> AAAI National Conference Artificial Intelligence
+1_60 A Gupta;Todd C Mowry<>Tolerating Latency Through Software-Controlled Prefetching in Shared-Memory Multiprocessors <>J Parallel Distrib Comput
+1_28 A Gupta;Ziyad S Hakura<>The Design and Analysis of a Cache Architecture for Texture Mapping <>ISCA International Symposium Computer Architecture
+1_61 A Gupta;David Nakahira ; David Ofelt ; Jaswinder Pal Singh ; Jeffrey Kuskin ; Joel Baxter ; John Heinlein ; John L Hennessy ; Kourosh Gharachorloo ; Mark Heinrich ; Mark Horowitz ; Mendel Rosenblum ; Richard Simoni<>The Performance Impact of Flexibility in the Stanford FLASH Multiprocessor <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_29 A Gupta;Li-wei He ; Qiong Liu ; Yong Rui<>Building an intelligent camera management system <>ACM Multimedia
+1_62 A Gupta;David Nakahira ; David Ofelt ; Jeffrey Kuskin ; Joel Baxter ; John Chapin ; John Heinlein ; John L Hennessy ; Kourosh Gharachorloo ; Mark Heinrich ; Mark Horowitz ; Mendel Rosenblum ; Richard Simoni<>The Stanford FLASH Multiprocessor <>ISCA International Symposium Computer Architecture
+1_63 A Gupta;P Pandurang Nayak ; Paul S Rosenbloom<>Comparison of the Rete and Treat Production Matchers for Soar <>AAAI National Conference Artificial Intelligence
+1_64 A Gupta;Allen Newell ; Charles Forgy<>High-Speed Implementations of Rule-Based Systems <>ACM Trans Comput Syst
+1_65 A Gupta;Allen Newell ; Charles Forgy ; Robert G Wedig<>Initial Assessment of Architectures for Production Systems <>AAAI National Conference Artificial Intelligence
+1_66 A Gupta;Allen Newell ; Charles Forgy ; Robert G Wedig<>Parallel Algorithms and Architectures for Rule-Based Systems <>ISCA International Symposium Computer Architecture
+1_67 A Gupta;Allen Newell ; Charles Forgy ; Dirk Kalp ; Milind Tambe<>Parallel OPS on the Encore Multimax <>ICPP International Conference Parallel Processing
+1_68 A Gupta;Allen Newell ; Brian Milnes ; Charles Forgy ; Dirk Kalp ; Milind Tambe<>Soar/PSM-E: Investigating Match Parallelism in a Learning Production System <>PPOPP Principles Practice of Parallel Programming PPEALS Symposium Principles and Practice of Parallel Programming
+1_69 A Gupta;Edward Rothberg ; Jaswinder Pal Singh<>Modeling Communication in Parallel Algorithms: A Fruitful Interaction Between Theory and Systems?<>SPAA ACM Symposium Parallel Algorithms and Architectures
+1_30 A Gupta;Liwei He<>Exploring benefits of non-linear time compression <>ACM Multimedia
+1_31 Liwei He ;Elizabeth Sanocki ; Anoop Gupta ;Jonathan Grudin<>Auto summarization of audiovideo presentations,<>
+1_32 A Gupta;John Heinlein ; Kourosh Gharachorloo ; Mendel Rosenblum ; Robert P Bosch<>Coherent Block Data Transfer in the FLASH Multiprocessor <>IPPS International Parallel Processing Symposium
+1_33 A Gupta;John Heinlein ; Kourosh Gharachorloo ; Scott Dresser<>Integration of Message Passing and Shared Memory in the Stanford FLASH Multiprocessor <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_34 A Gupta;John L Hennessy ; Josep Torrellas<>Characterizing the Caching and Synchronization Performance of a Multiprocessor Operating System <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_35 A Gupta;John L Hennessy ; Rohit Chandra<>COOL: An Object-Based Language for Parallel Programming <>IEEE Computer
+1_36 A Gupta;John L Hennessy ; Kourosh Gharachorloo ; Todd C Mowry ; Wolf-Dietrich Weber<>Comparative Evaluation of Latency Reducing and Tolerating Techniques <>ISCA International Symposium Computer Architecture
+1_37 A Gupta;John L Hennessy ; Rohit Chandra<>Data Locality and Load Balancing in COOL <>PPOPP Principles Practice of Parallel Programming
+1_70 A Gupta;Edward Rothberg<>Experiences Implementing a Parallel ATMS on a Shared-Memory Multiprocessor <>IJCAI International Joint Conference Artificial Intelligence
+1_38 A Gupta;John L Hennessy ; Kourosh Gharachorloo<>Hiding Memory Latency using Dynamic Scheduling in Shared-Memory Multiprocessors <>ISCA International Symposium Computer Architecture
+1_71 Edward Rothberg ;Jaswinder Pal Singh ; Anoop Gupta<>Working Sets Cache Sizes,<> ISCA International Symposium Computer Architecture
+1_39 A Gupta;John L Hennessy ; Mark Heinrich ; Vijayaraghavan Soundararajan<>A Quantitative Analysis of the Performance and Scalability of Distributed Shared Memory <>IEEE Trans Computers
+1_72 A Gupta;Edward Rothberg ; Jaswinder Pal Singh<>Working Sets, Cache Sizes, and Node Granularity Issues for Large-Scale Multiprocessors <>ISCA International Symposium Computer Architecture
+1_1 A Gupta;<>Stanford DASH Multiprocessor: The Hardware and Software Approach <>PARLE Parallel Architectures and Languages Europe
+1_73 A Gupta;Edward Rothberg<>Parallel ICCG on a hierarchical memory multiprocessor - Addressing the triangular solve bottleneck <>Parallel Computing
+1_2 A Gupta;Alex Acero ; Yong Rui<>Automatically extracting highlights for TV Baseball programs <>ACM Multimedia
+1_74 A Gupta;Edward Rothberg<>Techniques for improving the performance of sparse matrix factorization on multiprocessor workstations <>Supercomputing
+1_3 A Gupta;Anurag Acharya ; Milind Tambe<>Implementation of Production Systems on Message-Passing Computers <>IEEE Trans Parallel Distrib Syst
+1_75 A Gupta;Edward Rothburg<>An efficient block-oriented approach to parallel sparse Cholesky factorization <>Supercomputing
+1_4 A Gupta;Anant Agarwal<>Memory-Reference Characteristics of Multiprocessor Applications under MACH <>SIGMETRICS Measurement and Modeling of Computer Systems
+1_76 Yong Rui ;Li-wei He ;Anoop Gupta ;Qiong Liu<>Building an intelligent camera management system,<> ACM_Multimedia
+1_5 A Gupta;Avneesh Agrawal ; Navin Chaddha ; Teresa H Y Meng<>Variable Compression Using JPEG <>ICMCS International Conference Multimedia Computing and Systems
+1_77 Yong Rui ; Anoop Gupta ;Alex Acero<>Automatically extracting highlights for TV Baseball programs,<> ACM_Multimedia
+1_6 A Gupta;Anand Balachandran ; Elizabeth Sanocki ; Gavin Jancke ; Jonathan Grudin ; Jonathan J Cadiz<>Distance learning through distributed collaborative video viewing <>CSCW Conference Computer Supported Cooperative Work
+1_78 A Gupta;Elizabeth Sanocki ; Francis C Li ; Li-wei He ; Yong Rui<>Browsing digital video <>CHI Conference Human Factors Computing Systems
+1_7 A Gupta;Franz Barachini ; Hans Mistelberger<>Run-Time Prediction for Production Systems <>AAAI National Conference Artificial Intelligence
+1_8 A Gupta;David Bargeron ; Elizabeth Sanocki ; Jonathan Grudin<>Annotations for Streaming Video on the Web: System Design and Usage Studies <>Computer Networks
+1_79 A Gupta;Elizabeth Sanocki ; Jonathan Grudin ; Liwei He<>Comparing presentation summaries: slides vs reading vs listening <>CHI Conference Human Factors Computing Systems
+1_9 A Gupta;David Bargeron ; Elizabeth Sanocki ; Francis C Li ; Jonathan Grudin<>Asynchronous Collaboration around Multimedia and its Application to On-Demand Training <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+1_40 A Gupta;John L Hennessy ; Kourosh Gharachorloo<>Performance Evaluation of Memory Consistency Models for Shared Memory Multiprocessors <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_41 A Gupta;John L Hennessy ; Kourosh Gharachorloo ; Mark D Hill ; Sarita V Adve<>Programming for Different Memory Consistency Models <>J Parallel Distrib Comput
+1_42 A Gupta;John L Hennessy ; Kourosh Gharachorloo<>Two Techniques to Enhance the Performance of Memory Consistency Models <>ICPP International Conference Parallel Processing
+1_43 A Gupta;Chris Holt ; Jaswinder Pal Singh ; John L Hennessy ; Takashi Totsuka<>Load Balancing and Data locality in Adaptive Hierarchical N-Body Methods: Barnes-Hut, Fast Multipole, and Rasiosity <>J Parallel Distrib Comput
+1_44 A Gupta;Chris Holt ; Jaswinder Pal Singh ; John L Hennessy<>A parallel adaptive fast multipole method <>Supercomputing
+1_45 A Gupta;Gavin Jancke ; Gina Danielle Venolia ; Jonathan J Cadiz<>Designing and deploying an information awareness interface <>CSCW Conference Computer Supported Cooperative Work
+1_46 A Gupta;Gavin Jancke ; Gina Danielle Venolia ; Jonathan Grudin ; Jonathan J Cadiz<>Linking public spaces: technical and social issues <>CHI Conference Human Factors Computing Systems
+1_47 A Gupta;Gavin Jancke ; Jonathan Grudin<>Presenting to local and remote audiences: design and use of the TELEP system <>CHI Conference Human Factors Computing Systems
+1_80 A Gupta;Elizabeth Sanocki ; Greg Kimberly ; Harry Chesley ; Jonathan Grudin ; Stephen A White<>Evolving Use of a System for Education at a Distance <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+1_48 A Gupta;Monica S Lam ; Todd C Mowry<>Design and Evaluation of a Compiler Algorithm for Prefetching <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_81 A Gupta;Elizabeth Sanocki ; Jonathan Grudin ; Liwei He ; Nosa Omoigui<>Time-Compression: Systems Concerns, Usage, and Benefits <>CHI Conference Human Factors Computing Systems
+1_49 A Gupta;James Laudon ; Mark Horowitz<>Interleaving: A Multithreading Technique Targeting Multiprocessors and Workstations <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_82 A Gupta;Elizabeth Sanocki ; Jonathan Grudin ; Liwei He<>Auto-summarization of audio-video presentations <>ACM Multimedia
+1_83 A Gupta;Jaswinder Pal Singh ; John L Hennessy<>Implications of Hierarchical N-Body Methods for Multiprocessor Architectures<>ACM Trans Comput Syst
+1_84 A Gupta;Jaswinder Pal Singh ; John L Hennessy ; Truman Joe<>An empirical comparison of the Kendall Square Research KSR- and Stanford DASH multiprocessors <>Supercomputing
+1_85 A Gupta;Jaswinder Pal Singh ; Marc Levoy<>Parallel Visualization Algorithms: Performance and Architectural Implications <>IEEE Computer
+1_86 A Gupta;Jaswinder Pal Singh ; John L Hennessy<>Scaling Parallel Programs for Multiprocessors: Methodology and Examples <>IEEE Computer
+1_87 A Gupta;Burton J Smith ; David C Douglas ; David Maier ; Frederica Darema ; Justin Ratner ; Olaf M Lubeck ; Paul Messina<>What's in the future for parallel architectures?<>Supercomputing
+1_88 A Gupta;Larry Soul&eacute;<>Characterization of Parallelism and Deadlocks in Distributed Digital Logic Simulation <>DAC Design Automation Conference
+1_89 A Gupta;Larry Soul&eacute;<>An Evaluation of the Chandy-Misra-Bryant Algorithm for Digital Logic Simulation <>ACM Trans Model Comput Simul
+1_10 A Gupta;A J Bernheim Brush ; David Bargeron ; Jonathan Grudin<>Notification for shared annotation of digital documents <>CHI Conference Human Factors Computing Systems
+1_11 A Gupta;A J Bernheim Brush ; David Bargeron ; Jonathan J Cadiz<>Robust annotation positioning in digital documents <>CHI Conference Human Factors Computing Systems
+1_12 A Gupta;Edouard Bugnion ; Emmett Witchel ; Mendel Rosenblum ; Stephen Alan Herrod<>The Impact of Architectural Trends on Operating System Performance <>SOSP Symposium Operating Systems Principles
+1_100 A Gupta;Ben Verghese ; John L Hennessy ; Kourosh Gharachorloo ; Mark Heinrich ; Vijayaraghavan Soundararajan<>Flexible Use of Memory for Replication/Migration in Cache-Coherent DSM Multiprocessors <>ISCA International Symposium Computer Architecture
+1_13 A Gupta;Jonathan J Cadiz ; Yong Rui<>Viewing meeting captured by an omni-directional camera <>CHI Conference Human Factors Computing Systems
+1_101 A Gupta;Ben Verghese ; Mendel Rosenblum<>Performance Isolation: Sharing and Isolation in Shared-Memory Multiprocessors <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_14 A Gupta;Jonathan J Cadiz ; Qiong Liu ; Yong Rui<>Automating camera management for lecture room environments <>CHI Conference Human Factors Computing Systems
+1_102 A Gupta;Ben Verghese ; Mendel Rosenblum ; Scott Devine<>Operating System Support for Improving Data Locality on CC-NUMA Compute Servers <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_15 Rohit Chandra ;Scott Devine ; Ben Verghese ; Anoop Gupta ;Mendel Rosenblum<>Scheduling and Page Migration for Multiprocessor Compute Servers,<> ASPLOS Architectural Support for Programming Languages and Operating Systems
+20_1 A Gupta; Anshul Kothari ; Divyakant Agrawal ; Subhash Suri<>Range Addressable Network: A P P Cache Architecture for Data Ranges <>Peer to Peer Computing
+20_2 A Gupta; Amr El Abbadi ; Divyakant Agrawal<>Approximate Range Selection Queries in Peer-to-Peer Systems <>CIDR Conference Innovative Data Systems Research
+20_3 A Gupta; Marcia Kilchenman O'Malley<>Passive and Active Assistance for Human Performance of a Simulated Underactuated Dynamic Task <>HAPTICS
+21_1 A Gupta; Daniel P Siewiorek<>Automated Multi-Cycle Symbolic Timing Verification of Microprocessor-Based Designs <>DAC Design Automation Conference
+21_2 A Gupta; Audrey A Brennan ; Daniel P Siewiorek ; Patrick Edmond<>ASSURE: Automated Design for Dependability <>DAC Design Automation Conference
+21_3 A Gupta; Daniel P Siewiorek ; William P Birmingham<>The MICON System for Computer Design <>DAC Design Automation Conference
+22_1 A Gupta; Wen-mei W Hwu<>Xprof: Profiling the Execution of X Window Programs <>SIGMETRICS Measurement and Modeling of Computer Systems
+22_2 A Gupta; Wen-mei W Hwu<>An execution Profiler for Window-oriented Applications <>Softw Pract Exper
+22_3 A Gupta; W Kent Fuchs<>Garbage Collection in a Distributed Object-Oriented System <>IEEE Trans Knowl Data Eng
+23_1 A Gupta; Ian F Akyildiz ; Richard Fujimoto<>Performance Analysis of Time Warp with Homogeneous Processors and Exponential Task Times <>SIGMETRICS Measurement and Modeling of Computer Systems
+23_2 A Gupta; Ian F Akyildiz ; Richard Fujimoto<>Performance Analysis of Time Warp With Multiple Homogeneous Processors <>IEEE Trans Software Eng
+24_1 A Gupta; A Wong ; Gerard Jounghyun Kim ; Ram D Sriram ; S R Gorti<>An object-oriented representation for product and design processes <>Computer Aided Design
+24_2 A Gupta; Murali Vemulapati ; Ram D Sriram<>Incremental Loading in the Persistent C++ Language E <>JOOP Journal of Object Oriented Programming
+25_1 A Gupta; R Sekar<>An Approach for Detecting Self-propagating Email Using Anomaly Detection <>RAID
+25_2 A Gupta; A Tiwari ; H Yang ; J Frullo ; R Sekar ; S Zhou ; T Shanbhag<>Specification-based anomaly detection: a new approach for detecting network intrusions <>ACM Conference Computer and Communications Security
+26_1 A Gupta; Manish Bhide ; Mukesh Mohania<>Towards Bringing Database Management Task in the Realm of IT non-Experts <>ICDE International Conference Data Engineering
+26_2 A Gupta; Manish Bhide ; Mukesh Mohania ; Sandeep Pandey<>Dynamic Access Control Framework Based On Events <>ICDE International Conference Data Engineering
+2_30 A Gupta;T Weymouth;R Jain<>Semantic queries with pictures: the VIMSYS model<> Proc International Conference Very Large Data Bases Barcelona Edited by Lohman G M Sernadas A Camps R San Mateo Computer Animation Morgan Kaufmann
+2_31 A Gupta;B Ludäscher;M E Martone;X Qian;J Tran;I Zaslavsky<> A System for Managing Alternate Models in Model-based Mediation<> British National Conference Databases BNCOD British National Conference Databases
+2_32 A Gupta;B Ludäscher<> The Many Faces of Process Interaction Graphs: A Data Management Perspective<> OMICS A Journal of Integrative Biology
+2_33 A Gupta;S Santini<> Toward a Feature Algebra for Visual Databases: a Case Study with Histogram Algebra<> VDB Visual Database Systems Int Conf Visual Databases Tokyo
+2_34 A Gupta;B Ludäscher;J S Grethe;M E Martone<> Towards a Formalization of Disease-Specific Ontologies for Neuroinformatics<> Neural Networks press
+2_35 A Gupta;Arun Hampapur ; Bradley Horowitz ; Charles Fuller ; Chiao-Fe Shu ; Jeffrey R Bach ; Monika Gorkani ; Ramesh Jain<>Virage Video Engine <>Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering
+2_36 A Gupta;Arun Hampapur ; Bradley Horowitz ; Charles Fuller ; Chiao-Fe Shu ; Jeffrey R Bach ; Ramesh Jain ; Rich Humphrey<>Virage Image Search Engine: An Open Framework for Image Management <>Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering
+2_37 R Jain;A Gupta<>Computer Vision and Visual Information Retrieval<> Book Chapter Advances Image Understanding A Festschrift for Prof Azriel Rosenfeld IEEE Computer Society Press
+2_70 M E Martone;A Gupta;M Wong;X Qian;G Sosinsky;S Lamont;B Ludäscher;M H Ellisman<> A Cell-Centered Database for Electron Tomographic Data<> Journal of Structural Biology
+2_38 A Gupta;Ramesh Jain<>Visual Information Retrieval <>Commun ACM
+2_71 M E Martone;A Gupta;B Ludascher;I Zaslavsky;M H Ellisman<> Federation of brain data through knowledge-guided mediation <>R Kotter ed Neuroscience Databases A Practical Guide Kluwer Academic Publishers
+2_39 A Gupta;Ramesh Jain ; Simone Santini<>Emergent Semantics through Interaction in Image Databases <>IEEE Trans Knowl Data Eng
+2_72 A Gupta;Maryann E Martone ; Shenglan Zhang ; Xufei Qian<>A Practical Approach for Microscopy Imaging Data Management MIDM in Neuroscience <>SSDBM Statistical and Scientific Database Management
+2_73 R Moore;C Baru;A Rajasekar;B Ludäscher;R Marciano;M Wan;W Schroeder;A Gupta<> Collection-based persistent digital archives <> D Lib Magazine Corporation for National Research Initiatives
+2_74 X Qian;B Ludäscher;M E Martone;A Gupta<> Navigating Virtual Information Sources with Know-ME<> Proc of Conference Extending Database Technology EDBT Extending Database Technology Prague
+2_75 S Santini;A Gupta<> Conceptual Integration of Multiple Partial Geometric Models,<> st International Conference Conceptual Modeling ER International Conference Conceptual Modeling the Entity Relationship Approach Tampere
+2_76 A Gupta;Simone Santini<>A Data Model for Querying Wavelet Features in Image Databases <>Multimedia Information Systems
+2_77 S Santini;A Gupta<> GeMBASE: A Geometric Mediator for Brain Analysis with Surface Ensembles<> Intl Conf Very Large Databases VLDB Very Large Data Bases Hong Kong
+2_78 S Santini;A Gupta;R Jain<>Querying Multiple Perspective Video<> Proceedings of SPIE The International Society for Optical Engineering Storage and Retrieval for Image and Video Databases VII San Jose
+2_79 S Santini;A Gupta;R Jain<> Emergent Semantics through Interaction in Image Databases<> IEEE Trans Knowledge and Data Engineering
+2_40 A Gupta;Ramesh Jain ; Terry E Weymouth<>An Extended Object-Oriented Data Model for Large Image Bases <>SSD Symposium Large Spatial Databases
+2_41 A Gupta;Ramesh Jain ; Simone Santini<>In Search of Information in Visual Media <>Commun ACM
+2_42 A Gupta;Ramesh Jain ; Terry E Weymouth<>Semantic Queries in Image Databases <>VDB Visual Database Systems
+2_43 A Gupta;Ramesh Jain ; Terry E Weymouth<>Semantic Queries with Pictures: The VIMSYS Model <>VLDB Very Large Data Bases
+2_44 A Gupta;Ramesh Jain ; Shailendra K Bhonsle ; Simone Santini<>Semiorder Database for Complex Activity Recognition in Multi-Sensory Environments <>ICDE International Conference Data Engineering
+2_45 A Gupta;Ramesh Jain ; Simone Santini<>A User Interface for Emergent Sementics in Image Databases <>DS Discovery Science
+2_46 A Katkere;J Schlenzig;A Gupta;R Jain<>Interactive video on WWW: beyond VCR-like interfaces<> Computer Networks and ISDN Systems
+2_47 A Gupta;Patrick H Kelly ; Ramesh Jain<>Visual Computing Meets Data Modeling: Defining Objects in Multicamera Video Databases <>Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering
+2_1 P A De Alarcon;A Pascual-Montano;A Gupta;J M Carazo<>Modeling Shape and Topology of D Images of Biological Specimens<> Proc Int Conf Image Proc And Pattern Recog ICPR International Conference Pattern Recognition
+2_80 S Santini;A Gupta<> A Wavelet Data Model for Image Databases<> IEEE Intl Conf Multimedia and Expo Tokyo
+2_48 A Gupta;Bertram Lud&auml;scher ; Maryann E Martone<>BIRN-M: A Semantic Mediator for Solving Real-World Neuroscience Problems <>SIGMOD International Conference Management of Data Conference
+2_2 P A de Alarcón;A Gupta;J M Carazo<> A Framework for Querying a Database for Structural Information on D Images of Macromolecules: A Web-Based Query-by-Content Prototype on the BioImage Macromolecular Server<> Journal of Structural Biology
+2_81 S Santini;A Gupta<>An Extensible Feature Management Engine for Image Retrieval<> Proc SPIE The International Society for Optical Engineering Storage and Retrieval for Media Databases
+2_49 A Gupta;Bertram Lud&auml;scher ; Ilkay Altintas<>Compiling Abstract Scientific Workflows into Web Service Workflows <>SSDBM Statistical and Scientific Database Management
+2_3 I Altintas;S Bhagwanani;D Buttler;S Chandra;M Coleman;T Critchlow;A Gupta;W Han;L Liu;B Ludäscher;R Moore;C Pu;A Shoshani;M Vouk<> A Modeling and Execution Environment for Distributed Scientific Workflows<> Int Conf Statistical and Scientific Data Management SSDBM Statistical and Scientific Database Management
+2_82 A Gupta;Simone Santini ; Tianqiu Wang<>An Interpolated Volume Data Model <>VLDB Very Large Data Bases
+2_4 J R Bach;C Fuller;A Gupta;A Hampapur<>The Virage Image Search Engine: an open framework for image management<> Proc Storage and Retrieval for Still Image and Video Databases IV San Jose Computer Animation
+2_83 S Santini;A Gupta<> Principles of Schema Design in Multimedia Databases<> IEEE Trans Multimedia Systems
+2_5 C Baru;A Gupta;B Ludäscher;R Marciano;Y Papakonstantinou;P Velikhov;V Chu<>XML-Based Information Mediation for Digital Libraries<> Proc Digital Libraries
+2_84 S Santini;A Gupta;R Jain<>User Interfaces for Emergent Semantics in Image Databases,'' In Proceedings of the th IFIP Working Conference on Database Semantics DS- Rotorua New Zealand , January - <>
+2_6 C Baru;A Gupta;B Ludäscher;R Marciano;Y apakonstantinou;P Velikhov;V Chu<> XML-Based Information Mediation with MIX<> Proc of the ACM SIGMOD International Conference Management of Data
+2_85 A Gupta;Simone Santini<>Toward feature Algebras in Visual Databases: The Case for a Histogram Algebra <>VDB Visual Database Systems
+2_7 A Gupta;Chaitanya K Baru ; Ilya Zaslavsky ; Richard Marciano<>Integrating GIS and Imagery Through XML-Based Information Mediation <>Integrated Spatial Databases
+2_86 A Gupta;Arie Shoshani ; Bertram Lud&auml;scher ; Calton Pu ; David Buttler ; Ilkay Altintas ; Ling Liu ; Matthew Coleman ; Mladen A Vouk ; Reagan Moore ; Sandeep Chandra ; Sangeeta Bhagwanani ; Terence Critchlow ; Wei Han ; Zhengang Cheng<>A Modeling and Execution Environment for Distributed Scientific Workflows <>SSDBM Statistical and Scientific Database Management
+2_8 S Bhonsle;A Gupta;S Santini;M Worring;R Jain<>Complex Visual Activity Recognition Using a Temporally Ordered Database<> Proc Of the rd Int Conf Visual The Lecture Notes Computer Science Springer
+2_9 S Bhonsle;A Gupta;S Santini;R Jain<> Semiorder Database for Complex Activity Recognition in Multi-sensory Environments<> Proc Of IEEE Int Conf Data Engineering San Diego demonstration paper
+2_87 A Gupta;Arnold W M Smeulders ; Marcel Worring ; Ramesh Jain ; Simone Santini<>Content-Based Image Retrieval at the End of the Early Years <>IEEE Transactions Pattern Analysis and Machine Intelligence
+2_88 A Gupta;Mohan M Trivedi ; Shailendra K Bhonsle<>Database Architecture for Autonomous Transportation Agents for On-Scene Networked Incident Management ATON <>ICPR International Conference Pattern Recognition
+2_89 T Wang;S Santini;A Gupta<> An Interpolated Volume Data Model<> ACM Conf Very Large Databases VLDB Very Large Data Bases Demonstration
+2_10 G Burns;K Stephan;B Ludäscher;A Gupta<>Towards a Federated Neuroscientific Knowledge Management System Using Brain Atlases<> Computational Neuroscience Meeting CNS poster paper Brugge
+2_11 M Chagoyen;M E Kurul;P A De-Alarcon;S Santini;B Ludäscher;J M Carazo;A Gupta<> A Semantic Mediation Approach for Problems in Computational Molecular Biology<> IEEE Computer Society Bioinformatics Conference CSB
+2_12 P A de-Alarcon;A Pascual-Montano;A Gupta;J M Carazo<> Modeling Shape and Topology of Low-resolution Density Maps of Biological Macromolecules<> Biophysical Journal
+2_13 M H Goldbaum;A Gupta;V Kouznetsova;I Zaslavsky;D J Nazafi<>General Medical Image online Description Grammar<> poster American Association of Ophthalmologists
+2_14 A Gupta;B Ludäscher;M E Martone;A Rajasekar;E Ross;X Qian;S Santini;H He;I Zaslavsky<> BIRN-M: A Semantic Mediator for Solving Real-World Neuroscience Problems<> ACM Conf Management of Data SIGMOD International Conference Management of Data Demonstration page
+2_15 A Gupta; S Moezzi; A Taylor; S Chatterjee; R Jain; M Goldbaum; S Burgess<>Content-based retrieval of ophtalmological images<>Proc International Conference Image Processing Lusanne
+2_16 A Gupta;Y Yang;A Bagchi;A Ray<> Declarative Specification of Gene Regulatory Networks and Query Evaluation in PathSys,<>Proc of Workshop Bioinformatics conjunction with Intl Conf Data Engineering ICDE International Conference Data Engineering
+2_17 A Gupta;B Chanda<>A Hue Preserving Enhancement Scheme For A Class Of Colour Images<> Pattern Recognition Letters
+2_50 A Gupta;Bertram Lud&auml;scher ; Maryann E Martone<>Knowledge-Based Integration of Neuroscience Data Sources <>SSDBM Statistical and Scientific Database Management
+2_18 A Gupta;R Jain<>Visual information retrieval<> Communications of the ACM
+2_51 A Gupta;Bertram Lud&auml;scher ; Ilya Zaslavsky ; Shabbar Tambawala<>Query Evaluation and Presentation Planning within a Spatial Mediator: Extending XML-based Mediation to Heterogeneous Sources of GIS and Imagery Data Invited Address <>DEXA Database and Expert Systems Applications Workshop
+2_19 A Gupta<>Visual Information Retrieval: a Virage Perspective<> Technical Report Virage Inc
+2_52 A Gupta;Bertram Lud&auml;scher ; Maryann E Martone<>Model-Based Mediation with Domain Maps <>ICDE International Conference Data Engineering
+2_53 A Gupta;Bertram Lud&auml;scher ; Maryann E Martone<>Model-Based Information Integration in a Neuroscience Mediator System <>VLDB Very Large Data Bases
+2_54 A Gupta;Bertram Lud&auml;scher<>Modeling Interactive Web Sources for Information Mediation <>ER International Conference Conceptual Modeling the Entity Relationship Approach Workshops
+2_55 A Gupta;Bertram Lud&auml;scher ; Chaitanya K Baru ; Pavel Velikhov ; Richard Marciano ; Vincent Chu ; Yannis Papakonstantinou<>XML-based Information Mediation for Digital Libraries <>ACM DL Digital Libraries
+2_56 A Gupta;Bertram Lud&auml;scher ; Chaitanya K Baru ; Pavel Velikhov ; Richard Marciano ; Vincent Chu ; Yannis Papakonstantinou<>XML-Based Information Mediation with MIX <>SIGMOD International Conference Management of Data Conference
+2_57 A Gupta;Bertram Lud&auml;scher ; Maryann E Martone ; Xufei Qian<>Navigating Virtual Information Sources with Know-ME <>EDBT Extending Database Technology
+2_90 T Wang;S Santini;A Gupta<> An Interpolated Volume Model for Databases<> Int Conf Conceptual Modeling ER International Conference Conceptual Modeling the Entity Relationship Approach
+2_58 A Gupta;Bertram Lud&auml;scher ; Maryann E Martone<>An Extensible Model-Based Mediatior System with Domain Maps <>ICDE International Conference Data Engineering Demo Sessions
+2_91 A Gupta;Marcel Worring ; Ramesh Jain ; Shailendra K Bhonsle ; Simone Santini<>Complex Visual Activity Recognition Using a Temporally Ordered Database <>VISUAL Visual Information and Information Systems
+2_59 A Gupta;Bertram Lud&auml;scher ; Reagan Moore<>Ontology services for curriculum development in NSDL <>JCDL ACM IEEE Joint Conference Digital Libraries
+2_92 I Zaslavsky;B Ludäscher;A Gupta;R Marciano<>Accuracy Mediation in a Spatial Wrapper Mediator System<> st Geographic Information Science Conference Extended abstract
+2_93 I Zaslavsky;A Gupta;R Marciano<>Combined Query and Transformation Planning in Spatial Mediators<> Spatial Data Handling
+2_94 I Zaslavsky;R Marciano;A Gupta;C Baru<> XML-based Spatial Data Mediation Infrastructure for Global Interoperability<> th Global Spatial Data Infrastructure Conference Cape Town South Africa
+2_95 S Zhang;X Qian;A Gupta;M E Martone<> A Practical Approach for Microscopy Imaging Data Management MIDM in Neuroscience<> Int Conf Statistical and Scientific Data Management SSDBM Statistical and Scientific Database Management
+2_20 A Gupta;A Bagchi<>Learning object models in visual semantic networks<> Proc International Conference Tools with Artificial Intelligence TAI Los Alamitos Computer Animation IEEE Comput Soc Press
+2_21 A Gupta;S Bhonsle;S Santini;R Jain<>An Event Management Architecture for Activity Recognition in a Multistream Video Database<> Proceedings of the Image Understanding Workshop Computer Animation
+2_22 A Gupta;T E Weymouth;R Jain<>An extended object-oriented data model for large image bases<> Proc Advances Spatial Databases Symposium SSD Symposium Large Spatial Databases Zurich Edited by Gunther O Schek H J Springer Verlag
+2_23 A Gupta;C Baru<> An Extensible Information Model for Shared Scientific Data Collections<> Future Generation Computer Systems
+2_24 A Gupta;H Hampapur;M Gorkani;R Jain<>On Summarization of Video<> International Conference Image Processing IEEE Santa Barbara
+2_25 A Gupta;S Santini;R Jain<>In Search of Information in Visual Media<> Communications of the ACM
+2_26 A Gupta;R Marciano;I Zaslavsky;C Baru<> Integrating GIS and Imagery through XML-Based Information Mediation<> Proc NSF International Workshop Integrated Spatial Databases Digital Images and GIS Workshop Advances Geographic Information Systems Lecture Notes Computer Science Springer Verlag
+2_27 A Gupta;B Ludäscher;R W Moore<> Ontology Services for Curriculum Development in NSDL<> ACM IEEE CS Joint Conference Digital Libraries JCDL ACM IEEE Joint Conference Digital Libraries
+2_60 A Gupta;Bertram Lud&auml;scher ; Maryann E Martone<>Registering Scientific Information Sources for Semantic Mediation <>ER International Conference Conceptual Modeling the Entity Relationship Approach
+2_28 A Gupta;B Ludäscher;M E Martone<> Registering Scientific Information Sources for Semantic Mediation,<> st International Conference Conceptual Modeling ER International Conference Conceptual Modeling the Entity Relationship Approach Tampere
+2_61 A Gupta;Bertram Lud&auml;scher ; Edward Ross ; Ilya Zaslavsky ; Joshua Tran ; Maryann E Martone ; Xufei Qian<>A System for Managing Alternate Models in Model-Based Mediation <>BNCOD British National Conference Databases
+2_29 A Gupta;T Weymouth;R Jain<>Semantic queries in image databases<> IFIP International Federation for Information Processing Transactions A Computer Science and Technology A
+2_62 A Gupta;Bertram Lud&auml;scher ; Ilkay Altintas<>Time to Leave the Trees: From Syntactic to Conceptual Querying of XML <>EDBT Extending Database Technology Workshops
+2_63 A Gupta;Bertram Lud&auml;scher ; Gully Burns ; Klaas E Stephan ; Rolf K&ouml;tter<>Towards a federated neuroscientific knowledge management system using brain atlases <>Neurocomputing
+2_64 B Ludäscher;A Gupta;I Altintas<> Compiling Abstract Scientific Workflows into Web Service Workflows<> Int Conf Statistical and Scientific Data Management SSDBM Statistical and Scientific Database Management
+2_65 B Ludäscher;A Gupta;M E Martone<> Model-Based Mediation with Domain Maps<> th Intl Conference Data Engineering ICDE International Conference Data Engineering Heidelberg IEEE Computer Society
+2_66 B Ludäscher;A Gupta;M E Martone<> A Model Based Mediator System for Scientific Data Management <>Z Lacroix and T Critchlow eds Bioinformatics Managing Scientific Data Morgan Kaufmann Publishers
+2_67 B Ludäscher;A Gupta<> Modeling Interactive Web Sources for Information Mediation<> Proc WWWCM Conceptual Modeling for the World Wide Web
+2_68 B Ludäscher;A Gupta;M Martone<> A Mediator System for Model-based Information Integration<> Int Conf VLDB Very Large Data Bases Cairo
+2_69 B Ludäscher;I Altintas;A Gupta<> Time to Leave the Trees: From Syntactic to Conceptual Querying of XML<> Proc of Workshop XML Data Management XMLDM conjunction with Intl Conf Extending Database Technology EDBT Extending Database Technology
+3_10 A Gupta; Jeffrey D Ullman ; Jennifer Widom ; Yehoshua Sagiv<>Efficient and Complete Tests for Database Integrity Constraint Checking <>PPCP Principles and Practice of Constraint Programming
+3_11 A Gupta; Dallan Quass ; Venky Harinarayan<>Aggregate-Query Processing in Data Warehousing Environments <>VLDB Very Large Data Bases
+3_12 A Gupta; Inderpal Singh Mumick<>What is the Data Warehousing Problem? Are Materialized Views the Answer? <>VLDB Very Large Data Bases
+3_13 A Gupta; Jeffrey F Naughton ; Prasad Deshpande ; Raghu Ramakrishnan ; Rakesh Agrawal ; Sameet Agarwal ; Sunita Sarawagi<>On the Computation of Multidimensional Aggregates <>VLDB Very Large Data Bases
+3_14 A Gupta; Jeffrey D Ullman ; Jennifer Widom ; Yehoshua Sagiv<>Validating Constraints with Partial Information: Research Overview <>DAISD Deductive Approach to Information Systems and Databases
+3_15 A Gupta; H V Jagadish ; Inderpal Singh Mumick<>Maintenance and Self Maintenance of Outer-Join Views <>NGITS Next Generation Information Technologies and Systems
+3_16 A Gupta; Dinesh Katiyar ; Inderpal Singh Mumick<>Counting solutions to the View Maintenance Problem <>Workshop Deductive Databases JICSLP Joint International Conference and Symposium Logic Programming
+3_17 A Gupta; Jeffrey D Ullman<>Generalizing Conjunctive Query Containment for View Maintenance and Integrity Constraint Verification Abstract <>Workshop Deductive Databases JICSLP Joint International Conference and Symposium Logic Programming
+3_18 A Gupta; Inderpal Singh Mumick ; Kenneth A Ross<>Adapting Materialized Views after Redefinitions <>SIGMOD International Conference Management of Data Conference
+3_19 A Gupta; Inderpal Singh Mumick ; V S Subrahmanian<>Maintaining Views Incrementally <>SIGMOD International Conference Management of Data Conference
+3_1 A Gupta; <>Junglee: Integrating Data of All Shapes and Sizes <>ICDE International Conference Data Engineering
+3_2 A Gupta; Rakesh Agrawal ; Sunita Sarawagi<>Modeling Multidimensional Databases <>ICDE International Conference Data Engineering
+3_3 A Gupta; Anand Rajaraman ; Venky Harinarayan<>Virtual Database Technology <>ICDE International Conference Data Engineering
+3_4 A Gupta; Venky Harinarayan<>Optimization Using Tuple Subsumption <>ICDT International Conference Database Theory
+3_5 A Gupta; Laura M Haas ; Yannis Papakonstantinou<>Capabilities-Based Query Rewriting in Mediator Systems <>PDIS Conference Parallel and Distributed Information Systems
+3_6 A Gupta; Dallan Quass ; Inderpal Singh Mumick ; Jennifer Widom<>Making Views Self-Maintainable for Data Warehousing <>PDIS Conference Parallel and Distributed Information Systems
+3_7 A Gupta; Jeffrey D Ullman ; Jennifer Widom ; Yehoshua Sagiv<>Constraint Checking with Partial Information <>PODS Symposium Principles of Database Systems
+3_8 A Gupta; <>Entrepreneurship for Information Systems Researchers Abstract of Invited Tutorial <>PODS Symposium Principles of Database Systems
+3_9 A Gupta; Inderpal Singh Mumick<>Magic-sets Transformation in Nonrecursive Systems <>PODS Symposium Principles of Database Systems
+3_20 A Gupta; Jennifer Widom<>Local Verification of Global Integrity Constraints in Distributed Databases <>SIGMOD International Conference Management of Data Conference
+3_21 A Gupta; Inderpal Singh Mumick ; Jun Rao ; Kenneth A Ross<>Adapting materialized views after redefinitions: techniques and a performance study <>Inf Syst
+3_22 A Gupta; Jos&eacute; A Blakeley<>Using Partial Information to Update Materialized Views <>Inf Syst
+3_23 A Gupta; Laura M Haas ; Yannis Papakonstantinou<>Capabilities-Based Query Rewriting in Mediator Systems <>Distributed and Parallel Databases
+3_24 A Gupta; Inderpal Singh Mumick<>Maintenance of Materialized Views: Problems, Techniques, and Applications <>IEEE Data Eng Bull
+3_25 A Gupta; Sanjai Tiwari<>Constraint Management On Distributed Design Databases <>IEEE Data Eng Bull
+3_26 A Gupta; Anand Rajaraman ; Venky Harinarayan<>Virtual Database technology <>SIGMOD International Conference Management of Data Record
+3_27 A Gupta; Sanjai Tiwari<>Distributed Constraint Management for Collaborative Engineering Databases <>CIKM International Conference Information and Knowledge Management
+3_28 A Gupta; H V Jagadish ; Inderpal Singh Mumick<>Data Integration using Self-Maintainable Views <>EDBT Extending Database Technology
+3_29 A Gupta; Hector Garcia-Molina ; Jeffrey D Ullman ; Yannis Papakonstantinou<>A Query Translation Scheme for Rapid Implementation of Wrappers <>DOOD Deductive and Object Oriented Databases
+3_30 A Gupta; <>E-Commerce and the Web <>Workshop Web Information and Data Management
+3_31 A Gupta; Arun N Swami ; Honesty C Young<>Algorithms for Handling Skew in Parallel Task Scheduling <>J Parallel Distrib Comput
+4_30 A Gupta;N Nishimura<>Finding Smallest Common Supertrees<> Sixth Annual International Symposium Algorithms and Computation
+4_31 A Gupta<>A fast parallel algorithm for recognition of parenthesis languages,<>Technical Report TR Department of Computer Science University of Toronto
+4_32 A Gupta;D Kaller;S Mahajan;T Shermer<>Vertex Partitioning Problems on Partial k-trees<> Scandinavian Workshop Algorithmic Theory
+4_33 A Gupta;D Kaller;T Shermer<>Linear-Time Algorithms for Partial k-Tree Complements<> Algorithmica
+4_34 A Gupta;N Nishimura;A Proskurowski;P Ragde<> Embeddings of k-connected graphs of pathwidth k<> Proceedings of the th Annual Scandinavian Workshop Algorithm Theory
+4_35 A Gupta;D Kaller;T Shermer<> On the complements of Partial k-Trees<> International Colloquium Automata Languages and Programming
+4_36 A Gupta;N Nishimura<>An outline of the graph minors project : Wagner's Conjecture<>Technical Report TR Department of Computer Science University of Toronto
+4_37 A Gupta;R Krishnamurti<>Parallel algorithms for vehicle routing problems,<> Parallel Processing Letters
+4_38 A Gupta;R Krishnamurti<>Parallel algorithms for vehicle routing problems,<>HIPC
+4_39 A Gupta;N Nishimura<>Sequential and Parallel Algorithms for Embedding Problems on Classes of Partial k-Trees<> Scandinavian Workshop Algorithmic Theory
+4_40 A Gupta;N Nishimura<>Sequential and parallel algorithms for embedding problems on k-connected partial k-trees,<> pages
+4_41 A Gupta;S Mahajan<>Using amplification to compute majority using small majority gates<> Computational Complexity
+4_42 A Gupta;N Nishimura<>The complexity of subgraph isomorphism: Duality results for graphs of bounded path- and tree-width<> TCS Theoretical Computer Science A
+4_43 A Gupta;D Kaller;S Mahajan;T Shermer<>The Generalized Matching Problem on Partial k-Trees<> Contemporary Trends Discrete Math AMS American Mathematical Society
+4_44 A Gupta;N Nishimura<>The parallel complexity of tree embedding problems,<>Journal of Algorithms Also appeared at the Ninth Symposium Theoretical Aspects of Computer Science STACS Symposium Theoretical Aspects of Computer Science
+4_45 A Gupta;Russell Impagliazzo<>Bounding the Size of Planar Intertwines <>SIAM Society for Industrial and Applied Mathematics J Discrete Math
+4_46 A Gupta;Russell Impagliazzo<>Computing Planar Intertwines<>FOCS IEEE Symposium Foundations of Computer Science
+4_47 A Gupta;Damon Kaller ; Sanjeev Mahajan ; Thomas C Shermer<>Vertex Partitioning Problems On Partial k-Trees <>SWAT Scandinavian Workshop Algorithm Theory
+4_48 A Gupta;Damon Kaller ; Thomas C Shermer<>Linear-Time Algorithms for Partial <i>k</i>-Tree Complements <>Algorithmica
+4_49 A Gupta;Damon Kaller ; Thomas C Shermer<>On the Complements of Partial k-Trees <>ICALP Automata Languages and Programming
+4_10 J Delgrande;A Gupta<> Updating <=,<-chains<> Information Processing Letters
+4_11 A Gupta;James P Delgrande<>Updating &lt;=, &lt;-chains <>Inf Process Lett
+4_12 A Gupta;James P Delgrande ; Tim Van Allen<>Point-Based Approaches to Qualitative Temporal Reasoning <>PRICAI Pacific Rim International Conference Artificial Intelligence
+4_13 A Gupta;James P Delgrande ; Tim Van Allen<>Point-Based Approaches to Qualitative Temporal Reasoning <>AAAI National Conference Artificial Intelligence IAAI The Twelfth Innovative Applications of Artificial Intelligence
+4_14 J Delgrande;A Gupta;T Van Allen<> Point Based Approaches to Qualitative Temporal Reasoning<> American Association for Artificial Intelligence
+4_15 J Delgrande;A Gupta<>Revising TimeGraph II,<> th Canadian Conference Artificial Intelligence
+4_16 J Delgrande;A Gupta<>A representation for constant time temporal reasoning,<>AAAI National Conference Artificial Intelligence
+4_17 A Gupta;James P Delgrande<>A Representation for Efficient Temporal Reasoning <>AAAI National Conference Artificial Intelligence IAAI The Twelfth Innovative Applications of Artificial Intelligence
+4_50 D Kaller;A Gupta;T Shermer<>Regular factors in k-trees<> Workshop Algorithms and Data Structures
+4_18 A Gupta;James P Delgrande<>The Complexity of Minimum Partial Truth Assignments and Implication in Negation-Free Formulae <>Annals of Mathematics and Artificial Intelligence
+4_51 A Gupta;Damon Kaller ; Thomas C Shermer<>Regular-Factors In The Complements Of Partial k-Trees <>WADS Workshop Algorithms and Data Structures
+4_19 J Delgrande;A Gupta<>Two results in negation-free logic<>Applied Mathematical Letters
+4_52 D Kaller;A Gupta; ;T Shermer<>The [chi lc gif] t-colouring problem<> th Annual Symposium the Theoretical Aspects of Computer Science
+4_53 A Gupta;Damon Kaller ; Thomas C Shermer<>The Chi-t-Coloring Problem <>STACS Symposium Theoretical Aspects of Computer Science
+4_54 A Gupta;Sanjeev Mahajan<>Using Amplification to Compute Majority with Small Majority Gates <>Computational Complexity
+4_55 A Gupta;Naomi Nishimura<>Characterizing the Complexity of Subgraph Isomorphism for Graphs of Bounded Path-Width <>STACS Symposium Theoretical Aspects of Computer Science
+4_56 A Gupta;Naomi Nishimura<>Finding Largest Common Embeddable Subtrees <>STACS Symposium Theoretical Aspects of Computer Science
+4_57 A Gupta;Naomi Nishimura<>Finding Largest Subtrees and Smallest Supertrees <>Algorithmica
+4_58 A Gupta;Naomi Nishimura<>finding Smallest Supertrees <>ISAAC International Symposium Algorithms and Computation
+4_59 A Gupta;Naomi Nishimura<>Sequential and Parallel Algorithms for Embedding Problems on Classes of Partial k-Trees <>SWAT Scandinavian Workshop Algorithm Theory
+4_20 H Everett;A Gupta<>Acyclic directed hypercubes may have exponential diameter,<>Information Processing Letters
+4_21 A Gupta;Daya Ram Gaur ; Ramesh Krishnamurti<>A / -approximation algorithm for scheduling vehicles on a path with release and handling times <>Inf Process Lett
+4_22 A Gupta;N Nishimura<>Characterizing the complexity of subgraph isomorphism for graphs of bounded path-width,<> th Symposium the Theoretical Aspects of Computer Science
+4_23 A Gupta;R Impagliazzo<>Computing planar interwines<>appeared at the Symposium the Foundations of Computer Science FOCS IEEE Symposium Foundations of Computer Science
+4_24 A Gupta;R Impagliazzo<>Computing planar interwines SIAM<>Journal Discrete Mathematics Also appeared at the Symposium the Foundations of Computer Science FOCS IEEE Symposium Foundations of Computer Science
+4_25 A Gupta;R Impagliazzo<>Computing planar intertwines,<>Siam Journal Discrete Mathematics
+4_26 A Gupta;N Nishimura<>Computing subtrees and supertrees<> Algorithmica
+4_27 A Gupta<>A constructive proof that trees are well-quasi ordered under minors<>A Nerode and M Taitslin editors Second Symposium the Logical Foundations of Computer Science pages Springer Verlag
+4_60 A Gupta;Naomi Nishimura<>The Complexity of Subgraph Isomorphism for Classes of Partial k-Trees <>Theor Comput Sci
+4_28 A Gupta<>Constructivity issues in tree minors,<>Technical Report TR Department of Computer Science University of Toronto PhD dissertation
+4_61 A Gupta;Naomi Nishimura<>The Parallel Complexity of Tree Embedding Problems <>J Algorithms
+4_29 A Gupta;N Nishimura<>Finding Largest Common Embeddable Subtrees<> th Annual Symposium the Theoretical Aspects of Computer Science
+4_1 A Gupta;<>A Constructive Proof that Trees Are Well-Quasi-Ordered Under Minors <>LFCS Logical Foundations of Computer Science
+4_62 A Gupta;Naomi Nishimura<>The Parallel Complexity of Tree Embedding Problems Extended Abstract <>STACS Symposium Theoretical Aspects of Computer Science
+4_2 A Gupta;<>Finite Automata as Characterizations of Minor Closed Tree Families Extended Abstract <>ICALP Automata Languages and Programming
+4_63 A Gupta;Andrzej Proskurowski ; Naomi Nishimura ; Prabhakar Ragde<>Embeddings of <i>k</i>-Connected Graphs of Pathwidth <i>k</i> <>SWAT Scandinavian Workshop Algorithm Theory
+4_3 T Van Allen;J Delgrande;A Gupta<>Qualitative Temporal Reasoning,<>Pacific Rim International Conference Artificial Intelligence
+4_4 A Barranco-Mendoza;A Gupta<>Computational model of the development of neoplastic pre-invasive bronchial epithelial lesions,<> English title General Congress Computo Medical Informatics City
+4_5 S Buss;S Cook;A Gupta;V Ramachandran<>An optimal parallel algorithm for formula evaluation,<>SIAM Society for Industrial and Applied Mathematics Journal Computing
+4_6 F Dehne;A Gupta;J Sack;R Tamassia<>Algorithms and Data Structures<> Springer Verlag Lecture Notes Computer Science Volume
+4_7 J Delgrande;A Gupta<>Complexity in negation free logic,<>Annals of Mathematics and Artificial Intelligence invited paper
+4_8 J Delgrande;A Gupta<>Complexity in negation-free logic<> AAAI National Conference Artificial Intelligence Workshop Complexity and AI Artificial Intelligence
+4_9 J Delgrande;A Gupta;T van Allen<>A comparison of point-based approaches to qualitative temporal reasoning<> Artifical Intelligence J
+5_10 A Gupta;Fred G Gustavson ; Mahesh V Joshi ; Sivan Toledo<>The Design, Implementation, and Evaluation of a Banded Linear Solver for Distributed-Memory Parallel Computers <>PARA Applied Parallel Computing
+5_11 A Gupta;Fred G Gustavson ; Mahesh V Joshi ; Sivan Toledo<>The Design, Implementation, and Evaluation of a Symmetric Banded Linear Solver for Distributed-Memory Parallel Computers <>ACM Trans Math Softw
+5_12 A Gupta;Mahesh V Joshi ; Vipin Kumar<>WSSMP: A High-Performance Serial and Parallel Symmetric Sparse Linear Solver <>PARA Applied Parallel Computing
+5_13 A Gupta;Alexander Karaivanov ; Fred G Gustavson ; Jerzy Wasniewski ; Plamen Y Yalamov<>Experience with a Recursive Perturbation Based Algorithm for Symmetric Indefinite Linear Systems <>Euro Par
+5_14 A Gupta;George Karypis ; Vipin Kumar<>A Highly Parallel Interior Point Algorithm <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+5_15 A Gupta;George Karypis ; Vipin Kumar<>Highly Scalable Parallel Algorithms for Sparse Matrix Factorization <>IEEE Trans Parallel Distrib Syst
+5_16 A Gupta;George Karypis ; Vipin Kumar<>A parallel formulation of interior point algorithms <>Supercomputing
+5_17 A Gupta;Vipin Kumar<>Analysis of scalability of parallel algorithms and architectures: a survey <>ICS International Conference Supercomputing
+5_18 A Gupta;Vipin Kumar<>Performance Properties of Large Scale Parallel Systems <>J Parallel Distrib Comput
+5_19 A Gupta;Vipin Kumar<>Parallel Algorithms for Forward and Back Substitution in Direct Solution of Sparse Linear Systems <>Supercomputing
+5_20 A Gupta;Vipin Kumar<>Optimally Scalable Parallel Sparse Cholesky Factorization <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+5_21 A Gupta;Vipin Kumar<>A scalable parallel algorithm for sparse Cholesky factorization <>Supercomputing
+5_22 A Gupta;Vipin Kumar<>Scalability of Parallel Algorithms for Matrix Multiplication <>ICPP International Conference Parallel Processing
+5_23 A Gupta;Vipin Kumar<>The Scalability of FFT on Parallel Computers <>IEEE Trans Parallel Distrib Syst
+5_24 A Gupta;David Moran ; Gary S Ditlow ; Ralph Williams ; Richard Moore ; Tom Wilkins<>Parallel Analysis of IC Power Distribution Networks <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+5_25 A Gupta;Yanto Muliadi<>An Experimental Comparison of some Direct Sparse Solver Packages <>IPDPS International Parallel and Distributed Processing Symposium
+5_26 A Gupta;Pankaj Rohatgi ; Ramesh C Agarwal<>Fast practical algorithms for the Boolean-product-witness-matrix problem <>ISSAC International Symposium Symbolic and Algebraic Computation
+5_27 A Gupta;Ahmed H Sameh ; Vipin Kumar<>Performance and Scalability of Preconditioned Conjugate Gradient Methods on Parallel Computers <>IEEE Trans Parallel Distrib Syst
+5_28 A Gupta;Ahmed H Sameh ; Vipin Kumar<>Performance and Scalability of Preconditioned Conjugate Gradient Methods on the CM- <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+5_1 A Gupta;<>Recent Progress in General Sparse Direct Solvers <>International Conference Computational Science
+5_2  Anshul Gupta; George Karypis; Vipin Kumar<>Highly Scalable Parallel Algorithms for Sparse Matrix Factorization<>IEEE Transactions Parallel and Distributed Systems
+5_3  Anshul Gupta<>Improved Symbolic and Numerical Factorization Algorithms for Unsymmetric Sparse Matrices<>IBM Research Report RC
+5_4  Anshul Gupta; Mahesh Joshi; Vipin Kumar<>WSMP: A High-Performance Serial and Parallel Sparse Linear Solver<>IBM Research Report RC
+5_5  Anshul Gupta<>Recent Advances in Direct Methods for Solving Unsymmetric Sparse Systems of Linear Equations<>IBM Research Report RC
+5_6 A Gupta;Fred G Gustavson ; George Karypis ; Mahesh V Joshi ; Vipin Kumar<>Design and Implementation of a Scalable Parallel Direct Solver for Sparse Symmetric Positive Definite Systems: Preliminary Results <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+5_7 A Gupta;Fred G Gustavson<>Fast Graph Partitioning and Its Application in Sparse Matrix Ordering <>PARA Applied Parallel Computing
+5_8 A Gupta;Fred G Gustavson<>A New Parallel Algorithm for Tridiagonal Symmetric Positive Definite Systems of Equations <>PARA Applied Parallel Computing
+5_9 A Gupta;Fred G Gustavson ; George Karypis ; Mahesh V Joshi ; Vipin Kumar<>PSPASES: An Efficient and Scalable Parallel Sparse Direct Solver <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+6_30 A Gupta;Amit Kumar<>Sorting and Selection with Structured Costs <>FOCS IEEE Symposium Foundations of Computer Science
+6_31 A Gupta<>Steiner nodes in Trees don't really help <>SODA Symposium Discrete Algorithms
+6_32 A Gupta;Amit Kumar; Mikkel Thorup<>Tree Based MPLS Routing <>SPAA ACM Symposium Parallel Algorithms and Architectures
+6_33 A Gupta;Amit Kumar; Rajeev Rastogi <>Traveling with a Pez Dispenser or, Routing Issues in MPLS <>FOCS IEEE Symposium Foundations of Computer Science
+6_34 A Gupta;Amit Kumar ; Chandra Chekuri ; Danny Raz ; Joseph Naor<>Building Edge-Failure Resilient Networks <>IPCO Integer Programming Combinatorial Optimization
+6_35 A Gupta;Amit Kumar ; Tim Roughgarden<>A Constant-Factor Approximation Algorithm for the Multicommodity <>FOCS IEEE Symposium Foundations of Computer Science
+6_36 A Gupta;Amit Kumar ; Rajeev Rastogi<>Exploring the trade-off between label size and stack depth in MPLS Routing <>INFOCOM The Conference Computer Communications
+6_37 A Gupta;Amit Kumar ; Martin P&aacute;l ; Tim Roughgarden<>Approximation Via Cost-Sharing: A Simple Approximation Algorithm for the Multicommodity Rent-or-Buy Problem <>FOCS IEEE Symposium Foundations of Computer Science
+6_38 A Gupta;Amit Kumar ; B&uuml;lent Yener ; Jon M Kleinberg ; Rajeev Rastogi<>Provisioning a virtual private network: a network design problem for multicommodity flow <>STOC ACM Symposium Theory of Computing
+6_39 A Gupta;Amit Kumar ; Tim Roughgarden<>Simpler and better approximation algorithms for network design <>STOC ACM Symposium Theory of Computing
+6_40 A Gupta;Amit Kumar<>Sorting and Selection with Structured Costs <>FOCS IEEE Symposium Foundations of Computer Science
+6_41 A Gupta;Amit Kumar ; Mikkel Thorup<>Tree based MPLS routing <>SPAA ACM Symposium Parallel Algorithms and Architectures
+6_42 A Gupta;Amit Kumar ; Rajeev Rastogi<>Traveling with a Pez Dispenser Or, Routing Issues in MPLS <>FOCS IEEE Symposium Foundations of Computer Science
+6_43 A Gupta;James R Lee ; Robert Krauthgamer<>Bounded Geometries, Fractals, and Low-Distortion Embeddings <>FOCS IEEE Symposium Foundations of Computer Science
+6_1 A Gupta;&Eacute;va Tardos<>A constant factor approximation algorithm for a class of classification problems <>STOC ACM Symposium Theory of Computing
+6_44 A Gupta;Alistair Sinclair ; Ilan Newman ; Yuri Rabinovich<>Cuts, Trees and l<sub> </sub>-Embeddings of Graphs <>FOCS IEEE Symposium Foundations of Computer Science
+6_2 A Gupta;<>Embedding Tree Metrics Into Low Dimensional Euclidean Spaces <>STOC ACM Symposium Theory of Computing
+6_45 A Gupta;Alistair Sinclair ; Chandra Chekuri ; Ilan Newman ; Yuri Rabinovich<>Embedding k-outerplanar graphs into l <>SODA Symposium Discrete Algorithms
+6_3 A Gupta;<>Improved bandwidth approximation for trees <>SODA Symposium Discrete Algorithms
+6_46 A Gupta;Francis Zane<>Counting inversions in lists <>SODA Symposium Discrete Algorithms
+6_4 A Gupta;<>Improved Bandwidth Approximation for Trees and Chordal Graphs <>J Algorithms
+6_5 A Gupta;<>Improved results for directed multicut <>SODA Symposium Discrete Algorithms
+6_6 A Gupta;<>Steiner points in tree metrics don't really help <>SODA Symposium Discrete Algorithms
+6_7 A Gupta;Alexandr Andoni ; Michael Deza ; Piotr Indyk ; Sofya Raskhodnikova<>Lower bounds for embedding edit distance into normed spaces <>SODA Symposium Discrete Algorithms
+6_8 A Gupta;Amit Chakrabarti ; Amit Kumar ; Chandra Chekuri<>Approximation Algorithms for the Unsplittable Flow Problem <>APPROX
+6_9 A Gupta;Sanjoy Dasgupta<>An elementary proof of a theorem of Johnson and Lindenstrauss <>Random Structures and Algorithms
+6_10 A Gupta;Robert Krauthgamer; James R Lee<>Bounded geometries, fractals, and low-distortion embeddings <>FOCS IEEE Symposium Foundations of Computer Science
+6_11 A Gupta;Amit Kumar; Tim Roughgarden<>A Constant Factor Approximation Algorithm for the Multicommodity Rent-or-Buy Problem <>FOCS IEEE Symposium Foundations of Computer Science
+6_12 A Gupta;Ã va Tardos<>Constant Factor Approximation Algorithms for a Class of Classification Problems <>STOC ACM Symposium Theory of Computing
+6_13 A Gupta;Francis Zane<>Counting Inversions in Streams<>SODA Symposium Discrete Algorithms
+6_14 A Gupta;Ilan Newman; Yuri Rabinovich; Alistair Sinclair<>Cuts, Trees and l Embeddings <>FOCS IEEE Symposium Foundations of Computer Science
+6_15 A Gupta;Chandra Chekuri; Amit Kumar; Joseph Seffi Naor; Danny Raz <>Designing Edge-Failure Resilient Networks <>IPCO Integer Programming Combinatorial Optimization
+6_16 A Gupta;Alexandr Andoni; Michel Deza; Piotr Indyk; Sofya Raskhodnikova <>Lower bounds for embedding edit distance into normed spaces<>SODA Symposium Discrete Algorithms
+6_17 A Gupta;Chandra Chekuri; Ilan Newman; Yuri Rabinovich; Alistair Sinclair<>Embedding k-Outerplanar graphs into l<>SODA Symposium Discrete Algorithms
+6_18 A Gupta<>Embeddings of Finite Metrics <>Ph D thesis University of
+6_19 A Gupta<>Embedding Trees into Low Dimensional Euclidean Spaces <>STOC ACM Symposium Theory of Computing Discrete Computational Geometry
+6_20 A Gupta;Amit Kumar; Rajeev Rastogi <>Exploring the trade-off between label size and stack depth in MPLS routing <>INFOCOM The Conference Computer Communications
+6_21 A Gupta<>Improved Bandwidth Approximation for Trees and Chordal graphs <>SODA Symposium Discrete Algorithms Journal of Algorithms
+6_22 A Gupta<>Improved Results for Directed Multicut <>SODA Symposium Discrete Algorithms
+6_23 A Gupta;Sanjoy Dasgupta<>An elementary proof of the Johnson Lindenstrauss lemma <>Random Structures Algorithms ICSI TR
+6_24 A Gupta;Aravind Srinivasan<>On the Covering Steiner Problem<>FST TCS Theoretical Computer Science
+6_25 A Gupta;Kedar Dhamdhere; R Ravi<>Approximating average distortion for embeddings into the line<>STACS Symposium Theoretical Aspects of Computer Science
+6_26 A Gupta;Amit Kumar; Martin Pal; Tim Roughgarden<>Approximation Via Cost-Sharing: A Simple Approximation Algorithm for the Multicommodity Rent-or-Buy Problem <>FOCS IEEE Symposium Foundations of Computer Science
+6_27 A Gupta;Amit Chakrabarti; Chandra Chekuri; Amit Kumar <>Approximation Algorithms for the Unsplittable Flow Problem <>APPROX
+6_28 A Gupta;Jon Kleinberg; Amit Kumar; Rajeev Rastogi; Bülent Yener <>Provisioning a Virtual Private Network: A Network Design problem for Multicommodity flows <>STOC ACM Symposium Theory of Computing
+6_29 A Gupta;Amit Kumar; Tim Roughgarden <>Simpler and Better Approximation Algorithms for Network Design <> STOC ACM Symposium Theory of Computing
+7_10 A Gupta; Andreas G Photiou<>Load Balances Priority Queues on Distributed Memory Machines <>PARLE Parallel Architectures and Languages Europe
+7_11 A Gupta; Alfred J Boals ; Jahangir A Hashmi ; Naveed A Sherwani<>Compact Hypercubes: Properties and Recognition <>ICCI International Conference Computing and Information
+7_12 A Gupta; Alfred J Boals ; Jahangir A Hashmi ; Naveed A Sherwani<>An Efficient Approximation Algorithm for Hypercube Scheduling <>ICCI International Conference Computing and Information
+7_13 A Gupta; Alfred J Boals ; Naveed A Sherwani<>On Optimal Embeddings into Incomplete Hypercubes <>IPPS International Parallel Processing Symposium
+7_14 A Gupta; Cong Fan ; Jiuqiang Liu<>Latin Cubes and Parallel Array Access <>IPPS International Parallel Processing Symposium
+7_15 A Gupta; Hong Wang<>On Embedding Ternary Trees into Boolean Hypercubes <>SPDP Symposium Parallel and Distributed Processing
+7_16 A Gupta; Susanne E Hambrusch<>Load balanced tree embeddings <>Parallel Computing
+7_17 A Gupta; Susanne E Hambrusch<>Embedding Complete Binary Trees into Butterfly Networks <>IEEE Trans Computers
+7_18 A Gupta; Susanne E Hambrusch<>Optimal Three-Dimensional Layouts of Complete Binary Trees <>Inf Process Lett
+7_1 A Gupta; Elise de Doncker ; Kyle Rathbun ; Patricia Ealy<>Development of a parallel and distributed integration package - PART <>HPCN European International Conference High Performance Computing and Networking Europe
+7_2 A Gupta; Elise de Doncker ; Patricia Ealy<>Two Methods for Load Balanced Distributed Adaptive Integration <>HPCN European International Conference High Performance Computing and Networking Europe
+7_19 A Gupta; Donald Nelson ; Hong Wang<>Efficient embeddings of ternary trees into hypercubes <>J Parallel Distrib Comput
+7_3 A Gupta; Elise de Doncker<>Multivariate Integration on Hypercubic and Mesh Networks <>Parallel Computing
+7_4 A Gupta; Elise de Doncker<>Coarse Grain Preconditioned Conjugate Gradient Solver for Large Sparse Systems <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+7_5 A Gupta; Alan Genz ; Elise de Doncker ; J Ball ; Patricia Ealy<>ParInt: A Software Package for Parallel Integration <>International Conference Supercomputing
+7_6 A Gupta; Steven C Bruell ; Sukumar Ghosh<>Mutual Exclusion on a Hypercube <>J Parallel Distrib Comput
+7_7 A Gupta; Garrison W Greenwood ; Kelly McSweeney<>Scheduling Tasks in Multiprocessor Systems Using Evolutionary Strategies <>International Conference Evolutionary Computation
+7_8 A Gupta; Hong Wang<>Generalized Compressed Tree Machines <>IPPS International Parallel Processing Symposium
+7_9 A Gupta; Wolfgang Maass<>Efficient Design of Boltzmann Machines <>NIPS Neural Information Processing Systems
+7_20 A Gupta; Susanne E Hambrusch<>Multiple Network Embedding into Hypercubes <>J Parallel Distrib Comput
+7_21 A Gupta; Dalia Motzkin<>Parallel organization and performance of an information system <>SAC Selected Areas Cryptography
+8_4 A Gupta;Pranav Ashar ; Sharad Malik<>Using complete- -distinguishability for FSM equivalence checking <>ACM Trans Design Autom Electr Syst
+8_5 A Gupta;Pranav Ashar ; Sharad Malik<>Toward Formalizing a Validation Methodology Using Simulation Coverage <>DAC Design Automation Conference
+8_6 A Gupta;Allan L Fisher<>Flexible Parallel Polygon Rendering <>ICPP International Conference Parallel Processing
+8_7 A Gupta;Allan L Fisher<>Parametric Circuit Representation Using Inductive Boolean Functions <>CAV Computer Aided Verification
+8_8 A Gupta;Allan L Fisher<>Tradeoffs in Canonical Sequential Function Representations <>ICCD International Conference Computer Design
+8_9 Anubhav Gupta ; Pranav Ashar ; Zijiang Yang<>Dynamic Detection and Removal of Inactive Clauses in SAT with Application in Image Computation <>DAC Design Automation Conference
+8_10 A Gupta; A L Fisher <>Parametric circuit representation using inductive Boolean functions <>Proceedings of the Conference Computer Aided Verification of Lecture Notes Computer Science Springer Verlag
+8_11 A Gupta; A L Fisher <>Representation and symbolic manipulation of linearly inductive Boolean functions <>Proceedings of the IEEE International Conference Computer Aided Design
+8_12 Anubhav Gupta ; Pranav Ashar ; Zijiang Yang<>SAT-Based Image Computation with Application in Reachability Analysis <>FMCAD Formal Methods Computer Aided Design
+8_13 A Gupta; A L Fisher <>Tradeoffs in canonical sequential function representations <>Proceedings of the International Conference Computer Design
+8_14 A Gupta <>Formal hardware verification methods: A survey <>Formal Methods System Design Nos Kluwer Academic Publishers
+8_15 A Gupta;Akira Mukaiyama ; Albert E Casavant ; Kazutoshi Wakabayashi ; Pranav Ashar ; S Liu<>Property-specific witness graph generation for guided simulation <>DATE Design Automation and Test Europe
+8_16 A Gupta;Akira Mukaiyama ; Albert E Casavant ; Kazutoshi Wakabayashi ; Pranav Ashar ; X G Liu<>Property-Specific Testbench Generation for Guided Simulation <>VLSI Very Large Scale Integration Design
+8_17 A Gupta;Anand Raghunathan ; Pranav Ashar ; Subhrajit Bhattacharya<>Verification of Scheduling in the Presence of Loops Using Uninterpreted Symbolic Simulation <>ICCD International Conference Computer Design
+8_18 A Gupta;Chao Wang ; Malay K Ganai ; Pranav Ashar ; Zijiang Yang<>Abstraction and BDDs Complement SAT-Based BMC in DiVer <>CAV Computer Aided Verification
+8_19 A Gupta;Chao Wang ; Malay K Ganai ; Pranav Ashar ; Zijiang Yang<>Learning from BDDs in SAT-based bounded model checking <>DAC Design Automation Conference
+8_20 A Gupta;Lintao Zhang ; Malay K Ganai ; Pranav Ashar ; Sharad Malik<>Combining strengths of circuit-based and CNF-based algorithms for a high-performance SAT solver <>DAC Design Automation Conference
+8_21 A Gupta;Lintao Zhang ; Pranav Ashar ; Sharad Malik ; Zijiang Yang<>Partition-Based Decision Heuristics for Image Computation Using SAT and BDDs <>ICCAD International Conference Computer Aided Design
+8_1 A Gupta;<>Formal Hardware Verification Methods: A Survey <>Formal Methods System Design
+8_2 A Gupta;Pranav Ashar ; Sharad Malik<>Exploiting Retiming in a Guided Simulation Based Validation Methodology <>CHARME Conference Correct Hardware Design and Verification Methods
+8_3 A Gupta;Pranav Ashar ; Sharad Malik<>Using complete- -distinguishability for FSM equivalence checking <>ICCAD International Conference Computer Aided Design
+9_10 A Gupta; M P Reddy ; Michael Siegel<>Towards an Active Schema Integration Architecture for Heterogeneous Database Systems <>RIDE Research Issues Data Engineering IMS Interoperability Multidatabase Systems
+9_11 A Gupta; B E Prasad ; M P Reddy<>Formulating Global Integrity Constraints During Derivation of Global Schema <>Data Knowl Eng
+9_12 A Gupta; B E Prasad ; M P Reddy ; P G Reddy<>A Methodology for Integration of Heterogeneous Databases <>IEEE Trans Knowl Data Eng
+9_13 A Gupta; Stuart E Madnick<>A Taxonomy for Classifying Commercial Approaches to Information Integration in Heterogeneous Environments <>IEEE Data Eng Bull
+9_1 A Gupta; Feniosky Pe&ntilde;a-Mora ; Jason Yeung ; Sanjeev Vadhavkar<>An Integrated Framework to Support Distributed CAD over the Internet <>WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises
+9_2 A Gupta; Bhavani M Thuraisingham ; Chris Clifton ; Elena Ferrari ; Elisa Bertino<>Directions for Web and E-Commerce Applications Security <>WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises
+9_3 A Gupta; Kanti Bansal ; Sanjeev Vadhavkar<>Brief Application Description Neural Networks Based Forecasting Techniques for Inventory Control Applications <>Data Mining and Knowledge Discovery
+9_4 A Gupta; Anjali Dhond ; Sanjeev Vadhavkar<>Data mining techniques for optimizing inventories for electronic commerce <>KDD Knowledge Discovery and Data Mining
+9_5 A Gupta; Joost N Kok ; Peter van der Putten<>Why the Information Explosion Can Be Bad for Data Mining, and How Data Fusion Provides a Way Out <>SDM SIAM International Conference Data Mining
+9_6 A Gupta; Michael Butler ; Michael Feng ; Paul Huck<>A self-configuring and self-administering name system with dynamic address assignment <>ACM Trans Internet Techn
+9_7 A Gupta; Arun Agarwal ; Karim Hussein ; Len Granowetter ; Patrick Shen-Pei Wang<>Detection of courtesy amount block on bank checks <>ICDAR International Conference Document Analysis
+9_8 A Gupta; A Liu ; M V Nagendraprasad ; Patrick Shen-Pei Wang ; S Ayyadurai<>An Integrated Architecture for Recognition of Totally Unconstrained Handwritten Numerals <>IJPRAI International Journal of Pattern Recognition and Artificial Intelligence
+9_9 A Gupta; Arun Agarwal ; Lik Mui ; Patrick Shen-Pei Wang<>An Adaptive Modular Neural Network with Application to Unconstrained Character Recognition <>IJPRAI International Journal of Pattern Recognition and Artificial Intelligence

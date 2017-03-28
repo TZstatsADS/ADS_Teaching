@@ -1,12 +1,7 @@
 # Stat GU4243/G5243 Applied Data Science
-### Spring 2017 - Teaching Materials
-[Syllabus](CourseInfo/G5243_Spring_2017_ADS.md)
+### Spring 2017 - Teaching Materials ([Syllabus](CourseInfo/G5243_Spring_2017_ADS.md))
 
-### Table of Contents
-1. [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses)
-2. [Project 2](#project-cycle-2-shiny-app-development)
-3. [Project 3](#project-cycle-3-predictive-modeling)
-4. [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
+#### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 1: (Individual) R notebook on presidential addresses 
 ([starter codes](/Projects_startercodes/Project1-RNotebook/))
@@ -79,9 +74,11 @@
 + Project 3 presentations
 
 ### Project cycle 4: Algorithm implementation and evaluation
+([starter codes](Projects_startercodes/Project4_WhoIsWho))
 #### Week 10 (3/31)
-+ Introduction to Project 4
-+ Overview of entity resolution algorithms
++ Introduction to [Project 4](Projects_startercodes/Project4_WhoIsWho/doc/project4_desc.md)
++ [Overview of entity resolution algorithms](Tutorials/wk10-Overview-of-Entity-Res.pdf).
++ Example [*testing report*](Projects_startercodes/Project4_WhoIsWho/doc/main.pdf).
 
 #### Week 11 (4/7)
 + Q&A on algorithms
@@ -95,4 +92,6 @@
 #### Week 13 (4/21)
 #### Week 14 (4/28) 
 + Project 5 Presentations
+
+#### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 

@@ -1,0 +1,260 @@
+10_1 M Jones; Elke A Rundensteiner ; Harumi A Kuno ; Pedro Jos&eacute; Marr&oacute;n ; Viviane Crestana-Taube ; Young-Gook Ra<>The MultiView Project: Object-Oriented View Technology and Applications <>SIGMOD International Conference Management of Data Conference
+10_2 M Jones; Elke A Rundensteiner ; Yun-Wu Huang<>Symbolic Intersect Detection: A Method for Improving Spatial Intersect Joins <>GeoInformatica
+10_3 M Jones; Elke A Rundensteiner ; Yun-Wu Huang<>Improving Spatial Intersect Joins Using Symbolic Intersect Detection <>SSD Symposium Large Spatial Databases
+10_4 M Jones; Elke A Rundensteiner<>View Materialization Techniques for Complex Hierarchical Objects <>CIKM International Conference Information and Knowledge Management
+11_1 M Jones; Chad Berkley ; Daniel Higgins Metacat ; Jivka Bojilova<>a Schema-Independent XML Database System <>SSDBM Statistical and Scientific Database Management
+11_2 M Jones; Chad Berkley ; Daniel Higgins Metacat<>Managing Heterogeneous Ecological Data Using Morpho <>SSDBM Statistical and Scientific Database Management
+11_3 M Jones; Chad Berkley ; Jivka Bojilova ; Mark Schildhauer<>Managing Scientific Metadata <>IEEE Internet Computing
+12_1 M Jones; Sing Bing Kang<>Appearance-Based Structure from Motion Using Linear Classes of -D Models <>International Journal of Computer Vision
+12_2 M Jones; Cecilia Magdalena Procopiuc ; Pankaj K Agarwal ; T M Murali<>A Monte Carlo algorithm for fast projective clustering <>SIGMOD International Conference Management of Data Conference
+13_1 M Jones;<>Towards GHDL_EVAL: A Framework for Deeply Embedding Simple HDLs in HOL<> Category B of TPHOLs
+13_2 M Jones;Paul E Black; Kelly M Hall; Michael D Jones; Trent N Larson; Phillip J Windley;<>A Brief Introduction to Formal Methods<> IEEE Custon Integrated Circuits Conference
+13_3 M Jones;Annette Bunker ; Michael D Jones ; Trent N Larson;Phillip J Windley;<>Alexandria: Libraries of Abstract, Verified Hardware Modules<> Workshop Libraries Component Modeling and Quality Assurance
+13_4 Annette Bunker; Trent Larson; Mike Jones; Phil Windley;<>Alexandria: A Tool for Heirarchical Verification<> Tools Paper FMCAD LNCS edited by Windley and Gopalakrishnan
+13_5 M Jones;Ganesh Gopalakrishnan<>Verifying Transaction Ordering Properties in Unbounded Bus Networks through Combined Deductive/Algorithmic Methods <>FMCAD Formal Methods Computer Aided Design
+13_6 M Jones;M D Jones;G Gopalakrishnan;<>Verifying Transaction ordering properties in Unbounded Bus Networks through Combined Deductive/Algorithmic Methods,<>Formal Methods Computer Aided Design FMCAD Formal Methods Computer Aided Design Springer LNCS v
+13_7 M Jones;A S Jones; M D Jones; M Clement; Q Snell;<>Pyramid Broadcasting with Fast-forward and Rewind<> th International Conference Telecommunication Systems Modelling and Analysis Nashville
+13_8 M Jones;Michael D Jones;<>Restricted Types for HOL<> Category B of TPHOLs
+13_9 M Jones;M D Jones ; G Gopalakrishnan;<>Toward Automated Abstraction for Protocols over Branching Networks<> IEEE International High Level Design Validation and Test Workshop HLDVT
+13_10 M Jones;Abdel Mokkedem; Ravi Hosabettu; Michael D Jones ;Ganesh Gopalakrishnan;<>Formalization and Proof of a Solution to the {PCI} Bus Transaction Ordering Problem<> Formal Methods Systems Design
+13_11 M Jones;Airy Weinzoepflen ; Dominique Cansell ; Dominique M&eacute;ry ; Ganesh Gopalakrishnan<>Incremental Proof of the Producer/Consumer Property for the PCI Protocol <>ZB
+1_32 M Jones;Mark P Jones<>Simplifying and Improving Qualified Types,<>Research Report YALEU DCS RR Yale University New Haven Shorter revised version without proofs appears FPCA Functional Programming Languages and Computer Architecture Conference Functional Programming Languages and Computer Architecture Jolla Computer Animation
+1_16 M Jones;Andrew P Black ; Johan Nordlander ; Magnus Carlsson ; Richard B Kieburtz<>Reactive Objects <>Symposium Object Oriented Real Time Distributed Computing
+1_33 M Jones;Mark P Jones<>Using Parameterized Signatures to Express Modular Structure,<>Proceedings of the Twenty Third Annual ACM SIGPLAN Special Interest Group Programming Languages SIGACT Symposium Principles of Programming Languages St Beach
+1_17 M Jones;Benedict R Gaster; Mark P Jones<>A Polymorphic Type System for Extensible Records and Variants,<>Technical report NOTTCS TR Department of Computer Science University of Nottingham University Park Nottingham NG RD England
+1_34 M Jones;Mark P Jones; Paul Hudak; Sebastian Shaumyan<>Using Types to Parse Natural Language,<>Proceedings of the Workshop Functional Programming Ullapool Scotland To be published the Springer Verlag Workshops Computer Science Series
+1_18 M Jones;Paul Hudak ; Sheng Liang<>Monad Transformers and Modular Interpreters <>POPL Symposium Principles of Programming Languages
+1_35 M Jones;Mark P Jones<>A system of constructor classes: overloading and implicit higher-order polymorphism,<>FPCA Functional Programming Languages and Computer Architecture Conference Functional Programming Languages and Computer Architecture Copenhagen Appears extended form the Journal of Functional Programming University Press
+1_19 M Jones;Paul Hudak ; Sebastian Shaumyan<>Using Types to Parse Natural Language <>Functional Programming
+1_36 M Jones;Mark P Jones<>The implementation of the Gofer functional programming system,<>Research Report YALEU DCS RR Yale University New Haven
+1_37 M Jones;Mark P Jones<>A theory of qualified types,<>ESOP European Symposium Programming European Symposium Programming Rennes Springer Verlag Lecture Notes Computer Science
+1_38 Simon Peyton Jones; Mark Jones; Erik Meijer<>Type classes: exploring the design space,<>Proceedings of the Haskell Workshop The th
+1_39 M Jones;Mark P Jones<>Type Classes with Functional Dependencies,<>Proceedings of the th European Symposium Programming ESOP European Symposium Programming Springer Verlag LNCS
+1_1 M Jones;<>Computing with Lattices: An Application of Type Classes <>Journal of Functional Programming
+1_2 M Jones;<>Dictionary-Free Overloading by Partial Evaluation <>Lisp and Symbolic Computation
+1_3 M Jones;<>Dictionary-Free Overloading by Partial Evaluation <>PEPM Partial Evaluation and Semantic Based Program Manipulation
+1_4 M Jones;<>Functional Programming with Overloading and Higher-Order Polymorphism <>Advanced Functional Programming
+1_5 M Jones;<>First-class Polymorphism with Type Inference <>POPL Symposium Principles of Programming Languages
+1_6 M Jones;<>ML Typing, Explicit Polymorphism and Qualified Types <>TACS Theoretical Aspects of Computer Software
+1_7 M Jones;<>Integrating Programming, Properties, and Validation <>MPC Mathematics of Program Construction
+1_8 M Jones;<>Programming with Constructor Classes Abstract <>PLILP Symposium Programming Language Implementation and Logic Programming
+1_9 M Jones;<>Programming with Constructor Classes Preliminary Summary <>Functional Programming
+1_20 M Jones;Mark P Jones<>Coherence for qualified types,<>Research Report YALEU DCS RR Yale University New Haven
+1_21 M Jones;Mark P Jones; Luc Duponcheel<>Composing Monads,<>Research Report YALEU DCS RR Yale University New Haven
+1_22 M Jones;Mark P Jones<>Computing with lattices: An application of type classes<>Journal of Functional Programming University Press
+1_23 M Jones;Mark P Jones<>Dictionary-free Overloading by Partial Evaluation,<>ACM SIGPLAN Special Interest Group Programming Languages Workshop Partial Evaluation and Semantics Based Program Manipulation
+1_40 M Jones;Mark P Jones<>Typing Haskell in Haskell,<>Proceedings of the Haskell Workshop Published Technical Report UU CS Department of Computer Science University of Utrecht
+1_24 M Jones;Mark P Jones<>Functional Programming with Overloading and Higher-Order Polymorphism<>First International School Advanced Functional Programming Techniques B aa stad Springer Verlag Lecture Notes Computer Science
+1_41 M Jones;Mark P Jones <>The Functions of Java Bytecode,<>Proceedings of the OOPSLA Conference Object Oriented Programming Systems Languages and Applications workshop Formal Underpinnings of Java
+1_25 M Jones;Mark P Jones<>From Hindley-Milner Types to First-Class Structures,<>Proceedings of the Haskell Workshop Jolla Yale University Research Report YALEU DCS RR
+1_42 M Jones;Sheng Liang; Paul Hudak; Mark P Jones<>Monad Transformers and Modular Interpreters,<>Conference Record of POPL Symposium Principles of Programming Languages ACM SIGPLAN Special Interest Group Programming Languages SIGACT Symposium Principles of Programming Languages San Francisco Computer Animation
+1_26 M Jones;Mark P Jones<>First-class Polymorphism with Type Inference,<>Proceedings of the Twenty Fourth Annual ACM SIGPLAN Special Interest Group Programming Languages SIGACT Symposium Principles of Programming Languages
+1_43 M Jones;John Peterson<>Implementing Type Classes <>PLDI Special Interest Group Programming Language Design and Implementation
+1_27 M Jones;Mark P Jones<>Hugs , The Haskell User's Gofer System: User Manual,<>Technical Report NOTTCS TR Functional Programming Research Group Department of Computer Science University of Nottingham Nottingham NG RD England
+1_44 M Jones;John Peterson; Mark P Jones<>Implementing Type Classes,<>Proceedings of ACM SIGPLAN Special Interest Group Programming Languages Symposium Programming Language Design and Implementation ACM SIGPLAN Special Interest Group Programming Languages
+1_28 M Jones;Mark P Jones; Simon Peyton Jones <>Lightweight Extensible Records for Haskell,<>Proceedings of the Haskell Workshop Published Technical Report UU CS Department of Computer Science University of Utrecht
+1_29 M Jones;Mark P Jones<>Qualified Types: Theory and Practice,<>University Press
+1_10 M Jones;<>Simplifying and Improving Qualified Types <>FPCA Functional Programming Languages and Computer Architecture
+1_11 M Jones;<>Using Parameterized Signatures to Express Modular Structure <>POPL Symposium Principles of Programming Languages
+1_12 M Jones;<>A System of Constructor Classes: Overloading and Implicit Higher-Order Polymorphism <>FPCA Functional Programming Languages and Computer Architecture
+1_13 M Jones;<>A Theory of Qualified Types <>Sci Comput Program
+1_14 M Jones;<>A Theory of Qualified Types <>ESOP European Symposium Programming
+1_30 M Jones;Mark P Jones<>ML typing, explicit polymorphism and qualified types<>TACS Theoretical Aspects of Computer Software Conference theoretical aspects of computer software Sendai Springer Verlag Lecture Notes Computer Science
+1_15 M Jones;<>Type Classes with Functional Dependencies <>ESOP European Symposium Programming
+1_31 M Jones;Mark P Jones; Paul Hudak<>Implicit and explicit parallel programming in Haskell<>Research Report YALEU DCS RR Yale University New Haven
+2_12 M Jones;Christopher W Fraser ; Richard Draves ; Richard F Rashid ; Robert P Fitzgerald ; Todd B Knoblock ; William J Bolosky<>Operating System Directions for the Next Millennium <>Workshop Hot Topics Operating Systems
+2_13 M Jones;Michael B Jones; Daniela Rosu; Marcel-Catalin Rosu <>CPU Reservations and Time Constraints: Efficient, Predictable Scheduling of Independent Activities <>Proceedings of the th ACM Symposium Operating Systems Principles Saint Malo pages
+2_30 M Jones;Paul J Leach ; Richard Draves<>Support for User-Centric Modular Real-Time Resource Management in the Rialto Operating System <>NOSSDAV Network and Operating System Support for Digital Audio and Video
+2_14 M Jones;Michael B Jones; John Regehr <>CPU Reservations and Time Constraints: Implementation Experience on Windows NT <>Proceedings of the Third USENIX the Advanced Computing Systems Association Windows Symposium pages
+2_31 M Jones;Aloysius K Mok ; C Douglas Locke ; Constance L Heitmeyer ; Kevin Jeffay ; Ragunathan Rajkumar<>Future Distributed Embedded and Real-Time Applications Will Be Adaptive: Meanings, Challenges and Research Paradigms Panel <>ICDCS International Conference Distributed Computing Systems
+2_15 M Jones;Michael B Jones; Paul J Leach; Richard P Draves; Joseph S Barrera; III <>Modular Real-Time Resource Management in the Rialto Operating System <>Proceedings of the Fifth Workshop Hot Topics Operating Systems HotOS V Orcas Island pages IEEE Computer Society
+2_32 M Jones;Richard F Rashid<>Mach and Matchmaker: Kernel and Language Support for Object-Oriented Distributed Systems <>OOPSLA Conference Object Oriented Programming Systems Languages and Applications
+2_16 M Jones;Michael B Jones; Joseph S Barrera III; Alessandro Forin; Paul J Leach; Daniela Rosu; Marcel-Catalin Rosu <>An Overview of the Rialto Real-Time Architecture <>Proceedings of the Seventh ACM SIGOPS European Workshop Connemara pages
+2_33 M Jones;John Regehr; Michael B Jones; John A Stankovic <>Operating System Support for Multimedia: The Programming Model Matters <>Microsoft Research Technical Report MSR TR
+2_17 M Jones;Michael B Jones; John Regehr <>Predictable Scheduling for Digital Audio <>Microsoft Research Technical Report MSR TR
+2_34 M Jones;John Regehr<>The Problems You're Having May Not Be the Problems You Think You're Having: Results from a Latency Study of Windows NT <>IEEE Real Time Technology and Applications Symposium
+2_18 M Jones;Michael B Jones; Stefan Saroiu <>Predictable Scheduling for a Soft Modem <>Microsoft Research Technical Report MSR TR
+2_35 M Jones;John Regehr<>The Problems You're Having May Not Be the Problems You Think You're Having: Results from a Latency Study of Windows NT <>Workshop Hot Topics Operating Systems
+2_19 M Jones;Michael B Jones; Stefan Saroiu <>Predictability Requirements of a Soft Modem <>Proceedings of the ACM SIGMETRICS Measurement and Modeling of Computer Systems Conference Measurement and Modeling of Computer Systems
+2_36 M Jones;John Regehr ; Stefan Saroiu<>Two Case Studies in Predictable Application Scheduling Using Rialto/NT <>IEEE Real Time Technology and Applications Symposium
+2_37 M Jones;Daniela Rosu ; Marcel-Catalin Rosu<>CPU Reservations and Time Constraints: Efficient, Predictable Scheduling of Independent Activities <>SOSP Symposium Operating Systems Principles
+2_38 M Jones;Stefan Saroiu<>Predictability requirements of a soft modem <>SIGMETRICS Measurement and Modeling of Computer Systems Performance
+2_39 M Jones;Marvin Theimer ; Michael B Jones <>Overlook: Scalable Name Service on an Overlay Network <>Proceedings of the International Conference Distributed Computing Systems ICDCS International Conference Distributed Computing Systems IEEE Computer Society
+2_20 M Jones;Michael B Jones; John Regehr <>Issues in Using Commodity Operating Systems for Time-Dependent Tasks: Experiences from a Study of Windows NT <>Proceedings of the Eighth International Workshop Network and Operating Systems Support for Digital Audio and Video NOSSDAV Network and Operating System Support for Digital Audio and Video England
+2_21 M Jones;Michael B Jones ; John Regehr <>The Problems You're Having May Not Be the Problems You Think You're Having: Results from a Latency Study of Windows NT <>Proceedings of the Seventh Workshop Hot Topics Operating Systems HotOS VII Rio Rico IEEE Computer Society
+2_22 M Jones;Michael B Jones; John Regehr; Stefan Saroiu <>Two Case Studies in Predictable Application Scheduling Using Rialto/NT <>Proceedings of the Seventh Real Time Technology and Applications Symposium RTAS IEEE Real Time Technology and Applications Symposium Taipei
+2_23 M Jones;Michael B Jones <>Bringing the C Libraries With Us into a Multi-Threaded Future <>Proceedings of the Winter Usenix Conference pages
+2_40 M Jones;Mary R Thompson ; Richard F Rashid<>Matchmaker: An Interface Specification Language for Distributed Processing <>POPL Symposium Principles of Programming Languages
+2_24 M Jones;Michael B Jones <>Consumer Real-Time Systems and Applications <>Invited position statement Distributed Systems Online Real Time and Embedded Systems area special issue Where is Real Time and Embedded Systems Research Going issue IEEE
+2_41 M Jones;Alec Wolman ; Anne-Marie Kermarrec ; Antony I T Rowstron ; HelenJ Wang ; Marvin Theimer ; Miguel Castro<>An Evaluation of Scalable Application-Level Multicast Built Using Peer-To-Peer Overlays <>INFOCOM The Conference Computer Communications
+2_25 M Jones;Michael B Jones <>Adaptive Real-Time Resource Management Supporting Composition of Independently Authored Time-Critical Services <>Proceedings of the Fourth Workshop Workstation Operating Systems WWOS Workshop Workstation Operating Systems now HotOS IV Computer Animation pages IEEE Computer Society
+2_42 M Jones;Alec Wolman ; Marvin Theimer ; Nicholas J A Harvey ; Stefan Saroiu<>SkipNet: A Scalable Overlay Network with Practical Locality Properties <>USENIX the Advanced Computing Systems Association Symposium Internet Technologies and Systems
+2_26 M Jones;Michael B Jones <>Inheritance in Unlikely Places: Using Objects to Build Derived Implementations of Flat Interfaces <>Proceedings of the Second International Workshop Object Orientation Operating Systems IWOOOS pages IEEE Computer Society
+2_27 M Jones;Michael B Jones <>Interposition Agents: Transparently Interposing User Code at the System Interface <>Proceedings of the th ACM Symposium Operating Systems Principles ICSC Symposium Neural Computation pages
+2_28 M Jones;Michael B Jones <>The Microsoft Interactive TV System: An Experience Report <>Microsoft Research Technical Report MSR TR
+2_29 M Jones;Michael B Jones <>Transparently Interposing User Code at the System Interface <>Ph D thesis Carnegie Mellon University School of Computer Science Available Technical Report CMU CS
+2_1 M Jones;<>Consumer Real-Time Systems <>ACM Comput Surv
+2_2 M Jones;<>Adaptive Real-Time Resource Management Supporting Composition of Independently Authored Time-Critical Services <>Workshop Workstation Operating Systems
+2_3 M Jones;<>Adaptive Real-Time Resource Management Supporting Modular Composition of Digital Multimedia Services <>NOSSDAV Network and Operating System Support for Digital Audio and Video
+2_4 M Jones;<>Interposition Agents: Transparently Interposing User Code at the System Interface <>SOSP Symposium Operating Systems Principles
+2_5 M Jones;<>Interposition Agents: Transparently Interposing User Code at the System Interface <>Secure Internet Programming
+2_6 M Jones;<>A Toolkit for Interposing User Code at the System Interface Abstract <>Operating Systems Review
+2_7 M Jones;Andrew Birrell ; Edward Wobber<>A Simple and Efficient Implementation for Small Databases <>SOSP Symposium Operating Systems Principles
+2_8 M Jones;William J Bolosky; Richard P Draves; Robert P Fitzgerald; Christopher W Fraser; Michael B Jones; Todd B Knoblock; Rick Rashid <>Operating System Directions for the Next Millennium <>Proceedings of the Sixth Workshop Hot Topics Operating Systems HotOS Cape Cod IEEE Computer Society
+2_9 M Jones;William J Bolosky; Joseph S Barrera; III; Richard P Draves; Robert P Fitzgerald; Garth A Gibson; Michael B Jones; Steven P Levi; Nathan P Myhrvold; Richard F Rashid <>The Tiger Video Fileserver <>Proceedings of the Sixth International Workshop Network and Operating System Support for Digital Audio and Video NOSSDAV Network and Operating System Support for Digital Audio and Video Zushi IEEE Computer Society
+2_10 M Jones;Luis Felipe Cabrera; Michael B Jones; Marvin Theimer <>Herald: Achieving a Global Event Notification Service <>Proceedings of the Eighth Workshop Hot Topics Operating Systems HotOS VIII Elmau IEEE Computer Society
+2_11 M Jones;George M Candea; Michael B Jones <>Vassal: Loadable Scheduler Support for Multi-Policy Scheduling <>Proceedings of the Second USENIX the Advanced Computing Systems Association Windows Symposium pages Given best student paper award
+3_10 M Jones;J Hess; D Lee; S Harper; P Athanas<>Proceedings of IEEE Symposium on Field-Programmalbe Custom Computing Machines, Napa, CA, April, <>
+3_11 M Jones;David C Lee ; Peter M Athanas ; Scott F Midkiff<>Towards Active Hardware <>IWAN International Working Conference Active Networks
+3_12 M Jones;David A Lehn; Kiran Puttehowda; Jae H Park; P Athanas<>Evaluation of Rapid Context Switching on a CSRC Device,,<>ERSA
+3_13 M Jones;Tom Martin ; Zahi Nakad<>Communications in Electronic Textile Systems <>Communications Computing
+3_30 M Jones;Paul E Plassmann<>Solution of Large, Sparse Systems of Linear Equations in Massively Parallel Applications <>Supercomputing
+3_14 M Jones;Tom Martin; Zahi Nakad<>A Service Backplane for e-Textiles,<>MAMSET Proc Workshop Modeling Analysis and Middleware Support for Electronic Textiles
+3_31 M Jones;L Scharf; J Scott; C Twaddle; M Yaconis; K Yao; P Athanas; B Schott<>``Implementing an API for Distributed Adaptive Computing Systems,''<>Proceedings of IEEE Symposium Field Programmable Custom Computing Machines Computer Animation
+3_15 M Jones;Shashank Mehrotra; Jae Park<>Tasking Distributed Sensor Networks,<>Int J of Supercomputer Applications
+3_32 M Jones;Daniel Szyld<>``Two-stage Multisplitting Methods with Overlapping Blocks,''<>Numerical Linear Algebra with Applications v
+3_16 M Jones;Jae Park ; Mukta Nandwani ; Paul E Plassmann ; Yanhua Yi<>Examining the Communication Requirements of Remote Scientific Visualization <>Communications Computing
+3_33 M Jones;Michael Tang ; Paul E Plassmann ; Tom Canfield<>Modeling Piezoelectric Crystals on the Intel Delta <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+3_17 M Jones;Jae Park ; Paul E Plassmann ; Yanhua Yi<>The Use of Configurable Computing in Scientific Simulations <>PDPTA Parallel and Distributed Processing Techniques and Applications
+3_18 M Jones;Merrell Patrick<>``Factoring Indefinite Matrices on High-Performance Architectures,''<>SIAM Society for Industrial and Applied Mathematics Journal Matrix Analysis and Applications v
+3_19 M Jones;Merrell L Patrick<>Vector and Parallel-Vector Implementations of Lanczo's Method for the Generalized Eigenvalue Problem <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+3_1 M Jones;ISWC Proceedings Sixth International Symposium on - ; <><>
+3_2 M Jones;William Barry; Paul Plassmann<>``Parallel Adaptive Mesh Refinement Techniques for Plasticity Problems,''<>Advances Engineering Software
+3_3 M Jones;Eloise Coupey<>A Script-Based Approach for E-Commerce Applications,<>Quarterly Journal of Electronic
+3_4 M Jones;Joshua Edmison ; Tom Martin ; Zahi Nakad<>Using Piezoelectric Materials for Wearable Electronic Textile <>ISWC International Symposium Wearable Computers
+3_5 M Jones;J Edmison; Z Nakad; T Martin<> Using piezoelectric materials for wearable electronic textiles, <>Wearable Computers
+3_6 M Jones;Lori A Freitag ; Paul E Plassmann<>A Parallel Algorithm for Mesh Smoothing <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+3_7 M Jones;Lori Freitag; Paul Plassmann<>``A Parallel Algorithm for Mesh Smoothing,''<>SIAM Society for Industrial and Applied Mathematics Journal Scientific Computing
+3_8 M Jones;Lori Freitag; Paul Plassmann<>``The Scalability of Mesh Improvement Algorithms,''<>IMA Journal of Applied Mathematics Volumes Mathematics and its Applications v
+3_9 M Jones;Robert Gjertsen; Paul Plassmann<>``Parallel Heuristics for Improved, Balanced Graph Colorings,''<>Journal of Parallel and Distributed Computing v
+3_20 M Jones;Paul Plassmann<>``Computational Results for Parallel Unstructured Mesh Computations''<>Computing Systems Engineering v
+3_21 M Jones;Paul Plassmann<>``Adaptive Refinement of Unstructured Finite-Element Meshes,''<>Journal of Finite Elements Analysis and Design v
+3_22 M Jones;Paul Plassmann<>``Algorithm : Fortran Subroutines to Compute Improved Incomplete Cholesky Factorizations,''<>ACM Trans Mathematical Software v
+3_23 M Jones;Paul Plassmann<>``An Improved Incomplete Cholesky Factorization,''<>ACM Trans Mathematical Software v
+3_24 M Jones;P Plassmann<>``Unstructured Mesh Computations on Networks of Workstations,''<>Computer Aided Civil and Infrastructure Engineering
+3_25 M Jones;Paul E Plassmann ; Robert K Gjertsen<>Parallel Heuristics for Improved, Balanced Graph Colorings <>J Parallel Distrib Comput
+3_26 M Jones;Paul Plassmann<>``Parallel Algorithms for Adaptive Mesh Refinement,''<>SIAM Society for Industrial and Applied Mathematics Journal Scientific Computing v
+3_27 M Jones;Paul E Plassmann<>Parallel Solution of Unstructured, Sparse Systems of Linear Equations <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+3_28 M Jones;Paul E Plassmann<>Recent Results in the Modeling of Type - II Superconductors on Massively Parallel Computers <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+3_29 M Jones;Paul E Plassmann<>Scalable Iterative Solution of Sparse Linear Systems <>Parallel Computing
+4_10 G Buchanan;A Blandford;M Jones;H Thimbleby<>Spatial hypertext as a Reader Tool in Digital Libraries <>ACM IEEE Joint Conference Digital Libraries Workshop Visual Interfaces to Digital Libraries
+4_11 M Jones;George Buchanan ; Harold W Thimbleby<>Sorting Out Searching on Small Screen Devices <>HCI Human Computer Interaction
+4_12 M Jones;C&eacute;cile Rigny ; Harold W Thimbleby ; Yin Leng Theng<>HyperAT: HCI and Web Authoring <>BCS British Computer Society HCI Human Computer Interaction
+4_13 P Curzon;A Blandford;M Jones;G Marsden;M Tools <>Proceedings of the th Annual Conference on the Teaching of Computing Smith;August CTC Dublin University<>
+4_30 M Jones;P C Woodland<>Using Relative Duration in Large Vocabulary Speech Recognition <>Proceedings of EuroSpeech
+4_14 E delGaldo;P Gough;M Jones;R Noble;P Stenton<>A New User Interface Metaphor for Mobile Personal Technologies <>J Siddiqi Wilkinson J Eds Companion Proceedings of People and Computers XIII UK
+4_31 M Jones;G Buchanan<>Search Interfaces for Handheld Web Browsers <>Poster Proceedings th International Conference World Wide Web
+4_15 H Dunlop;M Jones;S J Cunningham<>A Digital Library of Conversational Expressions - Helping Profoundly Disabled Users Communicate <>Proceedings of the second ACM IEEE CS joint conference Digital libraries
+4_32 M Jones;G Buchanan;H Thimbleby<>Sorting Out Searching on Small Screen Devices <>Paterno F Ed Proceedings of the th International Symposium HCI Human Computer Interaction Pisa LNCS Springer
+4_16 M Jones;P Jain;G Buchanan<>Changing the Pace of Search - Supporting Background Information Needs <>CHI Conference Human Factors Computing Systems Workshop Search
+4_33 M Jones;G Marsden;N Mohd-Nasir;G Buchanon<>A Site Based Outliner for Small Screen Web Access <>Poster Proceedings of the th International Conference World Wide Web Toronto
+4_17 M Jones<>Conventional art as Web Exhibits - a New Electronic Art Form <>Proc International Symposium Electronic Art
+4_50 Y L Theng;C Rigny;H Thimbleby;M Jones<>HyperAT: HCI and Web Authoring <>O Conaill Thomas P J pp
+4_34 M Jones<>The Use of Acoustic-Level Prosodics in Large Vocabulary Speech Recognition <>Ph D Thesis University of Engineering Department
+4_18 M Jones;G Marsden<>From the Large to the Small Screen Digest / : Colloquium on Issues for Networked Interpersonal Communications, , London, U K IEE Savoy Place, London <>
+4_51 Y L Theng;M Jones;H Thimbleby<>Lost in Hyperspace - Psychological Problem or Bad Design?<>Proceedings of the first Asia Pacific Conference Computer Human Interaction Information Technology Institute
+4_35 G Marsden;M Jones<>Ubiquitous Computing and Cellular Handsets--are Menus the Best Way Forward? <>South African Computer Journal Computer Society of South Africa
+4_19 M Jones;N Mohd-Nasir;G Buchanon<>Evaluation of WebTwig - a Site Outliner for Handheld Web Access <>Gellerson H W Ubiquitous Computing Karlsrhue LNCS Springer
+4_52 Y L Theng;C Rigny;H Thimbleby;M Jones<>, Improved Conceptual Design for Better Hypertext <>Adjunct Proceedings of BCS British Computer Society HCI Human Computer Interaction U K
+4_36 G Marsden;M Jones<>Ubiquitous Computing and Cellular Handsets - are Menus the Best Way Forward?<>Proceedings of SAICSIT Best paper at conference winner
+4_53 Y L Theng;H Thimbleby;M Jones<>, Reducing Information Overload: a Comparative Study of Hypertext Systems <>IEE Digest Colloquium Information Overload London U K IEE
+4_37 M Jones;Gary Marsden ; Harold W Thimbleby ; Paul Gillary<>Data Structures in the Design of Interfaces <>Personal and Ubiquitous Computing
+4_54 M Jones;H Thimbleby;A Blandford;P Cairns;P Curzon;M Finlay Jones;D'etienne Eds J ;Computer XVI - Memorable yet Invisible Proceedings People;September London<><>
+4_38 M Jones;Gary Marsden ; George Buchanan<>Exploring Small Screen Digital Library Access with the Greenstone Digital Library <>ECDL European Conference Digital Libraries
+4_55 M Jones;Harold W Thimbleby<>Obituary for a Fax <>Personal and Ubiquitous Computing
+4_39 M Jones;Gary Marsden ; George Buchanan ; Harold W Thimbleby ; Michael J Pazzani ; Sarah Farrant<>Improving mobile internet usability <>WWW World Wide Web Conference Series
+4_56 H Thimbleby;M Jones;G Marsden<>Empowering Consumers with Usability Certificates <>Turner S Turner P Eds Proceedings of People and Computers XIV II Sunderland pp
+4_57 H Thimbleby;P Cairns;M Jones<>Usability Analysis with Markov Models <>ACM Transactions Computer Human Interaction TOCHI Computer Human Interaction ACM Press
+4_58 H Thimbleby;M Jones;Y L Theng<>, Is Lost in Hyperspace Lost in Controversy?<>Poster Proceedings of ACM Hypertext Southampton UK
+4_59 I H Witten;M Jones;D Bainbridge;S J Cunningham<>Creativity and Digital Libraries <>Journal of Digital Creativity press
+4_20 M Jones;G Buchanan;G Marsden<>Mobile Interfaces for Web Access, Workshop on Web & Mobility,<> th World Wide Web Conference
+4_21 M Jones;P C Woodland<>Modelling Syllable Characteristics to Improve a Large Vocabulary Speech Recogniser <>Proc ICSLP Yokohama
+4_22 M Jones;P C Woodland<>Exploiting Variable Width Features in Large Vocabulary Speech Recognition <>Proc IEEE ICASSP
+4_23 M Jones;G Marsden;N Mohd-Nasir;K Boone<>Improving Web Interaction in Small Screen Displays <>Computer Networks
+4_40 M Jones;Gary Marsden ; George Buchanan ; Kevin Boone ; Norliza Mohd-Nasir<>Improving Web Interaction on Small Displays <>Computer Networks
+4_24 M Jones;G Buchanan;H Thimbleby<>Improving web search on small screen devices <>Interacting with Computers
+4_41 G Marsden;H Thimbleby;M Jones;P Gillary<>Successful User Interface Design from Efficient Computer Algorithms <>Conference Extended Abstracts Human Factors Computer Systems ACM CHI Conference Human Factors Computing Systems The Hague pp
+4_25 M Jones<>Uniting Authors and Readers - Active Links in the World Wide Web <>Conference Companion Proceedings of the first Asia Pacific Conference Computer Human Interaction
+4_42 M Jones;Gary Marsden ; George Buchanan ; Preeti Jain<>Using a Mobile Device to Vary the Pace of Search <>HCI Human Computer Interaction
+4_26 M Jones<>Natural Language to Knowledge Base M Phil <>Thesis University of Engineering Department
+4_43 G Marsden;P Gillary;H Thimbleby;M Jones<>The Use of Algorithms in Interface Design <>International Journal of Personal and Ubiquitous Technologies Springer
+4_27 M Jones<>Productivity paradox <>Encyclopaedia of Computers and Computer History Fitzroydearborn Publishing
+4_44 Bonnie Nardi;Elizabeth Mynatt;M Jones<>Special Issue on Social Issues <>ACM Transactions Human Computer Interaction
+4_28 M Jones;G Marsden<>Preparing for the New Era of Ubiquitous Computing <>Proceedings ED MEDIA TELCOM Conference Calgary
+4_45 A Steel;M Jones;M Apperley<>The Use Of Auditory Feedback In Call Centre Computer-Human-Human Interaction <>Conference Extended Abstracts Human Factors Computer Systems
+4_29 M Jones;P Jain;G Buchanan;G Marsden<>Using a Mobile Device to Vary the Pace of Search <>International Symposium HCI Human Computer Interaction Udine Related tech report
+4_1 M Jones;David Bainbridge ; George Buchanan ; Harold W Thimbleby ; Noel Cassidy ; Norliza Mohd-Nasir ; Yin Leng Theng<>Children as Design Partners and Testers for a Children's Digital Library <>ECDL European Conference Digital Libraries
+4_46 Y L Theng;C Rigny;H Thimbleby;M Jones<>Cognitive Task Graphs and Executable User Models for Better Hypertext <>Proceedings of the first Asia Pacific Conference Computer Human Interaction Information Technology Institute
+4_2 M Jones;J Berleur;P Duquenoy;D Whitehouse<>, Ethics and the Governance of the Internet <>IFIP International Federation for Information Processing ISBN
+4_47 Y L Theng;N Mohd-Nasir;G Buchanan;D Bainbridge;H Thimbleby;M Jones<>, Children as Design Partners and Testers for a Children's Digital Library,<>Borbinha J and T Eds Proceedings of the Fourth European Conference
+4_3 M Jones;Ann Blandford ; George Buchanan ; Harold W Thimbleby<>Spatial Hypertext as a Reader Tool in Digital Libraries <>Visual Interfaces to Digital Libraries
+4_48 Y L Theng;N Mohd-Nasir;H Thimbleby;G Buchanan;M Jones<>Designing a Children's Digital Library with and for Children <>Proceedings of the th ACM Conference Digital Libraries San Antonio
+4_4 Stephen Brewster;M Jones<>Special Issue on Multimodal interaction for Mobile & Wearable Computers <>International Journal of Personal Ubiquitous Computing
+4_5 G Buchanan;M Jones;H Thimbleby;S Farrant;M ^th International Conference on World Wide Web Pazzani;May Hong Kong<><>
+4_49 Y L Theng;H Thimbleby;M Jones<>, Designer tools for hypertext authoring,<>IEE Digest Colloquium The Authoring and Application of Hypermedia Based User Interfaces London U K IEE Savoy Place London
+4_6 M Jones;George Buchanan ; Harold W Thimbleby ; Norliza Mohd-Nasir ; Yin Leng Theng<>Designing a children's digital library with and for children <>ACM DL Digital Libraries
+4_7 G Buchanan;M Jones;G Marsden<>Exploring Small Screen Digital Library Access with the Greenstone Digital Library <>Agosti M Costantino T Eds Proceedings of the th European Conference Research and Advanced Technology for Digital Libraries LNCS Springer
+4_8 M Jones;George Buchanan ; Norliza Mohd-Nasir<>An Evaluation of WebTwig - A Site Outliner for Handheld Web Access <>HUC Handheld and Ubiquitous Computing
+4_9 G Buchanan;A Blandford;M Jones;H Thimbleby<>Spatial Hypertext as a Reader Tool for Digtial Libraries <>Springer Book Series Information Visualization
+5_0 M Jones;<><>
+5_1 M Jones; <>Don't Emancipate, Exaggerate: Rhetoric, Reality and Reengineering <>Transforming Organizations with Information Technology
+5_2 M Jones; S&eacute;amas Kelly<>Groupware and the Social Infrastructure of Communication <>Commun ACM
+5_3 M Jones; Geoff Walsham<>The Limits of the Knowable: Organizational and Design Knowledge in Systems Development <>The Impact of Computer Supported Technologies Information Systems Development
+5_4 M Jones; Joe Nandhakumar<>Structured Development? A Structurational Analysis of the Development of an Executive Information System <>Human Organizational and Social Dimensions of Information Systems Development
+5_5 M Jones; Helena Karsten<>The Long and Winding Road: Collaborative IT and Organisational Change <>CSCW Conference Computer Supported Cooperative Work
+5_6 M Jones; Pamela Abbott<>The Importance of Being Nearest: Nearshore Software Outsourcing and Globalization Discourse <>Global and Organizational Discourse about Information Technology
+5_7 M Jones; Marios V Karahannas<>Interorganizational systems and trust in strategic alliances <>ICIS International Conference Information Systems
+5_8 M Jones; <>The Moving Finger: The Use of Social Theory in WG Conference Papers, - <>Organizational and Social Perspectives IT
+6_1 M Jones; Jason Eisner<>A Probabilistic Parser Applied to Software Testing Documents <>AAAI National Conference Artificial Intelligence
+6_2 M Jones; David Scott Warren<>Conceptual Dependency and Montague Grammar: A Step Toward Conciliation <>AAAI National Conference Artificial Intelligence
+6_3 M Jones; Van E Kelly<>KITSS: A Knowledge-Based Translation System for Test Scenarios <>AAAI National Conference Artificial Intelligence
+6_4 M Jones; Dimitra Vista ; Divesh Srivastava ; H V Jagadish<>Flexible List Management in a Directory <>CIKM International Conference Information and Knowledge Management
+6_5 M Jones; Premkumar T Devanbu<>The Use of Description Logics in KBSE Systems: Experience Report <>ICSE International Conference Software Engineering
+6_6 M Jones; Premkumar T Devanbu<>The Use of Description Logics in KBSE Systems <>ACM Trans Softw Eng Methodol
+6_7 M Jones; <>Activation-Based Parsing <>IJCAI International Joint Conference Artificial Intelligence
+6_8 M Jones; <>Feedback as a Coindexing Mechanism in Connectionist Architectures <>IJCAI International Joint Conference Artificial Intelligence
+7_1 M Jones; Tomaso Poggio<>Model-Based Matching of Line Drawings by Linear Combinations of Prototypes <>ICCV International Conference Computer Vision
+7_2 M Jones; Tomaso Poggio<>Multidimensional Morphable Models <>ICCV International Conference Computer Vision
+7_3 M Jones; Paul A Viola<>Robust Real-Time Face Detection <>ICCV International Conference Computer Vision
+7_4 M Jones; Paul A Viola ; Thomas D Rikert<>A Cluster-based Statistical Model for Object Detection <>ICCV International Conference Computer Vision
+7_5 M Jones; Paul A Viola<>Fast and Robust Classification using Asymmetric AdaBoost and a Detector Cascade <>NIPS Neural Information Processing Systems
+7_6 M Jones; James M Rehg<>Statistical Color Models with Application to Skin Detection <>International Journal of Computer Vision
+7_7 M Jones; Tomaso Poggio<>Hierarchical Morphable Models <>CVPR Computer Vision and Pattern RecognitioN
+7_8 M Jones; James M Rehg<>Statistical Color Models with Application to Skin Detection <>CVPR Computer Vision and Pattern RecognitioN
+8_27 M Jones;R Satherley ; M W Jones<>Extending Hypertextures to Non-Geometrically Definable Volume Data <>Chen Kaufman and Yagel eds Volume Graphics Springer ISBN
+8_4 M Jones;Min Chen ; Richard Satherley ; Steve M F Treavett<>Volumes of Expression: Artistic Modelling and Rendering of Volume Datasets <>Computer Graphics International
+8_28 M Jones;Richard Satherley<>Shape Representation Using Space Filled Sub-Voxel Distance Fields <>Shape Modeling International
+8_5 M Jones;M Chen; M W Jones ; P Townsend<>Methods for volume metamorphosis,<>Y and S Wilbur eds Image Processing for Broadcast and Video Production Springer Verlag
+8_29 M Jones;Richard Satherly<>Voxelisation: Modelling for Volume Graphics <>VMV Vision Modeling and Visualization
+8_6 M Jones;M Chen<>A New Approach to the Construction of Surfaces from Contour Data <>Comput Graph Forum
+8_7 M Jones;M W Jones ed <>Theory and Practise of Computer Graphics<>IEEE Computer Society Press ISBN
+8_8 M Jones;M W Jones ed <>The th Eurographics UK Conference<>IEEE Computer Society Press ISBN
+8_9 M Jones;M W Jones<>Acceleration Techniques for Volume Rendering,<>Earnshaw Jones and Vince eds Visualization and Modeling
+8_10 M Jones;M W Jones<>Acceleration Techniques for Volume Rendering,<>Proc BCS British Computer Society Displays Group Visualisation and Modelling University of Leeds
+8_11 M Jones;M W Jones<>Direct Surface Rendering of General and Genetically Bred Implicit Surfaces,<>Proc th Ann Conf of Eurographics UK Chapter ISBN
+8_12 M Jones;M W Jones<>Facial Reconstruction Using Volumetric Data <>T Ertl B Girod G Greiner H Niemann H P Seidel eds Vision Modeling and Visualization IOS Press ISBN
+8_13 M Jones;M W Jones ; M Chen<>Fast cutting operations on three dimensional volume datasets,<>M Goebel Hueller and B Urban ISBN ISSN
+8_30 M Jones;T Simpson ; M W Jones<>Space Subdivision of Finite Element Meshes,<>Proc th Ann Conf of Eurographics UK Chapter ISBN X
+8_14 M Jones;M W Jones<>Glossary,<>M Chen P Townsend J A Vince Visualisation Springer ISBN
+8_31 M Jones;S M F Treavett; M Chen; R Satherley ; M W Jones<>Volumes of Expression: Artistic Modelling and Rendering of Volume Datasets,<>Proc Computer Graphics International IEEE Computer Society Press ISSN
+8_15 M Jones;M W Jones<>Voxelisation of polygonal meshes,<>Proc th Ann Conf of Eurographics UK Chapter Loughborough
+8_32 M Jones;C Whyley ; M W Jones<>Global Illumination of Volumetric Data Sets,<>Proc th Ann Conf of Eurographics UK Chapter London ISBN
+8_16 M Jones;M W Jones ; R Satherley <>Voxelisation: Modelling for Volume Graphics <>B Girod G Greiner H Niemann H P Seidel eds Vision Modeling and Visualization IOS Press ISBN X
+8_17 M Jones;M W Jones<>Melting Objects,<>The Journal of WSCG International Conference Central Europe Computer Graphics and Visualization ISSN
+8_18 M Jones;M W Jones<>An Efficient Shadow Detection Algorithm and the Direct Surface Rendering Volume Visualisation Model,<>Proc th Ann Conf of Eurographics UK Chapter
+8_19 M Jones;M W Jones ; M Chen<>A new approach to the construction of surfaces from contour data,<>Computer Graphics Forum ISSN Improved for chapter Ph D thesis but please use journal reference when referring to the work
+8_20 M Jones;M W Jones; R Satherley<>Shape Representation Using Space Filled Sub-Voxel Distance Fields <>International Conference Shape Modelling and Applications IEEE Computer Society Press ISBN
+8_21 M Jones;M W Jones; R Satherley<>Using Distance Fields for Object Representation and Rendering,<>Proc th Ann Conf of Eurographics UK Chapter London ISBN
+8_22 M Jones;M W Jones<>The Production of Volume Data from Triangular Meshes Using Voxelisation,<>Computer Graphics Forum ISSN
+8_23 M Jones;R Satherley ; M W Jones<>Hybrid Distance Field Computation,<>K Mueller and A Kaufman eds Volume Graphics Springer Wien New ISSN
+8_24 M Jones;R Satherley ; M W Jones<>Hypertexturing Complex Volume Objects,<>The Visual Computer ISSN
+8_25 M Jones;R Satherley ; M W Jones<>Hypertexturing Complex Volume Objects <>The th International Conference Central Europe Computer Graphics Visualization and Computer Vision ISBN
+8_1 M Jones;<>Facial Reconstruction Using Volumetric Data <>VMV Vision Modeling and Visualization
+8_26 M Jones;R Satherley ; M W Jones<>Vector-City Vector Distance Transform <>Computer Vision and Image Understanding ISSN
+8_2 M Jones;<>The Production of Volume Data from Triangular Meshes Using Voxelisation <>Comput Graph Forum
+8_3 M Jones;Min Chen ; Peter Townsend<>Volume distortion and morphing using disk fields <>Computers amp Graphics
+9_1 M Jones; Jim E Greer ; Permanand Mohan<>Enhancing the Instructional Capabilities of Intelligent Tutoring Systems <>Intelligent Tutoring Systems
+9_2 M Jones; Ken Wellsch<>Computational Analogy <>ECAI European Conference Artificial Intelligence
+9_3 M Jones; <>AI approaches to education: editorial <>Computational Intelligence
+9_4 M Jones; Carl Gutwin ; Kim Massie Adolphe ; Patrick Brackett<>Bringing ITS to the Marketplace: A Successful Experiment in Minimalist Design <>J UCS Universal Computer Science
+9_5 M Jones; Barbara Brecht<>Student Models: The Genetic Graph Approach <>International Journal of Man Machine Studies

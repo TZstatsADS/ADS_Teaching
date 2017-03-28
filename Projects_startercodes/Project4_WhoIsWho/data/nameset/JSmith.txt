@@ -1,0 +1,927 @@
+10_10 J Smith;Terence C Fogarty<>Self Adaptation of Mutation Rates in a Steady State Genetic Algorithm <>International Conference Evolutionary Computation
+10_11 J Smith;N Kransnogor;J E Smith<> MAFRA: A Java Memetic Algorithms Framework<> Workshops Proceedings of the International Genetic and Evolutionary Computation Conference GECCO editor A S Wu
+10_12 J Smith;Natalio Krasnogor<>A Memetic Algorithm With Self-Adaptive Local Search: TSP as a case study <>GECCO The Genetic and Evolutionary Computation Conference
+10_13 J Smith;N Krasnogor;J E Smith<>Emergence of Profitable Search strategies Based on a Simple Inheritance Mechanism<> Spector L E Goodman A Wu W B Langdon H M Voigt M Gen S Sen M Dorigo S Pezeshk M Garzon and E editors Proceedings of the Genetic and Evolutionary Computation Conference GECCO The Genetic and Evolutionary Computation Conference San Francisco Computer Animation Morgan Kaufmann Publishers
+10_14 J Smith;N Krasnogor;W Hart;J E Smith;D Pelta<>Protein Structure Prediction With Evolutionary Algorithms<> Proceedings of Genetic and Evolutionary Computation Conference Banzhaf Daida Eiben Garzon Honovar Jakiela and Smith editors Morgan Kaufmann
+10_15 J Smith;N Krasnogor;J E Smith;W E Hart<>Recent Advances in Memetic Algorithms<> Springer
+10_16 J Smith;J E Smith<>Co-Evolution of Memetic Algorithms : Initial Results<> Merelo Adamitis Beyer Fgenandez Villacans and Schwefel eds Parallel problem solving from Nature PPSN Parallel Problem Solving from Nature VII Springer Verlag LNCS
+10_17 J Smith;J E Smith<>Adaptively Parameterised Evolutionary Ststems: Self Adaptive Recombination and Mutation in a Steady State Genetic Algorithm<> Parallel Problem Solving from Nature IV eds Voigt Ebeling Rechenberg and Schwefel Springer Verlag
+10_18 J Smith;J E Smith;T C Fogarty<> Genetic Feature Selection for Clustering and Classification<>IEE Colloquium Genetic Algorithms Image Processing Vision London IEE Digest
+10_19 J Smith;J E Smith<>Genetic Algorithms<> Handbook of Global Optimization volume Heuristic Approaches eds Romeijn and Pardalos Kluwer Academic Publishers ISBN
+10_20 J Smith;J E Smith;M Bartley<>Microprocessor Design Verification by Two-Phase Evolution of Variable Length Tests<> Proceedings of the IEEE International Conference Evolutionary Computing IEEE Press
+10_21 J Smith;J E Smith<>Modelling GAs with Self Adaptive Mutation Rates<> Spector L E Goodman A Wu W B Langdon H M Voigt M Gen S Sen M Dorigo S Pezeshk M Garzon and E editors Proceedings of the Genetic and Evolutionary Computation Conference GECCO The Genetic and Evolutionary Computation Conference San Francisco Computer Animation Morgan Kaufmann Publishers
+10_22 J Smith;J E Smith;T C Fogarty<> An Adaptive Poly-Parental Recombination Strategy<> Evolutionary Computing ed Fogarty T C Springer Verlag
+10_23 J Smith;R E Smith;J E Smith<>An examination of tuneable, random search landscapes<> Foundations of Genetic Algorithms V Banzhaf Reeves editors Morgan Kaufmann
+10_24 J Smith;R E Smith;J E Smith<>New Methods for Tunable Random Landscapes<> Foundations of Genetic Algorithms Martin and Spears eds Morgan Kaufmann
+10_25 Jim Smith<>On Appropriate Adaptation Levels for the Learning of Gene Linkage<> Journal of Genetic Programming and Evolvable Machines Number
+10_26 J Smith;J E Smith<>Parameter Perturbation Mechanisms in Binary Coded GAs with Self-Adaptive Mutation<> Rowe Poli DeJong Cotta eds Foundations of Genetic Algorithms Morgan Kauffman
+10_27 J Smith;J E Smith<> Operator and Parameter Adaptation in Genetic Algorithms<> pp Soft Computing Springer Verlag
+10_28 J Smith;J E Smith;T C Fogarty<>Recombination Strategy Adaptation via Evolution of Gene Linkage<> Proceedings of IEEE International Conference Evolutionary Computing
+10_29 J Smith;J E Smith;F Vavak<>Replacement strategies in steady state genetic algorithms: dynamic environments<> p Journal of Computing Information Technology Special Issue Evolutionary Computing
+10_30 J Smith;J E Smith;F Vavak<>Replacement strategies in steady state genetic algorithms: static environments<> Foundations of Genetic Algorithms V Banzhaf Reeves editors Morgan Kaufmann
+10_31 J Smith;J E Smith;T C Fogarty<> Self Adaptation of Mutation Rates in a Steady State Genetic Algorithm<> Proceedings of IEEE International Conference Evolutionary Computing IEEE Press
+10_32 J Smith;A Staggemeier;A Clarke;U Aickelin;J E Smith<>A hybrid genetic algorithm to solve a lot sizing and scheduling problem<>Proceedings of the Conference of International Federation of Operational Research Societies
+10_33 J Smith;M Caleb-Solly Steuer;P Smith<>A Modified Neocognitron Network for Medical Signal Classification<> Proceedings of the International Conference Neural Networks and Expert Systems Medicine and HealthCare
+10_34 J Smith;M Caleb-Solly Steuer;J E P Smith<>An Alternative Approach for the Evaluation of the Neocognitron<>Proceedings of the th European Symposium Artificial Neural Networks Bruges
+10_35 J Smith;C Stone;J E Smith<>Strategy Parameter Variation in Self-Adaptation of Mutation Rates<>pp Langdon et eds Proceedings of the Genetic and Evolutionary Computation Conference Morgan Kaufmann
+10_36 J Smith;Christopher Stone<>Strategy Parameter Variety In Self-adaptation Of Mutation Rates <>GECCO The Genetic and Evolutionary Computation Conference
+10_37 J Smith;Frank Vavak<>Replacement Strategies in Steady State Genetic Algorithms: Static Environments <>FOGA Foundations of Genetic Algorithms Workshop
+10_1 J Smith;<>Co-evolving Memetic Algorithms: Initial Investigations <>PPSN Parallel Problem Solving from Nature
+10_2 J Smith;<>Co-Evolution of Memetic Algorithms for Protein Structure Prediction<> Hart Krasnogor and Smith eds Proceedings of the Third International Workshop Memetic Algorithms
+10_3 J Smith;P Caleb-Solly;J E Smith<>Adaptive Image Segmentation Based on Visual Interactive Feedback Learning<> I Parmee editor Proceedings of ACDM Springer Verlag
+10_4 B Carr;W Hart;N Krasnogor;J Hirst;E Burke;J Smith<>Alignment of Protein Structures with a Memetic Evolutionary Algorithm<> Langdon et eds Proceedings of the Genetic and Evolutionary Computation Conference Morgan Kaufmann
+10_5 J Smith;A E Eiben;J E Smith<>Introduction to Evolutionary Computing<> ISBN Springer Heidelberg New
+10_6 J Smith;Terence C Fogarty<>Adaptively Parameterised Evolutionary Systems: Self-Adaptive Recombination and Mutation in a Genetic Algorithm <>PPSN Parallel Problem Solving from Nature
+10_7 J Smith;Terence C Fogarty<>Evolving Software Test Data - GA's learn Self Expression <>Evolutionary Computing AISB The Society for the Study of Artificial Intelligence and the Simulation of Behaviour Workshop
+10_8 J Smith;Terence C Fogarty<>An Adaptive Poly-Parental Recombination Strategy <>Evolutionary Computing AISB The Society for the Study of Artificial Intelligence and the Simulation of Behaviour Workshop
+10_9 J Smith;Terence C Fogarty<>Recombination Strategy Adaptation via Evolution of Gene Linkage <>International Conference Evolutionary Computation
+11_1 J Smith; Alvaro A A Fernandes ; Anastasios Gounaris ; Norman W Paton ; Paul Watson ; Rizos Sakellariou<>Distributed Query Processing on the Grid <>GRID GRID Computing
+11_2 J Smith; Norman W Paton ; Paul Watson ; Sandra de F Mendes Sampaio<>Validated Cost Models for Parallel OQL Query Processing <>OOIS Object Oriented Information Systems
+11_3 J Smith; Norman W Paton ; Paul Watson ; Sandra de F Mendes Sampaio<>A Parallel Algebra for Object Databases <>DEXA Database and Expert Systems Applications Workshop
+11_4 J Smith; Norman W Paton ; Paul Watson ; Sandra de F Mendes Sampaio<>Experimenting with Object Navigation in Parallel Object Databases <>DEXA Database and Expert Systems Applications Workshop
+11_5 J Smith; Norman W Paton ; Paul Watson ; Sandra de F Mendes Sampaio<>Speeding Up Navigational Requests in a Parallel Object Database System <>Euro Par
+11_6 J Smith; Norman W Paton ; Paul Watson ; Sandra de F Mendes Sampaio<>An Experimental Performance Evaluation of Join Algorithms for Parallel Object Databases <>Euro Par
+11_7 J Smith; <>On Synchronisation in Fault-Tolerant Data and Compute Intensive Programs over a Network of Workstations <>Euro Par
+11_8 J Smith; Norman W Paton ; Paul Watson ; Sandra de F Mendes Sampaio<>Polar: An Architecture for a Parallel ODMG Compliant Object Database <>CIKM International Conference Information and Knowledge Management
+11_9 J Smith; Santosh K Shrivastava<>A System for Fault-Tolerance Execution of Data and Compute Intensive Programs over a Network of Workstations <>Euro Par I
+12_1 J Smith; Alan L Leiner ; Rosalind B Marimont ; W A Notz<>Concurrently operating computer systems <>IFIP International Federation for Information Processing Congress
+12_2 J Smith; A Weinberger ; Alan L Leiner ; W A Notz<>PILOT - A New Multiple Computer System <>J ACM
+12_3 J Smith; R W Drake<>Some techniques for File Recovery <>Australian Computer Journal
+12_4 J Smith; D M Ryan ; H G Mackenzie<>Experiments with a Britton-Lee Data base machine on CSIRONET <>Australian Computer Journal
+12_5 J Smith; H G Mackenzie<>The Implementation of a Data Base Management System <>Australian Computer Journal
+12_6 J Smith; <>Data Base Organisation for an Array Processor <>Australian Computer Journal
+12_7 J Smith; <>Alternatives in the Architecture and design of Distributed Data Bases <>Australian Computer Journal
+12_8 J Smith; D J Abel<>A Simple approach to the Nearest-Neighbour Problem <>Australian Computer Journal
+12_9 J Smith; D J Abel<>A Data Structure and Query Algorithm for a database of Areal Entities <>Australian Computer Journal
+13_1 J Smith; Brett A Peters<>Simulation as a Decision-Making Tool for Real-time Control of Flexible Manufacturing Systems <>ICRA International Conference Robotics and Automation
+13_2 J Smith; Glenn Drake<>Simulation System for Real-Time Planning, Scheduling, and Control <>Winter Simulation Conference
+13_3 J Smith; Brett A Peters ; Mark K Snell ; Sabina E Jordan<>Distributed real-time simulation for intruder detection system analysis <>Winter Simulation Conference
+13_4 J Smith; Brett A Peters ; Marcella M Madsen ; Mark K Snell ; Sabina E Jordan<>Discrete-Event Simulation for the Design and Evaluation of Physical Protection Systems <>Winter Simulation Conference
+13_5 J Smith; Alicia Helton ; Douglas Helton ; Eileen Thompson ; Fernando G Gonzalez ; Gerry Walterscheild<>The design of a solid-state physical model of an automated system to be used as a test bed for control applications <>Winter Simulation Conference
+13_6 J Smith; Brett A Peters ; Glenn Drake<>Simulation as a Planning and Scheduling Tool for Flexible Manufacturing Systems <>Winter Simulation Conference
+13_7 J Smith; Brett A Peters ; Cynthia LaJimodiere ; Glenn Drake ; James Curry<>Advanced Tutorial - Simulation-Based Scheduling and Control <>Winter Simulation Conference
+13_8 J Smith; David T Sturrock ; Glen D Smith ; Richard A Wysk ; Sanjay B Joshi ; Sanjay E Ramaswamy<>Discrete event simulation for shop floor control <>Winter Simulation Conference
+14_1 J Smith;<>M/G/c/K blocking probability models and system performance <>Perform Eval
+14_2 J Smith;<>Topological network design of state-dependent queueing networks <>Networks
+14_3 J Smith;D Z Du; J MacGregor Smith;; H Rubinstein <>Advances in Steiner Trees A new monograph on Steiner trees <>Kluwer Publishing Company
+14_4 J Smith;Rajat Jain; J MacGregor Smith<>Modeling Vehicular Traffic Flow using M/G/C/C State Dependent Queueing Models<>
+14_5 J Smith;Laoucine Kerbache; J MacGregor Smith<>Multi-objective routing within large scale facilities using open finite queueing networks<>EJOR
+14_6 J Smith;Peter Kubat; J MacGregor Smith; Calvin Yum<>Design of Cellular Networks with Diversity and Capacity Constraints<>Paper the IEEE Transactions Reliability
+14_7 J Smith;Peter Kubat; J MacGregor Smith<>A Multi-Period Network Design Problem for Cellular Telecommunication Systems<>EJOR
+14_10 J Smith;J MacGregor Smith; Nikhil Chikhale<>Buffer Allocation for a Class of Nonlinear Stochastic Knapsack Problems<>
+14_8 J Smith;Wu-Ji Li<>Quadratic Assignment Problems and M/G/C/C/ State Dependent Network Flows <>Journal of Combinatorial Optimization
+14_11 J Smith;J MacGregor Smith<>Evacuation Networks<>the Encyclopedia of Optimization to be published by Kluwer Publishing Company
+14_9 J Smith;D H Mitchell; J MacGregor Smith<>Topological Network Design of Pedestrian Networks<> Transportation Research Series
+14_12 J Smith;J MacGregor Smith; Wu-Ji Li<>Quadratic Assignment Problems and M/G/C/C State Dependent Network Flows<>ATT Solutions
+14_13 J Smith;J MacGregor Smith<>Quadratic Set Packing Problems, Steiner Trees and their Integration<>Paper the International Journal of Mathematical Algorithms
+14_14 J Smith;J MacGregor Smith; Rich Weiss; ; Minoo Pate<>An O NxN Heuristic for Steiner Minimal Trees in d<>
+14_15 J Smith;Warren Smith; J MacGregor Smith<>On the Steiner Ratio in d<>
+14_16 J Smith;J MacGregor Smith<>Steiner Minimal Trees in -d: Theory, Algorithms, and Applications<>the Handbook of Combinatorial Optimization to be published by Kluwer Publishing Company
+14_17 J Smith;J MacGregor Smith; F R B Cruz<>The Buffer Allocation Problem for General Finite Buffer Queueuing Networks<>
+14_18 J Smith;Badri Toppur<>Euclidean Steiner Minimal Trees, Minimum Energy Configurations, and the Embedding Problem of Weighted Graphs in E<sup> </sup> <>Discrete Applied Mathematics
+14_19 J Smith;J F Weng<>Steiner Minimal Trees with One Polygonal Obstacle <>Algorithmica
+14_20 J Smith;Pawel Winter<>Path-Distance Heuristics for the Steiner Problem in Undirected Networks <>Algorithmica
+14_21 J Smith;S J Yuhaski<>Modeling Circulation Systems in Buildings Using State Dependent Queueing Models <>Queueing Syst
+15_1 J Smith; Cal Deedman<>The Application of Expert Systems Technology to Case-Based Law <>ICAIL International Conference Artificial Intelligence and Law
+15_2 J Smith; <>The Use of Lexicons in Information Retrieval in Legal Databases <>ICAIL International Conference Artificial Intelligence and Law
+15_3 J Smith; Daphne Gelbart<>Beyond Boolean Search: FLEXICON, a Legal Tex-Based Intelligent System <>ICAIL International Conference Artificial Intelligence and Law
+15_4 J Smith; Daphne Gelbart<>FLEXICON: An Evaluation of a Statistical Ranking Model Adapted to Intelligent Legal Text Management <>ICAIL International Conference Artificial Intelligence and Law
+15_5 J Smith; Bruce Atherton ; Daphne Gelbart ; John McClean ; Keith MacCrimmon ; Lincoln Quintana ; Michelle Shinehoft<>Artificial Intelligence and Legal Discourse: The Flexlaw Legal Text Management System <>Artificial Intelligence and Law
+15_6 J Smith; Daphne Gelbart<>Toward a Comprehensive Legal Information Retrieval System <>DEXA Database and Expert Systems Applications
+16_111 J Smith;J C SMITH; S CUSACK; U PEZZECA; B BROOKS ; M KARPLUS <>Inelastic Neutron Scattering Analysis of Low Frequency Motion in Proteins: A Normal Mode Study of the Bovine Pancreatic Trypsin Inhibitor<>Journal of Chemical Physics
+16_112 J Smith;J C SMITH; S CUSACK; B TIDOR ; M KARPLUS <>Inelastic Neutron Scattering Analysis of Low-Frequency Motions in Proteins: Harmonic and Damped Harmonic Models of BPTI<>Journal of Chemical Physics
+16_113 J Smith;J C SMITH; P CALMETTES; D DURAND; M DESMADRIL; S FUROIS-CORBIN; G R KNELLER ; B ROUX <>On the Configurations Accessible to Folded and Denatured Proteins<>Statistical Mechanics Protein Structure and Protein Substrate Interactions Ed S Doniach Plenum Press New
+16_114 J Smith;J C SMITH; S CUSACK; K KUCZERA; B TIDOR ; M KARPLUS <>Internal Dynamics of Globular Proteins: Comparison of Theoretical Models with Neutron Scattering Measurements<>Physica B
+16_115 J Smith;J C SMITH; F MERZEL; C S VERMA ; S FISCHER <>Protein hydration water: structure and thermodynamics<>Journal of Molecular Liquids
+16_116 J Smith;J C SMITH; D DURAND; M J FIELD; S FUROIS-CORBIN; G R KNELLER ; B ROUX <>Supramolecular Interactions and Atomic Dynamics in Proteins and Peptide Crystals<>Jumps Lattice waves and Liquid Like Diffusion Computational Approaches Supramolecular Chemistry Ed G Wipff Kluwer
+16_10 J Smith;Beno&icirc;t Roux ; Jer&ocirc;me Baudry ; Serge Crouzy<>Efficient calculation of two-dimensional adiabatic and free energy maps: Application to the isomerization of the C C and C N bonds in the retinal of bacteriorhodopsin <>Journal of Computational Chemistry
+16_117 J Smith;J C SMITH; K KUCZERA; ; M KARPLUS <>Temperature-Dependence of Myoglobin Dynamics: Neutron Spectra Calculated from Molecular Dynamics Simulations of Myoglobin<>Proceedings of the National Academy of Sciences U S A
+16_11 J Smith;Beno&icirc;t Roux ; J&eacute;r&ocirc;me Baudry ; Serge Crouzy<>Quantum Chemical and Free Energy Simulation Analysis of Retinal Conformational Energetics <>Journal of Chemical Information and Computer Sciences
+16_12 J Smith;N BONDAR; R DANIEL; J L FINNEY; S FISCHER; M KATAOKA; A PETRESCU ; J C SMITH <>Protein Folding and Dynamics - New Insights from Computer Simulation and Scattering Experiments<>Journal of the Physical Society of Suppl A Proc Int Symp ASR Eds S Katano N Metoki Y Morii and Y Ishii
+16_118 J Smith;J C SMITH <>Dynamics of Biomolecules: Simulations versus X-ray and Neutron Scattering Experiments<>Chapter Computer Simulations of Biomolecules Eds W F van Gunsteren P K Weiner A J Wilkinson KLUWER ESCOM Leiden p
+16_13 J Smith;P CALMETTES; B ROUX; D DURAND; M DESMADRIL ; J C SMITH <>Configurational Distribution of Denatured Phosphoglycerate Kinase<>Journal of Molecular Biology
+16_119 J Smith;J C SMITH <>X-ray and Neutron Scattering as Probes of the Dynamics of Biological Molecules<>Computational Biochemistry and Biophysics Eds O Becker A D MacKerell B Roux and M Watanabe Marcel Dekker New
+16_14 J Smith;P CALMETTES; D DURAND; P MINARD; M DESMADRIL; V RECEVEUR ; J C SMITH <>How Random is a Highly Denatured Protein? Biophysical Chemistry - <>
+16_15 J Smith;P CALMETTES; D DURAND; J C SMITH; M DESMADRIL; P MINARD ; J C SMITH <>Structure of Proteins Denatured by Guanidinium Chloride Journal de Physique IV C - <>
+16_16 J Smith;Z COURNIA; A C VAIANA; G M ULLMANN ; J C SMITH <>Derivation of a Molecular Mechanics Force Field for Cholesterol<>Journal of Pure and Applied Chemistry Press
+16_17 J Smith;S CROUZY; J BAUDRY; J C SMITH ; B ROUX <>Efficient Calculation of Two-Dimensional Adiabatic and Free Energy Maps: Application to the Isomerization of the C =C and C =N Bonds in the Retinal of Bacteriorhodopsin<>Journal of Computational Chemistry
+16_18 J Smith;P CUNIASSE; A THOMAS; J C SMITH; H L THANH; M LEONETTI ; A MENEZ <>Structural Basis of Antibody Cross-Reactivity: Solution Conformation of an Immunogenic Peptide Fragment Derived from a Snake Toxin B-Epitope<>Biochemistry
+16_19 J Smith;S CUSACK; J C SMITH; M KARPLUS ; J L FINNEY <>Low Frequency Dynamics of BPTI Studied by Inelastic Neutron Scattering<>Structure Dynamics and Function of Biomolecules Eds Ehrenberg Rigler Graslund and Nilsson Springer Verlag
+16_90 J Smith;F NOE; S M SCHWARZL; S FISCHER ; J C SMITH <>Computational tools for analyzing structural changes in proteins in solution<>Applied Bioinformatics Press
+16_91 J Smith;A C T NORTH ; J C SMITH <>Radial Distributions of Water-Water Distances in Protein Crystals<>International Journal of Biological Macromolecules
+16_92 J Smith;A -J PETRESCU; P CALMETTES; D DURAND; V RECEVEUR ; J C SMITH <>Change in backbone torsion angle distribution on protein folding<>Protein Science
+16_93 J Smith;A J PETRESCU; P CALMETTES; V RECEVEUR ; J C SMITH <>Excluded volume in the Configurational Distribution of a Strongly-Denatured Protein<>Protein Science
+16_94 J Smith;A J PETRESCU; V RECEVEUR; P CALMETTES; D DURAND; M DESMADRIL; B ROUX ; J C SMITH <>Small Angle Neutron Scattering by a Strongly Denatured Protein: Analysis using Random Polymer Theory<>Biophysical Journal
+16_95 J Smith;V REAT; J L FINNEY; W A STEER; M A ROBERTS; J C SMITH; R DUNN; M PETERSON ; R M DANIEL <>Cryosolvents useful for protein and enzyme studies below ^oC<>Journal of Biochemical and Biophysical Methods
+16_96 J Smith;V REAT; R DUNN; M FERRAND; J L FINNEY; R M DANIEL ; J C SMITH <>Solvent dependence of dynamic transitions in protein solutions<>Proceedings of the National Academy of Sciences U S A
+16_97 J Smith;V RECEVEUR; P CALMETTES; J C SMITH; M DESMADRIL; G CODDENS ; D DURAND <>Picosecond Dynamic Changes in Phospho-glycerate Kinase on Denaturation Revealed by Quasielastic Neutron Scattering<>Proteins Structure Function and Genetics
+16_98 J Smith;E RITTGER; G R KNELLER; A MICU; M SOUAILLE ; J C SMITH <>Dynamics of Proteins: Spectroscopy, Scattering and Simulations<>AIP Conference Proceedings E C C C Computational Chemistry Eds F Bernardi and J L Rivail American Institute of Physics New
+16_99 J Smith;B ROUX; M NINA; R POMES ; J C SMITH <>Thermodynamic Stability of Water Molecules in the Bacteriorhodopsin Proton Channel: A Molecular Dynamics Free Energy Perturbation Study<>Biophysical Journal
+16_120 J Smith;J C SMITH <>Motions in Biomolecules - Comparing Simulation with Experiment<>Spectroscopic Techniques Biophysics Eds G M Giacometti and G Giacometti IOS Press
+16_121 J Smith;J C SMITH <>Inelastic and quasielastic neutron scattering: complementarity with biomolecular simulation<>Structure and Dynamics of Biomolecules Neutron and Synchrotron Radiation for Condensed Matter Studies Volume IV University Press
+16_122 J Smith;J C SMITH <>Interactions and Dynamics in Proteins and Molecular Crystals Probed by Quantum Chemistry, Computer Simulations and Scattering Experiments<>Current Topics Biophysics
+16_123 J Smith;A TOURNIER & J C SMITH <>Principal Components of the Protein Dynamical Transition<>Physical Review Letters Press
+16_124 J Smith;J C SMITH <>Protein Dynamics: Comparison of Simulations with Inelastic Neutron Scattering Experiments<>Quarterly Review of Biophysics
+16_125 J Smith;J C SMITH <>Protein Dynamics Studied by Inelastic Neutron Scattering<>Ph D Thesis Birkbeck University of London
+16_126 J Smith;J C SMITH <>Protein Interactions and Dynamics Probed by Quantum Chemistry, Computer Simulations and Neutron Experiments<>Biophysical Chemistry
+16_20 J Smith;S CUSACK; J C SMITH; J L FINNEY; M KARPLUS ; J TREWHELLA <>Low Frequency Dynamics of Proteins Studied by Neutron Time-of-Flight Spectroscopy<>Physica B
+16_21 J Smith;S CUSACK; J C SMITH; J L FINNEY; B TIDOR ; M KARPLUS <>Inelastic Neutron Scattering Analysis of Picosecond Internal Protein Dynamics: Comparison of Harmonic Theory with Experiment<>Journal of Molecular Biology
+16_127 J Smith;J SOPKOVA; J C SMITH; M DELAFORGE; H VIRELIZIER ; C K JANKOWSKI <>Oxidation of tetra-hydro-beta-carboline by cytochrome P : determination and rationalisation of product distribution<>European Journal of Biochemistry
+16_22 J Smith;R DANIEL; J C SMITH; M FERRAND; S HERY; R DUNN ; J L FINNEY <>Enzyme Activity Below the Dynamical Transition at K<>Biophysical Journal
+16_128 J Smith;J SOPKOVA; S FISCHER; C GUILBERT; A LEWIT-BENTLEY ; J C SMITH <>Pathway for large-scale conformational change in Annexin V<>Biochemistry
+16_23 J Smith;R DANIEL; J L FINNEY; V REAT; R DUNN; M FERRAND ; J C SMITH <>Enzyme Dynamics and Activity: Timescale-Dependence of the Dynamical Transitions in Glutamate Dehydrogenase Solution<>Biophysical Journal
+16_129 J Smith;J SOPKOVA; F K OLING; S RETY; A BRISSON; J C SMITH ; A LEWIT-BENTLEY <>S protein-annexin interactions: a model of the Anx -p heterotetramer complex<>Biochimica et Biophysica Acta
+16_24 J Smith;R M DANIEL; J L FINNEY ; J C SMITH <>The dynamic transition in enzymes may have a simple explanation<>Faraday Discusssions
+16_25 J Smith;R M DANIEL; R V DUNN; J L FINNEY ; J C SMITH <>The Role of Dynamics in Enzyme Activity<>Annual Review of Biophysics Biomolecular Structure
+16_26 J Smith;S DELLERUE; A J PETRESCU; J C SMITH; S LONGEVILLE ; M -C BELLISSENT-FUNEL <>Collective dynamics of a photosynthetic protein probed by neutron spin-echo spectroscopy and molecular dynamics simulation<>Physica B
+16_27 J Smith;S DELLERUE; A -J PETRESCU; J C SMITH ; M -C BELLISSENT-FUNEL <>Radially softening diffusive motions in a globular protein<>Biophysical Journal
+16_28 J Smith;A J DIANOUX; G R KNELLER; J L SAUVAJOL ; J C SMITH <>Dynamics of Pure and Sodium-Doped Polyacetylene<>AIP Conference Proceedings E C C C Computational Chemistry Eds F Bernardi and J L Rivail American Institute of Physics New
+16_29 J Smith;A J DIANOUX; G R KNELLER; J L SAUVAJOL ; J C SMITH <>Dynamics of sodium-doped polyacetylene<>Journal of Chemical Physics
+16_1 J Smith;D J BARLOW; J O BAUM; M L J DRUMMOND; J L FINNEY; J C SMITH ; J M THORNTON <>Theoretical Aspects of Protein Conformation<>Amino Acids Peptides and Proteins Specialist Periodical Report of the Royal Society of Chemistry
+16_2 J Smith;J BAUDRY; R L HAYWARD; H D MIDDENDORF ; J C SMITH <>Collective Vibrations in the Crystalline Alanine Dipeptide at Very Low Temperature<>Biological Macromolecular Dynamics Eds S Cusack H Buttner M Ferrand P Langan P Timmins Adenine Press
+16_3 J Smith;J BAUDRY; S CROUZY; B ROUX ; J C SMITH <>From Sequence to Structure and Function: Modelling and Simulation of Light-Activated Membrane Proteins<>Genomics and Proteomics Ed S Suhai Kluwer Plenum
+16_4 J Smith;J BAUDRY ; J C SMITH <>Hydrogen Bonding Cooperativity and F and Q Barriers in N-methylacetamide<>Journal of Molecular Structure THEO CHEM chemistry
+16_5 J Smith;J BAUDRY; S CROUZY; B ROUX ; J C SMITH <>Quantum Chemical and Free Energy Simulation Analysis of Retinal Conformational Energetics<>Journal of Chemical Information and Computer Sciences
+16_6 J Smith;J BAUDRY; S CROUZY; B ROUX ; J C SMITH <>Simulation Analysis of the Retinal Conformational Equilibrium in Dark-Adapted Bacteriorhodopsin<>Biophysical Journal
+16_7 J Smith;T BECKER ; J C SMITH <>Energy resolution and dynamical heterogeneity effects on elastic incoherent neutron scattering from molecular systems<>Physical Review E
+16_130 J Smith;M SOUAILLE; J C SMITH; A J DIANOUX ; F GUILLAUME <>Dynamics of N-Nonadecane Chains in Urea Inclusion Compounds as seen by Incoherent Quasielastic Neutron Scattering and Computer Simulation<>Observation Prediction and Simulation of Phase Transitions Complex Fluids Eds M Baus L F Rull J P Ryckaert NATO ASI Series
+16_8 J Smith;T BECKER; S FISCHER; F NOE; A L TOURNIER; G M ULLMANN ; J C SMITH <>Protein Dynamics: Glass Transition and Mechanical Function<>Advances Solid State Physics
+16_131 J Smith;M SOUAILLE ; J C SMITH <>Molecular Dynamics Analysis of Charge Fluctuations Associated with Far-Infrared Absorption in Water<>Molecular Physics
+16_9 J Smith;M C BELLISSENT-FUNEL; R DANIEL; D DURAND; M FERRAND; J L FINNEY; S POUGET ; J C SMITH <>Nanosecond Protein Dynamics: First Detection of a Neutron Incoherent Spin-Echo Signal<>Journal of the American Chemical Society
+16_132 J Smith;M SOUAILLE; F GUILLAUME ; J C SMITH <>Molecular Dynamics Analysis of Alkane Dynamics in Urea Inclusion Compound I : Comparison with Quasielastic Neutron Scattering Experiment<>Journal of Chemical Physics
+16_133 J Smith;M SOUAILLE; F GUILLAUME ; J C SMITH <>Molecular Dynamics Analysis of Alkane Dynamics in Urea Inclusion Compound II : Rotational Distribution and Elastic Incoherent Structure Factor<>Journal of Chemical Physics
+16_134 J Smith;M SOUAILLE; J C SMITH ; F GUILLAUME <>Simulation of collective dynamics of n-nonadecane in the urea inclusion compound<>Journal of Physical Chemistry
+16_135 J Smith;B SVENSSON; C ETCHEBEST; P TUFFERY; J C SMITH; P VAN KAN ; S STYRING A<>Model for the Photosystem II Reaction Centre Core Including the Structure of the Primary Donor P <>Biochemistry
+16_30 J Smith;A J DIANOUX; G R KNELLER; J -L SAUVAJOL ; J C SMITH <>Polarized Density of States of Crystalline Polyacetylene: Molecular Dynamics Analysis and Comparison with Neutron Scattering Results<>Journal of Chemical Physics
+16_136 J Smith;B SVENSSON; C ETCHEBEST; P TUFFERY; J C SMITH ; S STYRING A<>Structural Model Derived using Molecular Mechanics for the Core of the Photosystem II Reaction Centre including the Redox Components<>Proceedings IX International Congress Photo synthesis Nagoya Ed Murata Kluwer Academic Publishers
+16_31 J Smith;A J DIANOUX; J L SAUVAJOL; G R KNELLER ; J C SMITH <>Polarized Density of States of Pristine and Sodium-doped Polyacetylene<>Journal of Noncrystalline Solids
+16_137 J Smith;A TALY; P SEBBAN; J C SMITH ; G M ULLMANN <>The structural changes in the Q[B] pocket of the photosynthetic reaction center depend on pH: a theoretical analysis of the proton uptake upon Q[B]reduction<>Biophysical Journal
+16_32 J Smith;R DUNN; V REAT; J L FINNEY; M FERRAND; J C SMITH ; R M DANIEL <>Enzyme Dynamics and Activity: Xylanase Activity in the absence of fast anharmonic motions<>Biochemical Journal
+16_138 J Smith;C TENETTE-SOUAILLE ; J C SMITH <>Structure of the Ma - /toxin a antibody-antigen complex: combination of modelling with functional mapping results<>Protein Engineering
+16_33 J Smith;D DURAND; M QUILICHINI; M J FIELD; ; J C SMITH <>Lattice Vibrations in Crystalline L-Alanine<>Biopolymers
+16_139 J Smith;C TENETTE-SOUAILLE ; J C SMITH <>Structural Model of the Complex between a Snake Toxin and an Antibody that mimicks the Acetylcholine Receptor<>Proteins Structure Function and Genetics
+16_34 J Smith;A ECH-CHERIF EL-KETTANI ; J C SMITH <>Pathways for Conformational Change in Seryl t-RNA Synthetase from Thermus Thermophilus<>Comptes Rendus l Academie des Sciences III Sciences Vie
+16_35 J Smith;P FAURE; A MICU; D PERAHIA; J DOUCET; J C SMITH ; J P BENOIT <>Correlated Motions and X-ray Diffuse Scattering in Lysozyme<>Nature Structural Biology
+16_36 J Smith;M FERRAND; G ZACCAI; M NINA; J C SMITH; C ETCHEBEST; ; B ROUX <>Structure and Dynamics of Bacteriorhodopsin: Comparison of Simulation and Experiment FEBS Letters , - <>
+16_37 J Smith;S FISCHER; J C SMITH ; C VERMA <>Dissecting the vibrational entropy change on protein-ligand binding: burial of a water molecule in bovine pancreatic trypsin inhibitor<>Journal of Physical Chemistry B
+16_38 J Smith;N FOLOPPE; J BRETON ; J C SMITH <>Conformational Energetics of a Partially Symmetrized Photosynthetic Reaction Center<>Chemical Physics Letters
+16_39 J Smith;N FOLOPPE; J BRETON; ; J C SMITH <>Potential Energy Function for Photosynthetic Reaction Centre Chromophores: Energy Minimizations of a Crystalline Bacteriopheophytin Analog<>The Bacterial Photosynthetic Reaction Center II Structure Spectroscopy and Dynamics NATO ASI series A Life Sciences Eds J Breton and A Vermeglio
+16_140 J Smith;C TENETTE; C M TOPHAM ; J C SMITH <>Potential Function Development and Conformational Search Strategy in the Simulation of Biomolecular Recognition Processes<>Biochemical Society Transactions
+16_141 J Smith;C TENETTE; F DUCANCEL ; J C SMITH <>Structural Model of the Anti Snake Toxin Antibody Ma <>Proteins Structure Function and Genetics
+16_142 J Smith;A THOMAS; B ROUX ; J C SMITH <>Computer Simulations of the Internal Flexibility of a Series of Cyclic Peptide Analogs<>Biopolymers
+16_143 J Smith;C M TOPHAM ; J C SMITH <>Potential Energy Functions in Drug Design - Lexitropsin DNA Minor Groove Binders<>Journal Chimie Physique
+16_144 J Smith;C M TOPHAM ; J C SMITH <>The Influence of Helix Morphology on Cooperative Polyamide Backbone Conformational Flexibility in Peptide Nucleic Acid Complexes<>Journal of Molecular Biology
+16_145 J Smith;A L TOURNIER; J XU ; J C SMITH <>Solvent Caging of Internal Motions in Myoglobin at Low Temperatures<>PhysChemComm
+16_40 J Smith;N FOLOPPE; M FERRAND; J BRETON ; J C SMITH <>Structural Model for the Photosynthetic Reaction Center of Rhodobacter capsulatus Proteins: Structure, Function and Genetics - <>
+16_146 J Smith;A TOURNIER; S SCHWARZL; D HUANG; S FISCHER ; J C SMITH <>Time-resolved computational protein biochemistry: solvent effects on interactions, conformational transitions and equilibrium fluctuations<>Faraday Discussions
+16_41 J Smith;S FUROIS-CORBIN; J C SMITH ; R LAVERY <>Low-frequency Vibrations in a -Helices: Helicoidal Analysis of Polyalanine and Deoxymyoglobin Molecular Dynamics Trajectories<>Biopolymers
+16_147 J Smith;A TOURNIER; J XU ; J C SMITH <>Translational hydration water dynamics drives the protein glass transition<>Biophysical Journal
+16_42 J Smith;S FUROIS-CORBIN; J C SMITH ; G R KNELLER <>Picosecond Time-scale Rigid-Body Helix and Side-Chain Motions in Myoglobin<>Proteins Structure Function and Genetics
+16_148 J Smith;A C VAIANA; H NEUWEILER; A SCHULZ; J WOLFRUM; M SAUER ; J C SMITH <>Fluorescence Quenching of Dyes by Tryptophan: Interactions at Atomic Detail from Combination of Experiment and Computer Simulation<>Journal of the American Chemical Society Press
+16_43 J Smith;S FUROIS-CORBIN; G R KNELLER ; J C SMITH <>Protein Simulations using Supercomputers<>Jornades Supercomputaci a Catalunya CATSUPERCOMP Ed Fundaci Catalana per a Recerca
+16_149 J Smith;A C VAIANA; A SCHULZ; J WOLFRUM; M SAUER ; J C SMITH <>Molecular Mechanics Force Field Parameterization of the Fluorescent Probe Rhodamine G using Automated Frequency Matching<>Journal of Computational Chemistry
+16_44 J Smith;T GAREL; J C NIEL; H ORLAND; J C SMITH ; B VELIKSON <>Comparison of a New Monte Carlo Peptide Conformational Search Procedure with High Temperature Molecular Dynamics<>Journal Chimie Physique
+16_45 J Smith;J GAREN; M J FIELD; G R KNELLER; M KARPLUS ; J C SMITH <>Torsional Dynamics of Methyl and Ammonium Groups in Crystalline L-Alanine<>Journal Chimie Physique
+16_46 J Smith;Daniel Genest ; St&eacute;phanie H&eacute;ry<>Fluctuation and Correlation in Crystalline Lysozyme <>Journal of Chemical Information and Computer Sciences
+16_47 J Smith;A D GRUIA; S FISCHER ; J C SMITH <>Computer Simulation of Protein Unfolding<>Proceedings of High Performance Computing Science and Engineering Eds E Krause and W J ger Springer Verlag
+16_48 J Smith;A D GRUIA; S FISCHER ; J C SMITH <>Molecular dynamics simulation reveals a surface salt bridge forming a kinetic trap in the unfolding of truncated Staphylococcal nuclease<>Proteins Structure Function and Genetics
+16_49 J Smith;C GUILBERT; F RICARD ; J C SMITH <>Dynamic Simulation of the Mouse Prion Protein<>Biopolymers
+16_150 J Smith;B VELIKSON; T GAREL; J C NIEL; H ORLAND ; J C SMITH <>Conformational Distribution of Hepta-alanine: Analysis using a new Monte-Carlo Chain Growth method<>Journal of Computational Chemistry
+16_151 J Smith;B VELIKSON; P COHEN; M RHOLAM; J P ROSE; B -C WANG & J C SMITH <>Structural Modelling of the Pro-Ocytocin-Neurophysin Precursor<>Protein Engineering
+16_152 J Smith;S ZINN-JUSTIN; L PILLET; F DUCANCEL; A THOMAS; J C SMITH; J -C BOULAIN ; A MENEZ <>Engineering of Protein Epitopes: A Single Deletion Generates Full Binding Capacity to a Previously Unrecognized Antibody<>Protein Engineering
+16_50 J Smith;R L HAYWARD; H D MIDDENDORF; U WANDERLINGH ; J C SMITH <>Dynamics of Crystalline Acetanilide: Analysis Using Inelastic Neutron Scattering and Computer Simulation<>Journal of Chemical Physics
+16_51 J Smith;J A HAYWARD; J L FINNEY; R DANIEL ; J C SMITH <>Molecular dynamics decomposition of temperature-dependent elastic neutron scattering by a protein solution<>Biophysical Journal
+16_52 J Smith;J A HAYWARD; J L FINNEY; R DANIEL ; J C SMITH <>Use of computer simulation for understanding elastic neutron scattering from complex systems: a small protein in various solvents<>Chemical Physics
+16_53 J Smith;J HAYWARD ; J C SMITH <>Temperature dependence of protein dynamics: computer simulation analysis of neutron scattering properties<>Biophysical Journal
+16_54 J Smith;S HERY; M SOUAILLE ; J C SMITH <>Dynamics of Biomolecules: Simulation versus X-ray and Far-infrared Experiments<>Biomolecular Structure and Dynamics Eds G Vergoten and T Theophanides Kluwer
+16_55 J Smith;S HERY; D GENEST ; J C SMITH <>Dynamics of Proteins: Correlation and Diffusion<>Physica B
+16_56 J Smith;S HERY; D GENEST ; J C SMITH <>Fluctuation and Correlation in Crystalline Lysozyme<>Journal of Chemical Information and Computer Sciences
+16_57 J Smith;S HERY; D GENEST ; J C SMITH <>X-ray Diffuse Scattering and Rigid-Body Motion in Crystalline Lysozyme Probed by Molecular Dynamics Simulation<>Journal of Molecular Biology
+16_58 J Smith;Danzhi Huang ; Sonja M Schwarzl ; Stefan Fischer<>How well does charge reparametrisation account for solvent screening in molecular mechanics calculations? The example of myosin <>Silico Biology
+16_59 J Smith;T HUYNH; G MUSAT; J -M NEUMANN; J C SMITH ; A SANSON <>Molecular dynamics simulations of the Isolated Domain I of annexin I<>Theoretical Chemistry Accounts
+16_60 J Smith;T HUYNH; J C SMITH ; A SANSON <>Protein Unfolding Transitions in an Intrinsically Unstable Annexin Domain: Molecular Dynamics Simulation and Comparison with Nuclear Magnetic Resonance Data<>Biophysical Journal
+16_61 J Smith;J C SMITH; D DURAND; M J FIELD; S FUROIS-CORBIN; G R KNELLER ; B ROUX <>Structure, Dynamics and Function of Hydrogen-Bonded Networks in Proteins and Related Systems<>Hydrogen Bonded Networks Eds J Dore and M C Belissent Funel Kluwer
+16_62 J Smith;M KATAOKA; M FERRAND; A V GOUPIL-LAMY; H KAMIKUBO; J YUNOKI; T OKA ; J C SMITH <>Dynamical and structural modifications of staphylococcal nuclease on C-terminal truncation<>Physica B
+16_63 J Smith;M KATAOKA; H KAMIKUBO; H NAKAGAWA; S F PARKER ; J C SMITH <>Neutron Inelastic Scattering as a High-Resolution Vibrational Spectroscopy: New Tool for the Study of Protein Dynamics<>Spectroscopy
+16_64 J Smith;M L KLEIN; M MARCHI ; J C SMITH <>Potential Energy Functions in Molecular Simulation<>Journal Chimie Physique
+16_65 J Smith;G R KNELLER ; J C SMITH <>Liquid-like Side-chain Dynamics in Myoglobin<>Journal of Molecular Biology
+16_66 J Smith;G R KNELLER; W DOSTER; M SETTLES; S CUSACK ; J C SMITH <>Methyl Group Dynamics in the Crystalline Alanine Dipeptide: A Combined Computer Simulation and Inelastic Neutron Scattering Analysis<>Journal of Chemical Physics
+16_67 J Smith;A LAMY ; J C SMITH <>Denaturation of Truncated Staphylococcal Nuclease in Molecular Dynamics Simulation at K<>Journal of the American Chemical Society
+16_68 J Smith;A LAMY; J C SMITH; J YUNOKI; S F PARKER ; M KATAOKA <>High-Resolution Vibrational Inelastic Neutron Scattering: A New Spectroscopic Tool for Globular Proteins<>Journal of the American Chemical Society
+16_69 J Smith;A LAMY; M SOUAILLE ; J C SMITH <>Simulation Evidence for Experimentally-Detectable Low-Temperature Vibrational Inhomogeneity in a Globular Protein<>Biopolymers
+16_70 J Smith;A D MACKERELL; D BASHFORD; M BELLOTT; R L DUNBRACK ;J EVENSECK;M J FIELD; S FISCHER; J GAO; H GUO; S HA; D JOSEPH; L KUCHNI; K KUCZERA; F T K LAU; C MATTOS; S MICHNICK; T NGO; D T NGUYEN; B PRODHOM; I W E REIHER; B ROUX; M SCHLENKRICH; J C SMITH; R STOTE; J STRAUB; M WATANABE; J WIORKIEWICZ-KUCZERA; D YIN; M KARPLUS;<>All-atom Empirical Potential for Molecular Modeling and Dynamics Studies of Proteins<>Journal of Physical Chemistry B
+16_71 J Smith;P MANIVET; B SCHNEIDER; J C SMITH; D -S CHOI; L MAROTEAUX; O KELLERMANN ; J -M LAUNAY <>The serotonin binding site of human and murine -HT[ B] receptors: molecular modelling and site-directed mutagenesis<>Journal of Biological Chemistry
+16_72 J Smith;F MERZEL ; J C SMITH <>Calculation of small angle scattering intensities from molecular dynamics simulation<>Cellular and Molecular Biology Letters
+16_73 J Smith;F MERZEL ; J C SMITH SASSIM: A<>method for calculating small-angle X-ray and neutron scattering and the associated molecular envelope from explicit-atom models of solvated proteins<>Acta Crystallographica Section D
+16_74 J Smith;F MERZEL ; J C SMITH <>Is the first hydration shell of lyzozyme of higher density than bulk water? Proceedings of the National Academy of Sciences U<>S A
+16_75 J Smith;A MICU; D DURAND; M QUILICHINI; M J FIELD ; J C SMITH <>Collective Vibrations in Crystalline L-alanine<>Journal of Physical Chemistry
+16_76 J Smith;A MICU ; J C SMITH<>SERENA: A Program for Calculating X-ray Diffuse Scattering from Molecular Dynamics Trajectories<>Computer Physics Communications
+16_77 J Smith;D MIHAILESCU ; J C SMITH <>Computer simulation of energy-transducing proteins and peptide:membrane interactions<>ACS proceedings Press
+16_78 J Smith;D MIHAILESCU; J REED ; J C SMITH <>Convergence in peptide folding simulation: multiple trajectories of a potential AIDS pharmacophore<>Biopolymers
+16_79 J Smith;D MIHAILESCU ; J C SMITH <>Molecular Dynamics Simulation of the Cyclic Decapeptide Antibiotic, Gramicidin S, in Dimethyl Sulfoxide Solution<>Journal of Physical Chemistry B
+16_100 J Smith;Sonja M Schwarzl ; Stefan Fischer ; Thomas B Tschopp<>Can the calculation of ligand binding free energies be improved with continuum solvent electrostatics and an ideal-gas entropy correction? <>Journal of Computational Chemistry
+16_101 J Smith;S M SCHWARZL; T TSCHOPP; J C SMITH ; S FISCHER <>Can the calculation of ligand binding free energies be improved with continuum solvent electrostatics and an ideal-gas entropy correction? Journal of Computational Chemistry - <>
+16_102 J Smith;S M SCHWARZL; D HUANG; J C SMITH ; S FISCHER <>How well does charge reparametrisation account for solvent screening in molecular mechanics calculations? The example of myosin<>Silico Biology
+16_103 J Smith;C SIMON; M AALOUACH; J C SMITH <>Modelling and Simulation of Light-Activated Membrane Proteins: Dynamical Transitions in Bacteriorhodopsin<>Faraday Discussions
+16_104 J Smith;J C SMITH ; G R KNELLER <>Combination of Neutron Scattering and Molecular Dynamics for the Determination of Internal Motions in Bio-molecules<>Molecular Simulation
+16_105 J Smith;J C SMITH; A MICU ; N FOLOPPE <>Computer Simulations of Bio-molecular Systems: Principles and Practice<>Current Topics Biophysics Ed P Frangopol Iasi University Press
+16_106 J Smith;J C SMITH; Z COURNIA; A TALY; A L TOURNIER; D MIHAILESCU ; G M ULLMANN <>Conformational Transitions in Proteins and Membranes<>Proc NATO ASI Workshop Novel Approaches Structure and Dynamics of Liquids Rhodes Ed Samios Press
+16_107 J Smith;J C SMITH; S CUSACK; P L POOLE ; J L FINNEY <>Direct Measurement of Hydration-related Dynamic Changes in Lysozyme using Inelastic Neutron Scattering Spectroscopy<>Journal of Biomolecular Structure and Dynamics
+16_108 J Smith;J C SMITH; J BAUDRY; S HERY; A LAMY; A MICU ; M SOUAILLE <>Harmonic and Anharmonic Dynamics in Proteins and Molecular Crystals<>Nonlinear Physics Theory and Experiment Eds M Alfini M Boiti L Martina F Pempinelli World Scientific
+16_109 J Smith;J C SMITH ; M KARPLUS <>Empirical Force Field Study of Geometries and Conformational Transitions in some Organic Molecules<>Journal of the American Chemical Society
+16_80 J Smith;D MIHAILESCU; J C SMITH ; J REED <>Solution structure of a putative HIV immunogenic peptide: computer simulation of the principal CD binding domain of gp <>Journal of Medicinal Chemistry
+16_81 J Smith;D MIHAILESCU ; J C SMITH <>Atomic-Detail Peptide:Membrane Inter-actions: Molecular Dynamics Simulation of Gramicidin S in a DMPC Bilayer<>Biophysical Journal
+16_82 J Smith;K D MOELLER; G P WILLIAMS; C HIRSHMUGL; S STEINHAUSER ; J C SMITH <>Hydration-dependent Far-Infrared Absorption in Lysozyme Detected using Synchrotron Radiation<>Biophysical Journal
+16_83 J Smith;N -D MORELON; G R KNELLER; M FERRAND; A GRAND; J C SMITH ; M BEE <>Dynamics of an alkane chain included in an organic matrix: Molecular dynamics simulation and comparison with neutron experiment<>Journal of Chemical Physics
+16_84 J Smith;G MUSAT; J C SMITH; J -M NEUMANN ; A SANSON <>Structure of human annexin I: Comparison of homology modelling with crystallographic experiment<>Biochimie
+16_85 J Smith;F NARDI; W DOSTER; B TIDOR; M KARPLUS; S CUSACK ; J C SMITH <>Dynamics of tRNA: Experimental Neutron Spectra Compared with a Normal Mode Analysis<>Journal of Chemistry
+16_86 J Smith;H NEUWEILER; A SCHULZ; A C VAIANA; J C SMITH; S KAUL; J WOLFRUM ; M SAUER <>Detection of Individual p -Autoantibodies Using Quenched Peptide-Based Molecular Probes<>Angewandte Chemie Intl Ed
+16_87 J Smith;M NINA; J C SMITH ; B ROUX <>Ab Initio Quantum Chemical Analysis of Retinal Schiff Base Hydration in Bacteriorhodopsin<>Journal of Molecular Structure THEOCHEM
+16_88 J Smith;M NINA; B ROUX ; J C SMITH <>Functional Interactions in Bacterio-rhodopsin: A Theoretical Analysis of Retinal Hydrogen Bonding with Water<>Biophysical Journal
+16_89 J Smith;M NINA; B ROUX ; J C SMITH <>Ground State Potential Surface Calculations for Butadiene and Retinal<>Structures and Functions of Retinal Proteins Ed J L Rigaud INSERM John Libbey Eurotext Ltd
+16_110 J Smith;J C SMITH; A LAMY; M KATAOKA; J YUNOKI; A -J PETRESCU; V RECEVEUR; P CALMETTES ; D DURAND <>Motions in Native and Denatured Proteins<>Physica B Condensed Matter
+17_1 J Smith; Barrett O Comiskey<>Modulation and Information Hiding in Images <>Information Hiding
+17_2 J Smith; Chris Dodge<>Developments in Steganography <>Information Hiding
+17_3 J Smith; David Allport ; Joseph A Paradiso ; Neil Gershenfeld ; Thomas G Zimmerman<>Applying Electric Field Sensing to Human-Computer Interfaces <>CHI Conference Human Factors Computing Systems
+17_4 J Smith; <>Designing Biomorphs with an Interactive Genetic Algorithm <>ICGA International Computer Games Association
+17_5 J Smith; <>Field Mice: Extracting Hand Geometry from Electric Field Measurements <>IBM Systems Journal
+18_1 J Smith; Kenneth Baclawski ; Kevin M Passino ; Mieczyslaw M Kokar<>Mapping an Application to a Control Architecture: Specification of the Problem <>IWSAS International Workshop Self Adaptive Software
+18_2 J Smith; Jerzy Letkowski ; Kenneth Baclawski ; Mieczyslaw M Kokar<>Consistency Checking of RM-ODP Specifications <>WOODPECKER Workshop Open Distribute Processing Computation Knowledge Engineering and Realisation
+18_3 J Smith; Jerzy Letkowski ; Kenneth Baclawski ; Lewis Hart ; Mieczyslaw K Kokar ; Pat Emery ; Paul A Kogut<>Extending the Unified Modeling Language for ontology development <>Software and System Modeling
+18_4 J Smith; Kenneth Baclawski ; Mieczyslaw K Kokar<>Formal Verification of UML Diagrams: A First Step Towards Code Generation <>pUML
+18_5 J Smith; Jerzy Letkowski ; Kenneth Baclawski ; Lewis Hart ; Michael L Aronson ; Mieczyslaw M Kokar ; Paul A Kogut ; William S Holmes III<>Extending UML to Support Ontology Engineering for the Semantic Web <>UML The Unified Modeling Language
+19_1 J Smith; Raffaella Settimi<>On the Geometry of Bayesian Graphical Models with Hidden Variables <>UAI Uncertainty Artificial Intelligence
+19_2 J Smith; A S Gargoum ; Raffaella Settimi<>Approximate Learning in Complex Dynamic Bayesian Networks <>UAI Uncertainty Artificial Intelligence
+19_3 J Smith; Roberto O Puch<>FINDS: A Training Package to Assess Forensic Fibre Evidence <>MICAI
+19_4 J Smith; K Nadia Papamichail<>Fast Bayes and the Dynamic Junction Forest <>Artif Intell
+1_16 J Smith;<>Retrospective: A Study of Branch Prediction Strategies <> Years ISCA International Symposium Computer Architecture Retrospectives and Reprints
+1_17 J Smith;<>A Study of Branch Prediction Strategies <>ISCA International Symposium Computer Architecture
+1_50 J Smith;Norman P Jouppi ; Subbarao Palacharla<>Complexity-Effective Superscalar Processors <>ISCA International Symposium Computer Architecture
+1_18 J Smith;Rastislav Bod&iacute;k ; S Subramanya Sastry<>Rapid profiling via stratified sampling <>ISCA International Symposium Computer Architecture
+1_51 J Smith;Ho-Seop Kim<>An Instruction Set and Microarchitecture for Instruction Level Distributed Processing <>ISCA International Symposium Computer Architecture
+1_19 J Smith;R Canal; A Gonzalez; ; J E Smith<>Very Low Power Pipelines using Significance Compression<> rd Int Symp Microarchitecture
+1_52 J Smith;Steven R Kunkel<>Pipelined Register-Storage Architectures <>ICPP International Conference Parallel Processing
+1_53 J Smith;Steven R Kunkel<>Optimal Pipelining in Supercomputers <>ISCA International Symposium Computer Architecture
+1_54 J Smith;Paklin Lam<>A Theory of Totally Self-Checking System Design <>IEEE Trans Computers
+1_55 J Smith;Corinna G Lee<>A Study of Partitioned Vector Register Files <>Supercomputing
+1_56 J Smith;Gernot Metze<>Strongly Fault Secure Logic Networks <>IEEE Trans Computers
+1_57 J Smith;S Nussbaum; J E Smith<>Modeling Superscalar Processors via Statistical Simulation<>PACT Parallel Computing Technologies International Conference Parallel Architectures and Compilation Techniques Barcelona
+1_90 J Smith;Stamatis Vassiliadis ; Yiannakis Sazeides<>The Performance Potential of Data Dependence Speculation &amp; Collapsing <>MICRO International Symposium Microarchitecture
+1_58 J Smith;Sebastien Nussbaum<>Statistical Simulation of Symmetric Multiprocessor Systems <>Annual Simulation Symposium
+1_91 J Smith;Shlomo Weiss<>Instruction Issue Logic for Pipelined Supercomputers <>ISCA International Symposium Computer Architecture
+1_59 J Smith;Subbarao Palacharla; Norman P Jouppi; J E Smith<>Complexity-Effective Superscalar Processors<> th Int Symp Computer Architecture
+1_92 J Smith;Shlomo Weiss<>Instruction Issue Logic in Pipelined Supercomputers <>IEEE Trans Computers
+1_93 J Smith;Shlomo Weiss<>PowerPC and Alpha : A Tale of Two RISCs <>IEEE Computer
+1_94 J Smith;Shlomo Weiss<>A Study of Scalar Compilation Techniques for Pipelined Supercomputers <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_95 J Smith;Shlomo Weiss<>A study of scalar compilation techniques for pipelined supercomputers <>ACM Trans Math Softw
+1_20 J Smith;J Cantin; M Lipasti; J E Smith<>Dynamic Verification of Cache Coherence Protocols<>Workshop Memory Performance issues Gothenburg
+1_21 J Smith;Jason F Cantin ; Mikko H Lipasti<>The complexity of verifying memory coherence <>SPAA ACM Symposium Parallel Algorithms and Architectures
+1_22 J Smith;A Dhodapkar; J E Smith<>Dynamic Microarchitecture Adaptation via Co-Designed Virtual Machines<> International Solid State Circuits Conference
+1_23 J Smith;Ashutosh Dhodapkar<>Managing Multi-Configuration Hardware via Dynamic Working Set Analysis <>ISCA International Symposium Computer Architecture
+1_24 J Smith;Ashutosh S Dhodapkar ; George Cai<>Integrated Performance, Power, and Thermal Modeling <>Journal of Circuits Systems and Computers
+1_25 J Smith;A Dhodapkar; J E Smith<>Saving and Restoring Implementation Contexts with co-Designed Virtual Machines<>Workshop Complexity Effective Design Gothenburg
+1_26 J Smith;R Espasa; M Valero; J E Smith<>Vector Architectures, Past, Present, Future<> International Conference Supercomputing
+1_27 J Smith;Roger Espasa; Mateo Valero; J E Smith<>Out of Order Vector Architectures<> th Int Symp Microarchitecture
+1_60 J Smith;Subbarao Palacharla<>Decoupling integer execution in superscalar processors <>MICRO International Symposium Microarchitecture
+1_28 J Smith;Greg Faanes ; Leonidas I Kontothanassis ; Michael L Scott ; Rabin A Sugumar<>Cache performance in vector supercomputers <>Supercomputing
+1_61 J Smith;Nicholas Y Pang ; Shlomo Weiss<>A Simulation Study of Decoupled Architecture Computers <>IEEE Trans Computers
+1_29 J Smith;Greg Faanes ; Rabin A Sugumar<>Vector instruction set support for conditional operations <>ISCA International Symposium Computer Architecture
+1_62 J Smith;Andrew R Pleszkun<>Implementing Precise Interrupts in Pipelined Processors <>IEEE Trans Computers
+1_63 J Smith;Andrew R Pleszkun<>Implementation of Precise Interupts in Pipelined Processors <> Years ISCA International Symposium Computer Architecture Retrospectives and Reprints
+1_64 J Smith;Andrew R Pleszkun<>Implementation of Precise Interrupts in Pipelined Processors <>ISCA International Symposium Computer Architecture
+1_65 J Smith;E Rotenberg; J E Smith<>Control Independence in Trace Processors<> Int Symp Microarchitecture
+1_66 J Smith;Eric Rotenberg ; Quinn Jacobson<>Path-Based Next Trace Prediction <>MICRO International Symposium Microarchitecture
+1_67 J Smith;Eric Rotenberg ; Erik Jacobsen<>Assigning Confidence to Conditional Branch Predictions <>MICRO International Symposium Microarchitecture
+1_68 J Smith;Eric Rotenberg; Quinn Jacobson; James E Smith<>A Study of Control Independence in Superscalar Processors<>Proceedings of the th Annual International Symposium High Performance Computer Architecture
+1_69 J Smith;Eric Rotenberg; Steve Bennett; J E Smith<>Trace Cache: A Low Latency Approach to High Bandwidth Instruction Fetching<> Annual International Symposium Microarchitecture
+1_30 J Smith;Antonio Gonz&aacute;lez ; Jos&eacute; Gonz&aacute;lez ; Juan L Arag&oacute;n<>Dual path instruction processing <>ICS International Conference Supercomputing
+1_31 J Smith;Antonio Gonz&aacute;lez ; Ramon Canal<>Very low power pipelines using significance compression <>MICRO International Symposium Microarchitecture
+1_32 J Smith;James R Goodman<>Instruction Cache Replacement Policies and Organizations <>IEEE Trans Computers
+1_33 J Smith;James R Goodman<>A Study of Instruction Cache Organizations and Replacement Policies<>ISCA International Symposium Computer Architecture
+1_34 J Smith;Sridhar Gopal; T N Vijaykumar; J E Smith; G S Sohi<>Speculative Versioning Cache<>Fourth Int Symp High Performance Computer Architecture
+1_35 J Smith;Timothy Heil ; J E Smith<>Concurrent Garbage Collection using Hardware Assisted Profiling<>International Symposium Memory Management
+1_36 J Smith;Timothy H Heil ; Zak Smith<>Improving Branch Predictors by Correlating on Data Values <>MICRO International Symposium Microarchitecture
+1_37 J Smith;Timothy Heil ; J E Smith<>Relational Profiling: Enabling Thread-Level Parallelism in Virtual Machines<> rd Int Symp Microarchitecture
+1_70 J Smith;Eric Rotenberg ; Steve Bennett<>A Trace Cache Microarchitecture and Evaluation <>IEEE Trans Computers
+1_38 J Smith;Timothy Heil; J E Smith<>Selective Dual Path Execution<>ECE Tech Report
+1_71 J Smith;Eric Rotenberg; Quinn Jacobson; Yiannakis Sazeides; ; J E Smith<>Trace Processors<> th Int Symp Microarchitecture
+1_39 J Smith;Craig S Holt<>Diagnosis of Systems with Asymmetric Invalidation <>IEEE Trans Computers
+1_72 J Smith;S&eacute;bastien Nussbaum<>Modeling Superscalar Processors via Statistical Simulation <>IEEE PACT Parallel Computing Technologies
+1_1 J Smith;<>Characterizing Computer Performance with a Single Number <>Commun ACM
+1_73 J Smith;S S Sastry; R Bodik; J E Smith<>Characterizing Coarse-Grained Reuse of Computation<> rd ACM Workshop Feedback Directed and Dynamic Optimization
+1_2 J Smith;<>Comments on ``Redundancy Testing in Combinational Networks'' <>IEEE Trans Computers
+1_74 J Smith;S Sastry; S Palacharla; J E Smith<>Exploiting Idle Floating-Point Resources for Integer Execution<> ACM Conference Programming Language Design and Implementation
+1_3 J Smith;<>Decoupled Access/Execute Computer Architectures <> Years ISCA International Symposium Computer Architecture Retrospectives and Reprints
+1_75 J Smith;S Sastry; R Bodik; J E Smith<>Rapid Profiling via Stratified Sampling<> th Int Symposium Computer Architecture
+1_4 J Smith;<>Detection of Faults in Programmable Logic Arrays <>IEEE Trans Computers
+1_76 J Smith;Yiannakis Sazeides<>Limits of Data Value Predictability <>International Journal of Parallel Programming
+1_5 J Smith;<>Dynamic Instruction Scheduling and the Astronautics ZS- <>IEEE Computer
+1_77 J Smith;Y Sazeides ; J E Smith<>Modeling Program Predictability<>Proceedings of the th International Symposium Computer Architecture
+1_6 J Smith;<>Measures of the Effectiveness of Fault Signature Analysis <>IEEE Trans Computers
+1_78 J Smith;Yiannakis Sazeides; J E Smith<>The Predictability of Data Values<> th Int Symp Microarchitecture
+1_7 J Smith;<>Universal System Diagnosis Algorithms <>IEEE Trans Computers
+1_8 J Smith;<>On Necessary and Sufficient Conditions for Multiple Fault Undetectability <>IEEE Trans Computers
+1_79 J Smith;Nikhil Sharma ; Quinn Jacobson ; Steve Bennett<>Control Flow Speculation in Multiscalar Processors <>HPCA International Symposium High Performance Computer Architecture
+1_9 J Smith;<>On Separable Unordered Codes <>IEEE Trans Computers
+1_40 J Smith;Craig S Holt<>Self-Diagnosis in Distributed Systems <>IEEE Trans Computers
+1_41 J Smith;Christopher C Hsiung ; Wei-Chung Hsu<>Future general purpose supercomputer architectures <>Supercomputing
+1_42 J Smith;Wei-Chung Hsu<>Performance of Cached DRAM Organizations in Vector Supercomputers <>ISCA International Symposium Computer Architecture
+1_43 J Smith;Wei-Chung Hsu<>A Performance Study of Instruction Cache Prefetching Methods <>IEEE Trans Computers
+1_44 J Smith;Wei-Chung Hsu<>Prefetching in Supercomputer Instruction Caches <>Supercomputing
+1_45 Alan Huang ; Alan Jay Smith ; Benjamin W Wah ; David C Douglas ; Doug DeGroot ; Harold S Stone ; Harry F Jordan ; Howard Jay Siegel ; J Robert Jamp ; Jack B Dennis ; James R Goodman ; Kenneth E Batcher ; Lawrence Snyder ; Russ Tuck ; Seth Abraham ; Thomas L Casavant ; Tse-Yun Feng ; William L Bain ; Yale N Patt<>Report of the Purdue Workshop on Grand Challenges in Computer Architecture for the Support of High Performance Computing <>J Parallel Distrib Comput
+1_46 J Smith;Erik Jacobsen; Eric Rotenberg; J E Smith<>Assigning Confidence to Conditional Branch Predictions<> th Annual International Symposium Microarchitecture
+1_47 J Smith;Q Jacobson; J E Smith<>Instruction Pre-Processing in Trace Processors<>Fifth Int Symp High Performance Computer Architecture
+1_80 J Smith;J E Smith; S Sastry; T Heil; T Bezenek<>Achieving High Performance via Co-Designed Virtual Machines<>International Workshop Innovative Architecture Maui High Performance Computer Center
+1_48 J Smith;Quinn Jacobson; Eric Rotenberg; J E Smith<>Path-Based Next Trace Prediction<> th Int Symp Microarchitecture
+1_81 J Smith;James E Smith; Greg Faanes; Rabin Sugumar<>Vector Instruction Set Support for Conditional Operations<>Proceedings of the th Annual International Symposium Computer Architecture
+1_49 J Smith;Quinn Jacobson ; James E Smith<>Trace Preconstruction<>Proceedings of the th Annual International Symposium Computer Architecture
+1_82 J Smith;J E Smith<>Instruction Level Distributed Processing<> th International Conference High Performance Computing HiPC Bangalore
+1_83 J Smith;Gurindar S Sohi ; James R Goodman<>Restricted Fetch&amp;Phi operations for parallel processing <>ICS International Conference Supercomputing
+1_84 J Smith;Gurindar S Sohi ; Sridhar Gopal ; T N Vijaykumar<>Speculative Versioning Cache <>HPCA International Symposium High Performance Computer Architecture
+1_85 J Smith;Gurindar S Sohi ; Sridhar Gopal ; T N Vijaykumar<>Speculative Versioning Cache <>IEEE Trans Parallel Distrib Syst
+1_86 J Smith;Sriram Vajapeyam<>Trace Processors: Moving to Fourth-Generation Microarchitectures <>IEEE Computer
+1_87 J Smith;Mateo Valero ; Roger Espasa<>Vector Architectures: Past, Present and Future <>International Conference Supercomputing
+1_88 J Smith;Mateo Valero ; Roger Espasa<>Out-of-Order Vector Architectures <>MICRO International Symposium Microarchitecture
+1_89 J Smith;B D Vanderwarn ; C M Rozewski ; D L Fowler ; G E Dermer ; James Laudon ; K R Scidmore ; S D Klinger<>The ZS- Central Processor <>ASPLOS Architectural Support for Programming Languages and Operating Systems
+1_10 J Smith;<>Instruction Level Distributed Processing <>HiPC
+1_11 J Smith;<>Instruction Level Distributed Processing: Adapting to Future Technology <>ISHPC High Performance Computing
+1_12 J Smith;<>Instruction-Level Distributed Processing <>IEEE Computer
+1_13 J Smith;<>On the Existence of Combinational Logic Circuits Exhibiting Multiple Redundancy <>IEEE Trans Computers
+1_14 J Smith;<>Retrospective: Decoupled Access/Execute Architectures <> Years ISCA International Symposium Computer Architecture Retrospectives and Reprints
+1_15 J Smith;<>Retrospective: Implementing Precise Interrupts in Pipelined Processors <> Years ISCA International Symposium Computer Architecture Retrospectives and Reprints
+20_1 J Smith; Colin Potts ; Kenji Ota ; Kenji Takahashi ; Vinay Kumar<>Hypermedia Support for Collaboration in Requirements Analysis <>ICRE
+20_2 J Smith; Kenji Takahashi<>Multimedia Architecture to Support Requirements Analysis <>IDMS Interactive Distributed Multimedia Systems and Telecommunication Services
+20_3 J Smith; Colin Potts ; K Ota ; Kenji Takahashi<>An evaluation of inquiry-based requirements analysis for an Internet service <>RE IEEE Int Conf Requirements Engineering
+20_4 J Smith; Feng Cao ; Kenji Takahashi<>An Architecture of Distributed Media Servers for Supporting Guaranteed QoS and Media Indexing <>ICMCS International Conference Multimedia Computing and Systems
+21_1 J Smith; Edmund K Burke ; Jonathan Hirst ; Natalio Krasnogor ; Robert Carr ; William Hart<>Alignment Of Protein Structures With A Memetic Evolutionary Algorithm <>GECCO The Genetic and Evolutionary Computation Conference
+21_2 J Smith; Edmund K Burke<>A Memetic Algorithm to Schedule Planned Maintenance for the National Grid <>ACM Journal of Experimental Algorithms
+21_3 J Smith; <>On Appropriate Adaptation Levels for the Learning of Gene Linkage <>Genetic Programming and Evolvable Machines
+22_1 J Smith; Giovanni De Micheli<>Polynomial methods for component matching and verification <>ICCAD International Conference Computer Aided Design
+22_2 J Smith; Giovanni De Micheli<>Automated Composition of Hardware Components <>DAC Design Automation Conference
+22_3 J Smith; Giovanni De Micheli<>Polynomial Methods for Allocating Complex Components <>DATE Design Automation and Test Europe
+23_1 J Smith; <>CELLBASE: a database management system for the control of cell line storage <>Computer Applications the Biosciences
+23_2 J Smith; D J Thomas<>Quantitative analysis of one-dimensional gel electrophoresis profiles <>Computer Applications the Biosciences
+23_3 J Smith; <>OLIGOGET - a computerized database system for controlling oligonucleotide production <>Computer Applications the Biosciences
+24_30 J Smith;Jonathan D H Smith; A B Romanowska<>Distributive lattices<>generalizations and related non associative algebras J Math
+24_31 J Smith;Jonathan D H Smith; A Pilitowska ; A B Romanowska<>Affine spaces and algebras of subalgebras<>Alg Univ
+24_32 J Smith;Jonathan D H Smith;<>Finite codes and groupoid words<>Eur J Comb
+24_33 J Smith;Jonathan D H Smith;<>Finite distributive quasigroups<>Math Proc Camb Phil Soc
+24_34 J Smith;Jonathan D H Smith;<>Finite equationally complete entropic quasigroups<>Contributions to General Algebra eds H Kautschitsch W B M ller W N bauer Johannes Heyn Klagenfurt
+24_35 J Smith;Jonathan D H Smith; A B Romanowska<>From affine to projective geometry via convexity<> Universal Algebra and Lattice Theory ed S D Comer Springer Lecture Notes Mathematics
+24_36 J Smith;Jonathan D H Smith; F A Hummer<>Greedy loop transversal codes<>metrics and lexicodes J Comb Math Comb Comp
+24_37 J Smith;Jonathan D H Smith;<>Greedy loop transversal codes conference report <>Proceedings of the Fortieth Annual Allerton Conference Communication Control and Computing University of
+24_38 J Smith;Jonathan D H Smith; D -H Choi<>Greedy loop transversal codes for correcting error bursts<>Discrete Math Available online
+24_39 J Smith;Jonathan D H Smith;<>Homotopy and semisymmetry of quasigroups<>Alg Univ Available online
+24_40 J Smith;Jonathan D H Smith; M F Hobart<>Vector lattices and rooted trees<>Alg Univ
+24_41 J Smith;Jonathan D H Smith; M A Akivis<>V V Goldberg<>the occasion of his th birthday Webs and Quasigroups
+24_42 J Smith;Jonathan D H Smith; M A Akivis<>Vladislav V Goldberg<>the occasion of his th birthday and years of scientific activity Webs and Quasigroups
+24_43 J Smith;Jonathan D H Smith;<>A left loop on the -sphere<>J Alg Available online
+24_44 J Smith;Jonathan D H Smith; F -L Hsu; F A Hummer<>Logarithms, syndrome functions and the information rates of greedy loop transversal codes<>J Comb Math Comb Comp
+24_45 J Smith;Jonathan D H Smith;<>Loops and quasigroups: Aspects of current work and prospects for the future<>Comment Math Univ Carol Available online
+24_46 J Smith;Jonathan D H Smith;<>Loop transversal codes<>Cubo invited expository paper
+24_47 J Smith;Jonathan D H Smith;<>Loop transversals to linear codes<>J Comb Info and System Sciences
+24_48 J Smith;Jonathan D H Smith;<>Quasigroup actions: Markov chains<>pseudoinverses and linear representations Southeast Asia Bulletin of Mathematics invited paper
+24_49 J Smith;Jonathan D H Smith;<>Quasigroup homogeneous spaces and linear representations<>J Alg Available online
+24_100 J Smith;Jonathan D H Smith;<>Association schemes<>superschemes and relations invariant under permutation groups Eur J Comb Available online
+24_101 J Smith;Jonathan D H Smith; J D Phillips<>The endocenter and its applications to quasigroup representation theory<>Comm Math Univ Carol Available online
+24_1 J Smith;<>Modal Theory, Partial Orders, and Digital Geometry <>Mathematical Foundations of Programming Semantics
+24_102 J Smith;Jonathan D H Smith;<>Three key questions about complex systems<> Semiotics Evolution Energy and Development pages electronic journal Click here for local copy of paper
+24_2 J Smith;Dug-Hwan Choi<>Greedy Loop Transversal Codes for Correcting Error Burst <>Discrete Mathematics
+24_103 J Smith;Jonathan D H Smith;<>Time in biological systems<> Studies the Structure of Time eds R Buccheri V di Ges M Saniga Kluwer New
+24_3 J Smith;Jin-Young Choi<>On the Unimodality and Combinatorics of Bessel Numbers <>Discrete Mathematics
+24_104 J Smith;Jonathan D H Smith;<>Time in biology and physics<> The Nature of Time Geometry Physics and Perception eds R Buccheri M Saniga W M Stuckey Kluwer Dordrecht
+24_4 J Smith;Jonathan D H Smith; A B Romanowska<>Bisemilattices of subsemilattices<>J Algebra
+24_105 J Smith;Jonathan D H Smith;<>Two enumeration principles for free algebras<>Acta Univ Carolinae Math et Phys
+24_5 J Smith;Jonathan D H Smith; A A Ungar<>Abstract space-times and their Lorentz groups<>J Math Phys Available online
+24_106 J Smith;Jonathan D H Smith; J Y Choi<>Tri-restricted numbers and powers of permutation representations<>J Comb Math Comb Comp
+24_6 J Smith;Jonathan D H Smith; K W Johnson<>Characters of finite quasigroups<>Eur J Comb
+24_7 J Smith;Jonathan D H Smith; K W Johnson ; S Y Song<>Characters of finite quasigroups VI: critical examples and doubletons<>Eur J Comb
+24_8 J Smith;Jonathan D H Smith; K W Johnson<>Characters of finite quasigroups V: linear characters<>Eur J Comb
+24_9 J Smith;Jonathan D H Smith; K W Johnson<>Characters of finite quasigroups IV: products and superschemes<>Eur J Comb
+24_50 J Smith;Jonathan D H Smith;<>Quasigroup permutation representations<>Quasigroups and Related Systems Online abstract
+24_51 J Smith;Jonathan D H Smith;<>Quasigroups<>association schemes and operators almost periodic functions Algebraic Extremal and Metric Combinatorics eds M M Deza P Frankl and I G University Press
+24_52 J Smith;Jonathan D H Smith;<>Quasigroups and quandles<>Discrete Math Available online
+24_53 J Smith;Jonathan D H Smith; J D Phillips<>Quasiprimitivity and quasigroups<>Bull Australian Math Soc
+24_54 J Smith;Jonathan D H Smith; R Rossmanith<>Alternative approaches to alternative algebras<>Acta Sci Math
+24_55 J Smith;Jonathan D H Smith; A B Romanowska<>Embedding sums of cancellative modes into functorial sums of affine spaces<> Unsolved Problems Mathematics for the st Century A Tribute to Kiyoshi Is ki s th Birthday eds J M Abe and S Tanaka IOS Press
+24_56 J Smith;Jonathan D H Smith;<>A macroscopic approach to demography<>J Math Biol Available online
+24_57 J Smith;Jonathan D H Smith;<>Modal theory<>partial orders and digital geometry The Mathematical Foundations of Programming Semantics ed A Melton Springer Lecture Notes Computer Science
+24_58 J Smith;Jonathan D H Smith;<>Modes and Modals<>Discuss Math Online abstract
+24_59 J Smith;Jonathan D H Smith;<>Multilinear algebras and Lie's theorem for formal n-loops<>Arch Math
+24_60 J Smith;Jonathan D H Smith;<>Minimal trees of given search number<>Discrete Math
+24_61 J Smith;Jonathan D H Smith;<>Exterior algebra representations of commutative Moufang loops<>Arch Math
+24_62 J Smith;Jonathan D H Smith;<>Induced class functions are conditional expectations<>Eur J Comb
+24_63 J Smith;Jonathan D H Smith;<>In defence of eponymy<>Math Intelligencer
+24_64 J Smith;Jonathan D H Smith;<>Information theory and its applications to biology<>finance and physics invited conference report Entropy electronic journal
+24_65 J Smith;Jonathan D H Smith;<>Wreath products along the period-doubling route to chaos<>Ergodic Th and Dynamical Systems
+24_66 J Smith;Jonathan D H Smith; J Y Choi<>On the combinatorics of multi-restricted numbers<>Ars Combinatoria
+24_67 J Smith;Jonathan D H Smith;<>On the dimension of finite permutation group actions<>Beitr ge zur Algebra und Geometrie Available online
+24_68 J Smith;Jonathan D H Smith;<>On the evolution of semiotic capacity<> Semiotics Evolution Energy ed E Taborsky Shaker Verlag Aachen
+24_69 J Smith;Jonathan D H Smith; G Czédli<>On the uniqueness of Mal'cev polynomials<>Colloq Math Soc J nos Bolyai Finite Algebra and Multiple valued Logic Szeged
+24_70 J Smith;Jonathan D H Smith;<>On the nilpotence class of commutative Moufang loops<>Math Proc Camb Phil Soc
+24_71 J Smith;Jonathan D H Smith; J Y Choi<>On the unimodality and combinatorics of Bessel numbers<>Discrete Math Available online
+24_72 J Smith;Jonathan D H Smith; A B Romanowska<>On the structure of barycentric algebras<>J Math
+24_73 J Smith;Jonathan D H Smith; A B Romanowska<>On the structure of subalgebra systems of idempotent entropic algebras<>J Alg
+24_74 J Smith;Jonathan D H Smith; A B Romanowska<>On the structure of semilattice sums<>Czech J Math
+24_75 J Smith;Jonathan D H Smith; K W Johnson<>A note on character induction in association schemes<>Eur J Comb
+24_76 J Smith;Jonathan D H Smith;<>Entropy<>character theory and centrality of finite quasigroups Math Proc Camb Phil Soc
+24_77 J Smith;Jonathan D H Smith; D R Brooks<>Entropy and information in evolving biological systems<>Biology and Philosophy
+24_78 J Smith;Jonathan D H Smith; M Saniga<>Plane cubic curves<>three webs and the dimensionality of space time Noetic J
+24_79 J Smith;Jonathan D H Smith;<>Permutation representations of loops<>J Alg Available online
+24_80 J Smith;Jonathan D H Smith;<>Orbit decomposition of subset actions<>Discrete Math Available online
+24_81 J Smith;Jonathan D H Smith;<>Regular orbits in powers of permutation representations<>Arch Math Available online
+24_82 J Smith;Jonathan D H Smith; X R Shen<>Representation theory of comtrans algebras<>J Pure and Appl Alg
+24_83 J Smith;Jonathan D H Smith; B Im<>Orthogonal ternary algebras and Thomas sums<>Alg Colloq
+24_84 J Smith;Jonathan D H Smith; L Thur<>Subdifferentiation of monotone functions from semilattices to distributive lattices<>Order
+24_85 J Smith;Jonathan D H Smith; A B Romanowska<>Subalgebra systems of idempotent entropic algebras<>J Alg
+24_86 J Smith;Jonathan D H Smith;<>A second grammar of associators<>Math Proc Camb Phil Soc
+24_87 J Smith;Jonathan D H Smith;<>Skein polynomials and entropic right quasigroups<>Demonstr Math
+24_88 J Smith;Jonathan D H Smith;<>Some observations on the concepts of information-theoretic entropy and randomness<> Entropy electronic journal
+24_89 J Smith;Jonathan D H Smith; A B Romanowska<>Semilattice-based dualities<>Studia Logica
+24_10 J Smith;Jonathan D H Smith; K W Johnson<>Characters of finite quasigroups III: quotients and fusion<>Eur J Comb
+24_11 J Smith;Jonathan D H Smith; K W Johnson<>Characters of finite quasigroups II: induced characters<>Eur J Comb
+24_12 J Smith;Jonathan D H Smith;<>A coalgebraic approach to quasigroup permutation representations<>Alg Univ Available online
+24_13 J Smith;Jonathan D H Smith;<>Classical and quantum statistical mechanics of permutation representations<> Groups Korea Proceedings of the International Conference Pusan National University Pusan Korea eds Y G Baik D L Johnson A C Kim Gruyter
+24_14 J Smith;Jonathan D H Smith;<>A class of quasigroups solving a problem of ergodic theory<>Comment Math Univ Carol Available online
+24_15 J Smith;Jonathan D H Smith;<>Combinatorial characters of quasigroups<> Coding Theory and Design Theory Part I Coding Theory ed D Ray Chaudhuri Springer New
+24_16 J Smith;Jonathan D H Smith; A B Romanowska<>Communicating processes and entropic algebras<>Fund Informaticae
+24_17 J Smith;Jonathan D H Smith;<>Commutative Moufang loops and Bessel functions<>Inv Math
+24_18 J Smith;Jonathan D H Smith;<>Commutative Moufang Loops: the first years<>Algebras Groups and Geometries
+24_19 J Smith;Jonathan D H Smith;<>Competition and the canonical ensemble<>Math Biosci Available online
+24_90 J Smith;Jonathan D H Smith; X R Shen<>Simple algebras of Hermitian operators<>Arch Math
+24_91 J Smith;Jonathan D H Smith; X R Shen<>Simple algebras of invariant operators<>Alg Colloq
+24_92 J Smith;Jonathan D H Smith; X R Shen<>Simple multilinear algebras<>rectangular matrices and Lie algebras J Alg Available online
+24_93 J Smith;Jonathan D H Smith; T S R Fuad<>Simple multilinear algebras and hermitian operators<>Comment Math Univ Carol Available online
+24_94 J Smith;Jonathan D H Smith; B Im<>Simple ternary Grassman algebras<>Alg Colloq
+24_95 J Smith;Jonathan D H Smith;<>Speed's orbit problem: variations on themes of Burnside<>Eur J Comb Available online
+24_96 J Smith;Jonathan D H Smith; A Dharwadker<>Split extensions and representations of Moufang loops<>Comm Alg
+24_97 J Smith;Jonathan D H Smith; D -H Choi<>Support functions of general convex sets<>Alg Univ
+24_98 J Smith;Jonathan D H Smith; A B Romanowska<>Support functions and ordinal products<>Geom Dedicata
+24_99 J Smith;Jonathan D H Smith; A B Romanowska<>Separable modes<>Alg Univ
+24_20 J Smith;Jonathan D H Smith; X R Shen<>Comtrans algebras and bilinear forms<>Arch Math
+24_21 J Smith;Jonathan D H Smith;<>Comtrans algebras and their physical applications<>Banach Center Publications
+24_22 J Smith;Jonathan D H Smith; K B Athreya<>Canonical distributions and phase transitions<>Discuss Math Prob and Stat Online abstract
+24_23 J Smith;Jonathan D H Smith;<>Canonical ensembles<>evolution of competing species and the arrow of time Evolutionary Systems Biological and Epistemological Perspectives Selection and Self organization eds G van Vijver S N Salthe and M Delpos Kluwer Dordrecht
+24_24 J Smith;Jonathan D H Smith;<>Continued fractions<>fibered automata and a theorem of Multiple Valued Logic
+24_25 J Smith;Jonathan D H Smith;<>Centraliser rings of multiplication groups on quasigroups<>Math Proc Camb Phil Soc
+24_26 J Smith;Jonathan D H Smith; A B Romanowska<>Differential groupoids<> Contributions to General Algebra eds D Dorninger G Eigenthaler H K Kaiser and W B M ller H lder Pichler Tempsky
+24_27 J Smith;Jonathan D H Smith; K Pszczola ; A B Romanowska<>Duality for some free modes<>Discuss Math Gen Alg and Appl Online abstract
+24_28 J Smith;Jonathan D H Smith; A B Romanowska<>Duality for semilattice representations<>J Pure Appl Algebra Available online
+24_29 J Smith;Jonathan D H Smith;<>Demography and the canonical ensemble<>Math Biosci Available online
+25_1 J Smith; Vijay S Bobba<>A parameter-driven router <>DAC Design Automation Conference
+25_2 J Smith; Carl Pomerance ; S S Wagstaff<>New Ideas for Factoring Large Integers <>CRYPTO International Crytology Conference
+25_3 J Smith; Carl Pomerance ; Randy Tuler<>A Pipeline Architecture for Factoring Large Integers with the Quadratic Sieve Algorithm <>SIAM Society for Industrial and Applied Mathematics J Comput
+26_1 J Smith; <>User's guide for the Shadowy Crystal Ball: practical tips and techniques for planning the future <>SIGUCCS Special Interest Group University and Computing Services
+26_2 J Smith; <>Making standards work: a whole-product approach <>SIGUCCS Special Interest Group University and Computing Services
+27_1 J Smith; Eric Rotenberg ; Quinn Jacobson ; Yiannakis Sazeides<>Trace Processors <>MICRO International Symposium Microarchitecture
+27_2 J Smith; <>Multiscalar As a New Architecture Paradigm <>ACM Comput Surv
+28_1 S G Penny; J Smith;; P Sengers<>Traces: Embodied Immersive Interaction with Semi Autonomous Avatars<>Convergence the Journal of Research into New MediaTechnologies
+28_2 S G Penny; J Smith;; A Bernhardt<>Traces: Wireless full body tracking in the CAVE<>Ninth International Conference Artificial Reality and Telexistence ICAT
+28_3 J Smith; A Witkin;; D Baraff<>Fast and Controllable Simulation of the Shattering of Brittle Objects<>Computer Graphics Forum
+28_4 J Smith; J K Hodgins; I Oppenheim; ; A Witkin<>Modeling Truss Structures using Optimizationa<>SIGGRAPH Special Interest Group Computer Graphs
+28_5 J Smith<>Three Applications of Optimization in Computer Graphics<>doctoral dissertation tech report CMU TR Robotics Institute Carnegie Mellon University
+28_6 J Smith;Andrew P Witkin ; Irving Oppenheim ; Jessica K Hodgins<>Creating models of truss structures with optimization <>ACM Trans Graph
+28_7 J Smith;Andrew P Witkin ; David Baraff<>Fast and Controllable Simulation of the Shattering of Brittle Objects <>Comput Graph Forum
+29_1 J Smith; A Kasprzyk ; A Rust ; A Stabenau ; A Ureta-Vidal ; C Melsopp ; D Barker ; E Eyras ; E Mongin ; E Schmidt ; E Stupka ; Ewan Birney ; G Cameron ; G Slater ; H Lehvaslaiho ; I Vastrik ; J Gilbert ; J Stalker ; James A Cuff ; L Clark ; L Huminiecki ; M Hammond ; M R Pocock ; Michele E Clamp ; P Lijnzaad ; R Pettett ; Richard Durbin ; S Potter ; S Searle ; T Cox ; T Down ; Tim J P Hubbard ; V Curwen ; W Spooner ; Y Chen<>The Ensembl genome database project <>Nucleic Acids Research
+29_2 J Smith; A Kasprzyk ; A Rust ; A Stabenau ; A Ureta-Vidal ; C Melsopp ; D Andrews ; D Barker ; D Keefe ; E Eyras ; E Mongin ; E Schmidt ; E Stupka ; Ewan Birney ; G Cameron ; G Slater ; H Lehvaslaiho ; I Vastrik ; J Gilbert ; J Stalker ; James A Cuff ; L Clark ; M Clamp ; M Hammond ; P Bevan ; R Pettett ; Richard Durbin ; S Potter ; S Searle ; T Cox ; T Down ; Tim J P Hubbard ; V Curwen ; V Iyer ; W Spooner ; Y Chen<>Ensembl : accommodating comparative genomics <>Nucleic Acids Research
+30_1 J Smith; <>The interaction of technology, economics, &amp; culture as a basis for understanding academic computing support needs <>SIGUCCS Special Interest Group University and Computing Services
+30_2 J Smith; George Town ; James A Haskett ; Susan F Stager<>Practical management of computer ethics: computer center and computer science department approaches <>SIGUCCS Special Interest Group University and Computing Services
+31_1 J Smith; Eric Rotenberg ; Quinn Jacobson ; Yiannakis Sazeides<>Trace Processors <>MICRO International Symposium Microarchitecture
+31_2 J Smith; <>Multiscalar As a New Architecture Paradigm <>ACM Comput Surv
+3_100 J Smith;A F Smeaton; P Over; C J Costello; A P de Vries; D Doermann; A Hauptmann; M E Rorvig; J R Smith; L Wu<>The TREC Video Track: Information Retrieval on Digital Video Information,<>Proc European Conf Digital Libraries ECDL European Conference Digital Libraries
+3_101 J Smith;J R Smith; A Benitez<>Conceptual Modeling of Audio-Visual Content,<>Proc IEEE Intl Conf Multimedia and Expo ICME New
+3_102 J Smith;J R Smith<>Content-based Access of Image and Video Libraries,<>Encyclopedia of Library and Information Science Marcel Dekker Inc Eds A
+3_103 J Smith;J R Smith<>Content-based Query by Color in Image Databases,<>Image Databases John Wiley Sons Inc Eds L D Bergman and V Castelli
+3_50 J Smith;Anant Jhingran ; Chung-Sheng Li ; Vittorio Castelli<>Dynamic Assembly of Views in Data Cubes <>PODS Symposium Principles of Database Systems
+3_104 J Smith;J R Smith; R Mohan; C -S Li<>Content-based transcoding of images in the Internet,<>Proc IEEE Intl Conf Image Processing
+3_51 J Smith;C -S Li; V Castelli; J R Smith<>Combining Indexing and Learning in Iterative Refinement,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science and Technology Storage Retrieval for Image and Video Databases VII San Jose Computer Animation
+3_105 J Smith;J R Smith; C -S Li<>Decoding Image Semantics Using Composite Region Templates,<>IEEE Workshop Content based Access to Image and Video Databases Fort Collins
+3_52 J Smith;C -S Li; J R Smith; V Castelli; L D Bergman<>Comparing Texture Feature Sets for Retrieving Core Images in Petroleum Applications,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science and Technology Storage Retrieval for Image and Video Databases VII San Jose Computer Animation
+3_106 J Smith;J R Smith<>Digital Video Libraries and the Internet,<>IEEE Communications Mag Special issue the Next Generation Internet
+3_53 J Smith;Chung-Sheng Li ; Rakesh Mohan<>Content-based Transcoding of Images in the Internet <>ICIP International Conference Image Processing
+3_107 J Smith;J R Smith; V Castelli; C -S Li<>Adaptive Storage and Retrieval of Large Compressed Images,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science and Technology Storage Retrieval for Image and Video Databases VII San Jose Computer Animation
+3_54 J Smith;Chung-Sheng Li<>Adaptive Synthesis in Progressive Retrieval of Audio-Visual Data <>IEEE International Conference Multimedia and Expo I
+3_108 J Smith;J R Smith; C -S Li<>Adaptive Synthesis in Progressive Retrieval of Audio-Visual Data,<>Proc IEEE Intl Conf Multimedia and Expo ICME New
+3_55 J Smith;Chung-Sheng Li ; Rakesh Mohan<>Adapting Content to Client Resources in the Internet <>ICMCS International Conference Multimedia Computing and Systems
+3_109 J Smith;J R Smith; A B Benitez<>Descriptions of Collections and Models of Audio-Visual Content,<>MPEG Multimedia Content Description Language John Wiley Sons Inc Eds P Salembier B S Manjunath T Sikora
+3_56 J Smith;Chung-Sheng Li ; Rakesh Mohan<>Adapting Multimedia Internet Content for Universal Access <>IEEE Transactions Multimedia
+3_57 J Smith;C -S Li; Y C Chang; J R Smith; L Bergman<>Framework for efficient processing of content-based fuzzy Cartesian queries,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science and Technology Storage Retrieval for Image and Video Databases San Jose Computer Animation
+3_58 J Smith;Chung-Sheng Li ; Lawrence D Bergman ; Yuan-Chi Chang<>Model-Based Multi-Modal Information Retrieval from Large Archives <>ICDCS International Conference Distributed Computing Systems Workshop of Knowledge Discovery and Data Mining the World Wide Web
+3_59 J Smith;C -S Li; L D Bergman; V Castelli; J R Smith; A Thomasian<>Model-based mining of remotely senses data for environmental and public health applications,<>Advances Biomedical Image Databases Kluwer Academic Publishers Eds S Wong
+3_110 J Smith;J R Smith; V Castelli; A Jhingran; C -S Li<>Dynamic Assembly of Views in Data Cubes, Proc ACM Principles of Database Systems PODS ,<>
+3_111 J Smith;J R Smith; S -F Chang<>Frequency and Spatially Adaptive Wavelet Packets,<>Proc IEEE Intl Conf Acoustics Speech and Signal Processing ICASSP
+3_112 J Smith;J R Smith; S -F Chang<>Joint adaptive space and frequency graph basis selection,<>Proc IEEE Intl Conf Image Processing
+3_113 J Smith;J R Smith<>Video Indexing and Retrieval using MPEG- ,<>The Handbook of Image and Video Databases Design and Applications CRC Press Eds B Furht O Marques
+3_60 J Smith;C -S Li; R Mohan; J R Smith<>Multimedia Content Description in the InfoPyramid,<>Proc IEEE Intl Conf Acoustics Speech and Signal Processing ICASSP
+3_114 J Smith;J R Smith<>VideoZoom Spatio-temporal video browser,<>IEEE Trans Multimedia
+3_61 J Smith;Chung-Sheng Li<>An Adaptive View Element Framework for Multi-Dimensional Data Management <>CIKM International Conference Information and Knowledge Management
+3_115 J Smith;J R Smith<>VideoZoom: a spatio-temporal video browser for the Internet,<>Proc SPIE The International Society for Optical Engineering Photonics East Multimedia Storage and Archiving Systems III
+3_62 J Smith;C -S Li; C Aggrarwal; M Campbell; Y -C Chang; G Glass; V Iyengar; M Joshi; C -Y Lin; M Naphade; J R Smith; B Tseng; M Wang; K -L Wu; P S Yu<>EPI-SPIRE: A Bio-surveillance System for Environmental and Public Health Activity Monitoring,<>Proc IEEE Intl Conf Multimedia and Expo ICME IEEE Meta Data Conference
+3_116 J Smith;J R Smith; C -Y Lin; M Naphade<>Video Texture Indexing using Spatio-temporal Wavelets,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing
+3_63 J Smith;Chung-Sheng Li ; Rakesh Mohan<>Scalable multimedia delivery for pervasive computing <>ACM Multimedia
+3_117 J Smith;J R Smith; S -F Chang<>Visually Searching the Web for Content,<>IEEE Multimedia Mag
+3_64 J Smith;Chung-Sheng Li ; Richard Han ; Yuan-Chi Chang<>Secure Transcoding of Internet Content <>JCIS Joint Conference Information Sciences
+3_118 J Smith;J R Smith; B Lugeon<>A Visual Annotation Tool for Multimedia Content Description,<>Proc SPIE The International Society for Optical Engineering Photonics East Internet Multimedia Management Systems
+3_65 J Smith;Chung-Sheng Li ; Lawrence D Bergman ; Vittorio Castelli<>Sequential Processing for Content-Based Retrieval of Composite Objects <>Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering
+3_119 J Smith;J R Smith; S -F Chang<>VisualSEEk: a fully automated content-based image query system,<>Proc ACM Intl Conf Multimedia
+3_66 J Smith;Chung-Sheng Li ; Lawrence D Bergman ; Vittorio Castelli<>SPIRE: a digital library for scientific information <>Int J Digital Libraries
+3_67 J Smith;Chung-Sheng Li ; Lawrence D Bergman ; Vittorio Castelli<>SPIRE: A Progressive Content-Based Spatial Image Retrieval Engine <>SIGMOD International Conference Management of Data Conference
+3_68 J Smith;Chung-Sheng Li ; Lawrence D Bergman ; Vittorio Castelli<>Search and Progressive Image Retrieval from Distributed Image/Video Databases: The SPIRE Project <>ECDL European Conference Digital Libraries
+3_69 J Smith;Chung-Sheng Li ; Yuan-Chi Chang<>Searching dynamically bundled goods with pairwise relations <>ACM Conference Electronic
+3_120 J Smith;J R Smith; S -F Chang<>Local Color and Texture Extraction and Spatial Query,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing Lausanne CH
+3_121 J Smith;J R Smith; S -F Chang<>Quadtree Segmentation for Texture-Based Image Query,<>Proc ACM Intl Conf Multimedia
+3_122 J Smith;J R Smith<>Quantitative Assessment of Image Retrieval Evaluation,<>Journal of the American Society for Information Science Special issue Perspectives Image Access Bridging Multiple Needs and Multiple Perspectives
+3_123 J Smith;J R Smith; C -Y Lin; M R Naphade; A Natsev; B L Tseng<>Learning Concepts from Video Using Multi-modal Features,<>Tyrrhenian International Workshop Digital Communications Capri
+3_70 J Smith;C -S Li; J R Smith; V Castelli;<>S-STIR: Similarity Search Through Iterative Refinement,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science and Technology Storage Retrieval for Image and Video Databases San Jose Computer Animation
+3_124 J Smith;J R Smith<>Query Vector Projection Access Method,<>Proc IS T SPIE The International Society for Optical Engineering Storage Retrieval for Still Image and Video Databases VII San Jose Computer Animation
+3_71 J Smith;Chung-Sheng Li ; Lawrence D Bergman ; Ming-Ling Lo ; Vittorio Castelli ; Yuan-Chi Chang<>The Onion Technique: Indexing for Linear Optimization Queries <>SIGMOD International Conference Management of Data Conference
+3_125 J Smith;J R Smith; S -F Chang<>Querying by Color Regions using the VisualSEEk Content-based Visual Query System,<>Intelligent Multimedia Information Retrieval AAA Press MIT Press Eds M T Maybury
+3_72 J Smith;C -Y Lin; B Tseng; M Naphade; A Natsev; J R Smith;<> VideoAL: A end-to-end MPEG- video automatic labeling system, <>IEEE Intl Conf Image Processing ICIP International Conference Image Processing Barcelona ES
+3_126 J Smith;J R Smith; C -S Li<>Image classification and querying using composite region templates,<>Journal of Computer Vision and Pattern Recognition
+3_73 J Smith;C -Y Lin; B Tseng; J R Smith<>Improved Text Overlay Detection in Videos Using a Fusion-Based Classifier,<>Proc IEEE Intl Conf Multimedia and Expo ICME IEEE Meta Data Conference
+3_127 J Smith;J R Smith<>Image Retrieval Evaluation,<>IEEE Workshop Content based Access to Image and Video Databases Fort Collins
+3_74 J Smith;Jianhao Meng ; Shih-Fu Chang<>Efficient Techniques for Feature-Based Image/Video Access and Manipulation <>Data Processing Clinic
+3_128 J Smith;J R Smith; Y -C Chang; C -S Li<>Multi-object, Multi-feature Search using MPEG- ,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing Thesaloniki GR
+3_75 J Smith;Horace J Meng ; Shih-Fu Chang<>Exploring Image Functionalities in WWW Applications- Development of Image/Video Search and Editing Engines <>ICIP International Conference Image Processing
+3_129 J Smith;J R Smith<>Multimedia content management in the MPEG- framework,<>Proc SPIE The International Society for Optical Engineering ITCOM Internet Multimedia Management Systems III
+3_76 J Smith;R Mohan; J R Smith; C-S Li<>Content Adaptation Framework: Bringing the Internet to Information Appliances,<>Proc GLOBECOM
+3_77 J Smith;R Mohan; J R Smith; C-S Li<>Adapting Content to Client Resources in the Internet,<>Proc IEEE Intl Conf Multimedia Comp Systems
+3_78 J Smith;R Mohan; J R Smith; C -S Li<>Adapting Multimedia Internet Content for Universal Access,<>IEEE Trans Multimedia
+3_79 J Smith;R Mohan; J R Smith; C -S Li<>Multimedia Content Customization for Universal Acccess,<>Proc SPIE The International Society for Optical Engineering Photonics East Multimedia Storage and Archiving Systems III
+3_130 J Smith;J R Smith<>Multimedia Databases,<>IEEE Conf Web Age Information Management Xian CN
+3_131 J Smith;J R Smith; C -Y Lin; B Tseng<>Multimedia resource transcoding for MPEG- digital item adaptation,<>Proc SPIE The International Society for Optical Engineering ITCOM Internet Multimedia Management Systems IV
+3_132 J Smith;J R Smith; M Naphade; A Natsev<>Multimedia Semantic Indexing using Model Vectors,<>Proc IEEE Intl Conf Multimedia and Expo ICME IEEE Meta Data Conference
+3_133 J Smith;J R Smith<>Multimedia Systems and Signal Processing,<>Electrical Engineering Handbook Academic Press Eds Yih Fang
+3_80 J Smith;M Naphade; A Jaimes; C -Y Lin; A Natsev; J R Smith; B Tseng<>A Framework for Moderate Vocabulary Semantic Visual Concept Detection,<>Proc IEEE Intl Conf Multimedia and Expo ICME IEEE Meta Data Conference
+3_134 J Smith;J R Smith; S -F Chang<>Multi-stage Classification of Images from Features and Related Text,<>Proc Fourth DELOS workshop Pisa
+3_81 J Smith;Milind R Naphade<>A Hybrid Framework for Detecting the Semantics of Concepts and Context <>CIVR International Conference Image and Video Retrieval
+3_135 J Smith;J R Smith<>MPEG- Multimedia Content Description Interface Standard,<>MPEG Awareness Event Sydney AU
+3_82 J Smith;M Naphade; J R Smith<>Learning Visual Models of Semantic Concepts,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing Barcelona ES
+3_136 J Smith;J R Smith; B S Manjunath; N Day<>MPEG- Multimedia Content Description Interface Standard,<>IEEE Intl Conf Consumer Electronics ICCE Los Angeles Computer Animation
+3_83 J Smith;M Naphade; J R Smith<>Learning Regional Semantic Concepts from Incomplete Annotations,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing Barcelona ES
+3_137 J Smith;J R Smith<>MPEG- Multimedia Content Description Standard,<>Multimedia Information Retrieval and Management Springer Eds D Feng W C Siu H Zhang
+3_84 M Naphade; C Lin; J Smith<>Learning Semantic Multimedia Representations from a Small Set of Examples,<>Proc IEEE Intl Conf Multimedia and Expo ICME Lausanne CH
+3_138 J Smith;J R Smith<>MPEG- 's Path for an Intelligent Multimedia Future,<>Proc IEEE Intl Conf Information Technology for Communications and Coding ITCC Las Vegas
+3_85 J Smith;M Naphade; C -Y Lin; J R Smith; B Tseng; S Basu;<> Learning to Annotate Video Databases, <>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science Technology Storage Retrieval for Image Video Databases X San Jose Computer Animation
+3_139 J Smith;J R Smith; A Puri; M Tekalp<>MPEG- Standard,<>IEEE Intl Conf Multimedia and Expo ICME New
+3_86 J Smith;M Naphade; S Basu; J R Smith; C Lin; B Tseng<>Modeling Semantic Concepts to Support Query by Keywords in Video,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing
+3_87 J Smith;M Naphade; E Chang; J R Smith<>Multimedia Semantics and Machine Learning,<>IEEE Intl Conf Multimedia and Expo ICME IEEE Meta Data Conference
+3_88 J Smith;M Naphade; S Basu; J R Smith<>A Statistical Modeling Approach to Content-based Video Retrieval,<>Proc IEEE Intl Conf Acoustics Speech and Signal Processing ICASSP Salt Lake City
+3_89 J Smith;A Natsev; J R Smith; Y -C Chang; C -S Li; J S Vitter;<> Constrained Querying of Multimedia Databases: Issues and Approaches, <>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science Technology Storage Retrieval for Image Video Databases IX San Jose Computer Animation
+3_10 J Smith;X Aho; S -F Chang; K McKeown; D Radev; J R Smith; K Zaman<>Columbia Digital News System, Proc Intl Conf on the Advances in Digital Libraries ADL ,<>DC
+3_11 J Smith;Arnon Amir ; Belle Tseng ; Ching-Yung Lin ; Dulce B Ponceleon ; Giridharan Iyengar ; Milind R Naphade ; Sankar Basu ; Savitha Srinivasan<>Integrating Features, Models, and Semantics for TREC Video Retrieval <>TREC Text REtrieval Conference
+3_12 S Basu; M Naphade; J Smith<>A Statistical Modeling Approach to Content-based Video Retrieval,<>Proc IAPR International Association for Pattern Recognition Intl Conf Pattern Recognition ICPR International Conference Pattern Recognition
+3_13 J Smith;P van Beek; J R Smith; T Ebrahimi; T Suzuki; J Askelof;<> Metadata-Driven Multimedia Access, <>IEEE Signal Processing Mag Special Issue Universal Multimedia Access
+3_14 J Smith;P Van Beek; J R Smith<>Navigation and Access of Multimedia Content,<>MPEG Multimedia Content Description Language John Wiley Sons Inc Eds P Salembier B S Manjunath T Sikora
+3_15 J Smith;A B Benitez; S Paek; S -F Chang; A Puri; Q Huang; J R Smith; C -S Li; L D Bergman; C Judice<>Object-Based Multimedia Content Description Schemes and Applications for MPEG- ,<>Image Communication Journal ICJ Invited Paper a Special Issue MPEG
+3_16 J Smith;Ana B Benitez<>Conceptual Modeling of Audio-Visual Content <>IEEE International Conference Multimedia and Expo II
+3_17 J Smith;Ana B Benitez ; Mandis Beigi ; Shih-Fu Chang<>Visual Information Retrieval from Large Distributed Online Repositories <>Commun ACM
+3_18 J Smith;A B Benitez; J R Smith<>MediaNet: A Multimedia Information Network for Knowledge Representation,<>Proc SPIE The International Society for Optical Engineering Photonics East Internet Multimedia Management Systems
+3_19 J Smith;Ana B Benitez ; Shih-Fu Chang<>IMKA: a multimedia organization system combining perceptual and semantic knowledge <>ACM Multimedia
+3_1 J Smith;<>VideoZoom Spatio-Temporal Video Browser <>IEEE Transactions Multimedia
+3_140 J Smith;J R Smith<>MPEG- Standard for Multimedia Databases,<>ACM Intl Conference Data Management ACM SIGMOD International Conference Management of Data Santa Barbara Computer Animation
+3_2 J Smith;<>Quantitative assessment of image retrieval effectiveness <>JASIST Journal of the American Society for Information Science
+3_141 J Smith;J R Smith; C -S Li<>An Adaptive View Element Framework for Multi-dimensional Data Management,<>Proc ACM Int Conf Information and Knowledge Management CIKM International Conference Information and Knowledge Management City
+3_3 J Smith;<>MPEG- Standard for Multimedia Databases <>SIGMOD International Conference Management of Data Conference
+3_142 J Smith;J R Smith; S -F Chang<>Enhancing Image Search Systems in Diverse Environments,<>Workshop Multimedia Signal Processing N J
+3_4 J Smith;<>Interoperable Content-based Access of Multimedia in Digital Libraries invited talk <>DELOS Workshop Information Seeking Searching and Querying Digital Libraries
+3_143 J Smith;J R Smith<>Universal Multimedia Access,<>Proc SPIE The International Society for Optical Engineering ITCOM Multimedia Networking Systems
+3_5 J Smith;<>Towards Semantic Universal Multimedia Access <>VLBV Very Low Bitrate Video Coding
+3_90 J Smith;A Natsev; J R Smith<>Active Selection for Multi-Example Querying by Content,<>Proc IEEE Intl Conf Multimedia and Expo
+3_144 J Smith;J R Smith; S -F Chang<>An Image and Video Search Engine for the World-Wide Web,<>Proc IS T SPIE The International Society for Optical Engineering Storage Retrieval for Still Image and Video Databases V San Jose Computer Animation
+3_6 J Smith;W H Adams; A Amir; C Dorai; S Ghosal; G Iyengar; A Jaimes; C Lang; C -Y Lin; M Naphade; A Natsev; C Neti; H J Nock; H Permuter; R Singh; J R Smith; S Srinivasan; B L Tseng; AT Varadarajuand; D Zhang<>IBM Research TREC- Video Retrieval System,<>Proc NIST Text Retrieval Conf TREC Text REtrieval Conference IEEE Meta Data Conference
+3_91 J Smith;A Natsev; M Naphade; J R Smith<>Exploring Semantic Dependencies for Scalable Concept Detection,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing Barcelona ES
+3_145 J Smith;J R Smith; V Reddy<>An Application-based Perspective on Universal Multimedia Access using MPEG- ,<>Proc SPIE The International Society for Optical Engineering Photonics East Multimedia Networking Systems IV
+3_7 J Smith;Alfred V Aho ; Dragomir R Radev ; Kathleen McKeown ; Kazi A Zaman ; Shih-Fu Chang<>Columbia Digital News Project: An Environment for Briefing and Search over Multimedia Information <>Int J Digital Libraries
+3_92 J Smith;Natsev; Y -C Chang; J R Smith; J Vitter<>Supporting Incremental Join Queries on Ranked Inputs,<>Proc Intl Conf Very Large Database Conf VLDB Very Large Data Bases IT
+3_146 J Smith;J R Smith;<>Integrated Spatial; Feature Image Systems: Retrieval; Analysis ; Compression;<>Graduate School of Arts Sciences University New
+3_8 J Smith;Alfred V Aho ; Dragomir R Radev ; Kathleen McKeown ; Kazi A Zaman ; Shih-Fu Chang<>Columbia Digital News System An Environment for Briefing and Search over Multimedia Information <>ADL Advances Digital Libraries
+3_93 J Smith;Apostol Natsev ; Belle Tseng ; C Neti ; Ching-Yung Lin ; H J Nock ; Milind R Naphade ; W Adams<>User-trainable video annotation using multimodal cues <>SIGIR Research and Development Information Retrieval
+3_147 J Smith;J R Smith; S -F Chang<>Integrated spatial and feature image query,<>Multimedia Systems Springer Verlag
+3_9 J Smith;X Aho; S -F Chang; K McKeown; D Radev; J R Smith; K Zaman<>Columbia Digital News System An Environment for Briefing and Search over Multimedia Information,<>Intl Journal Digital Libraries IJODL
+3_94 J Smith;A Natsev; J R Smith<>A Study on Image Retrieval by Anchoring,<>Proc IEEE Intl Conf Multimedia and Expo ICME Lausanne CH
+3_148 J Smith;J R Smith; S Basu; C -Y Lin; M Naphade; B Tseng;<> Integrating Features, Models, and Semantics for Content-based<>
+3_149 J Smith;J R Smith; S Srinivasan; A Amir; S Basu; G Iyengar; C -Y Lin; M Naphade; D Ponceleon; B Tseng<>Integrating Features, Models, and Semantics for TREC Video Retrieval,<>Proc NIST Text Retrieval Conf TREC Text REtrieval Conference IEEE Meta Data Conference
+3_95 J Smith;S Paek; J R Smith<>Detecting Image Purpose in World-Wide Web Documents,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science and Technology Document Recognition San Jose Computer Animation
+3_96 J Smith;Retrieval <>Proc NSF Workshop in Multimedia Content-Based Indexing and Retrieval, Paris, FR, Oct , <>
+3_97 J Smith;E Rogowitz; T Frese; J R Smith; C A Bouman<>Perceptual Image Similarity,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Human Vision and Electronic Imaging III San Jose Computer Animation
+3_98 J Smith;P Salembier; J R Smith<>Overview of MPEG- Multimedia Description Schemes,<>MPEG Multimedia Content Description Language John Wiley Sons Inc Eds P Salembier B S Manjunath T Sikora
+3_99 J Smith;P Salembier; J R Smith<>MPEG- Multimedia Description Schemes,<>IEEE Trans Circuits and Systems for Video Technology
+3_20 J Smith;A B Benitez; S -F Chang; J R Smith<>IMKA: Intelligent Multimedia Knowledge,<>Proc ACM Intl Conf Multimedia ACM MM ACM Multimedia Conference Computer Animation
+3_21 J Smith;A B Benitez; D Zhong; S -F Chang; J R Smith<>MPEG- MDS Content Description Tools and Applications,<>Proc Intl Conf Computer Analysis of Images and Patterns CAIP Computer Analysis of Images and Patterns
+3_22 J Smith;A B Benitez; J R Smith<>New Frontiers for Intelligent Content-based Retrieval,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science and Technology Storage Retrieval for Image and Video Databases IX San Jose Computer Animation
+3_23 J Smith;L D Bergman; V Castelli; C Li; E A Achuthan; Y Chang; M Hill; J R Smith; B J Thompson; :SolarSPIRE: a content-based retrieval engine for temporal sequences of solar imagery<>Proc SPIE Photonics East: Multimedia Storage and Archiving Systems IV, Boston, MA, Sept , <>
+3_24 J Smith;L D Bergman; C -S Li; J R Smith<>SPIRE: a Digital Library for Scientific Information,<>Intl Journal of Digital Libraries Special Issue
+3_25 J Smith;V Castelli; L D Bergman; C -S Li; J R Smith; A Thomasian<>Progressive Content-based Retrieval of Satellite Image Database through Internet,<>IEEE Tyrrhenian Intl Workshop Digital Comm Ischia
+3_26 J Smith;S -F Chang; D Anastassiou; A Eleftheriadis; J Meng; S Paek; S Pejhan; J R Smith<>Development of Advanced Image/Video Servers in the Video on Demand Testbed,<>Proc of IEEE Visual Signal Processing Communications Workshop New N J
+3_27 J Smith;Y Chang; L D Bergman; J R Smith; C Li<>Efficient multidimensional indexing structure for linear maximization queries,<>Proc SPIE The International Society for Optical Engineering Photonics East Multimedia Storage and Archiving Systems IV
+3_28 J Smith;S -F Chang; J R Smith; J Meng<>Efficient Techniques for Feature-Based Image/Video Access and Manipulation,<>Proc rd Annual Clinic Library Applications of Data Processing Digital Image Access and Retrieval
+3_29 J Smith;Shih-Fu Chang<>Joint adaptive space and frequency basis selection <>ICIP International Conference Image Processing
+3_150 J Smith;J R Smith; S Basu; C -Y Lin; M Naphade; B Tseng;<> Interactive Content-based Retrieval of Video, Proc IEEE Intl Conf on Image Processing ICIP ;<>
+3_151 J Smith;J R Smith; A Jaimes; C -Y Lin; M Naphade; A Natsev; B Tseng<>Interactive Search Fusion Methods for Video Database Retrieval,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing Barcelona ES
+3_152 J Smith;J R Smith; S -F Chang<>Interoperable Content-based Access of Multimedia in Digital Libraries,<>Proc DELOS Workshop Information Seeking Searching and Querying Digital Libraries Zurich CH
+3_153 J Smith;J R Smith; R Mohan; C -S Li<>Scalable Multimedia Delivery for Pervasive Computing,<>Proc ACM Intl Conf Multimedia
+3_154 J Smith;J R Smith; S -F Chang<>SaFe: A General Framework for Integrated Spatial and Feature Image Search,<>Workshop Multimedia Signal Processing N J
+3_155 J Smith;J R Smith; Z Miao; C -S Li<>A simple video format for mobile pervasive devices,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Image and Video Communications and Processing San Jose Computer Animation
+3_156 J Smith;J R Smith; S -F Chang<>Single Color Extraction and Image Query,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing DC
+3_157 J Smith;J R Smith; S -F Chang<>Space Adaptive Wavelet Packet Image Compression,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Still Image Compression San Jose Computer Animation
+3_158 J Smith;J R Smith; A Natsev<>Spatial and Feature Normalization for Content-based Retrieval,<>Proc IEEE Intl Conf Multimedia and Expo ICME Lausanne CH
+3_159 J Smith;J R Smith; S -F Chang<>Searching for Images and Videos on the World-Wide Web,<>University CU CTR TR
+3_30 J Smith;S -F Chang; J R Smith; H J Meng; L H Wang; D Zhong;<>Visual Query Project<>D lib Magazine
+3_31 J Smith;Shih-Fu Chang<>Visually Searching the Web for Content <>IEEE MultiMedia
+3_32 J Smith;S -F Chang; J R Smith; M Beigi; A Benitez<>Visual Information Retrieval from Large Distributed Online Repositories,<>Commun ACM
+3_33 J Smith;Shih-Fu Chang<>VisualSEEk: A Fully Automated Content-Based Image Query System <>ACM Multimedia
+3_34 J Smith;Shih-Fu Chang<>Quad-Tree Segmentation for Texture-Based Image Query <>ACM Multimedia
+3_35 J Smith;Y Chang; L D Bergman; J R Smith; C Li<>Query taxonomy of multimedia databases,<>Proc SPIE The International Society for Optical Engineering Photonics East Multimedia Storage and Archiving Systems IV
+3_36 J Smith;Shih-Fu Chang<>Image and Video Search Engine for the World Wide Web <>Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering
+3_37 J Smith;S -F Chang; J R Smith; H Meng<>Exploring Image Functionalities in WWW Applications - Development of Image/Video Search and Editing Engines,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing Santa Barbara Computer Animation
+3_38 J Smith;S -F Chang; J R Smith<>Extracting Multi-Dimensional Signal Features for Content-Based Visual Query,<>Proc SPIE The International Society for Optical Engineering Symp Visual Communications and Image Processing VCIP
+3_39 J Smith;Shih-Fu Chang<>Integrated Spatial and Feature Image Query <>Multimedia Syst
+3_160 J Smith;J R Smith; C -Y Lin; M R Naphade; A Natsev; B L Tseng<>Statistical Modeling and Retrieval of Video Content,<>DIMACS Workshop Video Mining New N J
+3_161 J Smith;J R Smith; C -Y Lin; M Naphade; A Natsev; B Tseng;<> Statistical Techniques for Video Analysis and Searching, Video Mining; Kluwer Academic Publishers;<>Eds A Rosenfeld D Doermann D DeMenthon
+3_162 J Smith;J R Smith; S -F Chang<>Tools and Techniques for Color Image Retrieval,<>Proc IS T SPIE The International Society for Optical Engineering Storage Retrieval for Still Image and Video Databases IV San Jose Computer Animation
+3_163 J Smith;J R Smith; S -F Chang<>Automated Binary Texture Feature Sets for Image Retrieval,<>Proc IEEE Intl Conf Acoustics Speech and Signal Processing ICASSP
+3_164 J Smith;J R Smith<>Towards Semantic Universal Multimedia Access,<>Proc th Intl Workshop VLBV Very Low Bitrate Video Coding Visual Content Processing and Representation LNCS Springer Madrid ES
+3_165 J Smith;J R Smith; R Mohan; C -S Li<>Transcoding Internet Content for Heterogenous Client Devices,<>Proc IEEE Intl Symp Circuits and Syst ISCAS IEEE International Symposium Circuits and Systems
+3_166 J Smith;J R Smith; S -F Chang<>Transform Features for Texture Classification and Discrimination in Large Image Databases,<>Proc IEEE Intl Conf Image Processing ICIP International Conference Image Processing
+3_167 J Smith;International Standard<>Information Technology - Multimedia content description interface - Part : Conformance,<>ISO IEC First Edition
+3_168 J Smith;International Standard<>Information Technology - Multimedia content description interface - Part : Multimedia description schemes,<>ISO IEC First Edition
+3_169 J Smith;Belle Tseng ; Ching-Yung Lin ; Richard Han ; Vida Ha<>CPU/power-constrained mobile devices <>ACM Multimedia
+3_40 J Smith;Y -C Chang; M -L Lo; J R Smith<>Issues and Solutions for Storage, Retrieval, and Search of MPEG- Documents,<>Proc SPIE The International Society for Optical Engineering Photonics East Internet Multimedia Management Systems
+3_41 J Smith;Y -C Chang; L Bergman; V Castelli; C -S Li; M -L Lo; J R Smith<>The Onion Technique: indexing for linear optimization queries,<>Proc ACM Intl Conf Management of Data SIGMOD International Conference Management of Data
+3_42 J Smith;Shih-Fu Chang<>Tools and Techniques for Color Image Retrieval <>Storage and Retrieval for Image and Video Databases SPIE The International Society for Optical Engineering
+3_43 J Smith;Shih-Fu Chang<>Transform Features for Texture Classification and Discrimination in Large Image Databases <>ICIP International Conference Image Processing
+3_44 J Smith;R Han; C -Y Lin; J R Smith; B Tseng<>Universal Tuner: A Video Streaming System for CPU/Power-Constrained Mobile Devices,<>Proc ACM Intl Conf Multimedia ACM MM ACM Multimedia Conference Computer Animation
+3_45 J Smith;R Han; J R Smith<>Transcoding of Internet Multimedia for Universal Access,<>Multimedia Communications Directions and Innovations Academic Press Eds J Gibson
+3_46 J Smith;X Helal; L Lampath; J R Smith<>UMA-based Wireless and Mobile Video Delivery Architecture,<>Proc SPIE The International Society for Optical Engineering Photonics East Internet Multimedia Management Systems
+3_47 J Smith;R C Henderson; B Topol; C -S Li; R Mohan; J R Smith; Imaging: Multimedia Computing ; Networking; San Jose; CA; Jan ; <><>
+3_48 J Smith;Alejandro Jaimes ; Belle L Tseng<>Modal Keywords, Ontologies, and Reasoning for Video Understanding <>CIVR International Conference Image and Video Retrieval
+3_49 J Smith;A Jaimes; J R Smith<>Semi-Automatic,<>Data Driven Construction of Multimedia Ontologies
+3_170 J Smith;B Tseng; C -Y Lin; J R Smith<>Video Personalization and Summarization System,<>Proc IEEE Intl Conf Multimedia Signal Processing MMSP St Thomas
+3_171 J Smith;B Tseng; C -Y Lin; J R Smith<>Video Personalization System for Usage Environment,<>Proc SPIE The International Society for Optical Engineering ITCOM Internet Multimedia Management Systems III
+3_172 B Tseng; C Lin; J Smith<>Real-Time Video Surveillance for Traffic Monitoring Using Virtual Line Analysis,<>Proc IEEE Intl Conf Multimedia and Expo ICME Lausanne CH
+3_173 J Smith;B Tseng; C -Y Lin; J R Smith; Video<>Summarization and Personalization for Pervasive Mobile Devices,<>Proc IS T SPIE The International Society for Optical Engineering Symp Electronic Imaging Science and Technology Storage Retrieval for Image and Video Databases X San Jose Computer Animation
+3_174 J Smith;H -J Zhang; J R Smith; D Feng<>Multimedia Information Retrieval and Management Part I ,<>IEEE Intl Conf Acoustics Speech and Signal Processing ICASSP Hong Kong CN
+3_175 J Smith;D Zhong; S Chang; J R Smith<>Differential compression and optimal caching methods for content-based image search systems,<>Proc SPIE The International Society for Optical Engineering Photonics East Multimedia Storage and Archiving Systems IV
+4_70 J Smith;Steve Muir;Jonathan M Smith<>Functional Divisions in the Piglet Multiprocessor Operating System,<>Proceedings of the th SIGOPS European Workshop
+4_71 J Smith;S J Muir;J M Smith<>Supporting continuous media in the Piglet OS,<>The th International Workshop Network and Operating Systems Support for Digital Audio and Video UK
+4_72 J Smith;S J Muir;J M Smith<>AsyMOS: An Asymmetric Multiprocessor Operating System,<>Proceedings st OpenARCH Conference San Francisco Computer Animation
+4_73 J Smith;Klara Nahrstedt;Jonathan M Smith<>Design, Implementation and Experiences of the OMEGA End-Point Architecture,<>IEEE Journal Selected Areas Communications Special Issue Multimedia Systems
+4_74 J Smith;Klara Nahrstedt;Jonathan M Smith<>QoS Negotiation in a Robotics Environment,<>Proceedings Workshop Distributed Multimedia Applications and Quality of Service Verification Montreal st
+4_75 J Smith;Klara Nahrstedt;Jonathan M Smith<>New Algorithms for Admission Control and Scheduling to Support Multimedia Feedback Remote Control Applications,<>Proc International Conference Multimedia Communications Systems
+4_76 J Smith;Klara Nahrstedt;Jonathan M Smith<>An Integrated Multimedia Architecture for High-Speed Networks,<>Proceedings Multimedia Conference Computer Animation
+4_77 J Smith;K Nahrstedt;J M Smith<>An Application-Driven Approach to Networked Multimedia Systems,<>Proceedings th Conference Local Computer Networks
+4_78 J Smith;Klara Nahrstedt;Jonathan M Smith<>A Service Kernel for Multimedia Endstations,<>Proceedings International Workshop Advanced Teleservices and High Speed Communication Architectures ed Ralf Steinmetz Springer Verlag Heidelberg
+4_79 J Smith;Klara Nahrstedt<>The QOS Broker <>IEEE MultiMedia
+4_80 J Smith;Hilarie Orman ; Kenneth L Calvert ; Larry L Peterson ; Sandra L Murphy<>Activating Networks: A Progress Report <>IEEE Computer
+4_81 J Smith;S Personick;D Crawford;R Gallager;J Jaffe;J Kurose;D Leeper;C Manders;B McCune;A McLaughlin;J M Smith;L Streeter;L Wishart;B Zeigler;Commercial Multimedia Technologies for Twenty-First Century Army Battlefields: a Technology Management Strategy;National Academy Press;Washington;DC <><>
+4_82 J Smith;Jonathan S Shapiro;Jonathan M Smith;David J Farber<>EROS: A Fast Capability System,<>Proceedings th SOSP Symposium Operating Systems Principles Kiawah Island Supercomputing
+4_83 J Smith;Jonathan S Shapiro;David J Farber;Jonathan M Smith<>State Caching in the EROS Kernel: Implementing Orthogonal Persistence in a Pure Capability System,<>Persistent Object Systems Principles and Practice ed Richard Connor and Scott Nettles Morgan Kaufmann presented at th Workshop Persistent Object Systems
+4_84 J Smith;Jonathan S Shapiro;David J Farber;Jonathan M Smith<>The Measured Performance of a Fast Local IPC,<>Proceedings of the th International Workshop Object Orientation Operating Systems
+4_85 J Smith;Jonathan M Smith;C Brendan S Traw;David J Farber<>Cryptographic Support for a Gigabit Network,<>Proceedings INET Internet Society Conference Kobe Inaugural Conference of the Internet Society
+4_86 J Smith;J M Smith;I Hadzic;W Marcus<>ACTIVE Interconnects: Let's have some guts!,<>Proceedings IEEE Hot Interconnects Workshop Palo Alto Computer Animation
+4_87 J Smith;Jonathan M Smith;Kenneth L Calvert;Sandra L Murphy;Hilarie K Orman;Larry L Peterson<>Activating Networks: A Progress Report,<>IEEE Computer
+4_88 J Smith;Jonathan M Smith;Gerald Q Maguire; <>Effects of copy-on-write memory management on the response time of UNIX fork operations,<>Computing Systems The Journal of the USENIX the Advanced Computing Systems Association Association University of Press
+4_89 J Smith;Jonathan M Smith<>Gigabit Networks,<>The Communications Handbook Second Edition ed Jerry D Gibson CRC Press ISBN
+4_10 J Smith;D S Alexander;W A Arbaugh;A D Keromytis;S J Muir;J M Smith<>Secure Quality of Service Handling SQoSH ,<>IEEE Communications Magazine Special Issue Active Programmable and Code Networking
+4_11 J Smith;D S Alexander;W A Arbaugh;A D Keromytis;J M Smith<>Security in Active Networks,<>Secure Internet Programming Security Issues for and Distributed Objects ed Vitek and Christian Jensen Springer Verlag
+4_12 J Smith;D S Alexander;W A Arbaugh;A D Keromytis;J M Smith<>Safety and Security of Programmable Network Infrastructures,<>IEEE Communications Magazine
+4_13 J Smith;D Scott Alexander;Paul B Menage;Angelos D Keromytis;William A Arbaugh;Kostas G Anagnostakis;Jonathan M Smith<>The Price of Safety in an Active Network,<>Journal of Communications and Networks
+4_14 J Smith;D Scott Alexander;Jonathan M Smith<>The Architecture of ALIEN,<>Proceedings First International Working Conference Active Networks ed Covaci Springer Verlag
+4_15 J Smith;D Scott Alexander;M W Hicks;Pankaj Kakkar;Angelos D Keromytis;Marianne Shaw;Jonathan T Moore;Carl A Gunter;Trevor Jim;Scott M Nettles;J M Smith<>The SwitchWare Active Network Implementation,<>Proceedings ACM SIGPLAN Special Interest Group Programming Languages Workshop ML IEEE Meta Data Conference
+4_100 J Smith;Jonathan M Smith<>Rapid Location of Mount Points,<>Software Practice and Experience
+4_16 J Smith;D S Alexander;W A Arbaugh;M W Hicks;P Kakkar;A D Keromytis;J Moore;C A Gunter;S M Nettles;J M Smith<>The SwitchWare Active Network Architecture,<>IEEE Network Magazine special issue Active and Programmable Networks
+4_101 J Smith;Jonathan M Smith<>Selected Challenges in Computer Networking,<>IEEE Computer
+4_17 J Smith;K G Anagnostakis;S Ioannidis;S Miltchev;J Ioannidis;M Greenwald;J M Smith<>Efficient Packet Monitoring for Network Management,<>Proceedings IEEE NOMS IT
+4_102 J Smith;Jonathan M Smith<>A Survey of Process Migration Mechanisms,<>ACM SIGOPS Operating Systems Review
+4_18 J Smith;K G Anagnostakis;S Ioannidis;S Miltchev;J M Smith<>Practical Network Applications on a Lightweight Active Management Environment,<>Proceedings International Working Conference Active Networks ed I S Nettles and N Wakamiya Springer Verlag
+4_103 J Smith;Jonathan M Smith<>The Impact of ATM on Operating Systems,<>ACM Computer Communications Review
+4_19 J Smith;K G Anagnostakis;M W Hicks;S Ioannidis;A D Keromytis;J M Smith<>Scalable Resource Control in Active Networks,<>Proceedings Second International Working Conference Active Networks ed H Yasuda Springer Verlag Tokyo
+4_104 J Smith;Jonathan M Smith<>The Software Design Laboratory,<>Computing Systems The Journal of the USENIX the Advanced Computing Systems Association Association University of Press
+4_105 J Smith;Jonathan M Smith;David J Farber<>Traffic Characteristics of a Distributed Memory System,<>Computer Networks and ISDN Systems
+4_106 J Smith;Jonathan M Smith;Gerald Q Maguire; <>Transparent Concurrent Execution of Mutually Exclusive Alternatives,<>Proceedings Ninth International Conference Distributed Computing Systems Beach Computer Animation
+4_107 J Smith;D L Tennenhouse;J M Smith;W D Sincoskie;D J Wetherall;G J Minden<>A Survey of Active Network Research,<>IEEE Communications
+4_108 J Smith;C Brendan S Traw;Jonathan M Smith<>A High-Performance Host Interface for ATM Networks,<>Proceedings SIGCOMM Special Interest Group Data Communications Zurich
+4_109 J Smith;C Brendan S Traw;Jonathan M Smith<>Implementation and Performance of an ATM Host Interface for Workstations,<>Proceedings IEEE Workshop the Architecture and Implementation of High Performance Communications Subsystems HPCS International Symposium High Performance Computing Systems
+4_90 J Smith;Jonathan M Smith;C Brendan S Traw<>Giving Applications Access to Gb/s Networking,<>IEEE Network Special Issue End System Support for High Speed Networks Breaking Through the Network I O Bottleneck
+4_91 J Smith;Jonathan M Smith;Eric C Cooper;Bruce S Davie;Ian M Leslie;Yoram Ofek;Richard W Watson<>Guest Editorial,<>IEEE Journal Selected Areas Communications Special Issue High Speed Computer Network Interfaces
+4_92 J Smith;Jonathan M Smith;John Ioannidis<>Implementing remote fork with checkpoint/restart,<>IEEE Technical Committee Operating Systems Newsletter Invited Paper
+4_93 J Smith;Jonathan M Smith;Gerald Q Maguire; <>Exploring<>Multiple Worlds
+4_94 J Smith;Jonathan M Smith;Gerald Q Maguire; <>Measured Response Times for Page-Sized Fetches on a Network,<>ACM SIGARCH Computer Architecture News
+4_95 J Smith;Jonathan M Smith;Jeffrey D Chung;C Brendan S Traw<>Interrupts,<>Encyclopedia of Electrical and Electronics Engineering ed John Wiley New
+4_96 J Smith;Jonathan M Smith<>PDIS and The Information Highway,<>Proceedings Parallel and Distributed Information Systems Invited Presentation Paper
+4_97 J Smith;Jonathan M Smith;Gerald Q Maguire; <>Process Migration: Effects on Scientific Computation,<>ACM SIGPLAN Special Interest Group Programming Languages Notices
+4_98 J Smith;Jonathan M Smith<>Practical Problems with a Cryptographic Protection Scheme,<>Advances Cryptography Proceedings of Crypto ed Gilles Brassard Springer Verlag
+4_99 J Smith;Jonathan M Smith<>Protection in Distributed Shared Memories,<>Proceedings th International Workshop Distributed Environments and Networks Tokyo Invited Paper
+4_20 J Smith;William A Arbaugh;Angelos D Keromytis;Jonathan M Smith<>DHCP++: Applying an efficient implementation method for fail-stop cryptographic protocols,<>IEEE GLOBECOM Sydney AU
+4_21 J Smith;William A Arbaugh;David J Farber;Jonathan M Smith<>A Secure and Reliable Bootstrap Architecture,<>IEEE Security and Privacy Conference Computer Animation
+4_22 J Smith;William A Arbaugh;James R Davin;David J Farber;Jonathan M Smith<>Security for Virtual Private Intranets,<>IEEE Computer Special Issue Broadband Networking Security Cover Feature
+4_23 J Smith;W A Arbaugh;A D Keromytis;D J Farber;J M Smith<>Automated Recovery in a Secure Bootstrap Process,<>Internet Society Symposium Network and Distributed System Security San Diego Computer Animation
+4_24 J Smith;Ruzena Bajcsy;David J Farber;Richard P Paul;Jonathan M Smith<>Gigabit Telerobotics: Applying Advanced Information Infrastructure,<>International Symposium Robotics and Manufacturing Maui
+4_25 J Smith;Steven M Bellovin;Sotiris Ioannidis;Jonathan M Smith<>Design and Implementation of Virtual Private Services,<>CIS CIS Department University of
+4_110 J Smith;J T van der Veen;C Brendan S Traw;Jonathan M Smith;H L Pasch<>Performance Modeling of a High Performance ATM Link Adapter,<>Proceedings Second International Conference Computer Communications and Networks San Diego Computer Animation
+4_26 J Smith;C Brendan ; S Traw<>A High-Performance Host Interface for ATM Networks <>SIGCOMM Special Interest Group Data Communications
+4_27 J Smith;C Brendan; S Traw;Jonathan M Smith<>Hardware/Software Organization of a High-Performance ATM Host Interface,<>IEEE Journal Selected Areas Communications Special Issue High Speed Computer Network Interfaces
+4_28 J Smith;C Brendan; S Traw;Jonathan M Smith<>Striping within the Network Subsystem,<>IEEE Network
+4_29 J Smith;Albert G Broscius;Jonathan M Smith<>Exploiting Parallelism in Hardware Implementation of the DES,<>Proceedings CRYPTO International Crytology Conference Conference ed Joan Feigenbaum Santa Barbara Computer Animation
+4_30 J Smith;Albert G Broscius<>Exploiting Parallelism in Hardware Implementations of the DES <>CRYPTO International Crytology Conference
+4_31 J Smith;Jeffrey D Chung;C Brendan S Traw;Jonathan M Smith<>Event-Signaling within Higher Performance Network Subsystems,<>Proceedings High Performance Communications Subsystems Mystic
+4_32 J Smith;D D Clark;B S Davie;D J Farber;I S Gopal;B K Kadaba;W D Sincoskie;J M Smith;D L Tennenhouse<>An Overview of the AURORA Gigabit Testbed,<>Proceedings INFOCOM The Conference Computer Communications
+4_33 J Smith;David D Clark;Bruce S Davie;David J Farber;Inder S Gopal;Bharath K Kadaba;W David Sincoskie;Jonathan M Smith;David L Tennenhouse<>The AURORA Gigabit Testbed,<>Computer Networks and ISDN Systems North
+4_34 J Smith;Bruce S Davie;Jonathan M Smith;C Brendan S Traw<>Host Interfaces for ATM Networks,<>High Performance Communications ed Ahmed N Tantawy Kluwer Academic Publishers
+4_35 J Smith;Bruce S Davie;Jonathan M Smith;David D Clark;David J Farber;Inder S Gopal;Roch Guerin;W David Sincoskie;David L Tennenhouse<>AURORA: An experiment in gigabit network technologies,<>High Performance Communications ed Ahmed N Tantawy Kluwer Academic Publishers
+4_36 J Smith;Gary Delp;David Farber;Ronald Minnich;Jonathan M Smith;Ming-Chit Tam<>Memory as a Network Abstraction,<>IEEE Network
+4_37 J Smith;Gary Delp;David Farber;Ronald Minnich;Jonathan M Smith;Ivan Ming-Chit Tam<>Memory as a Network Abstraction,<>Readings Distributed Computing Systems ed Thomas L Casavant and Mukesh Singhal IEEE CS Press Order Number Piscataway revised version of IEEE Network paper
+4_38 J Smith;David J Farber ; Jonathan S Shapiro<>EROS: a fast capability system <>SOSP Symposium Operating Systems Principles
+4_39 J Smith;David J Farber ; James R Davin ; William A Arbaugh<>Security for Virtual Private Intranets <>IEEE Computer
+4_40 J Smith;David J Farber ; Jonathan S Shapiro<>State Caching in the EROS Kernel <>POS Workshop Persistent Object Systems
+4_41 J Smith;David J Farber ; Ming-Chit Tam<>A Taxonomy-Based Comparison of Several Distributed Shared Memory Systems <>Operating Systems Review
+4_42 J Smith;David J Farber<>Traffic Characteristics of a Distributed Memory System <>Computer Networks and ISDN Systems
+4_43 J Smith;D C Feldmeier;A J McAuley;J M Smith;D S Bakin;W S Marcus;T M Raleigh<>Protocol Boosters,<>IEEE Journal Selected Areas Communication Special Issue Protocol Architectures for st Century Applications
+4_44 J Smith;A Galis;B Plattner;J M Smith;S Denazis;E Moeller;H Guo;C Klein;J Serrat;J Laarhuis;G Karetsos;C Todd<>A Flexible IP Active Networks Architecture,<>Proceedings Second International Working Conference Active Networks ed H Yasuda Springer Verlag Tokyo
+4_45 J Smith;Faik Goktas;Jonathan M Smith;Ruzena Bajcsy<>u-Synthesis for Distributed Control Systems with Network-Induced Delays,<>Proceedings th IEEE Conference Decision and Control Kobe
+4_46 J Smith;Faik Goktas;Jonathan M Smith;Ruzena Bajcsy<>Telerobotics over Communication Networks: Control and Networking Issues,<>th IEEE Conference Decision and Control San Diego Computer Animation
+4_47 J Smith;Ilija Hadzic ; Sanjay Udani<>FPGA Viruses <>FPL Field Programmable Logic and Applications
+4_48 J Smith;Ilija Hadzic;Sanjay K Udani;Jonathan M Smith<>Hardware Viruses,<>Field Programmable Logic Springer Verlag Edinburgh UK
+4_49 J Smith;I Hadzic;W S Marcus;J M Smith<>On-the-fly Programmable Hardware for Networks,<>IEEE GLOBECOM Sydney AU
+4_50 J Smith;Ilija Hadzic;Jonathan M Smith<>P : A platform for FPGA implementation of Protocol Boosters,<>Springer Verlag Field Programmable Logic Conference
+4_51 J Smith;Michael Hicks;Angelos D Keromytis;Jonathan M Smith<>A Secure PLAN Extended Version ,<>Proceedings DARPA Active Networks Conference and Exposition IEEE Computer Society Press San Francisco Computer Animation
+4_52 J Smith;Sotiris Ioannidis;Angelos D Keromytis;Steve Bellovin;Jonathan M Smith<>Implementing a Distributed Firewall,<>Proceedings ACM Conference Computer and Communications Security
+4_53 J Smith;Sotiris Ioannidis;Steven M Bellovin;Jonathan M Smith<>Sub-Operating Systems: A New Approach to Application Security,<>th SIGOPS European Workshop
+4_54 J Smith;Thomas D Johnson;Jonathan M Smith;Eric S Wilson<>Disk Response Time Measurements,<>Proceedings Winter USENIX the Advanced Computing Systems Association Technical Conference DC
+4_55 J Smith;Gerald Q Maguire <>Effects of Copy-on-Write Memory Management on the Response Time of UNIX Fork Operations <>Computing Systems
+4_56 J Smith;Gerald Q Maguire <>Exploring Multiple Worlds in Parallel <>ICPP International Conference Parallel Processing
+4_57 J Smith;Gerald Q Maguire <>Transparent Concurrent Execution of Mutually Exclusive Alternatives <>ICDCS International Conference Distributed Computing Systems
+4_58 J Smith;Bharath K Kadaba ; Bruce S Davie ; David D Clark ; David J Farber ; David L Tennenhouse ; Inder S Gopal ; W David Sincoskie<>An Overview of the AURORA Gigabit Testbed <>INFOCOM The Conference Computer Communications
+4_59 J Smith;Bharath K Kadaba ; Bruce S Davie ; David D Clark ; David J Farber ; David L Tennenhouse ; Inder S Gopal ; W David Sincoskie<>The AURORA Gigabit Testbed <>Computer Networks and ISDN Systems
+4_60 J Smith;Angelos D Keromytis ; John Ioannidis ; Sotiris Ioannidis ; Steven M Bellovin<>Design and Implementation of Virtual Private Services <>WETICE Workshop Enabling Technologies Infrastructure for Collaborative Enterprises
+4_61 J Smith;Angelos D Keromytis ; Sotiris Ioannidis ; Steven M Bellovin<>Implementing a distributed firewall <>ACM Conference Computer and Communications Security
+4_1 J Smith;<>PDIS and The Information Highway <>PDIS Conference Parallel and Distributed Information Systems
+4_62 J Smith;Angelos Keromytis;John Ioannidis;Jonathan M Smith<>Implementing IPSec,<>Proceedings IEEE GlobeCom Conference
+4_2 J Smith;<>Practical Problems with a Cryptographic Protection Scheme <>CRYPTO International Crytology Conference
+4_63 J Smith;Angelos D Keromytis ; Kostas G Anagnostakis ; Michael W Hicks ; Sotiris Ioannidis<>Scalable Resource Control in Active Networks <>IWAN International Working Conference Active Networks
+4_3 J Smith;<>Programmable Networks: Selected Challenges in Computer Networking <>IEEE Computer
+4_64 J Smith;Angelos D Keromytis;Sotiris Ioannidis;Michael B Greenwald;Jonathan M Smith<>Scalable Security Mechanisms for the Internet,<>CIS CIS Department University of
+4_4 J Smith;<>Rapid Location of Mount Points <>Softw Pract Exper
+4_65 J Smith;Angelos D Keromytis ; John Ioannidis ; Sotiris Ioannidis ; Stefan Miltchev ; Vassilis Prevelakis<>Secure and Flexible Global File Sharing <>USENIX the Advanced Computing Systems Association Annual Technical Conference FREENIX FREE AND OPEN SOURCE SOFTWARE Track
+4_5 J Smith;<>A Survey of Process Migration Mechanisms <>Operating Systems Review
+4_66 J Smith;Angelos D Keromytis ; D Scott Alexander ; William A Arbaugh<>Security in Active Networks <>Secure Internet Programming
+4_6 J Smith;<>The Software Design Laboratory <>Computing Systems
+4_7 J Smith;D Scott Alexander ; Marianne Shaw ; Scott Nettles<>Active Bridging <>SIGCOMM Special Interest Group Data Communications
+4_67 J Smith;Gerald Q Maguire<>Process migration: effects on scientific computation <>SIGPLAN Special Interest Group Programming Languages Notices
+4_8 J Smith;D Scott Alexander;C Brendan S Traw;Jonathan M Smith<>Embedding High Speed ATM in UNIX IP,<>USENIX the Advanced Computing Systems Association High Speed Networking Symposium Computer Animation
+4_68 J Smith;A Mallet;J Chung;J M Smith<>Operating System Support for Protocol Boosters,<>Proceedings HIPPARCH Workshop Uppsala Earlier version available UPENN CIS TR CIS
+4_9 J Smith;D S Alexander;W A Arbaugh;A D Keromytis;J M Smith<>A Secure Active Network Environment Architecture: Realization in SwitchWare,<>IEEE Network Magazine special issue Active and Programmable Networks
+4_69 W Marcus;I Hadzic;T McAuley;J Smith<>Protocol Boosters: Applying Programmability to Network Infrastructures,<>IEEE Communications
+5_10 J Smith; <>A Normal Form for Abstract Syntax <>VLDB Very Large Data Bases
+5_11 J Smith; Chyuan Shiun Lin ; Diane C P Smith<>The Design of a Rotating Associative Array Memory for a Relational Database Management Application <>VLDB Very Large Data Bases
+5_12 J Smith; <>Comments on the paper Data Base Design in Theory and Practice by Bo Sundgren <>VLDB Very Large Data Bases
+5_13 J Smith; Diane C P Smith<>Principles of Database Conceptual Design <>Data Base Design Techniques I
+5_14 J Smith; Diane C P Smith<>Data Base Abstraction <>Conference Data Abstraction Definition and Structure
+5_15 J Smith; Philip Yen-Tang Chang<>Optimizing the Performance of a Relational Algebra Data Base Interface Abstract <>SIGMOD International Conference Management of Data Conference
+5_16 J Smith; Philip Yen-Tang Chang<>Optimizing the Performance of a Relational Algebra Database Interface <>Commun ACM
+5_17 J Smith; Diane C P Smith<>Database Abstractions: Aggregation <>Commun ACM
+5_18 J Smith; Diane C P Smith<>Database Abstractions: Aggregation and Generalization <>ACM Trans Database Syst
+5_19 J Smith; Chyuan Shiun Lin ; Diane C P Smith<>The Design of a Rotating Associative Array Memory for a Relational Database Management Application <>ACM Trans Database Syst
+5_20 J Smith; Diane C P Smith<>Relational Data Base Machines <>IEEE Computer
+5_1 J Smith; <>Large-Scale Knowledge Systems <>Wissensbasierte Systeme
+5_2 J Smith; <>Expert Database Systems: A Database Perspective <>Expert Database Workshop
+5_3 J Smith; <>Comments on the paper Data Base Design in Theory and Practice by Bo Sundgren <>VLDB Very Large Data Bases Surveys
+5_4 J Smith; <>Comments on the Papers A Software Engineering View of Data Base Management by I A Wasserman and A Software Engineering View of Data Base Systems by H Weber <>VLDB Very Large Data Bases Surveys
+5_5 J Smith; <>Large-Scale Knowledge Systems <>Foundations of Knowledge Base Management Xania
+5_6 J Smith; <>Concluding Remarks from the Database Perspective <>Knowledge Base Management Systems Islamorada
+5_7 J Smith; Umeshwar Dayal<>PROBE: A Knowledge-Oriented Database Management System <>Knowledge Base Management Systems Islamorada
+5_8 J Smith; Alexander Borgida ; Charles Rich ; Jaime G Carbonell ; Jonathan J King ; Peter Hitchcock<>Consistency of Models discussion <>Workshop Data Abstraction Databases and Conceptual Modelling
+5_9 J Smith; Dennis McLeod<>Abstraction in Databases <>Workshop Data Abstraction Databases and Conceptual Modelling
+6_1 J Smith; <>Large-Scale Knowledge Systems <>Wissensbasierte Systeme
+6_2 J Smith; <>Expert Database Systems: A Database Perspective <>Expert Database Workshop
+6_3 J Smith; <>Comments on the paper Data Base Design in Theory and Practice by Bo Sundgren <>VLDB Very Large Data Bases Surveys
+6_4 J Smith; <>Comments on the Papers A Software Engineering View of Data Base Management by I A Wasserman and A Software Engineering View of Data Base Systems by H Weber <>VLDB Very Large Data Bases Surveys
+6_5 J Smith; <>Large-Scale Knowledge Systems <>Foundations of Knowledge Base Management Xania
+6_6 J Smith; <>Concluding Remarks from the Database Perspective <>Knowledge Base Management Systems Islamorada
+6_7 J Smith; Umeshwar Dayal<>PROBE: A Knowledge-Oriented Database Management System <>Knowledge Base Management Systems Islamorada
+6_8 J Smith; Alexander Borgida ; Charles Rich ; Jaime G Carbonell ; Jonathan J King ; Peter Hitchcock<>Consistency of Models discussion <>Workshop Data Abstraction Databases and Conceptual Modelling
+6_9 J Smith; Dennis McLeod<>Abstraction in Databases <>Workshop Data Abstraction Databases and Conceptual Modelling
+6_10 J Smith; <>A Normal Form for Abstract Syntax <>VLDB Very Large Data Bases
+6_11 J Smith; Chyuan Shiun Lin ; Diane C P Smith<>The Design of a Rotating Associative Array Memory for a Relational Database Management Application <>VLDB Very Large Data Bases
+6_12 J Smith; <>Comments on the paper Data Base Design in Theory and Practice by Bo Sundgren <>VLDB Very Large Data Bases
+6_13 J Smith; Diane C P Smith<>Principles of Database Conceptual Design <>Data Base Design Techniques I
+6_14 J Smith; Diane C P Smith<>Data Base Abstraction <>Conference Data Abstraction Definition and Structure
+6_15 J Smith; Philip Yen-Tang Chang<>Optimizing the Performance of a Relational Algebra Data Base Interface Abstract <>SIGMOD International Conference Management of Data Conference
+6_16 J Smith; Philip Yen-Tang Chang<>Optimizing the Performance of a Relational Algebra Database Interface <>Commun ACM
+6_17 J Smith; Diane C P Smith<>Database Abstractions: Aggregation <>Commun ACM
+6_18 J Smith; Diane C P Smith<>Database Abstractions: Aggregation and Generalization <>ACM Trans Database Syst
+6_19 J Smith; Chyuan Shiun Lin ; Diane C P Smith<>The Design of a Rotating Associative Array Memory for a Relational Database Management Application <>ACM Trans Database Syst
+6_20 J Smith; Diane C P Smith<>Relational Data Base Machines <>IEEE Computer
+7_1  Jodi Heintz Obradovich ; John Svirbley ; Larry Sachs ; Melanie Kennedy ; Patricia Strohm ; Philip J Smith ; Sally Rudmann ; Stephanie Guerlain<>Design Concepts for an Instructional Tool: Teaching Abductive Reasoning in Antibody Identification <>CHI Conference Human Factors Computing Systems Conference Companion
+7_2  Deb Galdes ; Donna L Thomas ; Jane M Fraser ; Janice Blazina ; John R Svirbely ; Melanie Kennedy ; Philip J Smith ; Sally Rudmann ; Thomas Miller<>Coping with the Complexities of Multiple-Solution Problems: A Case Study <>International Journal of Man Machine Studies
+7_3  Jane M Fraser ; Philip J Smith<>A Catalog of Errors <>International Journal of Man Machine Studies
+7_4  Jodi Heintz Obradovich ; Larry Sachs ; Patricia Strohm ; Philip J Smith ; Rebecca Denning ; Sally Rudmann ; Stephanie Guerlain<>The Transfusion Medicine Tutor: Using Expert Systems Technology to Teach Domain-Specific Problem-Solving Skills <>Intelligent Tutoring Systems
+7_5  Jodi Heintz Obradovich ; John Svirbley ; Larry Sachs ; Patricia Strohm ; Philip J Smith ; Sally Rudmann ; Stephanie Guerlain<>Successful Use of an Expert System to Teach Diagnostic Reasoning for Antibody Identification <>Intelligent Tutoring Systems
+7_6 J Smith; B Chandrasekaran ; Sanjay Mittal<>MDX and Related Medical Decision-Making Systems <>IJCAI International Joint Conference Artificial Intelligence
+7_7 J Smith; B Chandrasekaran ; Todd R Johnson<>Task-Structure Analysis for Knowledge Modeling <>AIFIPP Artificial Intelligence from the Information Processing Perspective
+7_8 J Smith; B Chandrasekaran<>Tenth Annual Workshop on Artificial Intelligence in Medicine: An Overview <>AI Artificial Intelligence Magazine
+7_9 J Smith; B Chandrasekaran<>Differing Methodological Perspectives in Artificial Intelligence <>AI Artificial Intelligence Magazine
+7_10 J Smith; B Chandrasekaran ; Todd R Johnson<>Task-Structure Analysis for Knowledge Modeling <>Commun ACM
+7_11 J Smith; A Bayazitoglu ; K A Johnson ; N K Amra ; Todd R Johnson<>One framework, two systems: flexible abductive methods in the problem-space paradigm applied to antibody identification and biopsy interpretation <>Artificial Intelligence Medicine
+7_12 J Smith; A Bayazitoglu<>Exploring the relationship between rationality and bounded rationality in medical knowledge-based systems <>Artificial Intelligence Medicine
+7_13 J Smith; David M Steier ; Todd R Johnson<>Guest Editor's Introduction <>IEEE Expert
+7_14 J Smith; Todd R Johnson<>A Stratified Approach to Specifying, Designing, and Building Knowledge Systems <>IEEE Expert
+7_15 J Smith; John R Josephson ; Michael C Tanner ; William F Punch III<>Peirce: A Tool for Experimenting with Abduction <>IEEE Expert
+7_16 J Smith; Jane Malin ; Jiajie Zhang ; Kathy A Johnson ; Vimla L Patel<>Designing Human-Centered Distributed Information Systems <>IEEE Intelligent Systems
+8_60 J Smith;J B Smith;D K Smith;E Kupstas<>Automated Protocol Analysis,<>Human Computer Interaction
+8_61 J Smith;J B Smith;D K Smith;E Kupstas<>Automated Protocol Analysis: Tools and Methodology,<>Report Chapel Hill Department of Computer Science
+8_62 J Smith;J B Smith<>Toward a Marxist Poetics,<>Style Winter
+8_63 J Smith;J B Smith;H T Meserole<>Yet There Is Method In It,<>Perspectives Computing
+8_64 J Smith;S Southard;J B Smith;S F Weiss;G J Ferguson<>An Overview of the Architecture for MicroArras ,<>Report Chapel Hill Department of Computer Science
+8_65 J Smith;Stephen F Weiss<>Formatting Texts Accessed Randomly <>Softw Pract Exper
+8_66 J Smith;Stephen F Weiss<>Hypertext: Introduction to the Special Issue <>Commun ACM
+8_67 J Smith;F Young;J B Smith<>Structured Data Analysis: A Cognition-Based Design for Data Analysis Software,<>Report Chapel Hill Department of Computer Science
+8_68 J Smith;F W Young;J B Smith<>Towards a Structured Data Analysis Environment: A Cognition-Based Design,<>Computing and Graphics Statistics A Buja and P A Tukey eds New Springer Verlag
+8_10 J Smith;S Gauch;J B Smith<>Intelligent Search of Full-Text Databases,<>Proceedings of RIAO MIT Revised version published
+8_11 J Smith;S Gauch;J B Smith<>Search Improvement via Automatic Query Reformulation,<>ACM Transactions Information Systems
+8_12 J Smith;Gary Hill ; Helen Ashman ; Mark Bernstein ; Peter J N&uuml;rnberg ; V Balasubramanian<>The WWW and Hypertext Research Panel <>Hypertext
+8_13 J Smith;K Jeffay;J K Lin;J Menges;F D Smith;J B Smith<>Architecture of the Artifact-Based Collaborations System Matrix,<>Proceedings of CSCW Conference Computer Supported Cooperative Work New ACM Press
+8_14 J Smith;K Jeffay;J K Lin;J Menges;F D Smith;J B Smith<>Architecture of the Artifact-Based Collaboration System Matrix,<>Report Chapel Hill Department of Computer Science
+8_15 J Smith;I Jenkins;M Lansman;J B Smith<>A Tutorial for WE for Experimental Studies,<>Report Chapel Hill Department of Computer Science
+8_16 J Smith;Marcy Lansman<>Designing theory-based systems: a case study <>CHI Conference Human Factors Computing Systems
+8_17 J Smith;M Lansman;J B Smith;I Weber<>Using Computer-Generated Protocols to Study Writer's Planning Strategies,<>Report Chapel Hill Department of Computer Science
+8_18 J Smith;M Lansman;J B Smith;I Weber<>Using the Writing Environment to Study Writers' Strategies,<>Computers and Composition
+8_19 J Smith;H T Meserole;J B Smith<>Shakespeare: Annotated World Bibliography for ,<>Shakespeare Quarterly Bibliography Issue
+8_20 J Smith;Elli Mylonas ; George P Landow ; Mark Bernstein<>The Process of Discovery: Hypertext and Scholarship <>Hypertext
+8_21 J Smith;B A Rosenberg;J B Smith<>The Computer and the Finnish Historical-Geographical Method,<>with Bruce A Journal of American Folklore
+8_22 J Smith;W Schuler;J B Smith<>Author's Argumentation Assistant AAA : A Hypertext-Based Authoring Tool for Argumentative Texts,<>Proceedings of European Conference Hypertext University press
+8_23 J Smith;D E Shackelford;F D Smith;J B Smith<>A Distributed Data-Storage Service for Supporting Group Collaborations <>Report Chapel Hill Department of Computer Science
+8_24 J Smith;D E Shackelford;J B Smith;F D Smith<>A Distributed Graph Storage System for Artifacts in Group Collaborations,<>Report Chapel Hill Department of Computer Science
+8_25 J Smith;D E Shackelford;J B Smith<>Tao of Subgraph: The Data Model of the ABC Distributed Graph Storage System <>Report Chapel Hill Department of Computer Science
+8_1 J Smith;<>Computer Generated Analogues of Mental Structures from Language Data <>IFIP International Federation for Information Processing Congress
+8_26 J Smith;D Shackelford;J B Smith;J Boone;B Elledge<>The UNC Graph Server: A Distributed Hypermedia Data Management System,<>Report Chapel Hill Department of Computer Science
+8_2 J Smith;<>The King is Dead; Long Live the King Keynote <>Hypertext
+8_3 J Smith;P E Bush;G J Ferguson;J B Smith;S F Weiss;J D Bolter<>An Overview of the Architecture for WE ,<>Report Chapel Hill Department of Computer Science
+8_27 J Smith;Douglas E Shackelford ; F Donelson Smith<>The Architecture and Implementation of a Distributed Hypermedia Storage System <>Hypertext
+8_4 J Smith;Gordon J Ferguson ; Stephen F Weiss<>A Hypertext Writing Environment and its Cognitive Basis <>Hypertext
+8_28 J Smith;F Donelson Smith<>ABC: A Hypermedia System for Artifact-Based Collaboration <>Hypertext
+8_5 J Smith;Gordon J Ferguson ; Stephen F Weiss<>MICROARRAS: An Advanced Full-Text Retrieval and Analysis System <>SIGIR Research and Development Information Retrieval
+8_29 J Smith;J B Smith;M Lansman<>A Cognitive Basic for A Computer Writing Environment<> Report Chapel Hill Department of Computer Science
+8_6 J Smith;S Gauch;J B Smith<>Query Reformulation Strategies for an Intelligent Search Intermediary,<>Proceedings of Annual AI Artificial Intelligence Systems Government Conference DC
+8_7 J Smith;S Gauch;J B Smith<>An Expert System for Automatic Query Reformulation,<>Journal of the American Society of Information Scientists
+8_8 J Smith;Susan Gauch<>An Expert System for Automatic Query Reformation <>JASIS Journal of the American Society of Information Science
+8_9 J Smith;S Gauch;J B Smith<>Intelligent Information Retrieval: An Introduction,<>Journal of the American Society of Information Scientists
+8_30 J Smith;J B Smith;M Lansman<>A Cognitive Basis for a Computer Writing Environment,<>B K Britton S M Glynn Eds Computer Writing Aids Theory Reserach Practice Hillsdale Erlbaum
+8_31 J Smith;J B Smith;M C Rooks;G J Ferguson<>A Cognitive Grammar for Writing: Version ,<>Report Chapel Hill Department of Computer Science
+8_32 J Smith;J B Smith;M Lansman<>Cognitive Modes and Strategies for Writing,<>Report Chapel Hill Department of Computer Science
+8_33 J Smith;J B Smith<>Collective Intelligence in Computer-Based Collaboration <>Hillsdale Laurence Erlbaum Associates
+8_34 J Smith;J B Smith<>Collective Intelligence in Computer-Based Collaboration: An Introduction,<>Report Chapel Hill Department of Computer Science
+8_35 J Smith;J B Smith<>Computer Criticism,<>Style Fall Also Trends Linguistics Studies and Mongraphs Computers Language Research W A Sedelow W A Sedelow S Y eds Mouton
+8_36 J Smith;J B Smith<>Computer Generated Analogues of Mental Structures from Language Data,<>Proceedings of IFIP International Federation for Information Processing Congress The Hague North Publishing
+8_37 J Smith;J B Smith<>Computers and Literary Theory,<>Association for Literary and Linguistic Computing Bulletin
+8_38 J Smith;J B Smith<>Computer Studies in the Humanities: Intellectual, Educational, and Social Implications,<>Interdisciplinary Essays IV
+8_39 J Smith;J B Smith;M Lansman<>Designing Theory-Based Systems: A Case Study,<>Proceedings of CHI Conference Human Factors Computing Systems New ACM Press
+8_40 J Smith;J B Smith;S F Weiss<>Formatting Texts Accessed Randomly,<>Software Practice and Experience
+8_41 J Smith;D K Smith;Smith J B <>Hypermedia vs Paper: User Strategies in Browsing SNA Materials <>Report Chapel Hill Department of Computer Science
+8_42 J Smith;J B Smith;S F Weiss<>Hypertext,<>Communications of the ACM
+8_43 J Smith;J B Smith;S F Weiss;G J Ferguson<>A Hypertext Writing Environment and its Cognitive Basis,<>Proceedings of ACM International Conference Research and Development Information Retrieval Revised version published special issue of Information Processing and Management
+8_44 J Smith;J B Smith;S F Weiss;G J Ferguson<>MICROARRAS: An Overview<> Report Chapel Hill Department of Computer Science
+8_45 J Smith;J B Smith<>Imagery and the Mind of Stephen Dedalus<> Lewisburg Bucknell University Press
+8_46 J Smith;J B Smith;F D Smith;P Calingaert;J Hayes;D Holland;K Jeffay;M Lansman<>UNC Collaboratory Project: Overview,<>Report Chapel Hill Department of Computer Science
+8_47 J Smith;J B Smith;S F Weiss;G J Ferguson;J D Bolter;M Lansman;D V Beard<>WE: A Writing Environment for Professionals,<>Proceedings of National Computer Conference AFIPS Press
+8_48 J Smith;J B Smith;C Smith<>Writing, Thinking, Computing <>R A Zwaan D Meutsch Eds Computer Models and Technology Media Research New Elsevier Science Publishers Also Poetics Journal for Empirical Research Literature the Media and the Arts Special Issue Computer Models and Technology
+8_49 J Smith;J B Smith;D C Nash<>Interactive Home Media and Privacy <>DC The Federal Trade Commission
+8_50 J Smith;F Donelson Smith ; J K Lin ; J Menges ; Kevin Jeffay<>Architecture of the Artifact-Based Collaboration System Matrix <>CSCW Conference Computer Supported Cooperative Work
+8_51 J Smith;J B Smith;B A Rosenberg<>Rhythms in Speech: The Formulaic Structure of Four Fundamentalist Sermons,<>Computer Studies the Humanities and Verbal Behavior
+8_52 J Smith;J B Smith<>Random Accessible Text System for Associative Text Analysis,<>SIGLASH Newsletter
+8_53 J Smith;J B Smith<>ARRAS: A New Environment for Literary Analysis,<>Perspectives Computing Summer Fall
+8_54 J Smith;J B Smith<>ARRAS User's Manual<> Report Chapel Hill Department of Computer Science
+8_55 J Smith;J B Smith<>RATSALL: A Language Analysis System for the Eighties,<>Style Fall
+8_56 J Smith;J B Smith<>RATS: A Middle Level Text Utility System,<>Computers and the Humanities
+8_57 J Smith;J B Smith<>Some Lucubrations and Specifications for a Natural Language Analyzer,<>Computer Studies the Humanities and Verbal Behavior
+8_58 J Smith;J B Smith;C F Smith<>A Strategic Method for Writing<> Report Chapel Hill Department of Computer Science
+8_59 J Smith;J B Smith<>Thematic Structure and Complexity,<>Style Winter
+9_10 J Smith;Anne Salvesen<>The Strength of the Subset Type in Martin-L&ouml;f's Type Theory<>LICS Logic Computer Science
+9_11 J Smith;Giovanni Sambin ; Sara Sadocco ; Thierry Coquand<>Formal Topologies on The Set of First-Order Formulae <>J Symb Log
+9_12 J Smith;<>Formal Topologies on the Set of First-Order Formulae <>Journal of Symbolic Logic
+9_13 J Smith;<>Kleene's Slash and Existence of Values of Open Terms in Type Theory <>Selected Papers from CSL Computer Science Logic E Boerger et eds LNCS Springer Verlag
+9_14 J Smith;<>On a Nonconstructive Type Theory and Program Derivation <>The Proceedings of Conference Logic and its Applications
+9_15 J Smith;<>An Interpretation of Kleene's Slash in Type Theory in Logical Environments,<>G Huet and G Plotkin eds University Press
+9_16 J Smith;<>An interpretation of Martin-Löf's type theory in a type-free theory of propositions <>Journal of Symbolic Logic
+9_17 J Smith;Thierry Coquand <>An Application of Constructive Completeness <> the proceedings of Types for proofs and programs Torino To be published LNCS
+9_18 J Smith;Kent Petersson<>Program Derivation in Type Theory: A Partitioning Problem} <>Computer Languages
+9_19 J Smith;<>Propositional Functions and Families of Types <>Notre Dame Journal of Formal Logic
+9_20 J Smith;Bengt Nordström <>Propositions, Types and Specifications in Martin-Löf's Type Theory <>BIT
+9_21 J Smith;Tanel Tammet <>Optimized Encodings of Fragments of Type Theory in First Order Logic <> the proceedings of Types for proofs and programs Torino To be published LNCS
+9_22 J Smith;<>The Identification of Propositions and Types in Martin-Löf's Type Theory<>Foundations of Computation Theory volume of Lecture Notes Computer Science pages Springer Verlag
+9_23 J Smith;<>The Independence of Peano's Fourth Axiom from Martin-Löf's Type Theory without Universes <>Journal of Symbolic Logic
+9_24 J Smith;Anne Salvesen <>The Strength of the Subset Type in Martin-Löf's Type Theory <>Proceedings of LICS Logic Computer Science Edinburgh IEEE
+9_25 J Smith;Grigory Mints; Enn Tyugu <>Type-theoretical semantics of some declarative languages <>D Bj rner editor Selected Works of Baltic Republics Computer Scientists Lecture Notes Computer Science Springer Verlag
+9_26 J Smith;Tanel Tammet<>Optimized Encodings of Fragments of Type Theory in First Order Logic <>TYPES
+9_27 J Smith;Tanel Tammet<>Optimized Encodings of Fragments of Type Theory in First-Order Logic <>Journal of Logic and Computation
+9_28 J Smith;Enn Tyugu ; Grigori Mints<>Type-theoretical Semantics of Some Declarative Languages <>Baltic Computer Science
+9_1 J Smith;<>Kleene's Slash and Existence of Values of Open Terms in Type Theory <>CSL Computer Science Logic
+9_2 J Smith;<>An Interpretation of Martin-Lof's Type Theory in a Type-Free Theory of Propositions <>J Symb Log
+9_3 J Smith;<>Propositional Functions and Families of Types <>Notre Dame Journal of Formal Logic
+9_4 J Smith;<>The Identification of Propositions and types in Martin-L&ouml;f's Type Theory: A Programming Example <>FCT Fundamentals of Computation Theory
+9_5 J Smith;<>The Independence of Peano's Fourth Axiom from Martin-Lof's Type Theory Without Universes <>J Symb Log
+9_6 J Smith;Thierry Coquand<>An Application of Constructive Completeness <>TYPES
+9_7 J Smith;Bengt Nordstr&ouml;m<>Propositions and Specifications of Programs in Martin-L&ouml;fs Type Theory <>BIT
+9_8 J Smith;Bengt Nordstr&ouml;m ; Bj&ouml;rn von Sydow ; Thierry Coquand<>Type Theorie Programming <>Bulletin of the EATCS European Association for Theoretical Computer Science
+9_9 J Smith;Kent Petersson<>Program Derivation in Type Theory: A Partitioning Problem <>Comput Lang

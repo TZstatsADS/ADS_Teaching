@@ -1,0 +1,112 @@
+10_1 J Martin; James L Crowley<>An Appearance-Based Approach to Gesture-Recognition <>ICIAP
+10_2 J Martin; Augustin Lux ; Christophe Le Gal ; James L Crowley<>Smart Office: Design of an Intelligent Environment <>IEEE Intelligent Systems
+10_3 J Martin; Daniela Hall ; James L Crowley<>Statistical Gesture Recognition Through Modelling of Parameter Trajectories <>Gesture Workshop
+10_4 J Martin; James L Crowley ; Olivier Chomat<>A Probabilistic Sensor for the Perception and Recognition of Activities <>ECCV European Conference Computer Vision
+11_1 J Martin; Ram&oacute;n Puigjaner<>Extending UML Deployment Diagrams form a Performance Engineering Perspective <>Software Engineering Research and Practice
+11_2 J Martin; Carlos Juiz ; Nunzio Nicol&oacute; Savino V&aacute;zquez<>Unified system builder through interacting blocks USBIB for soft real-time systems <>Workshop Software and Performance
+11_3 J Martin; Didier Boudigue ; Georges Gardarin ; Jos&eacute; Antonio Corbacho ; Nunzio Nicol&oacute; Savino V&aacute;zquez ; Ram&oacute;n Puigjaner ; Sophie Dumas<>Predicting the behaviour of three-tiered applications: dealing with distributed-object technology and databases <>Perform Eval
+11_4 J Martin; Jos&eacute; Antonio Corbacho ; Nunzio Nicol&oacute; Savino V&aacute;zquez ; Ram&oacute;n Puigjaner<>Extending SMART to Predict the Behaviour of PL/SQL Applications <>Computer Performance Evaluation Tools
+12_1 J Martin; Chris Lankester<>Ask Me Tomorrow: The NRC and University of Ottawa Question Answering System <>TREC Text REtrieval Conference
+12_2 J Martin; Alain D&eacute;silets ; Berry de Bruijn<>Extracting Keyphrases from Spoken Audio Documents <>SIGIR Research and Development Information Retrieval Workshop Information Retrieval Techniques for Speech Applications
+12_3 J Martin; <>Focusing Attention for Observational Learning: The Importance of Context <>IJCAI International Joint Conference Artificial Intelligence
+13_1 J Martin; Dominique B&eacute;roule ; R Veldman<>Developing Multimodal Interfaces: A Theoretical Framework and Guided Propagation Networks <>Multimodal Human Computer Communication
+13_2 J Martin; Dominique B&eacute;roule<>Temporal Codes within a Typology of Cooperation Between Modalities <>Artif Intell Rev
+13_3 J Martin; Adam Cheyer ; Luc Julia<>A Unified Framework for Constructing Multimodal Experiments and Applications <>Cooperative Multimodal Communication
+14_1 J Martin; Peter H Welch<>A CSP Model for Java Multithreading <>PDSE
+14_2 J Martin; <>A Tool for Checking the CSP sat Property <>Comput J
+15_1 J Martin; Daniel M Dias ; David C Sadler ; Jamshed H Mirza ; Marc Snir ; Tilak Agerwala<>SP System Architecture <>IBM Systems Journal
+15_2 J Martin; Daniel M Dias ; David C Sadler ; Jamshed H Mirza ; Marc Snir ; Tilak Agerwala<>SP System Architecture <>IBM Systems Journal
+16_1 J Martin; Ferenc A Jolesz ; Guido Gerig ; Martha Elizabeth Shenton ; Olaf K&uuml;bler ; Ron Kikinis<>Automating Segmentation of Dual-Echo MR Head Data <>IPMI Information Processing Medical Imaging
+16_2 J Martin; Alex Pentland ; Ron Kikinis ; Stan Sclaroff<>Characterization of Neuropathological Shape Deformations <>IEEE Transactions Pattern Analysis and Machine Intelligence
+1_16 J Martin; Court Sansom ; Debbie Durant ; Henry Moeller ; Jim Osborn ; Virginia Redmond<>Slowing Down the Revolving Door: Motivating and Retaining Student Employees <>SIGUCCS Special Interest Group University and Computing Services
+1_9 J Martin; <>Help desk training: art, science, or prayer <>SIGUCCS Special Interest Group University and Computing Services
+1_1 J Martin; <>What does faculty really want from information technology?<>SIGUCCS Special Interest Group University and Computing Services
+1_2 J Martin; <>Managing the network <>SIGUCCS Special Interest Group University and Computing Services
+1_10 J Martin; <>Seamless Integration of Client Server Applications - Conclusion or How Many SIGUCCS Papers Can You Get From One Project?<>SIGUCCS Special Interest Group University and Computing Services
+1_3 J Martin; <>There's gold in them thar networks! or searching for treasure in all wrong places <>SIGUCCS Special Interest Group University and Computing Services
+1_11 J Martin; <>Training Help Desk Students: The Never Ending Task <>SIGUCCS Special Interest Group University and Computing Services
+1_4 J Martin; <>There's gold in them thar networks!: or searching for treasure in all the wrong places <>SIGUCCS Special Interest Group University and Computing Services
+1_12 J Martin; Jan Eveleth ; Linda J Hutchison ; Priscilla Huston ; Susan Calcari<>Network information centers NICs : is there one on your horizon?<>SIGUCCS Special Interest Group University and Computing Services
+1_5 J Martin; <>There's gold in them thar networks! or searching for treasure in all the wrong places <>SIGUCCS Special Interest Group University and Computing Services
+1_13 J Martin; <>Network client server applications on the network <>SIGUCCS Special Interest Group University and Computing Services
+1_6 J Martin; <>A solution to the campus parking problem <>SIGUCCS Special Interest Group University and Computing Services
+1_14 J Martin; <>Moving to a total client server operation <>SIGUCCS Special Interest Group University and Computing Services
+1_7 J Martin; <>Seamless integration of client server applications <>SIGUCCS Special Interest Group University and Computing Services
+1_15 J Martin; <>Are we ready for distance education?<>SIGUCCS Special Interest Group University and Computing Services
+1_8 J Martin; <>Desktop videoconferencing - first steps <>SIGUCCS Special Interest Group University and Computing Services
+2_12 J Martin; <>Computer Understanding of Conventional Metaphoric Language <>Cognitive Science
+2_6 J Martin; <>MetaBank: A Knowledge-Base of Metaphoric Language Conventions <>Computational Intelligence
+2_13 J Martin; Benjamin G Zorn ; Brad Calder ; Dirk Grunwald ; Donald C Lindsay ; Michael Mozer<>Corpus-Based Static Branch Prediction <>PLDI Special Interest Group Programming Language Design and Implementation
+2_7 J Martin; <>Representing UNIX Domain Metaphors <>Artif Intell Rev
+2_14 J Martin; Benjamin G Zorn ; Brad Calder ; Dirk Grunwald ; Donald C Lindsay ; Michael Jones ; Michael Mozer<>Evidence-Based Static Branch Prediction Using Machine Learning <>ACM Trans Program Lang Syst
+2_8 J Martin; David N Chin ; Dekai Wu ; James Mayfield ; Marc Luria ; Robert Wilensky<>The Berkeley UNIX Consultant Project <>Artif Intell Rev
+2_15 J Martin; Carl H Block ; David E Monarchi ; Megan R MacMillan<>A Prototype System for Extracting Objects from Software Specifications <>ACM SIGBDP Special Interest Group Business Data Processing Conference Trends and Directions Expert Systems
+2_9 J Martin; Keith Vander Linden<>Expressing Rhetorical Relations in Instructional Text: A Case Study of the Purposes Relation <>Computational Linguistics
+2_1 J Martin; <>Understanding New Metaphors <>IJCAI International Joint Conference Artificial Intelligence
+2_2 J Martin; <>Representing regularities in the metaphoric lexicon <>COLING Conference Computational Linguistics
+2_3 J Martin; <>Conventional Metaphor and the Lexicon <>SIGLEX Special Interest Group the Lexicon of the Association for Computational Linguistics Workshop
+2_10 J Martin; David N Chin ; Dekai Wu ; James Mayfield ; Marc Luria ; Robert Wilensky<>The Berkeley UNIX Consultant Project <>Computational Linguistics
+2_4 J Martin; <>Norvig's Paradigms of Artificial Intelligence Programming: An Instructor's Perspective <>Artif Intell
+2_11 J Martin; Keith Vander Linden ; Susanna Cumming<>Using System Networks to Build Rhetorical Structures <>NLG Natural Language Generation
+2_5 J Martin; Dan Fass ; Elizabeth A Hinkelman<>Introduction to the Special Issue on Non-Literal Language <>Computational Intelligence
+3_3 J Martin; Bruce Kwan ; Mario Gerla ; Prasasth Palnati ; Rajive Bagrodia ; Simon Walton ; Yu-an Chen<>Parallel Simulation of a High-Speed Wormhole Routing Network <>Workshop Parallel and Distributed Simulation
+3_4 J Martin; Rajive Bagrodia ; Sonia Furman<>A Comparative Study on the Effects of Spatial Diversity in Ad Hoc Networks Using On-Demand Routing Protocols <>ICPP International Conference Parallel Processing Workshops
+3_5 J Martin; Aifeng Ren ; Mineo Takai ; Rajive Bagrodia<>Directional virtual carrier sensing for directional antennas in mobile ad hoc networks <>MobiHoc
+3_6 J Martin; Mineo Takai ; Rajive Bagrodia<>Effects of wireless physical layer modeling in mobile ad hoc networks <>MobiHoc
+3_7 J Martin; Ha Yoon Song ; Mineo Takai ; Rajive Bagrodia ; Richard A Meyer ; Xiang Zeng ; Yu-an Chen<>Parssec: A Parallel Simulation Environment for Complex Systems <>IEEE Computer
+3_8 J Martin; Rajive Bagrodia<>Compose: An Object-Oriented Environment for Parallel Discrete-Event Simulations <>Winter Simulation Conference
+3_1 J Martin; Rajive Bagrodia ; Richard A Meyer<>Slow memory: the rising cost of optimism <>PADS Workshop Parallel and Distributed Simulation
+3_2 J Martin; Kaixin Xu ; Mineo Takai ; Rajive Bagrodia<>Looking ahead of real time in Hybrid component networks <>Workshop Parallel and Distributed Simulation
+4_1 J Martin; Andrea L Mox ; John Major ; Marlene R Pratto ; Martie Skinner ; Robert Minato<>Personal networks: why both and how to get started <>SIGUCCS Special Interest Group University and Computing Services
+4_2 J Martin; Jonathan Thyer ; Marlene R Pratto ; Martie Skinner<>Global Greensboro, the Guilford Country Schools and UNCG <>SIGUCCS Special Interest Group University and Computing Services
+4_3 J Martin; Andrea L Mox ; John Major ; Marlene R Pratto ; Martie Skinner ; Robert Minato<>Personal networks: how does your support garden grow?<>SIGUCCS Special Interest Group University and Computing Services
+4_4 J Martin; Andrea L Mox ; John Major ; Marlene R Pratto ; Martie Skinner ; Robert Minato<>A year in the life of a personal network <>SIGUCCS Special Interest Group University and Computing Services
+4_5 J Martin; Andrea Mox ; John Major ; Marlene Pratto ; Martie Skinner ; Robert Minato<>Keeping it going: a progress report on the nd year of coast-to-coast consulting <>SIGUCCS Special Interest Group University and Computing Services
+4_6 J Martin; Martie Skinner<>Managing chaos: being available without driving the consultants crazy <>SIGUCCS Special Interest Group University and Computing Services
+5_1 J Martin;Lorenzo Alvisi ; Michael Dahlin<>Minimal Byzantine Storage <>DISC International Symposium Distributed Computing
+5_2 J Martin;Lorenzo Alvisi ; Michael Dahlin<>Small Byzantine Quorum Systems <>DSN The International Conference Dependable Systems and Networks
+5_3 J Martin;Don S Batory ; Roberto E Lopez-Herrejon<>Generating Product-Lines of Product-Families <>ASE Automated Software Engineering
+5_4 J-P Martin; L Alvisi; M Dahlin <>Minimal Byzantine Quorum Systems extended technical report <>NOTE This paper is superseded by Minimal Byzantine Storage above
+5_5 J-P Martin; L Alvisi; M Dahlin <>Minimal Byzantine Storage<>Proceedings of the th International Symposium Distributed Computing DISC International Symposium Distributed Computing Toulouse LNCS ISBN
+5_6 J-P Martin; L Alvisi; M Dahlin <>Minimal Byzantine Storage extended technical report <>Technical Report TR updated version Published DISC International Symposium Distributed Computing
+5_10 J Martin;Arun Venkataramani ; Jian Yin ; Lorenzo Alvisi ; Michael Dahlin<>Separating agreement from execution for byzantine fault tolerant services <>SOSP Symposium Operating Systems Principles
+5_7 J-P Martin; L Alvisi; M Dahlin <>Small Byzantine Quorum Systems<>Proceedings of the International Conference Dependable Systems Networks DSN The International Conference Dependable Systems and Networks pages
+5_11 J Martin;Arun Venkataramani ; Jian Yin ; Lorenzo Alvisi ; Michael Dahlin<>Towards a Practical Approach to Confidential Byzantine Fault Tolerance <>Future Directions Distributed Computing
+5_8 J-P Martin; L Alvisi; M Dahlin <>Small Byzantine Quorum Systems extended technical report <>Technical Report TR
+5_12 J Yin; J-P Martin; A Venkataramani; L Alvisi; M Dahlin <>Byzantine Fault-Tolerant Confidentiality updated <>Future Directions Distributed Computing Workshop
+5_9 J-P Martin <>On Checking Temporal Properties of Software with Boolean Programs<>
+5_13 J Yin; A Venkataramani; J-P Martin; L Alvisi; M Dahlin <>Fault-Tolerance and Security when opposites attract <>slides from
+5_14 Jian Yin; Jean-Philippe Martin; Arun Venkataramani; Lorenzo Alvisi; Mike Dahlin <>Separating Agreement from Execution for Byzantine Fault Tolerant Services <>Proceedings of the th Symposium Operating Systems Principles SOSP Symposium Operating Systems Principles
+6_10 Johannes Martin; Hausi Müller D<>Discovering Implicit Inheritance Relations in Non Object-Oriented Code <>Advances Software Engineering Comprehension Evaluation and Evolution Edited by Erdogmus Tanir e Springer Verlag New ISBN
+6_11 Ludger Martin; Anke Giesl; Johannes Martin <>Dynamic Component Program Visualisation <>Proceedings of the th Working Conference for Reverse Engineering
+6_20 Johannes Martin <>Tool Adoption: A Software Developer's Perspective <>Proceedings of the rd International Workshop Adoption Centric Software Engineering
+6_12 Ludger Martin; Anke Giesl; Johannes Martin <>Dynamische Komponenten-Programm-Visualisierung <> Workshop Software Reengineering Bad Honnef
+6_21 J Martin;Bruce Winter ; Hausi A M&uuml;ller ; Kenny Wong<>Analyzing xfig Using the Rigi Tool Suite <>WCRE Working Conference Reverse Engineering
+6_13 Johannes Martin; Ludger Martin <>Web Site Maintenance With Software Enginerring Tools <>Proceedings of the rd International Workshop Web Site Evolution ISBN
+6_14 Johannes Martin; Kenny Wong; Bruce Winter; Hausi Müller <>Analyzing xfig Using the Rigi Tool Suite <>Proceedings of the th Working Conference for Reverse Engineering Brisbane ISBN
+6_15 Johannes Martin; Ludger Martin<>Reengineering-Werkzeuge für Webseiten <> Workshop Software Reengineering Bad Honnef
+6_16 Johannes Martin; Hausi Müller <>Strategies for Migration from C to Java <>Proceedings of the th European Conference for Software Maintenance and Reengineering Lisbon ISBN
+6_17 Johannes Martin <>Ovid - Technologien zum automatisierten Software-Reengineering technologies for automated software-reengineering, in German <>Research Magazine of Johannes Gutenberg Universit t Mainz Special edition trade fairs
+6_18 Johannes Martin <>Leveraging IBM VisualAge for C++ for Reverse Engineering Tasks <>Proceedings of CASCON Toronto
+6_19 Johannes Martin <>Ephedra - A C to Java Migration Environment <>Ph D Dissertation University of Kanada
+6_1 P Devanbu; Y-F Chen; E Gansner; H Müller; J Martin <>CHIME: Customizable Hyperlink Insertion and Maintenance Engine for Software Engineering Environments <>Proceedings of the International Conference Software Engineering Los Angeles Computer Animation
+6_2 J Martin;Emden R Gansner ; Hausi A M&uuml;ller ; Premkumar T Devanbu ; Yih-Farn Chen<>CHIME: Customizable Hyperlink Insertion and Maintenance Engine for Software Engineering Environments <>ICSE International Conference Software Engineering
+6_3 J Martin;Anke Giesl ; Ludger Martin<>Dynamic Component Program Visualization <>WCRE Working Conference Reverse Engineering
+6_4 Holger M Kienle; Anke Weber; Johannes Martin; ; Hausi A Müller <>Development and Maintenance of a Web Site for a Bachelor Program <>Proceedings of the th International Workshop Website Evolution
+6_5 Kostas Kontogiannis; Johannes Martin; Kenny Wong; Richard Gregory; Hausi Müller; John Mylopoulos <>Code Migration Through Transformations: An Experience Report <>Proceedings of CASCON Toronto
+6_6 J Martin;Hausi A M&uuml;ller<>C to Java Migration Experiences <>CSMR Conference Software Maintenance and Reengineering
+6_7 J Martin;Hausi A M&uuml;ller<>Strategies for Migration from C to Java <>CSMR Conference Software Maintenance and Reengineering
+6_8 Johannes Martin; Hausi Müller <>Considerations on the Syntax of a Standard Exchange Format <>Proceedings of the Workshop Standard Exchange Format at the International Conference Software Engineering Limmerick Irland
+6_9 Johannes Martin; Hausi Müller <>C to Java Migration Experiences <>Proceedings of the th European Conference for Software Maintenance and Reengineering Budapest
+7_1 J Martin; A Alzaga<>A Design Process Model to Support Concurrent Project Development in Networks of SMES <>PRO VE
+7_2 J Martin; G Mayor ; Joan Torrens<>On locally internal monotonic operations <>Fuzzy Sets and Systems
+7_3 J Martin; G Mayor<>Locally Internal Aggregation Functions <>International Journal of Uncertainty Fuzziness and Knowledge Based Systems
+7_4 J Martin; G Mayor ; Joan Torrens ; Tomasa Calvo<>Balanced Discrete Fuzzy Measures <>International Journal of Uncertainty Fuzziness and Knowledge Based Systems
+8_4 J Martin; Dorrit O Billman<>Acquiring and Combining Overlapping Concepts <>Machine Learning
+8_1 J Martin; <>DP : Supervised and Unsupervised Clustering <>ECML European Conference Machine Learning
+8_2 J Martin; <>Reducing Redundant Learning <>ML
+8_3 J Martin; Dorrit O Billman<>Variability Bias and Category Learning <>ML
+9_1 J Martin; Arne A Nilsson ; Injong Rhee<>The incremental deployability of RTT-based congestion avoidance for high speed TCP Internet connections <>SIGMETRICS Measurement and Modeling of Computer Systems
+9_2 J Martin; Arne A Nilsson<>On Service Level Agreements for IP Networks <>INFOCOM The Conference Computer Communications
+9_3 J Martin; Arne A Nilsson ; Injong Rhee<>Delay-based congestion avoidance for TCP <>IEEE ACM Trans Netw
+9_4 J Martin; Arne A Nilsson<>On End-to-End Congestion Avoidance for TCP/IP <>HPN High Performance Networking

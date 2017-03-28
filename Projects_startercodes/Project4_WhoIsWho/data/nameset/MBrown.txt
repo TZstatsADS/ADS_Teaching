@@ -1,0 +1,153 @@
+10_1 M Brown; Jianying Hu ; William Turin<>Invariant Features for HMM Based On-Line Handwriting Recognition <>ICIAP
+10_2 M Brown; Amy S Rosenthal ; Jianying Hu<>Combining High-Level Features with Sequential Local Features for On-Line Handwriting Recognition <>ICIAP
+10_3 M Brown; Jianying Hu ; William Turin<>HMM Based On-Line Handwriting Recognition <>IEEE Transactions Pattern Analysis and Machine Intelligence
+11_1 M Brown;Mary D Brown; Jared Stark; Yale N Patt<>Select-Free Instruction Scheduling Logic,<>Proceedings of the th ACM IEEE International Symposium Microarchitecture MICRO International Symposium Microarchitecture talk slides
+11_2 M Brown;Mary D Brown ; Yale N Patt<>Using Internal Redundant Representations and Limited Bypass to Support Pipelined Adders and Register Files,<> the Proceedings of the th IEEE International Symposium High Performance Computer Architecture HPCA International Symposium High Performance Computer Architecture talk slides
+11_3 M Brown;Yale N Patt<>Using Internal Redundant Representations and Limited Bypass to Support Pipelined Adders and Register Files <>HPCA International Symposium High Performance Computer Architecture
+11_4 M Brown;Jared Stark; Mary D Brown; Yale N Patt<>On Pipelining Dynamic Instruction Scheduling Logic,<>Proceedings of the rd ACM IEEE International Symposium Microarchitecture MICRO International Symposium Microarchitecture
+11_5 M Brown;Jared Stark ; Yale N Patt<>Select-free instruction scheduling logic <>MICRO International Symposium Microarchitecture
+12_1 M Brown;<>Selecting Semantics for Use with Semantic Pruning of Linear Deductions <>Australian Joint Conference Artificial Intelligence
+12_2 M Brown ; G Sutcliffe <>PTTP+GLiDeS: Guiding Linear Deductions with Semantics <>N Foo editor Advanced Topics Artificial Intelligence th Australian Joint Conference Artificial Intelligence AI Artificial Intelligence Sydney number Lecture Notes Artificial Intelligence pages Springer Verlag Heidelberg
+12_3 M Brown; G Sutcliffe <>PTTP+GLiDeS - Semantically Guided PTTP,<>D McAllester editor Automated Deduction CADE Conference Automated Deduction th International Conference Automated Deduction Proceedings p number LNAI Springer Verlag New
+12_4 M Brown; G Sutcliffe <>PTTP+GLiDeS - Using Models to Guide Linear Deductions <>Baumgartner P Fermueller C Peltier N Zhang H Eds Proceedings of the CADE Conference Automated Deduction Workshop Model Computation Principles Algorithms Applications
+12_5 M Brown ; G Sutcliffe <>System Description: PTTP+GLiDeS - Semantically Guided PTTP <>Technical Report School of Information Technology James Cook University
+12_6 M Brown <>Selecting Semantics for Use with Semantic Pruning of Linear Deductions,<>McKay Bob and Slaney J editor AI Artificial Intelligence Advances Artifical Intelligence th Australian Joint Intelligence Canberra Proceedings number LNAI Springer Verlag Heidelberg
+12_7 M Brown;Geoff Sutcliffe<>PTTP+GLiDeS: Guiding Linear Deductions with Semantics <>Australian Joint Conference Artificial Intelligence
+12_8 M Brown;Geoff Sutcliffe<>System Description: PTTP+GLiDes: Semantically Guided PTTP <>CADE Conference Automated Deduction
+13_1 M Brown; Saurav Chatterjee<>Adaptive QoS Resource Management in Dynamic Environments <>ICMCS International Conference Multimedia Computing and Systems
+13_2 M Brown; Bikash Sabata ; Saurav Chatterjee<>Adaptive QoS Support for Distributed, Java-Based Applications <>ISORC IEEE International symposium Object Oriented Real Time Distributed Computing
+13_3 M Brown; Madhu Sudan ; Nachum Shacham<>Conducting a Multiparty Multimedia Session over ATM using Hierarchically Encoded Data <>ICC International Conference Communications
+1_24 M Brown; William E Weihl<>Zippers: A Focus+Context Display of Web Pages <>WebNet
+1_16 M Brown; Marc Najork<>Collaborative Active Textbooks <>J Vis Lang Comput
+1_25 M Brown; Robert Sedgewick<>Techniques for Algorithm Animation <>IEEE Software
+1_17 M Brown; Marc Najork<>Obliq- D: A High-Level, Fast-Turnaround D Animation System <>IEEE Transactions Visualization and Computer Graphics
+1_18 M Brown; John Hershberger<>Color and Sound in Algorithmic Animation <>IEEE Computer
+1_19 M Brown; <>Exploring Algorithms Using Balsa-II <>IEEE Computer
+1_1 M Brown; John Hershberger<>Color and Sound in Algorithm Animation <>VL Visual Languages
+1_2 M Brown; Marc Najork<>Collaborative Active Textbooks: A Web-Based Algorithm Animation System for an Electronic Classroom <>VL Visual Languages
+1_3 M Brown; <>Zeus: A System for Algorithm Animation and Multi-View Editing <>VL Visual Languages
+1_4 M Brown; <>The SRC Algorithm Animation Festival <>VL Visual Languages
+1_5 M Brown; Marc Najork ; Roope Raisamo<>A Java-Based Implementation of Collaborative Active Textbooks <>VL Visual Languages
+1_6 M Brown; Marc Najork<>Algorithm Animation Using D Interactive Graphics <>ACM Symposium User Interface Software and Technology
+1_7 M Brown; <>Browsing the Web with a Mail/News Reader <>ACM Symposium User Interface Software and Technology
+1_8 M Brown; Krishna Bharat<>Building Distributed, Multi-User Applications by Direct Manipulation <>ACM Symposium User Interface Software and Technology
+1_9 M Brown; Marc Najork<>Distributed Applets <>CHI Conference Human Factors Computing Systems Extended Abstracts
+1_10 M Brown; Robert A Shillner<>A new paradigm for browsing the web <>CHI Conference Human Factors Computing Systems Conference Companion
+1_11 M Brown; Marc Najork<>A Library for Visualizing Combinatorial Structures <>IEEE Visualization
+1_20 M Brown; <>An Introduction to Zeus: Audiovisualization of Some Elementary Sequential and Parallel Sorting Algorithms <>CHI Conference Human Factors Computing Systems
+1_12 M Brown; <>WebCard = Email + News + WWW <>CHI Conference Human Factors Computing Systems Extended Abstracts
+1_21 M Brown; Manojit Sarkar<>Graphical Fisheye Views of Graphs <>CHI Conference Human Factors Computing Systems
+1_13 M Brown; Krishna Bharat<>Building a distributed application using visual Obliq <>CHI Conference Human Factors Computing Systems Conference Companion
+1_22 M Brown; Manojit Sarkar<>Graphical Fisheye Views <>Commun ACM
+1_14 M Brown; Marc Najork<>Distributed Active Objects <>Computer Networks
+1_23 M Brown; <>Experiences Using Algorithm Animations for Teaching and Research <>ICCAL International Conference Computers and Learning
+1_15 M Brown; Robert A Shillner<>DeckScape: An Experimental Web Browser <>Computer Networks and ISDN Systems
+2_12 M Brown;M S Brown;W Seales<>Fast Stereo Matching using Compressed Video,<>Asian Conference Computer Vision ACCV Asian Conference Computer Vision Hong Kong
+2_13 M Brown;M S Brown;W Wong<>Laser Pointer Interaction For Camera-Registered Multi-Projector Displays,<>IEEE International Conference Image Processing
+2_30 M Brown;W B Seales;C J Yuan;M S Brown<>Efficient Content Extraction In Compressed Images,<>IEEE Workshop Content Based Access of Image and Video Libraries Part of Computer Vision and Pattern Recognition CVPR Computer Vision and Pattern RecognitioN San Juan Puerto Rico
+2_14 M Brown;M S Brown;W B Seales<>Image Restoration of Arbitrarily Warped Documents<> IEEE Transactions PAMI under review
+2_31 M Brown;W Brent Seales<>Fast Stereo Matching in Compressed Video <>ACCV Asian Conference Computer Vision
+2_15 M Brown;M S Brown;W B Seales<>Incorporating Geometric Registration with PC-Cluster Rendering for Flexible Tiled Displays<> International Journal of Image and Graphics
+2_32 M Brown;W Brent Seales<>A Practical and Flexible Tiled Display System <>Pacific Conference Computer Graphics and Applications
+2_16 M Brown;M S Brown;D Tsoi<>Undistorting Imaged Print Materials Using Boundary Information<> Asian Conference Computer Vision under review
+2_33 M Brown;W Brent Seales<>The digital atheneum: new approaches for preserving, restoring and analyzing damaged manuscripts <>JCDL ACM IEEE Joint Conference Digital Libraries
+2_17 M Brown;M S Brown;W B Seales<>A Practical and Flexible Tiled Display System,<>IEEE Pacific Graphics
+2_34 M Brown;Desmond Tsoi<>Correcting Common Distortions in Camera-Imaged Library Materials <>JCDL ACM IEEE Joint Conference Digital Libraries
+2_18 M Brown;E Elsayed;M S Brown<>Cooperative Stereo: Combining Edge-Based and Area-Based Stereo,<>IEEE Aerospace Conference Snow Mass
+2_35 M Brown;Y -C Tsoi;M S Brown<>Video Cosmetics: Computer-aided removal of blemishes from Video<> IEEE Transactions Image Processing under review
+2_19 M Brown;Henry Fuchs ; Ruigang Yang ; W Brent Seales<>Geometrically correct imagery for teleconferencing <>ACM Multimedia
+2_36 M Brown;D Tsoi;M S Brown<>Removal of Dynamic Blemishes from Video,<>Asian Conference Computer Vision
+2_37 M Brown;Greg Welch ; Henry Fuchs ; Herman Towles ; Ramesh Raskar ; Ruigang Yang ; W Brent Seales ; Wei-Chao Chen<>Multi-Projector Displays Using Camera-Based Registration <>IEEE Visualization
+2_38 M Brown;Greg Welch ; Henry Fuchs ; Herman Towles ; Ramesh Raskar<>Projected Imagery in Your Office of the Future <>IEEE Computer Graphics and Applications
+2_39 M Brown;G Welch;H Fuchs;R Raskar;M S Brown;H Towles<>Projected Imagery In Your Office in the Future,<>IEEE Computer Graphics and Applications
+2_20 M Brown;David Gotz ; Herman Towles ; Justin Hensley ; Ruigang Yang<>PixelFlex: A Reconfigurable Multi-Projector Display System <>IEEE Visualization
+2_21 M Brown;Christopher O Jaynes ; Stephen B Webb ; W Brent Seales<>Building large-format displays for digital libraries <>Commun ACM
+2_22 M Brown;C O Jaynes;S B Webb;W B Seales;M S Brown;R W Steel<>Dynamic Shadow Removal from Front Projection Display,<>IEEE Visualization
+2_23 M Brown;Christopher O Jaynes ; R Matt Steele ; Stephen B Webb ; W Brent Seale<>Dynamic Shadow Removal from Front Projection Displays <>IEEE Visualization
+2_40 M Brown;R Yang;M S Brown;W B Seales;H Fuchs<>Geometrically Correct Imagery for Teleconferencing,<>ACM Multimedia st
+2_24 M Brown;S Michael<>Building Large Format Displays<> EUROGRAPHICS Organizer Aditi Majumder UC
+2_41 M Brown;R Yang;M S Brown<>PixelFlex: A Reconfigurable, Multi-projector Display System,<>IEEE Visualization
+2_25 M Brown;S Michael<>Digital Libraries<> Multimedia Information Retrieval and Management
+2_26 M Brown;S Michael<>Large-Scale Displays for the Masses: Recent Techniques for Building Affordable and Flexible Tiled Displays<> SIGGRAPH Special Interest Group Computer Graphs Organizer Aditi Majumder UC
+2_27 M Brown;R Raskar;M S Brown<>Seamless Camera-Registered Multi-Projector Display over Irregular Surfaces,<>IEEE Visualization San Francisco
+2_28 M Brown;W Brent Seales<>Beyond D images: effective D imaging for library materials <>ACM DL Digital Libraries
+2_29 M Brown;W Brent Seales<>Document Restoration Using D Shape: A General Deskewing Algorithm for Arbitrarily Warped Documents <>ICCV International Conference Computer Vision
+2_1 M Brown;M S Brown<>Building Large Format Displays for Digital Libraries,<>Communications of the ACM Special Issue Digital Libraries
+2_2 M Brown;M S Brown;W B Seales<>Beyond D Images: Effective D Imaging for Library Materials,<> th ACM Conference Digital Libraries
+2_3 M Brown;M S Brown;R D Yang<>Computer-Assisted Visualization and Analysis of Scholarly Manuscripts,<>IS T Visualization and Data Analysis VDA
+2_4 M Brown;M S Brown;D Tsoi<>Correcting Common Distortions in Camera-Imaged Library Materials,<>IEEE and ACM JCDL ACM IEEE Joint Conference Digital Libraries
+2_5 M Brown;M S Brown;Y -C Tsoi<>Correcting Distortions in Imaged Print Materials using Boundary Interpolation<> International Journal of Image and Graphics
+2_6 M Brown;M S Brown;W B Seales;K Kiernan;J Griffioen<> D Acquisition and Restoration of Medieval Manuscripts,<>Communications of the ACM Special Issue Digital Libraries
+2_7 M Brown;M S Brown;W B Seales<>Document Restoration using D Shape,<>International Conference Computer Vision
+2_8 M Brown;M S Brown;W B Seales<>Digital Atheneum: New Approaches for Preserving, Restoring, and Analyzing Damaged Manuscripts,<>IEEE and ACM Joint Conference Digital Libraries Nominated for Best Paper Award
+2_9 M Brown;M S Brown;W B Seales<>Digital Atheneum: Techniques for Acquiring and Restoring Damaged Scholarly Manuscripts<> International Journal of Digital Libraries under review
+2_10 M Brown;M S Brown;W B Seales<> D Imaging of Humanities Texts,<>Association of Computing and the Humanities Conference
+2_11 M Brown;M S Brown;R D Yang<>Fast Half-toning of MPEG Video for Bi-Tonal Displays,<>IEEE International Conference Image Processing
+3_10 M Brown;Ian Watson ; Nick Filer<>Separating the Cases from the Data: Towards More Flexible Case-Based Reasoning <>ICCBR Case Based Reasoning and Development
+3_11 M Brown;Dieter Wissmann ; Luo Xiao ; Stefan Jablonski<>Hierarchical Concept Description and Learning for Information Extraction <>NLPRS Natural Language Processing Pacific Rim Symposium
+3_12 M Brown;Dieter Wissmann ; Luo Xiao ; Stefan Jablonski<>Information Extraction from HTML: Combining XML and Standard Techniques for IE from the Web <>IEA Industrial and Engineering Applications AIE Artificial Intelligence and Expert Systems
+3_13 M Brown;Dieter Wissmann ; Luo Xiao ; Stefan Jablonski<>Where to Position the Precision in Knowledge Extraction from Text <>IEA Industrial and Engineering Applications AIE Artificial Intelligence and Expert Systems
+3_1 M Brown;<>A Memory Model for Case Retrieval by Activation:<>PhD thesis
+3_2 M Brown;<>Incorporating Similarity Measures into Case Retrieval Using Analogue Marker Passing <>ECAI European Conference Artificial Intelligence
+3_3 M Brown;<>An Underlying Memory Model to Support Case Retrieval <>EWCBR
+3_4 M Brown; N Filer<>Case Retrieval Must Use Massive Parallelism?:<>Proc of Expert Systems UK RESEARCH AND DEVELOPMENT EXPERT SYSTEMS XI
+3_5 M Brown; Z Moosa; N Filer<>A Knowledge Based Support for Use of Complex CAD Tools:<>Proc of Expert Systems UK APPLICATIONS AND INNOVATIONS EXPERT SYSTEMS II
+3_6 M Brown;Gloria Dabiri ; Maria Aretoulaki ; Matthias Nitzsche<>A User-Sensitive Spoken Dialogue System Incorporating Emotional Responsiveness <>SETN Hellenic Conference Artificial Intelligence
+3_7 M Brown;Nick Filer<>Beauty vs the Beast: The Case Against Massively Parallel Retrieval <>UK Workshop Case Based Reasoning
+3_8 N Filer; Z Moosa; M Brown<>Integrating CAD Tools into a Framework Environment Using a Flexible and Adaptable Procedural Interface:<>Proc IEEE EuroDAC Conference Grenoble
+3_9 M Brown;Alan Flett ; Borys Omelayenko ; Dieter Fensel ; Ellen Schulten ; Guy Botquin ; Ying Ding<>Product Data Integration in B B E-Commerce <>IEEE Intelligent Systems
+4_1 M Brown; Robert Endre Tarjan<>A Representation for Linear Lists with Movable Fingers<>STOC ACM Symposium Theory of Computing
+4_2 M Brown; <>The Complexity of Priority Queue Maintenance<>STOC ACM Symposium Theory of Computing
+4_3 M Brown; Robert Endre Tarjan<>A Fast Merging Algorithm <>J ACM
+4_4 M Brown; Robert Endre Tarjan<>Design and Analysis of a Data Structure for Representing Sorted Lists <>SIAM Society for Industrial and Applied Mathematics J Comput
+4_5 M Brown; <>Implementation and Analysis of Binomial Queue Algorithms <>SIAM Society for Industrial and Applied Mathematics J Comput
+4_6 M Brown; <>A Partial Analysis of Random Height-Balanced Trees <>SIAM Society for Industrial and Applied Mathematics J Comput
+4_7 M Brown; <>A Storage Scheme for Height-Balanced Trees <>Inf Process Lett
+4_8 M Brown; <>Some Observations on Random - Trees <>Inf Process Lett
+5_10 M Brown;G&uuml;rsel Serpen ; Jason Bechtel<>Passphrase Authentication Based on Typing Style Through an Art Neural Network <>International Journal of Computational Intelligence and Applications
+5_11 M Brown;Samuel Joe Rogers<>User Identification via Keystroke Characteristics of Typed Names using Neural Networks <>International Journal of Man Machine Studies
+5_12 M Brown;D P Yeager;M E Brown;D A Stanley<>An Object-Oriented Software Library for Minerals Beneficiation and Separation Processes <>Fluid Particle Separation Journal
+5_1 G Bishop;W Bricken;F P Brooks;M Brown<>Research in Virtual Environments: Report of an NSF Workshop,<>Computer Graphics
+5_2 M Brown;B Czejdo<>A Hypertext for Literate Programming,<>Chapter Lecture Notes Computer Science Advances Computing and Information ICCI International Conference Computing and Information S G Akl F Fiala and W W Koczkodaj eds Springer Verlag New
+5_3 M Brown;D Cordes<>Literate Programming Applied to Conventional Software Design,<>Structured Programming
+5_4 M Brown;S B Childs<>An Interactive Environment for Literate Programming,<>Structured Progamming
+5_5 M Brown;S Rogers<>User identification via keystroke characteristics of typed names using neural networks,<>International Journal of Man Machine Studies
+5_6 M Brown;Bart Childs<>An Interactive Environment for Literate Programming <>Structured Programming
+5_7 M Brown;David Cordes<>Literate Programming Applied to Conventional Software Design <>Structured Programming
+5_8 M Brown;David Cordes<>The Literate-Programming Paradigm <>IEEE Computer
+5_9 M Brown;Bogdan D Czejdo<>A Hypertext for Literate Programming <>ICCI International Conference Computing and Information
+6_10 M Brown;Christophe G Giraud-Carrier ; Rafal Bogacz<>A Familiarity Discrimination Algorithm Inspired by Computations of the Perirhinal Cortex <>Emergent Neural Computational Architectures Based Neuroscience
+6_11 M Brown;Christophe G Giraud-Carrier ; Rafal Bogacz<>Model of co-operation between recency, familiarity and novelty neurons in the perirhinal cortex <>Neurocomputing
+6_12 M Brown;Christophe G Giraud-Carrier ; Rafal Bogacz<>Model of Familiarity Discrimination in the Perirhinal Cortex <>Journal of Computational Neuroscience
+6_13 M Brown;Christophe G Giraud-Carrier ; Rafal Bogacz<>Emergence of Movement Sensitive Neurons' Properties by Learning a Sparse Code for Natural Moving Images <>NIPS Neural Information Processing Systems
+6_14 M Brown;G Horn;A U Nicol;M W Brown<>Tracking memory's trace<>Proceedings of the National Academy of Sciences
+6_15 M Brown;Cho K ;Kemp N ;Noel J ;Aggleton J ;Brown M W ;Bashir Z I <>A new form of long-term depression in the perirhinal cortex<>Nature Neuroscience
+6_16 M Brown;B McCaffery;K Cho;J P Aggleton;M W Brown;F Conquet;G L Collingridge;Z I Bashir<>Pharmacological activation of mGlu receptors in the perirhinal cortex<>Neuroscience
+6_17 M Brown;A U Nicol;M W Brown;G Horn<>Hippocampal neuronal activity and imprinting in the behaving domestic chick<>European Journal of Neuroscience
+6_18 M Brown;A U Nicol;M W Brown;G Horn<>Neural encoding of subject-object distance in a visual recognition memory system<>European Journal of Neuroscience
+6_19 M Brown;A U Nicol;M W Brown;G Horn<>Is neuronal encoding of subject-object distance dependent on learning? NeuroReport ; - <>
+6_20 M Brown;S D Vann;M W Brown;J T Erichson;J P Aggleton<><>Using Fos imaging the rat to reveal the anatomical extent of the disruptive effects of fornix lesions J Neurosci
+6_21 M Brown;S D Vann;M W Brown;J T Erichsen;J P Aggleton<><>Fos imaging reveals differential patterns of hippocampal and parahippocampal subfield activity response to different spatial memory tasks J Neurosci
+6_22 M Brown;H Wan;J P Aggleton;M W Brown<>Different contributions of the hippocampus and perirhinal cortex to recognition memory<>Journal of Neuroscience
+6_23 M Brown;Z Ziakopoulos;M W Brown;Z I Bashir<>GABAB receptor mediated paired pulse depression in the perirhinal cortex in vitro<>Eur J Neurosci
+6_24 M Brown;Z Ziakopoulos;C W Tillett;M W Brown;Z I Bashir<>Input- and layer- dependent synaptic plasticity in the rat perirhinal cortex in vitro<>Neuroscience
+6_1 M Brown;Rafal Bogacz<>Capacity of perirhinal cortex network for recognising frequently repeating stimuli <>Neurocomputing
+6_2 M Brown;R Bogacz;M W Brown;C Giraud-Carrier<>High capacity neural networks for familiarity discrimination<>Proceedings of International Conference Artificial Neural Networks Edinburgh
+6_3 M Brown;R Bogacz;M W Brown;C Giraud-Carrier<>Model of familiarity discrimination in the perirhinal cortex<>Journal of Computational Neuroscience
+6_4 M Brown;M W Brown<>Differential neuronal encoding of novelty, familiarity and recency in regions of the anterior temporal lobe<>Neuropharmacology
+6_5 M Brown;M W Brown<>Differential neuronal responsiveness in primate perirhinal cortex and hippocampal formation during performance of a conditional visual discrimination task<>European Journal of Neuroscience
+6_6 M Brown;M W Brown;Z I Bashir<>Evidence concerning how neurones of the perirhinal cortex may effect familiarity discrimination<>Philosophical Transactions of the Royal Society B press
+6_7 M Brown;M W Brown;J P Aggleton<>Recognition Memory: What are the roles of the perirhinal cortex and hippocampus? Nature Reviews Neuroscience ; - <>
+6_8 M Brown;M W Brown<>Recognition memory: neuronal substrates of the judgement of prior occurrence<>Progress Neurobiology
+6_9 M Brown;K Cho;J P Aggleton;M W Brown;Z I Bashir<>An experimental test of the role of postsynaptic calcium levels in determining synaptic strength using perirhinal cortex of rat<>J Physiol
+7_1 M Brown; Anders Krogh ; David Haussler ; I Saira Mian ; Kimmen Sj&ouml;lander ; Richard Hughey<>Using Dirichlet Mixture Priors to Derive Hidden Markov Models for Protein Families <>ISMB Intelligent Systems for Molecular Biology
+7_2 M Brown; David Haussler ; I Saira Mian ; Rebecca C Underwood ; Yasubumi Sakakibara<>Stochastic Context-Free Grammars for Modeling RN <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+7_3 M Brown; David Haussler ; I Saira Mian ; Kimmen Sj&ouml;lander ; Rebecca C Underwood ; Richard Hughey ; Yasubumi Sakakibara<>Recent Methods for RNA Modeling Using Stochastic Context-Free Grammars <>CPM Combinatorial Pattern Matching
+7_4 M Brown; Anders Krogh ; David Haussler ; I Saira Mian ; Kevin Karplus ; Kimmen Sj&ouml;lander ; Richard Hughey<>Dirichlet mixtures: a method for improved detection of weak but significant protein sequence homology <>Computer Applications the Biosciences
+8_4 M Brown; <>Blueprint for the future of high-performance networking:Introduction <>Commun ACM
+8_1 M Brown; Andrew E Johnson ; Jason Leigh ; Thomas A DeFanti<>A Review of Tele-Immersive Applications in the CAVE Research Network <>VR Virtual Reality
+8_2 M Brown; Thomas A DeFanti<>Visualization in Scientific Computing <>Advances Computers
+8_3 M Brown; Bruce H McCormick ; Thomas A DeFanti<>Visualization: Expanding Scientific and Engineering Research Opportunities <>IEEE Computer
+9_1 M Brown; Andreas M Kogelnik ; Douglas C Wallace ; Marie T Lott ; Shamkant B Navathe<>MITOMAP: a human mitochondrial genome database <>Nucleic Acids Research
+9_2 M Brown; Andreas M Kogelnik ; Douglas C Wallace ; Marie T Lott ; Shamkant B Navathe<>MITOMAP: an update on the status of the human mitochondrial genome database <>Nucleic Acids Research
+9_3 M Brown; Andreas M Kogelnik ; Douglas C Wallace ; Marie T Lott ; Shamkant B Navathe<>MITOMAP: a human mitochondrial genome database-- update <>Nucleic Acids Research

@@ -1,0 +1,801 @@
+10_1 C Chen; David Chenho Kung ; Jerry Gao ; Pei Hsia ; Yasufumi Toyoshima<>Object-Oriented Software Testing: Some Research and Development <>HASE
+10_2 C Chen; David Chenho Kung ; F Wen ; Jerry Gao ; Pei Hsia ; Yasufumi Toyoshima<>Change Impact Identification in Object Oriented Software Maintenance <>ICSM International Conference Software Maintenance
+10_3 C Chen; David Chenho Kung ; Jerry Gao ; Pei Hsia ; Yasufumi Toyoshima<>A Test Strategy for Object-Oriented Programs <>COMPSAC International Computer Software and Applications Conference
+10_4 C Chen; David K Leung ; Jerry Gao ; Yasufumi Toyoshima<>Developing an Integrated Testing Environment Using the World Wide Web Technology <>COMPSAC International Computer Software and Applications Conference
+10_5 C Chen; David Chenho Kung ; Jerry Z Gao ; Pei Hsia ; Yasufumi Toyoshima<>Object state testing for object-oriented programs <>COMPSAC International Computer Software and Applications Conference
+10_6 C Chen; David Chenho Kung ; Jayarajan Samuel ; Jerry Gao ; Pei Hsia ; Yasufumi Toyoshima<>Formal Approach to Scenario Analysis <>IEEE Software
+10_7 C Chen; David Chenho Kung ; Jerry Gao ; Pei Hsia ; Yasufumi Toyoshima<>Or Regression Testing of Object-Oriented Programs <>Journal of Systems and Software
+10_8 C Chen; David Chenho Kung ; Jerry Gao ; Pei Hsia ; Yasufumi Toyoshima ; Young-Kee Song ; Young-Si Kim<>Developing an Object-Oriented Software Testing and Maintenance Environment <>Commun ACM
+10_9 C Chen; David K Leung ; Jerry Gao ; Yasufumi Toyoshima<>Engineering on the Internet for Global Software Production <>IEEE Computer
+11_40 Ting-Yuan Wang;Jeng-Liang Tsai;Charlie Chung-Ping Chen<> Power-Delivery Networks Optimization Thermal Reliability Integrity, <>ACM International Symposium Physical Design ISPD International Symposium Physical Design
+11_41 Ting-Yuan Wang;Charlie Chung-Ping Chen<> Optimization of the Power/Ground Network Wire-Sizing and Spacing Based on Sequential Network Simplex Algorithm, <> rd International Symposium Quality Electronic Design ISQED
+11_42 Ting-Yuan Wang;Charlie Chung-Ping Chen<> SPICE-Compatible Thermal Simulation Lumped Circuit Modeling for Thermal Reliability Analysis based on Model Reduction, <> th International Symposium Quality Electronic Design ISQED
+11_43 Ting-Yuan Wang;Charlie Chung-Ping Chen<> Thermal-ADI: A Linear-Time Chip-Level Dynamic Thermal Simulation Algorithm Based on Alternating-Direction-Implicit ADI Method, <>ACM International Symposium Physical Design ISPD International Symposium Physical Design slide
+11_44 Ting-Yuan Wang;Charlie Chung-Ping Chen<> Thermal-ADI: A Linear-Time Chip-Level Dynamic Thermal Simulation Algorithm Based on Alternating-Direction-Implicit ADI Method, <>IEEE Transaction Very Large Scale Integration Systems TVLSI pp
+11_45 Ting-Yuan Wang;Jeng-Liang Tsai;Charlie Chung-Ping Chen<> Thermal and Power Integrity based Power/Ground Networks Optimization, <>Design Automation and Test Europe Conference and Exhibition DATE Design Automation and Test Europe
+11_10 Tsung-Hao Chen;Hyoung-Suk Kim;Charlie Chung-Ping Chen<> L Extracted? Now What? Introduction to An Inductance-Wise Interconnect Simulation Engine INDUCTWISE <> Technical Report University of
+11_11 Tsung-Hao Chen;Clement Luk;Charlie Chung-Ping Chen<> INDUCTWISE: Inductance-Wise Interconnect Simulator and Extractor, <>IEEE Transactions Computer Aided Design of Integrated Circuits and Systems TCAD pp
+11_12 Tsung-Hao Chen;Clement Luk;Hyungsuk Kim;Charlie Chung-Ping Chen<> INDUCTWISE: Inductance-Wise Interconnect Simulator and Extractor, <>IEEE ACM International Conference Computer Aided Design ICCAD International Conference Computer Aided Design
+11_13 Chung-Ping Chen;N Menezes<> Noise-Aware Repeater Insertion and Wire-Sizing for On-chip Interconnect Using Hierarchical Moment-Matching, <>IEEE ACM Design Automation Conference DAC Design Automation Conference
+11_14 Chung-Ping Chen;Hai Zhou;D F Wong<> Optimal Non-Uniform Wire-Sizing under the Elmore Delay Model, <>IEEE ACM International Conference Computer Aided Design ICCAD International Conference Computer Aided Design
+11_15 Chung-Ping Chen;D F Wong<> Optimal Wire-Sizing Function Fringing Capacitance Consideration, <>IEEE ACM Design Automation Conference DAC Design Automation Conference
+11_16 Chung-Ping Chen;Yao-Ping Chen;D F Wong<> Optimal Wire-Sizing Formula under the Elmore Delay Model, <>IEEE ACM Design Automation Conference DAC Design Automation Conference
+11_17 Chung-Ping Chen;D F Wong<> Error-bounded Pade Approximation via Bilinear Conformal Transformation, <>IEEE ACM Design Automation Conference DAC Design Automation Conference
+11_18 Tsung-Hao Chen;Clement Luk;Charlie Chung-Ping Chen<> SuPREME: Substrate and Power-delivery Reluctance-Enhanced Macromodel Evaluation, <>IEEE ACM International Conference Computer Aided Design ICCAD International Conference Computer Aided Design
+11_19 C Chen;Ed Cheng<>Future SoC Design Challenges and Solutions invited <>ISQED
+11_1 Saisanthosh Balakrishnan;Jong Hyuk Park;Hyungsuk Kim;Yu-Min Lee;Charlie Chung-Ping Chen<> Linear Time Hierarchical Capacitance Extraction Without Multipole Expansion, <>International Conference Computer Design ICCD International Conference Computer Design
+11_2 Yahong Cao;Yu-Min Lee;Tsung-Hao Chen;Charlie Chung-Ping Chen<> HiPRIME: Hierarchical and Passivity Reserved Interconnect Macromodeling Engine for RLKC Power Delivery, <>IEEE ACM Design Automation Conference DAC Design Automation Conference
+11_3 Charlie Chung-Ping Chen;Narayanan Murugesan;Tae-Woo Lee;Susan C Hagness<> FDTD-ADI: An Unconditionally Stable Full Wave Maxwell Equation Solver for VLSI Modeling, <>IEEE ACM International Conference Computer Aided Design ICCAD International Conference Computer Aided Design
+11_4 Tsung-Hao Chen;Charlie Chung-Ping Chen<> Efficient Large-Scale Power Grid Analysis Based on Preconditioned Krylov-Subspace Iterative Methods, <>IEEE ACM Design Automation Conference DAC Design Automation Conference
+11_5 Chung-Ping Chen;D F Wong<> A Fast Algorithms for Optimal Wire-Sizing under the Elmore Delay Model, <>IEEE International Symposium Circuits and Systems ISCAS IEEE International Symposium Circuits and Systems
+11_6 Chung-Ping Chen;Chris C N Chu;D F Wong<> Fast and Exact Simultaneous Gate and Wire Sizing by Lagrangian Relaxation, <>IEEE Transactions Computer Aided Design of Integrated Circuits And Systems TCAD pp
+11_20 Pradeepsunder Ganesh;Charlie Chung-Ping Chen<> RC-in RC-out Model Order Reduction Accurate Up to Second Order Moments, <>International Conference Computer Design ICCD International Conference Computer Design
+11_7 Chung-Ping Chen;Chris C N Chu;D F Wong<> Fast and Exact Simultaneous Gate and Wire Sizing by Lagrangian Relaxation, <>IEEE ACM International Conference Computer Aided Design ICCAD International Conference Computer Aided Design
+11_21 Rong Jiang;Tsung-Hao Chen;Charlie Chung-Ping Chen<> PODEA: POwer Delivery Efficient Analysis Realizable Model Reduction, <>IEEE International Symposium Circuits and Systems ISCAS IEEE International Symposium Circuits and Systems
+11_8 Chung-Ping Chen;Yao-Wen Chang;D F Wong<> Fast performance-driven optimization for buffered clock trees based on Lagrangian relaxation, <>IEEE ACM Design Automation Conference DAC Design Automation Conference
+11_22 Rong Jiang;Charlie Chung-Ping Chen<> Realizable Reduction for Electromagnetically Coupled RLMC Interconnects, <>Design Automation and Test Europe Conference and Exhibition DATE Design Automation and Test Europe
+11_9 C Chen;Tsung-Hao Chen ; Yahong Cao ; Yu-Min Lee<>HiPRIME: hierarchical and passivity reserved interconnect macromodeling engine for RLKC power delivery <>DAC Design Automation Conference
+11_23 Rong Jiang;Charlie Chung-Ping Chen<> SCORE: SPICE Compatible Reluctance Extraction, <>Design Automation and Test Europe Conference and Exhibition DATE Design Automation and Test Europe
+11_24 Hyungsuk Kim;Charlie Chung-Ping Chen<> Be Careful of Self and Mutual Inductance Formulae, <>
+11_25 C Chen;Hyungsuk Kim ; Jong Hyuk Park ; Saisanthosh Balakrishnan ; Yu-Min Lee<>Linear Time Hierarchical Capacitance Extraction without Multipole Expansion <>ICCD International Conference Computer Design
+11_26 Yu-min Lee;Charlie Chung-Ping Chen<> Hierarchical model order reduction for signal-integrity driven interconnect synthesis, <>Great Lakes Symposium VLSI Very Large Scale Integration GLSVLSI
+11_27 Yu-Min Lee;Charlie Chung-Ping Chen<> Power Grid Transient Simulation in Linear Time Based on Transmission-Line-Modeling Alternating-Direction-Implicit Method, <>IEEE ACM International Conference Computer Aided Design ICCAD International Conference Computer Aided Design
+11_28 Yu-Min Lee;Charlie Chung-Ping Chen<> Power Grid Transient Simulation in Linear Time based on Transmission-Line-Modeling Alternating-Direction-Implicit Method, <>IEEE Transactions Computer Aided Design of Integrated Circuits And Systems TCAD pp
+11_29 Yu-Min Lee;Charlie Chung-Ping Chen;D F Wong<> Optimal Wire-sizing Function under the Elmore Delay Model Bounded Wiresizes, <>IEEE Transactions Circuits Systems I TCAS I pp
+11_30 Yu-Min Lee;Hing Yin Lai;Charlie Chung-Ping Chen<> Optimal spacing and capacitance padding for general clock structures, <>Asian and South Pacific Design Automation Conference ASP DAC Design Automation Conference
+11_31 Yu-Min Lee;Charlie Chung-Ping Chen<> The Power Grid Transient Simulation in Linear Time based on D Alternating-Direction-Implicit Method, <>Design Automation and Test Europe Conference and Exhibition DATE Design Automation and Test Europe
+11_32 Yu-Min Lee;Charlie Chung-Ping Chen<> The Power Grid Transient Simulation in Linear Time based on D Alternating-Direction-Implicit Method, <>IEEE Transactions Computer Aided Design of Integrated Circuits And Systems TCAD pp
+11_33 Clement Luk;Charlie Chung-Ping Chen<> Efficient Inductance Extraction for On-chip Interconnects, <>
+11_34 N Menezes;Chung-Ping Chen<> Spec-based Repeater Insertion and Wire-Sizing for On-chip Interconnect, <>Twelfth International Conference VLSI Very Large Scale Integration Design
+11_35 C Chen;Narayanan Murugesan ; Susan C Hagness ; Tae-Woo Lee<>Generalized FDTD-ADI: An Unconditionally Stable Full-Wave Maxwell's Equations Solver for VLSI Interconnect Modeling <>ICCAD International Conference Computer Aided Design
+11_36 Jeng-Laing Tsai;Tsung-Hao Chen;Charlie Chung-Ping Chen<> Zero-Skew Clock-Tree Optimization Buffer-Insertion/Sizing and Wire-Sizing, <>IEEE Transactions Computer Aided Design of Integrated Circuits And Systems TCAD
+11_37 Jeng-Laing Tsai;Tsung-Hao Chen;Charlie Chung-Ping Chen<> Epsilon-Optimal Zero-Skew Clock Tree Wire-Sizing in Pseudo-Polynomial Time, <>ACM International Symposium Physical Design ISPD International Symposium Physical Design
+11_38 Ting-Yuan Wang;Charlie Chung-Ping Chen<> -D Thermal-ADI: a linear-time chip level transient thermal simulator, <>IEEE Transactions Computer Aided Design of Integrated Circuits And Systems TCAD pp
+11_39 Ting-Yuan Wang;Yu-Min Lee;Charlie Chung-Ping Chen<> D Thermal-ADI: An Efficient Chip-Level Transient Thermal Simulator, <>ACM International Symposium Physical Design ISPD International Symposium Physical Design Best Paper Award
+12_20 C Chen;C L P Chen<> Setup Generation and Feature Sequencing Using an Unsupervised Learning Algorithm, <>Neural Networks Design and Manufacturing Edited by J Wang and Yoshiyasu Takefuji World Scientific Publisher Inc
+12_21 C Chen;C L P Chen;C A Wichman<> A Systematic Approach for Design and Planning of Mechanical Assemblies, <>Artificial Intelligence for Engineering Design Analysis and Manufacturing
+12_22 C Chen;C L P Chen<> Automatic Generation Assembly Sequences by Pattern-Matching, <>IEEE Trans Systems Man and Cybernetics SMC
+12_23 C Chen;C L Chen;C S G Lee;C D McGillem<> Task Assignment and Load Balancing of Autonomous Vehicles in a Flexible Manufacturing System, <>IEEE Transaction Robotics and Automation RA
+12_24 C Chen;C Dagli;M Akay;C L Philip Chen;B R Fernandez;J Ghosh<> Intelligent Engineering Systems Through Artificial Neural Networks: Fuzzy Logic and Evolutionary Programming <> ASME Press
+12_25 C Chen;C Dagli;M Akay;C L Philip Chen;B R Fernandez;J Ghosh<> Smart Engineering System Design: Neural Networks, Fuzzy Logic, and Evolutionary Programming <> ASME Press
+12_26 C Chen;Ping Guo;C L Philip Chen;Michael R Lyu<> Cluster Number Selection for a Small Set of Samples using the Bayesian Ying-Yang Model <> IEEE Transactions Neural Networks
+12_27 C Chen;P Guo;A A S Awwal;C L P Chen<> Dynamics of a Coupled Double-Cavity Optical Interference Filter, <>Journal of Modern Optics
+12_28 C Chen;T-H Guo;D L Mattern L C Jaw;C L P Chen<> Model-Based Sensor Validation for a Turbofan Engine Using Auto-Associative Neural Networks <> Journal of Smart Engineering Systems and Francis
+12_29 C Chen;Ping Guo;C L Philip Chen<> Regularization Parameter Estimation Based on Bayesian-Kullback Data Smoothing Theory for Feedforward Neural Networks <> IEEE Trans Systems Man and Cybernetics Part B
+12_1 C Chen;<><>Integration of Rule Based and Neural Network for Assembly Planning
+12_2 C Chen;<>* An Integration of Design and Manufacturing: A Learning-Based Approach<>
+12_3 C Chen;<>* A Rapid Stepwise Learning Algorithm for Flat Neural Networks and Self-Architecting Functional Basis Neural Networks<>
+12_4 C Chen;<> Solving Sequences of Interactive Features Using the Episodal Associative Memory, <>Artificial Intelligence for Engineering Design Analysis and Manufacturing
+12_5 C Chen;H N Al-Kamhawi;C L P Chen;S R LeClair<> Feature Sequencing in the Rapid Design System Using a Genetic Algorithm, <>Journal of Intelligence Manufacturing
+12_6 C Chen;Chandrakumar Bhumireddy<>A Genetic Learning Algorithm for Generating a Parsimonious Functional Link Network <>Neural Networks and Computational Intelligence
+12_7 C Chen;C L P Chen<> Design of a Real-Time AND/OR Assembly Schedule on an Optimization Neural Network, <>Journal of Intelligent Manufacturing T E Westhoven C L P Chen Y H Pao and S R LeClair
+12_8 C Chen;C L Chen;C S G Lee;E S H Hou<> Efficient Scheduling Algorithm for Robot Inverse Dynamics Computation on a Multiprocessor System, <>IEEE Trans Systems Man and Cybernetics SMC
+12_9 C Chen;C L P Chen;Y Lu<> FUZZ: A Fuzzy-Based Concept Formation System that Integrates Human Categorization and Numerical Clustering, <>IEEE Trans Systems Man and Cybernetics B
+12_30 C Chen;Q He;H Li;C L Philip Chen;E S Lee<> Extension Principles and Fuzzy Set Categories <> International Journal of Computers and Mathematics Applications Pergamon Press
+12_31 C Chen;Steven R LeClair ; Yoh-Han Pao<>An incremental adaptive implementation of functional-link processing for function approximation, time-series prediction, and system identification <>Neurocomputing
+12_32 C Chen;Steven R LeClair<>Integration of design and manufacturing: solving setup generation and feature sequencing using an unsupervised-learning approach <>Computer Aided Design
+12_33 C Chen;C S G Lee;C L Chen<> Efficient Mapping Algorithms for Scheduling Robot Inverse Dynamics Computation on a Multiprocessor System, <>IEEE Trans Systems Man and Cybernetics SMC
+12_34 C Chen;H Li;C L Philip Chen<> DFE Method of Fuzzy Decision-Making: An Approach Based on Factor Spaces Theory, <>Fuzzy Sets and Systems Elsevier Science
+12_35 C Chen;H Li;C L Philip Chen;E S Lee<> Factor Spaces Theory and Fuzzy Information Processing: Fuzzy Decision Making Based on the Concepts of Feedback Extension <> International Journal of Computers and Mathematics Applications Pergamon Press
+12_36 C Chen;H Li;C L Philip Chen;V C Yen;E S Lee<> Factor Spaces Theory and its Applications to Fuzzy Information Processing: Two Kinds of Factor Space Canes <> International Journal of Computers and Mathematics Applications Pergamon Press
+12_37 C Chen;HongXing Li;C L Philip Chen;Han-Pang Huang<> Fuzzy Neural Intelligent Systems: Mathematical Foundation and Application to Engineering <> CRC Press ISBN pages
+12_38 C Chen;H Li;C L Philip Chen;E S Lee<> Mathematical Essence and Structures of Neural Networks and Fuzzy Neural Networks -- Part : On Functional-Link Neural Networks, <>International Journal of Mathematical Analysis and Applications
+12_39 C Chen;H Li;C L Philip Chen;E S Lee<> Mathematical Essence and Structures of Neural Networks and Fuzzy Neural Networks -- Part : On Forward Neural Networks, <>International Journal of Mathematical Analysis and Applications
+12_40 C Chen;H Li;C L Philip Chen<> The Equivalence Between Fuzzy Logic Systems and Feedback Forward Neural Networks <> IEEE Trans Neural Networks
+12_41 C Chen;H Li;C L Philip Chen<> The Interpolation Mechanism of Fuzzy Control and its Relationship to PID Control <> International Journal of Fuzzy Systems
+12_42 C Chen;Michael R Lyu ; Ping Guo<>Regularization parameter estimation for feedforward neural networks <>IEEE Transactions Systems Man and Cybernetics Part B
+12_43 C Chen;Vincent A Schmidt<>Extracting Rules From the Aggregate feedforward Neural Network <>IC AI Artificial Intelligence
+12_44 C Chen;V A Schmidt;C L Philip Chen<> Using the Aggregate Feedforward Neural Network for Rule Extraction <> International Journal of Fuzzy Systems
+12_45 C Chen;Yan Wang ; Yang Xiao<>An Optimal Distributed Call Admission Control for Adaptive Multimedia in Wireless/Mobile Networks <>MASCOTS INTERNATIONAL SYMPOSIUM MODELING ANALYSIS AND SIMULATION OF COMPUTER AND TELECOMMUNICATION SYSTEMS
+12_46 C Chen;Yang Xiao;C L Philip Chen;B Wang<> Bandwidth Degradation QoS for Adaptive Multimedia in Wireless/Mobile Networks <> Computer Communications Elsevier Science
+12_47 C Chen;Yang Xiao;C L Philip Chen;Yan Wang<> Call Admission Control and Bandwidth Reallocation Algorithm for Multi-Classes of Adaptive Multimedia Services in Wireless/Mobile Networks <> Multiaccess Mobility and Teletraffic for Wireless Communications Volume Edited by Gordon L St ber and Bijan Jabbari Kluwer Academic Publishers
+12_48 C Chen;Yang Xiao<>QoS for Adaptive Multimedia in Wireless/Mobile Networks <>MASCOTS INTERNATIONAL SYMPOSIUM MODELING ANALYSIS AND SIMULATION OF COMPUTER AND TELECOMMUNICATION SYSTEMS
+12_49 C Chen;Yang Xiao;C L Philip Chen;Yan Wang<> Optimal Admission Control for Multi-Class of Wireless Adaptive Multimedia Services <> IEICE Transactions Communications Special Issue Multimedia communications E B
+12_10 C Chen;C L P Chen;S Xie<> A Freedhand Drawing System using Fuzzy Concepts, <>Computer Aided Design Volume Number
+12_11 C Chen;C L P Chen;Y Cao;S R LeClair<> Materials structure-property prediction using a Self-Architecting Neural Network, <>Journal of Alloys and Compounds
+12_12 C Chen;C L P Chen;S Xie; A Fuzzy Freedhand Drawing System<> in Fuzzy Information Engineering: A Guided Tour of Applications, Edited by D Dubois, H Prade, and R Yager, John Wiley & Sons, - , <>
+12_13 C Chen;C L P Chen;S R LeClair;Y-H Pao<> An Incremental Adaptive Implementation of Functional-Link Process: for Function Approximation, Time-Series Prediction, and System Identification, <>Neurocomputing an International Journal
+12_14 C Chen;C L P Chen;S R LeClair<> An Integration of Design and Manufacturing: Solving Setup Generation and Feature Sequencing Using Unsupervised Learning Approach, <>Computer Aided Design
+12_15 C Chen;C L P Chen;Y H Pao<> An Integration of Neural Network and Rule-Based Systems for Design and Planning of Mechanical Assemblies, <>IEEE Trans Systems Man and Cybernetics SMC
+12_16 Y-C Chen;C L Philip Chen<> Proper Clamping Sequences in the Fixturing of Prismatic Workpieces, <>Engineering Design and Automation CRC Press
+12_17 C Chen;C L P Chen;J Z Wan<> A Rapid Learning and Dynamic Stepwise Updating Algorithm for Flat Neural Networks and its Application to Time-Series Prediction, <>IEEE Trans Systems Man and Cybernetics
+12_50 C Chen;Sen Xie<>Freehand drawing system using a fuzzy logic concept <>Computer Aided Design
+12_18 C Chen;C L P Chen<> A Rapid Supervised Learning Neural Network for Function Interpolation and Approximation, <>IEEE Trans Neural Networks
+12_51 C Chen;Qing-Wen Yan ; Zesheng Tang<>Efficient algorithm for the reconstruction of D objects from orthographic projections <>Computer Aided Design
+12_19 C Chen;C L P Chen;S R LeClair;Y-H Pao<> A Rapid Supervised Learning Neural Network for Function Approximation and Time-Series Prediction using Adaptive Functional-Link Neural Network, <>Journal of Mathematical Modeling and Scientific Computing Principia Scientia
+12_52 C Chen;Q W Yan;C L P Chen;Z Tang<> An Efficient Algorithm for Automatic Reconstruction of -D Objects from Orthographic Projections, <>Computer Aided Design
+13_1 C Chen;<>A necessary condition for a graph to be the visibility graph of a simple polygon <>Theor Comput Sci
+13_2 C Chen;<>Any Maximal Planar Graph with Only One Separating Triangle is Hamiltonian <>Journal of Combinatorial Optimization
+13_3 C Chen;Robin Chi-Feng Chan ; Zhi-Xin Hong<>A simple algorithm to find the steps of double-loop networks <>Discrete Applied Mathematics
+13_4 C Chen;Chin-Chen Chang<>Connected Proper Interval Graphs and the Guard Problem in Spiral Polygons <>Combinatorics and Computer Science
+13_5 G J Chang;C Chen;Y Chen<>Vertex and tree arboricity of graphs, to<>appear Journal of Combinatorial Optimization
+13_6 C Chen;Ruei-Chuan Chang<>On the Minimality of Polygon Triangualtion <>BIT
+13_7 C Chen;K Wu<>Disproving a conjecture on planar visibility graphs,<>Theoretical Computer Science
+13_8 C Chen;F K Hwang<>Equivalent L-shapes of double-loop networks for the degenerate case,<>Journal of Interconnection Networks
+13_9 C Chen;F K Hwang<>Equivalent nondegenerate L-shapes of double-loop networks,<>Networks V
+13_10 C Chen<>A necessary condition for a graph to be the visibility graph of a simple polygon,<>Theoretical Computer Sciencece
+13_11 C Chen<>, On some polygon decomposition problems,<>Ph D dissertation
+13_12 C Chen;R C Chang<>, On the minimality of polygon triangulation,<>Bit
+13_13 C Chen<>Any maximal planar graph only one separating triangle is Hamiltonian,<> Journal of Combinatorial Optimization
+13_14 C Chen;C C Chang;G J Chang<>, Proper interval graphs and the guard problem, <>Discrete Mathematics
+13_15 C Chen;F K Hwang<>, The minimum distance diagram of double-loop networks,<>IEEE Transactions Computers
+13_16 C Chen;F K Hwang;J S Lee;S J Shih<>The existence of hyper-L triple loop networks,<> Discrete Mathematics
+13_17 L H Hsu;C Chen;E Y Jean<>A class of additive multiplicative graph functions, Di<>Discrete Mathematics
+13_18 C Chen;F K Hwang<>Equivalent L-Shapes of Double-Loop Networks for the Degenerate Case <>Journal of Interconnection Networks
+13_19 F K Hwang;M M Liao;C Chen<>, Supermodularity in various partition problems,<>Journal of Global Optimization V
+13_20 C Chen;F K Hwang<>The Minimum Distance Diagram of Double-Loop Networks <>IEEE Trans Computers
+13_21 C Chen;Shiou-Yi Lin<>Planar Visibility Graphs <>CCCG Canadian Conference Computational Geometry
+13_22 C Chen;Kaiping Wu<>Disproving a conjecture on planar visibility graphs <>Theor Comput Sci
+14_13 C Chen;J K Guo;C H Chen;J D Lee;J M Tsai<> D Image Reconstruction of Brain Blood Vessels from Angiograms, <>Computers Mathematics Applications
+14_14 C Chen;Jinn-Kwei Guo ; Rein-Lien Hsu ; Yung-Nien Sun<>Detecting Corners of Polygonal and Polyhedral Objects <>CAIP Computer Analysis of Images and Patterns
+14_15 C Chen;J K Kuo;C H Chen;J D Lee<> Multi-Polyhedron Reconstruction in a Three-View System Using Relaxation, <>Signal Processing
+14_16 C Chen;Chi-Sung Laih ; Jau-Yien Lee ; Lein Harn<>A New Scheme for ID-Based Cryptosystems and Signature <>INFOCOM The Conference Computer Communications
+14_17 C Chen;J S Lee;C H Chen;Y N Sun<> Occluded Object recognition Using Multiscale Features and Hopfield Neural Networks, <>Pattern Recognition
+14_50 C Chen;J L Wu;C H Chen;C F Chen;g<> Numerical Inversion of Laplace Transform Using Haar Wavelet Operational Matrices <> g IEEE Trans Circuits and Systems Part C C Chang S M Liang Y R Pu C H Chen I Manousakas T
+14_18 C Chen;g Lee<> D Registration of SPECT and CT Images for Liver Diagnosis <> g ICEMI Beijing
+14_51 C Chen;K H Wu;C H Chen;J D Lee;J M Ko<> Path Planning and Prototype Design of an AGV, <>Mathematical and Computer Modelling
+14_19 C Chen;Jau-Yien Lee ; Jiann-Der Lee ; Yuan-Chiuan You<>Determining Location and Orientation of A Labelled Cylinder Using Point-Pair Estimation Algorithm <>IJPRAI International Journal of Pattern Recognition and Artificial Intelligence
+14_52 C Chen;K H Wu;C H Chen;J D Lee<> A Ring-Cache Genetic Algorithm for Tuning Reliable Fussy Logic Controller, <> IEEE International Conference SMC U S A
+14_53 C Chen;D L Yang;C H Chen<> A Bit Level Systolic Array for Bidirectional Associate Memories , <>SCI Scalable Coherent Interface Caracas
+14_54 C Chen;D L Yang;C H Chen;gDa<> Data Dependence Analysis and Bit-Level Systolic Arrays of the Median Filter <> g IEEE Trans Circuits and Systems for Video Technology
+14_55 C I Yu ; Chun-Han Chen ; Jinn-Kwei Guo ; Yen-Ching Yu ; Yung-Nien Sun<> -D Cerebral Vessel Reconstruction from Angiograms <>CAIP Computer Analysis of Images and Patterns
+14_20 C Chen;J D Lee;C H Chen;J Y Lee<> A New Algorithm for Two-Dimentional Object Inspection Using String Matching, <>Mathematical and Computer Modeling
+14_21 C Chen;C Y Lin;C H Chen<> A Genetic Grey-Based Neural Networks Wavelet Transforms for Search of Optimal Codebooks <> g IEICE Trans Information and Systems E A
+14_22 C Chen;C Y Lin;C H Chen;J S Lin;g<> VQ Codebook Design Using a Genetic Competitive Learning Network, <>g The th IPPR Conference Computer Vision Graphics and Image Processing
+14_23 C Chen;W H Lin;C H Chen;J S Lee;Y N Sun<> Multiscale Object Recognition Under Affine Transformation, <>IEICE IS E D
+14_24 C Chen;W H Lin;J S Lee;C H Chen;Y N Sun<> A New Multisale Based Shape Recognition Method, <>Signal Processing
+14_25 C Chen;W H Lin;C H Chen;J S Lee;g<> Application of Wavelet Etrema to D Object Recognition Angle Change, <>g th Multimedia Technology and Application Symposium MTAS Kaohsiung R O C
+14_26 C Chen;Jzau-Sheng Lin ; Wen-Yuan Chen<>A Robust Multiple Watermarking Scheme for Still Image using DWT, DCT and Spread Spectrum <>JCIS Joint Conference Information Sciences
+14_27 C Chen;Chi-Yuan Lin ; Ruey-Maw Chen<>A Spread Neural Network with Fuzzy Clustering Technique Applied to Color Image Coding in the MDT Domain <>ICPADS International Conference Parallel and Distributed Systems
+14_28 C Chen;Chih-Ming Tsai ; Jing-Wein Wang ; Wei-Ming Chien<>Texture classification using non-separable two-dimensional wavelets <>Pattern Recognition Letters
+14_29 C Chen;Guan-Shu Tseng ; Jiann-Shu Lee ; Yung-Nien Sun<>Occluded Objects Recognition Using Multiscale Features and Hopfield Neural Networks <>ICIAP
+14_30 C Chen;T M Tu;C H Chen<> Fast Classification Scheme for Hyperspectral Imagery, <>Proceedings of the National Science Council Republic of Part A Physical Science and Engineering
+14_31 C Chen;T M Tu;C H Chen;J L Wu;C I Chang<> Fast Two-Stage Classification Method for High Dimensional Remote Sensing Data <> g IEEE Trans Geoscience and Remote Sensing
+14_32 C Chen;T M Tu;C H Chen;C I Chang<> Noise Subspace Projection Approach to Target Signature Detection and Extraction in Unknown Background for Hyperspectral Images <> g IEEE Trans Geoscience and Remote Sensing
+14_33 C Chen;T M Tu;C H Chen;C I Chang<> A Posteriori Least Squares Orthogonal Subspace Projection Approach to Desired Signature Extraction and Detection, <>IEEE Trans Geoscience and Remote Sensing
+14_34 C Chen;C C Wang;C H Chen<> Classified Vector Quantization for Image Compression Using Direction Classification <> g IEICE Trans Fundamentals of ECCS E A
+14_35 C Chen;C C Wang;C H Chen;K Y Wang;g<> Classified Vector Quantization Using Direction Classification <>g International Computer Symposium Workshop IPPR
+14_36 C Chen;J W Wang;C H Chen J S Pan<> D nonseparable Wavelet Frames for Texture Segmentation Using Genetic Algorithms, <>International Workshop Wavelets and Statistics North Carolina U S A
+14_37 C Chen;J W Wang;C H Chen<> Genetic Feature Selection for Texture Classification Using D Nonseparable Wavelet Bases, <>IEICE Trans Fundamentals of ECCS E A
+14_38 C Chen;C C Wang;C H Chen;g<> A High-Fidelity Image Coding Technique for Multimedia Applications, <>g International Conference Computer Systems Technology for Industrial Applications Internet and Multimedia Tsinchu ROC
+14_39 C Chen;C C Wang;C H Chen;C T Wong;g<> Low Complexity Fractal-Based Image Compression, <>g National Symposium Communication p
+14_40 C Chen;C C Wang;C H Chen;gLo<> Low Complexity Fractal-Based Image Compression Using Two-Stage Search Strategy <> g Optical Engineering
+14_41 C Chen;C C Wang;C H Chen;I H Chen<> Modified VQ-BTC Algorithm for Image Compression <> g Electronics Letters
+14_42 C Chen;C C Wang;C H Chen;C H Hsieh<> An Edge-Preserving Image Coding System VQ, <>IEICE Trans Information and Systems E D
+14_43 C Chen;C C Wang;C H Chen;Y D Tsai;g<> A Novel Perceptual Image Coding Vector Quantization <>g th Multimedia Technology and Application Symposium MTAS Kaohsiung
+14_44 C Chen;J W Wang;C H Chen;W M Chien;C M Tsai;gTe<> Texture Classification Using Nonseperable Two Dimensional Wavelets <> g Pattern Recognition Letters
+14_45 C Chen;K H Wu;C H Chen;J D Lee<> A Genetic Algorithm for Tuning Reliable Fuzzy System, <>The th National Conference Fussy Theory and Applications Tainan R O C
+14_46 C Chen;K H Wu;C H Chen;J D Lee<> A Genetic Algorithm for Tuning Reliable Fussy System <> g Journal of Fuzzy Systems
+14_47 C Chen;J L Wu;C H Chen;C F Chen<> Model Reduction via Haar Wavelets <> g Control and Intelligent Systems Vo C C Chang I Manousakas Y R Pu S M Liang C H Chen T
+14_48 C Chen;J L Wu;C H Chen;C F Chen;g<> Model Reduction via Haar Wavelets, <>g Proceeding of the IASTED International Conference Modeling Identification and Control Innsbruck
+14_49 C Chen;J L Wu;C H Chen;C F Chen;g<> A Unified Derivation of Operational Matrices for Integration in Systems Analysis, <>g Proceeding of IEEE International Conference Information Technology Coding and Computing
+14_1 C Chen;C H Chen;J R Wang;J D Lee;C W Mao<> Color Image Segmentation for Bladder Cancer Diagnosis, <>Mathematics and Computer Modelling
+14_2 C Chen;C H Chen;J D Lee;M C Lin<> Classification of Underwater Signals Using Neural Networks <> g Tamkang Journal of Sciences and Engineering
+14_3 C Chen;C H Chen;C Y Lin;J S Lin;g<> A Compensated Fuzzy Competitive Learning Network Applied to Image Compression <> The Fifth Symposium Computer and Communication Technology B B
+14_4 C Chen;C H Chen;T M Tu;g<> A Fast Classification Method for High Dimensional Remote Sensing Images <> g SCI Scalable Coherent Interface Caracas
+14_5 C Chen;S Chen;C L Kuo;F M Yu;Z F Chu<> In Vitro Study of Ultrasound Based Real-Time Tracking of Renal Stones for Shock Wave Lithotripsy : Part <> g The Journal of Urology
+14_6 C Chen;S Chen;F M Yu;W H Yang;Y C Tong;C L Kuo<> In Vitro Stady of Ultrasound Based Real-Time Tracking for Renal Stones in Shock Wave Lithotripsy : Part II <> V A Simalated Animal Experiment g The Journal of Urology
+14_7 C Chen;W Y Chen;C H Chen;g<> Interpolative Block-Based Zerotree Structure for Color Image Compression Using DWT and VQ, <>g CVGIP Graphical Model and Image Processing
+14_10 C Chen;W Y Chen;C H Chen;J S Lin;g<> A Robust Multiple Watermarking Scheme for Still Image Using DWT, DCT and Spread Spectrum, <>g The Proceeding of th JCIS Joint Conference Information Sciences
+14_8 C Chen;W Y Chen;C H Chen;g<> A Public-Key Image Hiding Scheme Using DCT and Vector Quantization Coding <> g th International Conf Distributed Multimedia Systems
+14_11 C Chen;W Y Chen;C H Chen<> Robust Watermarking Scheme for Still Images Using Frequency Shift Keying High-Variance Block Selection,g <>Optical Engineering
+14_9 C Chen;W Y Chen;C H Chen;g<> Public-Key Image Steganography Using DCT and QPVQ coding <> g Optical Engineering T M Chang Y H Lin C H Chen Y N Sun N T Chu and J Y
+14_12 C Chen;C H Chen;J D Lee<> assification of Underwater Signals Using Wavelet Transforms and Neural Networks <> g Mathematics and Computer Modelling
+15_1 C Chen; Jeanette P Schmidt ; Jonathan L Cooper ; Russ B Altman<>A Surface Measure for Probabilistic Structural Computations <>ISMB Intelligent Systems for Molecular Biology
+15_2 C Chen; Jaswinder Pal Singh ; Russ B Altman ; William B Poland<>Parallel protein structure determination from uncertain data <>Supercomputing
+15_3 C Chen; Jaswinder Pal Singh ; Russ B Altman<>Biomolecular Structure Estimation: A Case Study of Irregular Hierarchical Parallelism <>PPSC SIAM Conference Parallel Processing for Scientific Computing
+15_4 C Chen; Jaswinder Pal Singh ; Russ B Altman<>The hierarchical organization of molecular structure computations <>RECOMB
+15_5 C Chen; Jaswinder Pal Singh ; Russ B Altman<>Hierarchical Organization of Molecular Structure Computations <>Journal of Computational Biology
+15_6 C Chen; Richard O Chen ; Russ B Altman<>Constraining volume by matching the moments of a distance distribution <>Computer Applications the Biosciences
+15_7 C Chen; Jaswinder Pal Singh ; Russ B Altman<>Using imperfect secondary structure predictions to improve molecular structure computations <>Bioinformatics
+15_8 C Chen; Jaswinder Pal Singh ; Russ B Altman ; William B Poland<>Probabilistic Constraint Satisfaction with Non-Gaussian Noise <>UAI Uncertainty Artificial Intelligence
+16_1 C Chen; Wen-Yan Chang<>Pose Estimation for Generalized Imaging Device via Solving Non-Perspective N Point Problem <>ICRA International Conference Robotics and Automation
+16_2 C Chen; Chang-Ming Tsai ; Gregory Y Tang ; Wen-Yan Chang<>Compression of D Objects with Multistage Color-Depth Panoramic Maps <>DCC Data Compression Conference
+16_3 C Chen; Jen-Bo Cheng ; Yi-Ping Hung<>A Fast and Robust Approach for Registration of Partially Overlapping Range Images <>ICCV International Conference Computer Vision
+16_4 C Chen; Chi-Kuo Yu ; Yi-Ping Hung<>New Calibration-free Approach for Augmented Reality based on Parameterized Cuboid Structure <>ICCV International Conference Computer Vision
+16_5  Chen-Chiung Hsieh ; Chen-Yuan Tang ; Chih-Guo Yu ; Shen-Wen Shih ; Yi-Ping Hung ; You-Chung Cheng<>Integrating virtual objects into real images for augmented reality <>VRST Virtual Reality Software and Technology
+16_6 C Chen; Chiou-Shann Fuh ; Kuan-Chung Hung ; Yi-Ping Hung ; Yong-Sheng Chen<>Multipass hierarchical stereo matching for generation of digital terrain models from aerial images <>Mach Vis Appl
+16_7 C Chen; Szu-Wei Lin ; Yi-Ping Hung ; Yu-Pao Tsai<>Augmenting panoramas with object movies by generating novel views with disparity-based view morphing <>Journal of Visualization and Computer Animation
+16_8 C Chen; Jen-Bo Cheng ; Yi-Ping Hung<>RANSAC-Based DARCES: A New Approach to Fast Automatic Registration of Partially Overlapping Range Images <>IEEE Transactions Pattern Analysis and Machine Intelligence
+17_1 C Chen; Arun K Somani<>A Cache Protocol for Error Detection and Recovery in Fault-Tolerant Computing Systems <>FTCS Symposium Fault Tolerant Computing
+17_2 C Chen; Arun K Somani<>Effects of Cache Traffic on Shared Bus Multiprocessor Systems <>ICPP International Conference Parallel Processing
+17_3 C Chen; Arun K Somani ; Craig M Wittenbrink ; Jenq-Neng Hwang ; Kenneth Cooper ; Linda G Shapiro ; Robert Johnson ; Robert M Haralick<>Proteus System Architecture and Organization <>IPPS International Parallel Processing Symposium
+17_4 C Chen; Arun K Somani<>A Unified Architectural Tradeoff Methodology <>ISCA International Symposium Computer Architecture
+17_5 C Chen; <>An Algebraic Model of Arithmetic Codes <>IEEE Trans Computers
+17_6 C Chen; Feng-Fu Lin<>An Easy-to-Use Approach for Practical Bus-Based System Design <>IEEE Trans Computers
+17_7 C Chen; Arun K Somani<>Architecture Technique Trade-Offs Using Mean Memory Delay Time <>IEEE Trans Computers
+17_8 C Chen; Arun K Somani<>Fault Containment in Cache Memories for TMR Redundant Processor Systems <>IEEE Trans Computers
+18_1 C Chen; Majid Sarrafzadeh<>An Effective Algorithm for Gate-Level Power-Delay Tradeoff Using Two Voltages <>ICCD International Conference Computer Design
+18_2 C Chen; Majid Sarrafzadeh ; Xiaojian Yang<>Potential Slack: An Effective Metric of Combinational Circuit Performance <>ICCAD International Conference Computer Aided Design
+18_3 C Chen; Majid Sarrafzadeh<>Provably good algorithm for low power consumption with dual supply voltages <>ICCAD International Conference Computer Aided Design
+18_4 C Chen; Ankur Srivastava ; Elaheh Bozorgzadeh ; Majid Sarrafzadeh<>Budget Management with Applications <>Algorithmica
+18_5 C Chen; Majid Sarrafzadeh<>Power-Manageable Scheduling Technique for Control Dominated High-Level Synthesis <>DATE Design Automation and Test Europe
+18_6 C Chen; <>Physical design with multiple on-chip voltages <>ISPD International Symposium Physical Design
+18_7 C Chen; <>Probabilistic Analysis of Rectilinear Steiner Trees <>VLSI Very Large Scale Integration Design
+19_10 C Chen;Chris C N Chu ; D F Wong<>Fast and exact simultaneous gate and wire sizing by Lagrangian relaxation <>ICCAD International Conference Computer Aided Design
+19_11 C Chen;Noel Menezes<>Noise-Aware Repeater Insertion and Wire-Sizing for On-Chip Interconnect Using Hierarchical Moment-Matching <>DAC Design Automation Conference
+19_12 C Chen;D F Wong ; Yao-Wen Chang<>Fast Performance-Driven Optimization for Buffered Clock Trees Based on Lagrangian Relaxation <>DAC Design Automation Conference
+19_13 C Chen;D F Wong ; Hai Zhou<>Optimal non-uniform wire-sizing under the Elmore delay model <>ICCAD International Conference Computer Aided Design
+19_14 C Chen;D F Wong<>Optimal Wire-Sizing Function with Fringing Capacitance Consideration <>DAC Design Automation Conference
+19_15 C Chen;D F Wong ; Yao-Ping Chen<>Optimal Wire-Sizing Formular Under the Elmore Delay Model <>DAC Design Automation Conference
+19_16 C Chen;D F Wong<>Error Bounded Pad&eacute; Approximation via Bilinear Conformal Transformation <>DAC Design Automation Conference
+19_1 C Chen;C P Chen;D F Wong<> Fast algorithms for optimal wire-sizing under the Elmore delay model <>Proc ISCAS IEEE International Symposium Circuits and Systems
+19_2 C Chen;C P Chen;C Chu;D F Wong<> Fast and Exact Simultaneous Wire- and Transistor-Sizing based on Lagrangian Relaxation Method <> IEEE ACM International Conference Computer Aided Design
+19_3 C Chen;C P Chen;Y W Chang;D F Wong<> Fast performance-driven optimization for buffered clock trees based on Lagrangian relaxation <>Proc th IEEE ACM Design Automation Conference DAC Design Automation Conference
+19_4 C Chen;C P Chen;N Menezes<> Noise-Aware Repeater Insertion and Wire-Sizing for On-chip Interconnect Using Hierarchical Moment-Matching <> Proc th IEEE Design Automation Conference
+19_5 C Chen;C P Chen;D F Wong<> Optimal non-uniform wire-sizing formula fringing capacitance consideration <>Proc th IEEE ACM Design Automation Conference
+19_6 C Chen;C P Chen;Hai Zhou;D F Wong<> Optimal non-uniform wire-sizing under the Elmore delay Model <>IEEE ACM International Conference Computer Aided Design
+19_7 C Chen;C P Chen;Y P Chen;D F Wong<> Optimal wire-sizing formula under the Elmore delay model <>Proc th IEEE ACM Design Automation Conference
+19_8 C Chen;C P Chen;D F Wong<> Error-bounded Pade Approximation via Bilinear Conformal Transformation <> Proc th IEEE ACM Design Automation Conference
+19_9 C Chen;C P Chen;N Menezes<> Spec-based Repeater Insertion and Wire-Sizing for On-chip Interconnect <> VLSI Very Large Scale Integration
+1_16 C Chen;Katy B&ouml;rner<>Workshop : visual interfaces to digital libraries - its past, present, and future <>JCDL ACM IEEE Joint Conference Digital Libraries
+1_17 C Chen;Katy B&ouml;rner<>Top Ten Problems in Visual Interfaces to Digital Libraries <>Visual Interfaces to Digital Libraries
+1_50 C Chen;Mary Czerwinski ; Robert D Macredie<>Individual differences in virtual environments - Introduction and overview <>JASIS Journal of the American Society of Information Science
+1_18 C Chen;Les Carr<>Visualizing the Evolution of a Subject Domain: A Case Study <>IEEE Visualization
+1_51 C Chen;Mary Czerwinski<>Spatial ability and visual navigation: an Empirical Study <>The New Review of Hypermedia and Multimedia
+1_19 C Chen;Les Carr<>A Semantic-Centric Approach to Information Visualization <>IV
+1_52 C Chen;John Davies<>Integrating Spatial, Semantic, and Social Structures for Knowledge Management <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+1_53 C Chen;Individual differences in a spatial-semantic virtual environment <>JASIS<>
+1_54 C Chen;Mike Forsyth<>Spatial Semantic Virtual Worlds: The Structural Duality and Beyond <>WebNet
+1_55 C Chen;George Gagaudakis ; Paul L Rosin<>Content-Based Image Visualization <>IV
+1_56 C Chen;George Gagaudakis ; Paul L Rosin<>Using CBIR and Pathfinder Networks for Image Database Visualization <>ICPR International Conference Pattern Recognition
+1_57 C Chen;Vladimir Geroimenko<>Concluding Remarks: Today's Vision of Envisioning the Semantic Future <>Visualizing the Semantic Web
+1_58 C Chen;Visualizing scientific paradigms: An introduction <>JASIST<>
+1_59 C Chen;Localist Connectionist Approaches to Human Cognition edited by Jonathan Grainger and Arthur M Jacobs <>JASIS<>
+1_20 C Chen;Les Carr<>Trailblazing the Literature of Hypertext: Author Co-Citation Analysis - <>Hypertext
+1_21 C Chen<>Bridging the gap: The use of Pathfinder networks in visual navigation <>Journal of Visual Languages and Computing
+1_22 C Chen;M Czerwinski<>From latent semantics to spatial hypermedia: An integrated approach <>Proceedings of the th ACM Conference Hypertext Hypertext
+1_23 C Chen;R J Paul;B OÂ¡Â¯Keefe<>Fitting the jigsaw of citations: Information visualization in domain analysis <>Journal of the American Society for Information Science and Technology
+1_24 C Chen<>Augmenting user interfaces for digital libraries virtual reality <>Proceedings of the st International Conference System Sciences HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES IEEE Computer Society
+1_25 C Chen<>Generalised similarity analysis and pathfinder network scaling <>Interacting Computers
+1_26 C Chen;J Newman;R Newman;R Rada<>How did university departments interweave the Web: A study of connectivity and underlying factors <>Interacting Computers
+1_27 C Chen;R J Paul<>Visualizing a knowledge domainÂ¡Â¯s intellectual structure <>IEEE Computer
+1_60 C Chen;Jasna Kuljis ; Robert D Macredie ; Timothy Cribbin<>Footprints of information foragers: behaviour semantics of visual exploration <>Int J Hum Comput Stud
+1_28 C Chen;L Carr<>Visualizing the evolution of a subject domain: A case study <>Proceedings of IEEE Visualization
+1_61 C Chen;Jasna Kuljis<>The rising landscape: A visual exploration of superstring revolutions in physics <>JASIST Journal of the American Society for Information Science
+1_29 C Chen;T Cribbin<>Visualising and animating visual information foraging in context <>Proceedings of the th International Conference Human Computer Interaction HCI Human Computer Interaction International
+1_62 C Chen;Natasha Lobo<>Semantically Modified Diffusion Limited Aggregation for Visualizing Large-Scale Networks <>IV
+1_63 C Chen;Robert D Macredie ; Sonali Morar ; Timothy Cribbin<>Visualizing and tracking the growth of competing paradigms: Two case studies <>JASIST Journal of the American Society for Information Science
+1_64 C Chen;Writing with Collaborative Hypertext: Analysis and Modeling <>JASIS<>
+1_65 C Chen;Julian Newman ; Rhona Newman ; Roy Rada<>How did university departments interweave the Web: A study of connectivity and underlying factors <>Interacting with Computers
+1_66 C Chen;Bob O'Keefe ; Ray J Paul<>Fitting the jigsaw of citation: Information visualization in domain analysis <>JASIST Journal of the American Society for Information Science
+1_67 C Chen;Ray J Paul<>Visualizing a Knowledge Domain's Intellectual Structure <>IEEE Computer
+1_68 C Chen;Augmenting User Interfaces for Digital Libraries with Virtual Reality <>HICSS <>
+1_69 C Chen;Information Visualization Versus the Semantic Web <>Visualizing the Semantic Web<>
+1_30 C Chen;C Chennawasin;Y Yu<>Visualising scientific disciplines on the Web <>Proceedings of the th IFIP International Federation for Information Processing World Computer Congress International Conference Software Theory and Practice
+1_31 C Chen<>Visualising Semantic Spaces and Author Co-Citation Networks in Digital Libraries <>Information Processing Management
+1_32 C Chen;R Rada<>Modelling situated actions in collaborative hypertext databases <>Journal of Computer Mediated Communication
+1_33 C Chen;M Czerwinski<>Empirical evaluation of information visualizations: An introduction International<>Journal of Human Computer Studies
+1_34 C Chen;M Czerwinski;R Macredie<>Individual differences in virtual environments: Introduction and overview <>Journal of the American Society for Information Science
+1_35 C Chen<>Writing collaborative hypertext: Analysis and modelling <>Journal of the American Society for Information Science
+1_36 C Chen;J Davies<>Integrating spatial, semantic, and social structures for knowledge management <>Proceedings of the International Conference System Sciences HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES IEEE Computer Society
+1_37 C Chen;R Rada<>Interacting hypertext: A meta-analysis of experimental studies <>Human Computer Interaction
+1_70 C Chen;Lynn Wilcox<>Human Factors and Usability Issues - Introduction <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+1_38 C Chen;L Thomas;J Cole;C Chennawasin<>Representing the semantics of virtual spaces <>IEEE Multimedia
+1_71 C Chen;Yue Yu<>Empirical studies of information visualization: a meta-analysis <>Int J Hum Comput Stud
+1_39 C Chen;G Gagaudakis;P Rosin<>Similarity-based image browsing <>Proceedings of the th IFIP International Federation for Information Processing World Computer Congress
+1_72 C Chen;Almal Zeb ; Roy Rada<>An extended fisheye view browser for collaborative writing <>Int J Hum Comput Stud
+1_1 C Chen;<>Behavioural Patterns of Collaborative Writing with Hypertext - A State Transition Approach <>BCS British Computer Society HCI Human Computer Interaction
+1_2 C Chen;<>Bridging the Gap: The Use of Pathfinder Networks in Visual Navigation <>J Vis Lang Comput
+1_3 C Chen;<>Domain Visualization for Digital Libraries <>IV
+1_4 C Chen;<>Generalised similarity analysis and pathfinder network scaling <>Interacting with Computers
+1_5 C Chen;<>Visualising Information: A Mosaic of Perspectives <>VISUAL Visual Information and Information Systems
+1_6 C Chen;<>Visualising Semantic Spaces and Author Co-Citation Networks in Digital Libraries <>Inf Process Manage
+1_7 C Chen;<>Information Visualization <>Information Visualization
+1_8 C Chen;<>Information visualization is growing <>Information Visualization
+1_9 C Chen;<>Articles in this issue <>Information Visualization
+1_40 C Chen;M Czerwinski<>Spatial ability and visual navigation: An empirical study <>New Reviews of Hypermedia and Multimedia
+1_41 C Chen<>Structuring and visualising the World-Wide Web Generalised Similarity Analysis <>Proceedings of the th ACM Conference Hypertext Hypertext
+1_42 C Chen;L Carr<>Trailblazing the literature of hypertext: An author co-citation analysis<>Proceedings of the th ACM Conference Hypertext Hypertext
+1_43 Chiladda Chennawasin ; Janet Cole ; Linda Thomas<>Representing the Semantics of Virtual Spaces <>IEEE MultiMedia
+1_44 C Chen;Janet Cole ; Linda Thomas<>Fostering Social Interaction in a Shared Semantic Space for Collaborative Learning <>WebNet
+1_45 T Cribbin;C Chen<>Visual-spatial exploration of thematic spaces: A comparative study of three visualisation models <>Proceedings of SPIE The International Society for Optical Engineering The International Society for Optical Engineering
+1_46 T Cribbin;C Chen<>Exploring cognitive issues in visual information retrieval <>Proceedings of the th IFIP International Federation for Information Processing TC Conference Human Computer Interaction INTERACT International Conference Human Computer Interaction Hirose M Ed Tokyo IFIP International Federation for Information Processing
+1_47 T Cribbin;C Chen<>A study of navigation strategies in spatial-semantic visualisations <>Proceedings of the th International Conference Human Computer Interaction HCI Human Computer Interaction International
+1_48 C Chen;Mary Czerwinski<>From Latent Semantics to Spatial Hypertext - An Integrated Approach <>Hypertext
+1_49 C Chen;Mary Czerwinski<>Empirical evaluation of information visualizations: an introduction <>Int J Hum Comput Stud
+1_10 C Chen;<>Aesthetics versus Functionality <>Information Visualization
+1_11 C Chen;<>The StarWalker virtual environment - an integrative design for social navigation <>HCI Human Computer Interaction
+1_12 C Chen;<>Tracking Latent Domain Structures: An Integration of Pathfinder and Latent Semantic Analysis <>AI Artificial Intelligence Soc
+1_13 C Chen;Structuring and Visualising the WWW by Generalised Similarity Analysis <>Hypertext<>
+1_14 C Chen;Katy B&ouml;rner<>Visual interfaces to digital libraries <>JCDL ACM IEEE Joint Conference Digital Libraries
+1_15 C Chen;Katy B&ouml;rner<>Visual Interfaces to Digital Libraries: Motivation, Utilization, and Socio-technical Challenges <>Visual Interfaces to Digital Libraries
+20_1 C Chen; <>Graph Partitioning for Concurrent Test Scheduling in VLSI Circuit <>DAC Design Automation Conference
+20_2 C Chen; <>Allocation of Multiport Memory with Ports of Different Type in Register Transfer Level Synthesis <>ICCD International Conference Computer Design
+20_3 C Chen; Ji-Der Lee ; Joel Yuen<>Autonomous-Tol for Hardware Partitioning in a Built-in Self-Test Environment <>ICCD International Conference Computer Design
+20_4 C Chen; Joel T Yuen<>Concurrent Test Scheduling in Built-In Self-Test Environment <>ICCD International Conference Computer Design
+20_5 C Chen; <>Synthesis of configurable linear feedback shifter registers for detecting random-pattern-resistant faults <>ISSS International Symposium Systems Synthesis
+20_6 C Chen; Anup Kumar<>Comments on Area-Time Optimal Adder Design <>IEEE Trans Computers
+20_7 C Chen; <>BISTSYN - A Built-In Self-Test Synthesizer <>ICCAD International Conference Computer Aided Design
+21_1 C Chen;<>Comments on An Ensemble Average Classifier For Pattern Recognition Machines <> Pattern Recognition
+21_2 C Chen;<>Data Encryption Using MRF with an RSA Key <>IEEE Pacific Rim Conference Multimedia
+21_3 C S Chang;C C Chen<>Invariant Shape Features by Modified Moments, <>Proceedings of the Chinese Image Processing and Pattern Recognition Workshop Tainan
+21_4 C C Chen;S W Wang;Y Y Chen<>Biometrics for Personal Identification/Verification, <>Image Processing and Pattern Recognition Chinese
+21_5 C C Chen;R C Dubes<>Discrete MRF Model Parameters as Features for Texture Classification, <>IEEE Proceedings of Int l Conference Systems Man and Cybernetics Woodhill
+21_6 C C Chen<>Data Encryption Using MRF an RSA Key <> Lecture Notes Computer Science LNCS
+21_7 Chien-Chang Chen<>Filtering methods for texture discrimination <>Pattern Recognition Letters
+21_20 C C Chen<>Watermarking Experiments Based on Wavelet Transforms, <>The Proceedings of SPIE The International Society for Optical Engineering Int l Conference Electronic Imaging and Multimedia Technology III Shainhai
+21_8 C C Chen;C C Chen<>Gabor Transform in Texture Analysis <> Proceedings of SPIE The International Society for Optical Engineering The International Society for Optical Engineering Intelligent Robots and Computer Vision XIII edited by David P Casasent
+21_21 C C Chen<>Applications of ICM Segmentation Algorithm, <>Proceedings of International Computer Symposium Hsinchu
+21_9 Y W Chen;C C Chen<>Vector Quantization by Principal Component Analysis, <>Proceedings of the th Canadian Image Processing and Pattern Recognition Conference B C
+21_22 C C Chen;C C Chen<>Zerotree Wavelet Transform for Texture Discrimination, <>Proceedings of the th Chinese Image Processing and Pattern Recognition Workshop Wu Lye Taipei County
+21_23 C C Chen;J H Hsieh<>Singular Value Decomposition for Texture Compression, <>IEEE Proceedings of Data Compression Conference Snowbird
+21_24 C C Chen;H T Chu<>A Study on Image Compression by Wavelet Transform, <>IEEE Workshop Consumer Electronics Taipei
+21_25 C C Chen;J H Luo<>Texture Discrimination Using Singular Value Decomposition, <>Proceedings IASTED
+21_26 C C Chen;C C Chen<>Texture Synthesis: Algorithms and Experiments, <>Proceedings of the th Chinese Image Processing and Pattern Recognition Workshop Guu Guan Taichung County
+21_27 C C Chen;C C Chen<>Texture Synthesis: A Review and Experiments <> Journal of Information Science and Engineering
+21_28 T Y Cheng;C L Huang;C C Chen<>Color Image Segmentation Using Scale Space Filter and Markov Random Field <> Pattern Recognition
+21_29 H T Chu;C C Chen<>Accelerating Fractal Compression a Real-time Decoder <> Journal of Information Science and Engineering
+21_30 H T Chu;C C Chen<>Domain Indexing for Fractal Image Compression, <>The Proceedings of SPIE The International Society for Optical Engineering Int l Conference Visual Comminucations and Image Processing Perth
+21_31 H T Chu;C C Chen<>Fractal Models for D Image Synthesis, <>presented IEEE International Workshop Comsumers Electronics Taipei
+21_32 H T Chu;C C Chen<>A Fast Algorithm for Generating Fractals, <>The Proceedings of IEEE International Conference Pattern Recognition Barcelona
+21_33 C Chen;Hsueh-Ting Chu<>On bounding boxes of iterated function system attractors <>Computers amp Graphics
+21_34 C Chen;Hsuch-Ting Chu<>On Accelerating Fractal Compression <>Data Compression Conference
+21_35 H T Chu;C C Chen<>An Efficient Decoding Scheme for Fractal Images, <>IEEE Proceedings of the Int l Conference Image Processing TA
+21_36 C Chen;Hsueh-Ting Chu<>An Efficient Decoding Scheme for Fractal Image Compression <>ICIP International Conference Image Processing
+21_37 H T Chu;C C Chen<>Real-time Fractal Image Compression Domain Indexing, <>Proceedings of the th Chinese IPPR Workshop Wann Li
+21_38 H T Chu;C C Chen<>The Relationship between MPEG- standards and XML, <>Workshop of The WCE IEEE Consumer Electronics Society Hsinchu
+21_39 R C Dubes;A K Jain;S G Nadabar;C C Chen<>MRF Model-Based Algorithms for Image Segmentation, <>IEEE Proceedings of the th Int l Conference Pattern Recognition Atalantic City New
+21_40 A K Jain;R C Dubes;C C Chen<>Bootstrapping for Error Estimation <> IEEE Proceedings of the th Int l Conference Pattern Recognition
+21_41 A K Jain;R C Dubes;C C Chen<>Bootstrap Techniques for Error Estimation <> IEEE Trans Pattern Anal Machine Intell PAMI C C Chen R C Dubes and A K Jain Letter To The Editor
+21_42 J H Luo;C C Chen<>Performance Evaluation for Shape Features, <>Proceedings SPIE The International Society for Optical Engineering Applications of Digital Image Processing XVI edited by Andrew G Terscher San Diego
+21_43 J H Luo;C C Chen<>Singular Value Decomposition for Texture Analysis, <>Proceedings of SPIE The International Society for Optical Engineering Applications of Digital Image Processing XVI edited by Andrew G Terscher San Diego
+21_44 Y Y Wang;C C Chen<>An AFIS Using Fingerprint Classification, <>Proceedings of the th Chinese IPPR Workshop Kenting Ping Dong A
+21_45 J Y Yang;C C Chen<>Decomposition of Additively Separable Structuring Elements Applications <> Pattern Recognition
+21_10 C C Chen;D C Chen<>Multi-resolutional Gabor Filter in Texture Analysis <> Pattern Recognition Letters
+21_11 C C Chen<>Improved Moment Invariants for Shape Discrimination <> Pattern Recognition
+21_12 C C Chen;T I Tsai<>Improved Moment Invariants for Shape Discrimination, <>Proceedings of SPIE The International Society for Optical Engineering Applications of Digital Image Processing XV edited by Andrew G Terscher San Diego
+21_13 C C Chen;R C Dubes<>Experiments in Fitting Discrete Markov Random Fields to Textures <> IEEE Proceedings of Conference Computer Vision and Pattern Recognition San Diego
+21_14 C C Chen;C L Huang<>Markov Random Fields for Texture Discrimination <> Pattern Recognition Letters
+21_15 C C Chen;Y Y Wang<>An AFIS Using Fingerprint Classification, <>Image and Vision Computing New Zealand Conference Palmerston North
+21_16 C C Chen;R C Dubes<>Environmental Studies of ICM Segmentation Algorithm <> Journal of Information Science and Engineering
+21_17 C C Chen<>On Wavelet Features for Texture Discrimination <> Proceedings of the th IPPR Conference Dah Ban Gern Taipei County
+21_18 C C Chen<>A Nonparametric Test for Comparing Estimators in Markov Random Fields <> Pattern Recognition Letters
+21_19 C C Chen<>On the Selection of Image Compression Algorithms, <>IEEE Proceedings of the th Int l Conference Pattern Recognition Brisbane
+22_1 C Chen; Henry Horng-Shing Lu ; Yao-Lin Chen<>A discrete region competition approach incorporating weak edge enhancement for ultrasound image segmentation <>Pattern Recognition Letters
+22_2 C Chen; Soo-Young Lee<>Analyzing Effect of Shared Data Replication on Minimizing Communication Overheads <>ICPP International Conference Parallel Processing
+22_3 C Chen; Soo-Young Lee<>Replication of uniformly accessed shared data for large-scale data-parallel algorithms <>IPPS International Parallel Processing Symposium
+22_4 C Chen; Soo-Young Lee<>Optimal Hot Spot Allocation on Meshes for Large-Scale Data-Parallel Algorithms <>IEEE Trans Parallel Distrib Syst
+22_5 C Chen; Soo-Young Lee<>On Parallelizing the EM Algorithm for PET Image Reconstruction <>IEEE Trans Parallel Distrib Syst
+22_6 C Chen; <>An Efficient Four-Connected Parallel System for PET Image Reconstruction <>Parallel Computing
+23_12 Sheng-Tzong Cheng;Chia-Mei Chen<> Power Reduction for Real-Time Operating Systems,<> to Real Time Systems the International Journal of Time Critical Computing Systems
+23_13 Sheng-Tzong Cheng;Chia-Mei Chen<> Temporal Analysis and Algorithms for Real-Time Scheduling and Allocation, <> the IJCA International Journal of Computers and Their Applications
+23_14 C Chen;Jing-Wen Hwang ; Sheng-Tzong Cheng<>Low-Power Design for Real-Time Systems <>Real Time Systems
+23_15 Shyh-In Hwang;Chia-Mei Chen;Ashok K Agrawala<> Scheduling an Overloaded Real-Time System ,<>Procs of the IEEE International Conference Computers and Communications
+23_16 C Li ; Chia-Mei Chen ; Sheng-Tzong Cheng<>Network topology management in a mobile-switch ATM network: dynamic partition algorithms <>Int Journal of Network Management
+23_17 C Chen;Satish K Tripathi ; Sheng-Tzong Cheng<>A Fault-Tolerance Model for Multiprocessor Real-Time Systems <>J Comput Syst Sci
+23_1 C Chen;Alex Blackmore ; Satish K Tripathi<>A Resource Synchronization Protocol for Multiprocessor Real-Time Systems <>ICPP International Conference Parallel Processing
+23_2 Chia-Mei Chen;Satish K Tripathi;S Cheng<> A Fault-Tolerance Model for Real-Time Systems, <>Procs of the IEEE Workshop Fault Tolerant Parallel and Distributed Systems
+23_3 Chia-Mei Chen;Satish K Tripathi<> Fault-Tolerance Scheduling in Real-Time Systems, <>Procs of the International Society for Computers and Their Applications ISCA International Symposium Computer Architecture International Conference Computer Applications Industry and Engineering
+23_4 Chia-Mei Chen;Satish K Tripathi<> An Analytical Model for the Reliability of Real-Time Systems, <>Procs of the International Association of Science and Technology for Development IASTED International Conference Applied Modelling Simulation and Optimization
+23_5 Chia-Mei Chen;Satish K Tripathi<> An Optimistic Concurrency Control Algorithm in Real-Time Database Systems, <>Procc of the ISCA International Symposium Computer Architecture International Conference Parallel and Distributed Computing
+23_6 C Chen ; C Li ; Sheng-Tzong Cheng<>Network topology management in a mobile-switch ATM network: dynamic partition algorithms <>Int Journal of Network Management
+23_7 Chia-Mei Chen;Shyh-In Hwang;Satish K Tripathi<> A Performance Study of Real-Time Optimistic Concurrency Control the Knowledge of Execution time, <>International Journal of Computers and Their Applications II
+23_8 Chia-Mei Chen;Satish K Tripathi;Alex Blackmore<> A Resource Synchronization Protocol for Multiprocessor Real-Time Systems <>Procs of the International Conference Parallel Processing
+23_9 Chia-Mei Chen;W H Tsai<> Automatic Identification of Chinese Seal Imprints Arbitrary or Partial Shapes, <>Computer Processing of Chinese and Oriental Languages An International Journal of the Chinese Language Computer Society
+23_10 C Chen;Sheng-Tzong Cheng<>Dynamic Round-based Resource Management for On-demand Multimedia Servers <>Comput J
+23_11 Sheng-Tzong Cheng;Chia-Mei Chen;Jing-Wen Hwang<> Low-Power Design for Real-Time Systems, <>Proc of the st International Conference Information Communications Signal Processing ICICS International Conference Information Communications and Signal Processing Signapore
+24_1 Chi-Chang Chen;Kin-Hsing Hsieh<> A Distributed Object-Oriented Parallel Computing Environment Based on Java/CORBA,<> International Conference Parallel and Distributed Processing Techniques and Applications Las Vagas
+24_2 Chi-Chang Chen;Jianer Chen<>A homomorphism of the de bruijn graphs and its applications,<>The First IEEE International Conference Algorithms and Architectures for Parallel Processing
+24_3 Chi-Chang Chen;Jianer Chen<>Vertex-disjoint routing in star graphs<> the First IEEE International Conference Algorithms and Architectures for Parallel Processing
+24_4 Chi-Chang Chen;Jianer Chen<> A Linear Time Uniform Gap Algorithm,<>Tatung Journal
+24_5 Chi-Chang Chen;Jianer Chen<>Nearly Optimal One-to-Many Parallel Routing in Star Networks<> th International Parallel Processing Symposium
+24_6 C Chen;Jianer Chen<>Nearly Optimal One-to-Many Parallel Routing in Star Networks <>IEEE Trans Parallel Distrib Syst
+24_7 C -C Chen;J Chen<> Nearly Optimal One-to-Many Routing in Star Networks,<>IEEE Transactions Parallel and Distributed Systems
+24_8 Chi-Chang Chen;Jianer Chen<>One-to-many node-disjoint routing in star networks,<> Technical Report
+24_10 C C Chen;J Chen<>Optimal Parallel Routing in Star Graphs extended abastract ,<> th International Workshop Graph Theoretic Concepts Computer Science Como Lecture Notes Computer Science
+24_9 C Chen;Jianer Chen<>Optimal Parallel Routing in Star Graphs <>WG Workshop Graph Theoretic Concepts Computer Science
+24_11 C Chen;Jianer Chen<>Optimal Parallel Routing in Star Networks <>IEEE Trans Computers
+24_12 C Chen;Jianer Chen<>The Maximum Partition Matching Problem with Applications <>SIAM Society for Industrial and Applied Mathematics J Comput
+24_13 Chi-Chang Chen;Jianer Chen<>The maximum partition matching problem applications,<>SIAM Society for Industrial and Applied Mathematics Journal Computing
+25_1 C Chen; Carlo Zaniolo ; Jiejun Kong<>Design and Implementation of a Temporal Extension of SQL <>ICDE International Conference Data Engineering
+25_2 C Chen; Carlo Zaniolo<>Universal Temporal Extensions for Database Languages <>ICDE International Conference Data Engineering
+25_3 C Chen; Carlo Zaniolo<>Universal Temporal Data Languages <>DDLP
+25_4 C Chen; Carlo Zaniolo<>SQL<sup><i>ST</i></sup>: A Spatio-Temporal Data Model and Query Language <>ER International Conference Conceptual Modeling the Entity Relationship Approach
+25_5 C Chen; Ashok Malhotra<>XML Queries via SQL <>Web Age Information Management
+26_1 C Chen; Kuo-Hao Li<>An Adaptive MAC Protocol for Satellite ATM <>ICOIN International Conference Information Networking
+26_2 C Chen; Dharma P Agrawal ; J Richard Burke ; Tsung-Ying Lee<>Performance Analysis of Single Stage Interconnection Networks <>IEEE Trans Computers
+26_3 C Chen; Dharma P Agrawal ; J Richard Burke<>Design and Analysis of a Class of Highly Scalable Hierarchical Networks: PdBCube <>J Parallel Distrib Comput
+26_4 C Chen; Dharma P Agrawal ; J Richard Burke<>dBCube: A New Class of Hierarchical Multiprocessor Interconnection Networks with Area Efficient Layout <>IEEE Trans Parallel Distrib Syst
+26_5 C Chen; Dharma P Agrawal ; J Richard Burke<>Hybrid graph-based networks for multiprocessing <>Telecommunication Systems
+27_1 C Chen; Nick Roussopoulos<>Adaptive Database Buffer Allocation Using Query Feedback <>VLDB Very Large Data Bases
+27_2 C Chen; Nick Roussopoulos<>Adaptive Selectivity Estimation Using Query Feedback <>SIGMOD International Conference Management of Data Conference
+27_3 C Chen; Alex Delis ; Nick Roussopoulos ; Stephen Kelley ; Yannis Papakonstantinou<>The ADMS Project: View R Us <>IEEE Data Eng Bull
+27_4 C Chen; Nick Roussopoulos<>The Implementation and Performance Evaluation of the ADMS Query Optimizer: Integrating Query Result Caching and Matching <>EDBT Extending Database Technology
+27_5 C Chen; Kenneth Salem ; Miron Livny<>The DBC: Processing Scientific Data Over the Internet <>ICDCS International Conference Distributed Computing Systems
+28_1 C Chen; Chin-Ming Hong ; Heng-Kang Fan<>A New Gradient-Based Search Method: Grey-Gradient Search Model <>IEA Industrial and Engineering Applications AIE Artificial Intelligence and Expert Systems
+28_2 C Chen; Chin-Ming Hong ; Heng-Kang Fan<>Design of Fuzzy Sliding Controller Based on Cerebellar Learning Model <>IEA Industrial and Engineering Applications AIE Artificial Intelligence and Expert Systems
+28_3 C Chen; Cheng-Wei Hwang ; Hahn-Ming Lee<>A Neural Network Document Classifier with Linguistic Feature Selection <>IEA Industrial and Engineering Applications AIE Artificial Intelligence and Expert Systems
+28_4 C Chen; Hahn-Ming Lee<>An Efficient Gradient Forecasting Search Method Utilizing the Discrete Difference Equation Prediction Model <>Appl Intell
+28_5 C Chen; Hahn-Ming Lee ; Tzong-Ching Huang<>Learning efficiency improvement of back-propagation algorithm by error saturation prevention method <>Neurocomputing
+29_1 C Chen; Wen-Yang Lin<>Minimum Completion Time Criterion for Parallel Sparse Cholesky Factorization <>ICPP International Conference Parallel Processing
+29_2 C Chen; Wen-Yang Lin<>On Optimal Fill-Preserving Orderings of Sparse Matrices for Parallel Cholesky Factorizations <>IPDPS International Parallel and Distributed Processing Symposium
+29_3 C Chen; Chung-Kai Liao<>Analysis of Vector Access Performance on Skewed Interleaved Memory <>ISCA International Symposium Computer Architecture
+29_4 C Chen; Biing-Feng Wang ; Gen-Huey Chen<>A Simple Approach to Implementing Multiplication with Small Tables <>Inf Process Lett
+29_5 C Chen; Tsung-Tso Kan<>Processor Allocation and Task Scheduling to Minimize Ditributed Sparse Cholesky Faxtorization Time <>HPCN European International Conference High Performance Computing and Networking Europe
+2_30 C Chen;L Gasman<>The Broadband Jigsaw Puzzle<> Business Communications Review iss
+2_31 C Chen;D Getchell<>LLNL Experience HIPPI<> Santa Fe Cray Users Group
+2_32 C Chen;Arif Ghafoor<>Special Issue on Multimedia Processing and Technology <>J Parallel Distrib Comput
+2_33 C Chen;Arif Ghafoor ; P Bruce Berra ; Thomas D C Little<>Issues in Networking and Data MAnagement of Distributed Multimedia Systems <>HPDC High Performance Distributed Computing Symposium
+2_34 C Chen;T A Gilbert<>Using HIPPI Switches to Build High-Performance Multiple FDDI Ring Networks<> SPIE The International Society for Optical Engineering High Speed Fiber Networks and Channels Proceedings
+2_35 C Chen;Bill Halpin ; Naresh Sehgal<>Timing Driven Placement using Physical Net Constraints <>DAC Design Automation Conference
+2_36 C Chen;K Hardwick<>HIPPI World --The Switch is the Network<> COMPCON San Francisco
+2_37 C Chen;B Hastings<>HSSI and HPPI Open up Data Highways to High-Speed Traffic<> Network World iss p
+2_70 C Chen;Dikran S Meliksetian<>Optimal Routing Algorithm and the Diameter of the Cube-Connected Cycles <>IEEE Trans Parallel Distrib Syst
+2_38 C Chen;K Herbst<>Fast Track for Supercomputer Data<> Datamation iss
+2_71 C Chen;Dikran S Meliksetian ; Tacettin Kiprulu<>Smoothing Algorithms for the Delivery of Compressed Video <>ICC International Conference Communications
+2_39 C Chen;K Herbst<>The Dawning of the Age of Network Supercomputing<> Supercomputing Review
+2_72 C Chen;Michael Z Moricz<>Datapath Scheduling for Two-Level Pipelining <>DAC Design Automation Conference
+2_73 C Chen;Muhammad F Mudawwar<>The Signal Flow Model: A novel Data Driven Approach to Parallel Processing <>ICPP International Conference Parallel Processing
+2_74 C Chen;Cheung N<>Nectar HIPPI-ATM-SONET<> Proceedings of the Third Gigabit Testbed Workshop
+2_75 C Chen;Kingsley C Nwosu ; P Bruce Berra<>Modeling and Storage Allocation Strategies for Homogeneous Parallel Access Storage Devices in Real Time Multimedia Information Processing <>ICCI International Conference Computing and Information
+2_76 C Chen;Kingsley C Nwosu ; P Bruce Berra<>Multimedia Object Modeling and Storage Allocation Strategies <>J Intell Inf Syst
+2_77 C Chen;E Ohrenstein<>Arrays - Fault Tolerance for VME and HPPI<> Computer Technology Review iss
+2_78 C Chen;E Ohrenstein<>Supercomputers Seek High Throughput and Expandable Storage<> Computer Technology Review iss
+2_79 C Chen;John K Renwick<>Building a Practical HIPPI LAN<> Proceedings of IEEE Conference Local Computer Networks
+2_40 C Chen;C Hildebrand<>`Hippi' Means Speed for Lab Users<> Computerworld
+2_41 C Chen;B Homan;C Stoops<> High Performance I/O and the RS/ <> RiSc World
+2_42 C Chen;Cliff Yungchin Hou<>A Hierarchical Methodology to Improve Channel Routing by Pin Permutation <>ICCAD International Conference Computer Aided Design
+2_43 C Chen;Cliff Yungchin Hou<>A Pin Permutation Algorithm for Improving Over-the-Cell Channel Routing <>DAC Design Automation Conference
+2_44 C Chen;Calvin J A Hsia<>Permutation Capability of Multistage Interconnection Networks <>ICPP International Conference Parallel Processing
+2_45 C Chen;Calvin J A Hsia<>Synthesis of Asynchronous Circuits - Testing Unique Circuit Behavior of Signal Transition Graphs <>ISCAS IEEE International Symposium Circuits and Systems
+2_46 C Chen;Shuo-Hsien Hsiao<>A New Model for the Performance Evaluation of Synchronous Circuit Switched Multistage Interconnection Networks <>IPPS International Parallel Processing Symposium
+2_47 C Chen;Shuo-Hsien Hsiao<>Performance Evaluation of Circuit Switched Multistage Interconnection Networks Using a Hold Strategy <>IEEE Trans Parallel Distrib Syst
+2_1 C Chen;<>Los Alamos High-Speed Channel will Spur Gigabits/s Networks<> Computers Physics
+2_80 C Chen;P R Rupert<>What's Driving Gigabit/Sec Channels?<> SPIE The International Society for Optical Engineering High Speed Fiber Networks and Channels Proceedings
+2_48 C Chen;W St John;D Massey<>Casa HIPPI-SONET<> Proceedings of the Third Gigabit Testbed Workshop
+2_2 C Chen;<>A Superhighway for Channeling Data<> Science News p
+2_81 C Chen;S Scully<>Supercomputing Hails Need for Gbit LANs<> Lightwave
+2_49 C Chen;W t John<> High-Performance Parallel Interface HIPPI Repeater Application Note ,<>Los Alamos National Laboratory
+2_3 C Chen;<>Super High-Speed Link may Revolutionize Computer Communications<> Computer Daily
+2_82 C Chen;J Shandle<>Gigabit Nets get Ready for Lift-Off<> Electronics
+2_4 C Chen;John M Acken ; Qinghong Wu<>Efficent Boolean Matching Algorithm for Cell Libraries <>ICCD International Conference Computer Design
+2_83 C Chen;R K Singh;et al <>A Programmable HIPPI Interface for a Graphics Supercomputer<> Supercomputing Proceedings
+2_5 C Chen;John M Acken ; Naresh Kumar Seghal<>A High Performance General Purpose Multi-Point Signal Router <>ISCAS IEEE International Symposium Circuits and Systems
+2_84 C Chen;Uminder Singh<>A Transistor Reordering Technique for Gate Matrix Layout <>DAC Design Automation Conference
+2_6 C Chen;Imtiaz Ahmad<>Post-Processor for Data Path Synthesis Using Multiport Memories <>ICCAD International Conference Computer Aided Design
+2_85 C Chen;L Sloan<> Survey of `IP and ARP on HIPPI' Implementations ,<>
+2_7 C Chen;Imtiaz Ahmad ; Muhammad K Dhodhi<>Synthesis of Application-Specific Multiprocessor Systems <>EDAC ETC EUROASIC
+2_86 C Chen;N P Smith<>HIPPI and Beyond<> Supercomputing Review
+2_8 C Chen;K C Young et al <>A HIPPI/ATM/SONET Network Interface for the Nectar Gigabit Testbed<> IEEE LEOS Summer Topical Meeting Digest Gigabit Networks
+2_9 C Chen;Abdulaziz S Almazyad ; Shuo-Hsien Hsiao<>A new model for the performance evaluation of synchronous circuit switched multistage interconnection networks <>IEEE ACM Trans Netw
+2_87 C Chen;Peter A Steenkiste;Brian D Zill;H T Kung;Steven J Schlick;Jim Hughes;Bob Kowalski;John Mullaney<>A Host Interface Architecture of High-Speed Networks<> Proceedings of the th IFIP International Federation for Information Processing Conference High Performance Networks Liege A
+2_88 C Chen;Peter A Steenkiste;Michael Hemy;Todd Mummert;Brian Zill<> Architecture and Evaluation of a High-Speed Networking Subsystem for Distributed-Memory Systems ,<>Proceedings of the IEEE st Annual International Symposium Computer
+2_89 C Chen;P Steenkiste<> A Systematic Approach to Host Interface Design for High-Speed Networks ,<>IEEE Computer
+2_10 C Chen;Mohammed Aloqeely<>Sequencer-Based Data Path Synthesis of Regular Iterative Algorithms <>DAC Design Automation Conference
+2_11 C Chen;J Ambrosio<>Users: `We Want Our Data Faster'<> Computerworld iss p
+2_12 C Chen;Bradley S Carlson ; Dikran S Meliksetian<>Dual Eulerian Properties of Plane Multigraphs <>SIAM Society for Industrial and Applied Mathematics J Discrete Math
+2_13 C Chen;Bradley S Carlson<>Performance Enhancement of CMOS VLSI Circuits by Transistor Reordering <>DAC Design Automation Conference
+2_100 C Chen;D E Tolmie<>What's Happening Supercomputer Networks<> Keynote Address at Network Systems Users Group NEXUS XXIV
+2_14 C Chen;Bradley S Carlson ; Dikran S Meliksetian<>Transistor Chaining in Static CMOS Functional Cells of Arbitrary Planar Topology <>Discrete Applied Mathematics
+2_101 C Chen;D E Tolmie<>Present and Future Supercomputer Network Architectures<> SPIE The International Society for Optical Engineering High Speed Fiber Networks and Channels Proceedings
+2_15 C Chen;C S Chang ; P Bruce Berra ; Thomas D C Little<>Multimedia Synchronization <>IEEE Data Eng Bull
+2_102 C Chen;D E Tolmie<>The High-Speed Channel HSC and Ultra-Speed Networks<> Broadband FOC LAN San Francisco
+2_16 C Chen;I Chlamtac;A Ganz;M G Kienzle<>Control Policies for Interconnected Distributed Systems via a HIPPI Switch<> Microprocessing Microprogramming iss
+2_103 C Chen;D E Tolmie<>The High-Speed Channel HSC Standard<> COMPCON Conference San Francisco
+2_17 C Chen;I Chlamtac;M G Kienzle<>Multitasking in High-Speed Interconnection Systems<> Computer Networks and ISDN Systems iss
+2_104 C Chen;J W Toy<> HIPPI Over Fiber Optics ,<>Proceedings of the Silicon Valley Networking Conference
+2_50 C Chen;C C-Doo Jung;D Advani<>HIPPI Exploitation in TCP/IP Environment<> Supercomputing Proceedings
+2_18 C Chen;Imrich Chlamtac;Aura Ganz;Martin G Kienzle<>An HIPPI Interconnection System<> IEEE Transactions Computers
+2_105 C Chen;J W Toy;P W Casper;et al <>The Design of a -Km Dual-Simplex Fiber Optic HIPPI Extender<> SPIE The International Society for Optical Engineering High Speed Fiber Networks and Channels Proceedings
+2_51 C Chen;R Karpinski<>HPPI Gateway opens SONET Pipe<> Telephony iss
+2_19 C Chen;I Chlamtac;A Ganz;M G Kienzle<>Performance Evaluation of a HIPPI Connection System<> Proceedings of the Third Conference High Speed Networks
+2_106 C Chen;L Waller<>A Fiber-Optic Link that Runs Supercomputers<> Electronics
+2_52 C Chen;R H Katz;P Chen;et al <>RAID-II: Design and Implementation of a Large Scale Disk Array Controller<> University of Computer Science CSD
+2_107 C Chen;R Weiss;T Costlow<>IBM Beats Pack to High-Speed Channel<> Electronic Engineering Times
+2_53 C Chen;Bharat Krishna ; Naresh Sehgal<>A novel ultra-fast heuristic for VLSI CAD steiner trees <>ACM Great Lakes Symposium VLSI Very Large Scale Integration
+2_108 C Chen;A Wolfe<>Host of Products on Tap for HIPPI<> EE Times p
+2_54 C Chen;T T Kwan;J A Terstriep<>Experiments a Gigabit Neuroscience Application on the CM- <> Supercomputing Proceedings
+2_55 C Chen;James V Luciani<>An analytical model for partially blocking finite-buffered switching networks <>IEEE ACM Trans Netw
+2_56 C Chen;Qingming Ma;Peter Steenkiste<> Performance of Circuit Switched LANs under Different Traffic Conditions ,<>Proceedings of the IEEE th Conference Local Computer Networks
+2_57 C Chen;Jamshid Mahdavi;Gwendolyn L Huntoon;Matthew B Mathis<>Deployment of a HIPPI-based Distributed Supercomputing Environment at the Pittsburgh Supercomputing Center<> IEEE international Parallel Processing Symposium Los Angeles
+2_90 C Chen;P Steenkiste<>The Nectar Network Interface<> Proceedings of the Third Gigabit Testbed Workshop
+2_58 C Chen;Abdulazis S Mazyad<> Modeling and Internetworking of HIPPI LANs Broadband Integrated Services Digital Network <>
+2_91 C Chen;R Thomsen<>Los Alamos Multiple Crossbar Network: Crossbar Interfaces<> Los Alamos National Laboratory
+2_59 C Chen;Abdulazis S Mazyad;C Y Roger Chen<> Performance Evaluation of HIPPI Interconnection System Using a Camp-on Strategy <> Proceedings of the IEEE th Conference Local Computer Networks
+2_92 C Chen;D E Tolmie<>Gigabit Networking<> IEEE Lightwave Telecommunications Systems Special Issue Gigabit Networking Technical Challenges and Applications
+2_93 C Chen;D E Tolmie<> HIPPI, Fibre Channel, and ATM in High-Speed Networks ,<>Proceedings of the DoD Fiber Optics and Photonics Conference
+2_94 C Chen;D E Tolmie<> HIPPI, Fibre Channel, and ATM as Gigabit LANs ,<>Networld Interop Engineer s Conference
+2_95 C Chen;D E Tolmie<>HIPPI and Fibre Channel<> Conference Computing High Energy Physics CHEP Annecy
+2_96 C Chen;D E Tolmie<> HIPPI, and Relationship to Fibre Channel and ATM ,<> Silicon Valley Networking Conference and Exhibition
+2_97 C Chen;D E Tolmie;J K Renwick<>HIPPI: Simplicity Yields Success<> IEEE Network The Magazine of Computer Communications
+2_98 C Chen;D E Tolmie;M G Halvorson<>HIPPI / Serial-HIPPI<> Proceedings of the Thirty Seventh IEEE Computer Society International Conference COMPCON San Francisco
+2_99 C Chen;D E Tolmie<>Local Area Gigabit Networking<> th IEEE Symposium Mass Storage Systems
+2_20 C Chen;Imrich Chlantac;Aura Ganz<>Performance Evaluation of an HIPPI Interconnection System<> Technical Report RC IBM
+2_21 C Chen;Yeh-Ching Chung<>Embedding Networks with Ring Connections in Hypercube Machines <>ICPP International Conference Parallel Processing
+2_22 C Chen;T Costlow<>Supercomputer World Adopts Standard Link<> Electronic Engineering Times iss
+2_23 C Chen;R Cummings<>HIPPI and Fibre Channel Coexistence<> a presentation at Interface
+2_24 C Chen;J Duffy<>HP Unveils High-Speed Workstation Adapter<> Network World iss p
+2_25 C Chen;M Ferelli<>RAID Becoming the People's Choice<> Computer Technology Review iss p
+2_26 C Chen;W R Franta;J P Hughes<> Geographic Extension of HIPPI Channels via High Speed SONET ,<>IEEE Network
+2_27 C Chen;W R Franta;J Halpern;J Hughes<>Mix and Match Technologies Boost Communication Speed in Today's Data-Networking Environment<> Computers Physics
+2_60 C Chen;W McFarland;et al <>HP's Link Interface Chipset for Serial-HIPPI<> COMPCON San Francisco
+2_28 C Chen;W R Franta;J P Hughes<>Extended High Speed Networks Employing HIPPI Switches<> Journal of High Speed Networks This paper was also included the Proceedings of the Annual Workshop Very High Speed Networks
+2_61 C Chen;J M McQuillan<>Doing Business Electronically: The Present and Future of `LAN-in-a-Box`<> Business Communications Review iss This article was also re published the Proceedings for the th Annual Conference Next Generation Networks Broadband Networks Marriott Gateway D C
+2_29 C Chen;W R Franta;J P Hughes<>Extended High Speed Networks Employing HIPPI Switches, High Speed WANS, and FDDI Rings<> Journal of High Speed Networks
+2_62 C Chen;Dikran S Meliksetian<>Communication Aspects of the Cube Connected Cycles <>ICPP International Conference Parallel Processing
+2_63 C Chen;Dikran S Meliksetian ; L J Liu ; M C Chang<>Design of a Multimedia Object-Oriented DBMS <>Multimedia Syst
+2_64 C Chen;Dikran S Meliksetian ; Georges A Makhoul<>A queueing analysis of the performance of DQDB <>IEEE ACM Trans Netw
+2_65 C Chen;Dikran S Meliksetian<>A Markov-Modulated Bernoulli Process Approximation for the Analysis of Banyan Networks <>SIGMETRICS Measurement and Modeling of Computer Systems
+2_66 C Chen;Dikran S Meliksetian ; Frank Feng-Kuo Yu<>Methodologies for Designing Video Servers <>IEEE Transactions Multimedia
+2_67 C Chen;Dikran S Meliksetian<>Performance Analysis of Communications in Static Interconnection Networks <>SIGMETRICS Measurement and Modeling of Computer Systems
+2_68 C Chen;Dikran S Meliksetian ; Muhammad Naeem Ayyaz<>Partitionable multistage interconnection networks Part : Dynamic subcube compaction <>Telecommunication Systems
+2_69 C Chen;Dikran S Meliksetian ; Muhammad Naeem Ayyaz<>Partitionable multistage interconnection networks Part : Task migration schemes <>Telecommunication Systems
+30_1 Chao-Chun Chen;Chiang Lee;Chih-Horng Ke<>Best Movement of Mobile Agent in Mobile Computing Systems,<>Proceedings of the Fourth International Conference Data Management MDM IEEE International Conference Data Management Melboune
+30_2 C Chen;Chih-Horng Ke;Chiang Lee<> Broadcast Scheduling for Data Delivery under Real-Time Constraints in Wireless Communication Systems <> Proceedings of the Fifth Workshop Computing
+30_3 C Chen;Chih-Horng Ke<> Broadcast Scheduling for Multiple Channels in Wireless Information Systems <> Proceedings of National Computer Symposium NCS Taipei R O C
+30_4 C Chen;Chih-Horng Ke;Chiang Lee<> Joint Broadcast Scheduling and User's Cache Management for Wireless Information Systems <> Proceedings of the Sixth Workshop Computing
+30_5 C Chen;Chih-Horng Ke;Chiang Lee<> Minimizing Expecting Time in Broadcast-based Computing Environment <> Proceedings of the Workshop Distributed System Technologies and Applications
+30_10 C Chen;Chiang Lee ; Chih-Horng Ke<>Compression-Based Broadcast Strategies in Wireless Information Systems <>AINA Advanced Information Networking and Applications
+30_6 Chih-Horng Ke;Chao-Chun Chen;Chiang Lee<> Improving Location Management for Mobile Users Frequently Visited Locations <> Proceedings of the Third Workshop Computing
+30_11 C Chen;Chiang Lee<>Location Management Strategies for Reducing Both Movement Cost and Locating Cost Simultaneously <>MDA
+30_7 Chiang Lee;Chih-Horng Ke;Chao-Chun Chen<> Broadcast Scheduling for Data Delivery under Real-Time Constraints <> Technical Report
+30_12 C Chen;Chiang Lee;Chih-Horng Ke;Jer-Bing Chang;Yaw-Huei Chen<> Minimization of Resource Consumption for Multidatabase Query Optimization <> Proceedings of the International Conference Cooperative Information Systems CoopIS New New
+30_8 C Chen;Chiang Lee ; Chih-Horng Ke<>Best Movement of Mobile Agent in Mobile Computing Systems <>Data Management
+30_13 Chiang Lee;Chih-Horng Ke;Chao-Chun Chen<> Improving Locations <> Performance Evaluation
+30_9 Chiang Lee;Chao-Chun Chen;Chih-Horng Ke<> A Code-Based Data Delivery Strategy in Ubiquitous Computing Systems <> Technical Report
+30_14 C Chen;Chiang Lee ; Chih-Horng Ke<>Improving location management for mobile users with frequently visited locations <>Perform Eval
+30_15 C Chen;Chiang Lee;Chih-Horng Ke<> A Prediction-Based Query Processing Strategy in Mobile Commerce Systems <> Journal of Database Management
+30_16 C Chen;Chiang Lee;Chih-Horng Ke;Yaw-Huei Chen<> Performance Upgrade for Large Object Bases Using Disk Arrays <> Proceedings of the International Conference Database and Expert Systems Applications DEXA Database and Expert Systems Applications Zurich
+30_17 C Chen;Chiang Lee;Chih-Horng Ke<> A Stochastic Approach to Query Optimization in Mobile Computing Environment <> Proceedings of the First Workshop Computing
+30_18 Chiang Lee;Chih-Horng Ke;Chao-Chun Chen<> Tracking Mobile Users Utilizing Their Frequently Visited Locations <> Proceedings of the International Conference Database and Expert Systems Applications DEXA Database and Expert Systems Applications
+31_1 C Chen; Chien-Hua Shann ; Ting-Lu Huang<>A Practical Nonblocking Queue Algorithm Using Compare-and-Swap <>ICPADS International Conference Parallel and Distributed Systems
+31_2 C Chen; Guan-Joe Lai<>A new scheduling strategy for NUMA multiprocessor systems <>ICPADS International Conference Parallel and Distributed Systems
+31_3 C Chen; C -C Wu ; Der-Lin Pean<>Look-Ahead Memory Consistency Model <>ICPADS International Conference Parallel and Distributed Systems
+31_4 C Chen; Der-Lin Pean ; Guan-Joe Lai<>An Optimized Dependence Convex Hull Partitioning Technique to Maximize Parallelism of Nested Loops with Non-Uniform Dependences <>ICPADS International Conference Parallel and Distributed Systems
+31_5 C Chen; Der-Lin Pean ; J -R Wu<>Effective Mechanisms to Reduce the Overhead of Migratory Sharing for Linked-Based Cache Coherence Protocols in Clustering Multiprocessor Architecture <>ICPADS International Conference Parallel and Distributed Systems
+32_11  Chichyang Chen<> On -D Shape Reconstruction of Deformable Objects Using Vision Sensors, <>The State University
+32_12  Chichyang Chen<> On-Line Computation of Elementary Functions Using Finite State Machines, <>Proceedings of Proceedings of International Computer Symposium
+32_13  Chichyang Chen;Yuan F Zheng<> A New Robotic Hand/Eye Calibration Method by Active Viewing of a Checkerboard Pattern, <>Proceedings of Proceedings of IEEE International Conference Robotics and Automation
+32_14  Chichyang Chen;Rui-Lin Chen;Chih-Huan Yang<> Pipelined computation of very large word-length addition/subtraction polynomial hardware cost, <>IEEE Transactions Computers SCI Scalable Coherent Interface EI NSC E
+32_15 C Chen; Chic yang Chen;Chih-Huan Yang<> Pipelined Computation of LNS Addition/Subtraction Very Small Lookup Tables, <>Proceedings of Proceedings of International Conference Computer Design
+32_16  Chichyang Chen;Yuan F Zheng<> Passive and Active Vision for Smooth Surface Detection of Deformed Plates, <>IEEE Transactions Industrial Electronics SCI Scalable Coherent Interface
+32_17  Chichyang Chen;Steven Stitt;Yuan F Zheng<> Robotic Eye-in-the-hand Calibration by Calibrating Optical Axis and Target Pattern, <>Journal of Intelligent and Robotic Systems Vo
+32_18  Chichyang Chen<>, Recognition of Overlapping Objects Using Mathematical Morphology, <>NSC E T
+32_19  Chichyang Chen;Yann-Yiing Chen<> Error Analysis of DCT algorithms in Floating-Point and Logarithmic Number Systems, <>Proceedings of th VLSI Very Large Scale Integration Design CAD Symposium
+32_20  Chichyang Chen;Chiou-Dong Wang<> A Simple edge-preserving filtering technique for constructing multi-resolution systems of images, <> by Pattern Recognition Letters SCI Scalable Coherent Interface NSC E
+32_21  Chichyang Chen;Yuan F Zheng<> Thin Plate Surface Approximation Using Coons Patches, <>Computer Aided Geometric Design
+32_22 C Chen; Chichyang<> Design of an On-line Logarithmic Number System Processor, <>NSC E
+32_23 C Chen; Chichyang<> Human Face Detection in Color Images, <>NSC E
+32_24 C Chen; Chichyang<> Automatic Tracking of Face Features from Image Sequences, <>NSC E
+32_25 C Chen;Chiun-Wen Hsu ; Te-Lung Lin<>Image prediction using face detection and triangulation <>Pattern Recognition Letters
+32_26  Thanos Stouraitis;Chichyang Chen<> Fast Digit-Parallel Conversion from Signed-Digit to Conventional Representations, <>Electronics Letters
+32_27  Thanos Stouraitis;Chichyang Chen<> A Hybrid Signed-Digit/Logarithmic Number System Processor, <>IEEE proceedings E
+32_28  Chiou-Dong Wang;Chichyang Chen<> Edge-Based Non-linear Gaussian Filtering for Constructing the multiresolution System of Images, <>Proceedings of Proceedings of CVGIP Conference Computer Vision Graphics and dImage Processing
+32_29 C Chen;Chiou-Dong Wang<>A simple edge-preserving filtering technique for constructing multi-resolution systems of images <>Pattern Recognition Letters
+32_1  Chichyang Chen;Chiun-Wen Hsu<> Content-based hybrid DPCM/classified vector quantization for coding video telephony sequences, <> by Journal of visual communication and image representation SCI Scalable Coherent Interface EI NSC E
+32_2  Chichyang Chen;Yuan F Zheng<> Deformation Identification and Estimation of One-Dimensional Objects by Vision Sensors, <>Journal of Robotic Systems Vol
+32_3  Chichyang Chen;Yuan F Zheng<> Deformation Identification and Estimation of One-Dimensional Objects by Vision Sensors, <>Proceedings of Proceedings of IEEE International Conference Robotics and Automation
+32_4  Chichyang Chen;Kuo-Hsiung Cho<> Design of a -digit On-Line Addition Unit in Logarithmic Number System, <>Journal of The Chinese Institute of Electrical Engineering Vo
+32_5  Chichyang Chen;Kuo-Hsiung Cho;Shiuh-Pying Chiang<> Design of -Digit On-Line Exponential and Logarithmic Computational Units, <>Journal of Feng Chia
+32_6  Chichyang Chen;Shiuh-Pying Chiang<> Detection of Human Faces in Color Images, <>IEEE proceedings Vision Image and signal processing EI
+32_7  Chichyang Chen;Shiuh-Ping Chiang<> Human Face Detection in Color Images, <>Proceedings of Proceedings of ICS Conference Image processing and Character recognition
+32_8  Chichyang Chen<> A Hybrid Signed-Digit/Logarithmic Number System Arithmetic Processor, <>The State University
+32_9  Chichyang Chen;Te-Lung Lin<> Low Bit-Rate Video-Coding Using Image Triangulation, <>Proceedings of Proceedings of IEEE Intl Symposium Consumer Electronics
+32_30 C Chen;Chih-Huan Yang ; Rui-Lin Chen<>Pipelined Computation of Very Large Word-Length LNS Addition/Subtraction with Polynomial Hardware Cost <>IEEE Trans Computers
+32_31 C Chen;Yuan F Zheng<>A New Robotic Hand/Eye Calibration Method by Active Viewing of a Checkerboard Pattern <>ICRA International Conference Robotics and Automation
+32_32  Yuan F Zheng;Run Pei;Chichyang Chen<> Strategies for Automatic Assembly of Deformable Objects, <>Proceedings of Proceedings of IEEE International Conference Robotics and Automation
+32_10  Chichyang Chen;Chiun-Wen Hsu<> Image Predication Using Face Detection and TRiangulation, <>Proceedings of Proceedings of CVGIP Conference Computer Vision Graphics and Image Processing
+33_1 C Chen; Kai H Chang ; Shih-Sung Liao ; Stephen B Seidman<>Testing Object-Oriented Programs Based on Usage Profiles and Formal Specifications <>SEKE Software Engineering and Knowledge Engineering
+33_2 C Chen; Kai H Chang ; Richard Chapman<>Test scenario and regression test suite generation from Object-Z formal specification for object-oriented program testing <>ACM Southeast Regional Conference
+33_3 C Chen; Kai H Chang ; Shih-Sung Liao<>An Integrated Testing Framework for Object-Oriented Programs <>Informatica
+33_4 C Chen; Kai H Chang ; Richard Chapman ; Shih-Sung Liao<>Test Scenario Generation Based on Formal Specification and Usage Profile <>International Journal of Software Engineering and Knowledge Engineering
+34_3 C Chen; Douglas Yarger ; John Peter Boysen ; Ying-Shao Hsu<>The Development of an Exploratory Simulation for Constructivist Learning: An Example of Java Application <>WebNet
+34_4 C Chen; Douglas Yarger ; Rex A Thomas ; Ying-Shao Hsu<>Development and formative evaluation of an instructional simulation for a web-aided meteorology course <>WebNet
+34_1 C Chen; Kuei-Ching Liao ; Ying-Shao Hsu<>A Web-Based Lesson with Situated Learning in Senior High School Level <>WebNet
+34_2 C Chen; Hung-Jean Wu ; Yin-Shao Hsu<>Where to Built A Tide Power Plant ? - Cooperative Learning On the Web <>WebNet
+35_1 C Chen; Sandeep K Gupta<>BIST Test Pattern Generators for Stuck-Open and Delay Testing <>EDAC ETC EUROASIC
+35_2 C Chen; Sandeep K Gupta<>A Satisfiability-Based Test Generator for Path Delay Faults in Combinational Circuts <>DAC Design Automation Conference
+35_3 C Chen; Sandeep K Gupta<>BIST Test Pattern Generators for Two-Pattern Testing-Theory and Design Algorithms <>IEEE Trans Computers
+35_4 C Chen; Sandeep K Gupta<>A Methodology to Design Efficient BIST Test Pattern Generators <>ITC International Test Conference
+36_1 C Chen; Ing-Ray Chen<>Threshold-Based Admission Control Policies for Multimedia Servers <>Comput J
+36_2 C Chen; Ing-Ray Chen ; Sheng-Tzong Cheng<>Performance evaluation of an admission control algorithm: dynamic threshold with negotiation <>Perform Eval
+36_3 C Chen; Ing-Ray Chen ; Sheng-Tzong Cheng<>Dynamic Quota-Based Admission Control with Sub-Rating in Multimedia Servers <>Multimedia Syst
+36_4 C Chen; Ing-Ray Chen ; Sheng-Tzong Cheng<>A Study of Self-adjusting Quality of Service Control Schemes <>Winter Simulation Conference
+37_1 C Chen; Kayhan K&uuml;&ccedil;&uuml;k&ccedil;akar<>An Architectural Power Optimization Case Study using High-level Synthesis <>ICCD International Conference Computer Design
+37_2 C Chen; Kayhan K&uuml;&ccedil;&uuml;k&ccedil;akar<>A Source-Level Dynamic Analysis Methodology and Tool for High-Level Synthesis <>ISSS International Symposium Systems Synthesis
+37_3 C Chen; Kayhan K&uuml;&ccedil;&uuml;k&ccedil;akar<>High-level scheduling model and control synthesis for a broad range of design applications <>ICCAD International Conference Computer Aided Design
+37_4 C Chen; Jie Gong ; Kayhan K&uuml;&ccedil;&uuml;k&ccedil;akar<>Architectural Rule Checking for High-level Synthesis <>DATE Design Automation and Test Europe
+38_0 C Chen;<><>
+38_1 C Chen; I-Peng Lin<>The Computational Complexity of Satisfiability of Temporal Horn Formulas in Propositional Linear-Time Temporal Logic\<>
+38_2 C Chen; I-Peng Lin<>The Computational Complexity of the Satisfiability of Modal Horn Clauses for Modal Propositional Logics <>Theor Com
+39_1 C Chen; The Complexity of Propositional Modal Theories and the Complexity of Consistency of Propositional Modal Theories <>LFCS<>
+39_2 C Chen; I-Peng Lin<>The Computational Complexity of Satisfiability of Temporal Horn Formulas in Propositional Linear-Time Temporal Logic <>Inf Process Lett
+39_3 C Chen; I-Peng Lin<>The Computational Complexity of the Satisfiability of Modal Horn Clauses for Modal Propositional Logics <>Theor Comput Sci
+3_10 C Chen; Rakesh K Sinha ; Randeep Bhatia<>Efficient Disk Allocation Schemes for Parallel Retrieval of Multidimensional Grid Data <>SSDBM Statistical and Scientific Database Management
+3_11 C Chen; Rakesh K Sinha ; Randeep Bhatia<>Multidimensional Declustering Schemes Using Golden Ratio and Kronecker Sequences <>IEEE Trans Knowl Data Eng
+3_12 C Chen; Rakesh K Sinha<>Analysis and Comparison of Declustering Schemes for Interactive Navigation Queries <>IEEE Trans Knowl Data Eng
+3_13 C Chen; Rakesh K Sinha ; Randeep Bhatia<>Hierarchical Declustering Schemes for Range Queries <>EDBT Extending Database Technology
+3_14 C Chen; Rakesh K Sinha ; Randeep Bhatia<>A Hierarchical Technique for Constructing Efficient Declustering Schemes for Range Queries <>Comput J
+3_15 C Chen; Rakesh K Sinha ; Randeep Bhatia<>Asymptotically optimal declustering schemes for -dim range queries <>Theor Comput Sci
+3_16 C Chen; Claudio Petrone ; Marc Pucci ; Marco Mesiti ; Munir Cochinwala ; Patrizia Santa ; Sunil Samtani<>Internet Traffic Warehouse <>SIGMOD International Conference Management of Data Conference
+3_17 C Chen; Elsa Yueh ; Munir Cochinwala<>Dealing with Slow-Evolving Fact: A Case Study on Inventory Data Warehousing <>DOLAP International Workshop Data Warehousing and OLAP
+3_1 C Chen; Christine T Cheng<>From Discrepancy to Declustering: Near optimal multidimensional declustering strategies for range queries <>PODS Symposium Principles of Database Systems
+3_2 C Chen; Amjad Umar ; Mohammad Moghadam ; Tony Lin<>A National Clearinghouse Service for B B Exchanges in the Telecommunications Industry <>COMPSAC International Computer Software and Applications Conference
+3_3 C Chen; Duen-Ren Liu<>Tree Indexing for Efficient Search of Similar Documents <>COMPSAC International Computer Software and Applications Conference
+3_4 C Chen; Duen-Ren Liu ; Ya-Wen Huang ; Yuh-Jaan Lin<>A Framework for Personalized E-Catalogs: An Integration of XML-based Metadata, User Models and Agents <>HICSS INTERNATIONAL CONFERENCE SYSTEM SCIENCES
+3_5 C Chen; Chumki Basu ; Clifford Behrens ; Devasis Basu ; Mike Post ; Ned Stofel<>Telcordia LSI Engine: Implementation Scalability and Issues <>RIDE Research Issues Data Engineering DM
+3_6 C Chen; Yibei Ling<>A Sampling-Based Estimator for Top-k Query <>ICDE International Conference Data Engineering
+3_7 C Chen; Rakesh K Sinha<>Raster-Spatial Data Declustering Revisited: An Interactive Navigation Perspective <>ICDE International Conference Data Engineering
+3_8 C Chen; Rakesh K Sinha ; Randeep Bhatia<>Declustering Using Golden Ratio Sequences <>ICDE International Conference Data Engineering
+3_9 C Chen; Rakesh K Sinha ; Randeep Bhatia<>Asymptotically Optimal Declustering Schemes for Range Queries <>ICDT International Conference Database Theory
+40_1 C Chen; Ioannis G Tollis<>An Optimal Algorithm for Spiral Floorplan Designs <>ICCD International Conference Computer Design
+40_2 C Chen; Ioannis G Tollis<>A Fast Parallel Algorithm for Slicing Floorplans <>ISCAS IEEE International Symposium Circuits and Systems
+40_3 C Chen; Ioannis G Tollis<>A New Approach to Floorplan Area Optimization: To Slice or not to Slice?<>ISCAS IEEE International Symposium Circuits and Systems
+41_1  Chung-Kai Chen ; Jenq Kuen Lee<>Building Ontology for Optimization and Composition of Parallel JavaBean Programs <>ISPAN
+41_2  Chung-Kai Chen ; Jenq Kuen Lee<>Runtime Compositions and Optimizations of Parallel JavaBean Programs on Clustering Environments <>PDPTA Parallel and Distributed Processing Techniques and Applications
+41_3 C Chen; Jenq Kuen Lee ; Rong-Guey Chang ; Tyng-Ruey Chuang<>Towards Automatic Support of Parallel Sparse Computation in Java with Continuous Compilation <>Concurrency Practice and Experience
+42_1 C Chen; Jeffrey J P Tsai ; Stephen J H Yang<>Fuzzy Rule Base Systems Verification Using High-Level Petri Nets <>IEEE Trans Knowl Data Eng
+42_2 C Chen; Stephen J H Yang<>A Petri-Nets Based Approach for Workflow and Process Automation <>International Journal Artificial Intelligence Tools
+42_3 C Chen; Chi-Hsing Chu ; Chi-Wei Lan ; Irene Chen ; Kevin H W Shen ; Stephen J H Yang<>Building XML-Based Unified User Interface System under J EE Architecture <>Annals of Software Engineering
+43_1 C Chen; Chienwen Wu ; Daniel G Saab<>Accessibility Analysis on Data Flow Graph: An Approach to Design for Testability <>ICCD International Conference Computer Design
+43_2 C Chen; Daniel G Saab<>Behavioral synthesis for testability <>ICCAD International Conference Computer Aided Design
+43_3 C Chen; Chienwen Wu ; Daniel G Saab<>BETA: Behavioral Testability Analysis <>ICCAD International Conference Computer Aided Design
+44_1 Chien Chin Chen;Yao-Tsung Chen;Yeali Sun;Meng Chang Chen<> Life Cycle Modeling of News Events Using Aging Theory ,<>The th European Conference Machine Learning ECML European Conference Machine Learning
+44_2 Chien Chin Chen;Meng Chang Chen;Yeali Sun<> A Web Document Personalizaiton User Model and System <>Workshop Machine Learning Information Retrieval and User Modeling User Modeling
+44_3 Chien Chin Chen;Meng Chang Chen;Yeali Sun<> PVA: A Self-Adaptive Personal View Agnet <>Journal of Intelligent Information System
+44_4 Meng Chang Chen ; Yeali S Sun<>PVA: a self-adaptive personal view agent system <>KDD Knowledge Discovery and Data Mining
+44_5 Kuo Jui Wu;Meng Chang Chen<> Automatic Topic Discovery From Hyperlinked Text <>National Computer Symposium
+44_6 Kuo-Jui Wu;Meng Chang Chen;Yeali Sun<> Automatic Topics Discovery from Hyperlinked Documents ,<> Journal of Information Processing and Management
+45_1 C Chen; Chung-Ta King ; Yuun-Yen Chen<>Branch merging for effective exploitation of instruction-level parallelism <>MICRO International Symposium Microarchitecture
+45_2 C Chen; Chung-Ta King<>Designing Dynamic Two-Level Branch Predictors Based on Pattern Locality <>Euro Par II
+45_3 C Chen; Chung-Ta King<>Walk-Time Address Adjustment for Improving the Accuracy of Dynamic Branch Prediction <>IEEE Trans Computers
+46_1 C Chen;<>Error-Correcting Codes with Byte Error-Detection Capability <>IEEE Trans Computers
+46_2 C Chen;Douglas C Bossen ; Lih C Chang<>Measurement and Generation of Error Correcting Codes for Package Failures <>IEEE Trans Computers
+46_3 C Chen;Gosele C;Hong L;Kreitler T;Rossmann M;Hieke B;Gross U;Kramer M;Himmelbauer H;Bihoreau MT;K;Twigger S;Tonellato PJ;Jacob HJ;Schalkwyk LC;Lindpaintner K;Ganten D;Lehrach H;Knoblauch M <>High-throughput scanning of the rat genome using interspersed repetitive sequence-PCR markers,<>Genomics
+46_4 C Chen;A W Cowley;Roman ;Greene R J ;Tonellato A ;Jacob P <>Chromosomal Pattern of Quantitative Trait Loci in the Brown Norway and Dahl S Intercross,<>Physiological Research P
+46_5 C Chen;A W Cowley;Stoll ;Greene M ;Kaldunski A S ;Roman M L ;Tonellato R J ;Schork P ;Jacob N J <>Genetically defined risk of salt-sensitivity within a population of F rats from a Brown Norway and Dahl S derived intercross,<>Physiological Genomics Press
+46_6 C Chen;A W Cowley;Tonellato P J <>The Physiome: Tool for Physiological Genomics,<>Proceedings of Designing the Physiome Project
+46_7 C Chen;A S Greene;P J Tonellato;J Lui;J Lombard;Cowley A W <>Microvascular rarefaction and tissue vascular resistance in hypertension: Total peripheral resistance in hypertension,<>American Journal of Physiology Heart and Circulatory Physiology H H
+46_8 C Chen;A S Greene;P J Tonellato;J Lombard;A W Cowley<>The contribution of microvascular rarefaction to tissue oxygen delivery in hypertension,<>American Journal of Physiology Heart and Circulatory Physiology H H
+46_9 C Chen;Nora E H ;Tonellato P J ;Greene A S <>Quantification of the Contribution of Type and Type Angiotensin II Receptors to the Net Tissue Specific Effect of Angiotensin II,<>Annals of Biomedical Engineering
+46_10 C Chen;Tonellato P J ;Chen;D ;Wang;Z ;Wang;T <>MetaGene: A Comprehensive Sequence Analysis and Annotation Platform,<>Bioinformatics
+46_11 C Chen;C M Kendziorski;J B Bassingthwaighte;P J Tonellato<>Evaluating Maximum Likelihood estimation methods to determine the Hurst Coefficient,<>Physica A
+46_12 C Chen;Anne E Kwitek-Black;Peter J Tonellato;Dan Chen;Jo Gullings-Handley;Yongjian Samuel Cheng;Simon Twigger;Todd E Scheetz;Thomas L Casavant;Monika Stoll;Marcelo A Nobrega;Masahide Shiozawa;M Bento Soares;Val C Sheffield;Howard J Jacob<>Automated Construction of High-Density Comparative Maps Between Rat, Human, and Mouse<>Genome Research
+46_13 C Chen;D O Lomen;A W Warrick;Tonellato P J <>Salt and water transport in unsaturated soil for non-conservative systems,<>Agricultural Water Management
+46_14 C Chen;J Lu;A Kwitek-Black;H J Jacob;P J Tonellato<>A Web-based Rat Radiation Hybrid Map Server, Rat<>Genome
+46_15 C Chen;Kendziorski C M ;Cowley;A W ; ;Greene;A S ;Stoll;M ;Salgado;H C ;Jacob;H J ;Tonellato P J <>Using Mechanistic Mapping to Locate Genes Involved In Complex Regulatory Reflexes,<>Nature Genetics
+46_16 C Chen;D K Newton-Nash;P J Tonellato;M Swiersz;Abromoff P <>Assessment of chemo kinetic behavior of inflammatory lung macrophages in a linear under-agarose assay,<>Journal of Leukocyte Biology
+46_17 C Chen;A S Popel;A S Greene;C G Ellis;K F Ley;T C Skalak;P J Tonellato<>The Microcirculation Physiome Project,<>Annals of Biomedical Engineering
+46_18 C Chen;M J Rieder;D M O'Drobinak;P J Tonellato;A S Greene<>Mathematical Analysis of Type-I and Type-IIb Muscle Fiber Force Generation in Renal Hypertension,<>Annals of Biomedical Engineering
+46_19 C Chen;R G Steen;A Kwitek-Black;C Glenn;J Gullings-Handley;W Van Etten Van;O S Atkinson;D Appel;S Twigger;M Muir;T Mull;M Granados;M Kissebah;K Russo;R Crane;M Popp;M Peden;T Matise;D M Brown;J Lu;S Kingsmore;P J Tonellato;S Rozen;D Slonim;P Young;M Knoblauch;A Provoost;D Ganten;S Coleman;J Rothberg;E S Lander;H J Jacob<>A high density intergrated genetic linkage and radiation hybrid map of the laboratory rat,<>Genome Research AP AP
+46_20 C Chen;Donald T Tang<>Logic Test Pattern Generation Using Linear Codes <>IEEE Trans Computers
+46_21 Michael A Thomas;Chin-Fu Chen;Michael I Jensen-Seaman;Peter J Tonellato;Simon N Twigger<>Phylogenetics of Rat Inbred Strains,<>Mammalian Genome
+46_22 C Chen;P Tonellato;C M Kendziorski;A W Cowley<>Characterization of blood pressure dynamics of the rat: a model based approach,<>The Americal Physiological Society
+46_23 C Chen;P J Tonellato<>Critical behavior of an ignition model in chemical combustion,<>Quarterly of Applied Mathematics
+46_24 C Chen;P J Tonellato;A S Greene<>Oxygen Distribution in the Microvascular System,<>Pixel The Magazine of Scientific Visualization
+46_25 C Chen;S Twigger;J Lu;M Shimoyama;D Pasko;P Long;J Ginster;C F Chen;R Nigam;D Chen;Z Wang;A Kwitek-Black;J Eppig;D Maglott;G Schuler;F Stahl;G Levan;H Jacob;P J Tonellato <>Rat Genome Database: A comparative genomics platform for rat, mouse and human,<>Journal of Molecular Medicine B
+46_26 Simon Twigger;Jian Lu;Mary Shimoyama;Deying Chen;Dean Pasko;Hanping Long;Jessica Ginster;Chin-Fu Chen;Rajni Nigam;Anne Kwitek-Black;Janan Eppig;Lois Maltais;Donna Maglott;Greg Schuler;Howard Jacob;Peter Tonellato<>Rat Genome Database RGD - mapping disease onto the genome,<>Nucleic Acids Res
+46_27 C Chen;A W Warrick;D O Lomen;Tonellato P J <>Soil and moisture flow for point and line sources computer programs for linear zed solutions,<>Technical Report Agricultural Engineering and Soil Science Department of Soils Water Engineering University of
+47_1 C Chen; E J Weldon ; W W Peterson<>Some Results on Quasi-Cyclic Codes<>Information and Control
+47_2 C Chen; <>On Shortened Finite Geometry Codes<>Information and Control
+47_3 C Chen; S Lin<>Further Results on Polynomial Codes<>Information and Control
+48_1 C Chen; Clement T Yu ; K Lam ; M K Siu<>File Allocation in Distributed Databases with Interaction between Files <>VLDB Very Large Data Bases
+48_2 C Chen; Clement T Yu<>Adaptive Information System Design: One Query at a Time <>SIGMOD International Conference Management of Data Conference
+48_3 C Chen; Clement T Yu ; K Lam ; Man-Keung Siu<>Adaptive File Allocation in Star Computer Network <>IEEE Trans Software Eng
+49_1 C Chen; Zhengping Wu<>A new foreground extraction scheme for video streams <>ACM Multimedia
+49_2 C Chen; Jiajun Bu ; Xueyi Wang<>Research on Reliable Communication in Real-Time Collaborative Designing Systems <>DCW
+49_3 C Chen; Jiajun Bu ; Xueyi Wang<>Achieving undo in bitmap-based collaborative graphics editing systems <>CSCW Conference Computer Supported Cooperative Work
+4_10 C Chen; Edward A Ashton ; Jeffrey Weisberg ; Kevin J Parker ; Leena Ketonen ; Michel J Berg<>Segmentation and Features Extraction Techniques, with Applications to Biomedical Images <>ICIP International Conference Image Processing
+4_11 C Chen; Jianfei Cai<>FEC-Based Wireless Video Streaming with Pre-Interleaving <>Data Compression Conference
+4_12 C Chen; Lei Cao<>Product Code and Recurrent Alternative Decoding for Wireless Image Transmission <>Data Compression Conference
+4_13 C Chen; Matthew Arrott ; Thomas S Huang<>Modeling, Analysis, and Visualization of Left Ventricle Shape and Motion by Hierarchical Decomposition <>IEEE Transactions Pattern Analysis and Machine Intelligence
+4_14 C Chen; Jian Wang<>A Fast and Effective Block-Matching Error Concealment Scheme <>IEEE Pacific Rim Conference Multimedia
+4_1 C Chen; Lei Cao<>A Novel Product Coding and Decoding Scheme for Wireless Image Transmission <>ICIP International Conference Image Processing
+4_2 C Chen; Hongzhi Li<>Joint Source and Channel Optimized Block TCQ with Layered Transmission and RCPC <>ICIP International Conference Image Processing
+4_3 C Chen; Jiebo Luo ; Kevin J Parker ; Thomas S Huang<>Three Dimensional Subband Video Analysis and Synthesis with Adaptive Clustering in High Frequency Subbands <>ICIP International Conference Image Processing
+4_4 C Chen; Jiebo Luo ; Kevin J Parker ; Thomas S Huang<>Adaptive quantization with spatial constraints in subband video compression using wavelets <>ICIP International Conference Image Processing
+4_5 C Chen; Jiebo Luo ; Kevin J Parker ; Thomas S Huang<>A Knowledge-Based Approach to Volumetric Medical Image Segmentation <>ICIP International Conference Image Processing
+4_6 C Chen; Li Fan<>An Improved Approach for Cardiac Dynamics Analysis based on Constrained Local Force Model <>ICIP International Conference Image Processing
+4_7 C Chen; Jian Zhou ; Yiliang Wang ; Yue Yu<>A High Performance VBR Coding Algorithm for Fixed Size Storage Applications <>ICIP International Conference Image Processing
+4_8 C Chen; Jiebo Luo ; Kevin J Parker<>Face location in wavelet-based video compression for high perceptual quality videoconferencing <>ICIP International Conference Image Processing
+4_9 C Chen; Hongzhi Li ; Jiebo Luo<>Ultrasound Image Compression Based on Subband Decomposition and Speckle Synthesis <>ICIP International Conference Image Processing
+50_1 C Chen; C L Liu ; TingTing Hwang<>Architecture driven circuit partitioning <>ICCAD International Conference Computer Aided Design
+50_2 C Chen; C L Liu ; TingTing Hwang<>Low Power FPGA Design - A Re-engineering Approach <>DAC Design Automation Conference
+50_3 C Chen; Kuang-Hui Lin ; TingTing Hwang<>Layout Driven Selecting and Chaining of Partial Scan <>DAC Design Automation Conference
+51_1 C Chen; Chunwu Wu ; Miles N Wernick<>A -D Filtered-Backprojection Reconstruction Algorithm for Combined Parallel- and Cone-Beam SPECT Data <>IPMI Information Processing Medical Imaging
+51_2 C Chen; John N Aarsvold ; Wing H Wong ; Xiaochuan Pan<>Analytical Considerations of Photon Attenuation and System Response Function in SPECT Reconstruction <>IPMI Information Processing Medical Imaging
+52_1 C Chen; W -Y Lin<>On Evaluating Parallel Sparse Cholesky Factorizations <>ICPADS International Conference Parallel and Distributed Systems
+52_2 C Chen; W -Y Lin<>Minimum communication cost reordering for parallel sparse Cholesky factorization <>Parallel Computing
+53_1 C Chen; <>A fuzzy approach to select the location of the distribution center <>Fuzzy Sets and Systems
+53_2 C Chen; Hsi-Mei Hsu<>Fuzzy Credibility Relation Method for Multiple Criteria Decision-Making Problems <>Inf Sci
+54_1 C Chen; Mohan M Trivedi<>Sensor-Driven Intelligent Robotics <>Advances Computers
+54_2 C Chen; Mohan M Trivedi ; Suresh B Marapane<>A Vision System for Robotic Inspection and Manipulation <>IEEE Computer
+55_1 C Chen; Ming-Shing Yu ; Richard Chia-Tung Lee<>Optimal Parallel Circle-Cover and Independent Set Algorithms for Circular-Arc Graphs <>ICPP International Conference Parallel Processing
+55_2 C Chen; M S Yu ; R C T Lee<>An Optimal Parallel Algorithm for Minimum Coloring of Intervals <>ICPP International Conference Parallel Processing
+56_1 C Chen; Bing Liu ; Jacqueline Chame ; Mary W Hall ; Nastaran Baradaran ; Pedro Diniz ; Robert Lucas ; Yoon-Ju Lee<>ECO: An Empirical-Based Compilation and Optimization System <>IPDPS International Parallel and Distributed Processing Symposium
+56_2 C Chen; Chang Woo Kang ; Craig S Steele ; Ihn Kim Gokhan ; Jacqueline Chame ; Jaewook Shin ; Jeff LaCoss ; Jeffrey T Draper ; John Granacki ; Mary W Hall ; Tim Barrett<>The architecture of the DIVA processing-in-memory chip <>ICS International Conference Supercomputing
+57_1 C Chen; Jacob A Abraham<>Mixed-Level Sequential Test Generation Using a Nine-Valued Relaxation Algorithm <>ICCAD International Conference Computer Aided Design
+57_2 C Chen; Jacob A Abraham<>High Quality Tests for Switch-Level Circuits Using Current and Logic Test Generation Algorithms <>ITC International Test Conference
+58_1 C Chen;<>An Adaptive Protection Framework for MPEG Base Layer Video Streaming over the Internet,<>Fourth International Conference Information Communications Signal Processing and Fourth Pacific Rim Conference Multimedia ICICS International Conference Information Communications and Signal Processing PCM
+58_2 Chyouhwa Chen<> Measurements of a Multimedia Player,<>ICOIN International Conference Information Networking
+58_3 Chyouhwa Chen;Chih-Jen Tseng;Jiun-Yi Liu<> The SOT Framework Re-examined, <> th International Conference Distributed Multimedia Systems
+58_4 C Chen;Chen-Liang Fang ; Deron Liang ; Fengyi Lin<>A nested invocation suppression mechanism for active replication fault-tolerant CORBA <>APSEC
+58_5 Chen-Liang Fang;Deron Liang;Chyouhwa Chen;PuSan Lin<> A Redundant Nested Invocation Suppression Mechanism for Active Replication Fault-Tolerant Web Service ,<>IEEE International Conference e Technology e and e Service
+58_6 Deron Liang;Chen-Liang Fang;Shyan-Ming Yuan;Chyouhwa Chen;Gene Eu Jan<> A Fault-tolerant Object Service on CORBA, <>Journal of Systems and Software SCI Scalable Coherent Interface ELSEVIER SCIENCE INC
+58_7 Deron Liang;Chen-Liang Fang;Chyouhwa Chen;Fengyi Lin<>Fault tolerant web service<>APSEC
+58_8 Deron Liang;Chen-Liang Fang;Chyouhwa Chen;Ji-Chiang Tsai<> A Nested Invocation Suppression Mechanism for Active Replication Fault-tolerant CORBA, <>IEEE COMPSAC International Computer Software and Applications Conference International Computer Software and Applications Conference
+58_9 Chih-Yen Lin;Chyouhwa Chen;Wen-Jen Ho<>An Adaptive Protection Framework for MPEG base layer video streaming over the Internet<>Poster presentation Packet Video
+58_10 C Chen;Chih-Yen Lin ; I -Cheng Ting ; Wen-Jen Ho<>An Error Resilient Scheme for MPEG- FGS Video over Packet Erasure Channel That Exhibits Graceful Degradation <>IEEE Pacific Rim Conference Multimedia
+58_11 Chih-Yen Lin;I-Cheng Ting;Chyouhwa Chen;Wen-Jen Ho<>An Error Resilient Scheme for MPEG- Fine-Granular-Scalability Video,<>The Third IEEE Pacific Rim Conference Multimedia
+58_12 K-T Tsai;C Chen<> Deterministic Load Balancing Techniques for VBR Video Servers <>International Workshop Advanced Image Technology
+58_13 Kuen-tseng Tsai;Chyouhwa Chen<> A Fast Algorithm for the Video Assignment Problem, <>First International Workshop Intelligent Multimedia Computing and Networking IMMCN
+58_14 Kuen-tseng Tsai;Chyouhwa Chen<> Multiresolution Face Recognition, <>Fifth Conference Artificial Intelligence and Applications
+58_15 Kuen-tseng Tsai;Chyouhwa Chen<>Two Algorithms for Multi-Constrained Optimal Multicast Routing,<>IJCS
+58_16 Chih-Jen Tseng;Chyouhwa Chen<> Exploiting the Temporal Dimention in QoS-aware Multicast Routing ,<>Computer Communications pp
+58_17 Chih-Jen Tseng;Chyouhwa Chen<> The Performance of QoS-aware Multicast Routing Protocols <>IEEE ICOIN International Conference Information Networking
+58_18 Chih-Jen Tseng;Chyouhwa Chen<>The Performance of QoS-aware IP Multicast Routing Protocols,<>Networks SCI Scalable Coherent Interface JOHN WILEY SONS INC
+59_1 C Chen; Wen-Tzeng Huang ; Woei-kae Chen<>Pancyclicity of M&ouml;bius cubes <>ICPADS International Conference Parallel and Distributed Systems
+59_2 C Chen; Wen-Tzeng Huang ; Woei-kae Chen<>On the Fault-Tolerant Pancyclicity of Crossed Cubes <>ICPADS International Conference Parallel and Distributed Systems
+5_10 C Chen; C C Chang ; Richard C T Lee<>Optimal MMI file systems for orthogonal range retrieval <>Inf Syst
+5_11 C Chen; C C Chang<>On GDM allocation for partial range queries <>Inf Syst
+5_12 C Chen; H F Lin<>Optimality Criteria of the Disk Modulo Allocation Method for Cartesian Product Files <>BIT
+5_13 C Chen; C C Chang<>Performance of Two-Disk Partition Data Allocations <>BIT
+5_14 C Chen; Chin-Chen Chang ; H F Lin ; Richard C T Lee<>Optimal Bucket Allocation Design of k-ary MKH Files for Partial Match Retrieval <>IEEE Trans Knowl Data Eng
+5_1 C Chen; Chin-Chen Chang ; D C Lin ; Richard C T Lee<>Optimal Linear Hashing Files for Orthogonal Range Retrieval <>COMPSAC International Computer Software and Applications Conference
+5_2 C Chen; Chin-Chen Chang ; D C Lin ; Richard C T Lee<>A Temporal Join Mechanism Based on Trie-Ranking Data Structure <>CODAS The Second International Symposium Cooperative Database Systems for Advanced Applications
+5_3 C Chen; C C Chang<>Orthogonal Range Retrieval Using Bucket Address Hashing <>SSDBM Statistical and Scientific Database Management
+5_4 C Chen; C C Chang ; H Y Chen<>Symbolic Gray Code As A Data Allocation Scheme For Two-Disc Systems <>Comput J
+5_5 C Chen; C C Chang ; J K Jan<>On the Design of a Machine-Independent Perfect Hashing Scheme <>Comput J
+5_6 C Chen; Chin-Chen Chang ; H F Lin<>Optimality Properties of the Disc Modulo Allocation Method for k-ary Multiple Key Hashing Files <>Comput J
+5_7 C Chen; C C Chang<>Performance Analysis of the Generalised Disc Modulo Allocation method for Multiple Key Hashing Files on Multi-Disc Systems <>Comput J
+5_8 C Chen; C C Chang<>A Recursive Performance Formula of the Disc Modulo Allocation Method for Binary Cartesian Product Files <>Comput J
+5_9 C Chen; C C Chang ; Richard C T Lee<>On the design of multiple key hashing files for concurrent orthogonal range retrieval between two disks <>Inf Syst
+60_1 C Chen; Chandramouli Visweswariah ; Rakesh Chadha<>Model Development and Verification for High Level Analog Blocks <>DAC Design Automation Conference
+60_2 C Chen; Foong-Charn Chang ; Prasad Subramaniam<>An Accurate and Efficient Gate Level Delay Calculator for MOS Circuits <>DAC Design Automation Conference
+61_1 C Chen; Subrata Banerjee<>Optical Switch Configuration and Lightpath Assignment in Wavelength Routing Multihop Lightwave Networks <>INFOCOM The Conference Computer Communications
+61_2 C Chen; Subrata Banerjee<>A New Model for Optimal Routing and Wavelength Assignment in Wavelength Division Multiplexed Optical Networks <>INFOCOM The Conference Computer Communications
+6_10 K Inoue;S E Chick; Chun-Hung Chen<> An Empirical Evaluation of Several Methods to Select the Best System, <>ACM Transitions Modeling and Computer Simulation
+6_11 J Lin;E Yücesan;S E Chick; Chun-Hung Chen<> Simulation Budget Allocation for Further Enhancing the Efficiency of Ordinal Optimization, <>Journal of Discrete Event Dynamic Systems Theory and Applications
+6_20 Enver Y&uuml;cesan ; Hsiao-Chang Chen ; Liyi Dai<>New Development of Optimal Computing Budget Allocation for Discrete Event Simulation <>Winter Simulation Conference
+6_12 Y C Luo;M Guignard-Spielberg; Chun-Hung Chen<> A Hybrid Approach for Integer Programming Combining Genetic Algorithms, Linear Programming and Ordinal Optimization, <>Journal of Intelligent Manufacturing
+6_21 Enver Y&uuml;cesan ; Hsiao-Chang Chen ; Jianwu Lin<>An asymptotic allocation for simultaneous simulation experiments <>Winter Simulation Conference
+6_13 Y C Luo;M Guignard-Spielberg; Chun-Hung Chen<> An Efficient Approach Integrating Genetic Algorithm, Linear Programming, and Ordinal Optimization for Linear Mixed Integer Programming Problems, <>International Journal of Smart Engineering System Design
+6_22 C Chen;Enver Y&uuml;cesan ; Leyuan Shi<>Simultaneous simulation experiments and nested partition for discrete resource allocation in supply chain management <>Winter Simulation Conference
+6_14 L Shi; Chun-Hung Chen<> A New Algorithm for Stochastic Discrete Resource Allocation Optimization, <>Journal of Discrete Event Dynamic Systems Theory and Applications
+6_23 E Yücesan;Y C Luo;I Lee; Chun-Hung Chen<> Distributed Web-Based Simulation Experiments For Optimization, <>Journal of Simulation Practice Theory
+6_15 Enver Y&uuml;cesan ; Hsiao-Chang Chen ; Liyi Dai ; Yu Yuan<>Computing Budget Allocation for Simulation Experiments with Different System Structure <>Winter Simulation Conference
+6_24 E Yücesan;L Dai;H C Chen; Chun-Hung Chen<> Efficient Computation of Optimal Budget Allocation for Discrete Event Simulation Experiment, <> IIE Transactions
+6_16 C Chen;Enver Y&uuml;cesan ; Insup Lee ; Yuh-Chuyn Luo<>Distributed web-based simulation experiments for optimization <>Simul Theory
+6_17 C Chen;Enver Y&uuml;cesan ; Insup Lee ; Yuh-Chuyn Luo<>Distributed web-based simulation optimization <>Winter Simulation Conference
+6_18 C Chen;Enver Y&uuml;cesa ; Jianwu Lin ; Karen Donohue<>Efficient Approach for Monte Carlo Simulation Experiments and Its Applications to Circuit Systems Design <>Annual Simulation Symposium
+6_19 C Chen;Enver Y&uuml;cesan ; Insup Lee<>Web-based Simulation Experiments <>Winter Simulation Conference
+6_1 C Chen;<>A Hybrid Approach of the Standard Clock Method and Event Scheduling Approach for General Discrete Event Simulation <>Winter Simulation Conference
+6_2 ; Chun-Hung Chen<> Very Efficient Simulation for Engineering Design Problem, <>Modeling and Simulation Based Life Cycle Engineering K Chong S Saigal S Thynell Ed s Spon Press London
+6_3 H C Chen;E Yucesan; Chun-Hung Chen<> Computing Efforts Allocation for Ordinal Optimization and Discrete Event Simulation, <>IEEE Transactions Automatic Control
+6_4 Hsiao-Chang Chen ; Liyi Dai<>A Gradient Approach for Smartly Allocating Computing Budget for Discrete Event Simulation <>Winter Simulation Conference
+6_5 L Dai;J R Birge; Chun-Hung Chen<> Large Convergence Properties of Two-Stage Stochastic Programming, <>Journal of Optimization Theory and Applications
+6_6 K Donohue;E Yücesan;J Lin; Chun-Hung Chen<> Optimal Computing Budget Allocation for Monte Carlo Simulation Application to Product Design, <> Journal of Simulation Practice and Theory
+6_7 Y C Ho;C G Cassandras;L Dai; Chun-Hung Chen<> Ordinal Optimization and Simulation, <>Journal of Operational Research Society
+6_8 C Chen;Bo-Wei Hsieh ; Shi-Chung Chang<>Dynamic Scheduling Rule Selection for Semiconductor Wafer Fabrication <>ICRA International Conference Robotics and Automation
+6_9 B W Hsieh;S C Chang; Chun-Hung Chen<> Scheduling Semiconductor Wafer Fabrication by Using Ordinal Optimization-Based Simulation, <>IEEE Transactions Robotics and Automation
+7_10 C Chen; Sajal K Das ; Sushil K Prasad<>Efficient EREW PRAM Algorithms for Parentheses-Matching <>IEEE Trans Parallel Distrib Syst
+7_11 C Chen; Hee Yong Youn<>A Comprehensive Performance Evaluation of Crossbar Networks <>IEEE Trans Parallel Distrib Syst
+7_1 C Chen; Sajal K Das<>Parallel Breadth-First and Breadth-Depth Traversals of Generated Trees <>ICCI International Conference Computing and Information
+7_2 C Chen; Gene Lewis ; Sajal K Das ; Sushil K Prasad<>Some Fast Parallel Algorithms for Parentheses Matching <>ICCI International Conference Computing and Information
+7_3 C Chen; Sajal K Das<>Breadth-First Traversal of Trees and Integer Sorting in Parallel <>ICPP International Conference Parallel Processing
+7_4 C Chen; Sajal K Das<>Efficient Parallel Algorithms for Computing Articulation Points and Bridges of Interval Graphs <>ICPP International Conference Parallel Processing
+7_5 C Chen; Sajal K Das<>A New Parallel Algorithm for Breadth-First Search on Interval Graphs <>IPPS International Parallel Processing Symposium
+7_6 C Chen; Sajal K Das<>A Cost-Optimal Parallel Algorithm for the Parentheses Matching Problem on an EREW PRAM <>IPPS International Parallel Processing Symposium
+7_7 C Chen; Sajal K Das<>Efficient Parallel Algorithms on Interval Graphs <>PARLE Parallel Architectures and Languages Europe
+7_8 C Chen; Sajal K Das ; Selim G Akl<>A Unified Approach to Parallel Depth-First Traversals of General Trees <>Inf Process Lett
+7_9 C Chen; Sajal K Das<>Breadth-First Traversal of Trees and Integer Sorting in Parallel <>Inf Process Lett
+8_4 C Chen; Douglas C Bossen ; M Y Ben Hsiao<>Fault Alignment Exclusion for Memory Using Address Permutation <>IBM Journal of Research and Development
+8_5 C Chen; M Y Ben Hsiao<>Error-Correcting Codes for Semiconductor Memory Applications: A State-of-the-Art Review <>IBM Journal of Research and Development
+8_6 C Chen; Robert A Rutledge<>Fault-Tolerant Memory Simulator <>IBM Journal of Research and Development
+8_7 C Chen; Donald T Tang<>Iterative Exhaustive Pattern Generation for Logic Testing <>IBM Journal of Research and Development
+8_8 C Chen; <>Symbol Error-Correcting Codes for Computer Memory Systems <>IEEE Trans Computers
+8_9 C Chen; <>Byte-Oriented Error-Correcting Codes for Semiconductor Memory Systems <>IEEE Trans Computers
+8_10 C Chen; L E Grosbach<>Fault-Tolerant Memory Design in the IBM Application System/ <>FTCS Symposium Fault Tolerant Computing
+8_1 C Chen; Brian K Tolan ; Fritz Freie ; George C Wellwood ; Indravadan N Modi ; Luiz C Alves ; Myron L Fair ; Norman E Weber ; Patrick J Meaney ; William J Clarke<>RAS design for the IBM eServer z <>IBM Journal of Research and Development
+8_2 C Chen; <>Symbol Error Correctin Codes for Memory Applications <>FTCS Symposium Fault Tolerant Computing
+8_3 C Chen; <>Error-Correcting Codes for Semiconductor Memories <>ISCA International Symposium Computer Architecture
+9_1 C Chen; David C Nagel ; James Lightbourne ; Sally E Howe ; Stephen M Griffin ; Walter L Warnick<>The president's information technology advisory committee's february digital library report and its impact <>JCDL ACM IEEE Joint Conference Digital Libraries
+9_2 C Chen; Chen-Yu Lee ; Chung-Cheng Li ; Shu Lei Chen ; Von-Wun Soo<>Automated Semantic Annotation and Retrieval Based on Sharable Ontology and Case-Based Learning Techniques <>JCDL ACM IEEE Joint Conference Digital Libraries
+9_3 C Chen; Chen-Yu Lee ; Jaw Jium Yeh ; Von-Wun Soo<>Using sharable ontology to retrieve historical images <>JCDL ACM IEEE Joint Conference Digital Libraries
+9_4 C Chen; Su-Shing Chen<>Workshop : digital libraries in asian languages <>JCDL ACM IEEE Joint Conference Digital Libraries
+9_5 C Chen; Howard D Wactlar<>Enhanced perspectives for historical and cultural documentaries using informedia technologies <>JCDL ACM IEEE Joint Conference Digital Libraries
+9_6 C Chen; <>From Educational Multimedia to Global Digital Library Development: Convergence of Technology, Content, and International Collaboration <>WebNet
+9_7 C Chen; <>The Potential of the Interactive Videodisc for International Cooperation as Documented by Project Emperor-I <>Essen Symposium
+9_8 C Chen; <>Hypermedia/Multimedia Technology and New Opportunities for Libraries in the s <>Essen Symposium
+9_9 C Chen; David Raitt<>Use of CD-ROMs in West German Libraries <>Essen Symposium

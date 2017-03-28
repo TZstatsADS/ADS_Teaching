@@ -1,0 +1,171 @@
+10_1 J Robinson; <>Discourse: Codes and Clues in Contexts <>ACL Meeting of the Association for Computational Linguistics
+10_2 J Robinson; <>DIAGRAM: A Grammar for Dialogues <>Cooperative Interfaces to Information Systems
+10_3 J Robinson; <>DIAGRAM: A Grammar for Dialogues <>Commun ACM
+11_1 J Robinson; A Burns<>A Dialogue Development System for the Design and Implementation of User Interfaces in Ada <>Comput J
+11_2 J Robinson; A Burns<>ADDS - A Dialogue Development System for the Ada Programming Language <>International Journal of Man Machine Studies
+12_1 J Robinson; <>Software Engineering Curriculum Development Model <>CSEE
+12_2 J Robinson; William A Bralick<>Using a Multi-User Dialogue System to Support Software Engineering Distance Education <>CSEE
+1_32 J Robinson;H T Kung <>On optimistic methods for concurrency control <>ACM Trans Database Systems
+1_16 J Robinson;Balakrishna R Iyer ; Daniel M Dias ; Douglas W Cornell ; Philip S Yu<>Modelling of Centralized Concurrency Control in a Multi-System Environment <>SIGMETRICS Measurement and Modeling of Computer Systems
+1_33 J Robinson;D Dias; B Iyer; ; P Yu <>Integrated concurrency-coherency controls for multi-system data sharing <>IEEE Trans Soft Eng
+1_17 J Robinson;Balakrishna R Iyer ; Daniel M Dias ; Philip S Yu<>Integrated Concurrency-Coherency Controls for Multisystem Data Sharing <>IEEE Trans Software Eng
+1_34 J Robinson;V Castelli; L Bergman; I Kontoyiannis; C -S Li;; J Turek <>Progressive search and retrieval in large image archives <>IBM Journal of Res Develop
+1_18 J Robinson;H T Kung<>On Optimistic Methods for Concurrency Control <>VLDB Very Large Data Bases
+1_35 J Robinson;P Heidelberger ; A Norton <>Parallel quicksort using fetch-and-add <>IEEE Trans Computers
+1_19 J Robinson;H T Kung<>On Optimistic Methods for Concurrency Control <>ACM Trans Database Syst
+1_36 J Robinson<>Some analysis techniques for asynchronous multiprocessor algorithms <>IEEE Trans Soft Eng SE
+1_37 J Robinson<>Separating policy from correctness in concurrency control design <>Software Practice and Experience
+1_38 J Robinson;Charles O Schulz ; Michael E Wazlowski ; P Maurice Bland ; Peter A Franaszek ; R Brett Tremaine ; T Basil Smith<>IBM Memory Expansion Technology MXT <>IBM Journal of Research and Development
+1_39 J Robinson;Joy Thomas ; Peter A Franaszek<>Parallel Compression with Cooperative Dictionary Construction <>Data Compression Conference
+1_1 J Robinson;<>A Fast General-Purpose Hardware Synchronisation Mechanism <>SIGMOD International Conference Management of Data Conference
+1_2 J Robinson;<>Analysis of Steady-State Segment Storage Utilizations in a Log-Structured File System with Least-Utilized Segment Cleaning <>Operating Systems Review
+1_3 J Robinson;<>Order Preserving Linear Hashing Using Dynamic Key Statistics <>PODS Symposium Principles of Database Systems
+1_4 J Robinson;<>Some Analysis Techniques for Asynchronous Multiprocessor Algorithms <>IEEE Trans Software Eng
+1_5 J Robinson;<>Separating Policy from Correctness in Concurrency Control Design <>Softw Pract Exper
+1_6 J Robinson;<>The K-D-B-Tree: A Search Structure For Large Multidimensional Dynamic Indexes <>SIGMOD International Conference Management of Data Conference
+1_7 J Robinson;Caroline Benveniste ; Peter A Franaszek<>Cache-Memory Interfaces in Compressed Memory Systems <>IEEE Trans Computers
+1_8 J Robinson;Murthy V Devarakonda<>Data Cache Management Using Frequency-Based Replacement <>SIGMETRICS Measurement and Modeling of Computer Systems
+1_9 J Robinson;Murthy V Devarakonda<>Note on a Problem with Reed and Long's FBR Results <>Operating Systems Review
+1_20 J Robinson;Anil Nigam ; Henry F Korth ; Ravi Krishnamurthy<>A Framework for Understanding Distributed Deadlock Detection Algorithms <>PODS Symposium Principles of Database Systems
+1_21 J Robinson;Alan Norton ; Philip Heidelberger<>Parallel Quicksort Using Fetch-and-Add <>IEEE Trans Computers
+1_22 J Robinson;Dan E Poff ; Peter A Franaszek ; Philip Heidelberger<>Alogrithms and data structures for compressed-memory machines <>IBM Journal of Research and Development
+1_23 J Robinson;R B Tremaine; P A Franaszek; C O Schulz; T B Smith; M E Wazlowski; ; P M Bland <>IBM Memory Expansion Technology MXT <>IBM Journal of Res Develop
+1_40 J Robinson;Alexander Thomasian ; Peter A Franaszek<>Access Invariance and Its Use in High Contention Environments <>ICDE International Conference Data Engineering
+1_24 J Robinson;C Benveniste; P Franaszek <>Cache-memory interfaces in compressed memory systems <>IEEE Trans Computers
+1_41 J Robinson;Alexander Thomasian ; Peter A Franaszek<>Concurrency Control for High Contention Environments <>ACM Trans Database Syst
+1_25 J Robinson;P Franaszek ; A Thomasian <>Concurrency control for high contention environments <>ACM Trans Database Systems
+1_42 J Robinson;Alexander Thomasian ; Jayant R Haritsa ; Peter A Franaszek<>Distributed Concurrency Control Based on Limited Wait-Depth <>IEEE Trans Parallel Distrib Syst
+1_26 J Robinson;P Franaszek; J R Haritsa;; A Thomasian <>Distributed concurrency control based on limited wait-depth <>IEEE Trans Parallel and Distributed Systems
+1_43 J Robinson;Alexander Thomasian ; Jayant R Haritsa ; Peter A Franaszek<>Distributed Concurrency Control with Limited Wait-Depth <>ICDCS International Conference Distributed Computing Systems
+1_27 J Robinson;P Franaszek; P Heidelberger;; D Poff <>Algorithms and data structures for compressed-memory machines <>IBM Journal of Res Develop
+1_44 J Robinson;Alexander Thomasian ; Peter A Franaszek<>Wait Depth Limited Concurrency Control <>ICDE International Conference Data Engineering
+1_28 J Robinson;P Franaszek <>Limitations of concurrency in transaction processing <>ACM Trans Database Systems
+1_29 J Robinson;P Yu; D Dias; B Iyer; ; D Cornell <>On coupling multi-systems through data sharing <>Proceedings of the IEEE
+1_10 J Robinson;Peter A Franaszek<>Limitations of Concurrency in Transaction Processing <>ACM Trans Database Syst
+1_11 J Robinson;Peter A Franaszek<>On Variable Scope of Parity Protection in Disk Arrays <>IEEE Trans Computers
+1_12 J Robinson;Peter A Franaszek<>Analysis of Reorganization Overhead in Log-Structured File Systems <>ICDE International Conference Data Engineering
+1_13 J Robinson;Peter A Franaszek<>On internal organization in compressed random-access memories <>IBM Journal of Research and Development
+1_14 J Robinson;Balakrishna R Iyer ; Daniel M Dias ; Philip S Yu<>Design and Analysis of Integrated Concurrency-Coherence Controls <>VLDB Very Large Data Bases
+1_30 J Robinson;P Franaszek <>On variable scope of parity protection in disk arrays <>IEEE Trans Computers
+1_15 J Robinson;Balakrishna R Iyer ; Daniel M Dias ; Douglas Cornell ; Philip S Yu<>Distributed Concurrency Control Analysis for Data Sharing <>Int CMG Computer Measurement Group Conference
+1_31 J Robinson;P Franaszek <>On internal organization in compressed random access memories <>IBM Journal of Res Develop
+2_12 J Robinson; <>Invited editorial <>TPLP Theory and Practice of Logic Programming
+2_13 J Robinson; Norman M Martin<>Meeting of the Association for Symbolic Logic <>J Symb Log
+2_14 J Robinson; <>Is Logic Programming Enough?<>DS Discovery Science
+2_15 J Robinson; <>Logic, Computers, Turing, and von Neumann <>Machine Intelligence
+2_16 J Robinson; <>The Role of Logic in Computer Science and Artificial Intelligence <>FGCS Fifth Generation Computer Systems
+2_17 J Robinson; <>New directions in mechanical theorem proving <>IFIP International Federation for Information Processing Congress
+2_18 J Robinson; <>The Future of Logic Programming Invited Paper <>IFIP International Federation for Information Processing Congress
+2_19 J Robinson; Jonas Barklund<>Vesper <>Machine Intelligence
+2_20 J Robinson; <>Informal Rigor and Mathematical Understanding <>Kurt G ouml del Colloquium
+2_1 J Robinson; <>Computational Logic: Memories of the Past and Challenges for the Future <>Computational Logic
+2_2 J Robinson; <>Proof = Guarantee + Explanation <>Intellectics and Computational Logic
+2_3 J Robinson; <>Formal and Informal Proofs <>Automated Reasoning Essays Honor of Woody Bledsoe
+2_4 J Robinson; <>Merging Functional with Relational Programming in a Reduction Setting Abstract of an Invited Lecture <>LICS Logic Computer Science
+2_5 J Robinson; Andrei Voronkov<>Preface <>Handbook of Automated Reasoning
+2_6 J Robinson; <>Editor's Introduction <>J Log Program
+2_7 J Robinson; <>Introduction: th Birthday Special Issue of The Journal of Logic Programming <>J Log Program
+2_8 J Robinson; <>Logic Programming - Past, Present and Future <>New Generation Comput
+2_9 J Robinson; <>Logic and Logic Programming <>Commun ACM
+2_10 J Robinson; <>Theorem-Proving on the Computer <>J ACM
+2_11 J Robinson; <>A Machine-Oriented Logic Based on the Resolution Principle <>J ACM
+3_10 J Robinson;Geetani Edirisooriya ; Samantha Edirisooriya<>On the Performance of Augmented Signature Testing <>ISCAS IEEE International Symposium Circuits and Systems
+3_11 J Robinson;Allen J Gavin ; Brian Berger ; Brian O'Leary ; Chad A Roberts ; Clayton L Birkett ; Marcelo B Soares ; Maria F Bonaldo ; Natalie L Robinson ; Nishank Trivedi ; Tamara Kucaba ; Terry A Braun ; Thomas L Casavant ; Todd E Scheetz ; Val C Sheffield<>ESTprep: Preprocessing CDNA Sequence Reads <>Bioinformatics
+3_12 J Robinson;Charles W Hoffner II<>Easily Tested Three-Level Gate Networks for <i>T</i> or More of <i>N</i> Symmetric Functions <>IEEE Trans Computers
+3_13 J Robinson;Alan W Nordstrom<>An Optimum Nonlinear Code<>Information and Control
+3_14 J Robinson;Sudhakar M Reddy<>A Construction for Convolutional Codes Using Block Codes<>Information and Control
+3_15 J Robinson;Sudhakar M Reddy<>A Decoding Algorithm for Some Convolutional Codes Constructed from Block Codes<>Information and Control
+3_16 J Robinson;J P Robinson<>Golomb Rectangles as Folded Rulers,<>IEEE Trans Information Theory IT
+3_17 J Robinson;J P Robinson<>Genetic Search for Golomb Arrays,<>IEEE Trans Information Theory IT
+3_18 J Robinson;J P Robinson; N R Saxena<>A Unified View of Test Compression Methods<>IEEE Trans Computers C
+3_19 J Robinson;Nirmal R Saxena<>Accumulator Compression Testing <>IEEE Trans Computers
+3_1 J Robinson;<>Addendum to Optimum Golomb Rulers <>IEEE Trans Computers
+3_2 J Robinson;<>Golomb rectangles as folded rulers <>IEEE Transactions Information Theory
+3_3 J Robinson;<>Aliasing Probabilities for Feedback Signature Compression of Test Data <>IEEE Trans Computers
+3_4 J Robinson;<>Optimum Golomb Rulers <>IEEE Trans Computers
+3_5 J Robinson;Martin Cohn<>Counting Sequences <>IEEE Trans Computers
+3_6 J Robinson;George I Davida ; Sudhakar M Reddy<>A Class of High-Rate Double-Error-Correcting Convolutional Codes<>Information and Control
+3_7 J Robinson;Geetani Edirisooriya<>Aliasing in Multiple-Valued Test Data Compaction <>ISMVL IEEE INTERNATIONAL SYMPOSIUM MULTIPLE VALUED LOGIC
+3_8 J Robinson;Geetani Edirisooriya<>Aliasing Probability in Multiple Input Linear Signature Automata for Q-ary Symmetric Errors <>ICCD International Conference Computer Design
+3_9 J Robinson;G Edirisooriya; J P Robinson<>Aliasing Properties of Circular MISR's,<>Journal of Electronic Testing
+3_20 J Robinson;Nirmal R Saxena<>A Unified View of Test Compression Methods <>IEEE Trans Computers
+3_21 J Robinson;Cheng Hsien Tung<>A Fast Algorithm for Optimum Syndrome Space Compression <>IEEE Trans Computers
+3_22 J Robinson;Cheng Hsien Tung<>On Concurrently Testable Microprogrammed Control Units <>ITC International Test Conference
+3_23 J Robinson;Chia-Lung Yeh<>A Method for Modulo- Minimization <>IEEE Trans Computers
+4_10 B G T Lowden ; J Robinson<>A fast method for ensuring the consistency of integrity constraints<> Proc DEXA Database and Expert Systems Applications
+4_11 B G T Lowden ; J Robinson<>Extended query answering using integrity rules<> Proc th International Symposium Methodologies for Intelligent Systems LNCS Springer Verlag pp
+4_12 J Robinson;Barry G T Lowden<>Extending the Re-use of Query Results at Remote Client Sites <>DEXA Database and Expert Systems Applications
+4_13 J Robinson;B G T Lowden ; A Kitsopanidis<>Enhancing database retrieval performance using record clustering<> Proc th Hellenic Conference Informatics
+4_30 J Robinson;M E Waite ; Neil Dewhurst ; Simon H Lavington<>Exploiting Parallelism in Primitive Operations on Bulk Data Types <>PARLE Parallel Architectures and Languages Europe
+4_14 B G T Lowden; J Robinson<>Rule management for semantic query optimisation in a distributed parallel environment<> Proc th International Conference Information Systems and Synthesis
+4_15 B G T Lowden; J Robinson; K Y Lim<>A Semantic Query Optimiser using Automatic Rule Derivation <>Proc WITS Workshop Information Technologies and Systems th International Workshop Information Technologies and Systems
+4_16 J Robinson;Barry G T Lowden<>Semantic Query Optimisation and Rule Graphs <>KRDB Knowledge Representation Meets Databases
+4_17 B G T Lowden ; J Robinson<>A statistical approach to rule selection in semantic query optimisation<> Proc th International Symposium Methodologies for Intelligent Systems LNCS Springer Verlag pp
+4_18 J Robinson;Barry G T Lowden ; Mohammed Al Haddad<>Utilising Multiple Computers in Database Query Processing and Descriptor Rule Management <>DEXA Database and Expert Systems Applications
+4_19 J Robinson;Barry G T Lowden<>Attribute-Pair Range Rules <>DEXA Database and Expert Systems Applications
+4_20 J Robinson ; B G T Lowden<>Distributing the Derivation and Maintenance of Subset Descriptor Rules<> Proc th International Conference Information Systems and Synthesis
+4_21 J Robinson ; B G T Lowden<>Data analysis for query processing<> Proc Second International Symposium Intelligent Data Analysis London
+4_22 J Robinson; B G T Lowden<>Extending the use of query results at remote client sites<> pp Proc DEXA Database and Expert Systems Applications
+4_23 J Robinson ; S Lin;<>Arithmetic for Parallel Linear Recursive Query Evaluation in Deductive Databases <>Proc PARLE Parallel Architectures and Languages Europe
+4_24 J Robinson ; B G T Lowden<>Semantic optimisation and rule graphs<> Proc th KRDB Knowledge Representation Meets Databases Workshop st
+4_25 J Robinson ; B G T Lowden<>Utilising multiple computers in database query processing and descriptor rule management<> Proc DEXA Database and Expert Systems Applications
+4_26 J Robinson; B G T Lowden<>Attribute-pair range rules<> Proc DEXA Database and Expert Systems Applications
+4_27 J Robinson;A Sayli ; B G T Lowden<>A fast transformation method for semantic query optimisation<>Proc Int Database Engineering and Applications Symposium IEEE Montreal pp
+4_28 J Robinson;A Sayli ; B G T Lowden<>Ensuring rule consistency in the presence of db updates<> Proc XII International Symposium Computer Information Sciences
+4_29 J Robinson;A Sayli ; B G T Lowden<>The use of statistics in semantic query optimisation<> Proc th Cybernetics and Systems Research EMCSR
+4_1 J Robinson;Mohammed Al Haddad<>Using a Network of Workstations to Enhance Database Query Processing Performance <>PVM Parallel Virtual Machine MPI The Message Passing Interface Standard
+4_2 S H Lavington; J Robinson; K Y Mok;<>A High Performance Relational Algebraic Processor for Large Knowledge Bases <>Proc International Workshop VLSI Very Large Scale Integration for Artificial Intelligence Eds J G Delgado Frias W R Kluwer Academic
+4_3 S H Lavington; M E Waite; J Robinson; N E J Dewhurst;<>Exploiting Parallelism in Primitive Operations on Bulk Data Types: Some Results <>International Journal of Computers Artificial Intelligence
+4_4 J Robinson;Simon H Lavington<>A Transitive Closure and Magic Functions Machine <>DPDS International Symposium Databases Parallel and Distributed Systems
+4_5 J Robinson;Shutian Lin<>Arithmetic for Parallel Linear Recursive Query Evaluation in Deductive Databases <>PARLE Parallel Architectures and Languages Europe
+4_6 J Robinson;Barry G T Lowden<>Constructing Inter-relational Rules for Semantic Query Optimisation <>DEXA Database and Expert Systems Applications
+4_7 J Robinson;Barry G T Lowden ; Mohammed Al Haddad<>Distributing the Derivation and Maintenance of Subset Descriptor Rules <>ISAS International Conference Information Systems Analysis and Synthesis SCI Scalable Coherent Interface
+4_8 J Robinson;Barry G T Lowden<>Data Analysis for Query Processing <>IDA Intelligent Data Analysis
+4_9 J Robinson;Barry G T Lowden<>A Fast Method for Ensuring the Consistence of Integrity Constraints <>DEXA Database and Expert Systems Applications
+5_10 J Robinson;Charles Robertson<>The LivePaper system: augmenting paper on an enhanced tabletop <>Computers amp Graphics
+5_11 J Robinson;J A Robinson<>In-Band Redundancy Removal for Binary Tree Predictive Coding<> Proc First International Symposium Communication Systems and Digital Signal Processing UK
+5_12 J Robinson;M A Shamim; J A Robinson<>Modified Binary Tree for Contour Coding and Its Performance Analysis<> The Third Symposium Wireless Personal Multimedia Communications Bangkok
+5_13 J Robinson;M A Shamim; J A Robinson<>Region-Based Motion Estimation in Image Sequences<> Proceedings of the Canadian Conference Electrical and Computering Engineering CCECE Halifax Nova Scotia Volume
+5_14 J Robinson;Q Song; J A Robinson<>A Feature Space for Face Image Processing<> Proceedings of the International Conference Pattern Recognition Barcelona Volume
+5_15 J Robinson;A Vardy; J A Robinson; L-T Cheng<>The Wristcam as Input Device<> Proceedings of the Third International Symposium Wearable Computers San Francisco
+5_16 J Robinson;Lowell L Winger ; M E Jernigan<>Low-Complexity Character Extraction in Low-Contrast Scene Images <>IJPRAI International Journal of Pattern Recognition and Artificial Intelligence
+5_17 J Robinson;L Xiao; H Heys; J A Robinson<>Visual Cryptography: Threshold Schemes and Information Hiding<> Proceedings of the Newfoundland Electrical and Computer Engineering Conference NECEC St John s Newfoundland
+5_1 J Robinson;<>Compression of Natural Images Using Thread-like Visual Primitives <>Data Compression Conference
+5_2 J Robinson;L-T Cheng; J A Robinson<>Dealing with Speed and Robustness Issues for Video-Based Registration on a Wearable Computing Platform<> Proceedings of the Second International Symposium Wearable Computers
+5_3 J Robinson;Li-Te Cheng ; Rick Kazman<>Vibrotactile Feedback in Delicate Virtual Reality Operations <>ACM Multimedia
+5_4 J Robinson;Li-Te Cheng<>Personal Contextual Awareness through Visual Focus <>IEEE Intelligent Systems
+5_5 J Robinson;C Y Ching; J Hiscock; X Cheng; J A Robinson<>Estimation of Gas Slug Velocities in Two-Phase Flows using Successive Images of the Flow<> CANCAM McMaster University
+5_6 J Robinson;X Ping; J A Robinson<>Supervised object-based temporal filtering for enhancement of moving facial images<> Proceedings of the Canadian Conference Electrical and Computer Engineering CCECE Volume
+5_7 J Robinson;T H Reeves<>Adaptive Foveation of MPEG Video <>ACM Multimedia
+5_8 J Robinson;Charles Robertson<>Live paper: video augmentation to simulate interactive paper <>ACM Multimedia
+5_9 J Robinson;C Robertson; J A Robinson<>Page Similarity and the Hausdorff Distance<> Proceedings of the Seventh International Conference Image Processing and its Applications UK
+6_1 J Robinson; Andrew C Jones ; Frank A Bisby ; Iain Sutherland ; Richard J White ; Sue M Brandt ; Suzanne M Embury ; W A Gray<>Assisting the Integration of Taxonomic Data: The LITCHI Toolkit <>ICDE International Conference Data Engineering
+6_2 J Robinson; Andrew C Jones ; Frank A Bisby ; N J Fiddian ; Nick Pittas ; Richard J White ; Sue M Brandt ; W A Gray ; Xuebiao Xu<>Experiences with a Hybrid Implementation of a Globally Distributed Federated Database System <>WAIM Web Age Information Management
+6_3 J Robinson; Andrew C Jones ; Jonathan Giddy ; N J Fiddian ; W A Gray<>Using the GRID for Biodiversity Research: The GRAB Demonstrator <>SSDBM Statistical and Scientific Database Management
+6_4 J Robinson; Andrew C Jones ; Frank A Bisby ; Iain Sutherland ; Richard J White ; Sue M Brandt ; Suzanne M Embury ; W A Gray<>LITCHI: Knowledge Integrity Testing for Taxonomic Databases <>SSDBM Statistical and Scientific Database Management
+6_5 J Robinson; Andrew C Jones ; Frank A Bisby ; Iain Sutherland ; Richard J White ; Sue M Brandt ; Suzanne M Embury ; W A Gray<>Conflict Detection for Integration of Taxonomic Data Sources <>SSDBM Statistical and Scientific Database Management
+6_6 J Robinson; Andrew C Jones ; Frank A Bisby ; Iain Sutherland ; Richard J White ; Sue M Brandt ; Suzanne M Embury ; W A Gray<>Techniques for Effective Integration, Maintenance and Evolution of Species Databases <>SSDBM Statistical and Scientific Database Management
+6_7 J Robinson; Andrew C Jones ; Frank A Bisby ; Iain Sutherland ; Richard J White ; Sue M Brandt ; Suzanne M Embury ; W A Gray<>Adapting integrity enforcement techniques for data reconciliation <>Inf Syst
+6_8 J Robinson; Andrew C Jones ; Frank A Bisby ; N J Fiddian ; Nick Pittas ; Richard J White ; Sue M Brandt ; W A Gray ; Xuebiao Xu<>SPICE: A Flexible Architecture for Integrating Autonomous Databases to Comprise a Distributed Catalogue of Life <>DEXA Database and Expert Systems Applications
+7_1 J Robinson; Bj&oslash;rn Heckel ; Brian K Flachs ; Samuel H Russ<>A Task Migration Implementation of the Message-Passing Interface <>HPDC High Performance Distributed Computing Symposium
+7_2 J Robinson; Bharathi Janapareddi ; Ioana Banicescu ; Rong Lu ; Samuel H Russ ; Sheikh Ghafoor<>Hectiling: An Integration of Fine and Coarse-Grained Load-Balancing Strategies <>HPDC High Performance Distributed Computing Symposium
+7_3 J Robinson; Bj&oslash;rn Heckel ; Brian K Flachs ; Samuel H Russ<>Hector: Automated Task Allocation for MPI <>IPPS International Parallel Processing Symposium
+7_4 J Robinson; Bj&oslash;rn Heckel ; Brian K Flachs ; Samuel H Russ<>The Hector Distributed Run-Time Environment <>IEEE Trans Parallel Distrib Syst
+7_5 J Robinson; Brad Meyers ; Chun-Heong Tan ; Laxman Rajagopalan ; Matt Gleeson ; Samuel H Russ<>Using Hector to run MPI programs over networked workstations <>Concurrency Practice and Experience
+8_1 J Robinson; Julia G Bodmer ; Matthew J Waller ; Peter Parham ; Steven G E Marsh<>IMGT/HLA Database - a sequence database for the human major histocompatibility complex <>Nucleic Acids Research
+8_2 J Robinson; Lorna J Kennedy ; Matthew J Waller ; Natasja de Groot ; Peter Parham ; Peter Stoehr ; Ronald Bontrop ; Steven G E Marsh<>IMGT/HLA and IMGT/MHC: sequence databases for the study of the major histocompatibility complex <>Nucleic Acids Research
+8_3 J Robinson; Chantal Ginestoux ; Denys Chaume ; G&eacute;rard Lefranc ; Julia Bodmer ; Manuel Ruiz ; Marc Lemaitre ; Marie-Paule Lefranc ; Peter Stoehr ; Ronald Bontrop ; Steven G E Marsh ; V&eacute;ronique Giudicelli<>IMGT, the international ImMunoGeneTics database <>Nucleic Acids Research
+9_10 J Robinson;P A Jensen ; J K Robinson<>Deming's Quality Principles Applied to a Large Lecture Course<>ASEE Journal of Engineering Education abstract
+9_11 E Neacy; N Abt; S Brown; M McDavid; J Robinson; S Srodes; T Stanley<>Cost Analysis for a Multiple Product / Multiple Process Factory: Application of SEMATECH's Future Factory Design Methodology,<>Proceedings of the Advanced Semiconductor Manufacturing Conference abstract
+9_12 J Robinson;J K Robinson; L W Schruben; J W Fowler<>Experimenting with Large-Scale Semiconductor Manufacturing Simulations: A Frequency Domain Approach to Factor Screening,<>Proceedings of the Institute of Industrial Engineers Research Conference Los Angeles Computer Animation abstract
+9_13 J Robinson;J K Robinson; J W Fowler; J F Bard<>A Review of Real-Time Control Strategies for Furnace Batch Sizing in Semiconductor Manufacturing <> abstract Request the paper from my company s website
+9_14 J Robinson;J K Robinson; J W Fowler; J F Bard<>The Use of Upstream and Downstream Information in Scheduling Semiconductor Batch Operations,<>International Journal of Production Research abstract
+9_1 J Robinson;Alvin C Bruska ; Navdeep S Grewal ; Timbur M Wulf<>Validating simulation model cycle times at Seagate Technology <>Winter Simulation Conference
+9_2 J Robinson;Alvin C Bruska ; Navdeep S Grewal ; Timbur M Wulf<>Integrating Targeted Cycle-Time Reduction into the Capital Planning Process <>Winter Simulation Conference
+9_3 J Robinson;F Chance; J K Robinson; J W Fowler; O Gihr; B Rodriguez; L W Schruben<>A Design of Experiments Methodology for Semiconductor Wafer Fab Capacity Planning <> abstract See also SEMATECH Technology Transfer A TR Request the paper from my company s website
+9_4 J Robinson;F Chance; J K Robinson; N Winter<>Getting To Good Answers: Effective Methods For Validating Complex Models,<>Proceedings of the SMOMS Conference San Jose Computer Animation abstract Request the paper from my company s website
+9_5 J Robinson;F Chance; J K Robinson; J W Fowler<>Supporting Manufacturing With Simulation: Model Design, Development, and Deployment,<>Proceedings of the Winter Simulation Conference San Diego Computer Animation Abstract Request the paper from my company s website
+9_6 J Robinson;J Domaschke; S Brown; J K Robinson; F Leibl<>Effective Implementation Of Cycle Time Reduction Strategies For Semiconductor Back-End Manufacturing,<>Proceedings of the Winter Simulation Conference DC Abstract Request the paper from my company s website
+9_7 J Robinson;J W Fowler ; J K Robinson<>Measurement and Improvement of Manufacturing Capacity MIMAC Project Final Report,<>SEMATECH Technology Transfer A TR Request the paper from my company s website
+9_8 J Robinson;Richard Giglio<>Capacity planning for semiconductor wafer fabrication with time constraints between operations <>Winter Simulation Conference
+9_9 J Robinson;N S Grewal; A C Bruska; T M Wulf; J K Robinson<>Integrating Targeted Cycle-Time Reduction Into The Capital Planning Process,<>Proceedings of the Winter Simulation Conference DC Abstract Request the paper from my company s website
