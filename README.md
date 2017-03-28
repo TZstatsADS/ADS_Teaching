@@ -80,7 +80,13 @@
 
 ### Project cycle 4: Algorithm implementation and evaluation
 #### Week 10 (3/31)
++ Introduction to Project 4
++ Overview of entity resolution algorithms
+
 #### Week 11 (4/7)
++ Q&A on algorithms
++ Team meetings 
+
 #### Week 12 (4/14)
 + Project 4 presentations
 
