@@ -2,6 +2,11 @@
 ### Spring 2017 - Teaching Materials
 
 [Syllabus](CourseInfo/G5243_Spring_2017_ADS.md)
+### Table of Contents
+1. [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses)
+2. [Project 2](#project-cycle-2-shiny-app-development)
+3. [Project 3](#project-cycle-3-predictive-modeling)
+4. [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 1: (Individual) R notebook on presidential addresses 
 ([starter codes](/Projects_startercodes/Project1-RNotebook/))
@@ -45,7 +50,8 @@
 #### Week 6 (2/24)
 + Project 2 presentations
 
-### Project cycle 3: predictive modeling ([starter codes](Projects_startercodes/Project3_PoodleKFC))
+### Project cycle 3: predictive modeling 
+([starter codes](Projects_startercodes/Project3_PoodleKFC))
 
 #### Week 6 (2/24)
 + [Project 3](Projects_startercodes/Project3_PoodleKFC/doc/project3_desc.md) starts.
@@ -72,7 +78,7 @@
 #### Week 9 (3/24) 
 + Project 3 presentations
 
-### Project cycle 4: 
+### Project cycle 4: Algorithm implementation and evaluation
 #### Week 10 (3/31)
 #### Week 11 (4/7)
 #### Week 12 (4/14)
