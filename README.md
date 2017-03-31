@@ -1,7 +1,7 @@
 # Stat GU4243/G5243 Applied Data Science
 ### Spring 2017 - Teaching Materials ([Syllabus](CourseInfo/G5243_Spring_2017_ADS.md))
 
-#### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 ----
 ### Project cycle 1: (Individual) R notebook on presidential addresses 
 ([starter codes](/Projects_startercodes/Project1-RNotebook/))
@@ -20,8 +20,9 @@
 #### Week 3 (2/3)
 + Project 1 presentations
 
-#### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 ----
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
+
 ### Project cycle 2: shiny app development 
 ([starter codes](Projects_startercodes/Project2_OpenData/))
 
@@ -47,8 +48,9 @@
 #### Week 6 (2/24)
 + Project 2 presentations
 
-#### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 ----
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
+
 ### Project cycle 3: predictive modeling 
 ([starter codes](Projects_startercodes/Project3_PoodleKFC))
 
@@ -77,8 +79,9 @@
 #### Week 9 (3/24) 
 + Project 3 presentations
 
-#### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 ----
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
+
 ### Project cycle 4: Algorithm implementation and evaluation
 ([starter codes](Projects_startercodes/Project4_WhoIsWho))
 #### Week 10 (3/31)
