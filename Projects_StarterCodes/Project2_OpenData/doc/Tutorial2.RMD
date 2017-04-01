@@ -79,15 +79,6 @@ zip_choropleth(count.df,
     county_zoom = 36061)
 ```
 
-## 2009 Manhattan housing sales
-```{r plot_housing_sales, message=F, echo=F}
-library(choroplethrZip)
-zip_choropleth(count.df,
-    title       = "2009 Manhattan housing sales",
-    legend      = "Number of sales",
-    county_zoom = 36061)
-```
-
 ## Geocode addresses 
 We can obtain more geo information about individual sales.
 ```{r geo_codes, message=F}
@@ -103,12 +94,6 @@ mh2009.selgeo=
 
 ## Plot using longitude and latitude
 ```{r code_plot_indiv, message=F, eval=F}
-library(ggmap)
-ggmap(get_map("New York, New York",zoom=11,color = "bw")) + 
-  geom_point(data=mh2009.selgeo, aes(x=lon,y=lat),  color='red') 
-```
-## Plot using longitude and latitude
-```{r plot_indiv, message=F, warning=F, echo=F}
 library(ggmap)
 ggmap(get_map("New York, New York",zoom=11,color = "bw")) + 
   geom_point(data=mh2009.selgeo, aes(x=lon,y=lat),  color='red') 
