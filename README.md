@@ -6,7 +6,7 @@
 ### Project cycle 1: (Individual) R notebook on presidential addresses 
 ([starter codes](/Projects_StarterCodes/Project1-RNotebook))
 #### Week 1 (9/6)
-+ [Introduction to ADS](Tutorials/Intro.pdf)
++ [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)
 + [Tutorial 1 R Notebook](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutorial_rnotebook.html) + [Example](https://github.com/TZstatsADS/Fall2016-proj1-grp7)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
@@ -19,10 +19,11 @@
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
-### Project cycle 2: 
+### Project cycle 2: Shiny App Development
+([starter codes](/Projects_StarterCodes/Project2_OpenData))
 #### Week 3 (9/20)
 + Project 1 presentations
-+ [Project 2](Projects_startercodes/Project2_OpenData/doc/project2_desc.md) starts.
++ [Project 2](Projects_StarterCodes/Project2_OpenData/doc/project2_desc.md) starts.
   + Check Piazza for your project team and GitHub join link.
   + After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
@@ -31,7 +32,9 @@
     + a short tutorial to get you started.
 
 #### Week 4 (9/27)
-
++ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html) ([app](Projects_StarterCodes/Project2_OpenData/app/))
++ Shiny Tutorial (Chengliang Tang) ([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/Shiny_tutorial/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
++ [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
 
 #### Week 5 (10/4)
 
