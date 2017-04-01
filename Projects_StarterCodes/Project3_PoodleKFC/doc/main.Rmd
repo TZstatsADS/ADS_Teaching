@@ -48,7 +48,7 @@ In this chunk, ,we have a set of controls for the evaluation experiments.
 + (number) K, the number of CV folds
 + (T/F) process features for training set
 + (T/F) run evaluation on an independent test set
-+ (T/F) run evaluation on an independent test set
++ (T/F) process features for test set
 
 ```{r exp_setup}
 run.cv=TRUE # run cross-validation on the training set
@@ -114,7 +114,7 @@ Call the train model and test model from library.
   + Output: an RData file that contains trained classifiers in the forms of R objects: models/settings/links to external trained configurations.
 + `test.R`
   + Input: a path that points to the test set features.
-  + Input: an R object that contains a trained classifiers.
+  + Input: an R object that contains a trained classifier.
   + Output: an R object of class label predictions on the test set. If there are multiple classifiers under evaluation, there should be multiple sets of label predictions. 
 ```{r loadlib}
 source("../lib/train.R")
@@ -183,7 +183,7 @@ if(run.test){
 ```
 
 ### Summarize Running Time
-Prediction performance matters, do does the running times for constructing features and for training the model, especially when the computation resource is limited. 
+Prediction performance matters, so does the running times for constructing features and for training the model, especially when the computation resource is limited. 
 ```{r running_time}
 cat("Time for constructing training features=", tm_feature_train[1], "s \n")
 cat("Time for constructing testing features=", tm_feature_test[1], "s \n")
