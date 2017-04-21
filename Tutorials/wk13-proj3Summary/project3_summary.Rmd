@@ -23,6 +23,7 @@ axis(1, bar_time, labels=as.character(1:14))
 
 ### Dimensions of Extracted Features
 #### Advanced Model
+Advanced Features: GIST(1), resized SIFT(2, 10, 11, 13), CNN(3), LBP(4, 6), HoG(5, 7, 8, 9), grayscale(12), raw images(14)
 ```{r, echo=FALSE}
 featureDim_bl <- c(512, 5000, 350, 59, 200, 830, 54, 5448, 57, 128, 383, 2131, 300, 2500)
 log_featureDim_bl <- log(featureDim_bl)
@@ -33,6 +34,7 @@ axis(1, bar_time, labels=as.character(1:14))
 ```
 
 ### Running Time
+Advanced models: SVM(5, 7, 10, 11, 13), xgboost(1, 2, 6), majority vote(4), random forest(9, 12), model ensemble(3, 8), DNN(14)
 ```{r, echo=FALSE}
 # run Results.R first
 RunningTime <- c(60, 57, 7, 30, 10, 10, 9, 65, 8, 120, 120, 180, 10, 660)
@@ -113,6 +115,7 @@ library(ggplot2)
 
 ### Advanced Prediction Accuracy
 Advanced Features: GIST(1), resized SIFT(2, 10, 11, 13), CNN(3), LBP(4, 6), HoG(5, 7, 8, 9), grayscale(12), raw images(14)
+
 Advanced models: SVM(5, 7, 10, 11, 13), xgboost(1, 2, 6), majority vote(4), random forest(9, 12), model ensemble(3, 8), DNN(14)
 
 ```{r, echo=FALSE}
