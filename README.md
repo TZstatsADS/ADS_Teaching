@@ -99,6 +99,7 @@
 ### Project cycle 5: free topic
 
 #### Week 13 (4/21)
++ [Project 3 Summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/7a0ff6bb/Tutorials/wk13-proj3Summary/project3_summary.html)
 #### Week 14 (4/28) 
 + Project 5 Presentations
 
