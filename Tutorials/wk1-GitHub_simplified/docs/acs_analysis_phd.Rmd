@@ -1,0 +1,361 @@
+---
+title: "Sample ACS Analysis: Should I do a PhD?"
+author: "Yuting Ma, Ke Shen"
+date: "January 25, 2016"
+output: html_document
+---
+
+#Introduction
+This is a sample ACS analysis from Kaggle script <https://www.kaggle.com/owise83/d/census/2013-american-community-survey/should-i-do-a-phd/code>.
+
+The goal of this analysis is to empirically check if an US citizen/resident should pursue his/her education to higher levels, whether it is worth doing it, and if so where abouts (which states), is there a correlation or pattern between higher income and higher degree level? 
+
+The aim is not to end up being a PhD holder looking for a job or being less paid than MSc or B.Sc. To answer these questions, the author concentrated on B.Sc, MSc, and PhD holders, their personal income, their employment status, and their whereabouts. 
+
+##Setup the libraries
+Libraries we need along the way
+```{r, message = F}
+library("dplyr")
+library("data.table")
+library("ggplot2")
+library("choroplethr")
+```
+
+##Read the data
+```{r}
+load("./data/populData.RData")
+```
+##Data Manipulation
+Convert it to `tbl_df` for easier manipulation: remove `NAs`, extract BSc, MSc, and PhD, and group them accordingly:
+```{r}
+populData <- tbl_df(populData) 
+ds <-  populData %>%  
+  na.omit() %>%
+  filter(SCHL %in%  c(21,22,24)) %>%
+  group_by(SCHL) 
+rm(populData)
+```
+
+Map the codes of the school level to the proper names of the degrees
+```{r, echo=FALSE}
+degreeCode = "SCHL,DegLevel
+21,Bachelor 
+22,Masters
+24,Doctorate"
+degreCodes <- fread(degreeCode)  
+```
+
+##How many are they?
+First we want to see and to compare the number of BSc , MSc, and PhD holders all over the states.
+
+```{r, echo=FALSE}
+#Visualization
+degreeHolders <-  summarise(ds, count=n())
+degreeHolders <- left_join(degreeHolders , degreCodes, by.x=c("SCHL"))
+Degrees <- factor(degreeHolders$DegLevel, levels = unique(degreeHolders$DegLevel))
+
+ggplot(degreeHolders, aes(x= Degrees , y=degreeHolders$count, fill= Degrees)) +                        
+  geom_bar(stat="identity") + scale_fill_hue(l=40) +
+  ylab("No of People") + 
+  xlab("Degree") + ggtitle("Comparing Degrees Holders in the US") +
+  theme(axis.text.x = element_text(angle = 30, hjust = 1),
+        panel.background = element_rect(fill = 'white' ))
+```
+
+We can see BSc holders are much more than the MSc and PhD degrees.
+OK, now we got an idea how many BSc, MSc, and PhD degrees in the states, so let us now compare their unemployment rates: 
+  
+```{r}
+#Filter unemployed, group them by degree and calculate rates:
+jobLess <- ds %>%
+  filter(ESR==3)%>% #3 indicates  Unemployed
+  group_by(SCHL) %>% 
+  summarise(count=n())%>%
+  mutate(Percet = count/degreeHolders$count*100)
+```           
+
+
+```{r, echo=FALSE}
+ggplot(jobLess, aes(x= Degrees , y=jobLess$Percet, fill= Degrees)) +                        
+  geom_bar(stat="identity") + scale_fill_hue(l=80) +
+  ylab("Percent %") + 
+  xlab("Degree") + ggtitle("Percentages of Unemployed Degree  Holders")+
+  theme(axis.text.x = element_text(angle = 30, hjust = 1),
+        panel.background = element_rect(fill = 'white' ))
+```
+
+It is clear that PhD degrees have the lowest unemployment rate, and it is unlikely that you will be jobless if you do a PhD specifically in particular states. 
+
+#Which states are these?
+We are interested in which states have the highest unemployment rate for each group of degree levels. To start with, I  do state code mapping here, write it into a data frame and then  bind  it with `jobLessBSc` extracted below
+
+```{r, echo=FALSE}
+stateCodeCSV = "ST,region
+001,alabama
+002,alaska
+004,arizona
+005,arkansas
+006,california
+008,colorado
+009,connecticut
+010,delaware
+011,district of columbia
+012,florida
+013,georgia
+015,hawaii
+016,idaho
+017,illinois
+018,indiana
+019,iowa
+020,kansas
+021,kentucky
+022,louisiana
+023,maine
+024,maryland
+025,massachusetts
+026,michigan
+027,minnesota
+028,mississippi
+029,missouri
+030,montana
+031,nebraska
+032,nevada
+033,new hampshire
+034,new jersey
+035,new mexico
+036,new york
+037,north carolina
+038,north dakota
+039,ohio
+040,oklahoma
+041,oregon
+042,pennsylvania
+044,rhode island
+045,south carolina
+046,south dakota
+047,tennessee
+048,texas
+049,utah
+050,vermont
+051,virginia
+053,washington
+054,west virginia
+055,wisconsin
+056,wyoming"
+stateCodes <- fread(stateCodeCSV)
+```
+
+Then find the total number of B.Sc holders in each state, count   those who are unemployed,  then  compute thier precntages in each state, and finally visualize where they live: 
+  
+```{r, message =FALSE}
+stateTotalBSc  <- ds%>%
+  filter(SCHL==21)%>%
+  group_by(ST)%>%
+  summarise(count = n())
+
+#Do the join before percentage computation to make sure you have a count for each state including 0s
+jobLessBSc  <- ds%>%
+  filter(SCHL==21, ESR==3)%>%
+  group_by(ST)%>%
+  summarise(count = n())
+
+jobLessBSc <- right_join(jobLessBSc , stateCodes, by.x=c("ST"))
+jobLessBSc[is.na(jobLessBSc)] <- 0
+jobLessBSc <- mutate(jobLessBSc, value = jobLessBSc$count/stateTotalBSc$count*100)
+
+```
+
+
+which produces the this:
+```{r, echo=FALSE}
+state_choropleth(jobLessBSc, title = "Percentage of Unemployed BSc Holders", num_colors=9)
+```
+
+Do the same with MSc:
+```{r, echo=FALSE, message =FALSE}
+stateTotalMSc  <- ds%>%
+  filter(SCHL==22)%>%
+  group_by(ST)%>%
+  summarise(count = n())
+
+jobLessMSc  <- ds%>%
+  filter(SCHL==22, ESR==3)%>%
+  group_by(ST)%>%
+  summarise(count = n())
+
+#Do the join before percentage computation to make sure you have a count for each state including 0s
+jobLessMSc <- right_join(jobLessMSc , stateCodes, by.x=c("ST"))
+jobLessMSc[is.na(jobLessMSc)] <- 0
+jobLessMSc <- mutate(jobLessMSc, value = jobLessMSc$count/stateTotalMSc$count*100)
+
+#Plot Map
+state_choropleth(jobLessMSc, title = "Percentage of Unemployed MSc Holders", num_colors=9)
+```
+
+and PhD guys:
+```{r, echo=FALSE, message =FALSE}
+stateTotalPhD  <- ds%>%
+  filter(SCHL==24)%>%
+  group_by(ST)%>%
+  summarise(count = n())
+
+jobLessPhD <- ds%>%
+  filter(SCHL==24, ESR==3)%>%
+  group_by(ST)%>%
+  summarise(count = n())
+
+#Do the join before percentage computation to make sure you have a count for each state including 0s
+jobLessPhD <- right_join(jobLessPhD , stateCodes, by.x=c("ST"))
+jobLessPhD[is.na(jobLessPhD)] <- 0
+jobLessPhD <- mutate(jobLessPhD, value = jobLessPhD$count/stateTotalPhD$count*100)
+
+#Plot Map
+state_choropleth(jobLessPhD, title = "Percentage of Unemployed PhD Holders", num_colors=9)
+```
+
+# Top 10 States Analysis
+Let us now see which top 10 states have the highest unemployment rate, and which ones have the lowest unemployment rate  for each degree group: 
+
+### BSc
+```{r}
+#Find which states have  the lowest 10 Unemployment rates: 
+topBSc <- jobLessBSc %>%
+  arrange(value)%>%
+  select(region, value)%>%
+  slice(1:10)
+
+#Find which states have the highest 10Unemployment rates: 
+bottomBSc <- jobLessBSc %>%
+  arrange(desc(value))%>%
+  select(region, value)%>%
+  slice(1:10) 
+```
+
+### MSc
+Apply the same procedure as in BSc
+```{r }
+#Find   which states have  the lowest 10  Unemployment rates: 
+topMSc <- jobLessMSc %>%
+  arrange(value)%>%
+  select(region, value)%>%
+  slice(1:10)
+
+#Find   which states have  the highest 10  Unemployment rates: 
+bottomMSc <- jobLessMSc %>%
+  arrange(desc(value))%>%
+  select(region, value)%>%
+  slice(1:10) 
+```
+
+###PhD
+Apply the same procedure as in BSc
+
+```{r}
+#Find   which states have  the lowest 10  Unemployment rates: 
+topPhD <- jobLessPhD %>%
+  arrange(value)%>%
+  select(region, value)%>%
+  slice(1:10)
+
+#Find   which states have  the highest 10  Unemployment rates: 
+bottomPhD <- jobLessPhD %>%
+  arrange(desc(value))%>%
+  select(region, value)%>%
+  slice(1:10) 
+```
+
+## Common States
+
+Now let us see if there are common states between the top 10 and the bottom 10 of each degree group
+
+#### States  with lowest Unemployment Rate
+```{r}
+Reduce(intersect, list(topPhD$region, topMSc$region, topBSc$region))
+```
+
+####States  with lowest Unemployment Rate
+
+```{r}
+Reduce(intersect, list(bottomPhD$region, bottomMSc$region, bottomBSc$region))
+```
+
+Interestingly, there are a common states repeated in the three degree levels. The states  of "Oregon", "Massachusetts", "California" has the hieghest unemployment rate in all degree levels (B.Sc, MSc, and PhD) whereas "montana", "oklahoma"  have the lowest unemployment rate in all degree levels.  
+
+It is worth investigaing why!!
+  
+Now, those who were lucky enough, pursued higher level of education, and secured jobs, do they really get paid higher?
+
+#What about their income?
+Last question: do PhD degrees earn more than the rest of the guys? In this part, we exclude those who earns less than $ $1000 $
+  
+Because of the large number of data, we conduct the analysis on a sample. To make it more generalizable, for each degree level we randomly draw $5000$ samples (subset) of $1000$ observations each and compute  some statistics (`min()`, `max()`, `median()`, and `IQR()`) of the income in that sample.
+
+```{r}
+#random sample  for plotting
+aboveThousand <- ds %>%
+  filter(PINCP>1000)%>%
+  group_by(SCHL) 
+freq <- 5000 #How many subsets are we creating
+allStat <- NULL
+for(i in 1:freq){
+  tempSample <-  sample_n(aboveThousand,1000)
+  sampleStat <- summarise(tempSample, MinIncome=min(PINCP), MaxIncome=max(PINCP),
+                          MedianIncome=median(PINCP), IncomeRange=IQR(PINCP))  
+  allStat <- rbind(allStat, sampleStat)
+}
+ranSamples <- allStat %>% 
+  arrange(SCHL) 
+```
+
+Then average over these  statistics to get the  mean of each statistic: 
+```{r}
+SummaryStat <- ranSamples %>%
+  group_by(SCHL) %>%
+  select(MinIncome,  MaxIncome,  MedianIncome,  IncomeRange)%>%
+  lapply(mean, na.rm = TRUE)
+ranSamples <- left_join(ranSamples , degreCodes, by.x=c("SCHL"))   
+```
+
+
+So the box plot  below compares the mean of the medians of the $5000$ subsets for each degree B.Sc, MSc, and PhD:
+```{r, echo=FALSE}
+Degrees <- factor(ranSamples$DegLevel, levels = unique(ranSamples$DegLevel))
+ggplot(ranSamples, aes(x=Degrees, y=MedianIncome, fill=Degrees ) ) +  
+  geom_boxplot(notch = FALSE, outlier.colour="#CC6600") +
+  scale_fill_manual(name = "", values = c("#00BFFF", "#66FF00", "#CC0033")) +
+  theme(panel.background = element_rect(fill = 'white' )) +
+  ggtitle("Comparing Income of Degrees Holders")  
+```
+
+
+Also show the distribution of the medians in each sample in each group using the density plot:
+  
+```{r, echo=FALSE}
+#Extract
+dsMedians <- ranSamples%>%
+  select(MedianIncome, SCHL)
+BSc <- filter(dsMedians,SCHL==21)%>%
+  log10()
+MSc <- filter(dsMedians,SCHL==22)%>%
+  log10()
+PhD <- filter(dsMedians,SCHL==24)%>%
+  log10()
+#Plots
+ggplot(BSc, aes(x=MedianIncome,color="BSc")) + geom_density( fill= "#00BFFF55") +
+  ylab("Density") + xlab("Income") +  ggtitle("Income Dist: BSc, MSc, PhD") +   
+  geom_density(data=MSc, aes(color="MSc"),    fill= "#66FF0055") +
+  geom_density(data=PhD, aes(color="PhD"),    fill= "#CC003355") +
+  theme(panel.background = element_rect(fill = 'white' )) +
+  scale_colour_manual(values=c(BSc="#00BFFF", MSc="#66FF00", PhD ="#CC0033"), name="") 
+```
+
+#Conclusions
+Yes, it is worth pursuing your education and worth doing a PhD as you will end up being paid higher than other degree levels. Actually, there are so many of B.sc and MSc guys than PhDs, so try get out of the crowd and do a PhD if you can. 
+
+However, try not to do it in "Oregon", "Massachusetts", or "California" as these 'enjoy' the highest unemployment rates in all degree levels not just PhD. Be smarter and look for a job in other states like  "Montana"  "Oklahoma" or others shown on the maps and listed in the top 10 and bottom 10 analysis. 
+
+Actually you can still get away with a B.Sc in these states but you will sacrify higher income!
+  
+#Next Satge
+What are the reasons behind the low and high unemployment rates in some specific states?[Script](https://www.kaggle.com/owise83/2013-american-community-survey/i-did-a-phd-where-to-look-for-a-job)
+

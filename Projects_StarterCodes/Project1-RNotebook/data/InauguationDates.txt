@@ -1,0 +1,47 @@
+
+PRESIDENT	FIRST	SECOND	THIRD	FOURTH
+George Washington	4/30/1789	3/4/1793		
+John Adams	3/4/1797			
+Thomas Jefferson	3/4/1801	3/4/1805		
+James Madison	3/4/1809	3/4/1813		
+James Monroe	3/4/1817	3/5/1821		
+John Quincy Adams	3/4/1825			
+Andrew Jackson	3/4/1829	3/4/1833		
+Martin Van Buren	3/4/1837			
+William Henry Harrison	3/4/1841			
+John Tyler	4/6/1841			
+James Knox Polk	3/4/1845			
+Zachary Taylor	3/5/1849			
+Millard Fillmore	7/10/1850			
+Franklin Pierce	3/4/1853			
+James Buchanan	3/4/1857			
+Abraham Lincoln	3/4/1861	3/4/1865		
+Andrew Johnson	4/15/1865			
+Ulysses S. Grant	3/4/1869	3/4/1873		
+Rutherford B. Hayes	3/5/1877			
+James A. Garfield	3/4/1881			
+Chester Arthur	9/20/1881			
+Grover Cleveland	3/4/1885			
+Benjamin Harrison	3/4/1889			
+Grover Cleveland		3/4/1893		
+William McKinley	3/4/1897	3/4/1901		
+Theodore Roosevelt	9/14/1901	3/4/1905		
+William Howard Taft	3/4/1909			
+Woodrow Wilson	3/4/1913	3/5/1917		
+Warren G. Harding	3/4/1921			
+Calvin Coolidge	8/3/1923	3/4/1925		
+Herbert Hoover	3/4/1929			
+Franklin D. Roosevelt	3/4/1933	1/20/1937	1/20/1941	1/20/1945
+Harry S. Truman	4/12/1945	1/20/1949		
+Dwight D. Eisenhower	1/20/1953	1/21/1957		
+John F. Kennedy	1/20/1961			
+Lyndon B. Johnson	11/22/1963	1/20/1965		
+Richard M. Nixon	1/20/1969	1/20/1973		
+Gerald R. Ford	8/9/1974			
+Jimmy Carter	1/20/1977			
+Ronald Reagan	1/20/1981	1/21/1985		
+George Bush	1/20/1989			
+William J. Clinton	1/20/1993	1/20/1997		
+George W. Bush	1/20/2001	1/20/2005		
+Barack Obama	1/20/2009	1/21/2013		
+Donald J. Trump	1/20/2017			
