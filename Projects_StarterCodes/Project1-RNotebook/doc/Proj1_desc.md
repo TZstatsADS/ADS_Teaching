@@ -13,7 +13,7 @@ Inaugural speech is the first official speech of any president of United States.
 
 ### Challenge 
 
-In this project we will explore the texts of U. S. presidents' inaugrual speeches, from that of George Washington to that of Donald Trump which was delivered just today. 
+In this project we will explore the texts of U. S. presidents' inaugrual speeches, from that of George Washington to that of Donald Trump which was delivered earlier this year. 
 
 You are tasked to explore the texts using tools from text mining and natural language processing such as sentiment analysis, topic modeling, etc, all available in `R` and write a small story about inaugural speeches of U.S. presidents on interesting trends and patterns identified by your analysis. 
 
