@@ -4,11 +4,6 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 ----
 ### Project cycle 1: (Individual) R notebook on presidential addresses 
-<<<<<<< HEAD
-([starter codes](/Projects_startercodes/Project1-RNotebook/))
-
-#### Week 1 (1/20)
-=======
 ([starter codes](/Projects_StarterCodes/Project1-RNotebook))
 #### Week 1 (9/6)
 >>>>>>> origin/master
