@@ -37,7 +37,7 @@ A GitHub starter codes repo will be posted on piazza for you to fork and start y
 #### Useful resources
 
 ##### R pakcages
-* R [dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) package
+* R [dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html) package
 * R [readr](https://github.com/hadley/readr) package
 * R [DT](http://www.htmlwidgets.org/showcase_datatables.html) package
 * R [tibble](https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html)
