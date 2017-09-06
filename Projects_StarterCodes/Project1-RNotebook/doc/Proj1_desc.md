@@ -3,7 +3,7 @@
 
 ![image](../figs/GWspeech.jpg)
 
-Inaugural speech is the first official speech of any president of United States. It is the first time the public get to hear what the president's plan for the next 100 days or 4 years. Historians who studied [1][2] past presidential inaugural speeches concluded that the speeches persistently demonstrated American ideological values over time, with constant shifts of emphasis in different eras. Natural language processing and text mining are promising tools to derive new findings in this collection of historical documents. [3]
+Inaugural speech is the first official speech of any president of United States. It is the first time the public get to hear the president's plan for the next 100 days or 4 years. Historians who studied [1][2] past presidential inaugural speeches concluded that the speeches persistently demonstrated American ideological values over time, with constant shifts of emphasis in different eras. Natural language processing and text mining are promising tools to derive new findings in this collection of historical documents. [3]
 
 [1] Sigelman, Lee. "Presidential inaugurals: The modernization of a genre." Political Communication 13.1 (1996): 81-92.
 
