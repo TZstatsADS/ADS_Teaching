@@ -119,7 +119,7 @@ for(i in seq(nrow(speech.list))) {
 ```
 
 Trump, as president-elect that has not been a politician, do not have a lot of formal speeches yet. For our textual analysis, we manually add several public transcripts from Trump:
-+ [Transcript: Donald Trump's full immigration speech, annotated. LA Times, 08/31/2016] (http://www.latimes.com/politics/la-na-pol-donald-trump-immigration-speech-transcript-20160831-snap-htmlstory.html)
++ [Transcript: Donald Trump's full immigration speech, annotated. LA Times, 08/31/2016](http://www.latimes.com/politics/la-na-pol-donald-trump-immigration-speech-transcript-20160831-snap-htmlstory.html)
 + [Transcript of Donald Trump’s speech on national security in Philadelphia - The Hill, 09/07/16](http://thehill.com/blogs/pundits-blog/campaign/294817-transcript-of-donald-trumps-speech-on-national-security-in)
 + [Transcript of President-elect Trump's news conference
 CNBC, 01/11/2017](http://www.cnbc.com/2017/01/11/transcript-of-president-elect-donald-j-trumps-news-conference.html)
