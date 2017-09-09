@@ -10,7 +10,7 @@ This is an *Interactive* [R Markdown](http://rmarkdown.rstudio.com) Notebook. It
 
 We will use the presidential inaugural speech word clouds as examples. 
 
-#Step 0 - Install and load libraries
+# Step 0 - Install and load libraries
 ```{r, message=FALSE, warning=FALSE}
 packages.used=c("tm", "wordcloud", "RColorBrewer", 
                 "dplyr", "tydytext")
@@ -47,7 +47,7 @@ prex.out=substr(speeches, 6, nchar(speeches)-4)
 ff.all<-Corpus(DirSource(folder.path))
 ```
 
-#Step 2 - Text processing
+# Step 2 - Text processing
 
 See [Basic Text Mining in R](https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html) for a more comprehensive discussion. 
 
@@ -67,7 +67,7 @@ tdm.tidy=tidy(tdm.all)
 tdm.overall=summarise(group_by(tdm.tidy, term), sum(count))
 ```
 
-#Step 3 - Inspect an overall wordcloud
+# Step 3 - Inspect an overall wordcloud
 ```{r, fig.height=6, fig.width=6}
 wordcloud(tdm.overall$term, tdm.overall$`sum(count)`,
           scale=c(5,0.5),
@@ -80,7 +80,7 @@ wordcloud(tdm.overall$term, tdm.overall$`sum(count)`,
           colors=brewer.pal(9,"Blues"))
 ```
 
-#Step 4 - compute TF-IDF weighted document-term matrices for individual speeches. 
+# Step 4 - compute TF-IDF weighted document-term matrices for individual speeches. 
 As we would like to identify interesting words for each inaugural speech, we use [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) to weigh each term within each speech. It highlights terms that are more specific for a particular speech. 
 
 ```{r}
@@ -92,7 +92,7 @@ dtm <- DocumentTermMatrix(ff.all,
 ff.dtm=tidy(dtm)
 ```
 
-#Step 5- Interactive visualize important words in individual speeches
+# Step 5- Interactive visualize important words in individual speeches
 ```{r, warning=FALSE}
 library(shiny)
 
