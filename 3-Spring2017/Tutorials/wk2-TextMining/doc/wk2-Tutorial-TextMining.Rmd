@@ -51,7 +51,7 @@ print(R.version)
 
 # Step 1: Data harvest: scrap speech URLs from <http://www.presidency.ucsb.edu/>.
 
-Following the example of [Jerid Francom](http://francojc.github.io/web-scraping-with-rvest/), we used [Selectorgadget](http://selectorgadget.com/) to choose the links we would like to scrap. For this project, we selected all inaugural addresses of past presidents, nomination speeches of major party candidates and farewell addresses. We also included several public speeches from Donald Trump for our textual analysis of presidential speeches. 
+Following the example of [Jerid Francom](https://francojc.github.io/2015/03/01/web-scraping-with-rvest-in-r/), we used [Selectorgadget](http://selectorgadget.com/) to choose the links we would like to scrap. For this project, we selected all inaugural addresses of past presidents, nomination speeches of major party candidates and farewell addresses. We also included several public speeches from Donald Trump for our textual analysis of presidential speeches. 
 
 ```{r, message=FALSE, warning=FALSE}
 ### Inauguaral speeches
