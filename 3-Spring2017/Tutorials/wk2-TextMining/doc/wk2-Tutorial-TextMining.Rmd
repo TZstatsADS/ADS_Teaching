@@ -181,7 +181,7 @@ for(i in 1:nrow(speech.list)){
 }
 ```
 
-Some non-sentences exist in raw data due to erroneous extra end-of sentence marks. 
+Some non-sentences exist in raw data due to erroneous extra end-of-sentence marks. 
 ```{r}
 sentence.list=
   sentence.list%>%
