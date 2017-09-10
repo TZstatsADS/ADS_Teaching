@@ -26,6 +26,9 @@ if(length(packages.needed)>0){
 # load packages
 library("rvest")
 library("tibble")
+# You may need to run
+# sudo ln -f -s $(/usr/libexec/java_home)/jre/lib/server/libjvm.dylib /usr/local/lib
+# in order to load qdap
 library("qdap")
 library("sentimentr")
 library("gplots")
@@ -741,3 +744,9 @@ fviz_cluster(km.res,
              show.clust.cent=FALSE)
 ```
 
+# Readings for NLP in Python
+
++ [Natural Language Processing with Python](http://www.nltk.org/book/)
++ [A shorter tutorial](https://www.digitalocean.com/community/tutorials/how-to-work-with-language-data-in-python-3-using-the-natural-language-toolkit-nltk)
++ [Sentiment analysis](https://pythonspot.com/en/python-sentiment-analysis/)
++ [Topic modeling](https://medium.com/@aneesha/topic-modeling-with-scikit-learn-e80d33668730)
