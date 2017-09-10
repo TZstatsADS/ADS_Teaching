@@ -744,7 +744,7 @@ fviz_cluster(km.res,
              show.clust.cent=FALSE)
 ```
 
-# Readings for NLP in Python
+# Readings for NLP with Python
 
 + [Natural Language Processing with Python](http://www.nltk.org/book/)
 + [A shorter tutorial](https://www.digitalocean.com/community/tutorials/how-to-work-with-language-data-in-python-3-using-the-natural-language-toolkit-nltk)
