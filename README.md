@@ -13,7 +13,7 @@
 
 #### Week 2 (9/13)
 + [An example R notebook on presidential speeches](Tutorials/wk2-TextMining), ([zipped folder](Tutorials/wk2-TextMining.zip))
-+ [R notebook as a presentation](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
++ [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Discussion and Q&A
 #### Week 3 (9/20)
 
