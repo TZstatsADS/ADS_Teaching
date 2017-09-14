@@ -26,6 +26,9 @@ if(length(packages.needed)>0){
 # load packages
 library("rvest")
 library("tibble")
+# You may need to run
+# sudo ln -f -s $(/usr/libexec/java_home)/jre/lib/server/libjvm.dylib /usr/local/lib
+# in order to load qdap
 library("qdap")
 library("sentimentr")
 library("gplots")
@@ -51,7 +54,7 @@ print(R.version)
 
 # Step 1: Data harvest: scrap speech URLs from <http://www.presidency.ucsb.edu/>.
 
-Following the example of [Jerid Francom](http://francojc.github.io/web-scraping-with-rvest/), we used [Selectorgadget](http://selectorgadget.com/) to choose the links we would like to scrap. For this project, we selected all inaugural addresses of past presidents, nomination speeches of major party candidates and farewell addresses. We also included several public speeches from Donald Trump for our textual analysis of presidential speeches. 
+Following the example of [Jerid Francom](https://francojc.github.io/2015/03/01/web-scraping-with-rvest-in-r/), we used [Selectorgadget](http://selectorgadget.com/) to choose the links we would like to scrap. For this project, we selected all inaugural addresses of past presidents, nomination speeches of major party candidates and farewell addresses. We also included several public speeches from Donald Trump for our textual analysis of presidential speeches. 
 
 ```{r, message=FALSE, warning=FALSE}
 ### Inauguaral speeches
@@ -119,9 +122,8 @@ for(i in seq(nrow(speech.list))) {
 ```
 
 Trump, as president-elect that has not been a politician, do not have a lot of formal speeches yet. For our textual analysis, we manually add several public transcripts from Trump:
-+ [Transcript: Donald Trump's full immigration speech, annotated. LA Times, 08/31/2016] (http://www.latimes.com/politics/la-na-pol-donald-trump-immigration-speech-transcript-20160831-snap-htmlstory.html)
-+ [Transcript of Donald Trump’s speech on national security in Philadelphia
-- The Hill, 09/07/16](http://thehill.com/blogs/pundits-blog/campaign/294817-transcript-of-donald-trumps-speech-on-national-security-in)
++ [Transcript: Donald Trump's full immigration speech, annotated. LA Times, 08/31/2016](http://www.latimes.com/politics/la-na-pol-donald-trump-immigration-speech-transcript-20160831-snap-htmlstory.html)
++ [Transcript of Donald Trump’s speech on national security in Philadelphia - The Hill, 09/07/16](http://thehill.com/blogs/pundits-blog/campaign/294817-transcript-of-donald-trumps-speech-on-national-security-in)
 + [Transcript of President-elect Trump's news conference
 CNBC, 01/11/2017](http://www.cnbc.com/2017/01/11/transcript-of-president-elect-donald-j-trumps-news-conference.html)
 
@@ -182,7 +184,7 @@ for(i in 1:nrow(speech.list)){
 }
 ```
 
-Some non-sentences exist in raw data due to erroneous extra end-of sentence marks. 
+Some non-sentences exist in raw data due to erroneous extra end-of-sentence marks. 
 ```{r}
 sentence.list=
   sentence.list%>%
@@ -742,3 +744,9 @@ fviz_cluster(km.res,
              show.clust.cent=FALSE)
 ```
 
+# Readings for NLP with Python
+
++ [Natural Language Processing with Python](http://www.nltk.org/book/)
++ [A shorter tutorial](https://www.digitalocean.com/community/tutorials/how-to-work-with-language-data-in-python-3-using-the-natural-language-toolkit-nltk)
++ [Sentiment analysis](https://pythonspot.com/en/python-sentiment-analysis/)
++ [Topic modeling](https://medium.com/@aneesha/topic-modeling-with-scikit-learn-e80d33668730)
