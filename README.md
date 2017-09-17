@@ -20,7 +20,7 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 2: Shiny App Development
-([starter codes](/Projects_StarterCodes/Project2-OpenData))
+([starter codes](/Projects_StarterCodes/Project2_OpenData))
 #### Week 3 (9/20)
 + Project 1 presentations
 + [Project 2](Projects_StarterCodes/Project2_OpenData/doc/project2_desc.md) starts.
