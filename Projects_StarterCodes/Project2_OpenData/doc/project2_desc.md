@@ -1,11 +1,11 @@
-### GU4243/GR5243 Spring 2017 Applied Data Science
+### GU4243/GR5243 Fall 2017 Applied Data Science
 ### Project 2 Shiny App Development
 ### - for [data.gov](https://www.data.gov/) open data
 
 In this project, working in teams, you will create a `R` shiny app for exploring and visualizing a topic about United States using open data from [data.gov](https://www.data.gov/). 
 
 ### Challenge
-For this project, I invite you to browse 193,990 datasets available on data.gov](https://www.data.gov/) about United States and choose a topic that interest you. A number of web applications using open data from data.gov can be found at <https://www.data.gov/applications>. You can recreate, extend and improve some of these applications' functionality or create something entirely from scratch. 
+For this project, I invite you to browse 193,990 datasets available on data.gov (https://www.data.gov/) about United States and choose a topic that interests you. A number of web applications using open data from data.gov can be found at <https://www.data.gov/applications>. You can recreate, extend and improve some of these applications' functionality or create something entirely from scratch. 
 
 For presentation, the team should present their **shiny app** as a *product demo* and interesting findings from their experience. All shiny apps are required to be deployed (either on <http://www.shinyapps.io/> or your own Shiny server). 
 
@@ -36,7 +36,7 @@ Each week, we will give a tutorial in class and having live discussion and brain
 
 ### Suggested team workflow
 1. [wk1] Week 1 is the **planning** week. Read data description and browse data. 
-2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments as issues on GitHub by Feburary 10th. 
+2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments as issues on GitHub by Sep 27th. 
 3. [wk1] As a team, read the example blog posts, projects from [Spring 2016](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html) and [Fall 2016](http://tzstatsads.github.io//2016/11/09/Fal-l2016-Project2-Summary.html) on NYC open data, or other interesting analyses found online together (not necessarily face-to-face). During the discussion, study a number of analyses carefully on the techniques and computational packages used.
 	 * "What information is of value or interesting?"
      * "Which analysis/visualization is particularly informative?" 
@@ -44,10 +44,10 @@ Each week, we will give a tutorial in class and having live discussion and brain
 4. [wk1] As a team, brainstorm about possible topics 
 5. [wk2] Based on outcomes from week 1 brainstorm sessions, identify the dataset(s) to download and start data cleaning (start early on this one!)
 6. [wk2] Week 2 is the **design and development** week. Start learning and using the shiny library to do simple things. Some team members may know more about shiny than others. Share and learn together. 
-7. [wk2] It is ok to have 2-3 leads to explore  at the beginning of week 2 but it is better to converge on a single topic by the end of week 2 (2/17). 
+7. [wk2] It is ok to have 2-3 leads to explore  at the beginning of week 2 but it is better to converge on a single topic by the end of week 2 (10/4). 
 8. [wk2] Construction of shiny platform can start early using fake/simulated data. 
-9. [wk3] Week 3 is the shiny app **implementation/production/testing** week. By 2/17 (the beginning of week 3), you should have a cleaned set of data and a project idea. 
-10. [wk3] By 2/17, You should layout a to-do list (as a 2nd set of GitHub issues) for the app production and divide up tasks. At the session on 2/17, team members should work together and resolve any ambiguity about which team member should be doing what for the final stage of production of the app. 
+9. [wk3] Week 3 is the shiny app **implementation/production/testing** week. By 10/4 (the beginning of week 3), you should have a cleaned set of data and a project idea. 
+10. [wk3] By 10/4, You should layout a to-do list (as a 2nd set of GitHub issues) for the app production and divide up tasks. At the session on 10/4, team members should work together and resolve any ambiguity about which team member should be doing what for the final stage of production of the app. 
 
 ### Working together
 - Setup a GitHub project folder from joining the GitHub classroom link with everyone listed as contributors. Everyone clones the project locally via your GitHub desktop and create a local branch. 
