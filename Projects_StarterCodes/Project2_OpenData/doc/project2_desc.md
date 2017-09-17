@@ -86,7 +86,7 @@ Examples
 
 *These are not fully tested and more tools can be found.
 
-- [Dashboards using R, Shiny and GoogleVis](http://www.r-bloggers.com/dashboards-in-r-with-shiny-and-googlevis/) This simple example shows how you can have multiple tabs in your shiny app, each corresponding to a different analysis/visulization.
+- [Dashboards using R, Shiny and GoogleVis](http://www.r-bloggers.com/dashboards-in-r-with-shiny-and-googlevis/) This simple example shows how you can have multiple tabs in your shiny app, each corresponding to a different analysis/visualization.
 - [Hierarchical clustering with R, D3.js and Shiny](http://www.r-bloggers.com/hierarchical-clustering-with-r-feat-d3-js-and-shiny/)
 - [Combining th power of d3.js and R](http://blog.ae.be/combining-the-power-of-r-and-d3-js/) d3.js is a powerful javascript library with a rich [gallery](https://github.com/mbostock/d3/wiki/Gallery) of examples. In my research, my student followed the 3rd example in this blogpost and adapted new json data using [`RJSONIO`](https://cran.r-project.org/web/packages/RJSONIO/index.html) using the exsiting d3.js codes in that visualization. 
 - [plot.ly for shiny](https://plot.ly/r/shiny-tutorial/) plot.ly has a nice library of interactive visualization that can be incorporated with shiny.
