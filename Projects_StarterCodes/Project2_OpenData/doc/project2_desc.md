@@ -95,7 +95,7 @@ Examples
 - [postGIS](http://rpubs.com/dgolicher/6373) process and visualize spatial data
 - [leaflet](https://rstudio.github.io/leaflet/shiny.html) interactive spatial visualization.
 - [Geo Visualization using ggplot and ggmap](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf)
-- [Build your own Shiny server on AWS](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/), [[Amazon Machine Image](http://www.louisaslett.com/RStudio_AMI/)]
+- [Build your own Shiny server on AWS](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/) [[Amazon Machine Image](http://www.louisaslett.com/RStudio_AMI/)]
 
 #### Paper to read
 <ul>
