@@ -17,7 +17,7 @@ The **learning goals** for this project is:
 *The above general statement about project 2 can be removed once you are finished with your project. It is optional.
 
 ## Project Title Lorem ipsum dolor sit amet
-Term: Spring 2017
+Term: Fall 2017
 
 + Team #
 + **Projec title**: + Team members
