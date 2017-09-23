@@ -32,7 +32,7 @@
     + a short tutorial to get you started.
 
 #### Week 4 (9/27)
-+ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html) ([app](Projects_startercodes/Project2_OpenData/app/))
++ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html) ([app](Projects_StarterCodes/Project2_OpenData/app/))
 + Shiny Tutorial (Chengliang Tang) ([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/Shiny_tutorial/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
 
