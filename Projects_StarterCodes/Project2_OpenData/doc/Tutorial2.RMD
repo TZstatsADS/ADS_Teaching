@@ -98,12 +98,6 @@ library(ggmap)
 ggmap(get_map("New York, New York",zoom=11,color = "bw")) + 
   geom_point(data=mh2009.selgeo, aes(x=lon,y=lat),  color='red') 
 ```
-## Plot using longitude and latitude
-```{r plot_indiv, message=F, warning=F, echo=F}
-library(ggmap)
-ggmap(get_map("New York, New York",zoom=11,color = "bw")) + 
-  geom_point(data=mh2009.selgeo, aes(x=lon,y=lat),  color='red') 
-```
 
 ## Shiny app
 A shiny app needs two files.
