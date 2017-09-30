@@ -39,7 +39,7 @@
 
 #### Week 5 (10/4)
 + Feebback on project 1
-+ [Tutorial on giving presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/MakingPresentation.pdf)
++ [Tutorial on giving presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/MakingPresentation.pdf)
 + Brainstorm on project 2
 
 #### Week 6 (10/11)
