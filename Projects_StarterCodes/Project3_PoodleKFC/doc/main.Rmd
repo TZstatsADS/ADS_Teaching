@@ -114,7 +114,7 @@ Call the train model and test model from library.
   + Output: an RData file that contains trained classifiers in the forms of R objects: models/settings/links to external trained configurations.
 + `test.R`
   + Input: a path that points to the test set features.
-  + Input: an R object that contains a trained classifiers.
+  + Input: an R object that contains a trained classifier.
   + Output: an R object of class label predictions on the test set. If there are multiple classifiers under evaluation, there should be multiple sets of label predictions. 
 ```{r loadlib}
 source("../lib/train.R")
