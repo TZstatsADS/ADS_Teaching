@@ -1,4 +1,4 @@
-# Project: Labradoodle or Fried Chicken? 
+# Project: Dogs, Fried Chicken or Blueberry Muffins? 
 
 ### Code lib Folder
 
