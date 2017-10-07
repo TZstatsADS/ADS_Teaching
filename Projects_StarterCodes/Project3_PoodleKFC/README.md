@@ -1,4 +1,4 @@
-# Project: Labradoodle or Fried Chicken? In Blakc and White. 
+# Project: Dogs, Fried Chicken or Blueberry Muffins?
 ![image](figs/poodleKFC.jpg)
 
 ### [Full Project Description](doc/project3_desc.html)
