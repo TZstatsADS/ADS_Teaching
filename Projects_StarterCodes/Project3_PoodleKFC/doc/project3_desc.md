@@ -36,14 +36,14 @@ Assume that the **current practice** on your client side is just using [boosted]
 
 #### Project details
 
-For this project, you are to carry out a business feasibility evaluation project that try to propose a **feasible** improvement over the current practice in terms of running cost (storage, memory and time) **and** prediction accuracy. 
+For this project, you are to carry out a business feasibility evaluation project that tries to propose a **feasible** improvement over the current practice in terms of running cost (storage, memory and time) **and** prediction accuracy. 
 
 ##### Project time table.
 
-- week 1 (2/24): introduction and project description
-- week 2 (3/3): image processing and feature extraction
-- week 3 (3/10): supervised learning and model assessment
-- Final presentation (3/24)
+- week 1 (10/11): introduction and project description
+- week 2 (10/18): image processing and feature extraction
+- week 3 (10/25): supervised learning and model assessment
+- Final presentation (11/1)
 
 ##### Project learning support 
 
