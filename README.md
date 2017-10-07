@@ -43,13 +43,23 @@
 + Brainstorm on project 2
 
 #### Week 6 (10/11)
++ Project 2 presentations
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 3: 
+([starter codes](Projects_startercodes/Project3_PoodleKFC))
 
 #### Week 6 (10/11)
++ [Project 3](Projects_startercodes/Project3_PoodleKFC/doc/project3_desc.md) starts.
+  + Check Piazza for your project team and GitHub join link.
+  + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
+  + You can find in the *starter codes* 
+    + the project description, 
+    + an example project 
++ [Intro to Project 3](Tutorials/wk6-Project_evaluation.pdf) 
++ [Example `main.Rmd`](Projects_startercodes/Project3_PoodleKFC/doc/main.Rmd) ([pdf](Projects_startercodes/Project3_PoodleKFC/doc/main.pdf))
 
 #### Week 7 (10/18)
 
