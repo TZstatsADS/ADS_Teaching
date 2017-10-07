@@ -113,9 +113,9 @@ local proj/
 ├──GitHub/
 ├── README
 ```
-- The team can work with subgroups of 2-3 work together more frequently than the entire team. However, everyone should check in regularly on group discussion online and changes in the GitHub folder.  
+- The team can work with subgroups of 2-3 together more frequently than the entire team. However, everyone should check in regularly on group discussion online and changes in the GitHub folder.  
 
 ##### Example starter codes
 
-As example, you can find in the GitHub starter codes an example using handwritten zipcode data. We will give more examples during tutorials. 
+As an example, you can find in the GitHub starter codes an example using handwritten zipcode data. We will give more examples during tutorials. 
 
