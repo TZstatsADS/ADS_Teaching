@@ -88,7 +88,7 @@ GitHub_proj/
 - In `data`, team members should individually save raw image data and a file that contains groundtruth labels for the images on their local computer. Currently there is a data folder with example hand-written zipcode images for the starter codes. You should **remove** it from your final repo. You shall not upload the images as these are copy-right protected materials. 
 - The `doc` folder should have documentations for this project, presentation files and other supporting materials. You should have a final `main.RMD` following the template given in the starter codes. Your `main.RMD` can assume that there is a data folder of raw images outside the root with subfolders corresponding to the training set and the test set. 
 - The `figs` folder contains figure files produced during the project and running of the codes. 
-- The `lib` folder contain R codes for the AI program. It should have the following files: `feature.R`, `train.R`, and `test.R`. The codes in the `lib` folder are not intended to be run directly but to be called from `main.RMD`. 
+- (For R users) The `lib` folder contain R codes for the AI program. It should have the following files: `feature.R`, `train.R`, and `test.R`. The codes in the `lib` folder are not intended to be run directly but to be called from `main.RMD`. 
 - The `output` folder is the holding place for feature extracted, other intermediate and final results.
 
 The instructional team will download each team's GitHub repo and cross-examine each team's proposal for reproducibility on the current dataset and for reliability using a different dataset.
