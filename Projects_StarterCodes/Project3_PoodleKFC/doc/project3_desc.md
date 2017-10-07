@@ -18,8 +18,8 @@ Assume that the **current practice** on your client side is just using [boosted]
 
 #### Evaluation criteria 
 - Ease of reproducibility by the client (the instruction team)
-	* are the codes for the proposed methods well annotated and documented?
-	* can the analysis be re-run nearly automatically using the project's `main.rmd`.
+	* Are the codes for the proposed methods well annotated and documented?
+	* Can the analysis be re-run nearly automatically using the project's `main.rmd`.
 - Level of reproducibility
 	* Can client derive the same evaluation conclusion as presented in the team's final presentation?
 	* How close are the reported performances (presentation and online) to the reproduced performances?
