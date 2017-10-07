@@ -1,4 +1,4 @@
-## STAT GU4243/GR5243 Spring 2017 Applied Data Science
+## STAT GU4243/GR5243 Fall 2017 Applied Data Science
 ### Project 3 Predictive analytics-model evaluation and selection
 
 ### - for poodle versus fried chickens (KFC?)
