@@ -1,7 +1,7 @@
 ## STAT GU4243/GR5243 Fall 2017 Applied Data Science
 ### Project 3 Predictive analytics-model evaluation and selection
 
-### - for poodle versus fried chickens (KFC?)
+### - for dogs versus fried chicken (KFC?) versus blueberry muffins
 
 In this project, we will carry out **model evaluation and selection** for predictive analytics on image data. As data scientists, we often need to **evaluate** different modeling/analysis strategies and decide what is the best. Such decisions need to be supported by sound evidence in the form of *model assessment, validation and comparison*. In addition, we also need to **communicate our decision and supporting evidence** clearly and convincingly in an accessible fashion.
 
