@@ -48,7 +48,6 @@ In this chunk, ,we have a set of controls for the evaluation experiments.
 + (number) K, the number of CV folds
 + (T/F) process features for training set
 + (T/F) run evaluation on an independent test set
-+ (T/F) run evaluation on an independent test set
 
 ```{r exp_setup}
 run.cv=TRUE # run cross-validation on the training set
