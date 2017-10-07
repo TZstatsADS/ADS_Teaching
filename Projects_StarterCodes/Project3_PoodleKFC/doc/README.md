@@ -1,4 +1,4 @@
-# Project: Labradoodle or Fried Chicken?  
+# Project: Dogs, Fried Chicken or Blueberry Muffins? 
 
 ### Doc folder
 
