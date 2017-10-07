@@ -63,16 +63,13 @@ For presentation, the team should present their **proposal** for an improvement 
 The presentation can be technical but need to be accessible to your peer students in our class. 
 
 ##### Platform requirement
-We will reproduce your proposed model solution using `R`. This is a technical limitation of this project. Your classification model and model assessment must be conducted in `R`. 
 
-If you would like to use a tool such as tensorflow, you would need to include detailed installation steps in your RMarkdown file and use R wrappers. 
-
-You can use any tools for *feature engineering* as you will be processing features for the test images on 3/24.
+You can use any tools for *feature engineering* as you will be processing features for the test images on 11/1.
  
-+ Your feature processing needs to be reasonably efficient as you will have only 30 minutes to process 1000 new images. 
++ Your feature processing needs to be reasonably efficient as you will have only 30 minutes to process 3000 new images. 
 + Your feature program should have 
 	+ a folder path as an input 
-	+ and output a single RData file that contains feature R object as input for your `main.RMD` and `train.R` program.
+	+ and output a single (if you are using R) RData file that contains feature R object as input for your `main.RMD` and `train.R` program.
 
 ##### Reproducibility requirement
 
