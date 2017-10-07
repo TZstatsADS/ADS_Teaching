@@ -183,7 +183,7 @@ if(run.test){
 ```
 
 ### Summarize Running Time
-Prediction performance matters, do does the running times for constructing features and for training the model, especially when the computation resource is limited. 
+Prediction performance matters, so does the running times for constructing features and for training the model, especially when the computation resource is limited. 
 ```{r running_time}
 cat("Time for constructing training features=", tm_feature_train[1], "s \n")
 cat("Time for constructing testing features=", tm_feature_test[1], "s \n")
