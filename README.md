@@ -63,7 +63,7 @@
 
 #### Week 7 (10/18)
 + Recap on project 3 requirements and starter codes.
-+ Tutorial (Chengliang): [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/eda5671a/Tutorials/wk7-Image%20Analysis/EBImage/image_analysis.html) + [SIFT](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/17cda16a/Tutorials/wk7-Image%20Analysis/EBImage%26SIFT/advanced_image_analysis.html) ([zipped folder](/Tutorials/wk7-Image%20Analysis.zip)) + [MATLAB codes for SIFT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-Image%20Analysis/MATLAB_sift.zip)
++ Tutorial (Chengliang): [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/71299baf/Tutorials/wk7-Image%20Analysis/EBImage%26SIFT/image_analysis.html) + [SIFT](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/71299baf/Tutorials/wk7-Image%20Analysis/EBImage%26SIFT/advanced_image_analysis.html) ([zipped folder](/Tutorials/wk7-Image%20Analysis.zip)) + [MATLAB codes for SIFT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-Image%20Analysis/MATLAB_sift.zip)
 
 #### Week 8 (10/25)
 
