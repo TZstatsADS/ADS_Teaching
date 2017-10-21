@@ -4,7 +4,7 @@
 # Advanced Image Analysis
 Chengliang Tang, Yuting Ma
 
-Applied Data Science (2017 Spring)
+Applied Data Science (2017 Fall)
 
 
 ## Scale Invariant Feature Transformation (SIFT)
