@@ -67,7 +67,7 @@
 
 #### Week 8 (10/25)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ [Tutorial on gradient boosting machines (GBM)](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
++ [Tutorial on gradient boosting machines (GBM)](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
 + [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 + We will email you a checklist for project submission on 3/24.
 + [Project 3 Summary for Fall 2016](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Fall2016/Tutorials/project3_summary.html) (Chengliang Tang)
