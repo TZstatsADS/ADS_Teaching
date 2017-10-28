@@ -73,14 +73,15 @@
 + [Project 3 Summary for Spring 2017](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/a8d4e965/Tutorials/wk13-proj3Summary/project3_summary.html) (Chengliang Tang)
 
 #### Week 9 (11/1) 
-
+Project 3 presentations
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
-### Project cycle 4: 
-
+### Project cycle 4: Algorithm implementation and evaluation
+([starter codes](Projects_startercodes/Project4_CollaborativeFlitering))
 #### Week 9 (11/1)
++ Introduction to [Project 4](Projects_startercodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
 
 #### Week 10 (11/8)
 
