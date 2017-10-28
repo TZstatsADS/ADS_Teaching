@@ -44,19 +44,19 @@ Each week, we will give a tutorial in class and having live discussion and brain
 #### Papers
 
 1. Breese, J. S., Heckerman, D., & Kadie, C. (1998, July). Empirical analysis of predictive algorithms for collaborative filtering. In Proceedings of the Fourteenth conference on Uncertainty in artificial intelligence (pp. 43-52). Morgan Kaufmann Publishers Inc..
-  * From Microsoft Research. It is an introduction to collaborative filtering, and evaluated the data set we use.
+   * From Microsoft Research. It is an introduction to collaborative filtering, and evaluated the data set we use.
 
 2. Herlocker, J. L., Konstan, J. A., Borchers, A., & Riedl, J. (1999, August). An algorithmic framework for performing collaborative filtering. In Proceedings of the 22nd annual international ACM SIGIR conference on Research and development in information retrieval (pp. 230-237). ACM.
-  * Proposes a framework for collaborative filtering. We will implement specific algorithms following this framework.
+   * Proposes a framework for collaborative filtering. We will implement specific algorithms following this framework.
 
 3. Jeh, G., & Widom, J. (2002, July). SimRank: a measure of structural-context similarity. In Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 538-543). ACM.
-  * Proposes a specific similarity measure.
+   * Proposes a specific similarity measure.
 
 4. Schein, A. I., Popescul, A., Ungar, L. H., & Pennock, D. M. (2002, August). Methods and metrics for cold-start recommendations. In Proceedings of the 25th annual international ACM SIGIR conference on Research and development in information retrieval(pp. 253-260). ACM.
-  * FYI on code-start problems.
+   * FYI on code-start problems.
 
 5. Su, X., & Khoshgoftaar, T. M. (2009). A survey of collaborative filtering techniques. Advances in artificial intelligence, 2009, 4.
-  * A review paper of collaborative filtering.
+   * A review paper of collaborative filtering.
 
 #### Existing R/Python functions that can be part of your implementation.
 
