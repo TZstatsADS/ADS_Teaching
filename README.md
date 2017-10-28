@@ -79,7 +79,7 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
 ### Project cycle 4: Algorithm implementation and evaluation
-([starter codes](Projects_StarterCodes/Project4_CollaborativeFlitering))
+([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
 #### Week 9 (11/1)
 + Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
 
