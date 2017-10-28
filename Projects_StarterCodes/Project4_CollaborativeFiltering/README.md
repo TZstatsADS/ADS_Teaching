@@ -1,8 +1,8 @@
-# Project 4: Who Is Who -- Entity Resolution
+# Project 4: Collaborative Filtering
 
 ### [Project Description](doc/project4_desc.md)
 
-Term: Spring 2017
+Term: Fall 2017
 
 + Team #
 + Projec title: Lorem ipsum dolor sit amet
