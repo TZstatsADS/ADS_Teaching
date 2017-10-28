@@ -1,4 +1,4 @@
-# Project4: Who Is Who -- Entity Resolution
+# Project4: Collaborative Filtering
 
 ### Output folder
 
