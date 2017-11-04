@@ -86,7 +86,7 @@
 #### Week 10 (11/8)
 + Recap on project 4 requirements.
 + Overview of collaborative filtering.
-+ (Chengliang) Overview of the reference papers.
++ Overview of the reference papers (Chengliang).
 + Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
 
 #### Week 11 (11/15)
