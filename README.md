@@ -90,7 +90,7 @@
 + Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
 
 #### Week 11 (11/15)
-
++ [Cluster Model](/Tutorials/wk11-notes_cluster/document.pdf)(Chengliang Tang)
 #### *Thanksgiving break*
 
 #### Week 12 (11/29)
