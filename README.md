@@ -98,7 +98,7 @@
 
 #### Week 12 (11/29)
 + Project 4 presentations
-+ Project 3 Summary
++ Project 3 summary
 
 ----
 ### Project cycle 5: 
