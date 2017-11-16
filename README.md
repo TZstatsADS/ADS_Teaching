@@ -97,6 +97,8 @@
 #### *Thanksgiving break*
 
 #### Week 12 (11/29)
++ Project 4 presentations
++ Project 3 Summary
 
 ----
 ### Project cycle 5: 
