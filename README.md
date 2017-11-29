@@ -98,7 +98,7 @@
 
 #### Week 12 (11/29)
 + Project 4 presentations
-+ Project 3 summary
++ [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/8ecad713/Tutorials/wk13-project3summary/wk13-project3_summary.html)
 
 ----
 ### Project cycle 5: 
