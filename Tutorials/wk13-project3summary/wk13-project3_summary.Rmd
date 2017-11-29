@@ -34,15 +34,15 @@ axis(1, bar_time, labels=as.character(1:9))
 ```
 
 ### Running Time
-Advanced models: SVM(5, 7, 10, 11, 13), xgboost(1, 2, 6), majority vote(4), random forest(9, 12), model ensemble(3, 8), DNN(14)
+Advanced models: SVM(6), xgboost(2, 3, 5, 7), majority vote(8), CNN(1), logistic regression(4), AdaBoost(9)
 ```{r, echo=FALSE}
 # run Results.R first
-RunningTime <- c(60, 57, 7, 30, 10, 10, 9, 65, 8, 120, 120, 180, 10, 660)
+RunningTime <- c(9240.48, 378.89, 194.66, 9.443626, 30.4, 1.5, 24.26, 6.7, 1800.6)
 log_RunningTime <- log(RunningTime)
 bar_time <- barplot(log_RunningTime, main="Advanced Model Running Time",
         xlab="Team", ylab="log(t)", ylim=c(0, 10))
 text(bar_time, log_RunningTime+0.5, as.character(RunningTime), cex=0.8)
-axis(1, bar_time, labels=as.character(1:14))
+axis(1, bar_time, labels=as.character(1:9))
 ```
 
 ## Performance
@@ -50,37 +50,40 @@ axis(1, bar_time, labels=as.character(1:14))
 
 ```{r, echo=FALSE}
 # data saved in Results.R
-err_claimed <- c(0.271, 0.2365, 0.2875, 0.275, 0.33, 0.23, 0.3003, 0.235, 0.2743, 0.294, 0.27, 0.238, 0.306, 0.27)
+err_claimed <- c(0.2067, 0.297, 0.2, 0.25, 0.2227, 0.269, 0.19, 0.234, 0.204)
 err_adv_claimed <- rep(err_claimed, each=20)
 CV_error_baseline <- c(
-  0.2525, 0.2225, 0.28, 0.27, 0.2325,
-  0.245, 0.2575, 0.275, 0.265, 0.3025,
-  0.25, 0.2525, 0.2275, 0.2125, 0.23,
-  0.2325, 0.2275, 0.2525, 0.2525, 0.225,
-  0.2225, 0.2475, 0.2450, 0.2225, 0.2650,
-  0.26, 0.255, 0.32, 0.265, 0.2725,
-  0.2625, 0.3075, 0.265, 0.2525, 0.3100,
-  0.28, 0.325, 0.2975, 0.2825, 0.3075,
-  0.2425, 0.2975, 0.2775, 0.2625, 0.29,
-  0.3025, 0.3175, 0.3, 0.27, 0.3025,
-  0.2275, 0.2325, 0.2275, 0.2275, 0.235,
-  0.21, 0.2025, 0.2075, 0.2075, 0.1975,
-  0.2525, 0.29, 0.2675, 0.2475, 0.2825,
-  0.2625, 0.2575, 0.27, 0.2325, 0.245
-)
+  0.217,
+0.283,
+0.208,
+0.22,
+0.276,
+0.281,
+0.193,
+0.235,
+0.218)
+err_retrained <- rep(CV_error_baseline, each=20)
 # load("label_eval.RData")
 # load("pred_untuned.RData")
 # ind_fun <- which(is.na(label_eval))
-err_untuned <- c(0.3115, 0.3055, 0.305, 0.302, 0.511, 0.3845, 0.296, 0.3125, 0.301, 0.323, 0.3245, 0.305, 0.3145, 0.5155)
+err_untuned <- c(0.228,
+0.449,
+0.217,
+0.168,
+0.237,
+0.281,
+0.201,
+0.269,
+0.265)
 err_adv_untuned <- rep(err_untuned  , each=20)
 
 type_names <- c("claimed", "untuned", "re-trained")
 # team_names <- paste0("Team ", 1:12)
-team_names <- 1:14
+team_names <- 1:9
 # load("output_proj3.RData")
 err_adv_all <- data.frame(Team=rep(rep(team_names, each=20), times=3), 
-  					  Type=rep(type_names, each=280),
-						  Error= c(err_adv_claimed, err_adv_untuned, rep(CV_error_baseline, each = 4))) #as.vector(t(output$err_adv_retrained))))
+  					  Type=rep(type_names, each=180),
+						  Error= c(err_adv_claimed, err_adv_untuned, err_retrained)) #as.vector(t(output$err_adv_retrained))))
 
 err_adv_all$Type <- factor(err_adv_all$Type, levels= type_names)
 err_adv_all$Team <- factor(err_adv_all$Team, levels= team_names)
@@ -89,7 +92,7 @@ err_adv_all$Team <- factor(err_adv_all$Team, levels= team_names)
 err_adv_all$Error <- err_adv_all$Error*100
 
 type_names <- c("claimed", "untuned", "re-trained")
-team_names <- paste0("Team ", 1:14)
+team_names <- paste0("Team ", 1:9)
 
 library(ggplot2)
 (ggplot(err_adv_all, aes(y = Error, x = Team, fill = Type, colour = Type)) 
@@ -114,42 +117,54 @@ library(ggplot2)
 ```
 
 ### Advanced Prediction Accuracy
-Advanced Features: GIST(1), resized SIFT(2, 10, 11, 13), CNN(3), LBP(4, 6), HoG(5, 7, 8, 9), grayscale(12), raw images(14)
+Advanced Features: GIST(5), resized SIFT(2, 3, 9), CNN(1), LBP(3, 4, 6, 9), HoG(3, 8), color(3, 7)
 
-Advanced models: SVM(5, 7, 10, 11, 13), xgboost(1, 2, 6), majority vote(4), random forest(9, 12), model ensemble(3, 8), DNN(14)
+Advanced models: SVM(6), xgboost(2, 3, 5, 7), majority vote(8), CNN(1), logistic regression(4), AdaBoost(9)
 
 ```{r, echo=FALSE}
-err_claimed <- c(0.142, 0.189, 0.0475, 0.1312, 0.12, 0.10, 0.122, 0.107, 0.07, 0.188, 0.09, 0.006, 0.1975, 0.19)
+# data saved in Results.R
+err_claimed <- c(0.062,
+0.1733,
+0.11,
+0.18,
+0.1328,
+0.1957,
+0.093,
+0.169,
+0.085)
 err_adv_claimed <- rep(err_claimed, each=20)
-CV_error_adv <- c(
-  0.135, 0.1425, 0.19, 0.1325, 0.135,
-  0.1480, 0.1470, 0.1510, 0.1355, 0.1510,
-  0.0175, 0.04, 0.03, 0.015, 0.0275,
-  0.04, 0.0525, 0.0775, 0.055, 0.0575,
-  0.1675, 0.1250, 0.1775, 0.1950, 0.1550,
-  0.0925, 0.0775, 0.09, 0.095, 0.095,
-  0.075, 0.0775, 0.06, 0.0775, 0.08,
-  0.0625, 0.065, 0.065, 0.0675, 0.05,
-  0.0375, 0.02, 0.03, 0.05, 0.0325,
-  0.175, 0.17, 0.205, 0.2025, 0.195,
-  0.25, 0.245, 0.5175, 0.2575, 0.2725,
-  0, 0.005, 0, 0.005, 0,
-  0.1775, 0.185, 0.21, 0.21, 0.2,
-  0.26, 0.135, 0.15, 0.1425, 0.14
-)
-#load("label_eval.RData")
-#load("pred_untuned.RData")
+CV_error_baseline <- c(
+0.0733,
+0.1878,
+0.1283,
+0.1633,
+0.126,
+0.219,
+0.096,
+0.271,
+0.105)
+err_retrained <- rep(CV_error_baseline, each=20)
+# load("label_eval.RData")
+# load("pred_untuned.RData")
 # ind_fun <- which(is.na(label_eval))
-err_untuned <- c(0.1695, 0.3415, 0.041, 0.1275, 0.379, 0.2905, 0.1495, 0.197, 0.079, 0.27, 0.341, 0.0655, 0.2335, 0.183)
+err_untuned <- c(0.233,
+0.337,
+0.257,
+0.166,
+0.15,
+0.24,
+0.093,
+0.427,
+0.403)
 err_adv_untuned <- rep(err_untuned  , each=20)
 
 type_names <- c("claimed", "untuned", "re-trained")
 # team_names <- paste0("Team ", 1:12)
-team_names <- 1:14
+team_names <- 1:9
 # load("output_proj3.RData")
 err_adv_all <- data.frame(Team=rep(rep(team_names, each=20), times=3), 
-  					  Type=rep(type_names, each=280),
-						  Error= c(err_adv_claimed, err_adv_untuned, rep(CV_error_adv, each = 4))) #as.vector(t(output$err_adv_retrained))))
+  					  Type=rep(type_names, each=180),
+						  Error= c(err_adv_claimed, err_adv_untuned, err_retrained)) #as.vector(t(output$err_adv_retrained))))
 
 err_adv_all$Type <- factor(err_adv_all$Type, levels= type_names)
 err_adv_all$Team <- factor(err_adv_all$Team, levels= team_names)
@@ -158,7 +173,7 @@ err_adv_all$Team <- factor(err_adv_all$Team, levels= team_names)
 err_adv_all$Error <- err_adv_all$Error*100
 
 type_names <- c("claimed", "untuned", "re-trained")
-team_names <- paste0("Team ", 1:14)
+team_names <- paste0("Team ", 1:9)
 
 library(ggplot2)
 (ggplot(err_adv_all, aes(y = Error, x = Team, fill = Type, colour = Type)) 
@@ -179,7 +194,6 @@ library(ggplot2)
 + scale_colour_brewer(palette = "Dark2", guide = FALSE)
 + scale_fill_brewer(palette = "Pastel2", labels=type_names, guide = guide_legend(title = "Type"))
 + geom_vline(xintercept = seq(1.5, 13.5, 1), linetype = "longdash", colour="lightgrey")) 
-
 ```
 
 
