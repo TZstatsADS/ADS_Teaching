@@ -1,4 +1,4 @@
-# Fall 2017
+# Spring 2018
 # Project 1: What did the presidents say at their inauguation?
 
 ![image](figs/title.jpg)
@@ -6,7 +6,7 @@
 ### [Project Description](doc/)
 This is the first and only *individual* (as opposed to *team*) this semester. 
 
-Term: Fall 2017
+Term: Spring 2018
 
 + Projec title: Lorem ipsum dolor sit amet
 + This project is conducted by [your name]
