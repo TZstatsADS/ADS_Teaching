@@ -1,4 +1,4 @@
-### G5243/GU4243 Fall 2017 
+### GR5243 Spring 2018 
 ### Applied Data Science
 
 #### Department of Statistics, Columbia University 
@@ -9,9 +9,9 @@
 * TA: Chengliang Tang. <ct2747@columbia.edu> [(@ChengliangTang)](http://github.com/ChengliangTang)
 * Course websites (all accessible via courseworks or github): 
   * Grades and basic course info: <http://courseworks.columbia.edu>
-  * Discussion board: Piazza <https://piazza.com/class/j6wvtt7jb854wd>
+  * Discussion board: Piazza (TBA)
   * Course materials and repositories: <http://tzstatsads.github.io>
- 
+
 #### Prerequisites
 The pre-requisite for this course includes working knowledge in statistics and probability, data mining, statistical modeling and machine learning. Prior advanced programming experience in R or Python is required. 
 
@@ -43,27 +43,28 @@ We will have a total of five project cycles for this course:
 
 Below is a tentative schedule we will follow.
 
-+ Week 1 (9/6): 1a+1b
-+ Week 2 (9/13): 1c
-+ Week 3 (9/20): 1d+2a
-+ Week 4 (9/27): 2b+2c
-+ Week 5 (10/4): 2c
-+ Week 6 (10/11): 2d+3a
-+ Week 7 (10/18): 3b+3c
-+ Week 8 (10/25): 3b+3c
-+ Week 9 (11/1): 3d+4a
-+ Week 10 (11/8): 4b+4c
-+ Week 11 (11/15): 4b+4c
-+ *Thanksgiving break week*
-+ Week 12 (11/29): 4d
-+ Week 13 (12/6): 5d
++ Week 1 (1/17): 1a+1b
++ Week 2 (1/24): 1c
++ Week 3 (1/31): 1d+2a
++ Week 4 (2/7): 2b+2c
++ Week 5 (2/14): 2c
++ Week 6 (2/21): 2d+3a
++ Week 7 (2/28): 3b+3c
++ Week 8 (3/7): 3b+3c
++ Spring break week
++ Week 9 (3/21): 3c+4a
++ Week 10 (3/28): 4b+4c
++ Week 11 (4/4): 4b+4c
++ Week 12 (4/11): 4d
++ Week 13 (4/28): 5c
++ Week 14 (4/25): 5d
 
 #### Evaluation
 
 Students' performance will be based on 
 
-* Project products (instructor-reviewed and/or peer-reviewed, averaged over 5 projects) 90%
-* Participation (instructors' observation) 10%
+* Project products (instructor-reviewed and/or peer-reviewed, averaged over 5 projects) 85%
+* Participation (instructors' observation) 15%
 
 	##### A note on participation evaluation. 
 	This semester, we will enforce formal evaluation of participation as follows. 
@@ -104,7 +105,3 @@ There is not a single required text. As part of this course, we will learn from 
 * Emails related to learning and projects shall be redirected to our discussion board.
  
 * Students are [expected](http://policylibrary.columbia.edu/student-email-communication-policy) to check emails at least once every 12 hours during the week and every 24 hours over the weekend. Students should make sure not to miss any important class-related announcements sent by emails or posted on Courseworks. Emails will be delivered to the students' official UNI. It is the students' responsibility to ensure that these emails are properly forwarded if they choose to use an alternative email address. 
-
-
-
-
