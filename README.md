@@ -73,28 +73,38 @@
 + [Project 3 Summary for Spring 2017](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/a8d4e965/Tutorials/wk13-proj3Summary/project3_summary.html) (Chengliang Tang)
 
 #### Week 9 (11/1) 
-
++ Project 3 presentations
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
-### Project cycle 4: 
-
+### Project cycle 4: Algorithm implementation and evaluation
+([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
 #### Week 9 (11/1)
++ Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
 
 #### Week 10 (11/8)
-
++ Recap on project 4 requirements.
++ Overview of collaborative filtering.
++ Overview of the reference papers (Chengliang).
++ Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
 
 #### Week 11 (11/15)
++ [Cluster Model](/Tutorials/wk11-notes_cluster/document.pdf) (Chengliang Tang)
++ Q&A on algorithms
++ Team meetings 
 
 #### *Thanksgiving break*
 
 #### Week 12 (11/29)
++ Project 4 presentations
++ [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/8ecad713/Tutorials/wk13-project3summary/wk13-project3_summary.html)
 
 ----
 ### Project cycle 5: 
 
 #### Week 13 (12/6)
++ Project 5 Presentations
 
 #### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 

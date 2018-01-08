@@ -1,8 +1,6 @@
-# Project 4: Collaborative Filtering
+# ADS Project 5: 
 
-### [Project Description](doc/project4_desc.md)
-
-Term: Fall 2017
+Term: Spring 2017
 
 + Team #
 + Projec title: Lorem ipsum dolor sit amet
