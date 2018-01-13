@@ -9,7 +9,7 @@
 * TA: Chengliang Tang. <ct2747@columbia.edu> [(@ChengliangTang)](http://github.com/ChengliangTang)
 * Course websites (all accessible via courseworks or github): 
   * Grades and basic course info: <http://courseworks.columbia.edu>
-  * Discussion board: Piazza (TBA)
+  * Discussion board: Piazza <https://piazza.com/class/jc6hfivtqnj0>
   * Course materials and repositories: <http://tzstatsads.github.io>
 
 #### Prerequisites
