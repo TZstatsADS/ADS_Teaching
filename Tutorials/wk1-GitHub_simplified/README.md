@@ -11,7 +11,7 @@
 	* from desktop: drag the folder to github desktop
 * Fork and Clone an existing git repository
    - from website
-	
+	- [from desktop](https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/)
 	
 #### Work on GitHub Desktop
 * Work in local repository
