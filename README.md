@@ -10,3 +10,8 @@
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)
 + [Tutorial 1 R Notebook](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutorial_rnotebook.html) + [Example](https://github.com/TZstatsADS/Fall2016-proj1-grp7)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
+
+#### Week 2 (9/13)
++ [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) ([zipped folder](Tutorials/wk2-TextMining.zip))
++ [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
++ Discussion and Q&A
