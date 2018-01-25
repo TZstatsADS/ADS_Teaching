@@ -99,13 +99,10 @@ library(shiny)
 shinyApp(
     ui = fluidPage(
       fluidRow(style = "padding-bottom: 20px;",
-        column(4, selectInput('speech1', 'Speech 1',
-                              speeches,
-                              selected=speeches[5])),
-        column(4, selectInput('speech2', 'Speech 2', speeches,
-                              selected=speeches[9])),
-        column(4, sliderInput('nwords', 'Number of words', 3,
-                               min = 20, max = 200, value=100, step = 20))
+        column(4, selectInput('speech1', 'Speech 1', speeches, selected=speeches[5])),
+        column(4, selectInput('speech2', 'Speech 2', speeches, selected=speeches[9])),
+        column(4, sliderInput('nwords', 'Number of words', 3, min = 20, 
+                              max = 200, value=100, step = 20))
       ),
       fluidRow(
         plotOutput('wordclouds', height = "400px")
@@ -113,13 +110,12 @@ shinyApp(
     ),
 
     server = function(input, output, session) {
-
       # Combine the selected variables into a new data frame
       selectedData <- reactive({
-        list(dtm.term1=ff.dtm$term[ff.dtm$document==as.character(input$speech1)],
-             dtm.count1=ff.dtm$count[ff.dtm$document==as.character(input$speech1)],
-             dtm.term2=ff.dtm$term[ff.dtm$document==as.character(input$speech2)],
-             dtm.count2=ff.dtm$count[ff.dtm$document==as.character(input$speech2)])
+        list(dtm.term1=ff.dtm$term[ff.dtm$document==as.character(which(speeches == input$speech1))],
+             dtm.count1=ff.dtm$count[ff.dtm$document==as.character(which(speeches == input$speech1))],
+             dtm.term2=ff.dtm$term[ff.dtm$document==as.character(which(speeches == input$speech2))],
+             dtm.count2=ff.dtm$count[ff.dtm$document==as.character(which(speeches == input$speech2))])
       })
 
       output$wordclouds <- renderPlot(height = 400, {
