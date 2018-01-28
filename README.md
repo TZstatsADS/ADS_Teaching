@@ -11,7 +11,7 @@
 + [Tutorial 1 R Notebook](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutorial_rnotebook.html) + [Example](https://github.com/TZstatsADS/Fall2016-proj1-grp7)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
-#### Week 2 (9/13)
+#### Week 2 (1/24)
 + [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) ([zipped folder](Tutorials/wk2-TextMining.zip))
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Discussion and Q&A
@@ -21,7 +21,7 @@
 
 ### Project cycle 2: Shiny App Development
 ([starter codes](/Projects_StarterCodes/Project2_OpenData))
-#### Week 3 (9/20)
+#### Week 3 (1/31)
 + Project 1 presentations
 + [Project 2](Projects_StarterCodes/Project2_OpenData/doc/project2_desc.md) starts.
   + Check Piazza for your project team and GitHub join link.
