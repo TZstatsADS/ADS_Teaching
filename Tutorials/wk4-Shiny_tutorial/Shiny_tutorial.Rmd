@@ -1,0 +1,812 @@
+---
+title: "Shiny Tutorial"
+author: "Chengliang Tang, Yuhan Sun"
+output: 
+  html_document:
+    toc: true
+    css: bootstrap.css
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+> A web application framework for R. Turn your analyses into interactive web applications
+
+
+To learn more, see [website](http://shiny.rstudio.com/).  
+More examples, see [gallery](http://shiny.rstudio.com/gallery/)
+
+
+    
+# 1 Installation
+***
+</br>
+
+```{r,eval=FALSE}
+install.packages("shiny")
+library(shiny)
+```
+
+</br>
+</br>
+
+# 2 To Start with
+*** 
+
+</br>
+
+Shiny apps have two basic components:
+
+* a user-interface script (ui.R)
+
+* a server script (server.R)
+
+</br>
+
+## 2.1 Create an app
+***
+
+### Step 1: Store ui.R and server.R in the same folder.
+
+```{r,echo=FALSE}
+fluidPage(
+  tabsetPanel(
+    tabPanel('server.R',
+             code('library(shiny)
+shinyServer(function(input, output) {
+  output$plot=renderPlot({
+    hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+         xlab = "Duration (minutes)", main = "Geyser eruption duration")
+    
+    dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+    lines(dens, col = "blue")
+  })
+})')),
+    tabPanel('ui.R',
+             code('
+shinyUI(
+fluidPage(
+  sidebarPanel(
+    selectInput("n_breaks", label = "Number of bins:",
+                choices = c(10, 20, 35, 50), selected = 20),
+    
+    sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+                min = 0.2, max = 2, value = 1, step = 0.2)
+  ),
+  mainPanel(
+    plotOutput("plot")
+  )
+))
+                                    '))
+  )
+)
+
+
+
+
+```
+</br>
+</br>
+
+### Step 2: Run App
+  
+__Option 1__
+```{r,eval=FALSE}
+runApp(getwd()) # the working directory where you stored the two files
+```
+
+
+__Option 2__
+    
+Press the 'run App' bottom
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://shiny.rstudio.com/tutorial/written-tutorial/lesson1/images/run-app.png" float = "center" ALT="image" width="400">
+  </span>
+</div>
+
+
+### Step 3: Publish
+  
+
+__Option 1__
+    
+Create an accoount in [website](http://shiny.rstudio.com/). Get the name, token and secret information. Then deploy the App
+```{r,eval=FALSE}
+library(rsconnect)
+rsconnect::setAccountInfo(name='abc',
+                          token='def',
+                          secret='ghi')
+deployApp(account='dss')
+```
+
+
+__Option 2__
+    
+
+
+Press the 'publish' bottom and a window would pop up. Follow the instruction and deploy the app.
+
+</br>
+</br>
+
+
+##2.2 A Simple Example
+***
+
+```{r,echo=FALSE}
+# ui.R
+inputPanel(
+  selectInput("n_breaks", label = "Number of bins:",
+              choices = c(10, 20, 35, 50), selected = 20),
+  
+  sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+              min = 0.2, max = 2, value = 1, step = 0.2)
+)
+
+#server.R
+renderPlot({
+  hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+       xlab = "Duration (minutes)", main = "Geyser eruption duration")
+  
+  dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+  lines(dens, col = "blue")
+})
+
+```
+</br>
+</br>
+
+##2.3 Detailed Codes
+***
+
+```{r,eval=FALSE}
+# ui.R
+shinyUI(
+fluidPage(
+  sidebarPanel(
+    selectInput("n_breaks", label = "Number of bins:",
+                choices = c(10, 20, 35, 50), selected = 20),
+    
+    sliderInput("bw_adjust", label = "Bandwidth adjustment:",
+                min = 0.2, max = 2, value = 1, step = 0.2)
+  ),
+  mainPanel(
+    plotOutput('plot')
+  )
+))
+  
+#server.R
+library(shiny)
+shinyServer(function(input, output) {
+  output$plot=renderPlot({
+    hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
+         xlab = "Duration (minutes)", main = "Geyser eruption duration")
+    
+    dens <- density(faithful$eruptions, adjust = input$bw_adjust)
+    lines(dens, col = "blue")
+  })
+})
+
+```
+</br>
+</br>
+
+
+#3 Learn from Scratch 
+***
+
+##Step 1: Empty App
+__ui.R__
+```{r,eval=FALSE}
+shinyUI(fluidPage(
+))
+```
+
+__server.R__
+```{r,eval=FALSE}
+shinyServer(function(input, output) {
+})
+```  
+This code is the bare minimum needed to create a Shiny app. The result is an empty app with a blank user-interface, an appropriate starting point for this tutorial.
+
+##Step 2: Layout
+Shiny `ui.R` scripts use the function `fluidPage` to create a display that automatically adjusts to the dimensions of your user’s browser window. You lay out your app by placing elements in the `fluidPage` function.
+
+__ui.R__
+```{r,eval=FALSE}
+shinyUI(fluidPage(
+  titlePanel("title panel"),
+  
+  #basic layout: siderbar Layout
+  sidebarLayout(position = "right",
+    sidebarPanel( "sidebar panel"),
+    mainPanel("main panel")
+  )
+))
+```
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://shiny.rstudio.com/tutorial/written-tutorial/lesson2/images/sidebar-layout1.png" float = "center" ALT="image" width="800">
+  </span>
+</div>
+
+##Step 3: HTML Content and Images
+You can add content to your Shiny app by placing it inside a `*Panel` function. To add more advanced content, use one of Shiny’s HTML tag functions. These functions parallel common HTML5 tags. Let’s try out a few of them.
+
+__ui.R__
+```{r, eval = FALSE}
+shinyUI(fluidPage(
+  titlePanel("My Shiny App"),
+  sidebarLayout(
+    sidebarPanel(),
+    mainPanel(
+      p("p creates a paragraph of text."),
+      p("A new p() command starts a new paragraph. Supply a style attribute to change the format of the entire paragraph.", style = "font-family: 'times'; font-si16pt"),
+      strong("strong() makes bold text."),
+      em("em() creates italicized (i.e, emphasized) text."),
+      br(),
+      code("code displays your text similar to computer code"),
+      div("div creates segments of text with a similar style. This division of text is all blue because I passed the argument 'style = color:blue' to div", style = "color:blue"),
+      br(),
+      p("span does the same thing as div, but it works with",
+        span("groups of words", style = "color:blue"),
+        "that appear inside a paragraph.")
+    )
+  )
+))
+```
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://shiny.rstudio.com/tutorial/written-tutorial/lesson2/images/formatting.png" float = "center" ALT="image" width="800">
+  </span>
+</div>
+
+Images can enhance the appearance of your app and help your users understand the content. Shiny looks for the `img` function to place image files in your app.
+
+The `img` function looks for your image file in a specific place. Your file must be in a folder named `www` in the same directory as the `ui.R` script. Shiny treats this directory in a special way. Shiny will share any file placed here with your user’s web browser, which makes `www` a great place to put images, style sheets, and other things the browser will need to build the wep components of your Shiny app.
+
+__ui.R__
+```{r, eval=FALSE}
+shinyUI(fluidPage(
+  titlePanel("My Shiny App"),
+  sidebarLayout(
+    sidebarPanel(
+      h2("Installation"),
+      p("Shiny is available on CRAN, so you can install it in the usual way from your R console:"),
+      code('install.packages("shiny")'),
+      br(),
+      br(),
+      br(),
+      br(),
+      img(src = "bigorb.png", height = 72, width = 72),
+      "shiny is a product of ", 
+        span("RStudio", style = "color:blue")
+    ),
+    mainPanel(
+      h1("Introducing Shiny"),
+      p("Shiny is a new package from RStudio that makes it ", 
+        em("incredibly easy"), 
+        " to build interactive web applications with R."),
+      br(),
+      p("For an introduction and live examples, visit the ",
+        a("Shiny homepage.", 
+          href = "http://www.rstudio.com/shiny")),
+      br(),
+      h2("Features"),
+      p("* Build useful web applications with only a few lines of code—no JavaScript required."),
+      p("* Shiny applications are automatically “live” in the same way that ", 
+        strong("spreadsheets"),
+        " are live. Outputs change instantly as users modify inputs, without requiring a reload of the browser.")
+    )
+  )
+))
+```
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://shiny.rstudio.com/tutorial/written-tutorial/lesson2/images/my-shiny-app.png" float = "center" ALT="image" width="800">
+  </span>
+</div>
+
+##Step 4: Add Control Widgets
+What’s a [widget](http://shiny.rstudio.com/gallery/widget-gallery.html)? A web element that your users can interact with. Widgets provide a way for your users to send messages to the Shiny app. Shiny widgets collect a value from your user. When a user changes the widget, the value will change as well. 
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://shiny.rstudio.com/tutorial/written-tutorial/lesson3/images/basic-widgets.png" float = "center" ALT="image" width="800">
+  </span>
+</div>
+
+Each widget function requires several arguments. The first two arguments for each widget are
+
+-A **Name for the widget**. The user will not see this name, but you can use it to access the widget’s value. The name should be a character string.
+
+-A **label**. This label will appear with the widget in your app. It should be a character string, but it can be an empty string "".
+
+For instance, the name is “action” and the label is “Action”: `actionButton("action", label = "Action")`.
+
+### e.g.1 Action bottom
+***
+
+```{r,echo=FALSE}
+# ui
+fluidPage(
+ sidebarPanel(
+    h3("Action button"),
+    actionButton("action", label = "Action"),
+    hr(),
+    p("Current Value:", style = "color:#888888;"), 
+    verbatimTextOutput("action")
+  ),
+ mainPanel(
+   tabsetPanel(type = "tabs", 
+        tabPanel("server.R", 
+                 code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$action=renderPrint({ input$action })
+
+})')
+                 ), 
+        tabPanel("ui.R", 
+                 code('shinyUI(
+
+fluidPage(
+  wellPanel(
+    h3("Action button"),
+    actionButton("action", label = "Action"),
+    hr(),
+    p("Current Value:", style = "color:#888888;"),
+    verbatimTextOutput("action")
+    )
+  )
+)')
+                 ))
+ )
+)
+
+#server
+output$action=renderPrint({ input$action })
+
+
+
+```
+</br>
+</br>
+
+### e.g.2 Single checkbox
+***
+
+```{r,echo=FALSE}
+
+fluidPage(
+  sidebarPanel(
+        h3("Single checkbox"),
+        checkboxInput("checkbox", label = "Choice A", 
+                      value = TRUE),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("checkbox")
+      ),
+  mainPanel(
+    tabsetPanel(
+      tabPanel('server.R',
+              code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$checkbox <- renderPrint({ input$checkbox })
+
+})')),
+      tabPanel('ui.R',
+               code('shinyUI(
+
+fluidPage(
+  wellPanel(
+        h3("Single checkbox"),
+        
+        checkboxInput("checkbox", label = "Choice A", 
+                      value = TRUE),
+        hr(),
+       
+        verbatimTextOutput("checkbox"),
+       
+      )
+  )
+)')
+               )
+    )
+  )
+)
+
+output$checkbox <- renderPrint({ input$checkbox })
+```
+</br>
+</br>
+
+
+
+
+### e.g.3 Select box
+***
+
+```{r,echo=FALSE}
+fluidPage(
+  sidebarPanel(
+        selectInput("select", label = h3("Select box"), 
+        choices = list("Choice 1" = 1, "Choice 2" = 2,
+                       "Choice 3" = 3), selected = 1),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("select")
+      ),
+  mainPanel(
+    tabsetPanel(
+      tabPanel('server.R',
+               code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$select <- renderPrint({ input$select })
+
+})')
+               ),
+      tabPanel('ui.R',
+               code('shinyUI(
+
+fluidPage(
+ wellPanel(
+        selectInput("select", label = h3("Select box"), 
+        p("Current Value:", style = "color:#888888;"),
+        choices = list("Choice 1" = 1, "Choice 2" = 2,
+                       "Choice 3" = 3), selected = 1),
+        hr(),
+       
+        verbatimTextOutput("select")
+        
+      )
+  )
+)')
+               )
+    )
+  )
+)
+
+
+output$select <- renderPrint({ input$select })
+```
+</br>
+</br>
+
+
+### e.g.4 File input
+***
+
+```{r,echo=FALSE}
+
+fluidPage(
+  sidebarPanel(
+        fileInput("file", label = h3("File input")),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("file")
+      ),
+  mainPanel(
+    tabsetPanel(
+      tabPanel('server.R',
+               code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$select <- renderPrint({ input$select })
+
+})')
+               ),
+      tabPanel('ui.R',
+               code('shinyUI(
+
+fluidPage(
+ wellPanel(
+        fileInput("file", label = h3("File input")),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("file")
+      )
+  )
+)')
+               )
+    )
+  )
+)
+
+output$file <- renderPrint({ input$file })
+```
+
+</br>
+</br>
+
+### e.g.5 Slider
+***
+```{r,echo=FALSE}
+
+fluidPage(
+  sidebarPanel(
+        sliderInput("slider1", label = h3("Slider"), min = 0, max = 100, 
+                    value = 50),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("slider1")),
+  mainPanel(
+    tabsetPanel(
+      tabPanel('server.R',
+                code('library(shiny)
+
+shinyServer(function(input, output) {
+
+    output$slider1 <- renderPrint({ input$slider1 })
+
+})')
+               ),
+      tabPanel('ui.R',
+               code('shinyUI(
+
+fluidPage(
+wellPanel(
+        sliderInput("slider1", label = h3("Slider"), min = 0, max = 100, 
+                    value = 50),
+        hr(),
+        p("Current Value:", style = "color:#888888;"), 
+        verbatimTextOutput("slider1")
+      )
+  )
+)')
+               )
+    )
+  )
+      )
+output$slider1 <- renderPrint({ input$slider1 })
+
+```
+</br>
+</br>
+
+##Step 5: Display reactive output
+You can create reactive output with a two step process.
+
+1. Add an R object to your user-interface with `ui.R`.
+
+Shiny provides a family of functions that turn R objects into output for your user-interface. Each function creates a specific type of output.
+
+-`htmlOutput` for raw HTML
+
+-`imageOutput` for image
+
+-`plotOutput` for plot
+
+-`tableOutput` for table
+
+-`textOutput`	for text
+
+-`uiOutput` for raw HTML
+
+-`verbatimTextOutput`	for text
+
+
+2. Tell Shiny how to build the object in `server.R`. The object will be reactive if the code that builds it calls a widget value.
+
+-`renderImage` for	images (saved as a link to a source file)
+
+-`renderPlot`	for plots
+
+-`renderPrint`	for any printed output
+
+-`renderTable`	for data frame, matrix, other table like structures
+
+-`renderText`	for character strings
+
+-`renderUI`	for a Shiny tag object or HTML
+
+__ui.R__
+```{r, eval=FALSE}
+library(shiny)
+
+# Define UI for application that draws a histogram
+shinyUI(fluidPage(
+  
+  # Application title
+  titlePanel("Old Faithful Geyser Data"),
+  
+  # Sidebar with a slider input for number of bins 
+  sidebarLayout(
+    sidebarPanel(
+       sliderInput("bins",
+                   "Number of bins:",
+                   min = 1,
+                   max = 50,
+                   value = 30)
+    ),
+    
+    # Show a plot of the generated distribution
+    mainPanel(
+       plotOutput("distPlot")
+    )
+  )
+))
+
+```
+
+__server.R__
+```{r, eval=FALSE}
+library(shiny)
+
+# Define server logic required to draw a histogram
+shinyServer(function(input, output) {
+   
+  output$distPlot <- renderPlot({
+    
+    # generate bins based on input$bins from ui.R
+    x    <- faithful[, 2] 
+    bins <- seq(min(x), max(x), length.out = input$bins + 1)
+    
+    # draw the histogram with the specified number of bins
+    hist(x, breaks = bins, col = 'darkgray', border = 'white')
+    
+  })
+  
+})
+```
+
+
+
+
+#4 Deploy
+***
+
+##4.1 Deploy on RStudio
+
+__Please refer to 2.1 Step 3__
+
+
+</br>
+</br>
+
+
+
+### Tunning the model
+***
+
+click [here](https://www.shinyapps.io/) to login to your shiny account.  
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny6.jpeg?raw=true" float = "center" ALT="image" width="600">
+  </span>
+</div>
+
+__Pay attention to the usage__ (only 25 active hours/month)
+  
+go to setting to customize:
+
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny7.jpeg?raw=true" float = "center" ALT="image" width="600">
+  </span>
+</div>
+  
+The __log__ is usefull for debugging:
+<div style="text-align: center;" align = "center">
+  <span class="slide" style="float:center;width: 80%;">
+  <IMG SRC="https://github.com/lanmo77/shinyinaNutShell/blob/master/fig/shiny8.jpeg?raw=true" float = "center" ALT="image" width="600">
+  </span>
+</div>
+
+</br>
+</br>
+
+
+### Useful reference
+
+[Installing rstudio shiny server on aws](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/)
+
+[deploying shiny server on amazon some troubleshoots and solutions](https://www.r-bloggers.com/deploying-shiny-server-on-amazon-some-troubleshoots-and-solutions/)
+
+</br>
+</br>
+
+
+#5 More
+***
+
+Function Reference: [reference](http://shiny.rstudio.com/reference/shiny/latest/)
+
+##Add css
+***
+
+We can also add css to our shiny app to control how you want your Shiny app to look.
+  
+For more reference, please see [customize](http://shiny.rstudio.com/articles/css.html)
+
+</br>
+</br>
+
+##Small things
+***
+
+### Progress indicator
+> If your Shiny app contains computations that take a long time to complete, a progress bar can improve the user experience by communicating how far along the computation is, and how much is left. 
+
+[Reference](http://shiny.rstudio.com/articles/progress.html)
+</br>
+</br>
+
+### Downloadable reports
+[Reference](http://shiny.rstudio.com/articles/generating-reports.html)
+
+[Reference](http://shiny.rstudio.com/gallery/download-knitr-reports.html)
+</br>
+</br>
+
+### Dashboard
+[Reference](http://rstudio.github.io/shinydashboard/)
+</br>
+</br>
+
+### Error Message
+[Reference](http://shiny.rstudio.com/articles/validation.html)
+</br>
+</br>
+
+### Isolate
+[Reference](http://shiny.rstudio.com/gallery/isolate-demo.html)
+</br>
+</br>
+
+### Send Message
+[Reference](http://shiny.rstudio.com/gallery/server-to-client-custom-messages.html)
+</br>
+</br>
+
+### Shiny chat
+[Reference](http://shiny.rstudio.com/gallery/chat-room.html)
+</br>
+</br>
+
+### Modal dialogs
+[Reference](http://shiny.rstudio.com/articles/modal-dialogs.html)
+</br>
+</br>
+
+### Large Database
+[Reference](http://shiny.rstudio.com/articles/overview.html)
+</br>
+</br>
+
+
+### DT
+[Reference](http://rstudio.github.io/DT/)
+
+## More things need to be explored...
+</br>
+</br>
+
+
+# Other Resources:  
+[Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/01/shiny-cheatsheet.pdf)
+
+[Shiny Server Professional v1.4.6 Administrator's Guide](http://docs.rstudio.com/shiny-server/)
+
+[Installing rstudio shiny server on aws](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/)
+
+[Debug](http://shiny.rstudio.com/articles/debugging.html)
+
+```{r}
+
+
+```
+
