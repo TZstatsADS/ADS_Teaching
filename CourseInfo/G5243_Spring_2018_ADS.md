@@ -52,7 +52,7 @@ Below is a tentative schedule we will follow.
 + Week 7 (2/28): 3b+3c
 + Week 8 (3/7): 3b+3c
 + Spring break week
-+ Week 9 (3/21): 3c+4a
++ Week 9 (3/21): 3d+4a
 + Week 10 (3/28): 4b+4c
 + Week 11 (4/4): 4b+4c
 + Week 12 (4/11): 4d

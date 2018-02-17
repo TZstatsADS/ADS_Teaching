@@ -36,3 +36,8 @@
 + Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html) ([app](Projects_StarterCodes/Project2_OpenData/app/))
 + Shiny Tutorial (Chengliang Tang) ([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
 + Discussion and Q&A
+
+#### Week 5 (2/14)
++ Feebback on project 1
++ [Tutorial on giving presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/MakingPresentation.pdf)
++ Brainstorm on project 2
