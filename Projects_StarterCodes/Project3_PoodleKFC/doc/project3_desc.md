@@ -1,4 +1,4 @@
-## STAT GU4243/GR5243 Fall 2017 Applied Data Science
+## STAT GR5243 Spring 2018 Applied Data Science
 ### Project 3 Predictive analytics-model evaluation and selection
 
 ### - for dogs versus fried chicken (KFC?) versus blueberry muffins
@@ -40,10 +40,10 @@ For this project, you are to carry out a business feasibility evaluation project
 
 ##### Project time table.
 
-- week 1 (10/11): introduction and project description
-- week 2 (10/18): image processing and feature extraction
-- week 3 (10/25): supervised learning and model assessment
-- Final presentation (11/1)
+- week 1 (2/21): introduction and project description
+- week 2 (2/28): image processing and feature extraction
+- week 3 (3/7): supervised learning and model assessment
+- Final presentation (3/21)
 
 ##### Project learning support 
 
@@ -99,9 +99,9 @@ The instructional team will download each team's GitHub repo and cross-examine e
 3. [wk1] As a team, read and brainstorm about possible lead on features. 
 4. [wk2] Based on outcomes from week 1 brainstorm sessions, start data cleaning (start early on this one!)
 5. [wk2] Week 2 is the **exploration** week. Try different features and classifiers.
-6. [wk2] It is ok to have 2-3 leads to explore at the beginning of week 2 but it is better to converge on a single direction by the end of week 2 (10/25). 
-7. [wk 3] Week 3 is the program **evaluation** week. By 10/25 (the beginning of week 3), you should have a clear plan on what set of features to consider and what set of classifiers to consider. During the final week, there will be some serious model training, validation and testing, which is likely to take some time. (Start early!)
-8. [wk 3] By 10/25, you should layout a to-do list and divide up tasks. Teams should work together and resolve any ambiguity about which team member should be doing what for this project. This is **extremly important** for this project due to the computational nature of this project. 
+6. [wk2] It is ok to have 2-3 leads to explore at the beginning of week 2 but it is better to converge on a single direction by the end of week 2 (3/7). 
+7. [wk 3] Week 3 is the program **evaluation** week. By 3/7 (the beginning of week 3), you should have a clear plan on what set of features to consider and what set of classifiers to consider. During the final week, there will be some serious model training, validation and testing, which is likely to take some time. (Start early!)
+8. [wk 3] By 3/7, you should layout a to-do list and divide up tasks. Teams should work together and resolve any ambiguity about which team member should be doing what for this project. This is **extremly important** for this project due to the computational nature of this project. 
 
 ##### Working together
 - Setup a GitHub project folder with everyone listed as contributor. Everyone clones the project locally and create a local branch. 
