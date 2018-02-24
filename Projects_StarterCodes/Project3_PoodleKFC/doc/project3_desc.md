@@ -6,7 +6,7 @@
 In this project, we will carry out **model evaluation and selection** for predictive analytics on image data. As data scientists, we often need to **evaluate** different modeling/analysis strategies and decide what is the best. Such decisions need to be supported by sound evidence in the form of *model assessment, validation and comparison*. In addition, we also need to **communicate our decision and supporting evidence** clearly and convincingly in an accessible fashion.
 
 #### Challenge
-For this project, you will receive [a set of 3000 images of dogs, fried chicken and blueberry muffins](https://www.dropbox.com/s/689acpchd9auqml/training_set.zip?dl=0). 
+For this project, you will receive [a set of 3000 images of dogs, fried chicken and blueberry muffins](https://www.dropbox.com/s/qg3hvsg9e31stxx/train.zip?dl=0). 
 
 Your client is interested in creating an mobile AI program that accurately distinguish pictures of dogs (poodles and Chihuahuas), fried chicken and blueberry muffins. 
 
