@@ -1,8 +1,10 @@
 ---
 title: "Basic Image Analysis"
 author: "Chengliang Tang, Yuting Ma"
-date: "October, 18, 2017"
-output: html_document
+date: "Febraury, 28, 2018"
+output:
+  html_document:
+    df_print: paged
 ---
 
 ## Image Analysis Tool: EBImage
@@ -34,7 +36,6 @@ dat[1:5, 1:5]
 * With EBImage:display image using an interactive JavaScript viewer (shown in browser) or R's built-in graphics capabilities
 ```{r}
 display(img)
-text(x = 20, y = 20, label = "chicken", adj = c(0,1), col = "orange", cex = 2)
 ```
 
 * To display in R graphics: 
@@ -230,45 +231,6 @@ img_seg <- combine(img_seg1, img_seg2, img_seg3)
 display(img_seg, all=TRUE)
 ```
 
-
-## Outline Analysis
-
-### Oriented Contour
-```{r}
-img_leaf <- readImage("leaf.png")
-img_leaf <- resize(img_leaf, 128, 128)
-img_leaf <- channel(img_leaf, mode="gray")
-img_leaf1 <- thresh(img_leaf, w=50, h=50, offset=0.05)
-display(combine(img_leaf,img_leaf1), all=TRUE)
-oc <- ocontour(bwlabel(img_leaf1))
-plot(oc[[1]], type='l')
-points(oc[[1]], col=2)
-print(head(oc[[1]]))
-```
-
-However, for some complex scenes, extracting object outline is actually hard. For instance:
-```{r}
-img_bengal <- readImage("Bengal_1.jpg")
-img_bengal_bw <- channel(img_bengal, mode="gray")
-img_seg1 <- thresh(img_bengal_bw, w=60, h=60, offset=0.06)
-img_seg2 <- dilate(img_seg1, kern=makeBrush(25, shape='gaussian'))
-img_fill <- fillHull(img_seg2)
-oc_bengal <- ocontour(bwlabel(img_fill))
-plot(oc_bengal[[1]], type="l")
-```
-
-### Local Curvature
-* Local Curvature fits a local non-parametric smoothing line (polynomial of degree 2) at each point along the line segment, and computes the curvature locally using numerical derivatives.
-```{r}
-lc <- localCurvature(x=oc[[1]], h=11)
-print(head(lc$curvature))
-i <- lc$curvature >= 0
-neg <- array(0, dim(img_leaf1))
-pos <- neg
-pos[lc$contour[i,]+1]  <- lc$curvature[i]
-neg[lc$contour[!i,]+1] <- -lc$curvature[!i]
-display(10*(rgbImage(pos, , neg)), title = "Image curvature")  
-```
 
 
 ## Reference
