@@ -71,3 +71,16 @@
 + [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 + We will email you a checklist for project submission on 3/21.
 + [Project 3 Summary for Fall 2017](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/8ecad713/Tutorials/wk13-project3summary/wk13-project3_summary.html)
+
+#### *Spring break*
+
+#### Week 9 (3/21) 
++ Project 3 presentations
+
+----
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
+
+### Project cycle 4: Algorithm implementation and evaluation
+([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
+#### Week 9 (3/21)
++ Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
