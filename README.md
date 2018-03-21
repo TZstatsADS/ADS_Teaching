@@ -74,7 +74,10 @@
 
 #### *Spring break*
 
-#### Week 9 (3/21) 
+#### Week 9 (3/21)
+Class canceled
+
+#### Week 10 (3/28)
 + Project 3 presentations
 
 ----
@@ -82,5 +85,5 @@
 
 ### Project cycle 4: Algorithm implementation and evaluation
 ([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
-#### Week 9 (3/21)
+#### Week 10 (3/28)
 + Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
