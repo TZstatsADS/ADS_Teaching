@@ -64,7 +64,7 @@ The presentation can be technical but need to be accessible to your peer student
 
 ##### Platform requirement
 
-You can use any tools for *feature engineering* as you will be processing features for the test images on 11/1.
+You can use any tools for *feature engineering* as you will be processing features for the test images on 3/28.
  
 + Your feature processing needs to be reasonably efficient as you will have only 30 minutes to process 3000 new images. 
 + Your feature program should have 
