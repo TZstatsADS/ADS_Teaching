@@ -1,12 +1,12 @@
 ### GR5243 Spring 2018 Applied Data Science
 ### Project 4 Collaborative Filtering Algorithms Evaluation
 
-In this project, working in teams, you will evaluate and **compare** a pair of algorithms for **Collaborative Filtering**.
+In this project, working in teams, you will evaluate and **compare** algorithms for **Collaborative Filtering**.
 
 ### Challenge
 *Collaborative filtering* refers to the process of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating).
 
-For this project, each team is assigned **a pair of algorithms** from the *Collaborative filtering* literature. You will study the algorithms carefully and implement them, from scratch. **Algorithm assignments will be posted to a piazza post specific to individual groups**.
+For this project, each team is assigned **specific algorithms** from the *Collaborative filtering* literature. You will study the algorithms carefully and implement them, from scratch. **Algorithm assignments will be posted to a piazza post specific to individual groups**.
 
 For submission, you will submit the GitHub repo of your codes, a *testing* report (must be a **reproducible** R notebook or a similar format) on the algorithms in terms of a *side-by-side* comparison of their performance and computational efficiency. For presentation, each team should briefly explain what each algorithm does, how the evaluation was carried out, and what are the main results. 
 
