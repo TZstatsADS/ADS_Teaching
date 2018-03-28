@@ -53,7 +53,7 @@ Each week, we will give a tutorial in class and having live discussion and brain
    * Proposes a specific similarity measure.
 
 4. Schein, A. I., Popescul, A., Ungar, L. H., & Pennock, D. M. (2002, August). Methods and metrics for cold-start recommendations. In Proceedings of the 25th annual international ACM SIGIR conference on Research and development in information retrieval(pp. 253-260). ACM.
-   * FYI on code-start problems.
+   * FYI on cold-start problems.
 
 5. Su, X., & Khoshgoftaar, T. M. (2009). A survey of collaborative filtering techniques. Advances in artificial intelligence, 2009, 4.
    * A review paper of collaborative filtering.
