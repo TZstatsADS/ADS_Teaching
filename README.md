@@ -87,3 +87,9 @@ Class canceled
 ([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
 #### Week 10 (3/28)
 + Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
+
+#### Week 11 (4/4)
++ Recap on project 4 requirements.
++ Overview of collaborative filtering.
++ Overview of the reference papers (Chengliang).
++ Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
