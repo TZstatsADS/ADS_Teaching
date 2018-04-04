@@ -96,3 +96,5 @@ Class canceled
 
 #### Week 12 (4/11)
 + Notes on Cluster Model
++ Q&A on Algorithms
++ Team Meeting
