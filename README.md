@@ -95,6 +95,6 @@ Class canceled
 + Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
 
 #### Week 12 (4/11)
-+ Notes on Cluster Model
++ Notes on [Cluster Model](Tutorials/wk12-notes_cluster/document.pdf)
 + Q&A on Algorithms
 + Team Meeting
