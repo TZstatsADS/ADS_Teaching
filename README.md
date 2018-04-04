@@ -93,3 +93,6 @@ Class canceled
 + Overview of collaborative filtering.
 + Overview of the reference papers (Chengliang).
 + Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
+
+#### Week 12 (4/11)
++ Notes on Cluster Model
