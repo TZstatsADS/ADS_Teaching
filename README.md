@@ -98,3 +98,7 @@ Class canceled
 + Notes on [Cluster Model](Tutorials/wk12-notes_cluster/document.pdf)
 + Q&A on Algorithms
 + Team Meeting
+
+#### Week 13 (4/18)
++ Project 4 presentations
++ [Project 3 summary]
