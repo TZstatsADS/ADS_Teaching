@@ -101,4 +101,12 @@ Class canceled
 
 #### Week 13 (4/18)
 + Project 4 presentations
+
+----
+### Project cycle 5: 
+
+#### Week 14 (4/25)
++ Project 5 Presentations
 + [Project 3 summary]
+
+#### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
