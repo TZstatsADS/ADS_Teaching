@@ -107,6 +107,6 @@ Class canceled
 
 #### Week 14 (4/25)
 + Project 5 Presentations
-+ [Project 3 summary]
++ [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/a1e0a514/Tutorials/wk13-project3summary/wk13-project3_summary.html)
 
 #### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
