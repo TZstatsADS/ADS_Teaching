@@ -37,12 +37,12 @@
 
 #### Week 4 (2/10)
 + Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html) ([app](Projects_startercodes/Project2_OpenData/app/))
-+ Shiny Tutorial (Chengliang Tang) ([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/Shiny_tutorial/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
++ Shiny Tutorial (Chengliang Tang) ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/Shiny_tutorial/)) + [example](Tutorials/wk4-shiny-example.zip)
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
 
 #### Week 5 (2/17)
 + Feebback on project 1
-+ [Tutorial on giving presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/MakingPresentation.pdf)
++ [Tutorial on giving presentations](https://github.com/TZstatsADS/ADS_Teaching/blob/master/2-Fall2016/Tutorials/MakingPresentation.pdf)
 + Brainstorm on project 2
 
 #### Week 6 (2/24)
@@ -66,14 +66,14 @@
 
 #### Week 7 (3/3)
 + Recap on project 3 requirements and starter codes.
-+ Tutorial (Chengliang): [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/eda5671a/Tutorials/wk7-Image%20Analysis/EBImage/image_analysis.html) + [SIFT](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/17cda16a/Tutorials/wk7-Image%20Analysis/EBImage%26SIFT/advanced_image_analysis.html) ([zipped folder](/Tutorials/wk7-Image%20Analysis.zip)) + [MATLAB codes for SIFT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-Image%20Analysis/MATLAB_sift.zip)
++ Tutorial (Chengliang): [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/eda5671a/Tutorials/wk7-Image%20Analysis/EBImage/image_analysis.html) + [SIFT](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/17cda16a/Tutorials/wk7-Image%20Analysis/EBImage%26SIFT/advanced_image_analysis.html) ([zipped folder](/Tutorials/wk7-Image%20Analysis.zip)) + [MATLAB codes for SIFT](Tutorials/wk7-Image%20Analysis/MATLAB_sift.zip)
 
 #### Week 8 (3/10)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ [Tutorial on gradient boosting machines (GBM)](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
++ [Tutorial on gradient boosting machines (GBM)](https://github.com/TZstatsADS/ADS_Teaching/blob/master/2-Fall2016/Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
 + [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 + We will email you a checklist for project submission on 3/24.
-+ [Project 3 Summary for Fall 2016](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Fall2016/Tutorials/project3_summary.html) (Chengliang Tang)
++ [Project 3 Summary for Fall 2016](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Tutorials/project3_summary.html) (Chengliang Tang)
 
 #### *spring break*
 #### Week 9 (3/24) 
