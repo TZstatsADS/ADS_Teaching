@@ -6,7 +6,7 @@
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf) and [Project 1](Projects_startercodes/Project1_ACS) description
 + [Example project 1](https://github.com/TZstatsADS/Spr2016-Proj1-Grp9-MajorMatters) (Jingying Zhou)
 + Sign-in for Project 1 groups on Classroom GitHub
-+ Tutorial 1: [R Notebook](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.Rmd)([html output](https://rawgit.com/TZstatsADS/ADS_Teaching/master/Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.nb.html)), download data for project 1 into your own data folder and run in Rstudio with downloaded data. You can view [html output](http://rawgit.com/TZstatsADS/ADS_Teaching/master/Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.nb.html), enabled by [rawgit](https://rawgit.com/). 
++ Tutorial 1: [R Notebook](Projects_startercodes/Project1_ACS/lib/tutorial1.Rmd)([html output](https://rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.nb.html)), download data for project 1 into your own data folder and run in Rstudio with downloaded data. You can view [html output](http://rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.nb.html), enabled by [rawgit](https://rawgit.com/). 
 + More resources are listed in the project description.
 
 #### Week 2 (9/14)
@@ -43,12 +43,12 @@
 + [Overview of project 3](Tutorials/Project_evaluation.pdf)
 + [Overview of classification](Tutorials/TutorialModelSelection.pdf)
 + Tutorial on image processing (Ruixiong Shi): [[PPT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/ads_image_analysis_overview.pptx)], [[Rmd](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/image_analysis.Rmd)], [[About SIFT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/advanced_image_analysis.md)].
-+ [Tutorial on gradient boosting machines (GBM)](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
++ [Tutorial on gradient boosting machines (GBM)](Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
 + [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 
 #### Week 8 (10/26) 
 + Model evaluation and validation
-+ [Submission and Evaluation](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/project3_submission.pdf)
++ [Submission and Evaluation](Tutorials/project3_submission.pdf)
 + [Project 3 Summary for 2016 Spring](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk10_summary_proj3.pdf)
 
 
@@ -56,12 +56,12 @@
 
 #### Week 9 (11/2)
 + [Project 3 submitted](http://tzstatsads.github.io//2016/11/09/Fall-2016-Project3-Summary.html).
-+ [Project 4 description](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Projects_startercodes/Project4_Words4music/doc/Project4_desc.md)
++ [Project 4 description](Projects_startercodes/Project4_Words4music/doc/Project4_desc.md)
 
 #### Week 10 (11/9)
-+ [Project 3 fun images](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/prediction%20results%20for%20fun%20images.pdf)
++ [Project 3 fun images](Tutorials/prediction%20results%20for%20fun%20images.pdf)
 + Discussion on [Project 4 description](https://github.com/TZstatsADS/ADS_Teaching/blob/masterProjects_startercodes/Project4_Words4music/doc/Project4_desc.md)
-+ [Project 4 evaluation](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Fall2016/Tutorials/project4_eval.pdf)
++ [Project 4 evaluation](Tutorials/project4_eval.pdf)
 + [Example on Topic Modeling for project 4](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Fall2016/Tutorials/Topic%20Modelling)
 
 #### Week 11 (11/16)
