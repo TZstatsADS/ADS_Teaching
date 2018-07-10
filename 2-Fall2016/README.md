@@ -6,11 +6,11 @@
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf) and [Project 1](Projects_startercodes/Project1_ACS) description
 + [Example project 1](https://github.com/TZstatsADS/Spr2016-Proj1-Grp9-MajorMatters) (Jingying Zhou)
 + Sign-in for Project 1 groups on Classroom GitHub
-+ Tutorial 1: [R Notebook](Projects_startercodes/Project1_ACS/lib/tutorial1.Rmd)([html output](https://rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.nb.html)), download data for project 1 into your own data folder and run in Rstudio with downloaded data. You can view [html output](http://rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.nb.html), enabled by [rawgit](https://rawgit.com/). 
++ Tutorial 1: [R Notebook](Projects_startercodes/Project1_ACS/lib/tutorial1.Rmd) ([html output](https://rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.nb.html)), download data for project 1 into your own data folder and run in Rstudio with downloaded data. You can view [html output](http://rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project1_ACS/lib/tutorial1.nb.html), enabled by [rawgit](https://rawgit.com/). 
 + More resources are listed in the project description.
 
 #### Week 2 (9/14)
-+ [Introduction to GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Spring2016/Tutorials/wk2-Tutorial_GitHub-master) (Jingying Zhou)
++ [Introduction to GitHub](https://github.com/TZstatsADS/ADS_Teaching/tree/master/1-Spring2016/Tutorials/wk2-Tutorial_GitHub-master) (Jingying Zhou)
 + [Discussion of Spring 2016 ACS project](http://tzstatsads.github.io//2016/08/31/Spr2016Project1-summary.html) (Chengliang Tang)
 
 ### Project cycle 2: shiny app development for New York City open data ([starter codes](Projects_startercodes/Project2_OpenDataNYC))
@@ -24,7 +24,7 @@
 
 #### Week 4 (9/29)
 + [Tutorial on shiny apps](https://yuhansun.shinyapps.io/Shiny_in_a_NutShell/) (Yuhan Sun)
-+ [Tutorial on setting up your own shiny server](http://54.88.208.114:3838/Shiny_in_a_NutShell/) (Yuhan Sun)
++ Tutorial on setting up your own shiny server (Yuhan Sun)
 + [Showcase: 311 complaints](https://yuhansun.shinyapps.io/group3/)
 + [Amazon Machine Image for Rstudio server, with shiny server](http://www.louisaslett.com/RStudio_AMI/)
 
@@ -37,7 +37,7 @@
 #### Week 6 (10/12)
 + [Project 2 submitted](http://tzstatsads.github.io/2016/11/09/Fal-l2016-Project2-Summary.html).
 + [Project 3 description](Tutorials/project3_desc.md)
-+ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/Project3_PoodleKFC/master/main.html) (Yuting Ma)
++ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project3_PoodleKFC/master/main.html) (Yuting Ma)
 
 #### Week 7 (10/19)
 + [Overview of project 3](Tutorials/Project_evaluation.pdf)
