@@ -37,19 +37,19 @@
 #### Week 6 (10/12)
 + [Project 2 submitted](http://tzstatsads.github.io/2016/11/09/Fal-l2016-Project2-Summary.html).
 + [Project 3 description](Tutorials/project3_desc.md)
-+ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project3_PoodleKFC/master/main.html) (Yuting Ma)
++ [Project 3 example setup](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Projects_startercodes/Project3_PoodleKFC/main.html) (Yuting Ma)
 
 #### Week 7 (10/19)
 + [Overview of project 3](Tutorials/Project_evaluation.pdf)
 + [Overview of classification](Tutorials/TutorialModelSelection.pdf)
-+ Tutorial on image processing (Ruixiong Shi): [[PPT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/ads_image_analysis_overview.pptx)], [[Rmd](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/image_analysis.Rmd)], [[About SIFT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk7-image_analysis/advanced_image_analysis.md)].
++ Tutorial on image processing (Ruixiong Shi): [[PPT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/1-Spring2016/Tutorials/wk7-image_analysis/ads_image_analysis_overview.pptx)], [[Rmd](https://github.com/TZstatsADS/ADS_Teaching/blob/master/1-Spring2016/Tutorials/wk7-image_analysis/image_analysis.Rmd)], [[About SIFT](https://github.com/TZstatsADS/ADS_Teaching/blob/master/1-Spring2016/Tutorials/wk7-image_analysis/advanced_image_analysis.md)].
 + [Tutorial on gradient boosting machines (GBM)](Tutorials/An%20Introduction%20to%20%20Gradient%20Boosting%20Machine.pdf) (Chengliang Tang)
 + [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 
 #### Week 8 (10/26) 
 + Model evaluation and validation
 + [Submission and Evaluation](Tutorials/project3_submission.pdf)
-+ [Project 3 Summary for 2016 Spring](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Spring2016/Tutorials/wk10_summary_proj3.pdf)
++ [Project 3 Summary for 2016 Spring](https://github.com/TZstatsADS/ADS_Teaching/blob/master/1-Spring2016/Tutorials/wk10_summary_proj3.pdf)
 
 
 ### Project cycle 4: Association mining of music and text
@@ -60,9 +60,9 @@
 
 #### Week 10 (11/9)
 + [Project 3 fun images](Tutorials/prediction%20results%20for%20fun%20images.pdf)
-+ Discussion on [Project 4 description](https://github.com/TZstatsADS/ADS_Teaching/blob/masterProjects_startercodes/Project4_Words4music/doc/Project4_desc.md)
++ Discussion on [Project 4 description](Projects_startercodes/Project4_Words4music/doc/Project4_desc.md)
 + [Project 4 evaluation](Tutorials/project4_eval.pdf)
-+ [Example on Topic Modeling for project 4](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Fall2016/Tutorials/Topic%20Modelling)
++ [Example on Topic Modeling for project 4](https://github.com/TZstatsADS/ADS_Teaching/tree/master/2-Fall2016/Tutorials/Topic%20Modelling)
 
 #### Week 11 (11/16)
 + Project 4 Presentations
@@ -70,7 +70,7 @@
 ### Project cycle 5: free topic
 
 #### Week 12 (11/30)
-+ Discussion on [project 3](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Fall2016/Tutorials/project3_summary.html) and project 4 test data results
++ Discussion on [project 3](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/2-Fall2016/Tutorials/project3_summary.html) and project 4 test data results
 + Brainstorm for project 5
 
 #### Week 13 (12/7) 
