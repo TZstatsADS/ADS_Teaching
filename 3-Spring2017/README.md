@@ -20,6 +20,8 @@
 #### Week 3 (2/3)
 + Project 1 presentations
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2017-Proj1&type=&language=)
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -47,6 +49,8 @@
 
 #### Week 6 (2/24)
 + Project 2 presentations
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2017-proj2&type=&language=)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
@@ -79,6 +83,8 @@
 #### Week 9 (3/24) 
 + Project 3 presentations
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=spr2017-proj3&type=&language=)
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
@@ -95,6 +101,9 @@
 
 #### Week 12 (4/14)
 + Project 4 presentations
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2017-proj4&type=&language=)
+
 ----
 ### Project cycle 5: free topic
 
@@ -102,6 +111,8 @@
 + [Project 3 Summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/eed56a1d/3-Spring2017/Tutorials/wk13-proj3Summary/project3_summary.html)
 #### Week 14 (4/28) 
 + Project 5 Presentations
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2017-proj5&type=&language=)
 
 #### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
