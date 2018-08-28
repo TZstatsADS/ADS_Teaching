@@ -83,4 +83,4 @@
 #### Week 13 (12/7) 
 + Project 5 Presentations
 
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2016-proj4&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2016-proj5&type=&language=)
