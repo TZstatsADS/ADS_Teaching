@@ -34,6 +34,8 @@
 + [Discussion of Spring 2016 shiny apps](http://tzstatsads.github.io//2016/09/21/Spr2016Project2-summary.html) (Chengliang Tang)
 + [Tutorial on presentation](Tutorials/MakingPresentation.pdf)
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2016-Proj2&type=&language=)
+
 ### Project cycle 3: predictive modeling for images of poodles vs. fried chicken ([starter codes](Projects_startercodes/Project3_PoodleKFC))
 
 #### Week 6 (10/12)
@@ -53,6 +55,7 @@
 + [Submission and Evaluation](Tutorials/project3_submission.pdf)
 + [Project 3 Summary for 2016 Spring](https://github.com/TZstatsADS/ADS_Teaching/blob/master/1-Spring2016/Tutorials/wk10_summary_proj3.pdf)
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2016-proj3&type=&language=)
 
 ### Project cycle 4: Association mining of music and text
 
@@ -69,6 +72,8 @@
 #### Week 11 (11/16)
 + Project 4 Presentations
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2016-proj4&type=&language=)
+
 ### Project cycle 5: free topic
 
 #### Week 12 (11/30)
@@ -78,3 +83,4 @@
 #### Week 13 (12/7) 
 + Project 5 Presentations
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2016-proj4&type=&language=)
