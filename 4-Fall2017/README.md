@@ -16,6 +16,8 @@
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Discussion and Q&A
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=fall2017-project1&type=&language=)
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -44,6 +46,8 @@
 
 #### Week 6 (10/11)
 + Project 2 presentations
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2017-project2&type=&language=)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
@@ -75,6 +79,8 @@
 #### Week 9 (11/1) 
 + Project 3 presentations
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2017-project3&type=&language=)
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
@@ -100,10 +106,14 @@
 + Project 4 presentations
 + [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/8ecad713/Tutorials/wk13-project3summary/wk13-project3_summary.html)
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2017-project4&type=&language=)
+
 ----
 ### Project cycle 5: 
 
 #### Week 13 (12/6)
 + Project 5 Presentations
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2017-project5&type=&language=)
 
 #### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
