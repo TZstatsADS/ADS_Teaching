@@ -16,6 +16,8 @@
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Discussion and Q&A
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project1&type=&language=)
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -44,6 +46,8 @@
 
 #### Week 6 (2/21)
 + Project 2 presentations
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project2&type=&language=)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
@@ -80,6 +84,8 @@ Class canceled
 #### Week 10 (3/28)
 + Project 3 presentations
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project3&type=&language=)
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
@@ -102,11 +108,15 @@ Class canceled
 #### Week 13 (4/18)
 + Project 4 presentations
 
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project4&type=&language=)
+
 ----
 ### Project cycle 5: 
 
 #### Week 14 (4/25)
 + Project 5 Presentations
 + [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/a1e0a514/Tutorials/wk13-project3summary/wk13-project3_summary.html)
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project5&type=&language=)
 
 #### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
