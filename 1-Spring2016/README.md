@@ -14,6 +14,7 @@
 - [GitHub tutorial](Tutorials/wk2-Tutorial_GitHub-master)
 - [More plots by R](Tutorials/wk2-Rplots.Rmd)
 
+[Project 1 finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2016-Proj1&type=&language=)
 #### Week 3
 - [Shiny App](Tutorials/wk3-ShinyApp.RMD)
 - [Starter codes](Projects_StarterCodes/Project_OpenDataNYC) of project 2 (Open Data NYC shiny app).
@@ -27,6 +28,8 @@
 #### Week 5
 - [Making presentations](Tutorials/wk5-MakingPresentation.pdf)
 
+[Project 2 finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2016-Proj2&type=&language=)
+
 #### Week 6
 No tutorial
 
@@ -37,14 +40,19 @@ No tutorial
 - [Advanced Image Analysis: Tutorial](Tutorials/wk7-image_analysis/advanced_image_analysis.md)
 - [Install CPU-Only Caffe on Mac OS (For Python Interface)](Tutorials/wk7-image_analysis/install_cpu-only_caffe_on_mac_os.md)
 
+[Project 3 finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2016-Proj3&type=&language=)
+
 #### Week 8
 - [Tutorial on model assessment](Tutorials/wk8-TutorialModelSelection.pdf)
 - [More details on Proj. Eval.](Tutorials/wk8-projeval.Rmd)
 - [Example evaluation.R](Tutorials/wk8-evaluation.R)
+
+[Project 4 finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2016-Proj4&type=&language=)
 
 #### Week 10
 - [Project 3 Summary](Tutorials/wk10_summary_proj3.pdf)
 - [Project 4 description](Tutorials/wk10-project4_desc.md)
 - [Tutorial on relational data](Tutorials/wk10-Tutorial4.Rmd)
 
+[Project 5 finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spr2016-Proj5&type=&language=)
 
