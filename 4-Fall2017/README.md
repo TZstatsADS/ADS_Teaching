@@ -4,7 +4,7 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 ----
 ### Project cycle 1: (Individual) R notebook on presidential addresses 
-([starter codes](Projects_startercodes/Project1-RNotebook/))
+([starter codes](/Projects_StarterCodes/Project1-RNotebook/))
 #### Week 1 (9/6)
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)
@@ -53,7 +53,7 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-on-presidential-addresses) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 3: 
-([starter codes](Projects_StarterCodes/Project3_PoodleKFC))
+([starter codes](/Projects_StarterCodes/Project3_PoodleKFC))
 
 #### Week 6 (10/11)
 + [Project 3](Projects_StarterCodes/Project3_PoodleKFC/doc/project3_desc.md) starts.
@@ -87,7 +87,7 @@
 ### Project cycle 4: Algorithm implementation and evaluation
 ([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
 #### Week 9 (11/1)
-+ Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
++ Introduction to [Project 4](/Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
 
 #### Week 10 (11/8)
 + Recap on project 4 requirements.
@@ -96,7 +96,7 @@
 + Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
 
 #### Week 11 (11/15)
-+ [Cluster Model](https://github.com/TZstatsADS/ADS_Teaching/blob/master/4-Fall2017/Tutorials/wk11-notes_cluster/document.pdf) (Chengliang Tang)
++ [Cluster Model](/Tutorials/wk11-notes_cluster/document.pdf) (Chengliang Tang)
 + Q&A on algorithms
 + Team meetings 
 
