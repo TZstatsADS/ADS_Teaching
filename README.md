@@ -14,6 +14,7 @@
 #### Week 2 (Sep 12/13)
 + [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) ([zipped folder](Tutorials/wk2-TextMining.zip))
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
++ Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html), [Example 2](https://cdn.rawgit.com/TZstatsADS/fall2017-project1-duanshiqi/314821e5/doc/Project1_ShiqiDuan/Project1.html)
 + Discussion and Q&A
 
 <!--
