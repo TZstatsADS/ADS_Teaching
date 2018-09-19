@@ -25,10 +25,11 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 2: Shiny App Development
-<!--([starter codes](Projects_StarterCodes/Project2_OpenData))-->
+[starter codes](Projects_StarterCodes/Project2_ShinyApp)
+
 #### Week 3 (Sep 19/20)
 + Project 1 presentations.
-+ Project 2 starts.
++ [Project 2](Projects_StarterCodes/Project2_ShinyApp) starts.
   	+ Check Piazza for your project team and GitHub join link.
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes* 
