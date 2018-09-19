@@ -33,7 +33,7 @@ Each week, we will give a tutorial in class and having live discussion and brain
 	+ [optional] are new data source integrated into this improved app?
 + Implementation of the app 
 	+ are the data processed/integrated properly?
-	+ are necessary measures taken to account for data 	collection issues such as biases, missing values, etc?
+	+ are necessary measures taken into account for data 	collection issues such as biases, missing values, etc?
 + Visualization
 	+ Is the information visualized clearly?
 	+ Is the visualization easy to understand?
