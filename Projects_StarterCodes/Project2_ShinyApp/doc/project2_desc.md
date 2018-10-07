@@ -33,7 +33,7 @@ Each week, we will give a tutorial in class and having live discussion and brain
 	+ [optional] are new data source integrated into this improved app?
 + Implementation of the app 
 	+ are the data processed/integrated properly?
-	+ are necessary measures taken to account for data 	collection issues such as biases, missing values, etc?
+	+ are necessary measures taken into account for data 	collection issues such as biases, missing values, etc?
 + Visualization
 	+ Is the information visualized clearly?
 	+ Is the visualization easy to understand?
@@ -76,6 +76,8 @@ Blogs
 - [spatial.ly](http://spatial.ly/blog/) Website of Dr. James Cheshire, a geographer on spatial visualizations that tell stories.
 - [NYC taxi data](http://www.andresmh.com/nyctaxitrips/), some [exploration](http://hafen.github.io/taxi/#initial-exploration), a cool [visualization](http://nyctaxi.herokuapp.com/).
 - [Winners of New York City Tree Counts DataJam](http://treescountdatajam.devpost.com/updates/5503-and-the-winners-are)
+- [Vision Zero Interactive Map](http://www.nycvzv.info/)
+- [Wind Map](http://hint.fm/wind/)
 
 News articles:
 <ul>

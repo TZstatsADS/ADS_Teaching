@@ -12,8 +12,10 @@
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
 #### Week 2 (Sep 12/13)
-+ [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) ([zipped folder](Tutorials/wk2-TextMining.zip))
-+ [Overview of starter codes](https://github.com/TZstatsADS/ADS_Teaching/tree/master/Projects_StarterCodes/Project1-RNotebook)
++ [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) 
+    + ([zipped folder](Tutorials/wk2-TextMining.zip))
+    + ([known running issues&solutions](https://gist.github.com/jokerkeny/18c396a00f1e0ab367b9721552013ec7), prepared by Yang Yang [@jokerkeny](https://github.com/jokerkeny))
++ [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
 + Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://cdn.rawgit.com/TZstatsADS/fall2017-project1-duanshiqi/314821e5/doc/Project1_ShiqiDuan/Project1.html) ([repo](https://github.com/TZstatsADS/fall2017-project1-duanshiqi)).
 + Discussion and Q&A
 
@@ -25,12 +27,21 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 2: Shiny App Development
+<<<<<<< HEAD
 [starter codes](Projects_StarterCodes/Project2_ShinyApp)
 
 #### Week 3 (Sep 19/20)
 + Project 1 presentations.
 + [Project 2](Projects_StarterCodes/Project2_ShinyApp) starts.
   	+ Check Piazza for your project team and GitHub join link.
+=======
+([starter codes](Projects_StarterCodes/Project2_ShinyApp))
+#### Week 3 (Sep 19/20)
++ Project 1 presentations.
++ [Project 2](Projects_StarterCodes/Project2_ShinyApp/doc/project2_desc.md) starts.
+    + A short tutorial [In-class presentation](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/c3f17843/Projects_StarterCodes/Project2_ShinyApp/doc/Tutorial2.html)
+  	+ Check [Piazza](https://piazza.com/class/jkst2bihetv196?cid=6#) for your project team and GitHub join link.
+>>>>>>> origin/master
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes* 
    		+ the project description, 
