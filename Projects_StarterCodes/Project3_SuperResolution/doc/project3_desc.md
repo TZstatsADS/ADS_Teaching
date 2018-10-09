@@ -7,7 +7,7 @@ In this project, we will carry out **model evaluation and selection** for predic
 
 #### Challenge
 
-For this project, you will receive [a set of 1000 pairs of images](link to be added). For each pair, you have a high-resolution image that serves as the *ground truth* and a down-sampled low-resolution image as the *input* for the learning task. The learning goal is to produce a *predicted* high resolution image as *output* based on the low-resolution input that is as close to the *ground truth* as possible.
+For this project, you will receive [a set of 1500 pairs of images](link to be added). For each pair, you have a high-resolution image that serves as the *ground truth* and a down-sampled low-resolution image as the *input* for the learning task. The learning goal is to produce a *predicted* high resolution image as *output* based on the low-resolution input that is as close to the *ground truth* as possible.
 
 Your client is interested in creating an mobile AI program that can **enhance the resolution of blurry and low-resolution images**. 
 
