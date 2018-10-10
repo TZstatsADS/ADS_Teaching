@@ -68,8 +68,8 @@
   + Check Piazza for your project team and GitHub join link.
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
-    	+ the project description, 
-    	+ an example project 
+    + the project description, 
+    + an example project 
 
 <!-- + [Project 3](Projects_StarterCodes/Project3_PoodleKFC/doc/project3_desc.md) starts.
 
