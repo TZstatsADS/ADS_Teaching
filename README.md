@@ -27,8 +27,7 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 2: Shiny App Development
-<<<<<<< HEAD
-[starter codes](Projects_StarterCodes/Project2_ShinyApp)
+([starter codes](Projects_StarterCodes/Project2_ShinyApp))
 
 #### Week 3 (Sep 19/20)
 + Project 1 presentations.
