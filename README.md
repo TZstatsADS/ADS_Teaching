@@ -76,7 +76,7 @@
 -->
 
 + [Intro to Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md)
-+ [Example `main.Rmd`]
++ [Example `main.Rmd`](Projects_StarterCodes/Project3_SuperResolution/doc/main.Rmd)
 
 #### Week 7 (Oct 17/18)
 + Tutorials + Q&A
