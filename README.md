@@ -76,7 +76,7 @@
 	+ Recap on project 3 requirements and starter codes.
 	+ [Tutorial on gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
-	+ Tutorials: [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/1e1b32c9/Tutorials/wk7-Image%20Analysis/EBImage%26SIFT/image_analysis.html) + [Super Resolution](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/advanced_image_analysis.html) 
+	+ Tutorials: [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-ImageAnalysis/EBImage%26SIFT/image_analysis.html) + [Super Resolution](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/advanced_image_analysis.html) 
 	
 #### Week 8 (Oct 24/25)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
