@@ -19,9 +19,9 @@
 + Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://cdn.rawgit.com/TZstatsADS/fall2017-project1-duanshiqi/314821e5/doc/Project1_ShiqiDuan/Project1.html) ([repo](https://github.com/TZstatsADS/fall2017-project1-duanshiqi)).
 + Discussion and Q&A
 
-<!--
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project1&type=&language=) 
--->
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=%E2%9C%93&q=Fall2018-Proj1&type=&language=) 
+
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
