@@ -33,14 +33,6 @@
 + Project 1 presentations.
 + [Project 2](Projects_StarterCodes/Project2_ShinyApp) starts.
   	+ Check Piazza for your project team and GitHub join link.
-=======
-([starter codes](Projects_StarterCodes/Project2_ShinyApp))
-#### Week 3 (Sep 19/20)
-+ Project 1 presentations.
-+ [Project 2](Projects_StarterCodes/Project2_ShinyApp/doc/project2_desc.md) starts.
-    + A short tutorial [In-class presentation](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/c3f17843/Projects_StarterCodes/Project2_ShinyApp/doc/Tutorial2.html)
-  	+ Check [Piazza](https://piazza.com/class/jkst2bihetv196?cid=6#) for your project team and GitHub join link.
->>>>>>> origin/master
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes* 
    		+ the project description, 
