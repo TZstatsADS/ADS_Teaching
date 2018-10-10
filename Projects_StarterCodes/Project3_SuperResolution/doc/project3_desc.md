@@ -102,7 +102,7 @@ The instructional team will download each team's GitHub repo and cross-examine e
 8. [wk 3] By Oct 24/25, you should layout a to-do list and divide up tasks. Teams should work together and resolve any ambiguity about which team member should be doing what for this project. This is **extremly important** for this project due to the computational nature of this project. 
 
 ##### Working together
-- Setup a GitHub project folder with everyone listed as contributor. Everyone clones the project locally and create a local branch. 
+- Setup a GitHub project folder with everyone listed as contributor. Everyone clones the project locally and creates a local branch. 
 - The data is too big to be stored on GitHub. You can fork the repo to a local folder for this class or all your data science projects and have the data stored in "../data/" from root. Your project folder may look like
 
 ```
