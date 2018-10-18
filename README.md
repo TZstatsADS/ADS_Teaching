@@ -74,7 +74,7 @@
 #### Week 7 (Oct 17/18)
 + Tutorials + Q&A
 	+ Recap on project 3 requirements and starter codes.
-	+ Tutorials: [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-ImageAnalysis/EBImage%26SIFT/imageanalysis.html) + [Super Resolution](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html) 
+	+ Tutorials: [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-ImageAnalysis/EBImage%26SIFT/imageanalysis.html)([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Super Resolution](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html)([zipped folder](Tutorials/wk7-SuperResolution.zip))
 	+ [Tutorial on gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 	
