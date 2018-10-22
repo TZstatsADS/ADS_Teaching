@@ -19,29 +19,20 @@
 + Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://cdn.rawgit.com/TZstatsADS/fall2017-project1-duanshiqi/314821e5/doc/Project1_ShiqiDuan/Project1.html) ([repo](https://github.com/TZstatsADS/fall2017-project1-duanshiqi)).
 + Discussion and Q&A
 
-<!--
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project1&type=&language=) 
--->
+
+[Finished student projects](https://github.com/TZstatsADS?utf8=%E2%9C%93&q=Fall2018-Proj1&type=&language=) 
+
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 2: Shiny App Development
-<<<<<<< HEAD
-[starter codes](Projects_StarterCodes/Project2_ShinyApp)
+([starter codes](Projects_StarterCodes/Project2_ShinyApp))
 
 #### Week 3 (Sep 19/20)
 + Project 1 presentations.
 + [Project 2](Projects_StarterCodes/Project2_ShinyApp) starts.
   	+ Check Piazza for your project team and GitHub join link.
-=======
-([starter codes](Projects_StarterCodes/Project2_ShinyApp))
-#### Week 3 (Sep 19/20)
-+ Project 1 presentations.
-+ [Project 2](Projects_StarterCodes/Project2_ShinyApp/doc/project2_desc.md) starts.
-    + A short tutorial [In-class presentation](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/c3f17843/Projects_StarterCodes/Project2_ShinyApp/doc/Tutorial2.html)
-  	+ Check [Piazza](https://piazza.com/class/jkst2bihetv196?cid=6#) for your project team and GitHub join link.
->>>>>>> origin/master
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes* 
    		+ the project description, 
@@ -70,41 +61,31 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 3: Predictive Modeling
-<!--([starter codes](Projects_StarterCodes/Project3_PoodleKFC))-->
+([starter codes](Projects_StarterCodes/Project3_SuperResolution))
 
 #### Week 6 (Oct 10/11)
-+ Project 3 starts
++ [Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md) starts.
   + Check Piazza for your project team and GitHub join link.
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
-    	+ the project description, 
-    	+ an example project 
-
-<!-- + [Project 3](Projects_StarterCodes/Project3_PoodleKFC/doc/project3_desc.md) starts.
-
--->
-
-+ [Intro to Project 3]
-+ [Example `main.Rmd`]
+    + [Intro to Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md) 
+    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3_SuperResolution/doc/main.Rmd)
 
 #### Week 7 (Oct 17/18)
 + Tutorials + Q&A
-
-<!-- + Recap on project 3 requirements and starter codes.
-+ Tutorial (Chengliang): [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/1e1b32c9/Tutorials/wk7-Image%20Analysis/EBImage%26SIFT/image_analysis.html) + [SIFT](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/40e8570a/Tutorials/wk7-Image%20Analysis/EBImage%26SIFT/advanced_image_analysis.html) ([zipped folder](Tutorials/wk7-Image%20Analysis.zip)) + [MATLAB codes for SIFT](Tutorials/wk7-Image%20Analysis/MATLAB_sift.zip)-->
-
+	+ Recap on project 3 requirements and starter codes.
+	+ Tutorials: [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-ImageAnalysis/EBImage%26SIFT/imageanalysis.html)([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Super Resolution](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html)([zipped folder](Tutorials/wk7-SuperResolution.zip))
+	+ [Tutorial on gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
+		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
+	
 #### Week 8 (Oct 24/25)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ Tutorials + Discussion
-
-<!--+ [Tutorial on gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf) (Chengliang Tang)
-+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
-+ We will email you a checklist for project submission on 3/21.
-+ [Project 3 Summary for Fall 2017](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/8ecad713/Tutorials/wk13-project3summary/wk13-project3_summary.html)
--->
++ Tutorial on TensorFlow
++ Project submission checklist
++ Discussion
 
 #### Week 9 (Oct 31/Nov 1)
-+ Project 3 presentations
++ Project 3 submission and presentations
 
 <!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project3&type=&language=)-->
 

@@ -97,7 +97,7 @@ if(run.feature.train){
 ```
 
 
-### Step 4: Train a classification model with training images
+### Step 4: Train a regression model with training features and responses
 Call the train model and test model from library. 
 
 `train.R` and `test.R` should be wrappers for all your model training steps and your classification/prediction steps. 

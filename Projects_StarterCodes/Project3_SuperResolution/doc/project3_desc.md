@@ -7,7 +7,7 @@ In this project, we will carry out **model evaluation and selection** for predic
 
 #### Challenge
 
-For this project, you will receive [a set of 1000 pairs of images](link to be added). For each pair, you have a high-resolution image that serves as the *ground truth* and a down-sampled low-resolution image as the *input* for the learning task. The learning goal is to produce a *predicted* high resolution image as *output* based on the low-resolution input that is as close to the *ground truth* as possible.
+For this project, you will receive [a set of 1500 pairs of images](https://www.dropbox.com/s/7agsll3t5t7spkr/train_set.zip?dl=0). For each pair, you have a high-resolution image that serves as the *ground truth* and a down-sampled low-resolution image as the *input* for the learning task. The learning goal is to produce a *predicted* high resolution image as *output* based on the low-resolution input that is as close to the *ground truth* as possible.
 
 Your client is interested in creating an mobile AI program that can **enhance the resolution of blurry and low-resolution images**. 
 
@@ -102,7 +102,7 @@ The instructional team will download each team's GitHub repo and cross-examine e
 8. [wk 3] By Oct 24/25, you should layout a to-do list and divide up tasks. Teams should work together and resolve any ambiguity about which team member should be doing what for this project. This is **extremly important** for this project due to the computational nature of this project. 
 
 ##### Working together
-- Setup a GitHub project folder with everyone listed as contributor. Everyone clones the project locally and create a local branch. 
+- Setup a GitHub project folder with everyone listed as contributor. Everyone clones the project locally and creates a local branch. 
 - The data is too big to be stored on GitHub. You can fork the repo to a local folder for this class or all your data science projects and have the data stored in "../data/" from root. Your project folder may look like
 
 ```
