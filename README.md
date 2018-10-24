@@ -80,7 +80,7 @@
 	
 #### Week 8 (Oct 24/25)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ Tutorial on TensorFlow
++ [Tensorflow Tutorial](https://jyr123456.shinyapps.io/Tensorflow_tutorial/#section-high-level-api) + [Image Interpolation with Tensorflow](https://jyr123456.shinyapps.io/Image_Interpolation_tutorial/)
 + Project submission checklist
 + Discussion
 
