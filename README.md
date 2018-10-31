@@ -85,6 +85,10 @@
 + Discussion
 
 #### Week 9 (Oct 31/Nov 1)
++ Project 3 update
++ Q&A
+
+#### Week 10 (Nov 7/8)
 + Project 3 submission and presentations
 
 <!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project3&type=&language=)-->
@@ -95,15 +99,8 @@
 ### Project cycle 4: Algorithm implementation and evaluation
 <!--([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
 -->
-#### Week 9 (Oct 31/Nov 1)
-+ Introduction to Project 4
-
-<!--+ Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
--->
-
 #### Week 10 (Nov 7/8)
-<!--+ Overview of collaborative filtering.
--->
++ Introduction to Project 4
 + Overview of the reference papers.
 + Tutorials + Discussion
 
