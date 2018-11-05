@@ -67,7 +67,7 @@ if (!require("pacman")) {
 
 pacman::p_load(knitr, readr, stringr, tesseract, vecsets)
 source('../lib/ifCleanToken.R')
-file_name_vec <- list.files("../data/ground_truth") #97 files in total
+file_name_vec <- list.files("../data/ground_truth") #100 files in total
 ```
 
 # Step 2 - read the files and conduct Tesseract OCR
@@ -77,6 +77,7 @@ Although we have processed the Tesseract OCR and save the output txt files in th
 ```{r, eval=FALSE}
 for(i in c(1:length(file_name_vec))){
   current_file_name <- sub(".txt","",file_name_vec[i])
+  ## png folder is not provided on github (the code is only on demonstration purpose)
   current_tesseract_txt <- tesseract::ocr(paste("../data/png/",current_file_name,".png",sep=""))
   
   ### clean the tessetact text (separate line by "\n", delete null string, transter to lower case)
@@ -106,9 +107,12 @@ The referenced papers are:
 
 - features are in section 5 (you can choose not to implement ‘Levenshtein distance’ feature)
 
+
+In this statercode, we implement the first three rules in the first paper -- rule based techniques, as an example.
+
 ```{r}
 ### only process one of the files in the folder as an example, in your project, you need to use all the files
-current_file_name <- sub(".txt","",file_name_vec[3])
+current_file_name <- sub(".txt","",file_name_vec[5])
 
 ## read the ground truth text
 current_ground_truth_txt <- readLines(paste("../data/ground_truth/",current_file_name,".txt",sep=""), warn=FALSE)
@@ -160,7 +164,7 @@ where *items* refer to either characters or words, and ground truth is the origi
 
 Both *precision* and *recall* are mathematically convenient measures because their numeric values are some decimal fractions in the range between 0.0 and 1.0, and thus can be written as percentages. For instance, recall is the percentage of words in the original text correctly found by the OCR engine, whereas precision is the percentage of correctly found words with respect to the total word count of the OCR output. Note that in the OCR-related literature, the term OCR accuracy often refers to recall.
 
-Here, we only finished the **word level evaluation** criterions, you are required to complete the word-level part.
+Here, we only finished the **word level evaluation** criterions, you are required to complete the **letter-level** part.
 
 ```{r}
 ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]] #1078
