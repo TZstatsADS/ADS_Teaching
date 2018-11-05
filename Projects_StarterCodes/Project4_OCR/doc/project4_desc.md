@@ -30,7 +30,7 @@ Each week, we will give a tutorial in class and having live discussion and brain
 
 ##### Suggested team workflow
 1. [wk1] Week 1 is the **reading and coding** week. Read the papers assigned to you, understand the algorithms and start coding up the algorithms; Also load the data into `R` and understand its structure. 
-2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments as issues on GitHub by April 3rd. 
+2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments as issues on GitHub by Nov 14/15. 
 4. [wk1] As a team, brainstorm about your evaluation plan.  
 5. [wk2] Based on the outcomes from week 1's reading and brainstorm sessions, continue coding and start evaluation. 
 6. [wk2] Week 2 is the **evaluation** week. 
