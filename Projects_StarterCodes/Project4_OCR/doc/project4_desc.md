@@ -11,7 +11,7 @@ Adapting published algorithms to address a data problem in your project is a com
 
 For this project, each team is assigned **a pair of research papers** from the *OCR post-processing* literature. You will study the papers carefully and implement the algorithms, from scratch, in `R`. **Paper assignments will be posted to a piazza post specific to individual teams**. 
 
-You will also receive a set of 97 pairs of text files. For each pair, you have a ground-truth text file and a *[Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software))* processed file as the *input* for the task. 
+You will also receive a set of 100 pairs of text files. For each pair, you have a ground-truth text file and a *[Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software))* processed file as the *input* for the task. 
 
 #### Evaluation criteria 
 - Readabiity and reproducibility of codes;
@@ -80,4 +80,4 @@ This is a short project. During the first week, we will give a tutorial in class
 
 ##### Example starter codes
 
-As an example, you can find in the GitHub starter codes an example using part of rule-based error detection method. 
+As an example, you can find in the GitHub starter codes an example using part of rule-based error detection method (first three rules in the [paper](http://webpages.ursinus.edu/akontostathis/KulpKontostathisFinal.pdf). The word error correction part is simply deleting the error detected before. We implement the word-level criterion, you should at least compelete the letter-level criterion.
