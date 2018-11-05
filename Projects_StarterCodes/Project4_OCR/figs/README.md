@@ -1,4 +1,4 @@
-# Project: Can you unscramble a blurry image? 
+# Project: OCR (Optical Character Recognition) 
 
 
 ### Figs folder

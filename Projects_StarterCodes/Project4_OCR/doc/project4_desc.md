@@ -1,20 +1,22 @@
 ## STAT GR5243 Fall 2018 Applied Data Science
 ### Project 4 Optical Character Recognition (OCR) Post-processing Algorithms Evaluation
 
-In this project, working in teams, you will evaluate and **compare** a pair of algorithms for **OCR Post-processing**.
+Adapting published algorithms to address a data problem in your project is a common task in practice. In this project, working in teams, you will implement, evaluate and **compare** a pair of algorithms for **OCR post-processing**.
 
 #### Challenge
 
-**OCR** is a technology that enables you to convert different types of documents, such as scanned paper documents, PDF files or images captured by a digital camera into editable and searchable data. The OCR system consists of pre-processing module, word recognition module and post-processing module, which are pipelined together to retrieve a relevant scanned document.
+**OCR** is a technology that enables you to convert different types of documents (e.g., scanned documents, PDF files or images captured by a digital camera) into editable and searchable data. An OCR system consists of pre-processing module, word recognition module and post-processing module, which are pipelined together to retrieve a relevant scanned document.
 
 ![image](ocr_flowchart.png)
 
-For this project, each team is assigned **a pair of research papers** from the *OCR* literature. You will study the papers carefully and implement the algorithms, from scratch, in `R`. **Paper assignments will be posted to a piazza post specific to individual groups**. You will also receive a set of 97 text files. For each pair, you have a ground-truth text file and a *[Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software))* processed file as the *input* for the task. 
+For this project, each team is assigned **a pair of research papers** from the *OCR post-processing* literature. You will study the papers carefully and implement the algorithms, from scratch, in `R`. **Paper assignments will be posted to a piazza post specific to individual teams**. 
+
+You will also receive a set of 97 pairs of text files. For each pair, you have a ground-truth text file and a *[Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software))* processed file as the *input* for the task. 
 
 #### Evaluation criteria 
-- Readabiity and reproducibility of codes
-- Validity of evaluation (well-defined measures of performance; experiment set up)
-- Presentation and organization (report, github and in-class presentation)
+- Readabiity and reproducibility of codes;
+- Validity of evaluation (well-defined measures of performance; well-designed evaluation experiment setup);
+- Presentation and organization (report, github and in-class presentation).
 
 *(More details will be posted as grading rubrics in courseoworks/canvas)*
 
@@ -22,10 +24,10 @@ For this project, each team is assigned **a pair of research papers** from the *
 
 ##### Project time table.
 
-Each week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
+This is a short project. During the first week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
 
 - week 1 (Nov 7/8): Introduction and project description. An overview of OCR.
-- week 2 (Nov 14/15): Q&A.
+- week 2 (Nov 14/15): Team Q&A on algorithms and evaluation plan.
 - Final presentation (Nov 28/29)
 
 ##### Suggested team workflow

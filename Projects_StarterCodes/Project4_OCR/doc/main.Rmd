@@ -40,7 +40,7 @@ h4 { /* Header 4 */
 # Introduction {-}
 
 Optical character recognition (OCR) is the process of converting scanned images of machine printed or
-handwritten text (numerals, letters, and symbols), into machine readable character streams, plain (e.g. text files) or formatted (e.g. HTML files). As shown in Figure 1, the data path in a typical OCR system consists of three major stages:
+handwritten text (numerals, letters, and symbols), into machine readable character streams, plain (e.g. text files) or formatted (e.g. HTML files). As shown in Figure 1, the data *workflow* in a typical OCR system consists of three major stages:
 
 * Pre-processing
 
@@ -50,12 +50,21 @@ handwritten text (numerals, letters, and symbols), into machine readable charact
 
 ![](../figs/ocr_flowchart.png) 
 
-In this project, we are going to focus on the third stage -- post-processing, which includes tasks -- error detection and error corrections. The first two steps are relying on the [Tessearct OCR machine](https://en.wikipedia.org/wiki/Tesseract_(software)). R package tutorial can be found [here](https://www.r-bloggers.com/the-new-tesseract-package-high-quality-ocr-in-r/).
+We have processed raw scanned images through the first two steps are relying on the [Tessearct OCR machine](https://en.wikipedia.org/wiki/Tesseract_(software)). R package tutorial can be found [here](https://www.r-bloggers.com/the-new-tesseract-package-high-quality-ocr-in-r/). 
 
-# Step 1 - Specify working directory, load library and source code
+BUT this is not the FOCUS of this project!!!
+
+In this project, we are going to **focus on the third stage -- post-processing**, which includes two tasks: *error detection* and *error correction*.  
+
+# Step 1 - Load library and source code
 ```{r, warning=FALSE, message = FALSE}
-setwd("~/Dropbox/Github/ADS_Teaching/Projects_StarterCodes/Project4_OCR/doc")
-if (!require("pacman")) install.packages("pacman")
+if (!require("devtools")) install.packages("devtools")
+if (!require("pacman")) {
+  ## devtools is required
+  library(devtools)
+  install_github("trinker/pacman")
+}
+
 pacman::p_load(knitr, readr, stringr, tesseract, vecsets)
 source('../lib/ifCleanToken.R')
 file_name_vec <- list.files("../data/ground_truth") #97 files in total
@@ -64,6 +73,7 @@ file_name_vec <- list.files("../data/ground_truth") #97 files in total
 # Step 2 - read the files and conduct Tesseract OCR
 
 Although we have processed the Tesseract OCR and save the output txt files in the `data` folder, we include this chunk of code in order to make clear the whole pipeline to you.
+
 ```{r, eval=FALSE}
 for(i in c(1:length(file_name_vec))){
   current_file_name <- sub(".txt","",file_name_vec[i])
@@ -80,7 +90,7 @@ for(i in c(1:length(file_name_vec))){
 
 # Step 3 - Error detection
 
-Now, we are ready to conduct post-processing, based on the Tessearct OCR output. First of all, we need to detect error words -- check to see if an input string is a valid dictionary word or if its n-grams are all legal.
+Now, we are ready to conduct post-processing, based on the Tessearct OCR output. First of all, we need to detect errors, or *incorrectly processed words* -- check to see if an input string is a valid dictionary word or if its n-grams are all legal.
 
 The referenced papers are:
 
@@ -150,7 +160,7 @@ where *items* refer to either characters or words, and ground truth is the origi
 
 Both *precision* and *recall* are mathematically convenient measures because their numeric values are some decimal fractions in the range between 0.0 and 1.0, and thus can be written as percentages. For instance, recall is the percentage of words in the original text correctly found by the OCR engine, whereas precision is the percentage of correctly found words with respect to the total word count of the OCR output. Note that in the OCR-related literature, the term OCR accuracy often refers to recall.
 
-Here, we only finished the word level evaluation criterions, you are required to complete the word-level part.
+Here, we only finished the **word level evaluation** criterions, you are required to complete the word-level part.
 
 ```{r}
 ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]] #1078
