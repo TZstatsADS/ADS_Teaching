@@ -1,6 +1,6 @@
 # Project: OCR (Optical Character Recognition) 
 
-![image](figs/OCR.jpg)
+![image](figs/intro.png)
 
 ### [Full Project Description](doc/project4_desc.md)
 
