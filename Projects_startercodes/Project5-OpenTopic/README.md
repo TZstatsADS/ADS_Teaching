@@ -2,7 +2,7 @@
 
 Term: Spring 2017
 
-+ Team #
++ Team ##
 + Projec title: Lorem ipsum dolor sit amet
 + Team members
 	+ team member 1
