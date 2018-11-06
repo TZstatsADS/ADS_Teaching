@@ -102,7 +102,7 @@
 #### Week 10 (Nov 7/8)
 + Introduction to [Project 4](Projects_StarterCodes/Project4_OCR)
 + Overview of the [reference papers](Projects_StarterCodes/Project4_OCR/doc/paper).
-+ Tutorials + Discussion
++ [Tutorials](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Projects_StarterCodes/Project4_OCR/doc/main.html) + Discussion
 
 <!--+ Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
 -->
