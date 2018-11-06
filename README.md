@@ -100,8 +100,8 @@
 <!--([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
 -->
 #### Week 10 (Nov 7/8)
-+ Introduction to Project 4
-+ Overview of the reference papers.
++ Introduction to [Project 4](Projects_StarterCodes/Project4_OCR)
++ Overview of the [reference papers](Projects_StarterCodes/Project4_OCR/doc/paper).
 + Tutorials + Discussion
 
 <!--+ Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
