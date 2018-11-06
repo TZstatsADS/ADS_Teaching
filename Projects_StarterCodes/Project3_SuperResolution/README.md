@@ -5,7 +5,7 @@
 
 Term: Fall 2018
 
-+ Team #
++ Team ##
 + Team members
 	+ team member 1
 	+ team member 2
