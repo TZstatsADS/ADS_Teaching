@@ -44,7 +44,7 @@ handwritten text (numerals, letters, and symbols), into machine readable charact
 
 * Pre-processing
 
-* OCR character recognition
+* Word recognition
 
 * Post-processing
 
@@ -70,14 +70,14 @@ source('../lib/ifCleanToken.R')
 file_name_vec <- list.files("../data/ground_truth") #100 files in total
 ```
 
-# Step 2 - read the files and conduct Tesseract OCR
+# Step 2 - Read the files and conduct Tesseract OCR
 
 Although we have processed the Tesseract OCR and save the output txt files in the `data` folder, we include this chunk of code in order to make clear the whole pipeline to you.
 
 ```{r, eval=FALSE}
 for(i in c(1:length(file_name_vec))){
   current_file_name <- sub(".txt","",file_name_vec[i])
-  ## png folder is not provided on github (the code is only on demonstration purpose)
+  ## png folder is not provided on github (the code is only for demonstration purpose)
   current_tesseract_txt <- tesseract::ocr(paste("../data/png/",current_file_name,".png",sep=""))
   
   ### clean the tessetact text (separate line by "\n", delete null string, transter to lower case)
@@ -138,15 +138,15 @@ The referenced papers are:
 
 2. Supervised model -- [correction regressor](https://arxiv.org/pdf/1611.06950.pdf)
 
-3. [probability scoring without context](https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf)
+3. [Probability scoring without context](https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf)
 
 - focus on section 3
 
-4. [probability scoring with contextual constraints](https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf)
+4. [Probability scoring with contextual constraints](https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf)
 
 - focus on section 5
 
-5. [topic models](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4377099)
+5. [Topic models](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4377099)
 
 Here, in our code, we just simply remove the detected-errors.
 ```{r}
@@ -164,17 +164,19 @@ where *items* refer to either characters or words, and ground truth is the origi
 
 Both *precision* and *recall* are mathematically convenient measures because their numeric values are some decimal fractions in the range between 0.0 and 1.0, and thus can be written as percentages. For instance, recall is the percentage of words in the original text correctly found by the OCR engine, whereas precision is the percentage of correctly found words with respect to the total word count of the OCR output. Note that in the OCR-related literature, the term OCR accuracy often refers to recall.
 
-Here, we only finished the **word level evaluation** criterions, you are required to complete the **letter-level** part.
+Here, we only finished the **word level evaluation** criterions, you are required to complete the **character-level** part.
 
 ```{r}
 ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]] #1078
+
+## Here, we compare the lower case version of the tokens
 old_intersect_vec <- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_vec)) #607
 new_intersect_vec <- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_delete_error_vec)) #600
 
 OCR_performance_table <- data.frame("Tesseract" = rep(NA,4),
                                     "Tesseract_with_postprocessing" = rep(NA,4))
 row.names(OCR_performance_table) <- c("word_wise_recall","word_wise_precision",
-                                                 "character_wise_recall","character_wise_precision")
+                                      "character_wise_recall","character_wise_precision")
 OCR_performance_table["word_wise_recall","Tesseract"] <- length(old_intersect_vec)/length(ground_truth_vec)
 OCR_performance_table["word_wise_precision","Tesseract"] <- length(old_intersect_vec)/length(tesseract_vec)
 OCR_performance_table["word_wise_recall","Tesseract_with_postprocessing"] <- length(new_intersect_vec)/length(ground_truth_vec)
@@ -182,7 +184,7 @@ OCR_performance_table["word_wise_precision","Tesseract_with_postprocessing"] <- 
 kable(OCR_performance_table, caption="Summary of OCR performance")
 ```
 
-Besides the above required measurement, you are encouraged the explore more evaluation measurements. Here are some related references:
+Besides the above required measurement, you are encouraged to explore more evaluation measurements. Here are some related references:
 
 1. Karpinski, R., Lohani, D., & Belaïd, A. *Metrics for Complete Evaluation of OCR Performance*. [pdf](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3481.pdf)
 

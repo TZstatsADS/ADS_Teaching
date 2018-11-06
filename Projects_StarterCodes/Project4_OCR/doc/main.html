@@ -272,7 +272,7 @@ h4 { /* Header 4 */
 <p>Optical character recognition (OCR) is the process of converting scanned images of machine printed or handwritten text (numerals, letters, and symbols), into machine readable character streams, plain (e.g. text files) or formatted (e.g. HTML files). As shown in Figure 1, the data <em>workflow</em> in a typical OCR system consists of three major stages:</p>
 <ul>
 <li><p>Pre-processing</p></li>
-<li><p>OCR character recognition</p></li>
+<li><p>Word recognition</p></li>
 <li><p>Post-processing</p></li>
 </ul>
 <div class="figure">
@@ -297,11 +297,11 @@ source('../lib/ifCleanToken.R')
 file_name_vec &lt;- list.files(&quot;../data/ground_truth&quot;) #100 files in total</code></pre>
 </div>
 <div id="step-2---read-the-files-and-conduct-tesseract-ocr" class="section level1">
-<h1><span class="header-section-number">2</span> Step 2 - read the files and conduct Tesseract OCR</h1>
+<h1><span class="header-section-number">2</span> Step 2 - Read the files and conduct Tesseract OCR</h1>
 <p>Although we have processed the Tesseract OCR and save the output txt files in the <code>data</code> folder, we include this chunk of code in order to make clear the whole pipeline to you.</p>
 <pre class="r"><code>for(i in c(1:length(file_name_vec))){
   current_file_name &lt;- sub(&quot;.txt&quot;,&quot;&quot;,file_name_vec[i])
-  ## png folder is not provided on github (the code is only on demonstration purpose)
+  ## png folder is not provided on github (the code is only for demonstration purpose)
   current_tesseract_txt &lt;- tesseract::ocr(paste(&quot;../data/png/&quot;,current_file_name,&quot;.png&quot;,sep=&quot;&quot;))
   
   ### clean the tessetact text (separate line by &quot;\n&quot;, delete null string, transter to lower case)
@@ -361,19 +361,19 @@ tesseract_if_clean &lt;- unlist(lapply(tesseract_vec,ifCleanToken)) # source cod
 </ul>
 <ol start="2" style="list-style-type: decimal">
 <li><p>Supervised model – <a href="https://arxiv.org/pdf/1611.06950.pdf">correction regressor</a></p></li>
-<li><p><a href="https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf">probability scoring without context</a></p></li>
+<li><p><a href="https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf">Probability scoring without context</a></p></li>
 </ol>
 <ul>
 <li>focus on section 3</li>
 </ul>
 <ol start="4" style="list-style-type: decimal">
-<li><a href="https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf">probability scoring with contextual constraints</a></li>
+<li><a href="https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf">Probability scoring with contextual constraints</a></li>
 </ol>
 <ul>
 <li>focus on section 5</li>
 </ul>
 <ol start="5" style="list-style-type: decimal">
-<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4377099">topic models</a></li>
+<li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4377099">Topic models</a></li>
 </ol>
 <p>Here, in our code, we just simply remove the detected-errors.</p>
 <pre class="r"><code>tesseract_delete_error_vec &lt;- tesseract_vec[tesseract_if_clean] #1095</code></pre>
@@ -387,15 +387,17 @@ The two most common OCR accuracy measures are precision and recall. Both are rel
 \end{align*}\]</span>
 <p>where <em>items</em> refer to either characters or words, and ground truth is the original text stored in the plain text file.</p>
 <p>Both <em>precision</em> and <em>recall</em> are mathematically convenient measures because their numeric values are some decimal fractions in the range between 0.0 and 1.0, and thus can be written as percentages. For instance, recall is the percentage of words in the original text correctly found by the OCR engine, whereas precision is the percentage of correctly found words with respect to the total word count of the OCR output. Note that in the OCR-related literature, the term OCR accuracy often refers to recall.</p>
-<p>Here, we only finished the <strong>word level evaluation</strong> criterions, you are required to complete the <strong>letter-level</strong> part.</p>
+<p>Here, we only finished the <strong>word level evaluation</strong> criterions, you are required to complete the <strong>character-level</strong> part.</p>
 <pre class="r"><code>ground_truth_vec &lt;- str_split(paste(current_ground_truth_txt, collapse = &quot; &quot;),&quot; &quot;)[[1]] #1078
+
+## Here, we compare the lower case version of the tokens
 old_intersect_vec &lt;- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_vec)) #607
 new_intersect_vec &lt;- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_delete_error_vec)) #600
 
 OCR_performance_table &lt;- data.frame(&quot;Tesseract&quot; = rep(NA,4),
                                     &quot;Tesseract_with_postprocessing&quot; = rep(NA,4))
 row.names(OCR_performance_table) &lt;- c(&quot;word_wise_recall&quot;,&quot;word_wise_precision&quot;,
-                                                 &quot;character_wise_recall&quot;,&quot;character_wise_precision&quot;)
+                                      &quot;character_wise_recall&quot;,&quot;character_wise_precision&quot;)
 OCR_performance_table[&quot;word_wise_recall&quot;,&quot;Tesseract&quot;] &lt;- length(old_intersect_vec)/length(ground_truth_vec)
 OCR_performance_table[&quot;word_wise_precision&quot;,&quot;Tesseract&quot;] &lt;- length(old_intersect_vec)/length(tesseract_vec)
 OCR_performance_table[&quot;word_wise_recall&quot;,&quot;Tesseract_with_postprocessing&quot;] &lt;- length(new_intersect_vec)/length(ground_truth_vec)
@@ -433,7 +435,7 @@ kable(OCR_performance_table, caption=&quot;Summary of OCR performance&quot;)</co
 </tr>
 </tbody>
 </table>
-<p>Besides the above required measurement, you are encouraged the explore more evaluation measurements. Here are some related references:</p>
+<p>Besides the above required measurement, you are encouraged to explore more evaluation measurements. Here are some related references:</p>
 <ol style="list-style-type: decimal">
 <li>Karpinski, R., Lohani, D., &amp; Belaïd, A. <em>Metrics for Complete Evaluation of OCR Performance</em>. <a href="https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3481.pdf">pdf</a></li>
 </ol>
