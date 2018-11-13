@@ -75,9 +75,11 @@ This is a short project. During the first week, we will give a tutorial in class
 
 3. Church, K. W., & Gale, W. A. (1991). Probability scoring for spelling correction. Statistics and Computing, 1(2), 93-103. [Link](https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf)
 * Focus on section 3 -- probability scoring without context
+* Confusion matrices are in the `data` folder
 
 4. Church, K. W., & Gale, W. A. (1991). Probability scoring for spelling correction. Statistics and Computing, 1(2), 93-103. [Link](https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf)
 * Same paper as above one, but focus on section 5 -- probability scoring with contextual constraints
+* Confusion matrices are in `data` folder
 
 5. Wick, M., Ross, M., & Learned-Miller, E. (2007, September). Context-sensitive error correction: Using topic models to improve OCR. In Document Analysis and Recognition, 2007. ICDAR 2007. Ninth International Conference on (Vol. 2, pp. 1168-1172). IEEE. [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4377099)
 * Topic modeling.
