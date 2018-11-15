@@ -13,7 +13,7 @@ For this project, each team is assigned **a pair of research papers** from the *
 
 You will also receive a set of 100 pairs of text files. For each pair, you have a ground-truth text file and a *[Tesseract](https://en.wikipedia.org/wiki/Tesseract_(software))* processed file as the *input* for the task. 
 
-For the submission in [courseworks](https://courseworks2.columbia.edu/courses/69338/assignments/), you will submit the line to your team's GitHub repo that contains your codes and a **testing report** (must be a reproducible R notebook or a similar format) on the algorithms in terms of a side-by-side comparison of their performance and computational efficiency. For the presentation, each team should briefly explain what each algorithm does, how the evaluation was carried out, and what are the main results.
+For the submission in [courseworks](https://courseworks2.columbia.edu/courses/69338/assignments/), you will submit the line to your team's GitHub repo that contains your codes and a **testing report** (must be a reproducible R notebook or a similar format) on the algorithms in terms of their performance and computational efficiency. For the presentation, each team should briefly explain what each algorithm does, how the evaluation was carried out, and what are the main results.
 
 All developments need to be carried out in the group-shared private repo on [https://www.github.com/TZstatsADS/] with clear project management log, taking advantage of GitHub issues.
 
