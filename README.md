@@ -116,6 +116,7 @@
 
 #### Week 12 (Nov 28/29)
 + Project 4 presentations
++ Project 3 summary: [Section 1](https://rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk13-project3_summary-sec1.html)
 + Project 5 discussions
 
 <!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project4&type=&language=)
