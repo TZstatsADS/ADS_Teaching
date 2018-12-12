@@ -91,7 +91,7 @@
 #### Week 10 (Nov 7/8)
 + Project 3 submission and presentations
 
-<!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project3&type=&language=)-->
+[Finished student projects](https://github.com/TZstatsADS?utf8=%E2%9C%93&q=Fall2018-Proj3&type=&language=)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
