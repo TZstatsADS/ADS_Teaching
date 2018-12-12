@@ -129,7 +129,7 @@
 
 <!--+ [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/a1e0a514/Tutorials/wk13-project3summary/wk13-project3_summary.html)
 -->
-<!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2018-Project5&type=&language=)
--->
+[Finished student projects](https://github.com/TZstatsADS?utf8=%E2%9C%93&q=Fall2018-project5&type=&language=)
+
 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
