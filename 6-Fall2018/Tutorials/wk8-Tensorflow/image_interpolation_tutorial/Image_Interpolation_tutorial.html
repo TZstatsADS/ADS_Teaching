@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Yiran Jiang" />
+
+
+<title>Image interpolation with Tensorflow</title>
+
+<script src="Image_Interpolation_tutorial_files/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="Image_Interpolation_tutorial_files/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="Image_Interpolation_tutorial_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="Image_Interpolation_tutorial_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="Image_Interpolation_tutorial_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="Image_Interpolation_tutorial_files/navigation-1.1/tabsets.js"></script>
+<link href="Image_Interpolation_tutorial_files/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="Image_Interpolation_tutorial_files/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="bootstrap.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Image interpolation with Tensorflow</h1>
+<h4 class="author"><em>Yiran Jiang</em></h4>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#installation-basic-oepration">1 Installation &amp; Basic oepration</a></li>
+<li><a href="#introduction">2 Introduction</a></li>
+<li><a href="#image-interpolation">3 Image interpolation</a><ul>
+<li><a href="#d-linear-interpolation">3.1 1-D linear interpolation</a></li>
+<li><a href="#d-linear-interpolation-1">3.2 2-D linear interpolation</a></li>
+</ul></li>
+<li><a href="#tensorflow-implementation">4 Tensorflow implementation</a><ul>
+<li><a href="#computational-graph-intuition">4.1 Computational graph intuition</a></li>
+<li><a href="#code-implementation">4.2 Code implementation</a><ul>
+<li><a href="#step-1-graph-construction">Step 1: Graph construction</a></li>
+<li><a href="#step-2-data-loading">Step 2: Data loading</a></li>
+<li><a href="#step-3-graph-computing">Step 3: Graph computing</a></li>
+<li><a href="#step-4-output-image">Step 4: Output image</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#more">5 More</a><ul>
+<li><a href="#more-about-low-level-apis">More about low-level APIs</a></li>
+<li><a href="#tensorflow-core-functions-for-python">Tensorflow core functions for Python</a></li>
+<li><a href="#how-to-use-pre-trained-models">How to use pre-trained models</a></li>
+<li><a href="#deep-learning-by-mit-press">Deep Learning by MIT press</a></li>
+<li><a href="#more-things-need-to-be-explored">More things need to be explored …</a></li>
+</ul></li>
+<li><a href="#other-resources">Other Resources</a></li>
+<li><a href="#image-source">Image Source</a></li>
+</ul>
+</div>
+
+<blockquote>
+<p>A popular deep learning framework. The R interface makes it possible to train neural networks in R.</p>
+</blockquote>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="https://www.tensorflow.org/_static/images/tensorflow/logo.png" float = "center" ALT="image" width="200"> </span></p>
+</div>
+<p>To learn more about the R interface, see <a href="https://tensorflow.rstudio.com">website</a>.</p>
+<p>To learn more about Tensorflow, see <a href="https://www.tensorflow.org">website</a></p>
+<p></br></p>
+<div id="installation-basic-oepration" class="section level1">
+<h1>1 Installation &amp; Basic oepration</h1>
+<hr />
+<p></br></p>
+<p><a href="https://jyr123456.shinyapps.io/Tensorflow_tutorial/">Link to another tutorial</a></p>
+<p></br> </br></p>
+</div>
+<div id="introduction" class="section level1">
+<h1>2 Introduction</h1>
+<hr />
+<p></br></p>
+<p>Tensorflow is a perfect tool for building neural networks. Moreover, we could use it to build all kinds of computational graphs. Solving different problems by building up the Tensors, we could easily learn the “Tensorflow” way of thinking.</p>
+<p>Since neural networks are so popular in computer vision, implementing an interesting algorithm called <strong>image interpolation</strong> is a good practice.</p>
+<p></br></p>
+</div>
+<div id="image-interpolation" class="section level1">
+<h1>3 Image interpolation</h1>
+<hr />
+<p></br> <a href="https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html">Basic tutorial</a></p>
+<p></br></p>
+<div id="d-linear-interpolation" class="section level2">
+<h2>3.1 1-D linear interpolation</h2>
+<p></br></p>
+<p>For 1-D linear implementation, here is a good visualization of the theoretical computation described above.</p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/1D-interpolation_1.png" float = "center" ALT="image" width="400"> </span></p>
+</div>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/1D-interpolation_2.png" float = "center" ALT="image" width="400"> </span></p>
+</div>
+<center>
+Figure 1. 1-D interpolation visualization
+</center>
+<p></br></p>
+</div>
+<div id="d-linear-interpolation-1" class="section level2">
+<h2>3.2 2-D linear interpolation</h2>
+<p></br></p>
+<p>Since the images we are going to process are 2-D, it’s easy to visualize the result of 2-D interpolation.</p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/2D-interpolation_example.png" float = "center" ALT="image" width="600"> </span></p>
+</div>
+<p></br></p>
+<center>
+Figure 2. 2-D interpolation visualization
+</center>
+<p></br></p>
+<p>For 2-D linear interpolation, we need a more complex computation process since each pixel we fill depends on more values and the distance measure comes to two dimension.</p>
+<p>The figure below shows the way to calculate the interpolation value for the output image.</p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/2D-interpolation_formula.png" float = "center" ALT="image" width="400"> </span></p>
+</div>
+<center>
+Figure 3. Calculation of 2-D interpolation values
+</center>
+<p></br></p>
+</div>
+</div>
+<div id="tensorflow-implementation" class="section level1">
+<h1>4 Tensorflow implementation</h1>
+<hr />
+<p></br></p>
+<div id="computational-graph-intuition" class="section level2">
+<h2>4.1 Computational graph intuition</h2>
+<p></br></p>
+<p>Suppose we need to enlarge image <strong>2</strong> times as before. </br></p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/case_2.png" float = "center" ALT="image" width="400"> </span></p>
+</div>
+<center>
+Figure 4. 2-D interpolation values when size equals two
+</center>
+<p></br></p>
+<p>If we use the idea provided above, for each <span class="math inline">\(2\times2\)</span> input of the original image pixels, we need to output a <span class="math inline">\(3\times3\)</span> pixel matrix.</p>
+<p>Tensorflow provides efficient operations on matrix manipulation, thus it’s intuitive to use vectorized calculation.</p>
+<p><span class="math display">\[
+\begin{bmatrix}
+1 &amp; 0\\
+\frac{1}{2} &amp; \frac{1}{2}\\
+0 &amp; 1
+\end{bmatrix}\times
+\left(
+\begin{bmatrix}
+\text{input_1} &amp; \text{input_2}\\
+\text{input_3} &amp; \text{input_4}
+\end{bmatrix}\times
+\begin{bmatrix}
+1 &amp; \frac{1}{2} &amp; 0\\
+0 &amp; \frac{1}{2} &amp; 1
+\end{bmatrix}\right)
+\]</span></p>
+<p>Each of the input and the calculation step provided above could be represented by a Tensor.</p>
+<p>Follow this step, we could easily obtain the transition matrix in case <span class="math inline">\(\times n\)</span>. This part is left as an exercise.</p>
+<p></br></p>
+</div>
+<div id="code-implementation" class="section level2">
+<h2>4.2 Code implementation</h2>
+<p></br></p>
+<pre class="r"><code>library(tensorflow)</code></pre>
+<p></br></p>
+<div id="step-1-graph-construction" class="section level3">
+<h3>Step 1: Graph construction</h3>
+<p></br></p>
+<p>First we need two tensors for the input data.</p>
+<pre class="r"><code>data_tf &lt;- tf$placeholder(tf$float32,shape(2,2))
+size_tf &lt;- tf$placeholder(tf$int32)</code></pre>
+<p></br></p>
+<p>Construct the transition matrix with the input value of size. We need <strong>operation tensors</strong> doing this.</p>
+<pre class="r"><code>seq_tf &lt;- tf$linspace(start=1.0, stop=0.0, num=size_tf+1L)
+flipseq_tf &lt;- tf$linspace(start=0.0, stop=1.0, num=size_tf+1L)
+mat1_tf &lt;- tf$concat(list(list(seq_tf),list(flipseq_tf)),axis=0L)
+mat2_tf &lt;- tf$transpose(mat1_tf)</code></pre>
+<p></br></p>
+<p>Two more operation tensors for matrix multiplication.</p>
+<pre class="r"><code>h1_tf &lt;- tf$matmul(data_tf,mat1_tf)
+out_tf &lt;- tf$matmul(mat2_tf,h1_tf)</code></pre>
+<p></br></p>
+<p>Define the output, actually you could include more if you want.</p>
+<pre class="r"><code>tf_output &lt;- out_tf</code></pre>
+<p></br></p>
+</div>
+<div id="step-2-data-loading" class="section level3">
+<h3>Step 2: Data loading</h3>
+<p></br></p>
+<p>The package <code>JPEG</code> allows us to load in jpg image file into numerical type.</p>
+<pre class="r"><code>library(jpeg)
+chicken &lt;- readJPEG(&quot;example.jpg&quot;)
+plot(c(0,1),c(0,1))
+rasterImage(chicken,0, 0, 1, 1)</code></pre>
+<p></br></p>
+<p>The chicken image has a ground truth image with size <span class="math inline">\(600\times600\)</span>. To test our algorithm implementation, we downsampled it into size <span class="math inline">\(50\times50\)</span>.</p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/downsampling.png" float = "center" ALT="image" width = "500"> </span></p>
+</div>
+<center>
+Figure 5. Example image
+</center>
+<p></br></p>
+</div>
+<div id="step-3-graph-computing" class="section level3">
+<h3>Step 3: Graph computing</h3>
+<p></br></p>
+<p>Define functions for graph computing.</p>
+<pre class="r"><code>blinear_interpolation &lt;- function(original_pic,times){
+  orignal_size &lt;- dim(original_pic[,,1])[1]
+  a &lt;- orignal_size
+  b &lt;- times
+  new_pic &lt;- array(,c(a*b-b+1,a*b-b+1,3))
+  sess &lt;- tf$Session()
+  for(d in 1:3){
+    original_channel_data &lt;- original_pic[,,d]
+    new_channel_data &lt;- matrix(,nrow=a*b-b+1, ncol = a*b-b+1)
+    for (i in 1:(a-1)){
+      for (j in 1:(a-1)){
+        start_x &lt;- i
+        end_x &lt;- i+1
+        start_y &lt;- j
+        end_y &lt;- j+1
+        this.data &lt;- original_channel_data[start_x:end_x,start_y:end_y]
+        out &lt;- sess$run(tf_output,feed_dict = dict(data_tf = this.data,size_tf = b))
+        new_channel_data[(b*i-b+1):(b*i+1),(b*j-b+1):(b*j+1)] &lt;- out
+      }
+      cat(&quot;row&quot;,i,&quot;finished!&quot;,&quot;\n&quot;)
+    }
+    cat(&quot;channel&quot;,d,&quot;finished!&quot;,&quot;\n&quot;)
+    new_pic[,,d] = new_channel_data
+  }
+  sess$close()
+  return(new_pic)
+}</code></pre>
+<p></br></p>
+<p>Suppose we are going to make the picture <strong>8</strong> times the size as before.</p>
+<pre class="r"><code>new_pic &lt;- blinear_interpolation(chicken,8)</code></pre>
+<p></br></p>
+</div>
+<div id="step-4-output-image" class="section level3">
+<h3>Step 4: Output image</h3>
+<p></br></p>
+<p>Then we could take a look at the change.</p>
+<pre class="r"><code>par(mfrow=c(1,2))
+
+plot(c(0,1),c(0,1),type=n)
+rasterImage(chicken,0, 0, 1, 1)
+
+plot(c(0,1),c(0,1),type=n)
+rasterImage(new_pic,0, 0, 1, 1)</code></pre>
+<p></br></p>
+<p>Actually we could try different values of size. Here’s what we get using a list of values. </br></p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/output.png" float = "center" ALT="image" width="600"> </span></p>
+</div>
+<center>
+Figure 6. Output image for different values in size
+</center>
+<p></br></p>
+<p></br></p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/Comparison.png" float = "center" ALT="image" width="600"> </span></p>
+</div>
+<center>
+Figure 7. Comparison with the down-sampled original image
+</center>
+<p></br> </br></p>
+<p>The code below helps you save your processed image to local file.</p>
+<pre class="r"><code>writeJPEG(new_pic,target = &quot;linear_interpolation_8.jpg&quot;)</code></pre>
+<p></br></p>
+<p>Our tutorial ends here. </br> </br></p>
+</div>
+</div>
+</div>
+<div id="more" class="section level1">
+<h1>5 More</h1>
+<div id="more-about-low-level-apis" class="section level3">
+<h3>More about low-level APIs</h3>
+<p><a href="https://www.tensorflow.org/guide/low_level_intro">Reference</a> </br> </br></p>
+</div>
+<div id="tensorflow-core-functions-for-python" class="section level3">
+<h3>Tensorflow core functions for Python</h3>
+<p><a href="https://www.tensorflow.org/api_docs/python/tf">Reference</a> </br> </br></p>
+</div>
+<div id="how-to-use-pre-trained-models" class="section level3">
+<h3>How to use pre-trained models</h3>
+<p><a href="https://www.kernix.com/blog/image-classification-with-a-pre-trained-deep-neural-network_p11">Reference(Python)</a></p>
+<p><a href="https://tensorflow.rstudio.com/keras/articles/applications.html">Reference(R)</a> </br> </br></p>
+</div>
+<div id="deep-learning-by-mit-press" class="section level3">
+<h3>Deep Learning by MIT press</h3>
+<p><a href="https://www.deeplearningbook.org">Reference</a> </br> </br></p>
+</div>
+<div id="more-things-need-to-be-explored" class="section level2">
+<h2>More things need to be explored …</h2>
+<p></br> </br></p>
+</div>
+</div>
+<div id="other-resources" class="section level1">
+<h1>Other Resources</h1>
+<p><a href="https://github.com/kailashahirwar/cheatsheets-ai/blob/master/PDFs/Tensorflow.pdf">Tensorflow Cheatsheet</a></p>
+<p><a href="https://tensorflow.rstudio.com/tools/local_gpu.html">Tensorflow GPU version for R</a></p>
+<p><a href="https://cloud.google.com/getting-started/">Google Cloud Platform</a></p>
+<p></br></p>
+</div>
+<div id="image-source" class="section level1">
+<h1>Image Source</h1>
+<p>Figure 1 is from <a href="https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html" class="uri">https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html</a></p>
+<p>Figure 2 is from <a href="https://www.pygimli.org/_tutorials_auto/1_basics/plot_5-mesh_interpolation.html" class="uri">https://www.pygimli.org/_tutorials_auto/1_basics/plot_5-mesh_interpolation.html</a></p>
+<p>Figure 3~4 is from <a href="http://www.di.univr.it/documenti/OccorrenzaIns/matdid/matdid358544.pdf" class="uri">http://www.di.univr.it/documenti/OccorrenzaIns/matdid/matdid358544.pdf</a></p>
+<p>The Chicken image comes from <a href="https://github.com/TZstatsADS/ADS_Teaching/tree/master/5-Spring2018/Projects_StarterCodes/Project3_PoodleKFC" class="uri">https://github.com/TZstatsADS/ADS_Teaching/tree/master/5-Spring2018/Projects_StarterCodes/Project3_PoodleKFC</a></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
