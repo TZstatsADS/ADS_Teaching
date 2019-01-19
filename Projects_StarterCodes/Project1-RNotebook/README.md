@@ -1,5 +1,5 @@
 # Applied Data Science @ Columbia
-## Fall 2018
+## Spring 2019
 ## Project 1: What made you happy today?
 
 ![image](figs/title.jpeg)
@@ -7,7 +7,7 @@
 ### [Project Description](doc/Proj1_desc.md)
 This is the first and only *individual* (as opposed to *team*) this semester. 
 
-Term: Fall 2018
+Term: Spring 2019
 
 + Projec title: Lorem ipsum dolor sit amet
 + This project is conducted by [your name]
