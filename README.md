@@ -15,7 +15,7 @@
 #### Week 2 (Sep 12/13)
 + [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) 
     + ([zipped folder](Tutorials/wk2-TextMining.zip))
-    + ([known running issues&solutions](https://gist.github.com/jokerkeny/18c396a00f1e0ab367b9721552013ec7), prepared by Yang Yang [@jokerkeny](https://github.com/jokerkeny))
+    + ([known running issues & solutions](https://gist.github.com/jokerkeny/18c396a00f1e0ab367b9721552013ec7), prepared by Yang Yang [@jokerkeny](https://github.com/jokerkeny))
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://cdn.rawgit.com/TZstatsADS/fall2017-project1-duanshiqi/314821e5/doc/Project1_ShiqiDuan/Project1.html) ([repo](https://github.com/TZstatsADS/fall2017-project1-duanshiqi)).
