@@ -18,5 +18,5 @@
     + ([known running issues & solutions](https://gist.github.com/jokerkeny/18c396a00f1e0ab367b9721552013ec7), prepared by Yang Yang [@jokerkeny](https://github.com/jokerkeny))
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
-+ Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://cdn.rawgit.com/TZstatsADS/fall2017-project1-duanshiqi/doc/Project1_ShiqiDuan/Project1.html) ([repo](https://github.com/TZstatsADS/fall2017-project1-duanshiqi)).
++ Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://github.com/TZstatsADS/fall2017-project1-duanshiqi).
 + Discussion and Q&A
