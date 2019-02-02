@@ -1,4 +1,4 @@
-### GR5243 Fall 2018 Applied Data Science
+### GR5243 Spring 2019 Applied Data Science
 ### Project 2 Shiny App Development (V 2.0)
 ### --- App Improvement
 
@@ -45,17 +45,17 @@ Each week, we will give a tutorial in class and having live discussion and brain
 
 ### Suggested team workflow
 1. [wk1] Week 1 is the **studying & planning** week. Study previous apps assigned to you, read project description, data description, browse data and brainstorm for ideas.
-2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments as issues on GitHub by September 27th. 
+2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments as issues on GitHub by Feb 13rd. 
 3. [wk1] As a team, study the assigned apps together (not necessarily face-to-face). During the discussion, discuss a number of key analyses/functionalities carefully and discuss possible improvements.
      * "What information is of value or interesting?"
      * "Which analysis/visualization is particularly informative?" 
      * Good visualizations do not just look cool. They should be easy to understand and give the correct impression about data. 
 4. [wk2] Based on outcomes from week 1 brainstorm sessions, identify additional data processing and modeling needed (start early on this one!)
 6. [wk2] Week 2 is the **design and development** week. Start learning and using the shiny library to do simple things. Some team members may know more about shiny than others. Share and learn together. 
-7. [wk2] It is ok to have 2-3 leads to explore at the beginning of week 2 but it is better to converge on a single direction by the end of week 2 (October 3/4).
+7. [wk2] It is ok to have 2-3 leads to explore at the beginning of week 2 but it is better to converge on a single direction by the end of week 2 (Feb 20).
 8. [wk2] Construction of shiny platform can start early using fake/simulated data. 
-9. [wk3] Week 3 is the shiny app version 2.0 **implementation/production/testing** week. By October 3/4 (the beginning of week 3), you should have all necessary data processing done and a project idea. 
-10. [wk3] By October 3/4, You should layout a to-do list (as a 2nd set of GitHub issues) for the app production and divide up tasks. At the session on October 3/4, team members should work together and resolve any ambiguity about which team member should be doing what for the final stage of production of the app. 
+9. [wk3] Week 3 is the shiny app version 2.0 **implementation/production/testing** week. By Feb 20 (the beginning of week 3), you should have all necessary data processing done and a project idea. 
+10. [wk3] By Feb 20, You should layout a to-do list (as a 2nd set of GitHub issues) for the app production and divide up tasks. At the session on Feb 20, team members should work together and resolve any ambiguity about which team member should be doing what for the final stage of production of the app. 
 
 ### Working together
 - Setup a GitHub project folder from joining the GitHub classroom link with everyone listed as contributors. Everyone clones the project locally via your GitHub desktop and create a local branch. 
