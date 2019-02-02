@@ -1,6 +1,6 @@
 ## Applied Data Science @ Columbia
 ## STAT GR5243/GU4243 Spring 2019 
-### Project 1 An R Notebook Data Story on Happy Moments
+### Project 1 An R/Python Notebook Data Story on Happy Moments
 
 ![image](../figs/wordcloud.png)
 
