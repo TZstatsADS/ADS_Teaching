@@ -35,3 +35,11 @@
    		+ the project description, 
    		+ an example toy shiny app 
     	+ a short tutorial to get you started.
+
+#### Week 4 (Feb 13)
+
++ [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
++ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html) ([app](Projects_StarterCodes/Project2_ShinyApp/app/))
++ Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
++ Shiny Example from 2018 Spring ([link](https://github.com/TZstatsADS/Spring2018-Project2-Group5))
++ Discussion and Q&A
