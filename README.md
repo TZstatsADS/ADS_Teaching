@@ -43,3 +43,8 @@
 + Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
 + Shiny Example ([link](https://github.com/TZstatsADS/Spring2018-Project2-Group5))
 + Discussion and Q&A
+
+#### Week 5 (Feb 20)
++ Feebback on project 1
++ [Tutorial on giving presentations](Tutorials/MakingPresentation.pdf)
++ Brainstorm on project 2
