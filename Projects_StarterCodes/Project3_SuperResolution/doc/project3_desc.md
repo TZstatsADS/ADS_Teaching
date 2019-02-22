@@ -15,9 +15,9 @@ The portability of this AI program (holding storage and memory cost) and the com
 
 ![image](predictiveprogram.png)
 
-Assume that the *current practice* on your client side is just using [boosted](https://en.wikipedia.org/wiki/Boosting_(machine_learning)) [decision stumps](https://en.wikipedia.org/wiki/Decision_stump) on neighboring pixels (see Tutorial for more detail). `R` pakcage [`gbm`](https://cran.r-project.org/package=gbm) can be used to implement this classifier. 
+Assume that the *current practice* on your client side is just using [boosted](https://en.wikipedia.org/wiki/Boosting_(machine_learning)) [decision stumps](https://en.wikipedia.org/wiki/Decision_stump) on neighboring pixels (see Tutorial for more detail). `R` pakcage [`gbm`](https://cran.r-project.org/package=gbm) can be used to implement this algorithm. 
 
-Your **task** for this project is to 1) implement the *current practice* as the *baseline* model on your system, 2) implement an improvement to the current practice, and 3) evaluate the performance gain of your proposed improvement against the baseline. You should produce an evaluation report using a R notebook (as a file `main.rmd` in the `doc` folder). 
+Your **task** for this project is to 1) implement the *current practice* as the *baseline* model on your system, 2) implement an improvement to the current practice, and 3) evaluate the performance gain of your proposed improvement against the baseline. You should produce an evaluation report using a R/Python notebook (as a file `main.rmd` in the `doc` folder). 
 
 #### Evaluation criteria 
 - Ease of reproducibility by the client (the instruction team)
@@ -96,9 +96,9 @@ The instructional team will download each team's GitHub repo and cross-examine e
 2. [wk1] As a team, download the data, discuss data management need of this project, and try adapt the starter codes to a *subset* of images to get a sense of computational burden of this project. 
 3. [wk1] As a team, read and brainstorm about possible lead on improvement. 
 4. [wk2] Based on outcomes from week 1 brainstorm sessions, start data processing (start early on this one!)
-5. [wk2] Week 2 is the **exploration** week. Try different features and classifiers.
+5. [wk2] Week 2 is the **exploration** week. Try different features and algorithms.
 6. [wk2] It is ok to have 2-3 leads to explore at the beginning of week 2 but it is better to converge on a single direction by the end of week 2 (Mar 13). 
-7. [wk 3] Week 3 is the program **evaluation** week. By Oct 24/25 (the beginning of week 3), you should have a clear plan on what set of features to consider and what set of classifiers to consider. During the final week, there will be some serious model training, validation and testing, which is likely to take some time. (Start early!)
+7. [wk 3] Week 3 is the program **evaluation** week. By Oct 24/25 (the beginning of week 3), you should have a clear plan on what set of features to consider and what set of algorithms to consider. During the final week, there will be some serious model training, validation and testing, which is likely to take some time. (Start early!)
 8. [wk 3] By Mar 13, you should layout a to-do list and divide up tasks. Teams should work together and resolve any ambiguity about which team member should be doing what for this project. This is **extremly important** for this project due to the computational nature of this project. 
 
 ##### Working together
