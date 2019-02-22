@@ -50,6 +50,15 @@
 + Brainstorm on project 2
 
 #### Week 6 (Feb 27)
++ Project 2 presentations
+
+----
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
+
+### Project cycle 3: Predictive Modeling
+([starter codes](Projects_StarterCodes/Project3_SuperResolution))
+
+#### Week 6 (Feb 27)
 + [Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md) starts.
   + Check Piazza for your project team and GitHub join link.
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
