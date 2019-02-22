@@ -48,3 +48,11 @@
 + Feebback on project 1
 + [Tutorial on giving presentations](Tutorials/MakingPresentation.pdf)
 + Brainstorm on project 2
+
+#### Week 6 (Feb 27)
++ [Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md) starts.
+  + Check Piazza for your project team and GitHub join link.
+  + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
+  + You can find in the *starter codes* 
+    + [Intro to Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md) 
+    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3_SuperResolution/doc/main.Rmd)
