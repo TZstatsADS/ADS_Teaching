@@ -3,7 +3,7 @@
 
 ### [Full Project Description](doc/project3_desc.md)
 
-Term: Fall 2018
+Term: Spring 2019
 
 + Team ##
 + Team members
