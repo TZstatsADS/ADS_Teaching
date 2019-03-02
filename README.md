@@ -65,3 +65,10 @@
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md) 
     + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3_SuperResolution/doc/main.Rmd)
+
+#### Week 7 (Mar 6)
++ Tutorials + Q&A
+	+ Recap on project 3 requirements and starter codes.
+	+ Tutorials: [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-ImageAnalysis/EBImage%26SIFT/imageanalysis.html)([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Super Resolution](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html)([zipped folder](Tutorials/wk7-SuperResolution.zip))
+	+ [Tutorial on gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
+		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
