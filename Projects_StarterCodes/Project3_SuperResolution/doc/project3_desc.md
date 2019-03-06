@@ -63,7 +63,7 @@ The presentation can be technical but need to be accessible to your peer student
 
 Your client will evalaute your report on a single personal computer that has `R` installed and 16GB memory.  
  
-+ Your feature processing needs to be reasonably efficient as you will have only 40 minutes to process 1500 new images. 
++ Your feature processing needs to be reasonably efficient as you will have only 30 minutes to process 1000 new images. 
 + Your `main.rmd` should 
 	+ have a folder path as an input that point to the folder of training images. The folder will have the same structure as the training data released to you;
 	+ and output a report on the performance of both the *baseline* and the *improved* models;
