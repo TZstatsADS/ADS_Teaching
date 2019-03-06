@@ -28,8 +28,8 @@ library("gbm")
 Set the working directory to the image folder. Specify the training and the testing set. For data without an independent test/validation set, you need to create your own testing data by random subsampling. In order to obain reproducible results, set.seed() whenever randomization is used. 
 
 ```{r wkdir, eval=FALSE}
-set.seed(2018)
-setwd("./ads_fall2018_proj3") 
+set.seed(2019)
+setwd("./ads_spring2019_proj3") 
 # here replace it with your own path or manually set it in RStudio to where this rmd file is located. 
 # use relative path for reproducibility
 ```
