@@ -72,3 +72,9 @@
 	+ [Tutorial on gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 	+ Recap on project 3 requirements and starter codes.
+
+#### Week 8 (Mar 13)
++ [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
++ [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html)
++ Project submission checklist
++ Discussion
