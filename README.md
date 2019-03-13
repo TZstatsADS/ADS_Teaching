@@ -75,6 +75,6 @@
 
 #### Week 8 (Mar 13)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html)
++ [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html)(Example)
 + Project submission checklist
 + Discussion
