@@ -1,4 +1,4 @@
-## STAT GR5243 Fall 2018 Applied Data Science
+## STAT GR5243 Spring 2019 Applied Data Science
 ### Project 4 Optical Character Recognition (OCR) Post-processing Algorithms Evaluation
 
 Adapting published algorithms to address a data problem in your project is a common task in practice. In this project, working in teams, you will implement, evaluate and **compare** a pair of algorithms for **OCR post-processing**.
@@ -30,13 +30,13 @@ All developments need to be carried out in the group-shared private repo on [htt
 
 This is a short project. During the first week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
 
-- week 1 (Nov 7/8): Introduction and project description. An overview of OCR.
-- week 2 (Nov 14/15): Team Q&A on algorithms and evaluation plan.
-- Final presentation (Nov 28/29)
+- week 1 (Mar 27): Introduction and project description. An overview of OCR.
+- week 2 (Apr 3): Team Q&A on algorithms and evaluation plan.
+- Final presentation (Apr 10)
 
 ##### Suggested team workflow
 1. [wk1] Week 1 is the **reading and coding** week. Read the papers assigned to you, understand the algorithms and start coding up the algorithms; Also load the data into `R` and understand its structure. 
-2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments as issues on GitHub by Nov 14/15. 
+2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments as issues on GitHub by Apr 3. 
 4. [wk1] As a team, brainstorm about your evaluation plan.  
 5. [wk2] Based on the outcomes from week 1's reading and brainstorm sessions, continue coding and start evaluation. 
 6. [wk2] Week 2 is the **evaluation** week. 
