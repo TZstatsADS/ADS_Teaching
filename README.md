@@ -88,7 +88,7 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
 ### Project cycle 4: Algorithm implementation and evaluation
-#### Week 10 (Mar 27)
+#### Week 9 (Mar 27)
 + Introduction to [Project 4](Projects_StarterCodes/Project4_OCR)
 + Overview of the [reference papers](Projects_StarterCodes/Project4_OCR/doc/paper).
 + [Tutorials](http://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Projects_StarterCodes/Project4_OCR/doc/main.html) + Discussion
