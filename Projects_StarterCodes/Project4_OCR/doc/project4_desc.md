@@ -28,7 +28,7 @@ All developments need to be carried out in the group-shared private repo on [htt
 
 ##### Project time table.
 
-This is a short project. During the first week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
+During the first week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
 
 - week 1 (Mar 27): Introduction and project description. An overview of OCR.
 - weeks 2 & 3 (Apr 3 and 10): Team Q&A on algorithms and evaluation plan.
