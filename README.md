@@ -93,6 +93,6 @@
 + Overview of the [reference papers](Projects_StarterCodes/Project4_OCR/doc/paper).
 + [Tutorials](http://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Projects_StarterCodes/Project4_OCR/doc/main.html) + Discussion
 
-#### Week 10 (Apr 3)
+#### Weeks 10 & 11 (Apr 3 & 10)
 + Q&A on Algorithms
 + Team Meeting
