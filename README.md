@@ -96,3 +96,7 @@
 #### Weeks 10 & 11 (Apr 3 & 10)
 + Q&A on Algorithms
 + Team Meeting
+
+#### Week 12 (Apr 17)
++ Project 4 presentations
++ Project 5 discussions
