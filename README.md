@@ -100,3 +100,10 @@
 #### Week 12 (Apr 17)
 + Project 4 presentations
 + Project 5 discussions
+
+----
+### Project cycle 5: 
+
+#### Week 13 (Apr 24)
++ Project 3 summary
++ Project 5 discussions
