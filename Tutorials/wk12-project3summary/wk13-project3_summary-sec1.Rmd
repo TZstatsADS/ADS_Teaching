@@ -154,9 +154,6 @@ library(ggplot2)
 ```
 
 ### Advanced Prediction Accuracy
-Advanced models: XGBoost(1, 2, 3, 4, 6, 8), SRCNN(5, 7)
-
-Best Performance: Car (5), Flower (2), Market (2)
 
 ```{r, echo=FALSE}
 # data saved in Results.R
