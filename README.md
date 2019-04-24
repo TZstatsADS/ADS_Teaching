@@ -107,5 +107,5 @@
 ### Project cycle 5: 
 
 #### Week 13 (Apr 24)
-+ Project 3 summary
++ [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk12-project3summary/wk13-project3_summary-sec1.nb.html)
 + Project 5 discussions
