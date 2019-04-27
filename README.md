@@ -109,3 +109,11 @@
 #### Week 13 (Apr 24)
 + [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk12-project3summary/wk13-project3_summary-sec1.nb.html)
 + Project 5 discussions
+
+----
+### Project cycle 5: 
+
+#### Week 14 (May 1)
++ Project 5 Presentations
+
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
