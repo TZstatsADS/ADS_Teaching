@@ -1,0 +1,256 @@
+---
+title: "Summary of Project 3"
+author: "Chengliang Tang"
+date: "April 24, 2019"
+output: html_notebook
+---
+
+## Feature extraction, storage, running time (cost)
+
+### Submission Time
+```{r, echo=FALSE}
+# run Results.R first
+submitTime <- c(57, 160, 41, 96, 200, 17, 58, 24, 12, 77, 91, 32)
+submitTime_label <- c("7:47PM", "9:30PM", "7:31PM", "8:26 PM", "> 1 day", "7:07PM", "7:48PM", "7:14PM", "7:02PM", "8:07PM", "8:21PM", "7:22PM")
+bar_time <- barplot(submitTime, main="Submission Time: Minutues from 6:50 PM",
+        xlab="Team", ylab="Minutes", ylim=c(0, 220))
+text(bar_time, submitTime+5, submitTime_label, cex=0.6)
+axis(1, bar_time, labels=as.character(1:12))
+```
+
+### Baseline Feature Extraction Time
+```{r, echo=FALSE}
+# run Results.R first
+RunningTime <- c(733.6, 77.65, 1578.776, 338.306, 835.92, 82.95, 65.097, 107.687, 75.38, 1003.918, 440.13, 29.07)
+log_RunningTime <- log(RunningTime)
+bar_time <- barplot(log_RunningTime, main="Feature Extraction Time (s)",
+        xlab="Team", ylab="log(t)", ylim=c(0, 8))
+text(bar_time, log_RunningTime+0.3, as.character(RunningTime), cex=0.8)
+axis(1, bar_time, labels=as.character(1:12))
+```
+
+
+### Training Time
+Baseline models: 
+
+```{r, echo=FALSE}
+# run Results.R first
+RunningTime <- c(14000.76, 2335.62, 18552.37, 7371.43, 5728.21, 14258.22, 4849.61, 10068.61, 605.49, 716.36, 6841.25, 3523.48)
+log_RunningTime <- log(RunningTime)
+bar_time <- barplot(log_RunningTime, main="Baseline Model Training Time (s)",
+        xlab="Team", ylab="log(t)", ylim=c(0, 13))
+RunningTimeText <- as.character(RunningTime)
+text(bar_time, log_RunningTime+0.5, RunningTimeText, cex=0.8)
+axis(1, bar_time, labels=as.character(1:12))
+```
+
+Advanced models: 
+
+```{r, echo=FALSE}
+# run Results.R first
+RunningTime <- c(18823.7397, 1244.58, 22.527, 1085.08, 17682.22, 156.62, 44.573, 24.463, 710.33, 14.152, 43.611, 30562.23)
+log_RunningTime <- log(RunningTime)
+bar_time <- barplot(log_RunningTime, main="Advanced Model Training Time (s)",
+        xlab="Team", ylab="log(t)", ylim=c(0, 13))
+RunningTimeText <- as.character(RunningTime)
+text(bar_time, log_RunningTime+0.5, RunningTimeText, cex=0.8)
+axis(1, bar_time, labels=as.character(1:12))
+```
+
+
+
+
+## Performance
+### Baseline Prediction PSNR
+
+```{r, echo=FALSE}
+# data saved in Results.R
+err_claimed <- c(
+22.87,
+25.7,
+27.06,
+24.41,
+25.84,
+25.7,
+19.49,
+24.25,
+25.58,
+23.76,
+20,
+25.6
+)
+err_adv_claimed <- rep(err_claimed, each=20)
+CV_error_baseline <- c(
+23.35,
+26.11,
+25.83076,
+25.83075,
+27.52,
+26.66,
+25.81396,
+26.28534,
+27.61,
+23.4994,
+25.83069,
+26.22
+)
+err_retrained <- rep(CV_error_baseline, each=20)
+# load("label_eval.RData")
+# load("pred_untuned.RData")
+# ind_fun <- which(is.na(label_eval))
+err_untuned <- c(
+20.94,
+25.493,
+25.63655,
+26.15488,
+27.32055,
+26.24,
+25.55727,
+26.1,
+27.5,
+23.31136,
+25.77,
+27.38
+)
+err_adv_untuned <- rep(err_untuned  , each=20)
+
+type_names <- c("claimed", "untuned", "re-trained")
+# team_names <- paste0("Team ", 1:12)
+team_names <- 1:12
+# load("output_proj3.RData")
+err_adv_all <- data.frame(Team=rep(rep(team_names, each=20), times=3), 
+  					  Type=rep(type_names, each=240),
+						  Error= c(err_adv_claimed, err_adv_untuned, err_retrained)) #as.vector(t(output$err_adv_retrained))))
+
+err_adv_all$Type <- factor(err_adv_all$Type, levels= type_names)
+err_adv_all$Team <- factor(err_adv_all$Team, levels= team_names)
+
+
+#err_adv_all$Error <- err_adv_all$Error
+
+type_names <- c("claimed", "untuned", "re-trained")
+team_names <- paste0("Team ", 1:12)
+
+library(ggplot2)
+(ggplot(err_adv_all, aes(y = Error, x = Team, fill = Type, colour = Type)) 
++ geom_boxplot(width=0.5,outlier.colour = NULL)
+#+ scale_alpha_continuous(guide=FALSE, range=c(0.01,0.99))
++theme(axis.line = element_line(colour = "black"),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.border = element_rect(colour = "black", fill=NA),
+      axis.text=element_text(size=12),
+      axis.title=element_text(size=12),
+      legend.text=element_text(size=12),
+      legend.title=element_text(size=12, face="bold"),
+      legend.position="bottom",
+      strip.text.y = element_text(size = 13, face="bold"),
+      panel.background = element_blank())
++ labs(title="Baseline Model PSNR", x="Team", y="PSNR")
++ scale_colour_brewer(palette = "Dark2", guide = FALSE)
++ scale_fill_brewer(palette = "Pastel2", labels=type_names, guide = guide_legend(title = "Type"))
++ geom_vline(xintercept = seq(1.5, 13.5, 1), linetype = "longdash", colour="lightgrey")) 
+
+```
+
+### Advanced Prediction Accuracy
+
+```{r, echo=FALSE}
+# data saved in Results.R
+err_claimed <- c(
+26,
+26.23,
+27.06,
+24.41,
+34.4,
+12.8,
+13.5,
+25.71,
+30.06,
+22.27,
+26.83,
+27.25
+)
+err_adv_claimed <- rep(err_claimed, each=20)
+CV_error_baseline <- c(
+26.37,
+26.42,
+25.82109,
+28.09066,
+29.2,
+25.78,
+19.55829,
+27.29851,
+28.21,
+20.69759,
+25.83073,
+26.58)
+err_retrained <- rep(CV_error_baseline, each=20)
+# load("label_eval.RData")
+# load("pred_untuned.RData")
+# ind_fun <- which(is.na(label_eval))
+err_untuned <- c(
+25.81,
+25.497,
+25.63647,
+27.87076,
+25.48507, 
+25.23,
+20.85399,
+27.1,
+27.53,
+20.33224,
+25.64,
+24.24
+)
+err_adv_untuned <- rep(err_untuned  , each=20)
+
+type_names <- c("claimed", "untuned", "re-trained")
+# team_names <- paste0("Team ", 1:12)
+team_names <- 1:12
+# load("output_proj3.RData")
+err_adv_all <- data.frame(Team=rep(rep(team_names, each=20), times=3), 
+  					  Type=rep(type_names, each=240),
+						  Error= c(err_adv_claimed, err_adv_untuned, err_retrained)) #as.vector(t(output$err_adv_retrained))))
+
+err_adv_all$Type <- factor(err_adv_all$Type, levels= type_names)
+err_adv_all$Team <- factor(err_adv_all$Team, levels= team_names)
+
+
+err_adv_all$Error <- err_adv_all$Error
+
+type_names <- c("claimed", "untuned", "re-trained")
+team_names <- paste0("Team ", 1:12)
+
+library(ggplot2)
+(ggplot(err_adv_all, aes(y = Error, x = Team, fill = Type, colour = Type)) 
++ geom_boxplot(width=0.5,outlier.colour = NULL)
+#+ scale_alpha_continuous(guide=FALSE, range=c(0.01,0.99))
++theme(axis.line = element_line(colour = "black"),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.border = element_rect(colour = "black", fill=NA),
+      axis.text=element_text(size=12),
+      axis.title=element_text(size=12),
+      legend.text=element_text(size=12),
+      legend.title=element_text(size=12, face="bold"),
+      legend.position="bottom",
+      strip.text.y = element_text(size = 13, face="bold"),
+      panel.background = element_blank())
++ labs(title="Advanced Model PSNR", x="Team", y="PSNR")
++ scale_colour_brewer(palette = "Dark2", guide = FALSE)
++ scale_fill_brewer(palette = "Pastel2", labels=type_names, guide = guide_legend(title = "Type"))
++ geom_vline(xintercept = seq(1.5, 13.5, 1), linetype = "longdash", colour="lightgrey")) 
+```
+
+
+
+  
+  
+  
+  
+  
+  
+  
+ 
+

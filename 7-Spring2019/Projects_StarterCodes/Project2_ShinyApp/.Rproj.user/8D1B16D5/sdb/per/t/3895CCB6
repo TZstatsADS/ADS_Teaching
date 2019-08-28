@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(shiny)\n\n# Define UI for application that draws a histogram\nshinyUI(fluidPage(\n  \n  # Application title\n  titlePanel(\"2009 Manhattan Housing Sales\"),\n  \n  # Sidebar with a selector input for neighborhood\n  sidebarLayout(\n    sidebarPanel(\n      selectInput(\"nbhd\", label = h5(\"Choose a Manhattan Neighborhood\"), \n                         choices = list(\"all neighborhoods\"=0,\n                                        \"Central Harlem\"=1, \n                                        \"Chelsea and Clinton\"=2,\n                                        \"East Harlem\"=3, \n                                        \"Gramercy Park and Murray Hill\"=4,\n                                        \"Greenwich Village and Soho\"=5, \n                                        \"Lower Manhattan\"=6,\n                                        \"Lower East Side\"=7, \n                                        \"Upper East Side\"=8, \n                                        \"Upper West Side\"=9,\n                                        \"Inwood and Washington Heights\"=10), \n                         selected = 0)\n      #sliderInput(\"p.range\", label=h3(\"Price Range (in thousands of dollars)\"),\n      #            min = 0, max = 20000, value = c(200, 10000))\n    ),\n    # Show two panels\n    mainPanel(\n      #h4(textOutput(\"text\")),\n      h3(code(textOutput(\"text1\"))),\n      tabsetPanel(\n        # Panel 1 has three summary plots of sales. \n        tabPanel(\"Sales summary\", plotOutput(\"distPlot\")), \n        # Panel 2 has a map display of sales' distribution\n        tabPanel(\"Sales map\", plotOutput(\"distPlot1\")))\n    )\n )\n))\n\n",
+    "created" : 1474578728602.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "409487237",
+    "id" : "3895CCB6",
+    "lastKnownWriteTime" : 1472770102,
+    "last_content_update" : 1472770102,
+    "path" : "~/Dropbox/Tian_Teaching/G5243-ADS/Projects/Fall2016/Project2_OpenDataNYC/app/ui.r",
+    "project_path" : "app/ui.r",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

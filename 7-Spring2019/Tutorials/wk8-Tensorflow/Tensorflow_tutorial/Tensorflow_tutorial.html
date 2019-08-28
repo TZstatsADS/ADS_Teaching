@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Yiran Jiang" />
+
+
+<title>Tensorflow Tutorial</title>
+
+<script src="Tensorflow_tutorial_files/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="Tensorflow_tutorial_files/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="Tensorflow_tutorial_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="Tensorflow_tutorial_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="Tensorflow_tutorial_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="Tensorflow_tutorial_files/navigation-1.1/tabsets.js"></script>
+<link href="Tensorflow_tutorial_files/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="Tensorflow_tutorial_files/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="bootstrap.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Tensorflow Tutorial</h1>
+<h4 class="author"><em>Yiran Jiang</em></h4>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#installation">1 Installation</a></li>
+<li><a href="#environment">2 Environment</a></li>
+<li><a href="#to-start-with">3 To Start with</a></li>
+<li><a href="#learn-from-scratch">4 Learn from scratch</a><ul>
+<li><a href="#computation-graph">4.1 Computation graph</a></li>
+<li><a href="#building-blocks">4.2 Building blocks</a><ul>
+<li><a href="#step-1-defining-nodes">Step 1: Defining nodes</a></li>
+<li><a href="#step-2-defining-session">Step 2: Defining session</a></li>
+<li><a href="#step-3-running-session">Step 3: Running session</a></li>
+<li><a href="#step-4-closing-session">Step 4: Closing session</a></li>
+</ul></li>
+<li><a href="#a-simple-example">4.3 A simple example</a><ul>
+<li><a href="#useful-reference">Useful reference</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#high-level-api">5 High-level API</a><ul>
+<li><a href="#installation-1">5.1 Installation</a></li>
+<li><a href="#a-simple-example-1">5.2 A simple example</a><ul>
+<li><a href="#step-1-data-processing">Step 1: Data processing</a></li>
+<li><a href="#step-2-model-building">Step 2: Model building</a></li>
+<li><a href="#step-3-model-training-and-tunning-parameters">Step 3: Model training and tunning parameters</a></li>
+<li><a href="#step-4-model-prediction-and-evaluation">Step 4: Model prediction and evaluation</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#more">6 More</a><ul>
+<li><a href="#datacamp-tutorial-using-iris-dataset">Datacamp tutorial using iris dataset</a></li>
+<li><a href="#how-to-use-pre-trained-models">How to use pre-trained models</a></li>
+<li><a href="#more-about-tensorboard">More about Tensorboard</a></li>
+<li><a href="#more-about-keras">More about Keras</a></li>
+<li><a href="#deep-learning-by-mit-press">Deep Learning by MIT press</a></li>
+<li><a href="#more-things-need-to-be-explored">More things need to be explored …</a></li>
+</ul></li>
+<li><a href="#other-resources">Other Resources</a></li>
+<li><a href="#image-source">Image Source</a></li>
+</ul>
+</div>
+
+<blockquote>
+<p>A popular deep learning framework. The R interface makes it possible to train neural networks in R.</p>
+</blockquote>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="https://www.tensorflow.org/_static/images/tensorflow/logo.png" float = "center" ALT="image" width="200"> </span></p>
+</div>
+<p>To learn more about the R interface, see <a href="https://tensorflow.rstudio.com">website</a>.</p>
+<p>To learn more about Tensorflow, see <a href="https://www.tensorflow.org">website</a></p>
+<p></br></p>
+<div id="installation" class="section level1">
+<h1>1 Installation</h1>
+<hr />
+<p></br></p>
+<pre class="r"><code>install.packages(&quot;tensorflow&quot;)
+library(tensorflow)</code></pre>
+<p></br> </br></p>
+</div>
+<div id="environment" class="section level1">
+<h1>2 Environment</h1>
+<hr />
+<p></br></p>
+<p>Note that unlike other packages in R, Tensorflow needs an environment with Python to work on with. Two options are available.</p>
+<p><strong>Option 1</strong></p>
+<p>Select your existing environment with Python &amp; Tensorflow in it with <code>use_python()</code>,<code>use_virtualenv()</code> or <code>use_condaenv()</code> function. <a href="https://tensorflow.rstudio.com/tensorflow/articles/installation.html#custom-installation">Learn more</a></p>
+<p><strong>Option 2</strong></p>
+<p>Let R create a new environment with Python &amp; Tensorflow for you using the code below.</p>
+<p></br></p>
+<pre class="r"><code>install_tensorflow()</code></pre>
+<p></br></p>
+</div>
+<div id="to-start-with" class="section level1">
+<h1>3 To Start with</h1>
+<hr />
+<p></br></p>
+<p>Tensorflow contains some low-level APIs and high-level APIs.</p>
+<ul>
+<li><p>The <strong>low-level APIs</strong>, also called its <strong>core</strong>, help us to build our model almost from scratch.</p></li>
+<li><p>The <strong>high-level APIs</strong>, such as <code>keras</code>, help us to train a deep learning model in a much easier way.</p></li>
+</ul>
+<p>Although it is convenient to use high-level APIs for a beginner to build models, practicing some low-level APIs give us a better understanding of how Tensorflow works. Debugging also becomes straightforward when it comes to the low-level.</p>
+<p></br></p>
+</div>
+<div id="learn-from-scratch" class="section level1">
+<h1>4 Learn from scratch</h1>
+<hr />
+<p></br></p>
+<p>Before start coding, introducing some important concepts might be helpful.</p>
+<p></br></p>
+<div id="computation-graph" class="section level2">
+<h2>4.1 Computation graph</h2>
+<hr />
+<p>As is suggested by the name “Tensorflow”, the idea of the framework is to build a computation graph as the model using <strong>tensors</strong>.</p>
+<p>First, we need to understand what is a <strong>computation graph</strong>.</p>
+<p></br></p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/computation_graph.png" float = "center" ALT="image" width="400"> </span></p>
+</div>
+<center>
+Figure 1. Example of computation graph
+</center>
+<p></br></p>
+<p>In a computation graph, <strong>variables</strong>,<strong>constant</strong>,<strong>operations</strong> are represented by nodes. The direction of edges represent the computation flow. Thus a computation graph is usually a <strong>DAG</strong>(directed acyclic graph).</p>
+<p>The computation graph has the advantage of <strong>parallel computation</strong>, which makes compution more efficient using several CPUs/GPUs. This could be illustrated below.</p>
+<p></br></p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/parallel_computation.png" float = "center" ALT="image" width="400"> </span></p>
+</div>
+<center>
+Figure 2. Example of parallel computation
+</center>
+<p></br></p>
+<p><a href="https://www.coursera.org/lecture/neural-networks-deep-learning/computation-graph-4WdOY">Learn more in Andrew Ng’s Deep Learning course</a></p>
+<p></br></p>
+<p>Similarly, Tensorflow helps us to build a computation graph using nodes(tensors) as building blocks. The tuning process of a model(whether a neural network model or not) could be viewed as the change of parameters in this computation graph.</p>
+<p></br></p>
+</div>
+<div id="building-blocks" class="section level2">
+<h2>4.2 Building blocks</h2>
+<hr />
+<p>Usually, the building process and computation process is done in a <strong>session</strong>, which is an instance encapsulates the required environment. Thus after defining the tensors, we must open the session to start computing. We also need to close the session after the computation.</p>
+<p>Here’s a simple example for the session. </br></p>
+<div id="step-1-defining-nodes" class="section level3">
+<h3>Step 1: Defining nodes</h3>
+<p>Let’s create a <strong>constant</strong> node as the first example.</p>
+<p>Note that the symbol <code>.</code> in the Python language is replaced by <code>$</code> in R.</p>
+<pre class="r"><code>hello &lt;- tf$constant(&#39;Hello, TensorFlow!&#39;)</code></pre>
+<p></br></p>
+<p>Other commonly used two types of Tensorflow nodes containing values are:</p>
+<ul>
+<li><p><code>tf.Variable</code>: Helps to store a variable(the value could be changed during the computation). This is the most common one used when doing machine learning.</p></li>
+<li><p><code>tf.placeholder</code>: Helps to store a value which is post-defined when feeding it to the graph using <code>feed_dict</code>.</p></li>
+</ul>
+<p></br></p>
+</div>
+<div id="step-2-defining-session" class="section level3">
+<h3>Step 2: Defining session</h3>
+<pre class="r"><code>sess &lt;- tf$Session()</code></pre>
+<p></br></p>
+</div>
+<div id="step-3-running-session" class="section level3">
+<h3>Step 3: Running session</h3>
+<pre class="r"><code>sess$run(hello)</code></pre>
+<p></br></p>
+</div>
+<div id="step-4-closing-session" class="section level3">
+<h3>Step 4: Closing session</h3>
+<p>Note that we must remember to close the session after we finish the computation. Problems may arise in a new computation if you forget to shut down the previous.</p>
+<pre class="r"><code>sess$close()</code></pre>
+<p></br></p>
+</div>
+</div>
+<div id="a-simple-example" class="section level2">
+<h2>4.3 A simple example</h2>
+<hr />
+<p>Now we could start to build a simple computation graph.</p>
+<pre class="r"><code>a &lt;- tf$constant(1, dtype=tf$float32, name=&#39;a&#39;)
+b &lt;- tf$constant(1, dtype=tf$float32, name=&#39;b&#39;)
+add &lt;- tf$add(a, b, name=&#39;add&#39;) # same as a+b
+c &lt;- tf$constant(5, dtype=tf$float32, name=&#39;c&#39;)
+mul &lt;- tf$multiply(add, c, name=&#39;mul&#39;) # same as c*(a+b)</code></pre>
+<p></br></p>
+<p>Print the result of our computation. This will output a list [1,1,5,2,10]. </br></p>
+<pre class="r"><code>sess &lt;- tf$Session()
+print(sess$run(c(a,b,c,add,mul)))
+writer &lt;- tf$summary$FileWriter(&quot;output&quot;,sess$graph)
+writer$close()
+sess$close()</code></pre>
+<p><code>tensorboard</code> is a visulization tool provided by Tensorflow. We could use it to view the structure of our computation graph. Images could also be downloaded to your local file after open it in your browser.</p>
+<p></br></p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 60%;"> <IMG src="img/tensorboard.png" float = "center" ALT="image" width="600"> </span></p>
+</div>
+<center>
+Figure 3. Example of Tensorboard
+</center>
+<p></br></p>
+<pre class="r"><code>tensorboard(&quot;output&quot;)</code></pre>
+<p>Click on the <code>graph</code> tag to view the structure of our model.</p>
+<p>Then we could get some thing like this.</p>
+<p></br></p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 80%;"> <IMG src="img/simple_graph.png" float = "center" ALT="image" width="200"> </span></p>
+</div>
+<center>
+Figure 4. Graph structure of our example
+</center>
+<p></br></p>
+<div id="useful-reference" class="section level3">
+<h3>Useful reference</h3>
+<p><a href="https://jyr123456.shinyapps.io/Image_Interpolation_tutorial/">Image interpolation with Tensorflow</a> </br> </br></p>
+<p><a href="https://www.tensorflow.org/guide/low_level_intro">More about low-level APIs</a> </br> </br></p>
+<p><a href="https://www.tensorflow.org/api_docs/python/tf">Tensorflow core functions for Python</a> </br> </br></p>
+</div>
+</div>
+</div>
+<div id="high-level-api" class="section level1">
+<h1>5 High-level API</h1>
+<hr />
+<p></br></p>
+<p>There are some high-Level APIs available for Tensorflow. We will introduce <code>keras</code>, which is the most popular one to train neural networks.</p>
+<div id="installation-1" class="section level2">
+<h2>5.1 Installation</h2>
+<hr />
+<p>We could install Keras the same way as Tensorflow. Unlike the low-level APIs provided by tensorflow core, Keras is more user-friendly and easier to handle.(Especially when training deep learining models, which is difficult for beginners to start from scratch.)</p>
+<p></br></p>
+<pre class="r"><code>devtools::install_github(&quot;rstudio/keras&quot;)
+library(&quot;keras&quot;)
+install_keras()</code></pre>
+</div>
+<div id="a-simple-example-1" class="section level2">
+<h2>5.2 A simple example</h2>
+<hr />
+<p>We use will use the dataset “iris” as an example data set. We are going to train a model which predicts the iris’ speices using its Sepal Length, Sepal Width, Petal Length, Petal Width as predictors.</p>
+<p>Here are pictures for different iris:</p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 100%;"> <IMG src="img/iris.png" float = "center" ALT="image" width="600"> </span></p>
+</div>
+<center>
+Figure 5. Different kinds of iris
+</center>
+<p></br></p>
+<div id="step-1-data-processing" class="section level3">
+<h3>Step 1: Data processing</h3>
+<p>Fetch the data online.</p>
+<pre class="r"><code>iris &lt;- read.csv(url(&quot;http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data&quot;), header = TRUE) </code></pre>
+<p></br></p>
+<p>Let’s split the dataset into training/test set.</p>
+<p>Normalization could also be applied to dataset using <code>normalize()</code> function provided by Keras. While in this example this step is not necessary. </br></p>
+<pre class="r"><code>ind &lt;- sample(2, nrow(iris), replace=TRUE, prob=c(0.67, 0.33))
+
+# Split the `iris` data
+iris.training &lt;- data.matrix(iris[ind==1, 1:4])
+iris.test &lt;- data.matrix(iris[ind==2, 1:4])
+
+# Split the class attribute
+iris.trainingtarget &lt;- iris[ind==1, 5]
+iris.testtarget &lt;- iris[ind==2, 5]</code></pre>
+<p></br></p>
+<p>For this multi-class classification problem, we need to transform the category type from “factor” to “integer”(indicator). This is also called the <strong>one-hot encoding</strong>. e.g. <span class="math inline">\([1,0,0]\)</span> indicates Setosa, <span class="math inline">\([0,1,0]\)</span> indicates Versicolor, <span class="math inline">\([0,0,1]\)</span> indicates Virginica. Thus the output label could be a <span class="math inline">\(n\times3\)</span> matrix.</p>
+<p>Fortunately, Keras provides a function <code>to_categorical()</code> for doing this. </br></p>
+<pre class="r"><code>iris.trainLabels &lt;- to_categorical(as.numeric(iris.trainingtarget))[,-1]
+
+iris.testLabels &lt;- to_categorical(as.numeric(iris.testtarget))[,-1]</code></pre>
+<p></br></p>
+</div>
+<div id="step-2-model-building" class="section level3">
+<h3>Step 2: Model building</h3>
+<p>We could now start to build our sequential model by adding layers and compile it. </br></p>
+<pre class="r"><code>model &lt;- keras_model_sequential()
+# Add layers to the model
+model %&gt;% 
+  layer_dense(units = 8, activation = &#39;relu&#39;, input_shape = c(4)) %&gt;% 
+  layer_dense(units = 3, activation = &#39;softmax&#39;)
+
+summary(model)
+
+model %&gt;% compile(
+  loss = &#39;categorical_crossentropy&#39;,
+  optimizer = &#39;adam&#39;,
+  metrics = &#39;accuracy&#39;
+)</code></pre>
+<p></br></p>
+</div>
+<div id="step-3-model-training-and-tunning-parameters" class="section level3">
+<h3>Step 3: Model training and tunning parameters</h3>
+<p>Some important concepts for NN training:</p>
+<ul>
+<li><p><strong>batch size</strong>: the number of training samples in one forward/backward pass.</p></li>
+<li><p><strong>epoch</strong>: one forward and backward pass for all training samples.</p></li>
+<li><p><strong>iterations</strong>: number of passes, each pass using [batch size] number of training samples.</p></li>
+</ul>
+<p>These nice explanations come from <a href="https://stackoverflow.com/questions/4752626/epoch-vs-iteration-when-training-neural-networks">here</a>.</p>
+<p>For this example, we set the epoch number to be 200, batch size to be 5. Let’s say there are 100 training sample. In this case, we need to run <span class="math inline">\(\frac{100}{5}\times 200 = 4000\)</span> iterations.</p>
+<p></br></p>
+<pre class="r"><code>model %&gt;% fit(
+  iris.training, 
+  iris.trainLabels, 
+  epochs = 200, 
+  batch_size = 5, 
+  validation_split = 0.2,
+  callbacks = callback_tensorboard(&quot;logs/run_a&quot;)
+)
+
+tensorboard(&quot;logs/run_a&quot;)</code></pre>
+<p></br></p>
+<p>Here’s the training history of our model. We could also open tensorboard to view the structure of our model.</p>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 90%;"> <IMG src="img/training_visualization.png" float = "center" ALT="image" width="600"> </span></p>
+</div>
+<center>
+Figure 6. Training history of the example
+</center>
+<p></br></p>
+<div style="text-align: center;" align="center">
+<span class="slide" style="float:center;width: 90%;"> <IMG src="img/graph_visualization.png" float = "center" ALT="image" width="600"> </span>
+<center>
+Figure 7. Graph structure visualization
+</center>
+</div>
+</div>
+<div id="step-4-model-prediction-and-evaluation" class="section level3">
+<h3>Step 4: Model prediction and evaluation</h3>
+<p>We could use <code>predict_classes</code> function to return the prediction of our test set. </br></p>
+<pre class="r"><code>classes &lt;- model %&gt;% predict_classes(iris.test, batch_size = 128)</code></pre>
+<p></br></p>
+<p><code>evaluate</code> function to returns the accuracy and loss of our model. </br></p>
+<pre class="r"><code>score &lt;- model %&gt;% evaluate(iris.test, iris.testLabels, batch_size = 128)
+print(score)</code></pre>
+<p></br></p>
+<p>This returns a confusion matrix. </br></p>
+<pre class="r"><code>table(iris.testtarget, classes)</code></pre>
+<div style="text-align: center;" align="center">
+<p><span class="slide" style="float:center;width: 90%;"> <IMG src="img/confusion_matrix.png" float = "center" ALT="image" width="300"> </span></p>
+</div>
+<p>Our tutorial ends here.</p>
+</div>
+</div>
+</div>
+<div id="more" class="section level1">
+<h1>6 More</h1>
+<div id="datacamp-tutorial-using-iris-dataset" class="section level3">
+<h3>Datacamp tutorial using iris dataset</h3>
+<p><a href="https://www.datacamp.com/community/tutorials/keras-r-deep-learning">Reference</a> </br> The final parts of the tutorial borrowed the example from here. </br> </br></p>
+</div>
+<div id="how-to-use-pre-trained-models" class="section level3">
+<h3>How to use pre-trained models</h3>
+<p><a href="https://www.kernix.com/blog/image-classification-with-a-pre-trained-deep-neural-network_p11">Reference(Python)</a></p>
+<p><a href="https://tensorflow.rstudio.com/keras/articles/applications.html">Reference(R)</a> </br> </br></p>
+</div>
+<div id="more-about-tensorboard" class="section level3">
+<h3>More about Tensorboard</h3>
+<p><a href="https://www.datacamp.com/community/tutorials/tensorboard-tutorial">Reference</a> </br> </br></p>
+</div>
+<div id="more-about-keras" class="section level3">
+<h3>More about Keras</h3>
+<p><a href="https://tensorflow.rstudio.com/keras/articles/guide_keras.html">Reference</a> </br> </br></p>
+</div>
+<div id="deep-learning-by-mit-press" class="section level3">
+<h3>Deep Learning by MIT press</h3>
+<p><a href="https://www.deeplearningbook.org">Reference</a> </br> </br></p>
+</div>
+<div id="more-things-need-to-be-explored" class="section level2">
+<h2>More things need to be explored …</h2>
+<p></br> </br></p>
+</div>
+</div>
+<div id="other-resources" class="section level1">
+<h1>Other Resources</h1>
+<p><a href="https://github.com/kailashahirwar/cheatsheets-ai/blob/master/PDFs/Tensorflow.pdf">Cheatsheet</a></p>
+<p><a href="https://tensorflow.rstudio.com/tools/local_gpu.html">Tensorflow GPU version for R</a></p>
+<p><a href="https://cloud.google.com/getting-started/">Google Cloud Platform</a></p>
+<p></br> </br></p>
+</div>
+<div id="image-source" class="section level1">
+<h1>Image Source</h1>
+<p>Figure 1~2 is from <a href="https://www.simplilearn.com/introduction-to-tensorflow-tutorial" class="uri">https://www.simplilearn.com/introduction-to-tensorflow-tutorial</a></p>
+<p>Figure 5 is from <a href="https://www.datacamp.com/community/tutorials/keras-r-deep-learning" class="uri">https://www.datacamp.com/community/tutorials/keras-r-deep-learning</a></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+---
+title: 'Optical character recognition (OCR)'
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    number_sections: true
+    code_folding: hide
+---
+
+Jing Wu
+
+GU4243/GR5243: Applied Data Science
+
+<style type="text/css">
+h1.title {
+  font-size: 24px;
+  color: Black;
+}
+h1 { /* Header 1 */
+  font-size: 24px;
+  color: Black;
+}
+h2 { /* Header 2 */
+  font-size: 20px;
+  color: Black;
+}
+h3 { /* Header 3 */
+  font-size: 16px;
+  color: Black;
+}
+h4 { /* Header 4 */
+  font-size: 14px;
+  color: Grey;
+}
+</style>
+# Introduction {-}
+
+Optical character recognition (OCR) is the process of converting scanned images of machine printed or
+handwritten text (numerals, letters, and symbols), into machine readable character streams, plain (e.g. text files) or formatted (e.g. HTML files). As shown in Figure 1, the data *workflow* in a typical OCR system consists of three major stages:
+
+* Pre-processing
+
+* Word recognition
+
+* Post-processing
+
+![](../figs/ocr_flowchart.png) 
+
+We have processed raw scanned images through the first two steps are relying on the [Tessearct OCR machine](https://en.wikipedia.org/wiki/Tesseract_(software)). R package tutorial can be found [here](https://www.r-bloggers.com/the-new-tesseract-package-high-quality-ocr-in-r/). 
+
+BUT this is not the FOCUS of this project!!!
+
+In this project, we are going to **focus on the third stage -- post-processing**, which includes two tasks: *error detection* and *error correction*.  
+
+# Step 1 - Load library and source code
+```{r, warning=FALSE, message = FALSE}
+if (!require("devtools")) install.packages("devtools")
+if (!require("pacman")) {
+  ## devtools is required
+  library(devtools)
+  install_github("trinker/pacman")
+}
+
+pacman::p_load(knitr, readr, stringr, tesseract, vecsets)
+source('../lib/ifCleanToken.R')
+file_name_vec <- list.files("../data/ground_truth") #100 files in total
+```
+
+# Step 2 - Read the files and conduct Tesseract OCR
+
+Although we have processed the Tesseract OCR and save the output txt files in the `data` folder, we include this chunk of code in order to make clear the whole pipeline to you.
+
+```{r, eval=FALSE}
+for(i in c(1:length(file_name_vec))){
+  current_file_name <- sub(".txt","",file_name_vec[i])
+  ## png folder is not provided on github (the code is only for demonstration purpose)
+  current_tesseract_txt <- tesseract::ocr(paste("../data/png/",current_file_name,".png",sep=""))
+  
+  ### clean the tessetact text (separate line by "\n", delete null string, transter to lower case)
+  clean_tesseract_txt <- strsplit(current_tesseract_txt,"\n")[[1]]
+  clean_tesseract_txt <- clean_tesseract_txt[clean_tesseract_txt!=""]
+  
+  ### save tesseract text file
+  writeLines(clean_tesseract_txt, paste("../data/tesseract/",current_file_name,".txt",sep=""))
+}
+```
+
+# Step 3 - Error detection
+
+Now, we are ready to conduct post-processing, based on the Tessearct OCR output. First of all, we need to detect errors, or *incorrectly processed words* -- check to see if an input string is a valid dictionary word or if its n-grams are all legal.
+
+The referenced papers are:
+
+1. [Rule-based techniques](http://webpages.ursinus.edu/akontostathis/KulpKontostathisFinal.pdf)
+
+- rules are in the section 2.2 
+
+2. [Letter n-gram](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1672564)
+
+- focus on positional binary digram in section 3-a.error detection
+
+3. Probabilistic techniques -- [SVM garbage detection](https://dl.acm.org/citation.cfm?doid=2034617.2034626)
+
+- features are in section 5 (you can choose not to implement ‘Levenshtein distance’ feature)
+
+
+In this statercode, we implement the first three rules in the first paper -- rule based techniques, as an example.
+
+```{r}
+### only process one of the files in the folder as an example, in your project, you need to use all the files
+current_file_name <- sub(".txt","",file_name_vec[5])
+
+## read the ground truth text
+current_ground_truth_txt <- readLines(paste("../data/ground_truth/",current_file_name,".txt",sep=""), warn=FALSE)
+
+## read the tesseract text
+current_tesseract_txt <- readLines(paste("../data/tesseract/",current_file_name,".txt",sep=""), warn=FALSE)
+clean_tesseract_txt <- paste(current_tesseract_txt, collapse = " ")
+
+## detect tesseract word error
+tesseract_vec <- str_split(clean_tesseract_txt," ")[[1]] #1124 tokens
+tesseract_if_clean <- unlist(lapply(tesseract_vec,ifCleanToken)) # source code of ifCleanToken in in lib folder
+```
+
+# Step 4 - Error correction
+
+Given the detected word error, in order to find the best correction, we need to generating the candidate corrections: a dictionary or a database of legal n-grams to locate one or more potential correction terms. Then we need invoke some lexical-similarity measure between the misspelled string and the candidates or a probabilistic estimate of the likelihood of the correction to rank order the candidates.
+
+The referenced papers are:
+
+1. [Letter n-gram](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1672564}{positional binary digram)
+
+- focus on section 3-b.error correction
+
+2. Supervised model -- [correction regressor](https://arxiv.org/pdf/1611.06950.pdf)
+
+3. [Probability scoring without context](https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf)
+
+- focus on section 3
+
+4. [Probability scoring with contextual constraints](https://link.springer.com/content/pdf/10.1007%2FBF01889984.pdf)
+
+- focus on section 5
+
+5. [Topic models](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4377099)
+
+Here, in our code, we just simply remove the detected-errors.
+```{r}
+tesseract_delete_error_vec <- tesseract_vec[tesseract_if_clean] #1095
+```
+
+# Step 5 - Performance measure
+
+The two most common OCR accuracy measures are precision and recall. Both are relative measures of the OCR accuracy because they are computed as ratios of the correct output to the total output (precision) or input (recall). More formally defined,
+\begin{align*}
+\mbox{precision}&=\frac{\mbox{number of correct items}}{\mbox{number of items in OCR output}}\\
+\mbox{recall}&=\frac{\mbox{number of correct items}}{\mbox{number of items in ground truth}}
+\end{align*}
+where *items* refer to either characters or words, and ground truth is the original text stored in the plain text file. 
+
+Both *precision* and *recall* are mathematically convenient measures because their numeric values are some decimal fractions in the range between 0.0 and 1.0, and thus can be written as percentages. For instance, recall is the percentage of words in the original text correctly found by the OCR engine, whereas precision is the percentage of correctly found words with respect to the total word count of the OCR output. Note that in the OCR-related literature, the term OCR accuracy often refers to recall.
+
+Here, we only finished the **word level evaluation** criterions, you are required to complete the **character-level** part.
+
+```{r}
+ground_truth_vec <- str_split(paste(current_ground_truth_txt, collapse = " ")," ")[[1]] #1078
+
+## Here, we compare the lower case version of the tokens
+old_intersect_vec <- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_vec)) #607
+new_intersect_vec <- vecsets::vintersect(tolower(ground_truth_vec), tolower(tesseract_delete_error_vec)) #600
+
+OCR_performance_table <- data.frame("Tesseract" = rep(NA,4),
+                                    "Tesseract_with_postprocessing" = rep(NA,4))
+row.names(OCR_performance_table) <- c("word_wise_recall","word_wise_precision",
+                                      "character_wise_recall","character_wise_precision")
+OCR_performance_table["word_wise_recall","Tesseract"] <- length(old_intersect_vec)/length(ground_truth_vec)
+OCR_performance_table["word_wise_precision","Tesseract"] <- length(old_intersect_vec)/length(tesseract_vec)
+OCR_performance_table["word_wise_recall","Tesseract_with_postprocessing"] <- length(new_intersect_vec)/length(ground_truth_vec)
+OCR_performance_table["word_wise_precision","Tesseract_with_postprocessing"] <- length(new_intersect_vec)/length(tesseract_delete_error_vec)
+kable(OCR_performance_table, caption="Summary of OCR performance")
+```
+
+Besides the above required measurement, you are encouraged to explore more evaluation measurements. Here are some related references:
+
+1. Karpinski, R., Lohani, D., & Belaïd, A. *Metrics for Complete Evaluation of OCR Performance*. [pdf](https://csce.ucmss.com/cr/books/2018/LFS/CSREA2018/IPC3481.pdf)
+
+- section 2.1 Text-to-Text evaluation
+
+2. Mei, J., Islam, A., Wu, Y., Moh'd, A., & Milios, E. E. (2016). *Statistical learning for OCR text correction*. arXiv preprint arXiv:1611.06950. [pdf](https://arxiv.org/pdf/1611.06950.pdf)
+
+- section 5, separate the error detection and correction criterions
+
+3. Belaid, A., & Pierron, L. (2001, December). *Generic approach for OCR performance evaluation*. In Document Recognition and Retrieval IX (Vol. 4670, pp. 203-216). International Society for Optics and Photonics. [pdf](https://members.loria.fr/ABelaid/publis/spie02-belaid-pierron.pdf)
+
+- section 3.2, consider the text alignment
+
+# References {-}
+
+1. Borovikov, E. (2014). *A survey of modern optical character recognition techniques*. arXiv preprint arXiv:1412.4183.[pdf](https://pdfs.semanticscholar.org/79c9/cc90b8c2e2c9c54c3862935ea00df7dd56ed.pdf)
+(This paper is the source of our evaluation criterion)
+
+2. Kukich, K. (1992). *Techniques for automatically correcting words in text*. Acm Computing Surveys (CSUR), 24(4), 377-439. [pdf](http://www.unige.ch/eti/ptt/docs/kukich-92.pdf)
+(This paper is the benchmark review paper)
