@@ -69,11 +69,11 @@ Here the examples are for inspiration. The order is abitrary. I do not endorse a
 
 Blogs
 
-- [50 years of crimes in US](https://public.tableau.com/en-us/s/gallery/50-years-crime-us) an interactive visualization of crime trends. 
+- [50 years of crimes in US](https://public.tableau.com/profile/uday.kumar.gandhasiri#!/vizhome/50YearsofCrime_24/Dashboard2) an interactive visualization of crime trends. 
 - [200 Years of U.S. Immigration](http://insightfulinteraction.com/immigration200years.html) a visualization that clearly demonstrated the effects of the 1924 immigration act. 
 - [311 sanitation complaints](http://www.spatialinformationdesignlab.org/projects/civic-data-management-311-sanitation-complaints)
 - [250 years of buildings from Manhattan](http://www.gislounge.com/mapping-almost-250-years-buildings-manhattan/)
-- [spatial.ly](http://spatial.ly/blog/) Website of Dr. James Cheshire, a geographer on spatial visualizations that tell stories.
+- [spatial.ly](http://spatial.ly/) Website of Dr. James Cheshire, a geographer on spatial visualizations that tell stories.
 - [NYC taxi data](http://www.andresmh.com/nyctaxitrips/), some [exploration](http://hafen.github.io/taxi/#initial-exploration), a cool [visualization](http://nyctaxi.herokuapp.com/).
 - [Winners of New York City Tree Counts DataJam](http://treescountdatajam.devpost.com/updates/5503-and-the-winners-are)
 - [Vision Zero Interactive Map](http://www.nycvzv.info/)
