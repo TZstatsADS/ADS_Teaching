@@ -38,4 +38,4 @@
 #### Reference
 * Tutorial for GitHub website: [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
 * Tutorial for GitHub desktop:
-[https://help.github.com/desktop/guides/getting-started/](https://help.github.com/desktop/guides/getting-started/)
+[https://help.github.com/en/desktop/getting-started-with-github-desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)
