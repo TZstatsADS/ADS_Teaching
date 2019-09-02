@@ -68,14 +68,14 @@
 
 #### Week 7 (Mar 6)
 + Tutorials + Q&A
-	+ Tutorials: [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-ImageAnalysis/EBImage%26SIFT/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Super Resolution](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html) ([zipped folder](Tutorials/wk7-SuperResolution.zip))
+	+ Tutorials: [Basic Image Analysis](http://tzstatsads.github.io/tutorials/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Super Resolution](http://tzstatsads.github.io/tutorials/super_resolution.html) ([zipped folder](Tutorials/wk7-SuperResolution.zip))
 	+ [Tutorial on gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 	+ Recap on project 3 requirements and starter codes.
 
 #### Week 8 (Mar 13)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html) (Example)
++ [Tensorflow Tutorial](http://tzstatsads.github.io/tutorials/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](http://tzstatsads.github.io/tutorials/image_interpolation_tutorial/Image_Interpolation_tutorial.html)
 + Project submission checklist
 + Discussion
 
@@ -107,7 +107,7 @@
 ### Project cycle 5: 
 
 #### Week 13 (Apr 24)
-+ [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk12-project3summary/wk13-project3_summary-sec1.nb.html)
++ [Project 3 summary](/Tutorials/wk12-project3summary/)
 + Project 5 discussions
 
 ----
