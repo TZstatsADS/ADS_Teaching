@@ -9,31 +9,26 @@
 
 * Section 1:
 
-	* Classes: Wednesdays 6:10pm-8:55pm, 310 Fayerweather
+	* Classes: Wednesdays 6:10pm-8:55pm, 313 Fayerweather
 	* Instructors: Ying Liu.  <liuying4490@gmail.com> [(@yingliug)](https://github.com/yingliug)
 		* Office hours: after class
 	* TA: Chengliang Tang. <ct2747@columbia.edu> [(@ChengliangTang)](http://github.com/ChengliangTang)
-		* Office hours: TBD
-
-		<!--- Mondays 6:00 pm to 8:00 pm on 10th Floor Lounge of SSW --->
-		
+		* Office hours: Mondays 6:00 pm to 8:00 pm on 10th Floor Lounge of SSW
 	* Course websites (all accessible via courseworks or github): 
 		* Grades and basic course info on **Courseworks**: <http://courseworks.columbia.edu>
-		* Discussion board on **Piazza**: 
-			* Section 1 (YL)  
-			* Section 2 (TZ) <http://piazza.com/columbia/fall2019/adsfall2019applieddatasciencesec2/home>
+		* Discussion board on **Piazza**: <https://piazza.com/class/jr3vxx0bo4w68x>
 		* Course materials and repositories on **GitHub**: <http://tzstatsads.github.io>
  
 #### Prerequisites
 The pre-requisite for this course includes working knowledge in Statistics and Probability, data mining, statistical modeling and machine learning. Prior **advanced** programming experience in R or Python is required. 
 
 #### Description  
-This course incorporates knowledge and skills covered in a statistical curriculum with topics and projects in data science. Programming will be covered using existing tools mostly in R, while students can use tools from other languages. Computing best practices will be taught using test-driven development, version control, and collaboration. Students finish the class with a portfolio on GitHub, and deeper understanding of several core statistical/machine-learning algorithms. 
+This course incorporates knowledge and skills covered in a statistical curriculum with topics and projects in data science. Programming will be covered using existing tools in R, while students can use tools from other languages. Computing best practices will be taught using test-driven development, version control, and collaboration. Students finish the class with a portfolio on GitHub, and deeper understanding of several core statistical/machine-learning algorithms. 
 
 This course will be a project-based hands-on course in data science. **No formal instruction on statistics, data science, machine learning will be given**. Project cycles run every 2-3 weeks, where we will have mini-group data projects. Groups will be formed **randomly** and project products will be peer-reviewed, in addition to evaluation by the instructional team.
 
 #### Course organization
-This course will have a total of *five* project cycles, while Project 5 is optional and free-topic. For Projects 1-4, each project cycle follows a sequence of four types of activities. 
+This course will have a total of *five* project cycles. Each project cycle follows a sequence of four types of activities. 
 
 **a**. Dataset release, introduction to the data science problem, individual exercises, team forming
 
@@ -43,32 +38,33 @@ This course will have a total of *five* project cycles, while Project 5 is optio
 
 **d**. Team presentation, peer reviews, within-team peer reviews
 
-Except for project 1, students will be working in teams of 5 that will be randomly formed. For a meaningful experience in data science, students are expected to collaborate and work together on all the stages of a project. Code sharing and brainstorming are great opportunities to learn from each other. 
+Students will be working in teams of 5 that will be randomly formed. For a meaningful experience in data science, students are expected to collaborate and work together on all the stages of a project. Code sharing and brainstorming are great opportunities to learn from each other. 
 
 We will have a total of five project cycles for this course (topics are subject to change):
 
 1. [Individual] R notebook for exploratory data analysis 
 2. Shiny app for interactive data visualization project.
 3. Predictive analytics of images.
-4. Algorithms implementation, evaluation, and reproducibility challenge.
+4. Research evaluation and reproducibility challenge.
 5. [optional] *Free topic*.
 
-Below is a tentative schedule for Fall 2019 we will follow.
+Below is a tentative schedule we will follow.
 
-+ Week 1 (Sep 4/5): 1a+1b
-+ Week 2 (Sep 11/12): 1c
-+ Week 3 (Sep 18/19): 1d+2a
-+ Week 4 (Sep 25/26): 2b+2c
-+ Week 5 (Oct 2/3): 2c
-+ Week 6 (Oct 9/10): 2d+3a
-+ Week 7 (Oct 16/17): 3b+3c
-+ Week 8 (Oct 23/24): 3b+3c
-+ Week 9 (Oct 30/Nov 1): 3d+4a
-+ Week 10 (Nov 6/7): 4b+4c
-+ Week 11 (Noc 13/14): 4b+4c
-+ Week 12 (Nov 20/21): 4d+5c
-+ Thanksgiving break
-+ Week 13 (Dec 4/5): 5d
++ Week 1 (Jan 23): 1a+1b
++ Week 2 (Jan 30): 1c
++ Week 3 (Feb 6): 1d+2a
++ Week 4 (Feb 13): 2b+2c
++ Week 5 (Feb 20): 2c
++ Week 6 (Feb 27): 2d+3a
++ Week 7 (Mar 6): 3b+3c
++ Week 8 (Mar 13): 3b+3c
++ Spring break: no class
++ Week 9 (Mar 27): 3d+4a
++ Week 10 (Apr 3): 4b+4c
++ Week 11 (Apr 10): 4b+4c
++ Week 12 (Apr 17): 4d+5c
++ Week 13 (Apr 24): 5c
++ Week 14 (May 1): 5d
 
 #### Evaluation
 
@@ -86,13 +82,13 @@ Students' performance will be evaluated based on
 	* We will give participation score for each project cycle, the average of which will contribute to 15% of your final grade. The participation will be graded on the following curve. 
 	
 		* A (1.8-2): project leader, major contributor who contribute substantially in every stage of the project and class discussions. 
-		* A- (1.5-1.8): major contributor who contributed substantially to two stages of the project and some discussions. *This is what most students receive for their participation.*
+		* A- (1.5-1.8): major contributor who contributed substantially to two stages of the project and some discussions. 
 		* B+ (1.2-1.5): average participation, participate in the discussion at every stage and contribute substentially in at least one stage of the project and some discussions. 
 		* B (1-1.2) or lower: below average performance.   
 	* This is to ensure a positive learning process for all of us.  
 
 #### Communication
-Projects grades are managed in courseworks. We will be using the discussion/announcement tools in Piazza (accessible from Courseworks) for our online class communication and discussion. The system is highly catered to exchanging ideas, discussing plans, and getting answers and help fast and efficiently from the instructional team and classmates. Rather than emailing questions to the teaching staff, we encourage you to post your questions online.
+Projects grades are managed in courseworks. We will be using the discussion/announcement tools in Piazza (accessible from Courseworks) for our online class communication and discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TAs, and instructors. Rather than emailing questions to the teaching staff, we encourage you to post your questions online.
 
 #### Textbook
 There is not a single required text. As part of this course, we will learn from what we can find online and in academic papers. Here are a couple of recommended reference books. 
@@ -107,9 +103,9 @@ There is not a single required text. As part of this course, we will learn from 
 
 * We learn together through projects. Please stay positive and congenial. Share what you know with your peers and also learn from them.
 
-* Working towards deadlines can be stressful. Remember, emails or online posts do NOT have tones. Be mindful about how you phrase your questions, comments, inquries, and suggestions. Also be generous and forgiving when reading them. 
+* Working towards deadlines can be stressful. Remember, emails or online posts do NOT have tones. Be mindful about how you phrase your questions, comments, inquries and suggestions. Also be generous when reading them. 
 
-* **Academic Integrity** is the cornerstone of meaningful teaching and learning. It is especially important for our project-based course. Remember what matters more is how much you learn not what grade you will get. In your project, document references and resources that have been incorporated into your project and accredit them appropriately. Plagiarism is one of the most likely form of cheating in this course. 
+* Academic Integrity is the cornerstone of meaningful teaching and learning. It is especially important for our project-based course. Remember what matters more is how much you learn not what grade you will get. In your project, document references and resources that have been incorporated into your project and accredit them appropriately. Plagiarism is one of the most likely forms of cheating in this course. 
 
 * Be a good team member and contribute to each project as much as you can. Don't underestimate the efforts of your teammates. Something seems simple may not be that simple. 
 
