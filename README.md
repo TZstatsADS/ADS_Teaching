@@ -109,7 +109,6 @@
 <!--- + Q&A on Algorithms
 + Team Meeting --->
 + Project 4 presentations
-+ Project 5 discussions
 
 #### Thanksgiving Break
 
@@ -118,7 +117,16 @@
 
 ### Project cycle 5: 
 
+#### Weeks 12 (Nov 20/21)
+
++ Project 5 discussions
+
+#### Thanksgiving Break
 #### Week 13 (Dec 4/5)
+
++ Project 5 presentations
+
+
 <!--- + [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk12-project3summary/wk13-project3_summary-sec1.nb.html)
 + Project 5 discussions --->
 
