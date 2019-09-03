@@ -8,11 +8,9 @@
 #### Week 1 (Sep 4/5)
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)
-<<<<<<< HEAD
 + [Tutorial 1 R Notebook](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutorial_rnotebook.html) + [Example](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) [(html)](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html)
 =======
 + [Tutorial 1 R Notebook](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/04f772cb/Tutorials/tutorial_rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be)
->>>>>>> 15b42423df6dcd71fc422514a98a348aca1a5d01
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
 #### Week 2 (Sep 11/12)
