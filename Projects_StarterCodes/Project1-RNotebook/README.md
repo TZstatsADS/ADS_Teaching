@@ -4,7 +4,7 @@
 
 <img src="figs/title1.jpeg" width="500">
 
-### [Project Description](doc/)
+### [Project Description](doc/Proj1_desc.md)
 This is the first and only *individual* (as opposed to *team*) this semester. 
 
 Term: Fall 2019
