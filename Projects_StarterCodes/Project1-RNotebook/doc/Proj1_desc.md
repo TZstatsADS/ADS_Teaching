@@ -16,7 +16,7 @@ The goal of this project is to look deeper into the patterns and characteristics
 
 ### Challenge 
 
-In this project you will carry out an **exploratory data analysis (EDA)** of the corpus of song lyrics and write a blog on interesting findings from the provide data sets (i.e., a *data story*).
+In this project you will carry out an **exploratory data analysis (EDA)** of the corpus of song lyrics and write a blog on interesting findings from the provided data sets (i.e., a *data story*).
 
 You are tasked to explore the texts using tools from text mining and natural language processing such as sentiment analysis, topic modeling, etc, all available in `R` and write a blog post using `R` Notebook. Your blog should be in the form of a `data story` blog on interesting trends and patterns identified by your analysis of these song lyrics. 
 
