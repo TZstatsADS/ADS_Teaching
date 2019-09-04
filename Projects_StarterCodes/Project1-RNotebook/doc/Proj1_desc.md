@@ -1,6 +1,6 @@
 ## Applied Data Science @ Columbia
 ## STAT GR5243/GU4243 Fall 2019 
-### Project 1 An R Notebook "Data Story" on Song Lyrics
+### Project 1 An R/Python Notebook "Data Story" on Song Lyrics
 
 <img src="../figs/title2.jpg" width="400">
 
