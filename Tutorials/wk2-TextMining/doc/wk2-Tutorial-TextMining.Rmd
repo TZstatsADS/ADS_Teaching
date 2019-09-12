@@ -56,7 +56,7 @@ print(R.version)
 
 Following the example of [Jerid Francom](https://francojc.github.io/2015/03/01/web-scraping-with-rvest-in-r/), we used [Selectorgadget](http://selectorgadget.com/) to choose the links we would like to scrap. For this project, we selected all inaugural addresses of past presidents, nomination speeches of major party candidates and farewell addresses. We also included several public speeches from Donald Trump for our textual analysis of presidential speeches. 
 
-```{r, message=FALSE, warning=FALSE}
+```{r, eval = FALSE, message=FALSE, warning=FALSE}
 ### Inauguaral speeches
 main.page <- read_html(x = "http://www.presidency.ucsb.edu/inaugurals.php")
 # Get link URLs
@@ -83,7 +83,7 @@ farewell <- f.speechlinks(main.page)
 
 ```{r}
 inaug.list=read.csv("../data/inauglist.csv", stringsAsFactors = FALSE)
-# nomin.list=read.csv("../data/nominlist.csv", stringsAsFactors = FALSE)
+nomin.list=read.csv("../data/nominlist.csv", stringsAsFactors = FALSE)
 farewell.list=read.csv("../data/farewelllist.csv", stringsAsFactors = FALSE)
 ```
 
@@ -93,15 +93,15 @@ We assemble all scrapped speeches into one list. Note here that we don't have th
 
 ```{r}
 speech.list=rbind(inaug.list, 
-                  #nomin.list, 
+                  nomin.list, 
                   farewell.list)
 speech.list$type=c(rep("inaug", nrow(inaug.list)),
-                   #rep("nomin", nrow(nomin.list)),
+                   rep("nomin", nrow(nomin.list)),
                    rep("farewell", nrow(farewell.list)))
-speech.url=rbind(inaug, 
-                 #nomin, 
-                 farewell)
-speech.list=cbind(speech.list, speech.url)
+#speech.url=rbind(inaug, 
+#                 nomin, 
+#                 farewell)
+#speech.list=cbind(speech.list, speech.url)
 ```
 
 Based on the list of speeches, we scrap the main text part of the transcript's html page. For simple html pages of this kind,  [Selectorgadget](http://selectorgadget.com/) is very convenient for identifying the html node that `rvest` can use to scrap its content. For reproducibility, we also save our scrapped speeches into our local folder as individual speech files. 
@@ -110,21 +110,29 @@ Based on the list of speeches, we scrap the main text part of the transcript's h
 # Loop over each row in speech.list
 speech.list$fulltext=NA
 for(i in seq(nrow(speech.list))) {
-  text <- read_html(speech.list$urls[i]) %>% # load the page
-    html_nodes(".displaytext") %>% # isloate the text
-    html_text() # get the text
-  speech.list$fulltext[i]=text
+  #text <- read_html(speech.list$urls[i]) %>% # load the page
+  #  html_nodes(".displaytext") %>% # isloate the text
+  #  html_text() # get the text
+  text.input=readtext(file=paste("../data/fulltext/", 
+                                   speech.list$type[i],
+                                   speech.list$File[i], "-", 
+                                    speech.list$Term[i], ".txt"))
+  print(text.input)
+  speech.list$fulltext[i]=text.input
   # Create the file name
-  filename <- paste0("../data/fulltext/", 
-                     speech.list$type[i],
-                     speech.list$File[i], "-", 
-                     speech.list$Term[i], ".txt")
-  sink(file = filename) %>% # open file to write 
-  cat(text)  # write the file
-  sink() # close the file
+  #filename <- paste0("../data/fulltext/", 
+  #                   speech.list$type[i],
+  #                   speech.list$File[i], "-", 
+  #                   speech.list$Term[i], ".txt")
+  #sink(file = filename) %>% # open file to write 
+  #cat(text)  # write the file
+  #sink() # close the file
 }
 ```
 
+```{r}
+
+```
 Trump, as president-elect that has not been a politician, do not have a lot of formal speeches yet. For our textual analysis, we manually add several public transcripts from Trump:
 + [Transcript: Donald Trump's full immigration speech, annotated. LA Times, 08/31/2016](http://www.latimes.com/politics/la-na-pol-donald-trump-immigration-speech-transcript-20160831-snap-htmlstory.html)
 + [Transcript of Donald Trump’s speech on national security in Philadelphia - The Hill, 09/07/16](http://thehill.com/blogs/pundits-blog/campaign/294817-transcript-of-donald-trumps-speech-on-national-security-in)
