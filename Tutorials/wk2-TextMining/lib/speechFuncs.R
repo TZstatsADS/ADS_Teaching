@@ -1,3 +1,8 @@
+f.word_count=function(str){
+  library(stringr)
+  return(str_count(str, '\\w+'))
+}
+
 f.speechlinks=function(html.page, node.type=".ver12 a"){
   urls <- html.page %>% # feed `main.page` to the next step
     html_nodes(node.type) %>% # get the CSS nodes
@@ -15,19 +20,19 @@ f.speechlinks=function(html.page, node.type=".ver12 a"){
 
 f.plotsent.len=function(In.list, InFile, InType, InTerm, President){
   
-  col.use=c("lightgray", "red2", "darkgoldenrod1", 
-            "chartreuse3", "blueviolet",
-            "darkgoldenrod2", "dodgerblue3", 
-            "darkgoldenrod1", "darkgoldenrod1",
-            "black", "darkgoldenrod2")
+  #"anticipation" "joy"          "surprise"     "trust"       
+  #"anger"        "disgust"      "fear"         "sadness"
+  
+  col.use=c("light grey", "darkgoldenrod1", "darkgoldenrod1", "darkgoldenrod1", "darkgoldenrod1",
+            "red2", "chartreuse3", "blueviolet","dodgerblue3")
   
   In.list$topemotion=apply(select(In.list, 
-                                        anger:positive), 
+                                    anticipation:sadness), 
                                  1, which.max)
   In.list$topemotion.v=apply(select(In.list,
-                                          anger:positive), 
+                                    anticipation:sadness), 
                                    1, max)
-  In.list$topemotion[In.list$topemotion.v<0.05]=0
+  In.list$topemotion[In.list$topemotion.v<0.01]=0
   In.list$topemotion=In.list$topemotion+1
   
   temp=In.list$topemotion.v
