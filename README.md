@@ -29,31 +29,30 @@
 
 ### Project cycle 2: Shiny App Development
 
-<!--- ([starter codes](Projects_StarterCodes/Project2_ShinyApp)) --->
+([starter codes](Projects_StarterCodes/Project2-ShinyApp))
 
 #### Week 3 (Sep 18/19)
-<!--- 
-+ [Project 2](Projects_StarterCodes/Project2_ShinyApp) starts.
-  	+ Check Piazza for your project team and GitHub join link.
++ [Project 2](Projects_StarterCodes/Project2-ShinyApp) starts.
+  	+ Check Piazza for your project team and *GitHub join link*.
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes* 
    		+ the project description, 
-   		+ an example toy shiny app 
-    	+ a short tutorial to get you started. --->
+   		+ an example **toy** shiny app 
+    	+ a short tutorial to get you started. 
 
 #### Week 4 (Sep 25/26)
 
-<!--- + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
-+ Tutorial on project 2 - [Introduction to shiny app](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/2551e1df/Projects_startercodes/Project2_OpenData/doc/Tutorial2.html) ([app](Projects_StarterCodes/Project2_ShinyApp/app/))
++ [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
++ Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
 + Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
 + Shiny Example ([link](https://github.com/TZstatsADS/Spring2018-Project2-Group5))
-+ Discussion and Q&A --->
++ Discussion and Q&A
 
 #### Week 5 (Oct 2/3)
 
-<!--- + Feebback on project 1
++ Feebback on project 1
 + [Tutorial on giving presentations](Tutorials/MakingPresentation.pdf)
-+ Brainstorm on project 2 --->
++ Brainstorm on project 2
 
 #### Week 6 (Oct 9/10)
 + Project 2 presentations
