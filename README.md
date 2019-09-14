@@ -46,6 +46,7 @@
 + Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
 + Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/)) + [example](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk4-shiny-example.zip)
 + Shiny Example ([link](https://github.com/TZstatsADS/Spring2018-Project2-Group5))
++ [A note on contribution](/Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
 + Discussion and Q&A
 
 #### Week 5 (Oct 2/3)
