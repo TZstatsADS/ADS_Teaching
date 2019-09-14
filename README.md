@@ -19,6 +19,7 @@
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://github.com/TZstatsADS/fall2017-project1-duanshiqi).
 + Discussion and Q&A
++ Check out our Piazza Q&A discussion board for access to (optional) additional tutorials from our ADS [DataCamp](https://www.datacamp.com/) Classroom.
 
 #### Week 3 (Sep 18/19)
 + Project 1 presentations.
