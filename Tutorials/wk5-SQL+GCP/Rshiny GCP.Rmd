@@ -6,7 +6,6 @@ output:
   pdf_document: default
 ---
 
-# Deploy Rshiny on Google Cloud Platform
 This toturial is based on [GCP Documenation](https://cloud.google.com/docs/) and modified from [Luis Henrique Zanandréa Paese's tutorial](https://github.com/paeselhz/RStudio-Shiny-Server-on-GCP) on  Github.
 
 ### Step 0: Register a GCP Account and Create a New Project
