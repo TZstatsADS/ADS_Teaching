@@ -1,15 +1,17 @@
 ---
 title: "Deploy Shiny on Google Cloud Platform"
-author: "Yujie Wang, Chengliang Tang, Tian Zheng"
+author: "Chengliang Tang, Yujie Wang"
+date: "7/17/2019"
 output:
   html_document: default
   pdf_document: default
 ---
 
+# Deploy Rshiny on Google Cloud Platform
 This toturial is based on [GCP Documenation](https://cloud.google.com/docs/) and modified from [Luis Henrique Zanandréa Paese's tutorial](https://github.com/paeselhz/RStudio-Shiny-Server-on-GCP) on  Github.
 
 ### Step 0: Register a GCP Account and Create a New Project
-- Google offers $300 credit and 12-month free trail for GCP product. Register [here](https://cloud.google.com).
+- Google offers $300 credit and 12-month free trail for GCP product. Register [here](https://cloud.google.com/free).
 - To create a new project: ([toturial](https://cloud.google.com/resource-manager/docs/creating-managing-projects)):
     1. Go to the [Manage resources page](https://console.cloud.google.com/cloud-resource-manager?_ga=2.176258477.-941251705.1560576658&_gac=1.187635930.1563387861.Cj0KCQjwjrvpBRC0ARIsAFrFuV9Cbk-cF3lpzMvJ6EdIll_r55LzfQJRp59noPQLWoCP4S1C_eIuFaAaAqWlEALw_wcB) in the GCP Console. 
     2. On the Select organization drop-down list at the top of the page, select the organization in which you want to create a project. If you are a free trial user, skip this step, as this list does not appear.
@@ -89,7 +91,7 @@ To do that, at the command line in R type:
 ```sh
 install.packages(c('shiny', 'rmarkdown', 'dplyr'))
 ```
-This process might take a while. Once installation is complete, leave the R command line:
+**Note** that all packages required for your Shiny App should be installed here(in R) instead of Rstudio Server. This process might take a while. Once installation is complete, leave the R command line:
 ```sh
 quit()
 ```
@@ -103,7 +105,7 @@ sudo gdebi rstudio-server-1.1.456-amd64.deb
 ```
 - To verify if the installation went correctly, access
 ```sh
-http://[your_external_ip](https://console.cloud.google.com/compute/instances):8787
+http://[your_external_ip]:8787
 ```
 If everything is fine, you'll find this screen:
 - After this, you'll need to create a user to use the RStudio hosted on your virtual machine, so you go back to the Linux terminal, and type:
@@ -119,9 +121,6 @@ sudo apt-get install gdebi-core
 wget https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-1.5.7.907-amd64.deb
 sudo gdebi shiny-server-1.5.7.907-amd64.deb
 ```
-- To verify if the installation is complete, you can access 
-```sh
-http://your_external_ip:3838
 ```
 If everything is fine, you'll see this screen:
 ![](rshinygcp4.png)
