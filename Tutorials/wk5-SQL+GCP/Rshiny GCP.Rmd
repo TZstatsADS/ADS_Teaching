@@ -1,6 +1,6 @@
 ---
 title: "Deploy Shiny on Google Cloud Platform"
-author: "Chengliang Tang, Yujie Wang"
+author: "Chengliang Tang, Yujie Wang, Tian Zheng"
 date: "7/17/2019"
 output:
   html_document: default
