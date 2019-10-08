@@ -74,8 +74,8 @@
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/project3_desc.md) 
-    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/main.Rmd) --->
-
+    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/main.Rmd)
+    
 #### Week 7 (Oct 16/17)
 
 + Recap on project 3 requirements and starter codes. 
@@ -89,7 +89,6 @@
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
 
 <!--- + [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html) (Example)--->
-
 + Project submission checklist
 + Discussion
 
