@@ -1,0 +1,397 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>Install CPU-Only Caffe on Mac OS (For Python Interface)</title>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$$$','$$$']]}});</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<h1>Install CPU-Only Caffe on Mac OS (For Python Interface)</h1>
+
+<p>Caffe is a deep learning framework developed by the Berkely Vision and Learning Center (<a href="http://caffe.berkeleyvision.org/">BVLC</a>). It allows flexible construction of deep learning models for computer vision as well as providing pretrained visual features learned from massive image repositories, such as the ImageNet.</p>
+
+<p>However, it is never a easy task to install Caffe. Hope this guide can save some of your time.</p>
+
+<p>Open terminal</p>
+
+<h2>Install the command-line tools for Xcode</h2>
+
+<p><code>xcode-select –install</code></p>
+
+<h2>Install Homebrew</h2>
+
+<p>Homebrew is the "missing package manager for OSX". We need to install several open-source packages via homebrew.</p>
+
+<ol>
+<li><code>ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”</code></li>
+<li>Update homebrew if already installed <code>brew update</code></li>
+</ol>
+
+
+<h2>Install Python</h2>
+
+<ol>
+<li>If you haven't install Python yet: <code>brew install python</code></li>
+<li>If Python is installed, then update <code>pip install --upgrade pip setuptools</code></li>
+<li>You can verify that Python is at the right place, installed via Homebrew: <code>which python</code></li>
+</ol>
+
+
+<h2>(Optional) Install Anaconda Python Distribution</h2>
+
+<p>Anaconda is a freemium distribution of the Python programming language for large-scale data processing, predictive analytics, and scientific computing, that aims to simplify package management and deployment. It might simplifies the installation configuration.</p>
+
+<ol>
+<li>Go to https://www.continuum.io/downloads and download Anaconda for OS X</li>
+<li>Install with default settings.</li>
+<li>Change environment variable <code>export PATH=~/anaconda/bin:$PATH</code>.</li>
+</ol>
+
+
+<h2>CUDA Driver and Toolkit</h2>
+
+<p>Although we don't do the computation on GPU and Mac normally does not have CUDA installed, we need to let the caffe knows that we have the CUDA drived and toolkit installed in order to proceed. It is like we fool the computer by installing the driver and toolkit without having the real hardware.</p>
+
+<ol>
+<li>Go to: https://developer.nvidia.com/cuda-downloads and download CUDA Toolkit 7.5</li>
+<li>Go to: http://www.nvidia.com/object/mac-driver-archive.html and download CUDA 7.5.25 driver for MAC</li>
+<li>Install both of them with default settings</li>
+<li>Change environment variables:</li>
+</ol>
+
+
+<pre><code>    export PATH=/Developer/NVIDIA/CUDA-7.0/bin:$PATH
+    export DYLD_LIBRARY_PATH=/Developer/NVIDIA/CUDA-7.0/lib:$DYLD_LIBRARY_PATH
+</code></pre>
+
+<h2>Install Dependencies</h2>
+
+<h3>BLAS</h3>
+
+<p>Basic Linear Algebra Subprograms (BLAS) is a specification that prescribes a set of low-level routines for performing common linear algebra operations such as vector addition, scalar multiplication, dot products, linear combinations, and matrix multiplication. Mac should have built-in BLAS named as "atlas". If not, you can install the "openblas"</p>
+
+<pre><code>brew install openblas
+</code></pre>
+
+<h3>OpenCV</h3>
+
+<p>OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision.
+1. Installation
+2.
+<code>
+brew tap homebrew/science
+brew install opencv
+</code></p>
+
+<ol>
+<li>Edit variables</li>
+</ol>
+
+
+<pre><code>brew edit open
+</code></pre>
+
+<p>Change line 89-90</p>
+
+<pre><code>args &lt;&lt; "-DPYTHON#{py_ver}_LIBRARY=#{py_lib}/libpython2.7.#{dylib}"
+args &lt;&lt; "-DPYTHON#{py_ver}_INCLUDE_DIR=#{py_prefix}/include/python2.7"
+</code></pre>
+
+<p>to</p>
+
+<pre><code>args &lt;&lt; "-DPYTHON_LIBRARY=#{py_prefix}/lib/libpython2.7.dylib"
+args &lt;&lt; "-DPYTHON_INCLUDE_DIR=#{py_prefix}/include/python2.7"
+</code></pre>
+
+<h3>Hdf5</h3>
+
+<pre><code>brew install hdf5
+</code></pre>
+
+<h3>Boost &amp; Python-Boost</h3>
+
+<p>Boost is a collection of peer-reviewed (i.e. very high quality) C++ libraries that help programmers and developers not get caught up in reinventing the wheel. Boost provides implementations for linear algebra, multithreading, basic image processing, and unit testing, just to name a few. Boost-python provides interoperability between the C++ and Python programming languages.</p>
+
+<pre><code>brew install --build-from-source --fresh -vd boost boost-python
+</code></pre>
+
+<h3>Other dependencies</h3>
+
+<pre><code>brew install --fresh -vd snappy leveldb gflags glog szip lmdb homebrew/science/opencv
+brew install --build-from-source --with-python --fresh -vd protobuf
+</code></pre>
+
+<h2>Final Step: Install Caffe</h2>
+
+<h3>Preparation</h3>
+
+<p>Before install Caffe, check whether the required dependencies are installed appropriately. Use <code>brew list</code> to view the full list of installed packages.</p>
+
+<h3>Download Caffe from GitHub</h3>
+
+<ol>
+<li>From your home directory or any directory you want to download caffe, <code>git clone https://github.com/BVLC/caffe.git</code></li>
+<li><code>cd caffe</code></li>
+<li><code>cp Makefile.config.example Makefile.config</code></li>
+</ol>
+
+
+<h3>Install Dependencies</h3>
+
+<pre><code>for req in $(cat ./python/requirements.txt); do pip install $req; done
+</code></pre>
+
+<h3>Modify Configurations</h3>
+
+<p>!! This step is very crucial.</p>
+
+<ol>
+<li>From the <code>caffe</code> folder open "Makefile.config" with any text editor or <code>vim Makefile.config</code>.</li>
+<li>For CPU-only configuration, uncomment the line <code>CPU_ONLY := 1</code></li>
+<li><strong>Extra Importance</strong>: Check your Python paths (<code>PYTHON_INCLUDE</code> &amp; <code>PYTHON_LIB</code>)
+
+<ul>
+<li>With Anaconda: follow the instruction, uncomment all variables with Anaconda specification and comment out corresponding variables with original Python paths.</li>
+</ul>
+</li>
+<li>Read through carefully and modify configuration to suit your need!!!</li>
+</ol>
+
+
+<h3>Make Caffe</h3>
+
+<ol>
+<li><code>make clean</code></li>
+<li><code>make all</code></li>
+<li><code>make test</code></li>
+<li><code>make runtest</code>
+
+<ul>
+<li>If succeed, you should see the following output
+<img src="./runtest_output.png" alt="Alt text" /></li>
+</ul>
+</li>
+<li>To make Python interface: <code>make pycaffe</code></li>
+<li>Open Python, try to <code>import caffe</code>.</li>
+</ol>
+
+
+<p>If there is no error, congraduations! You've made it!! :)</p>
+
+<h2>Possible Errors &amp; Solutions</h2>
+
+<ul>
+<li>If the system has a package installed but not linked, use <code>brew link $package_name</code>.</li>
+<li><p>If you run into the error message "Can't find TextMate.app (error -10814)". Here are solutions:</p>
+
+<ul>
+<li>Install a textmate: <code>brew install Caskroom/cask/textmate</code></li>
+<li>Or change your enviroment editor to Vim or other existing editor. <a href="http://superuser.com/questions/741099/how-does-one-change-the-editor-that-brew-uses">Reference</a></li>
+</ul>
+</li>
+<li><p>HDF5 library version mismatched error</p>
+
+<ul>
+<li>Solution: <code>brew upgrade hdf5</code></li>
+<li>Solution with caution: <code>export HDF5_DISABLE_VERSION_CHECK=1</code></li>
+</ul>
+</li>
+<li><p>In <code>make pycaffe</code>, if runs into fatal error: numpy/arrayobject.h: No such file or directory, you need to double check whether the path <code>PYTHON_INCLUDE</code> actually contains files "Python.h" and "/numpy/arrayobject.h".</p></li>
+<li><p>In Python, when try to import caffe, if runs into "<strong>Segmentation fault: 11</strong>", it is probably due to</p>
+
+<ul>
+<li>different versions of Python (System Python and brewed Python via homebrew) are used. The error can be fixed by changing the <code>PYTHON_LIB</code> variable in "Makefile.config" to the homebrew Python library path. For instance:</li>
+</ul>
+</li>
+</ul>
+
+
+<pre><code>PYTHON_LIB := /usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/lib/
+</code></pre>
+
+<p>(Depends on your Python version)
+    - or the current Python is not the one you used for installing Caffe. Test which Python you are using by <code>which python</code>. If you install the Caffe with the homebrew Python, you can set the default python to it by <code>export PATH=/usr/local/bin:$PATH</code>.</p>
+
+<ul>
+<li><p>ImportError: No module named skimage</p>
+
+<ul>
+<li>Solutaion: <code>pip install scikit-image</code></li>
+</ul>
+</li>
+<li><p>When using functions in caffe, if runs into "TypeError: No to_python (by-value) converter found for C++ type: boost::shared_ptr&lt;caffe::Blob<float> >", this is a newly occurred problem due to the mismatch between Caffe and the latest version of Boost (1.6). To solve it, open the file /caffe/python/caffe/_caffe.cpp with an editor, insert the following line under line 257:
+<code>
+boost::python::register_ptr_to_python&lt;boost::shared_ptr&lt;Blob&lt;Dtype&gt; &gt; &gt;();
+</code></p></li>
+<li><p>And lots of other potential errors... Debugging is also kind of training.</p></li>
+<li><p>If you are more familiar with Matlab, Caffe also has Matlab interface and it can be installed in a similar fashion as Python interface by changin the configuration variables.</p></li>
+<li><p>For Windows user, Unfortunately there is only an unofficial Windows port of Caffe. Or since Caffe can be used on Ubuntu, you can install an <a href="http://www.psychocats.net/ubuntu/virtualbox">VirtualBox</a> and choose Ubuntu as the Linux distribution.</p></li>
+</ul>
+
+
+<h2>Reference</h2>
+
+<p>It is absolutely non-trivial to install Caffe. Here is a long list of references when I tried to install it.</p>
+
+<ul>
+<li><a href="http://caffe.berkeleyvision.org/install_osx.html">Official BVLC Caffe installation tutorial, written by the developer</a></li>
+<li><a href="http://hoondy.com/2015/04/03/how-to-install-caffe-on-mac-os-x-10-10-for-dummies-like-me/">How to install Caffe on Mac OS X 10.10 for dummies</a></li>
+<li><a href="https://github.com/BVLC/caffe/issues/">Caffe github issues</a></li>
+<li>https://github.com/BVLC/caffe/wiki/Installation-%28OSX%29</li>
+<li>http://christopher5106.github.io/big/data/2015/07/16/deep-learning-install-caffe-cudnn-cuda-for-digits-python-on-mac-osx.html</li>
+<li>http://installing-caffe-the-right-way.wikidot.com/start</li>
+<li>Stackoverflow</li>
+</ul>
+
+</body>
+</html>

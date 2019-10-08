@@ -65,31 +65,33 @@
 
 ### Project cycle 3: Predictive Modeling
 
-<!--- ([starter codes](Projects_StarterCodes/Project3_SuperResolution)) --->
+([starter codes](Projects_StarterCodes/Project3-PredictiveAnalytics))
 
 #### Week 6 (Oct 9/10)
 
-<!--- + [Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md) starts.
++ [Project 3](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/project3_desc.md) starts.
   + Check Piazza for your project team and GitHub join link.
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
-    + [Intro to Project 3](Projects_StarterCodes/Project3_SuperResolution/doc/project3_desc.md) 
-    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3_SuperResolution/doc/main.Rmd) --->
+    + [Intro to Project 3](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/project3_desc.md) 
+    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/main.Rmd) --->
 
 #### Week 7 (Oct 16/17)
 
-<!--- + Tutorials + Q&A
-	+ Tutorials: [Basic Image Analysis](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-ImageAnalysis/EBImage%26SIFT/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Super Resolution](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk7-SuperResolution/super_resolution.html) ([zipped folder](Tutorials/wk7-SuperResolution.zip))
-	+ [Tutorial on gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
++ Recap on project 3 requirements and starter codes. 
++ Tutorials + Q&A
+	+ Tutorials: [Basic Image Analysis](http://tzstatsads.github.io/tutorials/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf) 
+	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
-	+ Recap on project 3 requirements and starter codes. --->
-
+	
 #### Week 8 (Oct 23/24)
 
-<!--- + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html) (Example)
++ [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
+
+<!--- + [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html) (Example)--->
+
 + Project submission checklist
-+ Discussion --->
++ Discussion
 
 #### Week 9 (Oct 30/Nov 1)
 + Project 3 submission and presentations
