@@ -1,7 +1,6 @@
 ---
 title: "Basic Image Analysis"
 author: "Chengliang Tang, Yuting Ma"
-date: "October 8, 2018"
 output:
   html_document:
     df_print: paged
@@ -10,9 +9,10 @@ output:
 ## Image Analysis Tool: EBImage
 
 ```{r, eval=FALSE}
-source("http://bioconductor.org/biocLite.R")
-biocLite()
-biocLite("EBImage")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("EBImage")
 ```
 
 ## Import/Export Image
@@ -25,7 +25,8 @@ print(img)
 ```
 
 Load images from arrays of pixel values
-** Example: handwritten zipcode digits in greyscale of size $16*16$
+
+* Example: handwritten zipcode digits in greyscale of size $16*16$. `zipcode.RData` contains 1289 images, each of which is flattened into a 256-dim vector.
 ```{r}
 load("zipcode.RData")
 dat[1:5, 1:5]
@@ -33,7 +34,7 @@ dat[1:5, 1:5]
 
 
 ### Display image
-* With EBImage:display image using an interactive JavaScript viewer (shown in browser) or R's built-in graphics capabilities
+* With EBImage: display image using an interactive JavaScript viewer (shown in browser) or R's built-in graphics capabilities
 ```{r}
 display(img)
 ```
@@ -55,7 +56,7 @@ image(x=1:n_r, y=1:n_c, z=MM, axes = FALSE, xlab="", ylab="", col = grey(seq(0, 
 par(mfrow=c(1,1))
 ```
 
-* Conversion to Image object
+* Conversion to Image object 
 ```{r}
 img_zip <- Image(vec, dim=c(16, 16))
 display(img_zip)
