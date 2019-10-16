@@ -44,7 +44,7 @@ library(ggplot2)
 library(caret)
 ```
 
-### Step 0 set work directories, extract paths, summarize
+### Step 0 set work directories
 ```{r wkdir, eval=FALSE}
 set.seed(0)
 setwd("~/Project3-FacialEmotionRecognition/doc")
@@ -95,7 +95,7 @@ train_idx <- sample(info$Index, n_train, replace = F)
 test_idx <- setdiff(info$Index,train_idx)
 ```
 
-If you choose to extract features from images, such as using Gabor filter, R memory will exhaust all images are read together. The solution is to repeat reading a smaller batch(e.g 100) and process them. 
+If you choose to extract features from images, such as using Gabor filter, R memory will be exhausted if all images are read together. The solution is to repeat reading a smaller batch(e.g 100) and process them. 
 ```{r}
 n_files <- length(list.files(train_image_dir))
 
@@ -144,7 +144,7 @@ if(run.feature.train){
 }
 
 tm_feature_test <- NA
-if(run.feature.train){
+if(run.feature.test){
   tm_feature_test <- system.time(dat_test <- feature(fiducial_pt_list, test_idx))
 }
 
