@@ -1,0 +1,80 @@
+---
+title: "Functions to Generate Figure 1"
+output:
+  html_document:
+    info_print: paged
+  html_notebook: default
+  pinfo_document: default
+  word_document: default
+---
+
+```{r}
+info <- read.csv("../data/train_set/label.csv")
+load("../output/fiducial_pt_list.Rdata")
+library(readxl)
+# A function to plot histogram of distribution of pairwise distance for each emotion
+# input: emotion index, first point, second point, vertical or horizontal distance
+# output: histogram of distance distribution
+dist_histogram_by_emotion <- function(emotion_idx, pt1, pt2, vertical = T){
+    indices <- info[info$emotion_idx == emotion_idx, 'Index']
+    emotion <- as.character(info[info$emotion_idx == emotion_idx, 'emotion_cat'])[1]
+    ver.dist <- function(idx){
+        if(vertical){
+        ver.loc <- fiducial_pt_list[[idx]][,2]
+        }
+        else{
+        ver.loc <- fiducial_pt_list[[idx]][,1] 
+        }
+        pairwise_dist <- as.matrix(dist(ver.loc))
+        ver.dist <- pairwise_dist[pt1,pt2]
+    return(ver.dist)
+}
+    dist_distribution <- sapply(indices, ver.dist)
+    #jpeg(paste(c('../output/hist', emotion_idx,"_", pt1, "_", pt2, '.jpg'), collapse = ''),
+    #width = 500, height = 375)
+    hist(dist_distribution, xlab = "distance", 
+         main = paste(c(emotion, "distance between", pt1, "and", pt2),collapse = " ")) 
+    abline(v = mean(dist_distribution))
+    #dev.off()
+}
+
+# A function to generalize "dist_histogram_by_emotion" to all emotions 
+dist_histogram <- function(pt1, pt2, vertical = T){
+  lapply(1:22, dist_histogram_by_emotion, pt1, pt2, vertical)
+}
+
+#examples
+dist_histogram(50,52)
+dist_histogram(1,21)
+```
+
+```{r}
+library(EBImage)
+# a function display fiducial points on images
+# input: identity index
+# output: all images associated with the identity with fiducial points marked
+display_fid_pt <- function(identity){
+    indices <- info[info$identity == identity, 'Index']
+    emotions <- as.character(info[info$identity == identity, 'emotion_cat'])
+    image.path_sub <- paste0(train_image_dir, sprintf("%04d", indices), ".jpg")
+    Image_list_sub <- lapply(image.path_sub, EBImage::readImage)
+    fiducial_pt_list_sub <- fiducial_pt_list[indices]
+
+    display_single <- function(j){
+        #jpeg(paste(c('../output/', identity,'_', j, '.jpg'), collapse = ''), width = 500, height = 375)
+        display(Image(Image_list_sub[[j]], colormode = 'Color'), method="raster")
+        text(x = 170, y = 50, label = emotions[j], cex = 1.5)
+        add_point <- function(n){text(x = fiducial_pt_list_sub[[j]][n,1],
+                                      y = fiducial_pt_list_sub[[j]][n,2],
+                                      label = as.character(n), col = "white", cex = 0.8)}
+        lapply(1:78,add_point)
+        #dev.off() 
+}
+
+    lapply(1:length(indices), display_single) 
+}
+
+display_fid_pt(110)
+
+```
+

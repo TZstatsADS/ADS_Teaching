@@ -69,11 +69,11 @@
 
 #### Week 6 (Oct 9/10)
 
-+ [Project 3](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/project3_desc.md) starts.
++ [Project 3](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) starts.
   + Check Piazza for your project team and GitHub join link.
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
-    + [Intro to Project 3](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/project3_desc.md) 
+    + [Intro to Project 3](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) 
     + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/main.Rmd)
     
 #### Week 7 (Oct 16/17)
