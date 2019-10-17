@@ -65,7 +65,7 @@
 
 ### Project cycle 3: Predictive Modeling
 
-([starter codes](Projects_StarterCodes/Project3-PredictiveAnalytics))
+([starter codes](Projects_StarterCodes/Project3-FacialEmotionRecognition))
 
 #### Week 6 (Oct 9/10)
 
@@ -74,7 +74,7 @@
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) 
-    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-PredictiveAnalytics/doc/main.Rmd)
+    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/main.Rmd)
     
 #### Week 7 (Oct 16/17)
 
