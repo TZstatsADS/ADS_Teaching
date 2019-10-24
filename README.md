@@ -99,7 +99,7 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
 ### Project cycle 4: Algorithm implementation and evaluation
-#### Week 9 (Oct 30/Nov 1)
+#### Week 9 (Oct 30/31)
 
 <!--- + Introduction to [Project 4](Projects_StarterCodes/Project4_OCR)
 + Overview of the [reference papers](Projects_StarterCodes/Project4_OCR/doc/paper).
