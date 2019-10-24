@@ -92,7 +92,7 @@
 + Project submission checklist
 + Discussion
 
-#### Week 9 (Oct 30/Nov 1)
+#### Week 9 (Oct 30/31)
 + Project 3 submission and presentations
 
 ----
