@@ -87,7 +87,6 @@
 #### Week 8 (Oct 23/24)
 
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-
 <!--- + [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html) (Example)--->
 + Project submission checklist
 + Discussion
@@ -99,17 +98,21 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
 ### Project cycle 4: Algorithm implementation and evaluation
+([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
 #### Week 9 (Oct 30/31)
-
-<!--- + Introduction to [Project 4](Projects_StarterCodes/Project4_OCR)
-+ Overview of the [reference papers](Projects_StarterCodes/Project4_OCR/doc/paper).
-+ [Tutorials](http://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Projects_StarterCodes/Project4_OCR/doc/main.html) + Discussion --->
++ Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
 
 #### Weeks 10 (Nov 6/7)
++ Recap on project 4 requirements.
++ Overview of collaborative filtering.
++ Overview of the reference papers.
++ Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
+
 #### Weeks 11 (Nov 13/14)
++ Q&A on Algorithms
++ Team Meeting
+
 #### Weeks 12 (Nov 20/21)
-
-
 <!--- + Q&A on Algorithms
 + Team Meeting --->
 + Project 4 presentations
