@@ -85,9 +85,7 @@
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 	
 #### Week 8 (Oct 23/24)
-
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-<!--- + [Tensorflow Tutorial](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/Tensorflow_tutorial/Tensorflow_tutorial.html) + [Image Interpolation with Tensorflow](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk8-Tensorflow/image_interpolation_tutorial/Image_Interpolation_tutorial.html) (Example)--->
 + Project submission checklist
 + Discussion
 
