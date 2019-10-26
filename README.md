@@ -96,23 +96,20 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
 ### Project cycle 4: Algorithm implementation and evaluation
-([starter codes](Projects_StarterCodes/Project4_CollaborativeFiltering))
+([starter codes](Projects_StarterCodes/Project4-RecommenderSystem))
 #### Week 9 (Oct 30/31)
-+ Introduction to [Project 4](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/project4_desc.md)
++ Introduction to [Project 4](Projects_StarterCodes/Project4-RecommenderSystem/doc/project4_desc.md)
 
 #### Weeks 10 (Nov 6/7)
 + Recap on project 4 requirements.
 + Overview of collaborative filtering.
 + Overview of the reference papers.
-+ Example [*testing report*](Projects_StarterCodes/Project4_CollaborativeFiltering/doc/main.pdf).
 
 #### Weeks 11 (Nov 13/14)
 + Q&A on Algorithms
 + Team Meeting
 
 #### Weeks 12 (Nov 20/21)
-<!--- + Q&A on Algorithms
-+ Team Meeting --->
 + Project 4 presentations
 
 ----
