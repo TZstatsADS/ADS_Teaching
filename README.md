@@ -103,7 +103,7 @@
 #### Weeks 10 (Nov 6/7)
 + Recap on project 4 requirements.
 + [Overview of collaborative filtering](https://docs.google.com/presentation/d/1bA_uE5D3qnJDaf3DwZ-ZzmR641vVl32oO8pdZEbYafo/edit#slide=id.g643d58c4a4_0_11).
-+ [Overview of the reference papers]("Projects_StarterCodes/Project4-RecommenderSystem/doc/Matrix Factorization.pdf").
++ [Overview of the reference papers](Projects_StarterCodes/Project4-RecommenderSystem/doc/Matrix%20Factorization.pdf).
 
 #### Weeks 11 (Nov 13/14)
 + Q&A on Algorithms
