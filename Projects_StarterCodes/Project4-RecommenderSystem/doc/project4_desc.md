@@ -15,7 +15,7 @@ All developments need to be carried out in group-shared private repo on [https:/
 Each week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
 
 - week 1 [10/30]: Introduction and project description.
-- week 2 [11/6]:  An overview of collaborative filtering. Q&A.
+- week 2 [11/6]:  Introduction to Recommender Systems. Q&A.
 
 #### Evaluation criteria 
 
