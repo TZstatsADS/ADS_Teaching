@@ -2,7 +2,7 @@
 
 ### [Project Description](doc/project4_desc.md)
 
-Term: Fall 2019
+Term: Spring
 
 + Team #
 + Projec title: Lorem ipsum dolor sit amet
