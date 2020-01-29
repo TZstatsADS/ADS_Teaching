@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial (week 2) A: Interactive R Notebook'
+title: 'Tutorial (week 2) A: Interactive Word Cloud'
 runtime: shiny
 output:
   html_document: default
