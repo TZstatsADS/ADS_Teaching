@@ -19,3 +19,22 @@
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://github.com/TZstatsADS/fall2017-project1-duanshiqi).
 + Discussion and Q&A
+
+#### Week 3 (Feb 5)
++ Project 1 presentations.
+
+----
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
+
+### Project cycle 2: Shiny App Development
+
+([starter codes](Projects_StarterCodes/Project2-ShinyApp))
+
+#### Week 3 (Feb 5)
++ [Project 2](Projects_StarterCodes/Project2-ShinyApp) starts.
+  	+ Check Piazza for your project team and *GitHub join link*.
+  	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
+  	+ You can find in the *starter codes* 
+   		+ the project description, 
+   		+ an example **toy** shiny app 
+    	+ a short tutorial to get you started.
