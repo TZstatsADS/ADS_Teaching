@@ -38,3 +38,12 @@
    		+ the project description, 
    		+ an example **toy** shiny app 
     	+ a short tutorial to get you started.
+
+#### Week 4 (Feb 12)
+
++ [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
++ Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
++ Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/))
++ Shiny Examples from 2019 Spring (Example 1: [Online](https://yeyejiang.shinyapps.io/NYC_Taxi_Project/), [Repo](https://github.com/TZstatsADS/Spring2019-Proj2-grp11); Example 2: [Online](https://fengsu.shinyapps.io/fengsu/), [Repo](https://github.com/TZstatsADS/Spring2019-Proj2-grp10))
++ [A note on contribution](/Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
++ Discussion and Q&A
