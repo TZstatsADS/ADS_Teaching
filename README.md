@@ -47,3 +47,14 @@
 + Shiny Examples from 2019 Fall (Example 1: [Online](https://grac4ie.shinyapps.io/NYCshooting/), [Repo](https://github.com/TZstatsADS/fall2019-proj2--sec2-grp10); Example 2: [Online](https://adsproject2group8.shinyapps.io/Project/), [Repo](https://github.com/TZstatsADS/fall2019-proj2--sec2-grp8))
 + [A note on contribution](/Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
 + Discussion and Q&A
+
+#### Week 5 (Feb 19)
+
++ Feedback on project 1
++ [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
++ [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
++ [Tutorial on giving presentations](Tutorials/MakingPresentation.pdf)
++ Brainstorm on project 2
+
+#### Week 6 (Feb 26)
++ Project 2 presentations
