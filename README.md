@@ -58,3 +58,16 @@
 
 #### Week 6 (Feb 26)
 + Project 2 presentations
+
+### Project cycle 3: Predictive Modeling
+
+([starter codes](Projects_StarterCodes/Project3-FacialEmotionRecognition))
+
+#### Week 6 (Feb 26)
+
++ [Project 3](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) starts.
+  + Check Piazza for your project team and GitHub join link.
+  + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
+  + You can find in the *starter codes* 
+    + [Intro to Project 3](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) ([motivation](https://www.google.com/search?q=AI+cat+as+dog&sxsrf=ACYBGNRZNs6rZMCtrwrwPz_o0NXRQaOa6g:1571330905449&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7g8bj36PlAhUDVt8KHUHAANIQ_AUIEigB&biw=1517&bih=735#imgrc=inZcVvOGHsI6ZM))
+    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/Main.Rmd)
