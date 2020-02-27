@@ -42,7 +42,7 @@ For this project, you are to carry out a business feasibility evaluation project
 
 - week 1 : introduction and project description
 - week 2 : image processing and feature extraction
-- week 3 : supervised learning and model assessment
+- week 3-4 : supervised learning and model assessment
 - Final presentation 
 
 ##### Project learning support 
