@@ -74,7 +74,7 @@
 
 #### Week 7 (Mar 4)
 
-+ Recap on project 3 requirements and starter codes. 
++ Recap on [project 3 requirements](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-FacialEmotionRecognition/). 
 + Tutorials + Q&A
 	+ Tutorials: [Basic Image Analysis](http://tzstatsads.github.io/tutorials/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf) 
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
