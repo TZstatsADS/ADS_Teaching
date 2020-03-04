@@ -1,6 +1,6 @@
 ---
 title: "Basic Image Analysis"
-author: "Chengliang Tang, Yuting Ma"
+author: "Chengliang Tang, Yuting Ma, Diane Lu"
 output:
   html_document:
     df_print: paged
@@ -20,7 +20,7 @@ BiocManager::install("EBImage")
 Read an image file as an 3D array of doubles ranging from 0 to 1. The third dimension is the slot for the three channels: Red, Green and Blue, or RGB.
 ```{r}
 library("EBImage")
-img <- readImage("chicken.jpg")
+img <- readImage("Olaf.jpg")
 print(img)
 ```
 
@@ -152,12 +152,12 @@ display(channel(img_zip, mode='asred'))
 ### Linear Filtering
 A common preprocessing step involves cleaning up the images by removing local artifacts or noise through smoothing. An intuitive approach is to define a window of a selected size around each pixel and average the values within that neighborhood. After applying this procedure to all pixels, the new, smoothed image is obtained. Mathematically, this can be expressed as
 $$f'(x,y)=\frac{1}{N} \sum_{s=-a}^{a} \sum_{t=-a}^{a} f(x+s, y+t)  $$
-where $f'(x,y)$ is the value of the pixel at position $(x,y)$, and aa determines the window size, which is $(2a+1)$ in each direction. $N=(2a+1)^2$ is the number of pixels averaged over, and $f′$ is the new, smoothed image.
+where $f'(x,y)$ is the value of the pixel at position $(x,y)$, and aa determines the window size, which is $(2a+1)$ in each direction. $N=(2a+1)^2$ is the number of pixels averaged over, and $f'$ is the new, smoothed image.
 
 More generally, we can replace the moving average by a weighted average, using a weight function ww, which typically has the highest value at the window midpoint (s=t=0) and then decreases towards the edges.
-$$ (w∗f)(x,y)=\sum_{s=-\infty}^{+\infty}\sum_{t=-\infty}^{+\infty} w(s,t) f(x+s, y+s)$$
+$$ (w*f)(x,y)=\sum_{s=-\infty}^{+\infty}\sum_{t=-\infty}^{+\infty} w(s,t) f(x+s, y+s)$$
 
-For notational convenience, we let the summations range from $-\infty$to $\infty$, even if in practice the sums are finite and $w$ has only a finite number of non-zero values. In fact, we can think of the weight function $w$ as another image, and this operation is also called the **convolution** of the images $f$ and $w$, indicated by the the symbol $∗$. Convolution is a *linear operation* in the sense that $w∗(c_1f_1+c_2f_2)=c_1w∗f_1+c_2w∗f_2$ for any two images $f_1$, $f_2$ and numbers $c_1$, $c_2$.
+For notational convenience, we let the summations range from $-\infty$to $\infty$, even if in practice the sums are finite and $w$ has only a finite number of non-zero values. In fact, we can think of the weight function $w$ as another image, and this operation is also called the **convolution** of the images $f$ and $w$, indicated by the the symbol $*$. Convolution is a *linear operation* in the sense that $w*(c_1f_1+c_2f_2)=c_1w*f_1+c_2w*f_2$ for any two images $f_1$, $f_2$ and numbers $c_1$, $c_2$.
 
 In EBImage, the 2-dimensional convolution is implemented by the function **filter2**, and the auxiliary function **makeBrush** can be used to generate the weight function. In fact, filter2 does not directly perform the summation indicated in the equation above. Instead, it uses the Fast Fourier Transformation in a way that is mathematically equivalent but computationally more efficient.
 
