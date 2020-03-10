@@ -80,13 +80,13 @@
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 		
-#### Week 8 (Mar 11)
+#### Week 8 (Mar 11) (online)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
 + Project submission checklist
 + Discussion
 
 #### Spring Break
 
-#### Week 9 (Mar 25)
+#### Week 9 (Mar 25) (online)
 + Project 3 submission and presentations
 	
