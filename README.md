@@ -79,4 +79,14 @@
 	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-ImageAnalysis/EBImage&SIFT/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf) 
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
+		
+#### Week 8 (Mar 11)
++ [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
++ Project submission checklist
++ Discussion
+
+#### Spring Break
+
+#### Week 9 (Mar 25)
++ Project 3 submission and presentations
 	
