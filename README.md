@@ -87,6 +87,8 @@
 
 #### Spring Break
 
-#### Week 9 (Mar 25) (online)
+#### Mar 25 Class canceled
+
+#### Week 9 (Apr 1) (online)
 + Project 3 submission and presentations
 	
