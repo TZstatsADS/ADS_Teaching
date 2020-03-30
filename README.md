@@ -97,6 +97,6 @@
 
 ### Project cycle 4: Algorithm implementation and evaluation
 ([starter codes](Projects_StarterCodes/Project4-RecommenderSystem))
-#### Week 9 (Apr 1)
+#### Week 9 (Apr 1) (online)
 + Introduction to [Project 4](Projects_StarterCodes/Project4-RecommenderSystem/doc/project4_desc.md)
 + [Introduction to Recommender Systems](https://docs.google.com/presentation/d/1bA_uE5D3qnJDaf3DwZ-ZzmR641vVl32oO8pdZEbYafo/edit#slide=id.g643d58c4a4_0_11).
