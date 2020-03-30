@@ -90,7 +90,7 @@
 #### Mar 25 Class canceled
 
 #### Week 9 (Apr 1) (online)
-+ Project 3 submission and presentations
++ Project 3 submission
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
