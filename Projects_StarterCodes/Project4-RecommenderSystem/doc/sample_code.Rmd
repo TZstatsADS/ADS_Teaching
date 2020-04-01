@@ -88,6 +88,26 @@ rmse$epoch <- as.numeric(gsub("X", "", rmse$epoch))
 rmse %>% ggplot(aes(x = epoch, y = RMSE, col = train_test)) + geom_point() + facet_grid(~par)
 ```
 
+#### Step 2.3 Evaluation on the Model without Postprocessing
+```{r, eval= FALSE}
+result <- gradesc(f = 10, lambda = 0.1,lrate = 0.01, max.iter = 100, stopping.deriv = 0.01,
+                   data = data, train = data_train, test = data_test)
+
+save(result, file = "../output/mat_fac.RData")
+```
+
+You should visualize training and testing RMSE by different epochs ([One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)). 
+
+```{r}
+load(file = "../output/mat_fac.RData")
+library(ggplot2)
+
+RMSE <- data.frame(epochs = seq(10, 100, 10), Training_MSE = result$train_RMSE, Test_MSE = result$test_RMSE) %>% gather(key = train_or_test, value = RMSE, -epochs)
+
+RMSE %>% ggplot(aes(x = epochs, y = RMSE,col = train_or_test)) + geom_point() + scale_x_discrete(limits = seq(10, 100, 10)) + xlim(c(0, 100))
+
+```
+
 ### Step 3 Postprocessing
 After matrix factorization, postporcessing will be performed to improve accuracy.
 The referenced papers are:
@@ -100,16 +120,8 @@ P3:[Postprocessing SVD with kernel ridge regression](./paper/P2 Improving regula
 
 P4:[Linearly combination of predictors](./paper/P4 Large-scale Parallel Collaborative Filtering for the Netflix Prize.pdf) Section 4.1
 
-```{r, eval= FALSE}
-result <- gradesc(f = 10, lambda = 0.1,lrate = 0.01, max.iter = 100, stopping.deriv = 0.01,
-                   data = data, train = data_train, test = data_test)
-
-save(result, file = "../output/mat_fac.RData")
-```
 
 ```{r}
-load(file = "../output/mat_fac.RData")
-
 pred_rating <- t(result$q) %*% result$p
 #define a function to extract the corresponding predictedrating for the test set.
 extract_pred_rating <- function(test_set, pred){
@@ -136,16 +148,4 @@ rmse_adj <- sqrt(mean((data_test$rating - data_test$pred_adj)^2))
 cat("The RMSE of the adjusted model is", rmse_adj)
 ```
 
-
-
-### Step 4 Evaluation
-You should visualize training and testing RMSE by different epochs ([One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)). 
-
-```{r}
-library(ggplot2)
-
-RMSE <- data.frame(epochs = seq(10, 100, 10), Training_MSE = result$train_RMSE, Test_MSE = result$test_RMSE) %>% gather(key = train_or_test, value = RMSE, -epochs)
-
-RMSE %>% ggplot(aes(x = epochs, y = RMSE,col = train_or_test)) + geom_point() + scale_x_discrete(limits = seq(10, 100, 10)) + xlim(c(0, 100))
-
-```
+Depending on your postprocessing method, you might want to cross-validate on some parameters related to the postprocessing. Don't forget to visualize the cross-validation process through graphs.
