@@ -20,9 +20,9 @@ All developments need to be carried out in group-shared private repo on [https:/
 
 Each week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
 
-- week 1 [Mar 25]: Introduction and project description.
-- week 2 [Apr 1]:  Introduction to Recommender Systems; Starter codes; Q&A.
-- week 3 [Apr 8]: Discussion of assigned algorithms.
+- week 1 [Apr 1]: Introduction and project description.
+- week 2 [Apr 8]: Introduction to Recommender Systems; Starter codes; Q&A.
+- week 3 [Apr 15]: Discussion of assigned algorithms.
 
 #### Evaluation criteria 
 
