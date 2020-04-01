@@ -139,7 +139,7 @@ cat("The RMSE of the adjusted model is", rmse_adj)
 
 
 ### Step 4 Evaluation
-You should visualize training and testing RMSE by different dimension of factors and epochs ([One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)). 
+You should visualize training and testing RMSE by different epochs ([One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)). 
 
 ```{r}
 library(ggplot2)
