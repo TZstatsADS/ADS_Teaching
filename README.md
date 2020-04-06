@@ -105,4 +105,4 @@
 + Recap on project 4 requirements.
 + Overview of the [starter codes](Projects_StarterCodes/Project4-RecommenderSystem)
 + [Overview of the reference papers](Projects_StarterCodes/Project4-RecommenderSystem/doc/Matrix%20Factorization.pdf).
-+ Method assignment for each group(Projects_StarterCodes/Project4-RecommenderSystem/doc/Proj4_pairings_2020_Spring.pdf).
++ [Method assignment](Projects_StarterCodes/Project4-RecommenderSystem/doc/Proj4_pairings_2020_Spring.pdf).
