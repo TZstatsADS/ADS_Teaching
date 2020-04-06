@@ -104,4 +104,5 @@
 #### Weeks 10 (Apr 8)(online)
 + Recap on project 4 requirements.
 + Overview of the [starter codes](Projects_StarterCodes/Project4-RecommenderSystem)
-+ [Overview of the reference papers]().
++ [Overview of the reference papers](Projects_StarterCodes/Project4-RecommenderSystem/doc/Matrix%20Factorization.pdf).
++ Group assignment is on piazza.
