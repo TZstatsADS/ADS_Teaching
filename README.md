@@ -106,3 +106,6 @@
 + Overview of the [starter codes](Projects_StarterCodes/Project4-RecommenderSystem)
 + [Overview of the reference papers](Projects_StarterCodes/Project4-RecommenderSystem/doc/Matrix%20Factorization.pdf).
 + [Method assignment](Projects_StarterCodes/Project4-RecommenderSystem/doc/Proj4_pairings_2020_Spring.pdf).
+
+#### Weeks 11 (Apr 15)(No live session)
++ Team Meeting
