@@ -26,8 +26,8 @@ cv.function <- function(dat_train, K, f, lambda){
                    lrate = 0.01, max.iter = 100, stopping.deriv = 0.01,
                                data = dat_train, train = train.data, test = test.data)
   
-    train_rmse[i,] <-  result$train_rmse
-    test_rmse[i,] <-   result$test_rmse
+    train_rmse[i,] <-  result$train_RMSE
+    test_rmse[i,] <-   result$test_RMSE
     
   }		
   return(list(mean_train_rmse = apply(train_rmse, 2, mean), mean_test_rmse = apply(test_rmse, 2, mean),
