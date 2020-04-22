@@ -109,3 +109,7 @@
 
 #### Weeks 11 (Apr 15)(No live session)
 + Team Meeting
+
+#### Weeks 12 (Apr 22) (online, last class)
++ [Project 3 Summary][Section 1](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/project3_summary.html)
+
