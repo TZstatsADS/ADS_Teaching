@@ -51,8 +51,7 @@
 #### Week 5 (Feb 19)
 
 + Feedback on project 1
-+ [Tutorial on SQL in R](https://html
-.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/9-Spring2020/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](Tutorials/wk5-sql.zip))
++ [Tutorial on SQL in R](https://html.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/9-Spring2020/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](Tutorials/wk5-sql.zip))
 + [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/9-Spring2020/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
 + [Tutorial on giving presentations](Tutorials/MakingPresentation.pdf)
 + Brainstorm on project 2
