@@ -51,8 +51,9 @@
 #### Week 5 (Feb 19)
 
 + Feedback on project 1
-+ [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
-+ [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
++ [Tutorial on SQL in R](https://html
+.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/9-Spring2020/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](Tutorials/wk5-sql.zip))
++ [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/9-Spring2020/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
 + [Tutorial on giving presentations](Tutorials/MakingPresentation.pdf)
 + Brainstorm on project 2
 
@@ -76,7 +77,7 @@
 
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-FacialEmotionRecognition/). 
 + Tutorials + Q&A
-	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-ImageAnalysis/EBImage&SIFT/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf) 
+	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/9-Spring2020/Tutorials/wk7-ImageAnalysis/EBImage&SIFT/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf) 
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 		
@@ -111,5 +112,5 @@
 + Team Meeting
 
 #### Weeks 12 (Apr 22) (online, last class)
-+ [Project 3 Summary](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/project3_summary.html)
++ [Project 3 Summary](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/9-Spring2020/Tutorials/project3_summary.html)
 
