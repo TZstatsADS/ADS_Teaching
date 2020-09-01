@@ -24,6 +24,8 @@
 #### Week 3 (Sep 18/19)
 + Project 1 presentations.
 
+[Finished student projects](https://github.com/TZstatsADS?q=Fall2019-Proj1&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -60,6 +62,8 @@
 #### Week 6 (Oct 9/10)
 + Project 2 presentations
 
+[Finished student projects](https://github.com/TZstatsADS?q=Fall2019-Proj2&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -92,6 +96,8 @@
 #### Week 9 (Oct 30/31)
 + Project 3 submission and presentations
 
+[Finished student projects](https://github.com/TZstatsADS?q=Fall2019-Proj3&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
@@ -114,6 +120,8 @@
 + Project 4 presentations
 + Project 3 Summary <!--([Section 1](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk12-project3summary-sec1/wk13-project3_summary-sec1.html), [Section 2](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/sec2_project3_summary.html))-->
 
+[Finished student projects](https://github.com/TZstatsADS?q=Fall2019-Project4&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -131,5 +139,6 @@
 
 <!--- + [Project 3 summary](https://cdn.rawgit.com/TZstatsADS/ADS_Teaching/master/Tutorials/wk12-project3summary/wk13-project3_summary-sec1.nb.html)
 + Project 5 discussions --->
+[Finished student projects](https://github.com/TZstatsADS?q=Fall2019-Project5&type=&language=) 
 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
