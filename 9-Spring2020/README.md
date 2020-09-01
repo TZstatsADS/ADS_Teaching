@@ -23,6 +23,8 @@
 #### Week 3 (Feb 5)
 + Project 1 presentations.
 
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2020-project1&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -59,6 +61,9 @@
 #### Week 6 (Feb 26)
 + Project 2 presentations
 
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2020-project2&type=&language=) 
+
+----
 ### Project cycle 3: Predictive Modeling
 
 ([starter codes](Projects_StarterCodes/Project3-FacialEmotionRecognition))
@@ -92,6 +97,8 @@
 #### Week 9 (Apr 1) (online)
 + Project 3 submission
 
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2020-project3&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
@@ -113,3 +120,20 @@
 #### Weeks 12 (Apr 22) (online, last class)
 + [Project 3 Summary](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/9-Spring2020/Tutorials/project3_summary.html)
 
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2020-project4&type=&language=) 
+
+----
+
+### Project cycle 5: 
+
+#### Week 13 (Apr 29)(No live session)
+
++ Team Meeting
+
+#### Week 14 (May 6)(No live session)
+
++ Project 5 submission
+
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2020-project5&type=&language=) 
+
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
