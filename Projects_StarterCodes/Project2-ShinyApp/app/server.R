@@ -1,168 +1,153 @@
-library(shiny)
-library(choroplethr)
-library(choroplethrZip)
+#
+# This is the server logic of a Shiny web application. You can run the
+# application by clicking 'Run App' above.
+#
+# Find out more about building applications with Shiny here:
+#
+#    http://shiny.rstudio.com/
+#
+#-------------------------------------------------App Server----------------------------------
+library(viridis)
 library(dplyr)
-library(leaflet)
-library(maps)
+library(tibble)
+library(tidyverse)
+library(shinythemes)
+library(sf)
+library(RCurl)
+library(tmap)
 library(rgdal)
-
-## Define Manhattan's neighborhood
-man.nbhd=c("all neighborhoods", "Central Harlem", 
-           "Chelsea and Clinton",
-           "East Harlem", 
-           "Gramercy Park and Murray Hill",
-           "Greenwich Village and Soho", 
-           "Lower Manhattan",
-           "Lower East Side", 
-           "Upper East Side", 
-           "Upper West Side",
-           "Inwood and Washington Heights")
-zip.nbhd=as.list(1:length(man.nbhd))
-zip.nbhd[[1]]=as.character(c(10026, 10027, 10030, 10037, 10039))
-zip.nbhd[[2]]=as.character(c(10001, 10011, 10018, 10019, 10020))
-zip.nbhd[[3]]=as.character(c(10036, 10029, 10035))
-zip.nbhd[[4]]=as.character(c(10010, 10016, 10017, 10022))
-zip.nbhd[[5]]=as.character(c(10012, 10013, 10014))
-zip.nbhd[[6]]=as.character(c(10004, 10005, 10006, 10007, 10038, 10280))
-zip.nbhd[[7]]=as.character(c(10002, 10003, 10009))
-zip.nbhd[[8]]=as.character(c(10021, 10028, 10044, 10065, 10075, 10128))
-zip.nbhd[[9]]=as.character(c(10023, 10024, 10025))
-zip.nbhd[[10]]=as.character(c(10031, 10032, 10033, 10034, 10040))
-
-## Load housing data
-load("../output/count.RData")
-load("../output/mh2009use.RData")
-
-# Define server logic required to draw a histogram
+library(leaflet)
+library(shiny)
+library(shinythemes)
+library(plotly)
+library(ggplot2)
+#can run RData directly to get the necessary date for the app
+#global.r will enable us to get new data everyday
+#update data with automated script
+source("global.R") 
+#load('./output/covid-19.RData')
 shinyServer(function(input, output) {
-  
-  ## Neighborhood name
-  output$text = renderText({"Selected:"})
-  output$text1 = renderText({
-      paste("{ ", man.nbhd[as.numeric(input$nbhd)+1], " }")
-  })
-  
-  ## Panel 1: summary plots of time trends, 
-  ##          unit price and full price of sales. 
-  
-  output$distPlot <- renderPlot({
-    
-    ## First filter data for selected neighborhood
-    mh2009.sel=mh2009.use
-    if(input$nbhd>0){
-      mh2009.sel=mh2009.use%>%
-                  filter(region %in% zip.nbhd[[as.numeric(input$nbhd)]])
+#----------------------------------------
+#tab panel 1 - Home Plots
+#preapare data for plot
+output$case_overtime <- renderPlotly({
+    #determin the row index for subset
+    req(input$log_scale)
+    end_date_index <- which(date_choices == input$date)
+    #if log scale is not enabled, we will just use cases
+    if (input$log_scale == FALSE) {
+        #render plotly figure
+        case_fig <- plot_ly()
+        #add comfirmed case lines
+        case_fig <- case_fig %>% add_lines(x = ~date_choices[1:end_date_index], 
+                             y = ~as.numeric(aggre_cases[input$country,])[1:end_date_index],
+                             line = list(color = 'rgba(67,67,67,1)', width = 2),
+                             name = 'Confirmed Cases')
+        #add death line 
+        case_fig <- case_fig %>% add_lines(x = ~date_choices[1:end_date_index],
+                               y = ~as.numeric(aggre_death[input$country,])[1:end_date_index],
+                               name = 'Death Toll')
+        #set the axis for the plot
+        case_fig <- case_fig %>% 
+            layout(title = paste0(input$country,'\t','Trend'),
+                   xaxis = list(title = 'Date',showgrid = FALSE), 
+                   yaxis = list(title = 'Comfirmed Cases/Deaths',showgrid=FALSE)
+                   )
+        }
+    #if enable log scale, we need to take log of the y values
+    else{
+        #render plotly figure
+        case_fig <- plot_ly()
+        #add comfirmed case lines
+        case_fig <- case_fig %>% add_lines(x = ~date_choices[1:end_date_index], 
+                                           y = ~log(as.numeric(aggre_cases[input$country,])[1:end_date_index]),
+                                           line = list(color = 'rgba(67,67,67,1)', width = 2),
+                                           name = 'Confirmed Cases')
+        #add death line 
+        case_fig <- case_fig %>% add_lines(x = ~date_choices[1:end_date_index],
+                                           y = ~log(as.numeric(aggre_death[input$country,])[1:end_date_index]),
+                                           name = 'Death Toll')
+        #set the axis for the plot
+        case_fig <- case_fig %>% 
+            layout(title = paste0(input$country,'<br>','\t','Trends'),
+                   xaxis = list(title = 'Date',showgrid = FALSE), 
+                   yaxis = list(title = 'Comfirmed Cases/Deaths(Log Scale)',showgrid=FALSE)
+            )
     }
+    return(case_fig)
+        })
+#----------------------------------------
+#tab panel 2 - Maps
+data_countries <- reactive({
+    if(!is.null(input$choices)){
+        if(input$choices == "Cases"){
+            return(aggre_cases_copy)
+            
+        }else{
+            return(aggre_death_copy)
+        }}
+})
+
+#get the largest number of count for better color assignment
+maxTotal<- reactive(max(data_countries()%>%select_if(is.numeric), na.rm = T))    
+#color palette
+pal <- reactive(colorNumeric(c("#FFFFFFFF" ,rev(inferno(256))), domain = c(0,log(binning(maxTotal())))))    
     
-    ## Monthly counts
-    month.v=as.vector(table(mh2009.sel$sale.month))
-    
-    ## Price: unit (per sq. ft.) and full
-    type.price=data.frame(bldg.type=c("10", "13", "25", "28"))
-    type.price.sel=mh2009.sel%>%
-                group_by(bldg.type)%>%
-                summarise(
-                  price.mean=mean(sale.price, na.rm=T),
-                  price.median=median(sale.price, na.rm=T),
-                  unit.mean=mean(unit.price, na.rm=T),
-                  unit.median=median(unit.price, na.rm=T),
-                  sale.n=n()
-                )
-    type.price=left_join(type.price, type.price.sel, by="bldg.type")
-    
-    ## Making the plots
-    layout(matrix(c(1,1,1,1,2,2,3,3,2,2,3,3), 3, 4, byrow=T))
-    par(cex.axis=1.3, cex.lab=1.5, 
-        font.axis=2, font.lab=2, col.axis="dark gray", bty="n")
-    
-    ### Sales monthly counts
-    plot(1:12, month.v, xlab="Months", ylab="Total sales", 
-         type="b", pch=21, col="black", bg="red", 
-         cex=2, lwd=2, ylim=c(0, max(month.v,na.rm=T)*1.05))
-    
-    ### Price per square foot
-    plot(c(0, max(type.price[,c(4,5)], na.rm=T)), 
-         c(0,5), 
-         xlab="Price per square foot", ylab="", 
-         bty="l", type="n")
-    text(rep(0, 4), 1:4+0.5, paste(c("coops", "condos", "luxury hotels", "comm. condos"), 
-                                  type.price$sale.n, sep=": "), adj=0, cex=1.5)
-    points(type.price$unit.mean, 1:nrow(type.price), pch=16, col=2, cex=2)
-    points(type.price$unit.median, 1:nrow(type.price),  pch=16, col=4, cex=2)
-    segments(type.price$unit.mean, 1:nrow(type.price), 
-              type.price$unit.median, 1:nrow(type.price),
-             lwd=2)    
-    
-    ### full price
-    plot(c(0, max(type.price[,-1], na.rm=T)), 
-         c(0,5), 
-         xlab="Sales Price", ylab="", 
-         bty="l", type="n")
-    text(rep(0, 4), 1:4+0.5, paste(c("coops", "condos", "luxury hotels", "comm. condos"), 
-                                   type.price$sale.n, sep=": "), adj=0, cex=1.5)
-    points(type.price$price.mean, 1:nrow(type.price), pch=16, col=2, cex=2)
-    points(type.price$price.median, 1:nrow(type.price),  pch=16, col=4, cex=2)
-    segments(type.price$price.mean, 1:nrow(type.price), 
-             type.price$price.median, 1:nrow(type.price),
-             lwd=2)    
-  })
-  
-  ## Panel 2: map of sales distribution
-  output$distPlot1 <- renderPlot({
-    count.df.sel=count.df
-    if(input$nbhd>0){
-      count.df.sel=count.df%>%
-        filter(region %in% zip.nbhd[[as.numeric(input$nbhd)]])
+output$map <- renderLeaflet({
+    map <-  leaflet(countries) %>%
+        addProviderTiles("Stadia.Outdoors", options = providerTileOptions(noWrap = TRUE)) %>%
+        setView(0, 30, zoom = 3) })
+
+
+observe({
+    if(!is.null(input$date_map)){
+        select_date <- format.Date(input$date_map,'%Y-%m-%d')
     }
-    # make the map for selected neighhoods
-    
-    zip_choropleth(count.df.sel,
-                   title       = "2009 Manhattan housing sales",
-                   legend      = "Number of sales",
-                   county_zoom = 36061)
-  })
-  
-  ## Panel 3: leaflet
-  output$map <- renderLeaflet({
-    count.df.sel=count.df
-    if(input$nbhd>0){
-      count.df.sel=count.df%>%
-        filter(region %in% zip.nbhd[[as.numeric(input$nbhd)]])
-    }
-    
-    # From https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u/data
-    NYCzipcodes <- readOGR("../data/ZIP_CODE_040114.shp",
-                           #layer = "ZIP_CODE", 
-                           verbose = FALSE)
-    
-    selZip <- subset(NYCzipcodes, NYCzipcodes$ZIPCODE %in% count.df.sel$region)
-    
-    # ----- Transform to EPSG 4326 - WGS84 (required)
-    subdat<-spTransform(selZip, CRS("+init=epsg:4326"))
-    
-    # ----- save the data slot
-    subdat_data=subdat@data[,c("ZIPCODE", "POPULATION")]
-    subdat.rownames=rownames(subdat_data)
-    subdat_data=
-      subdat_data%>%left_join(count.df, by=c("ZIPCODE" = "region"))
-    rownames(subdat_data)=subdat.rownames
-    
-    # ----- to write to geojson we need a SpatialPolygonsDataFrame
-    subdat<-SpatialPolygonsDataFrame(subdat, data=subdat_data)
-    
-    # ----- set uo color pallette https://rstudio.github.io/leaflet/colors.html
-    # Create a continuous palette function
-    pal <- colorNumeric(
-      palette = "Blues",
-      domain = subdat$POPULATION
-    )
-    
-    leaflet(subdat) %>%
-      addTiles()%>%
-      addPolygons(
-        stroke = T, weight=1,
-        fillOpacity = 0.6,
-        color = ~pal(POPULATION)
-      )
-  })
+    if(input$choices == "Cases"){
+        #merge the spatial dataframe and cases dataframe
+        aggre_cases_join <- merge(countries,
+                                  data_countries(),
+                                  by.x = 'NAME',
+                                  by.y = 'country_names',sort = FALSE)
+        #pop up for polygons
+        country_popup <- paste0("<strong>Country: </strong>",
+                                aggre_cases_join$NAME,
+                                "<br><strong>",
+                                "Total Cases: ",
+                                aggre_cases_join[[select_date]],
+                                "<br><strong>")
+        leafletProxy("map", data = aggre_cases_join)%>%
+            addPolygons(fillColor = pal()(log((aggre_cases_join[[select_date]])+1)),
+                        layerId = ~NAME,
+                        fillOpacity = 1,
+                        color = "#BDBDC3",
+                        weight = 1,
+                        popup = country_popup) 
+    } else {
+        #join the two dfs together
+        aggre_death_join<- merge(countries,
+                                 data_countries(),
+                                 by.x = 'NAME',
+                                 by.y = 'country_names',
+                                 sort = FALSE)
+        #pop up for polygons
+        country_popup <- paste0("<strong>Country: </strong>",
+                                aggre_death_join$NAME,
+                                "<br><strong>",
+                                "Total Deaths: ",
+                                aggre_death_join[[select_date]],
+                                "<br><strong>")
+        
+        leafletProxy("map", data = aggre_death_join)%>%
+            addPolygons(fillColor = pal()(log((aggre_death_join[[select_date]])+1)),
+                        layerId = ~NAME,
+                        fillOpacity = 1,
+                        color = "#BDBDC3",
+                        weight = 1,
+                        popup = country_popup)
+        
+        }
+    })
+
+
 })

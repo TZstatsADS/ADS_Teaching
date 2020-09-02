@@ -1,39 +1,12 @@
-### GR5243/GU4243 Spring 2020 Applied Data Science
+### GR5243/GU4243 Fall 2020 Applied Data Science
 ### Project 2 Shiny App Development
-### --- App Development for under-explored data
+### --- App Development for under-explored topic on COVID-19 data
 
 In this project, working in teams, you will create a `R` shiny app for exploring and visualizing a previously *under-explored* topic about New York City or United States using [NYC Open Data](https://opendata.cityofnewyork.us/) or [data.gov](https://www.data.gov/). 
 
 ### Challenge
 
-For this project, we invite you to browse hundreds of thousands data sets from New York City's [Open Data](https://opendata.cityofnewyork.us/) or from [data.gov](https://www.data.gov/) about United States. Your team should choose a topic that interests you. Your **challenge** is develop a shiny app for a previously under-explored topic/dataset. A number of web applications using open data from data.gov can be found at <https://www.data.gov/applications>. 
-
-The following topics/datasets are **excluded** as they have been over-analyzed by ADS students.
-
-+ College Board
-+ Hospital Score
-+ NYC/311 complaints
-+ NYC/Transportation (such as traffic accidents, taxi, citi bike, etc)
-+ Electric cars
-+ WIFI hotspots
-+ Airlines
-
-Here are a few **suggested** topics but you should feel free not to use any of these. 
-
-+ Forest fires
-+ Wind
-+ Plastics
-+ Waste
-+ Rain
-+ Capital budget/government spending
-+ Visa/Immigration
-+ Retail
-+ Election
-+ Broadband
-+ Arctic
-+ Dogs
-
-An interesting new topic that is not on the "suggested" list will receive one bonus point. 
+For this project, we invite you to explore COVID-19 data sets from [JHU CSSE Covid-19 Data](https://github.com/CSSEGISandData/COVID-19) or NYC Health open data released on the [NYC Coronavirus Disease 2019 Data](https://github.com/nychealth/coronavirus-data) website. Your team should choose a topic that interests you. Your **challenge** is develop a shiny app for a previously under-explored topic. 
 
 For presentation, the team should present their **shiny app** as a *product demo*, supported by interesting findings that are visualized by this app. Teams can also share technical challenges and their creative solutions. All shiny apps are required to be deployed (either on <http://www.shinyapps.io/> or your own Shiny server).
 
@@ -125,7 +98,9 @@ Examples
 - [postGIS](http://rpubs.com/dgolicher/6373) process and visualize spatial data
 - [leaflet](https://rstudio.github.io/leaflet/shiny.html) interactive spatial visualization.
 - [Geo Visualization using ggplot and ggmap](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf)
-- [Build your own Shiny server on AWS](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/) [[Amazon Machine Image](http://www.louisaslett.com/RStudio_AMI/)]
+- [Build your own Shiny server on AWS](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/)
+- [Amazon Machine Image](http://www.louisaslett.com/RStudio_AMI/)]
+- [Geocomputation with R](https://bookdown.org/robinlovelace/geocompr/)
 
 #### Paper to read
 <ul>
