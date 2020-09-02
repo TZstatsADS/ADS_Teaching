@@ -1,16 +1,13 @@
 ---
-title: ''
+title: 'Tutorial for R Markdown and R Notebook'
 output:
   html_document:
     toc: true
-    toc_float: 
-      collapsed: false
     toc_depth: 4
   html_notebook: default
   pdf_document: default
   word_document: default
 ---
-## Tutorial for R Markdown and R Notebook
 
 In this presentation, we will give a brief introduction on [R Markdown](http://rmarkdown.rstudio.com)  and [R Notebooks](http://rmarkdown.rstudio.com/r_notebooks.html).
 
@@ -48,7 +45,7 @@ If you prefer to render in "Viewer" Panel instead of a pop-up window. Click on t
 
 #### Table of Content
 
-You might want to include a table of content (TOC) for your report. In fact, a *floating* table of contents would be especially helpful to the reader when you report becomes lengthy. Below is the codes for the TOC that you're seeing on this html. More settings for TOC are mentioned  [here](https://bookdown.org/yihui/rmarkdown/html-document.html#table-of-contents).
+You might want to include a table of content (TOC) for your report. In fact, a *floating* table of contents would be especially helpful to the reader when you report becomes lengthy. Below are the arguments for the TOC that you're seeing at the beginning of this tutorial. More settings for TOC are mentioned  [here](https://bookdown.org/yihui/rmarkdown/html-document.html#table-of-contents).
 
 ```{r, eval=FALSE}
 ---
@@ -56,8 +53,6 @@ title: 'Example for TOC'
 output:
   html_document:
     toc: true
-    toc_float: 
-      collapsed: false
     toc_depth: 4
 ---
 ```
