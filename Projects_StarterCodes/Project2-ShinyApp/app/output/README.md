@@ -1,4 +1,4 @@
-# Project 2: Shiny App Development Version 3.0
+# Project 2: Shiny App Development
 
 ### Output folder
 
