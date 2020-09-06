@@ -151,6 +151,10 @@
 -->
 #### Week 13 (Dec 9)
 <!--
++ Project 5 discussions
+-->
+#### Week 14 (Dec 16)
+<!--
 + Project 5 presentations
 -->
 
