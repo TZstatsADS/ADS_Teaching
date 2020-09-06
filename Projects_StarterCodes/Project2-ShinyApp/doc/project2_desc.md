@@ -2,7 +2,7 @@
 ### Project 2 Shiny App Development
 ### --- App Development for under-explored topic on COVID-19 data
 
-In this project, working in teams, you will create a `R` shiny app for exploring and visualizing a previously *under-explored* topic about New York City or United States using [NYC Open Data](https://opendata.cityofnewyork.us/) or [data.gov](https://www.data.gov/). 
+In this project, working in teams, you will create a `R` shiny app for exploring and visualizing a previously *under-explored* topic about COVID-19 in New York City or United States using [NYC Coronavirus Disease 2019 Data](https://github.com/nychealth/coronavirus-data) or [JHU CSSE Covid-19 Data](https://github.com/CSSEGISandData/COVID-19). 
 
 ### Challenge
 
