@@ -1,39 +1,12 @@
-### GR5243/GU4243 Fall 2019 Applied Data Science
+### GR5243/GU4243 Fall 2020 Applied Data Science
 ### Project 2 Shiny App Development
-### --- App Development for under-explored data
+### --- App Development for under-explored topic on COVID-19 data
 
-In this project, working in teams, you will create a `R` shiny app for exploring and visualizing a previously *under-explored* topic about New York City or United States using [NYC Open Data](https://opendata.cityofnewyork.us/) or [data.gov](https://www.data.gov/). 
+In this project, working in teams, you will create a `R` shiny app for exploring and visualizing a previously *under-explored* topic about COVID-19 in New York City or United States using [NYC Coronavirus Disease 2019 Data](https://github.com/nychealth/coronavirus-data) or [JHU CSSE Covid-19 Data](https://github.com/CSSEGISandData/COVID-19). 
 
 ### Challenge
 
-For this project, we invite you to browse hundreds of thousands data sets from New York City's [Open Data](https://opendata.cityofnewyork.us/) or from [data.gov](https://www.data.gov/) about United States. Your team should choose a topic that interests you. Your **challenge** is develop a shiny app for a previously under-explored topic/dataset. A number of web applications using open data from data.gov can be found at <https://www.data.gov/applications>. 
-
-The following topics/datasets are **excluded** as they have been over-analyzed by ADS students.
-
-+ College Board
-+ Hospital Score
-+ NYC/311 complaints
-+ NYC/Transportation (such as traffic accidents, taxi, citi bike, etc)
-+ Electric cars
-+ WIFI hotspots
-+ Airlines
-
-Here are a few **suggested** topics but you should feel free not to use any of these. 
-
-+ Forest fires
-+ Wind
-+ Plastics
-+ Waste
-+ Rain
-+ Capital budget/government spending
-+ Visa/Immigration
-+ Retail
-+ Election
-+ Broadband
-+ Arctic
-+ Dogs
-
-An interesting new topic that is not on the "suggested" list will receive one bonus point. 
+For this project, we invite you to explore COVID-19 data sets from [JHU CSSE Covid-19 Data](https://github.com/CSSEGISandData/COVID-19) or NYC Health open data released on the [NYC Coronavirus Disease 2019 Data](https://github.com/nychealth/coronavirus-data) website. Your team should choose a topic that interests you. Your **challenge** is develop a shiny app for a previously under-explored topic. 
 
 For presentation, the team should present their **shiny app** as a *product demo*, supported by interesting findings that are visualized by this app. Teams can also share technical challenges and their creative solutions. All shiny apps are required to be deployed (either on <http://www.shinyapps.io/> or your own Shiny server).
 
@@ -64,17 +37,17 @@ Each week, we will give a tutorial in class and having live discussion and brain
 
 ### Suggested team workflow
 1. [wk1] Week 1 is the **studying & planning** week. Study previous apps done by ADS students, read project description, data description, browse data and brainstorm for ideas.
-2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments, either in piazza or as issues on GitHub by September 24/25. 
+2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments, either in piazza or as issues on GitHub before week 2. 
 3. [wk1] As a team, study interesting data sets and previous ADS apps together (not necessarily face-to-face). During the discussion, discuss a number of key analyses/functionalities carefully and discuss possible design ideas.
      * "What information is of value or interesting?"
      * "Which analysis/visualization is particularly informative?" 
      * Good visualizations do not just look cool. They should be easy to understand and give the correct impression about data. 
 4. [wk2] Based on outcomes from week 1 brainstorm sessions, identify additional data processing and modeling needed (start early on this one!)
 6. [wk2] Week 2 is the **design and development** week. Start learning and using the shiny library to do simple things. Some team members may know more about shiny than others. Share and learn together. 
-7. [wk2] It is ok to have 2-3 leads to explore at the beginning of week 2 but it is better to converge on a single direction by the end of week 2 (Oct 2/3).
+7. [wk2] It is ok to have 2-3 leads to explore at the beginning of week 2 but it is better to converge on a single direction by the end of week 2.
 8. [wk2] Construction of shiny platform can start early using fake/simulated data. 
-9. [wk3] Week 3 is the shiny app **implementation/production/testing** week. By Oct 2/3 (the beginning of week 3), you should have all necessary data processing done and a project idea. 
-10. [wk3] By Oct 2/3, You should layout a to-do list (as a 2nd set of GitHub issues) for the app production and divide up tasks. At the class session on Oct 2/3, team members should work together and resolve any ambiguity about which team member should be doing what for the final stage of production of the app. 
+9. [wk3] Week 3 is the shiny app **implementation/production/testing** week. By the beginning of week 3, you should have all necessary data processing done and a project idea. 
+10. [wk3] By the beginning of week 3, You should layout a to-do list (as a 2nd set of GitHub issues) for the app production and divide up tasks. At the class session on week 3, team members should work together and resolve any ambiguity about which team member should be doing what for the final stage of production of the app. 
 
 ### Working together
 - Setup a GitHub project folder from joining the GitHub classroom link with everyone listed as contributors. Everyone clones the project locally via your GitHub desktop and create a local branch. 
@@ -125,7 +98,9 @@ Examples
 - [postGIS](http://rpubs.com/dgolicher/6373) process and visualize spatial data
 - [leaflet](https://rstudio.github.io/leaflet/shiny.html) interactive spatial visualization.
 - [Geo Visualization using ggplot and ggmap](https://journal.r-project.org/archive/2013-1/kahle-wickham.pdf)
-- [Build your own Shiny server on AWS](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/) [[Amazon Machine Image](http://www.louisaslett.com/RStudio_AMI/)]
+- [Build your own Shiny server on AWS](https://www.r-bloggers.com/installing-rstudio-shiny-server-on-aws/)
+- [Amazon Machine Image](http://www.louisaslett.com/RStudio_AMI/)]
+- [Geocomputation with R](https://bookdown.org/robinlovelace/geocompr/)
 
 #### Paper to read
 <ul>

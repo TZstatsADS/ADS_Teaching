@@ -20,6 +20,8 @@
 + Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://github.com/TZstatsADS/fall2017-project1-duanshiqi).
 + Discussion and Q&A
 
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2019-Proj1&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -51,6 +53,8 @@
 
 #### Week 6 (Feb 27)
 + Project 2 presentations
+
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2019-Proj2&type=&language=) 
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
@@ -84,6 +88,8 @@
 #### Week 9 (Mar 27)
 + Project 3 submission and presentations
 
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2019-Proj3&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
@@ -101,6 +107,8 @@
 + Project 4 presentations
 + Project 5 discussions
 
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2019-Proj4&type=&language=) 
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -110,10 +118,9 @@
 + [Project 3 summary](/Tutorials/wk12-project3summary/)
 + Project 5 discussions
 
-----
-### Project cycle 5: 
-
 #### Week 14 (May 1)
 + Project 5 Presentations
+
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2019-Proj5&type=&language=) 
 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)

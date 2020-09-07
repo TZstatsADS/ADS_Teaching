@@ -1,0 +1,151 @@
+---
+title: "Project4"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+In this project, you are going to explore matrix factorization methods for recommender system. The goal is to match consumers with most appropriate products. Matrix factorization methods characterize both items and users by vectors of factors inferred from item rating patterns. High correspondence between item and user factors leads to a recommendation. Matrix factorization generally has 3 parts:
+
+- factorization algorithm
+
+- regularization
+
+- postpocessing
+
+It is highly recommended to read this [review paper](./paper/P1 Recommender-Systems.pdf).
+
+### Step 1 Load Data and Train-test Split
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+data <- read.csv("../data/ml-latest-small/ratings.csv")
+set.seed(0)
+test_idx <- sample(1:nrow(data), round(nrow(data)/5, 0))
+train_idx <- setdiff(1:nrow(data), test_idx)
+data_train <- data[train_idx,]
+data_test <- data[test_idx,]
+```
+
+###Step 2 Matrix Factorization
+#### Step 2.1 Algorithm and Regularization
+Here I perform stochastic gradien descent to do matrix factorization.
+Your algorithm should consider case that there are new users and movies adding to the dataset you used to train. In other words, the dimension your matrix R, q, p is dynamic.
+
+- For algorithms, the referenced paper are:
+
+A1. [Stochastic Gradient Descent](./paper/P1 Recommender-Systems.pdf) Section: Learning Algorithms-Stochastic Gradient Descent
+
+A2. [Gradient Descent with Probabilistic Assumptions](./paper/P3 probabilistic-matrix-factorization.pdf) Section 2
+
+A3. [Alternating Least Squares](./paper/P4 Large-scale Parallel Collaborative Filtering for the Netflix Prize.pdf) Section 3.1
+
+- For regularizations, the referenced paper are:
+
+R1. [Penalty of Magnitudes](./paper/P1 Recommender-Systems.pdf) Section: a Basic Matrix Factorization Model
+
+R2. [Bias and Intercepts](./paper/P1 Recommender-Systems.pdf) Section: Adding Biases
+
+R3. [Temporal Dynamics](./paper/P5 Collaborative Filtering with Temporal Dynamics.pdf) Section 4
+
+
+```{r}
+U <- length(unique(data$userId))
+I <- length(unique(data$movieId))
+source("../lib/Matrix_Factorization.R")
+```
+
+
+#### Step 2.2 Parameter Tuning
+Here you should tune parameters, such as the dimension of factor and the penalty parameter $\lambda$ by cross-validation.
+```{r}
+source("../lib/cross_validation.R")
+f_list <- seq(10, 20, 10)
+l_list <- seq(-2, -1, 1)
+f_l <- expand.grid(f_list, l_list)
+```
+
+```{r, eval=FALSE}
+result_summary <- array(NA, dim = c(nrow(f_l), 10, 4)) 
+run_time <- system.time(for(i in 1:nrow(f_l)){
+    par <- paste("f = ", f_l[i,1], ", lambda = ", 10^f_l[i,2])
+    cat(par, "\n")
+    current_result <- cv.function(data, K = 5, f = f_l[i,1], lambda = 10^f_l[i,2])
+    result_summary[,,i] <- matrix(unlist(current_result), ncol = 10, byrow = T) 
+    print(result_summary)
+  
+})
+
+save(result_summary, file = "../output/rmse.Rdata")
+```
+
+```{r}
+load("../output/rmse.Rdata")
+rmse <- data.frame(rbind(t(result_summary[1,,]), t(result_summary[2,,])), train_test = rep(c("Train", "Test"), each = 4), par = rep(paste("f = ", f_l[,1], ", lambda = ", 10^f_l[,2]), times = 2)) %>% gather("epoch", "RMSE", -train_test, -par)
+rmse$epoch <- as.numeric(gsub("X", "", rmse$epoch))
+rmse %>% ggplot(aes(x = epoch, y = RMSE, col = train_test)) + geom_point() + facet_grid(~par)
+```
+
+#### Step 2.3 Evaluation on the Model without Postprocessing
+```{r, eval= FALSE}
+result <- gradesc(f = 10, lambda = 0.1,lrate = 0.01, max.iter = 100, stopping.deriv = 0.01,
+                   data = data, train = data_train, test = data_test)
+
+save(result, file = "../output/mat_fac.RData")
+```
+
+You should visualize training and testing RMSE by different epochs ([One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)). 
+
+```{r}
+load(file = "../output/mat_fac.RData")
+library(ggplot2)
+
+RMSE <- data.frame(epochs = seq(10, 100, 10), Training_MSE = result$train_RMSE, Test_MSE = result$test_RMSE) %>% gather(key = train_or_test, value = RMSE, -epochs)
+
+RMSE %>% ggplot(aes(x = epochs, y = RMSE,col = train_or_test)) + geom_point() + scale_x_discrete(limits = seq(10, 100, 10)) + xlim(c(0, 100))
+
+```
+
+### Step 3 Postprocessing
+After matrix factorization, postporcessing will be performed to improve accuracy.
+The referenced papers are:
+
+P1:[Global bias correction](./paper/P4 Large-scale Parallel Collaborative Filtering for the Netflix Prize.pdf) Section 4.1
+
+P2:[Postprocessing SVD with KNN](./paper/P2 Improving regularized singular value decomposition for collaborative filtering .pdf) Section 3.5
+
+P3:[Postprocessing SVD with kernel ridge regression](./paper/P2 Improving regularized singular value decomposition for collaborative filtering .pdf) Section 3.6
+
+P4:[Linearly combination of predictors](./paper/P4 Large-scale Parallel Collaborative Filtering for the Netflix Prize.pdf) Section 4.1
+
+
+```{r}
+pred_rating <- t(result$q) %*% result$p
+#define a function to extract the corresponding predictedrating for the test set.
+extract_pred_rating <- function(test_set, pred){
+  pred_rating <- pred[as.character(test_set[2]), as.character(test_set[1])]
+  return(pred_rating)
+}
+#extract predicted rating
+pred_test_rating <- apply(data_test, 1, extract_pred_rating, pred_rating)
+
+#mean(P)
+pred_mean <- mean(pred_test_rating)
+#mean(test)
+mean_test_rating <- mean(data_test$rating)
+
+#mean(test) - mean(P)
+mean_diff <- mean_test_rating - pred_mean
+
+data_test$pred <- pred_test_rating
+data_test$pred_adj <- pred_test_rating + mean_diff
+
+boxplot(data_test$pred_adj ~ data_test$rating)
+#calculate RMSE
+rmse_adj <- sqrt(mean((data_test$rating - data_test$pred_adj)^2))
+cat("The RMSE of the adjusted model is", rmse_adj)
+```
+
+Depending on your postprocessing method, you might want to cross-validate on some parameters related to the postprocessing. Don't forget to visualize the cross-validation process through graphs.
