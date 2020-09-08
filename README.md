@@ -11,7 +11,7 @@
 
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)
-+ [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be)
++ [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1] (https://github.com/TZstatsADS/Spring2020-Project1-petkunm), [Repo2] (https://github.com/TZstatsADS/Spring2020-Project1-zhangzhiyuan233)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
 #### Week 2 (Sep 16)
