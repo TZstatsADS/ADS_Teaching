@@ -5,7 +5,7 @@
 ----
 ### Project cycle 1: (Individual) R notebook for exploratory data analysis 
 
-([starter codes]<!--(Projects_StarterCodes/Project1-RNotebook)-->)
+([starter codes](Projects_StarterCodes/Project1-RNotebook))
 
 #### Week 1 (Sep 9)
 
