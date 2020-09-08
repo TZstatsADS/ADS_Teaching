@@ -31,7 +31,7 @@
 ![branch demo](./pics/branching.png)
 
 #### Workflow
-![workflow demo](./pics/workflow_demo.png)
+![workflow demo](./figs/workflow_demo.png)
 
 *source:http://rogerdudler.github.io/git-guide/ *
 
