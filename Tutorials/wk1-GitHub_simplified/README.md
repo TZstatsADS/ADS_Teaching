@@ -28,7 +28,7 @@
 	* Merge pull request into the master branch
 	* Pull to local repository
 
-![branch demo](./pics/branching.png)
+![branch demo](./figs/branching.png)
 
 #### Workflow
 ![workflow demo](./figs/workflow_demo.png)
