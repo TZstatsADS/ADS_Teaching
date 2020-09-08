@@ -1,13 +1,13 @@
 # Applied Data Science @ Columbia
-## Spring 2020
-## Project 1: A "data story" on the songs of our times
+## Fall 2020
+## Project 1: A "data story" on how Americans vote
 
 <img src="figs/title1.jpeg" width="500">
 
-### [Project Description](doc/Proj1_desc.md)
+### [Project Description](doc/)
 This is the first and only *individual* (as opposed to *team*) this semester. 
 
-Term: Spring 2020
+Term: Fall 2029
 
 + Projec title: Lorem ipsum dolor sit amet
 + This project is conducted by [your name]

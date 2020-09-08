@@ -1,4 +1,4 @@
-# ADS Project 1:  R Notebook on Lyrics Analysis
+# ADS Project 1:  R Notebook on the Presidential Elections in the US
 
 ### Figs folder
 
