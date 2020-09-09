@@ -107,5 +107,3 @@ Here is how it works:
 
 2. R Notebook from R Studio [http://rmarkdown.rstudio.com/r_notebooks.html](http://rmarkdown.rstudio.com/r_notebooks.html)
 
-3. R Markdown: The Definitive Guide
-[https://bookdown.org/yihui/rmarkdown/](https://bookdown.org/yihui/rmarkdown/)
