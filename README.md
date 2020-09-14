@@ -16,14 +16,11 @@
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
 #### Week 2 (Sep 16)
-<!--
-+ [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) ([HTML](http://tzstatsads.github.io/tutorials/wk2_TextMining.html))
-    + [zipped folder](Tutorials/wk2-TextMining.zip)
-    + [known running issues & solutions](https://gist.github.com/jokerkeny/18c396a00f1e0ab367b9721552013ec7), prepared by Yang Yang [@jokerkeny](https://github.com/jokerkeny)
-+ [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
-+ Data Story Examples: [Example 1](http://www.columbia.edu/~hl3099/proj1_report.html) ([repo](https://github.com/TZstatsADS/Spring2018-Project1-Hongyu-Li)), [Example 2](https://github.com/TZstatsADS/fall2017-project1-duanshiqi).
+
++ Recap on last week
++ Submission and presentation for project 1
 + Discussion and Q&A
--->
+
 #### Week 3 (Sep 23)
 <!--
 + Project 1 presentations.
