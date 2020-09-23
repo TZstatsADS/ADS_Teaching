@@ -38,7 +38,7 @@ You should produce an R notebook (rmd and html files) in your GitHub project fol
 
 Your story should NOT be a laundry list of all analyses you have tried on the data or how you solved a technical issue in your analysis, no matter how fascinating that might be. 
 
-#### Repositary requirement
+#### Repository requirement
 
 The final repo should be under our class github organization (TZStatsADS) and be organized according to the structure of the starter codes. 
 
