@@ -46,14 +46,14 @@
     	+ a short tutorial to get you started.
 
 #### Week 4 (Sep 30)
-<!--
+
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
 + Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
 + Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/))
-+ Shiny Examples from 2019 Fall (Example 1: [Online](https://grac4ie.shinyapps.io/NYCshooting/), [Repo](https://github.com/TZstatsADS/fall2019-proj2--sec2-grp10); Example 2: [Online](https://adsproject2group8.shinyapps.io/Project/), [Repo](https://github.com/TZstatsADS/fall2019-proj2--sec2-grp8))
++ Shiny Examples from previous semesters (Example 1: [Online](https://grac4ie.shinyapps.io/NYCshooting/), [Repo](https://github.com/TZstatsADS/fall2019-proj2--sec2-grp10); Example 2: [Online](https://rrl525.shinyapps.io/NYC-Government-Job/), [Repo](https://github.com/TZstatsADS/Spring2020-Project2-group-9))
 + [A note on contribution](/Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
 + Discussion and Q&A
--->
+
 #### Week 5 (Oct 7)
 <!--
 + Feedback on project 1
