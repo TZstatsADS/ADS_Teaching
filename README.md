@@ -26,7 +26,7 @@
 + Project 1 presentations.
 
 
-<!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project1&type=&language=)-->
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project1&type=&language=)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
@@ -62,9 +62,9 @@
 + Brainstorm or Discussion on project 2
 
 #### Week 6 (Oct 14)
-<!--
+
 + Project 2 presentations
--->
+
 
 <!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project2&type=&language=)-->
 
@@ -72,9 +72,9 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 3: Predictive Modeling
-<!--
-([starter codes](Projects_StarterCodes/Project3-FacialEmotionRecognition))
--->
+
+([starter codes](Projects_StarterCodes/Project3-ImbalancedClassification))
+
 #### Week 6 (Oct 14)
 <!--
 + [Project 3](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) starts.
