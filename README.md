@@ -76,17 +76,17 @@
 ([starter codes](Projects_StarterCodes/Project3-ImbalancedClassification))
 
 #### Week 6 (Oct 14)
-<!--
-+ [Project 3](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) starts.
+
++ [Project 3](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) starts.
   + Check Piazza for your project team and GitHub join link.
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
-    + [Intro to Project 3](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) ([motivation](https://www.google.com/search?q=AI+cat+as+dog&sxsrf=ACYBGNRZNs6rZMCtrwrwPz_o0NXRQaOa6g:1571330905449&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7g8bj36PlAhUDVt8KHUHAANIQ_AUIEigB&biw=1517&bih=735#imgrc=inZcVvOGHsI6ZM))
-    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/Main.Rmd)
--->
+    + [Intro to Project 3](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) ([motivation](https://www.google.com/search?q=AI+cat+as+dog&sxsrf=ACYBGNRZNs6rZMCtrwrwPz_o0NXRQaOa6g:1571330905449&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7g8bj36PlAhUDVt8KHUHAANIQ_AUIEigB&biw=1517&bih=735#imgrc=inZcVvOGHsI6ZM))
+    + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-ImbalancedClassification/doc/main.Rmd)
+
 #### Week 7 (Oct 21)
 <!--
-+ Recap on [project 3 requirements](Projects_StarterCodes/Project3-FacialEmotionRecognition/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-FacialEmotionRecognition/). 
++ Recap on [project 3 requirements](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-ImbalancedClassification/). 
 + Tutorials + Q&A
 	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-ImageAnalysis/EBImage&SIFT/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf) 
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
