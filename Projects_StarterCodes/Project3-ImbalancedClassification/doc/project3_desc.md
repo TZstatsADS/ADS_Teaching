@@ -6,7 +6,7 @@
 In this project, we will carry out **model evaluation and selection** for predictive analytics on an imbalanced image data. As data scientists, we often need to **evaluate** different modeling/analysis strategies and decide what is the best. Such decisions need to be supported by sound evidence in the form of *model assessment, validation and comparison*. In addition, we also need to **communicate our decision and supporting evidence** clearly and convincingly in an accessible fashion.
 
 #### Challenge
-For this project, you will receive a set of 3,000 facial images with 2 different types of emotions(the link would be posted on piazza and coursework assignment). These two links lead to **identical** data. The data is imbalanced with a class ratio of about 4: 1 for compound emotions and simple (basic) emotions.
+For this project, you will receive a set of 3,000 facial images with 2 different types of emotions(the link would be posted on piazza). These two links lead to **identical** data. The data is imbalanced with a class ratio of about 4: 1 for compound emotions and simple (basic) emotions.
 
 Your client is interested in creating an mobile AI program that **accurately recognizes the emotion from facial images**. 
 
