@@ -14,7 +14,7 @@ The portability of this AI program (holding storage and memory cost) and the com
 
 ![image](predictiveprogram.png)
 
-Assume that the **current practice (baseline)** on your client side is just using [boosted](https://en.wikipedia.org/wiki/Boosting_(machine_learning)) [decision stumps](https://en.wikipedia.org/wiki/Decision_stump) on facial landmark features (see Tutorial for more detail). `R` pakcage [`gbm`](https://cran.r-project.org/package=gbm) can be used to implement this classifier. 
+Assume that the **current practice (baseline)** on your client side is just using weighted [boosted](https://en.wikipedia.org/wiki/Boosting_(machine_learning)) [decision stumps](https://en.wikipedia.org/wiki/Decision_stump) on facial landmark features (see Tutorial for more detail). `R` pakcage [`gbm`](https://cran.r-project.org/package=gbm) can be used to implement this classifier. 
 
 #### Evaluation criteria 
 - Ease of reproducibility by the client (the instruction team)

@@ -154,15 +154,20 @@ source("../lib/feature.R")
 tm_feature_train <- NA
 if(run.feature.train){
   tm_feature_train <- system.time(dat_train <- feature(fiducial_pt_list, train_idx))
+  save(dat_train, file="../output/feature_train.RData")
+}else{
+  load(file="../output/feature_train.RData")
 }
 
 tm_feature_test <- NA
 if(run.feature.test){
   tm_feature_test <- system.time(dat_test <- feature(fiducial_pt_list, test_idx))
+  save(dat_test, file="../output/feature_test.RData")
+}else{
+  load(file="../output/feature_test.RData")
 }
 
-save(dat_train, file="../output/feature_train.RData")
-save(dat_test, file="../output/feature_test.RData")
+
 ```
 
 ### Step 4: Train a classification model with training features and responses
@@ -191,7 +196,7 @@ source("../lib/test.R")
 ```{r runcv}
 source("../lib/cross_validation.R")
 feature_train = as.matrix(dat_train[, -6007])
-label_train = as.integer(dat_train$label)
+label_train = as.integer(dat_train$label) 
 if(run.cv){
   res_cv <- matrix(0, nrow = length(lmbd), ncol = 4)
   for(i in 1:length(lmbd)){
@@ -200,16 +205,19 @@ if(run.cv){
                               l = lmbd[i], reweight = sample.reweight)
   save(res_cv, file="../output/res_cv.RData")
   }
+}else{
+  load("../output/res_cv.RData")
 }
 ```
 
 Visualize cross-validation results. 
 ```{r cv_vis}
+  
+res_cv <- as.data.frame(res_cv) 
+colnames(res_cv) <- c("mean_error", "sd_error", "mean_AUC", "sd_AUC")
+res_cv$k = as.factor(lmbd)
+
 if(run.cv){
-  load("../output/res_cv.RData")
-  res_cv <- as.data.frame(res_cv) 
-  colnames(res_cv) <- c("mean_error", "sd_error", "mean_AUC", "sd_AUC")
-  res_cv$k = as.factor(lmbd)
   p1 <- res_cv %>% 
     ggplot(aes(x = as.factor(lmbd), y = mean_error,
                ymin = mean_error - sd_error, ymax = mean_error + sd_error)) + 
@@ -221,17 +229,18 @@ if(run.cv){
                ymin = mean_AUC - sd_AUC, ymax = mean_AUC + sd_AUC)) + 
     geom_crossbar() +
     theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  
+  print(p1)
+  print(p2)
 }
-p1
-p2
+
+
 ```
 
 
 * Choose the "best" parameter value
 ```{r best_model}
-if(run.cv){
-  par_best <- lmbd[which.min(res_cv$mean_error)] # lmbd[which.max(res_cv$mean_AUC)]
-}
+par_best <- lmbd[which.min(res_cv$mean_error)] # lmbd[which.max(res_cv$mean_AUC)]
 ```
 
 * Train the model with the entire training set using the selected model (model parameter) via cross-validation.
@@ -274,8 +283,10 @@ accu <- sum(weight_test * (label_pred == label_test)) / sum(weight_test)
 tpr.fpr <- WeightedROC(prob_pred, label_test, weight_test)
 auc <- WeightedAUC(tpr.fpr)
 
+
 cat("The accuracy of model:", model_labels[which.min(res_cv$mean_error)], "is", accu*100, "%.\n")
 cat("The AUC of model:", model_labels[which.min(res_cv$mean_error)], "is", auc, ".\n")
+
 
 ```
 
