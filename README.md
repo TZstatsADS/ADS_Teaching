@@ -85,13 +85,14 @@
     + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-ImbalancedClassification/doc/main.Rmd)
 
 #### Week 7 (Oct 21)
-<!--
+
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-ImbalancedClassification/). 
 + Tutorials + Q&A
-	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-ImageAnalysis/EBImage&SIFT/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf) 
+	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-ImageAnalysis/EBImage&SIFT/imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf)
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
--->		
+	+ Overview on Imbalanced Classification
+		
 #### Week 8 (Oct 28) 
 <!--
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
