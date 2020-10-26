@@ -94,11 +94,11 @@
 	+ [Overview on Imbalanced Classification](Tutorials/wk7-Imbalanced_Classification_Overview.pdf)
 		
 #### Week 8 (Oct 28) 
-<!--
+
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
 + Project submission checklist (on piazza)
 + Discussion
--->
+
 #### Week 9 (Nov 4) 
 <!--
 + Project 3 submission and presentations
