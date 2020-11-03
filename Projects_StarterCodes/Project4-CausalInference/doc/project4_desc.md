@@ -6,7 +6,7 @@ In this project, working in teams, you will implement, evaluate and **compare** 
 ### Challenge
 *Causal inference* refers to the process of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect.
 
-For this project, each team is assigned **specific algorithms** from the *Causal inference* literature. You will study the algorithms carefully and implement them, from scratch. **Algorithm assignments will be posted to a piazza post specific to individual groups**.
+For this project, each team is assigned **specific algorithms** from the *Causal inference* literature. You will study the algorithms carefully and implement them, from scratch. **Algorithm assignments will be posted to a piazza post**.
 
 For submission, you will submit the GitHub repo of your codes, a *testing* report (must be a **reproducible** R/Python notebook) on the algorithms in terms of a *side-by-side* comparison of their performance and computational efficiency. 
 
