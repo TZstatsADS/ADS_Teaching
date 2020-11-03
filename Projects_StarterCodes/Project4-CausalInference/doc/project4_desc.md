@@ -59,6 +59,10 @@ Each week, we will give a tutorial in class and having live discussion and brain
 
 4. An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies - discusses using propensity score as a covariate in the regression adjustment (see section Covariate Adjustment Using the Propensity Score).
 
+5. Matching Methods for Causal Inference: A Review and a Look Forward - Section 3 introduces different matching methods for ATE and ATT (including full matching and inverse probability of treatment weighting). Section 5 talks about analysis after the matching.
+
+6. Stratification and weighting via the propensity score in estimation of causal treatment effects: See Section 2 for stratification (or subclassification) using propensity score and doubly robust estimation, with the goal of estimating ATE.
+
 #### Existing R/Python functions that can be part of your implementation.
 
 Unless otherwise instructed, you can use existing R/Python functions as part of your implementation.
