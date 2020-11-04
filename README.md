@@ -100,9 +100,9 @@
 + Discussion
 
 #### Week 9 (Nov 4) 
-<!--
-+ Project 3 submission and presentations
--->
+
+Project 3 submission and presentations
+
 
 <!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project3&type=&language=)-->
 
@@ -110,19 +110,19 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
 ### Project cycle 4: Algorithm implementation and evaluation
-<!--
-([starter codes](Projects_StarterCodes/Project4-RecommenderSystem))
--->
+
+([starter codes](Projects_StarterCodes/Project4-CausalInference))
+
 #### Week 9 (Nov 4) 
 <!--
-+ Introduction to [Project 4](Projects_StarterCodes/Project4-RecommenderSystem/doc/project4_desc.md)
++ Introduction to [Project 4](Projects_StarterCodes/Project4-CausalInference/doc/project4_desc.md)
 + [Introduction to Recommender Systems](https://docs.google.com/presentation/d/1bA_uE5D3qnJDaf3DwZ-ZzmR641vVl32oO8pdZEbYafo/edit#slide=id.g643d58c4a4_0_11).
 -->
 #### Weeks 10 (Nov 11)
 <!--
 + Recap on project 4 requirements.
-+ Overview of the [starter codes](Projects_StarterCodes/Project4-RecommenderSystem)
-+ [Overview of the reference papers](Projects_StarterCodes/Project4-RecommenderSystem/doc/Matrix%20Factorization.pdf).
++ Overview of the [starter codes](Projects_StarterCodes/Project4-CausalInference)
++ [Overview of the reference papers](Projects_StarterCodes/Project4-CausalInference/doc/Matrix%20Factorization.pdf).
 + [Method assignment](Projects_StarterCodes/Project4-RecommenderSystem/doc/Proj4_pairings_2020_Spring.pdf).
 -->
 #### Weeks 11 (Nov 18)
