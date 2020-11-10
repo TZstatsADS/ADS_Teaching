@@ -118,12 +118,12 @@ Project 3 submission and presentations
 + Introduction to [Project 4](Projects_StarterCodes/Project4-CausalInference/doc/project4_desc.md)
 
 #### Weeks 10 (Nov 11)
-<!--
+
 + Recap on project 4 requirements.
-+ Overview of the [starter codes](Projects_StarterCodes/Project4-CausalInference)
-+ [Overview of the reference papers](Projects_StarterCodes/Project4-CausalInference/doc/Matrix%20Factorization.pdf).
-+ [Method assignment](Projects_StarterCodes/Project4-RecommenderSystem/doc/Proj4_pairings_2020_Spring.pdf).
--->
++ Overview of Causal Inference
++ [Overview of the Methods from the reference papers](Tutorials/wk10-overview-casual-inference-methods.pdf).
++ [Method assignment](Tutorials/wk9-Proj4_pairings_2020_Fall.pdf).
+
 #### Weeks 11 (Nov 18)
 <!--
 + Team Meeting
