@@ -126,6 +126,7 @@ Project 3 submission and presentations
 
 #### Weeks 11 (Nov 18)
 
++ Q&A
 + Team Meeting
 
 #### Thanksgiving Break
