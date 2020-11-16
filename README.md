@@ -125,9 +125,9 @@ Project 3 submission and presentations
 + [Method assignment](Tutorials/wk9-Proj4_pairings_2020_Fall.pdf).
 
 #### Weeks 11 (Nov 18)
-<!--
+
 + Team Meeting
--->
+
 #### Thanksgiving Break
 
 #### Weeks 12 (Dec 2)
