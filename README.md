@@ -134,7 +134,6 @@
 #### Weeks 12 (Dec 2)
 
 + Project 4 presentations
-+ [Project 3 Summary](/Tutorials/wk12-project3_summary.pdf)
 
 <!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project4&type=&language=)-->
 
@@ -142,9 +141,10 @@
 ### Project cycle 5: 
 
 #### Weeks 12 (Dec 2)
-<!--
+
 + Project 5 discussions
--->
++ [Project 3 Summary](/Tutorials/wk12-project3_summary.pdf)
+
 #### Week 13 (Dec 9)
 <!--
 + Project 5 discussions
