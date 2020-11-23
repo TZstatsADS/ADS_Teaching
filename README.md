@@ -101,7 +101,7 @@
 
 #### Week 9 (Nov 4) 
 
-Project 3 submission and presentations
++ Project 3 submission and presentations
 
 
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project3&type=&language=)
@@ -132,9 +132,9 @@ Project 3 submission and presentations
 #### Thanksgiving Break
 
 #### Weeks 12 (Dec 2)
-<!--
+
 + Project 4 presentations
--->
++ [Project 3 Summary](/Tutorials/wk12-project3_summary.pdf)
 
 <!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project4&type=&language=)-->
 
@@ -144,7 +144,6 @@ Project 3 submission and presentations
 #### Weeks 12 (Dec 2)
 <!--
 + Project 5 discussions
-+ [Project 3 Summary](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/project3_summary.html)
 -->
 #### Week 13 (Dec 9)
 <!--
