@@ -149,10 +149,6 @@
 <!--
 + Project 5 discussions
 -->
-#### Week 14 (Dec 16)
-<!--
-+ Project 5 presentations
--->
 
 <!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project5&type=&language=)-->
 
