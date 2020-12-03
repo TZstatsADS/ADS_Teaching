@@ -135,7 +135,7 @@
 
 + Project 4 presentations
 
-<!--[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project4&type=&language=)-->
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2020-project4&type=&language=)
 
 ----
 ### Project cycle 5: 
