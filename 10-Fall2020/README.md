@@ -51,13 +51,13 @@
 + Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
 + Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/))
 + Shiny Examples from previous semesters (Example 1: [Online](https://grac4ie.shinyapps.io/NYCshooting/), [Repo](https://github.com/TZstatsADS/fall2019-proj2--sec2-grp10); Example 2: [Online](https://rrl525.shinyapps.io/NYC-Government-Job/), [Repo](https://github.com/TZstatsADS/Spring2020-Project2-group-9))
-+ [A note on contribution](/Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
++ [A note on contribution](Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
 + Discussion and Q&A
 
 #### Week 5 (Oct 7)
 
-+ [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
-+ [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
++ [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/10-Fall2020/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/10-Fall2020/Tutorials/wk5-sql.zip))
++ [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/10-Fall2020/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
 + [Tutorial on giving presentations](Tutorials/MakingPresentation.pdf)
 + Brainstorm or Discussion on project 2
 
