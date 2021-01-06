@@ -145,7 +145,7 @@
 #### Weeks 12 (Apr 7)
 <!--
 + Project 5 discussions
-+ [Project 3 Summary](/Tutorials/wk12-project3_summary.pdf)
++ [Project 3 Summary](Tutorials/wk12-project3_summary.pdf)
 -->
 #### Week 13 (Apr 14)
 <!--
