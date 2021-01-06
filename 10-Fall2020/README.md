@@ -12,7 +12,7 @@
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
-+ [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/TZstatsADS/Spring2020-Project1-petkunm), [Repo2](https://github.com/TZstatsADS/Spring2020-Project1-zhangzhiyuan233)
++ [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/10-Fall2020/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/TZstatsADS/Spring2020-Project1-petkunm), [Repo2](https://github.com/TZstatsADS/Spring2020-Project1-zhangzhiyuan233)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
 #### Week 2 (Sep 16)
@@ -88,7 +88,7 @@
 
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-ImbalancedClassification/). 
 + Tutorials + Q&A
-	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf)
+	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/10-Fall2020/Tutorials/wk7-imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf)
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 	+ [Overview on Imbalanced Classification](Tutorials/wk7-Imbalanced_Classification_Overview.pdf)
