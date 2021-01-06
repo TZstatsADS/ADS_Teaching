@@ -122,7 +122,7 @@
 + Recap on project 4 requirements.
 + Overview of Causal Inference
 + [Overview of the Methods from the reference papers](Tutorials/wk10-overview-casual-inference-methods.pdf).
-+ [Method assignment](Tutorials/wk9-Proj4_pairings_2020_Fall.pdf).
++ <!--[Method assignment] (Tutorials/wk9-Proj4_pairings_2020_Fall.pdf)-->
 
 #### Weeks 11 (Nov 18)
 
@@ -143,7 +143,7 @@
 #### Weeks 12 (Dec 2)
 
 + Project 5 discussions
-+ [Project 3 Summary](/Tutorials/wk12-project3_summary.pdf)
++ <!--[Project 3 Summary](Tutorials/wk12-project3_summary.pdf)-->
 
 #### Week 13 (Dec 9)
 <!--
