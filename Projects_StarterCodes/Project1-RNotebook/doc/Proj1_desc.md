@@ -1,10 +1,10 @@
 ## Applied Data Science @ Columbia
-## STAT GR5243/GU4243 Fall 2020 
+## STAT GR5243/GU4243 Spring 2021
 ### Project 1 An R Notebook "Data Story" on "How Americans Vote?"
 
 <img src="../figs/title2.jpg" width="400">
 
-The year 2020 has been strange and eventful, to say the least. Yet, there are still months before it is over. During the remaining months of 2020, United States, the rest of world, will all pay close attention to the upcoming election of the next U.S. president, as there is so much on the stake. 
+Last year has been strange and eventful, to say the least. A lot of attention has been paid to the competitive election of the U.S. president at the end of 2020. 
 
 The goal of this project is to look deeper into the patterns and characteristics of voter behaviors from past U.S. elections using the [American National Election Studies (ANES)](https://electionstudies.org/). Applying data mining, statistical analysis and visualization, students should derive interesting findings in this collection of election surveys and write a "data story" that can be shared with a **general audience**. 
 
@@ -47,14 +47,14 @@ proj/
 ├──data/
 ├──doc/
 ├──figs/
-├──dev/
+├──lib/
 ├──output/
 ├── README
 ```
 - The `data` folder contains the raw data of this project. These data should NOT be processed inside this folder. Processed data should be saved to `output` folder. This is to ensure that the raw data will not be altered. 
 - The `doc` folder should have documentations for this project, presentation files and other supporting materials. 
 - The `figs` folder contains figure files produced during the project and running of the codes. 
-- The `dev` folder (sometimes called `lib`) contain computation codes for your data analysis. Make sure your README.md is informative about what are the programs found in this folder. 
+- The `lib` folder (sometimes called `dev`) contain computation codes for your data analysis. Make sure your README.md is informative about what are the programs found in this folder. 
 - The `output` folder is the holding place for intermediate and final computational results.
 
 The root README.md should contain your name and an abstract of your findings. 
