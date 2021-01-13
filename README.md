@@ -84,7 +84,6 @@
     + [Intro to Project 3](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) ([motivation](https://www.google.com/search?q=AI+cat+as+dog&sxsrf=ACYBGNRZNs6rZMCtrwrwPz_o0NXRQaOa6g:1571330905449&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7g8bj36PlAhUDVt8KHUHAANIQ_AUIEigB&biw=1517&bih=735#imgrc=inZcVvOGHsI6ZM))
     + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-ImbalancedClassification/doc/main.Rmd)
 -->
-#### Spring Break
 
 #### Week 7 (Feb 24)
 <!--
@@ -94,7 +93,10 @@
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 	+ [Overview on Imbalanced Classification](Tutorials/wk7-Imbalanced_Classification_Overview.pdf)
--->		
+-->	
+
+#### Spring Break
+
 #### Week 8 (Mar 10) 
 <!--
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
