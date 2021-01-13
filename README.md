@@ -4,17 +4,17 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 ----
 ### Project cycle 1: (Individual) R notebook for exploratory data analysis 
-<!--
+
 ([starter codes](Projects_StarterCodes/Project1-RNotebook))
--->
+
 #### Week 1 (Jan 13)
-<!--
+
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
 + [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/TZstatsADS/Spring2020-Project1-petkunm), [Repo2](https://github.com/TZstatsADS/Spring2020-Project1-zhangzhiyuan233)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
--->
+
 #### Week 2 (Jan 20)
 <!--
 + Recap on last week
@@ -84,7 +84,6 @@
     + [Intro to Project 3](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) ([motivation](https://www.google.com/search?q=AI+cat+as+dog&sxsrf=ACYBGNRZNs6rZMCtrwrwPz_o0NXRQaOa6g:1571330905449&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7g8bj36PlAhUDVt8KHUHAANIQ_AUIEigB&biw=1517&bih=735#imgrc=inZcVvOGHsI6ZM))
     + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-ImbalancedClassification/doc/main.Rmd)
 -->
-#### Spring Break
 
 #### Week 7 (Feb 24)
 <!--
@@ -94,7 +93,10 @@
 	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 	+ [Overview on Imbalanced Classification](Tutorials/wk7-Imbalanced_Classification_Overview.pdf)
--->		
+-->	
+
+#### Spring Break
+
 #### Week 8 (Mar 10) 
 <!--
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
