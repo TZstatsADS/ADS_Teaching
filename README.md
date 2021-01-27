@@ -22,9 +22,9 @@
 + Discussion and Q&A
 
 #### Week 3 (Jan 27)
-<!--
+
 + Project 1 presentations.
--->
+
 <!--
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project1&type=&language=)
 -->
