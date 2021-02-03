@@ -22,9 +22,9 @@
 + Discussion and Q&A
 
 #### Week 3 (Jan 27)
-<!--
+
 + Project 1 presentations.
--->
+
 <!--
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project1&type=&language=)
 -->
@@ -32,19 +32,19 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 2: Shiny App Development
-<!--
+
 ([starter codes](Projects_StarterCodes/Project2-ShinyApp))
--->
+
 #### Week 3 (Jan 27)
-<!--
+
 + [Project 2](Projects_StarterCodes/Project2-ShinyApp) starts.
-  	+ Check Piazza for your project team and *GitHub join link*.
+  	+ Check Piazza for your project team and *GitHub join link* on Friday.
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes* 
    		+ the project description, 
    		+ an example **toy** shiny app 
     	+ a short tutorial to get you started.
--->
+
 #### Week 4 (Feb 3)
 <!--
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
