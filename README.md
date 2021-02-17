@@ -55,16 +55,17 @@
 + Discussion and Q&A
 
 #### Week 5 (Feb 10)
-<!--
+
 + [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
 + [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
-+ [Tutorial on giving presentations](Tutorials/MakingPresentation.pdf)
++ [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Brainstorm or Discussion on project 2
--->
+
 #### Week 6 (Feb 17)
 <!--
 + Project 2 presentations
 -->
+
 <!--
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-Project2&type=&language=)
 -->
@@ -84,7 +85,6 @@
     + [Intro to Project 3](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) ([motivation](https://www.google.com/search?q=AI+cat+as+dog&sxsrf=ACYBGNRZNs6rZMCtrwrwPz_o0NXRQaOa6g:1571330905449&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7g8bj36PlAhUDVt8KHUHAANIQ_AUIEigB&biw=1517&bih=735#imgrc=inZcVvOGHsI6ZM))
     + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-ImbalancedClassification/doc/main.Rmd)
 -->
-
 #### Week 7 (Feb 24)
 <!--
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-ImbalancedClassification/). 
