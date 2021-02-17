@@ -62,25 +62,29 @@
 + Brainstorm or Discussion on project 2
 
 #### Week 6 (Feb 17)
+<!--
 + Project 2 presentations
+-->
 
+<!--
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-Project2&type=&language=)
-
+-->
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 3: Predictive Modeling
-
+<!--
 ([starter codes](Projects_StarterCodes/Project3-ImbalancedClassification))
-
+-->
 #### Week 6 (Feb 17)
+<!--
 + [Project 3](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) starts.
   + Check Piazza for your project team and GitHub join link.
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) ([motivation](https://www.google.com/search?q=AI+cat+as+dog&sxsrf=ACYBGNRZNs6rZMCtrwrwPz_o0NXRQaOa6g:1571330905449&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7g8bj36PlAhUDVt8KHUHAANIQ_AUIEigB&biw=1517&bih=735#imgrc=inZcVvOGHsI6ZM))
     + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-ImbalancedClassification/doc/main.Rmd)
-
+-->
 #### Week 7 (Feb 24)
 <!--
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-ImbalancedClassification/). 
