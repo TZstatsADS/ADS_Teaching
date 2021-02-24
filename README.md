@@ -66,9 +66,9 @@
 + Project 2 presentations
 
 
-<!--
+
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-Project2&type=&language=)
--->
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
@@ -86,14 +86,14 @@
     + an example `main.rmd` that provides an example structure for this project.  [Example `main.Rmd`](Projects_StarterCodes/Project3-ImbalancedClassification/doc/main.Rmd)
 
 #### Week 7 (Feb 24)
-<!--
+
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-ImbalancedClassification/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-ImbalancedClassification/). 
 + Tutorials + Q&A
 	+ Tutorials: [Basic Image Analysis](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-imageanalysis.html) ([zipped folder](Tutorials/wk7-ImageAnalysis.zip)) + [Fiducial Detection](Tutorials/wk7-FiducialDetection.pdf)
-	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk8-GBM_tutorial.pdf)
+	+ Tutorial on [gradient boosting machines (GBM)](Tutorials/wk7-GBM_tutorial.pdf)
 		+ [A shiny app on GBM](https://tz33cu.shinyapps.io/Tutorial7-GBM/) [[R codes](https://github.com/tz33cu/Data-Science-with-R/tree/master/Tutorials/Tutorial7-GBM)]
 	+ [Overview on Imbalanced Classification](Tutorials/wk7-Imbalanced_Classification_Overview.pdf)
--->	
+	
 
 #### Spring Break
 
