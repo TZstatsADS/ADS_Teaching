@@ -98,11 +98,11 @@
 #### Spring Break
 
 #### Week 8 (Mar 10) 
-<!--
+
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
 + Project submission checklist (on piazza)
 + Discussion
--->
+
 #### Week 9 (Mar 17) 
 <!--
 + Project 3 submission and presentations
