@@ -122,12 +122,12 @@
 + Introduction to [Project 4](Projects_StarterCodes/Project4-CausalInference/doc/project4_desc.md)
 
 #### Weeks 10 (Mar 24)
-<!--
+
 + Recap on project 4 requirements.
 + Overview of Causal Inference
 + [Overview of the Methods from the reference papers](Tutorials/wk10-overview-casual-inference-methods.pdf).
-+ [Method assignment](Tutorials/wk9-Proj4_pairings_2020_Fall.pdf).
--->
++ Method assignment
+
 #### Weeks 11 (Mar 31)
 <!--
 + Q&A
