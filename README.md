@@ -129,10 +129,10 @@
 + Method assignment
 
 #### Weeks 11 (Mar 31)
-<!--
+
 + Q&A
 + Team Meeting
--->
+
 
 #### Weeks 12 (Apr 7)
 <!--
