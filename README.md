@@ -107,9 +107,9 @@
 
 + Project 3 submission and presentations
 
-<!--
+
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project3&type=&language=)
--->
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
@@ -135,7 +135,7 @@
 
 
 #### Weeks 12 (Apr 7)
-<!--
+
 + Project 4 presentations
 
 <!--
