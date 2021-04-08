@@ -138,9 +138,9 @@
 
 + Project 4 presentations
 
-<!--
+
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project4&type=&language=)
--->
+
 ----
 ### Project cycle 5: 
 
@@ -150,9 +150,9 @@
 + Project 3 Summary
 
 #### Week 13 (Apr 14)
-<!--
-+ Project 5 discussions
--->
+
++ Project 5 presentations
+
 <!--
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project5&type=&language=)
 -->
