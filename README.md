@@ -120,7 +120,7 @@
 <!--
 + Introduction to [Project 4](Projects_StarterCodes/Project4-CausalInference/doc/project4_desc.md)
 -->
-#### Weeks 10 (Nov 17)
+#### Week 10 (Nov 17)
 <!--
 + Recap on project 4 requirements.
 + Overview of Causal Inference
@@ -130,7 +130,7 @@
 
 #### Thanksgiving Break
 
-#### Weeks 11 (Dec 1)
+#### Week 11 (Dec 1)
 <!--
 + Project 3 Summary on Piazza
 -->
