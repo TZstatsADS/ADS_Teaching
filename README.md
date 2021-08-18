@@ -132,26 +132,17 @@
 
 #### Weeks 11 (Dec 1)
 <!--
-+ Project 4 presentations
++ Project 3 Summary on Piazza
 -->
 
+#### Week 12 (Dec 8)
+<!--
++ Project 4 presentations
+-->
 
 <!--
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project4&type=&language=)
 -->
 ----
-### Project cycle 5: 
 
-#### Weeks 11 (Dec 1)
-<!--
-+ Project 5 discussions
-+ Project 3 Summary on Piazza
--->
-#### Week 12 (Dec 8)
-<!--
-+ Project 5 presentations
--->
-<!--
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project5&type=&language=)
--->
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
