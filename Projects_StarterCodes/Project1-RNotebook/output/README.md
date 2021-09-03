@@ -1,4 +1,4 @@
-# ADS Project 1:  R Notebook on the Presidential Elections in the US
+# ADS Project 1:  R Notebook on the history of philosophy
 
 ### Output folder
 
