@@ -23,7 +23,7 @@ Even though this is an individual project, you are **encouraged** to discuss wit
 A link to initiate a *GitHub starter codes repo* will be posted on piazza for you to start your own project. 
 
 #### Suggested workflow
-This is a relatively short project. We only have about two weeks of working time. In the starter codes, we provide you one basic data processing R notebooks to show you how to get started. 
+This is a relatively short project. We only have about two weeks of working time. 
 
 1. [wk1] Week 1 is the **data processing and mining** week. Read data description, **project requirement**, browse data and study the R notebooks in the starter codes, and think about what to do and try out different tools you find related to this task.
 2. [wk1] Try out ideas on a **subset** of the data set to get a sense of computational burden of this project. 
