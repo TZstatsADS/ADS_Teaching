@@ -1,13 +1,13 @@
 # Applied Data Science @ Columbia
-## Spring 2021
-## Project 1: A "data story" on how Americans vote
+## Fall 2021
+## Project 1: A "data story" on the history of philosophy
 
-<img src="figs/title1.jpeg" width="500">
+<img src="figs/100126-the-glass.jpeg" width="500">
 
 ### [Project Description](doc/)
-This is the first and only *individual* (as opposed to *team*) this semester. 
+This is the first and only *individual* (as opposed to *team*) project this semester. 
 
-Term: Spring 2021
+Term: Fall 2021
 
 + Projec title: Lorem ipsum dolor sit amet
 + This project is conducted by [your name]
