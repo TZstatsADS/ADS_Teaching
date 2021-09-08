@@ -77,3 +77,4 @@ For this project we will give **tutorials** and give comments on:
 
 - GitHub
 - R notebook
+- NLP
