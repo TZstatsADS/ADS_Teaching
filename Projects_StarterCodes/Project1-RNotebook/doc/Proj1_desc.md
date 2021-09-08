@@ -4,7 +4,7 @@
 
 <img src="../figs/100126-the-glass.jpeg" width="400">
 
-The goal of this project is to write a data story on the philosophy using the dataset for the [Philosophy Data Project](http://philosophydata.com/index.html). Applying data mining, statistical analysis and visualization, students should derive interesting findings in this collection of philosophy texts and write a "data story" that can be shared with a **general audience**. 
+The goal of this project is to write a data story on philosophy using the dataset for the [Philosophy Data Project](http://philosophydata.com/index.html). Applying data mining, statistical analysis and visualization, students should derive interesting findings in this collection of philosophy texts and write a "data story" that can be shared with a **general audience**. 
 
 ### Datasets
 
