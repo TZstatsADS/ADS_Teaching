@@ -18,6 +18,9 @@
 <!--
 + Recap on last week
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
++ [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) ([HTML](http://tzstatsads.github.io/tutorials/wk2_TextMining.html))
+    + [zipped folder](Tutorials/wk2-TextMining.zip)
++ [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Submission and presentation for project 1
 + Discussion and Q&A
 -->
