@@ -15,7 +15,7 @@
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
 #### Week 2 (Sep 22)
-<!--
+
 + Recap on last week
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
 + [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) ([HTML](http://tzstatsads.github.io/tutorials/wk2_TextMining.html))
@@ -23,7 +23,7 @@
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
 + Submission and presentation for project 1
 + Discussion and Q&A
--->
+
 #### Week 3 (Sep 29)
 <!--
 + Project 1 presentations.
