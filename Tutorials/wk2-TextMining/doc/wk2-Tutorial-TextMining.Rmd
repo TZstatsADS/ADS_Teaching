@@ -12,7 +12,7 @@ packages.used=c("rvest", "tibble", "qdap",
                 "sentimentr", "gplots", "dplyr",
                 "tm", "syuzhet", "factoextra", 
                 "beeswarm", "scales", "RColorBrewer",
-                "RANN", "tm", "topicmodels")
+                "RANN", "tm", "topicmodels","readtext")
 
 # check packages that need to be installed.
 packages.needed=setdiff(packages.used, 
@@ -42,6 +42,7 @@ library("RColorBrewer")
 library("RANN")
 library("tm")
 library("topicmodels")
+library("readtext")
 
 source("../lib/plotstacked.R")
 source("../lib/speechFuncs.R")
@@ -113,11 +114,11 @@ for(i in seq(nrow(speech.list))) {
   #text <- read_html(speech.list$urls[i]) %>% # load the page
   #  html_nodes(".displaytext") %>% # isloate the text
   #  html_text() # get the text
-  text.input=readtext(file=paste("../data/fulltext/", 
+  text.input=readtext(file=paste0("../data/fulltext/", 
                                    speech.list$type[i],
                                    speech.list$File[i], "-", 
-                                    speech.list$Term[i], ".txt"))
-  print(text.input)
+                                    speech.list$Term[i], ".txt"))$text
+  #print(text.input)
   speech.list$fulltext[i]=text.input
   # Create the file name
   #filename <- paste0("../data/fulltext/", 
@@ -130,9 +131,7 @@ for(i in seq(nrow(speech.list))) {
 }
 ```
 
-```{r}
 
-```
 Trump, as president-elect that has not been a politician, do not have a lot of formal speeches yet. For our textual analysis, we manually add several public transcripts from Trump:
 + [Transcript: Donald Trump's full immigration speech, annotated. LA Times, 08/31/2016](http://www.latimes.com/politics/la-na-pol-donald-trump-immigration-speech-transcript-20160831-snap-htmlstory.html)
 + [Transcript of Donald Trump’s speech on national security in Philadelphia - The Hill, 09/07/16](http://thehill.com/blogs/pundits-blog/campaign/294817-transcript-of-donald-trumps-speech-on-national-security-in)
@@ -159,8 +158,8 @@ Trump.speeches=data.frame(
   Words=c(word_count(speech1), word_count(speech2), word_count(speech3)),
   Win=rep("yes", 3),
   type=rep("speeches", 3),
-  links=rep(NA, 3),
-  urls=rep(NA, 3),
+  #links=rep(NA, 3),
+  #urls=rep(NA, 3),
   fulltext=c(speech1, speech2, speech3)
 )
 
@@ -169,7 +168,7 @@ speech.list=rbind(speech.list, Trump.speeches)
 
 # Step 4: data Processing --- generate list of sentences
 
-We will use sentences as units of analysis for this project, as sentences are natural languge units for organizing thoughts and ideas. For each extracted sentence, we apply sentiment analysis using [NRC sentiment lexion](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). "The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). The annotations were manually done by crowdsourcing."
+We will use sentences as units of analysis for this project, as sentences are natural language units for organizing thoughts and ideas. For each extracted sentence, we apply sentiment analysis using [NRC sentiment lexion](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm). "The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). The annotations were manually done by crowdsourcing."
 
 We assign an sequential id to each sentence in a speech (`sent.id`) and also calculated the number of words in each sentence as *sentence length* (`word.count`).
 
@@ -404,7 +403,7 @@ as.character(speech.df$sentences[apply(speech.df[,-1], 2, which.max)])
 ```{r, fig.width=2, fig.height=2}
 heatmap.2(cor(sentence.list%>%filter(type=="inaug")%>%select(anger:trust)), 
           scale = "none", 
-          col = bluered(100), , margin=c(6, 6), key=F,
+          col = bluered(100), margin=c(6, 6), key=F,
           trace = "none", density.info = "none")
 
 par(mar=c(4, 6, 2, 1))
