@@ -24,29 +24,28 @@
 + Discussion and Q&A
 
 #### Week 3 (Sep 29)
-<!--
+
 + Project 1 presentations.
--->
+
 <!--
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project1&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2021-project1&type=&language=)
 -->
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
 ### Project cycle 2: Shiny App Development
-<!--
+
 ([starter codes](Projects_StarterCodes/Project2-ShinyApp))
--->
+
 #### Week 3 (Sep 29)
-<!--
+
 + [Project 2](Projects_StarterCodes/Project2-ShinyApp) starts.
   	+ Check Piazza for your project team and *GitHub join link*.
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes* 
    		+ the project description, 
    		+ an example **toy** shiny app 
-    	+ a short tutorial to get you started.
--->
+
 #### Week 4 (Oct 6)
 <!--
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
@@ -68,7 +67,7 @@
 + Project 2 presentations
 -->
 <!--
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-Project2&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2021-Project2&type=&language=)
 -->
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
@@ -109,7 +108,7 @@
 + Project 3 submission and presentations
 -->
 <!--
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project3&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2021-project3&type=&language=)
 -->
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
@@ -143,7 +142,7 @@
 -->
 
 <!--
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2021-project4&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2021-project4&type=&language=)
 -->
 ----
 
