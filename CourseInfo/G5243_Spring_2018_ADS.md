@@ -5,7 +5,7 @@
 
 #### Course Information
 * Classes: Wednesdays 6:10pm-8:55pm, School of Social Work 903
-* Instructor: Ying Liu.  <liuying4490@gmail.com> [(@yingliug)](https://github.com/yingliug)
+* Instructor: Ying Liu. <yl2587@columbia.edu> [(@yingliug)](https://github.com/yingliug)
 * TA: Chengliang Tang. <ct2747@columbia.edu> [(@ChengliangTang)](http://github.com/ChengliangTang)
 * Course websites (all accessible via courseworks or github): 
   * Grades and basic course info: <http://courseworks.columbia.edu>
