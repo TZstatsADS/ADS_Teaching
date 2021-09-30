@@ -6,7 +6,7 @@
 #### Course Information
 
 * Classes: Wednesdays 6:10pm-8:55pm, 310 Fayerweather
-* Instructor: Ying Liu.  <liuying4490@gmail.com> [(@yingliug)](https://github.com/yingliug)
+* Instructor: Ying Liu. <yl2587@columbia.edu> [(@yingliug)](https://github.com/yingliug)
 	* Office hours: after class
 * TA: Diane Lu. <dl3213@columbia.edu> [(@mathdiane)](http://github.com/mathdiane)
 	<!--- * Office hours: Mondays 6:00 pm to 8:00 pm on 10th Floor Lounge of SSW ---> 
