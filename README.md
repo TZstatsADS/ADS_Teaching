@@ -47,14 +47,14 @@
    		+ an example **toy** shiny app 
 
 #### Week 4 (Oct 6)
-<!--
+
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
 + Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
 + Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://chengliangtang.shinyapps.io/shiny_tutorial_2017fall/))
-+ Shiny Examples from previous semesters (Example 1: [Online](https://grac4ie.shinyapps.io/NYCshooting/), [Repo](https://github.com/TZstatsADS/fall2019-proj2--sec2-grp10); Example 2: [Online](https://yl4391.shinyapps.io/shinyapps/), [Repo](https://github.com/TZstatsADS/Fall2020-Project2-group6))
++ Shiny Examples from previous semesters (Example 1: [Online](https://liqiaosally.shinyapps.io/app1/), [Repo](https://github.com/TZstatsADS/Spring2021-Project2-group6); Example 2: [Online](https://ybliu9.shinyapps.io/CovidSurvivalManual4NewYorkers/), [Repo](https://github.com/TZstatsADS/Spring2021-Project2-group5))
 + [A note on contribution](Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
 + Discussion and Q&A
--->
+
 #### Week 5 (Oct 13)
 <!--
 + [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
