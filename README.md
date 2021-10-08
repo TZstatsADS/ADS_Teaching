@@ -56,12 +56,12 @@
 + Discussion and Q&A
 
 #### Week 5 (Oct 13)
-<!--
+
 + [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
 + [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
-+ Brainstorm or Discussion on project 2
--->
++ Discussion on project 2
+
 #### Week 6 (Oct 20)
 <!--
 + Project 2 presentations
