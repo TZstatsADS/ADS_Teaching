@@ -66,9 +66,9 @@
 
 + Project 2 presentations
 
-<!--
+
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2021-Project2&type=&language=)
--->
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
