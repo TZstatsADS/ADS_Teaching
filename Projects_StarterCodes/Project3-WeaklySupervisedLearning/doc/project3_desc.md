@@ -51,7 +51,7 @@ To see how performance get improved by solving the two issues listed as above, y
 
 - Ease of reproducibility 
   - Are the codes for the proposed methods well annotated and documented?
-  - Can the analysis be re-run nearly automatically in the Jupyter Notebook?
+  - Can the analysis be re-run nearly automatically in the Jupyter/R Notebook?
 - Out-of-sample performance 
   - How close are the reported performances (presentation and online) to the performances on a hidden test set?
   - Retrain the model on a new set of noisy labels, how close are the performances compared to the reported performances?
@@ -106,7 +106,7 @@ GitHub_proj/
 ```
 
 - In `data`, team members should individually save raw image data and csv files that contains clean and noisy labels for the images on their local computer. 
-- The `doc` folder should have documentations for this project, presentation files and other supporting materials. You should have a final `main.ipynb` or `main.Rmd` following the template given in the starter codes. Your `main.Rmd` can assume that there is a data folder of raw images with subfolders corresponding to the training set and the test set.
+- The `doc` folder should have documentations for this project, presentation files and other supporting materials. You should have a final `main.ipynb` or `main.Rmd` following the template given in the starter codes. Your `main.ipynb`/`main.Rmd` can assume that there is a data folder of raw images with subfolders corresponding to the training set and the test set.
 - The `figs` folder contains figure files produced during the project and running of the codes.
 - The `output` folder is the holding place for feature extracted, other intermediate and final results.
 
