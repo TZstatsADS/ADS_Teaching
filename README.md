@@ -95,11 +95,11 @@
 
 
 #### Week 8 (Nov 3) 
-<!--
-+ [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
+
 + Project submission checklist (on piazza)
++ [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
 + Discussion
--->
+
 #### Week 9 (Nov 10) 
 <!--
 + Project 3 submission and presentations
