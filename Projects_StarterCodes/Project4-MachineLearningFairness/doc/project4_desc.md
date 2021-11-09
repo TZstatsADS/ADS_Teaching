@@ -10,7 +10,7 @@ For this project, each team is assigned **specific algorithms** from the *Machin
 
 For submission, you will submit the GitHub repo of your codes, a *testing* report (must be a **reproducible** R/Python notebook) on the algorithms in terms of a *side-by-side* comparison of their performance and computational efficiency. 
 
-You can use Google Colab notebook (https://colab.research.google.com/#) if you're working in Python. It has the following advantages:
+You can use [Google Colab notebook](https://colab.research.google.com/#) if you're working in Python. It has the following advantages:
 
 + Zero configuration required
 + Free access to GPUs
