@@ -4,7 +4,7 @@
 In this project, working in teams, you will implement, evaluate and **compare** algorithms for **Machine Learning Fairness**.
 
 ### Challenge
-*Machine Learning Fairness* refers to correcting the unfairness in machine learning algorithms' predictions for certain groups or individuals.
+*Machine Learning Fairness* refers to correcting the unfairness for certain groups or individuals in machine learning algorithms' predictions.
 
 For this project, each team is assigned **specific algorithms** from the *Machine Learning Fairness* literature. You will study the algorithms carefully and implement them, from scratch. **Algorithm assignments will be posted to a piazza post**.
 
