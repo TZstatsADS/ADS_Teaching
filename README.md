@@ -101,9 +101,9 @@
 + Discussion
 
 #### Week 9 (Nov 10) 
-<!--
+
 + Project 3 submission and presentations
--->
+
 <!--
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2021-project3&type=&language=)
 -->
@@ -111,13 +111,13 @@
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
 ### Project cycle 4: Algorithm implementation and evaluation
-<!--
-([starter codes](Projects_StarterCodes/Project4-CausalInference))
--->
+
+([starter codes](Projects_StarterCodes/Project4-MachineLearningFairness))
+
 #### Week 9 (Nov 10) 
-<!--
-+ Introduction to [Project 4](Projects_StarterCodes/Project4-CausalInference/doc/project4_desc.md)
--->
+
++ Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
+
 #### Week 10 (Nov 17)
 <!--
 + Recap on project 4 requirements.
