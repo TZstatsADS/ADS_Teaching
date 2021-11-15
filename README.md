@@ -119,12 +119,13 @@
 + Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
 
 #### Week 10 (Nov 17)
-<!--
+
 + Recap on project 4 requirements.
-+ Overview of Causal Inference
-+ [Overview of the Methods from the reference papers](Tutorials/wk10-overview-casual-inference-methods.pdf).
++ [Machine Learning Fairness Introduction] (https://chrispiech.github.io/probabilityForComputerScientists/en/examples/fairness/)
+<!-- + Overview of Machine Learning Fairness-->
++ [Overview of the Methods from the reference papers](Tutorials/wk10-Overview-Machine_Learning_Fairness_Methods.pdf).
 + Method assignment on Piazza
--->
+
 
 #### Thanksgiving Break
 
