@@ -104,9 +104,9 @@
 
 + Project 3 submission and presentations
 
-<!--
+
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2021-project3&type=&language=)
--->
+
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
