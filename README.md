@@ -121,8 +121,7 @@
 #### Week 10 (Nov 17)
 
 + Recap on project 4 requirements.
-+ [Machine Learning Fairness Introduction] (https://chrispiech.github.io/probabilityForComputerScientists/en/examples/fairness/)
-<!-- + Overview of Machine Learning Fairness-->
++ [Machine Learning Fairness Introduction](https://chrispiech.github.io/probabilityForComputerScientists/en/examples/fairness/)
 + [Overview of the Methods from the reference papers](Tutorials/wk10-Overview-Machine_Learning_Fairness_Methods.pdf).
 + Method assignment on Piazza
 
