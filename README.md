@@ -129,13 +129,14 @@
 #### Thanksgiving Break
 
 #### Week 11 (Dec 1)
-<!--
-+ Project 3 Summary on Piazza
--->
+
++ Discussion
+
 
 #### Week 12 (Dec 8)
 <!--
 + Project 4 presentations
++ Project 3 Summary on Piazza
 -->
 
 <!--
