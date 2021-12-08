@@ -134,10 +134,10 @@
 
 
 #### Week 12 (Dec 8)
-<!--
+
 + Project 4 presentations
 + Project 3 Summary on Piazza
--->
+
 
 <!--
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2021-project4&type=&language=)
