@@ -13,12 +13,11 @@
 	* Office hours: Mondays 2:00 pm to 2:30 pm and 8:00 pm to 9:30 pm via Zoom (can join through coursework "Zoom Class Sessions")
 	* Contact preference: through Piazza
 
-		
 * Course websites (all accessible via courseworks or github): 
 	* Grades and basic course info on **Courseworks**: <http://courseworks2.columbia.edu>
 	* Discussion board on **Piazza**: <https://piazza.com/class/kjn957avsba7p3>
 	* Course materials and repositories on **GitHub**: <http://tzstatsads.github.io> or <https://github.com/TZstatsADS/ADS_Teaching>
- 
+
 #### Prerequisites
 The pre-requisite for this course includes working knowledge in Statistics and Probability, data mining, statistical modeling and machine learning. Prior **advanced** programming experience in R or Python is required. 
 
@@ -109,5 +108,5 @@ There is not a single required text. As part of this course, we will learn from 
 * Be a good team member and contribute to each project as much as you can. Don't underestimate the efforts of your teammates. Something seems simple may not be that simple. 
 
 * Emails related to learning and projects shall be redirected to our discussion board.
- 
+
 * Students are [expected](http://policylibrary.columbia.edu/student-email-communication-policy) to check emails at least once every 12 hours during the week and every 24 hours over the weekend. Students should make sure not to miss any important class-related announcements sent by emails or posted on Courseworks. Emails will be delivered to the students' official UNI. It is the students' responsibility to ensure that these emails are properly forwarded if they choose to use an alternative email address. 
