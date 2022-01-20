@@ -20,7 +20,7 @@ Even though this is an individual project, you are **encouraged** to discuss wit
 
 ### Project organization
 
-A link to initiate a *GitHub starter codes repo* will be posted on piazza for you to start your own project. 
+A link to initiate a *GitHub starter codes repo* will be posted on Canvas for you to start your own project. 
 
 #### Suggested workflow
 This is a relatively short project. We only have about two weeks of working time. 
