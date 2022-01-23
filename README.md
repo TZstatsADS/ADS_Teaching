@@ -15,7 +15,7 @@
 + [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/ybliu9/How-Americans-Vote), [Repo2](https://github.com/TZstatsADS/Spring2021-Project1-aidris21), [Repo3](https://github.com/TZstatsADS/Spring2021-Project1-OlhaMaslova), [Repo4](https://github.com/TZstatsADS/Spring2021-Project1-Yytishere)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
-<!-- #### Week 2 (Jan 26)
+#### Week 2 (Jan 26)
 
 + Recap on last week
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
@@ -24,7 +24,7 @@
 + Submission and presentation for project 1
 + Discussion and Q&A
 
-#### Week 3 (Feb 2)
+<!-- #### Week 3 (Feb 2)
 
 + Project 1 presentations.
 
