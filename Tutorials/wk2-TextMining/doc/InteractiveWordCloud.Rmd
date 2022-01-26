@@ -30,6 +30,7 @@ library(wordcloud)
 library(RColorBrewer)
 library(dplyr)
 library(tidytext)
+library(knitr)
 ```
 
 This notebook was prepared with the following environmental settings.
@@ -59,12 +60,18 @@ ff.all<-tm_map(ff.all, content_transformer(tolower))
 ff.all<-tm_map(ff.all, removeWords, stopwords("english"))
 ff.all<-tm_map(ff.all, removeWords, character(0))
 ff.all<-tm_map(ff.all, removePunctuation)
+ff.all
 
 tdm.all<-TermDocumentMatrix(ff.all)
+tdm.all
 
+# Turn the Term Document Matrix into a tidy tibble
 tdm.tidy=tidy(tdm.all)
+kable(tdm.tidy[1:10,])
 
+# Get the Overall Counts over the Whole Corpus
 tdm.overall=summarise(group_by(tdm.tidy, term), sum(count))
+kable(tdm.overall[101:110,])
 ```
 
 # Step 3 - Inspect an overall wordcloud
@@ -75,7 +82,6 @@ wordcloud(tdm.overall$term, tdm.overall$`sum(count)`,
           min.freq=1,
           random.order=FALSE,
           rot.per=0.3,
-          use.r.layout=T,
           random.color=FALSE,
           colors=brewer.pal(9,"Blues"))
 ```
@@ -83,17 +89,15 @@ wordcloud(tdm.overall$term, tdm.overall$`sum(count)`,
 # Step 4 - compute TF-IDF weighted document-term matrices for individual speeches. 
 As we would like to identify interesting words for each inaugural speech, we use [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) to weigh each term within each speech. It highlights terms that are more specific for a particular speech. 
 
-```{r}
+```{r, warning=FALSE}
 dtm <- DocumentTermMatrix(ff.all,
-                          control = list(weighting = function(x)
-                                             weightTfIdf(x, 
-                                                         normalize =FALSE),
+                          control = list(weighting = function(x) weightTfIdf(x,normalize=FALSE),
                                          stopwords = TRUE))
 ff.dtm=tidy(dtm)
 ```
 
 # Step 5- Interactive visualize important words in individual speeches
-```{r, warning=FALSE}
+```{r warning=FALSE}
 library(shiny)
 
 shinyApp(
@@ -130,10 +134,9 @@ shinyApp(
               max.words=input$nwords,
               min.freq=1,
               random.order=FALSE,
-              rot.per=0,
-              use.r.layout=FALSE,
+              rot.per=0.3,
               random.color=FALSE,
-              colors=brewer.pal(10,"Blues"), 
+              colors=brewer.pal(9,"Blues"), 
             main=input$speech1)
         wordcloud(selectedData()$dtm.term2, 
                   selectedData()$dtm.count2,
@@ -141,10 +144,9 @@ shinyApp(
               max.words=input$nwords,
               min.freq=1,
               random.order=FALSE,
-              rot.per=0,
-              use.r.layout=FALSE,
+              rot.per=0.3,
               random.color=FALSE,
-              colors=brewer.pal(10,"Blues"), 
+              colors=brewer.pal(9,"Blues"), 
             main=input$speech2)
       })
     },
