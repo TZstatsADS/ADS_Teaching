@@ -24,7 +24,7 @@
 + Submission and presentation for project 1
 + Discussion and Q&A
 
-<!-- #### Week 3 (Feb 2)
+#### Week 3 (Feb 2)
 
 + Project 1 presentations.
 
@@ -46,7 +46,7 @@
    		+ the project description, 
    		+ an example **toy** shiny app 
 
-#### Week 4 (Feb 9)
+<!-- #### Week 4 (Feb 9)
 
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
 + Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
