@@ -28,7 +28,7 @@
 
 + Project 1 presentations.
 
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2022-project1&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring-2022-prj1&type=&language=)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
