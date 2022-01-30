@@ -12,13 +12,12 @@ We will use the presidential inaugural speech word clouds as examples.
 
 # Step 0 - Install and load libraries
 ```{r, message=FALSE, warning=FALSE}
-packages.used=c("tm", "wordcloud", "RColorBrewer", 
-                "dplyr", "tidytext")
+packages.used=c("tm", "wordcloud", "RColorBrewer", "dplyr", "tidytext")
 
 # check packages that need to be installed.
 packages.needed=setdiff(packages.used, 
                         intersect(installed.packages()[,1], 
-                                  packages.used))
+                        packages.used))
 # install additional packages
 if(length(packages.needed)>0){
   install.packages(packages.needed, dependencies = TRUE,
