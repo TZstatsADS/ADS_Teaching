@@ -42,7 +42,7 @@
 + [Project 2](Projects_StarterCodes/Project2-ShinyApp) starts.
   	+ Check Piazza for your project team and *GitHub join link*.
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
-  	+ You can find in the *starter codes* 
+  	+ You can find in the *starter codes*: 
    		+ the project description, 
    		+ an example **toy** shiny app. 
 
