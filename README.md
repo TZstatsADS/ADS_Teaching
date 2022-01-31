@@ -44,7 +44,7 @@
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes* 
    		+ the project description, 
-   		+ an example **toy** shiny app 
+   		+ an example **toy** shiny app. 
 
 <!-- #### Week 4 (Feb 9)
 
