@@ -55,7 +55,7 @@
 + [A note on contribution](Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
 + Discussion and Q&A
 
-<!-- 
+
 
 #### Week 5 (Feb 16)
 
@@ -64,7 +64,7 @@
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Discussion on project 2
 
-#### Week 6 (Feb 23)
+<!-- #### Week 6 (Feb 23)
 
 + Project 2 presentations
 
