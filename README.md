@@ -86,7 +86,7 @@
     + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
 
 
-<!-- #### Week 7 (Mar 2)
+#### Week 7 (Mar 2)
 
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-WeaklySupervisedLearning/). 
 + Tutorials + Q&A
@@ -95,7 +95,7 @@
 	
 
 
-#### Week 8 (Mar 9) 
+<!-- #### Week 8 (Mar 9) 
 
 + Project submission checklist (on piazza)
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
