@@ -95,13 +95,14 @@
 	
 
 
-<!-- #### Week 8 (Mar 9) 
+#### Week 8 (Mar 9) 
 
-+ Project submission checklist (on piazza)
+
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
++ [Tutorial on neural networks](Tutorials/wk8-NeuralNet.pdf)
 + Discussion
 
-#### Spring Break (Mar 16)
+<!-- #### Spring Break (Mar 16)
 
 #### Week 9 (Mar 23) 
 
