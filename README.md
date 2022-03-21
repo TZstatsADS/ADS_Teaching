@@ -102,7 +102,7 @@
 + [Tutorial on neural networks](Tutorials/wk8-NeuralNet.pdf)
 + Discussion
 
-<!-- #### Spring Break (Mar 16)
+#### Spring Break (Mar 16)
 
 #### Week 9 (Mar 23) 
 
@@ -121,19 +121,19 @@
 
 + Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
 
-#### Week 10 (Mar 23)
+<!-- #### Week 10 (Mar 30)
 
 + Recap on project 4 requirements.
 + [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf)
 + [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf)
 + Method assignment on Piazza
 
-#### Week 11 (Dec 1)
+#### Week 11 (Apr 6)
 
 + Discussion
 
 
-#### Week 12 (Dec 8)
+#### Week 12 (Apr 13)
 
 + Project 4 presentations
 + Project 3 Summary on Piazza
@@ -146,12 +146,12 @@
 
 ### Project cycle 5: Free topic
 
-#### Week 13 (Apr 24)
+#### Week 13 (Apr 13)
 
 + [Project 3 summary](/Tutorials/wk12-project3summary/)
 + Project 5 discussions
 
-#### Week 14 (May 1)
+#### Week 14 (May 4)
 
 + Project 5 Presentations
 
