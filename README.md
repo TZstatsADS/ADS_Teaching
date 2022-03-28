@@ -121,14 +121,14 @@
 
 + Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
 
-<!-- #### Week 10 (Mar 30)
+#### Week 10 (Mar 30)
 
 + Recap on project 4 requirements.
 + [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf)
 + [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf)
 + Method assignment on Piazza
 
-#### Week 11 (Apr 6)
+<!-- #### Week 11 (Apr 6)
 
 + Discussion
 
