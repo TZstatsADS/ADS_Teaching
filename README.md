@@ -124,7 +124,7 @@
 #### Week 10 (Mar 30)
 
 + Recap on project 4 requirements.
-+ [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf), [hand-written notes](Tutorials/wk10-fairness_methods.pdf)
++ [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf), [slides used in class](https://docs.google.com/presentation/d/1RQZZpXmt1i-DyEEAZTFiBvrpuePFMJh69tXEWDPJIO8/edit#slide=id.p), [hand-written notes](Tutorials/wk10-fairness_methods.pdf)
 + [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf)
 + Method assignment on Piazza
 
