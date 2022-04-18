@@ -137,7 +137,7 @@
 #### Week 12 (Apr 13)
 
 + Project 4 presentations
-+ Project 3 accuracy performance: [baseline](prj3_summary/Baseline.png), [model_I](prj3_summary/Model_1.png), [model_II](prj3_summary/Model_2.png)
++ Project 3 performance: [a summary](prj3_summary/project3_summary.pdf)
 
 <!-- [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2022-project4&type=&language=)
 
