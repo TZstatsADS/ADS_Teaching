@@ -139,7 +139,7 @@
 + Project 4 presentations
 + Project 3 performance: [a summary](prj3_summary/project3_summary.pdf)
 
-<!-- [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2022-project4&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Spring2022-project4&type=&language=)
 
 ----
 
@@ -149,10 +149,11 @@
 
 #### Week 13 (Apr 13)
 
-+ [Project 3 summary](/Tutorials/wk12-project3summary/)
++ [Project 3 summary]
++ Take home message for the class
 + Project 5 discussions
 
-#### Week 14 (May 4)
+<!-- #### Week 14 (May 4)
 
 + Project 5 Presentations
 
