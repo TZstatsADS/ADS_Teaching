@@ -147,7 +147,7 @@
 
 ### Project cycle 5: Free topic
 
-#### Week 13 (Apr 13)
+#### Week 13 (Apr 20)
 
 + Project 3 summary
 + Take home message for the class
