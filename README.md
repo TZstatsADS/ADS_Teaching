@@ -149,7 +149,7 @@
 
 #### Week 13 (Apr 13)
 
-+ [Project 3 summary]
++ Project 3 summary
 + Take home message for the class
 + Project 5 discussions
 
