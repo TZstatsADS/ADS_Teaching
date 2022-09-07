@@ -15,10 +15,11 @@
 	
 #### Work on GitHub Desktop
 * Work in local repository
+    * Pull to local repository
     * Add/Change files
     * Commit to local repository
-	* Push to remote repository
-	* Pull to local repository
+    * Push to remote repository
+	
 * Work with collaboration
 	* Fork and clone a (master) repository
 	* Create a branch
