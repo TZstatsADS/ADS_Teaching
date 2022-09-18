@@ -24,7 +24,7 @@
 + Submission and presentation for project 1
 + Discussion and Q&A
 
-<!---
+
 #### Week 3 (Sep 21)
 
 + Project 1 presentations.
@@ -46,7 +46,7 @@
   	+ You can find in the *starter codes*: 
    		+ the project description, 
    		+ an example **toy** shiny app. 
-
+<!---
 #### Week 4 (Sep 28)
 
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
