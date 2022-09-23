@@ -46,7 +46,7 @@
   	+ You can find in the *starter codes*: 
    		+ the project description, 
    		+ an example **toy** shiny app. 
-<!---
+
 #### Week 4 (Sep 28)
 
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
@@ -56,7 +56,7 @@
 + [A note on contribution](Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
 + Discussion and Q&A
 
-
+<!---
 
 #### Week 5 (Oct 5)
 
