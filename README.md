@@ -57,7 +57,7 @@
 + Peer review of Project 1
 + Discussion and Q&A
 
-<!---
+
 
 #### Week 5 (Oct 5)
 
@@ -66,6 +66,7 @@
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Discussion on project 2
 
+<!---
 #### Week 6 (Oct 12)
 
 + Project 2 presentations
