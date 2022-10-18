@@ -88,7 +88,7 @@
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
 
-<!---
+
 #### Week 7 (Oct 19)
 
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-WeaklySupervisedLearning/). 
@@ -97,7 +97,7 @@
 	+ [Overview on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.slides.html)
 	
 
-
+<!---
 #### Week 8 (Oct 26) 
 
 
