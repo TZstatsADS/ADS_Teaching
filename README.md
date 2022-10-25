@@ -97,14 +97,15 @@
 	+ [Overview on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.slides.html)
 	
 
-<!---
+
 #### Week 8 (Oct 26) 
 
 
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ [Tutorial on neural networks](Tutorials/wk8-NeuralNet.pdf)
++ Project 3 reminders
 + Discussion
 
+<!---
 #### Week 9 (Nov 2) 
 
 + Project 3 submission and presentations
