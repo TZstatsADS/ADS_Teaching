@@ -123,7 +123,7 @@
 
 - Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
 
-<!---
+
 #### Week 10 (Nov 9)
 
 + Recap on project 4 requirements.
@@ -131,6 +131,7 @@
 + [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf) ([hand-written notes](Tutorials/wk10-fairness_methods.pdf))
 + Method assignment on Piazza
 
+<!---
 #### Week 11 (Nov 16)
 
 - Q&A
