@@ -131,7 +131,7 @@
 + [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf) ([hand-written notes](Tutorials/wk10-fairness_methods.pdf))
 + Method assignment on Piazza
 
-<!---
+
 #### Week 11 (Nov 16)
 
 - Q&A
@@ -154,13 +154,13 @@
 
 #### Week 12 (Nov 30)
 
-+ Project 3 summary
-+ Take home message for the class
 + Project 5 discussions
-
++ Take home message for the class
+<!---
 #### Week 13 (Dec 7)
 
 + Project 5 Presentations
+
 
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2022-project5&type=&language=)
 
