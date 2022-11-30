@@ -155,11 +155,13 @@
 #### Week 12 (Nov 30)
 
 + Project 5 discussions
-+ Take home message for the class
+
 <!---
 #### Week 13 (Dec 7)
-+ Project 3 performance: [a summary](prj3_summary/project3_summary.pdf)
 + Project 5 Presentations
++ Project 3 performance: [a summary](prj3_summary/project3_summary.pdf)
++ Take home message for the class
+
 
 
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2022-project5&type=&language=)
