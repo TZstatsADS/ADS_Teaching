@@ -156,10 +156,9 @@
 
 + Project 5 discussions
 
-<!---
 #### Week 13 (Dec 7)
 + Project 5 Presentations
-+ Project 3 performance: [a summary](prj3_summary/project3_summary.pdf)
++ Project 3 performance: [a summary](Tutorials/project3_summary.pdf)
 + Take home message for the class
 
 
@@ -168,5 +167,5 @@
 
 ----
 
-##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) --->
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
 
