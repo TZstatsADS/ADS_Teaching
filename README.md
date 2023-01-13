@@ -80,7 +80,7 @@
 
 ([starter codes](Projects_StarterCodes/Project3-WeaklySupervisedLearning))
 
-#### Week 6 (Mar 1)
+#### Week 6 (Feb 22)
 
 + [Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md) starts.
   + Check Piazza for your project team and GitHub join link at the end of this week.
@@ -89,7 +89,7 @@
     + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
 
 
-#### Week 7 (Mar 8)
+#### Week 7 (Mar 1)
 
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-WeaklySupervisedLearning/). 
 + Tutorials + Q&A
@@ -98,7 +98,7 @@
 	
 
 
-#### Week 8 (Mar 15) 
+#### Week 8 (Mar 8) 
 
 
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
@@ -106,7 +106,7 @@
 + Discussion
 
 
-#### Week 9 (Mar 22) 
+#### Week 9 (Mar 15) 
 
 + Project 3 submission and presentations
 
@@ -119,12 +119,12 @@
 
 ([starter codes](Projects_StarterCodes/Project4-MachineLearningFairness))
 
-#### Week 9 (Mar 22) 
+#### Week 9 (Mar 15) 
 
 - Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
 
 
-#### Week 10 (Mar 29)
+#### Week 10 (Mar 22)
 
 + Recap on project 4 requirements.
 + [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf) ([slides used in class](https://docs.google.com/presentation/d/1RQZZpXmt1i-DyEEAZTFiBvrpuePFMJh69tXEWDPJIO8/edit#slide=id.p))
@@ -132,14 +132,14 @@
 + Method assignment on Piazza
 
 
-#### Week 11 (Apr 5)
+#### Week 11 (Mar 29)
 
 - Q&A
 - Team meeting
 
 #### Thanksgiving break (Nov 23)
 
-#### Week 12 (Apr 12)
+#### Week 12 (Apr 5)
 
 + Project 4 presentations
 
@@ -152,11 +152,11 @@
 
 ### Project cycle 5: Free topic
 
-#### Week 12 (Apr 12)
+#### Week 12 (Apr 5)
 
 + Project 5 discussions
 
-#### Week 13 (Apr 19)
+#### Week 13 (Apr 12)
 + Project 5 Presentations
 + Project 3 performance: [a summary](Tutorials/project3_summary.pdf)
 + Take home message for the class
