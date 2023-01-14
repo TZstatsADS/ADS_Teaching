@@ -1,5 +1,5 @@
 # Stat GU4243/GR5243 Applied Data Science
-### Fall 2022 - Teaching Materials ([Syllabus](CourseInfo/G5243_ADS.md))
+### Fall 2022 - Teaching Materials ([Syllabus](CourseInfo/G5243_Fall_2022_ADS.md))
 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
 
@@ -12,7 +12,7 @@
 
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)([Github Classroom Link](https://classroom.github.com/a/P4Ak6-Ft))
-+ [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/ybliu9/How-Americans-Vote), [Repo2](https://github.com/TZstatsADS/Spring2021-Project1-aidris21), [Repo3](https://github.com/TZstatsADS/Spring2021-Project1-OlhaMaslova), [Repo4](https://github.com/TZstatsADS/Spring2021-Project1-Yytishere)
++ [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/14-Fall2022/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/ybliu9/How-Americans-Vote), [Repo2](https://github.com/TZstatsADS/Spring2021-Project1-aidris21), [Repo3](https://github.com/TZstatsADS/Spring2021-Project1-OlhaMaslova), [Repo4](https://github.com/TZstatsADS/Spring2021-Project1-Yytishere)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
 ####  Week 2 (Sep 14)
@@ -61,8 +61,8 @@
 
 #### Week 5 (Oct 5)
 
-+ [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
-+ [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
++ [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/14-Fall2022/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/14-Fall2022/Tutorials/wk5-sql.zip))
++ [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/14-Fall2022/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html)
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Discussion on project 2
 
@@ -93,7 +93,7 @@
 
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-WeaklySupervisedLearning/). 
 + Tutorials + Q&A
-	+ Tutorials: Basic Image Analysis [in Python](Tutorials/wk7-OpenCV_tutorial/Basic_Image_Analysis.ipynb), [in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-imageanalysis_R.html) ([zipped folder](Tutorials/wk7-ImageAnalysis_R.zip))
+	+ Tutorials: Basic Image Analysis [in Python](Tutorials/wk7-OpenCV_tutorial/Basic_Image_Analysis.ipynb), [in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/14-Fall2022/Tutorials/wk7-imageanalysis_R.html) ([zipped folder](Tutorials/wk7-ImageAnalysis_R.zip))
 	+ [Overview on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.slides.html)
 	
 
