@@ -1,5 +1,5 @@
 # Applied Data Science @ Columbia
-## Fall 2022
+## Spring 2023
 ## Project 1: A "data story" on the history of philosophy
 
 <img src="figs/100126-the-glass.jpeg" width="500">
@@ -7,7 +7,7 @@
 ### [Project Description](doc/)
 This is the first and only *individual* (as opposed to *team*) project this semester. 
 
-Term: Spring 2022
+Term: Spring 2023
 
 + Projec title: Lorem ipsum dolor sit amet
 + This project is conducted by [your name]
