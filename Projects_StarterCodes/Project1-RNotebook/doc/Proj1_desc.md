@@ -1,5 +1,5 @@
 ## Applied Data Science @ Columbia
-## STAT GR5243/GU4243 Spring 2022
+## STAT GR5243/GU4243 Spring 2023
 ### Project 1 A Notebook "Data Story" on the history of philosophy
 
 <img src="../figs/100126-the-glass.jpeg" width="400">
