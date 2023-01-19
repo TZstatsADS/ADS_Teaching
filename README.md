@@ -11,7 +11,7 @@
 #### Week 1 (Jan 18)
 
 + [Introduction to ADS](Tutorials/wk1-Intro.pdf)
-+ [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)([Github Classroom Link](https://classroom.github.com/a/P4Ak6-Ft))
++ [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md) (Github Classroom Link will be updated soon)<!--([Github Classroom Link](https://classroom.github.com/a/P4Ak6-Ft))-->
 + [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/ybliu9/How-Americans-Vote), [Repo2](https://github.com/TZstatsADS/Spring2021-Project1-aidris21), [Repo3](https://github.com/TZstatsADS/Spring2021-Project1-OlhaMaslova), [Repo4](https://github.com/TZstatsADS/Spring2021-Project1-Yytishere)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified)
 
