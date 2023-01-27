@@ -24,6 +24,8 @@
 + Submission and presentation for project 1
 + Discussion and Q&A
 
+<!--
+
 #### Week 3 (Feb 1)
 
 + Project 1 presentations.
@@ -46,7 +48,6 @@
    		+ the project description, 
    		+ an example **toy** shiny app. 
 
-<!--
 #### Week 4 (Feb 8)
 
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
