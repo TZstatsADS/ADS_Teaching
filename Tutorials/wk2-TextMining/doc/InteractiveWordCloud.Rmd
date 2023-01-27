@@ -2,8 +2,8 @@
 title: 'Tutorial (week 2): Interactive Word Cloud'
 runtime: shiny
 output:
-  html_document: default
   html_notebook: default
+  html_document: default
 ---
 
 This is an *Interactive* [R Markdown](http://rmarkdown.rstudio.com) Notebook. It generates an HTML notebook that would allow users to interactively explore your analysis results. 
