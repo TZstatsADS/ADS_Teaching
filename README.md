@@ -24,13 +24,11 @@
 + Submission and presentation for project 1
 + Discussion and Q&A
 
-<!--
-
 #### Week 3 (Feb 1)
 
 + Project 1 presentations.
 
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2022-project1&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2023-project1&type=all&language=&sort=)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
@@ -47,6 +45,7 @@
   	+ You can find in the *starter codes*: 
    		+ the project description, 
    		+ an example **toy** shiny app. 
+<!--
 
 #### Week 4 (Feb 8)
 
