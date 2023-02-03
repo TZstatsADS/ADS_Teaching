@@ -45,7 +45,6 @@
   	+ You can find in the *starter codes*: 
    		+ the project description, 
    		+ an example **toy** shiny app. 
-<!--
 
 #### Week 4 (Feb 8)
 
@@ -57,7 +56,7 @@
 + Peer review of Project 1
 + Discussion and Q&A
 
-
+<!--
 
 #### Week 5 (Feb 15)
 
