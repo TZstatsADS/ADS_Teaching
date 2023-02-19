@@ -63,8 +63,6 @@
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Discussion on project 2
 
-<!--
-
 #### Week 6 (Feb 22)
 
 + Project 2 presentations
@@ -86,6 +84,7 @@
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
 
+<!--
 
 #### Week 7 (Mar 1)
 
