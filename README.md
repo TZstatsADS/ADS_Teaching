@@ -85,8 +85,8 @@
     + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
     
 + Project 5 ideas
-  + [Hurricane exploration](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project1-EDAV)
-  + [Physics-informed Deep Learning](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project2-PhysicsML)
+  	+ [Hurricane exploration](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project1-EDAV)
+  	+ [Physics-informed Deep Learning](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project2-PhysicsML)
 
 <!--
 
