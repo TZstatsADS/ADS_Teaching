@@ -83,6 +83,10 @@
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
+    
++ Project 5 ideas
+  + [Hurricane exploration](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project1-EDAV)
+  + [Physics-informed Deep Learning](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project2-PhysicsML)
 
 <!--
 
