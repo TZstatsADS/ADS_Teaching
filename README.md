@@ -88,7 +88,6 @@
   + [Hurricane exploration](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project1-EDAV)
   + [Physics-informed Deep Learning](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project2-PhysicsML)
 
-<!--
 
 #### Week 7 (Mar 1)
 
@@ -97,7 +96,7 @@
 	+ Tutorials: Basic Image Analysis [in Python](Tutorials/wk7-OpenCV_tutorial/Basic_Image_Analysis.ipynb), [in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-imageanalysis_R.html) ([zipped folder](Tutorials/wk7-ImageAnalysis_R.zip))
 	+ [Overview on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.slides.html)
 	
-
+<!--
 
 #### Week 8 (Mar 8) 
 
