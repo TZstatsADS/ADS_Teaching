@@ -100,7 +100,7 @@
 
 
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
-+ Project 3 reminders
++ Project 3 reminders (on piazza)
 + Discussion
 
 #### Spring Break (Mar 15)
