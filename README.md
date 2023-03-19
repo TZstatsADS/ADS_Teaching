@@ -105,8 +105,6 @@
 
 #### Spring Break (Mar 15)
 
-<!--
-
 #### Week 9 (Mar 22) 
 
 + Project 3 submission and presentations
@@ -124,6 +122,7 @@
 
 - Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
 
+<!--
 
 #### Week 10 (Mar 29)
 
