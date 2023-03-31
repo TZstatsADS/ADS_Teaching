@@ -129,13 +129,11 @@
 + [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf) ([hand-written notes](Tutorials/wk10-fairness_methods.pdf))
 + Method assignment on Piazza
 
-<!--
-
 #### Week 11 (Apr 5)
 
-- Q&A
 - Team meeting
 
+<!--
 
 #### Week 12 (Apr 12)
 
