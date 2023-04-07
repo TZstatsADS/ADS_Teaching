@@ -133,8 +133,6 @@
 
 - Team meeting
 
-<!--
-
 #### Week 12 (Apr 12)
 
 + Project 4 presentations
@@ -151,6 +149,8 @@
 #### Week 12 (Apr 12)
 
 + Project 5 discussions
+
+<!--
 
 #### Week 13 (Apr 19)
 + Project 5 Presentations
