@@ -138,7 +138,7 @@
 + Project 4 presentations
 
 
-[Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2022-project4&type=&language=)
+[Finished student projects](https://github.com/TZstatsADS?q=Spring2023-project4&type=all&language=&sort=)
 
 ----
 
