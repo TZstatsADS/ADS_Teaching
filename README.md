@@ -153,11 +153,11 @@
 <!--
 
 #### Week 13 (Apr 19)
-+ Project 5 Presentations
 + Project 3 performance: [a summary](Tutorials/project3_summary.pdf)
 + Take home message for the class
 
-
+#### Week 14 (Apr 26)
++ Project 5 Presentations
 
 [Finished student projects](https://github.com/TZstatsADS?utf8=✓&q=Fall2022-project5&type=&language=)
 
