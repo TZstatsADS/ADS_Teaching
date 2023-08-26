@@ -1,5 +1,4 @@
-# ADS Project 1:  R Notebook on the history of philosophy
-
+# ADS Project 1: What made you happy today?
 ### Output folder
 
 The output directory contains analysis output, processed datasets, logs, or other processed things.

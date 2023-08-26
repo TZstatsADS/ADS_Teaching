@@ -1,0 +1,13 @@
+name: InteractiveWordCloud
+title: InteractiveWordCloud
+username:
+account: ganyuan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5513416
+bundleId: 5511417
+url: https://ganyuan.shinyapps.io/InteractiveWordCloud/
+when: 1643221420.96717
+lastSyncTime: 1643221420.96718
+asMultiple: FALSE
+asStatic: FALSE
