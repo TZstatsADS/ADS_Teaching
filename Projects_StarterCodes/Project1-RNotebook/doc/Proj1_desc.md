@@ -1,5 +1,5 @@
 ## Applied Data Science @ Columbia
-## STAT GR5243/GU4243 Fall 2018 
+## STAT GR5243/GU4243 Fall 2023 
 ### Project 1 An R Notebook Data Story on Happy Moments
 
 ![image](../figs/wordcloud.png)
