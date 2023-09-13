@@ -16,7 +16,6 @@
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified) | [Introduction to GitHub](https://docs.google.com/presentation/d/1osAuebFgVOSoTAOCVF10ZGVx7MTt7Cjn3PFQE7hELGQ/edit?usp=sharing) 
 
 
-<!--
 ####  Week 2 (September 11)
 
 + Recap on last week
@@ -26,6 +25,7 @@
 + Submission and presentation for project 1
 + Discussion and Q&A
 
+<!--
 #### Week 3 (September 18)
 
 + Project 1 presentations.
