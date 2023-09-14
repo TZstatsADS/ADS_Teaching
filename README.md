@@ -22,6 +22,7 @@
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
 + [An example R notebook on presidential speeches](Tutorials/wk2-TextMining) ([HTML](http://tzstatsads.github.io/tutorials/wk2_TextMining.html))
 + [Interactive Word Cloud](Tutorials/wk2-TextMining/doc/InteractiveWordCloud.Rmd)
++ [Intro to word2vec slides](https://docs.google.com/presentation/d/1fpSBM5aEAZo695y_kzB25osNGlF57p3gLybjXgcr8kw/edit?usp=sharing)
 + Submission and presentation for project 1
 + Discussion and Q&A
 
