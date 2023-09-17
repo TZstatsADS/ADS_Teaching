@@ -41,7 +41,7 @@ cat(x[1])
 ```
 
 Lemmatizing our text and using speech tag (verb, adverb, noun, adjective) will make representation easier (let's say we want to see all adjectives and nouns relative to the topic of animals).
-```{r speech tagging and lemmatizing, echo=FALSE}
+```{r speech tagging and lemmatizing, echo=FALSE,results='hide'}
 process_data <- function(x, n_topics){
   anno <- udpipe(x, "english", trace = 10, parallel.cores = 1)
   anno <- subset(anno, !is.na(lemma) & nchar(lemma) > 1 & !upos %in% "PUNCT")
@@ -118,3 +118,7 @@ geom_text_repel() + theme_void() + geom_text_repel(data=animal2, aes(x=x, y=y, l
 labs(title = "Most similar words to animal with word2vec - umap")
 save.image('/Users/clairehe/Documents/GitHub/STATGR2022/STATGR5243/figs/word2vec_genres.png')
 ```
+
+What seems to appear is that animals are a topic more correlated to happiness for men than for women. 
+
+
