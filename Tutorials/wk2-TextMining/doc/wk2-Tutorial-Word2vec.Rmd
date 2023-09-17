@@ -1,0 +1,120 @@
+---
+title: "Introduction to word2vec"
+author: "Claire He"
+date: "2023-09-16"
+output: pdf_document
+---
+
+
+
+```{r libraries, include=FALSE, echo=FALSE}
+library(word2vec)
+library(tidytext)
+library(dplyr)
+library(ggplot2)
+library(ggrepel)
+library(uwot)
+library(udpipe)
+```
+
+```{r data, warning=FALSE, echo=FALSE}
+#pathfile<-paste0(getwd(),'/output/processed_moments.csv')
+pathfile <- '/Users/clairehe/Documents/GitHub/ADS_Teaching/Projects_StarterCodes/Project1-RNotebook/output/processed_moments.csv'
+cleaned_data <- read.csv(pathfile)
+demo_data <- read.csv('https://raw.githubusercontent.com/megagonlabs/HappyDB/master/happydb/data/demographic.csv')
+head(cleaned_data$cleaned_hm)
+head(demo_data)
+```
+
+
+*Question*: Effect of animals on happiness across gender groups.
+
+We are going to use `word2vec` to try to investigate this question. 
+
+First convert the data to a list of characters to input into our model. Choose the dimension of the embedding (arbitrarily chose 15 but this is a tuning parameter you can try a few dimensions and see what works best for you). You can also choose either models based on `cbow` or `skipgram`.  We choose to represent the embedding with the umap dimension reduction method. You can also use t-SNE for another 2D mapping (see the Python tutorial). 
+
+## Overall vocabulary between happiness and animals
+
+```{r conversion}
+x <- tolower(cleaned_data$cleaned_hm)
+cat(x[1])
+```
+
+Lemmatizing our text and using speech tag (verb, adverb, noun, adjective) will make representation easier (let's say we want to see all adjectives and nouns relative to the topic of animals).
+```{r speech tagging and lemmatizing, echo=FALSE}
+process_data <- function(x, n_topics){
+  anno <- udpipe(x, "english", trace = 10, parallel.cores = 1)
+  anno <- subset(anno, !is.na(lemma) & nchar(lemma) > 1 & !upos %in% "PUNCT")
+  anno$text <- sprintf("%s//%s", anno$lemma, anno$upos)
+  x <- paste.data.frame(anno, term = "text", group = "doc_id", collapse = " ")
+  model <- word2vec(x = x$text, dim = n_topics, iter = 20, split = c(" ", ".\n?!"))
+  embedding <- as.matrix(model)
+
+  viz <- umap(embedding, n_neighbors = 15, n_threads = 2)
+  rownames(viz) <- rownames(embedding)
+
+  df <- data.frame(word = gsub("//.+", "", rownames(viz)),
+  upos = gsub(".+//", "", rownames(viz)),
+  x = viz[, 1], y = viz[, 2],
+  stringsAsFactors = FALSE)
+  df <- subset(df, upos %in% c("ADJ", "NOUN"))
+  return(list('data'=df,'model'=model))
+}
+
+l <- process_data(x, 15)
+```
+
+We now want to get the words most similar to animal in the embedding and we compare them to the words most similar to happy. 
+```{r most similar to animal, echo=FALSE}
+lookslike2 <- predict(l$model, c("animal//NOUN"), type = "nearest", top_n = 10)
+word_list_animal <- lookslike2$`animal//NOUN`$term2
+word_list_happiness <- predict(l$model, c("happy//ADJ"), type = "nearest", top_n = 50)$`happy//ADJ`$term2
+```
+
+```{r slicing, echo=FALSE}
+animal_df <- subset(l$data, rownames(l$data) %in% word_list_animal)
+happiness_df <- subset(l$data, rownames(l$data) %in% word_list_happiness)
+```
+
+
+```{r umap plot, echo=FALSE}
+options(ggrepel.max.overlaps = Inf) 
+ggplot(animal_df, aes(x = x, y = y, label = word, color='blue')) +
+geom_text_repel() + theme_void() + geom_text_repel(data=happiness_df, aes(x=x, y=y, label=word, color='red'))
+labs(title = "100 most similar words to animal with word2vec - umap")
+save.image('/Users/clairehe/Documents/GitHub/STATGR2022/STATGR5243/figs/word2vec_overall.png')
+```
+
+## Per gender 
+We need to combine `demo_data$gender` to `cleaned_data`, join on `wid`.
+```{r process data, echo=FALSE}
+gender_df <- merge(cleaned_data, demo_data)
+
+x_1 <- tolower(subset(gender_df, gender_df$gender == 'f')$cleaned_hm)
+x_2 <- tolower(subset(gender_df, gender_df$gender == 'm')$cleaned_hm)
+
+l_1 <- process_data(x_1, 15)
+l_2 <- process_data(x_2, 15)
+
+word_list_animal1 <- predict(l_1$model, c("animal//NOUN"), type = "nearest", top_n = 10)$`animal//NOUN`$term2
+word_list_happiness1 <- predict(l_1$model, c("happy//ADJ"), type = "nearest", top_n = 50)$`happy//ADJ`$term2
+word_list_animal2 <- predict(l_2$model, c("animal//NOUN"), type = "nearest", top_n = 10)$`animal//NOUN`$term2
+word_list_happiness2 <- predict(l_2$model, c("happy//ADJ"), type = "nearest", top_n = 50)$`happy//ADJ`$term2
+
+animal1 <- subset(l_1$data, rownames(l_1$data) %in% word_list_animal1)
+happiness1 <- subset(l_1$data, rownames(l_1$data) %in% word_list_happiness1)
+animal2 <- subset(l_2$data, rownames(l_2$data) %in% word_list_animal2)
+happiness2 <- subset(l_2$data, rownames(l_2$data) %in% word_list_happiness2)
+```
+
+
+```{r umap plot with genres, warning=FALSE, echo=FALSE}
+options(ggrepel.max.overlaps = Inf) 
+ggplot(animal1, aes(x = x, y = y, label = word, color='blue')) +
+geom_text_repel() + theme_void() + geom_text_repel(data=happiness1, aes(x=x, y=y, label=word, color='red')) +
+geom_text_repel() + theme_void() + geom_text_repel(data=happiness2, aes(x=x, y=y, label=word, color='magenta')) +
+geom_text_repel() + theme_void() + geom_text_repel(data=animal2, aes(x=x, y=y, label=word, color='cyan')) + scale_color_manual(values=c("blue", "red", "magenta", 'cyan'),
+                          labels = c("women - animal", "men - animal", "men - happiness", 'women - happiness'))
+labs(title = "Most similar words to animal with word2vec - umap")
+save.image('/Users/clairehe/Documents/GitHub/STATGR2022/STATGR5243/figs/word2vec_genres.png')
+```
