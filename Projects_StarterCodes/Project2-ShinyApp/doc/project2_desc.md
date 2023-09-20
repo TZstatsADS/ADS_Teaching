@@ -4,7 +4,7 @@
 
 ### Challenge
 
-Since 1979, the Federal Emergency Management Agency (FEMA) has been the Federal Government’s lead agency in responding to and recovering from many of the Nation’s greatest moments of crisis. For this project, we invite you to develop an *Exploratory Data Analysis and Visualization* shiny app using [**one of the OpenFEMA Data Sets**](https://www.fema.gov/about/openfema/data-sets) of your choice. Working in teams, you will create the app for exploring and visualizing the data. The design of the visualization tool should be well motivated by the subject area of your choice.
+Since 1979, the Federal Emergency Management Agency (FEMA) has been the Federal Government’s lead agency in responding to and recovering from many of the Nation’s greatest moments of crisis. For this project, we invite you to develop an *Exploratory Data Analysis and Visualization* shiny app using one of [**the OpenFEMA Data Sets**](https://www.fema.gov/about/openfema/data-sets) of your choice. Working in teams, you will create the app for exploring and visualizing the data. The design of the visualization tool should be well motivated by the subject area of your choice.
 
 For presentation, the team should present their **shiny app** as a *product demo*, supported by interesting findings that are visualized by this app. Teams can also share technical challenges and their creative solutions. All shiny apps are required to be deployed (either on <http://www.shinyapps.io/> or your own Shiny server).
 
