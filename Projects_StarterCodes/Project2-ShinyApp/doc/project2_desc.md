@@ -1,13 +1,10 @@
 ### GR5243/GU4243 Fall 2021 Applied Data Science
 ### Project 2 Shiny App Development
-### --- App Development for under-explored topic on COVID-19 data
-
-The COVID-19 pandemic has greatly influenced NYC in many ways, from transportation to public health, to schools and restaurants. Over the past 20 months, the city went through lockdown, reopen, a second wave, a quick rollout of vaccinations, and now an uncertain flu season. How have these ups and downs impacted NYC? Have there been changes in policies and operations? How the pandemic changed different neighborhoods differently?
-
+### --- App Development using OpenFEMA data
 
 ### Challenge
 
-For this project, we invite you to develop an *Exploratory Data Analysis and Visualization* shiny app on the work of a **NYC government agency/program** of your choice using NYC open data released on the [NYC Open Data By Agency](https://opendata.cityofnewyork.us/data/) website. NYC's [Mayor's Management Report](https://www1.nyc.gov/assets/operations/downloads/pdf/mmr2021/2021_mmr.pdf) provides a comprehensive overview of New York City's various departments and agencies that serve the city. Working in teams, you will create the app for exploring and visualizing the work or programs of your chosen NYC agency during the COVID pandemic. Many NYC's agencies have adjusted their work or rolled out new programs due to COVID, your app should provide ways for a user to explore quantitative measures of how covid has impacted daily life in NYC from different prospectives and/or allow city officials to consolidate trends from different data sets, different neighborhoods and different time periods to make meaningful comparison. The design of the visualization tool should be well motivated by the operational area or department of your choice.
+Since 1979, the Federal Emergency Management Agency (FEMA) has been the Federal Government’s lead agency in responding to and recovering from many of the Nation’s greatest moments of crisis. For this project, we invite you to develop an *Exploratory Data Analysis and Visualization* shiny app using [**one of the OpenFEMA Data Sets**](https://www.fema.gov/about/openfema/data-sets) of your choice. Working in teams, you will create the app for exploring and visualizing the data. The design of the visualization tool should be well motivated by the subject area of your choice.
 
 For presentation, the team should present their **shiny app** as a *product demo*, supported by interesting findings that are visualized by this app. Teams can also share technical challenges and their creative solutions. All shiny apps are required to be deployed (either on <http://www.shinyapps.io/> or your own Shiny server).
 
@@ -37,7 +34,7 @@ Each week, we will give a tutorial in class and having live discussion and brain
 *(More details will be posted as grading rubrics in courseoworks/canvas)*
 
 ### Suggested team workflow
-1. [wk1] Week 1 is the **studying & planning** week. Read project description, the [Mayor's Management Report](https://www1.nyc.gov/assets/operations/downloads/pdf/mmr2021/2021_mmr.pdf), data description, browse data and brainstorm for ideas.
+1. [wk1] Week 1 is the **studying & planning** week. Read project description, data description, browse data and brainstorm for ideas.
 2. [wk1] Each team is strongly recommended to demonstrate project progress by posting a project plan with task assignments, either in piazza or as issues on GitHub before week 2. 
 3. [wk1] As a team, study interesting data sets together (not necessarily face-to-face). During the discussion, discuss a number of key analyses/functionalities carefully and discuss possible design ideas.
      * "What information is of value or interesting?"
