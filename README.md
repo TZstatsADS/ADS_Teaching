@@ -43,7 +43,7 @@
 #### Week 3 (September 20)
 
 + [Project 2](Projects_StarterCodes/Project2-ShinyApp) starts.
-  	+ Check Piazza for your project team and [GitHub join link](https://classroom.github.com/a/AomA3-0N).
+  	+ Check Piazza for your project team and follow the [video instructions](https://drive.google.com/file/d/1s2YWkf2PnMCWzzPWsshMU0bfoCOn63o7/view?usp=sharing) to clone [the starter codes](https://github.com/TZstatsADS/Project2-ShinyApp).
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes*: 
    		+ the project description, 
