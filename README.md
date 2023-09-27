@@ -55,7 +55,7 @@
 + Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
 + [A note on contribution](Projects_StarterCodes/Project2-ShinyApp/doc/a_note_on_contributions.md)
 + Shiny Tutorial ([zipped folder](Tutorials/wk4-Shiny_tutorial.zip)) ([online link](https://diane.shinyapps.io/Shiny_tutorial/))
-+ [Intro to OpenFEMA] (Tutorials/wk4-FEMA)
++ [Intro to OpenFEMA] (Tutorials/wk4-FEMA/)
 + Shiny Examples from previous semesters (Example 1: [Online](https://liqiaosally.shinyapps.io/app1/), [Repo](https://github.com/TZstatsADS/Spring2021-Project2-group6); Example 2: [Online](https://arya-ayati.shinyapps.io/Project2-Group1/), [Repo](https://github.com/TZstatsADS/Fall2021-Project2-group1))
 + Peer review of Project 1
 + Discussion and Q&A
