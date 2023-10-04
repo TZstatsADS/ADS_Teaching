@@ -60,7 +60,6 @@
 + Peer review of Project 1
 + Discussion and Q&A
 
-<!--
 #### Week 5 (October 2)
 
 + [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
@@ -68,6 +67,7 @@
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Discussion on project 2
 
+<!--
 #### Week 6 (October 9)
 
 + Project 2 presentations
