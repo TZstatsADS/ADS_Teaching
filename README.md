@@ -31,7 +31,7 @@
 
 + Project 1 presentations.
 
-[Finished student projects](link-to-be-added)
+[Finished student projects](TBD)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
@@ -67,28 +67,30 @@
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Discussion on project 2
 
-<!--
-#### Week 6 (October 9)
+
+#### Week 6 (October 11)
 
 + Project 2 presentations
 
-[Finished student projects](https://github.com/TZstatsADS?q=Spring2023-project2&type=all&language=&sort=)
+[Finished student projects](TBD)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
 
 ### Project cycle 3: Predictive analytics of climate data
 
-([starter codes](Projects_StarterCodes/Project3-WeaklySupervisedLearning)) 
+([starter codes](Projects_StarterCodes/Project3-ClimSim)) 
 
-#### Week 6 (October 9)
+#### Week 6 (October 11)
 
-+ [Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md) starts.
-  + Check Piazza for your project team and GitHub join link at the end of this week.
++ [Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md) starts.
+  + Check Piazza for your project team and join your project group using the [GitHub classroom link](https://classroom.github.com/a/f0BWTHBa) at the end of this week.
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
-    + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
-    
+    + [Intro to Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md)
+
+
+<!--
 + Project 5 ideas
   + [Hurricane exploration](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project1-EDAV)
   + [Physics-informed Deep Learning](https://github.com/leap-stc/LEAPCourse-Climate-Pred-Challenges/tree/main/Project-StarterCodes/Project2-PhysicsML)
