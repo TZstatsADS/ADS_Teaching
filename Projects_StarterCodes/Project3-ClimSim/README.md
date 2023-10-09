@@ -1,9 +1,11 @@
-# Project: Weakly supervised learning-- label noise and correction
+# Project: ClimSim - Machine Learning for Climate Modeling
 
 
 ### [Full Project Description](doc/project3_desc.md)
 
-Term: Spring 2023
+<img src="https://leap-stc.github.io/ClimSim/_images/fig_1.png" alt="climsim" width="300"/>
+
+Term: Fall 2023
 
 + Team ##
 + Team members
