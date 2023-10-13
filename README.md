@@ -84,7 +84,7 @@
 #### Week 6 (October 11)
 
 + [Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md) starts.
-  + Check Piazza for your project team and join your project group using the [GitHub classroom link](https://classroom.github.com/a/f0BWTHBa) at the end of this week.
+  + Check Piazza for your project team and follow the [video instructions](https://drive.google.com/file/d/1s2YWkf2PnMCWzzPWsshMU0bfoCOn63o7/view?usp=sharing) to clone [the starter codes](https://github.com/TZstatsADS/Project3-ClimSim).
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md)
