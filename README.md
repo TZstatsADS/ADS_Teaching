@@ -94,7 +94,7 @@
 
 
 + Presentation of ClimSim paper by Prof. Sungduk Yu
-+ Q&A and Help/Discussion Session 
++ Q&A and Help/Discussion Session with a student who worked on ClimSim previously.
 
 
 
@@ -102,6 +102,7 @@
 
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
 + Tutorial on [Huggingface](https://github.com/erialc-cal/STATGR2022/blob/main/STATGR5243/doc/wk7-proj3-Huggingface.ipynb)
++ Q&A and Brainstorming session
 
 
 <!--
