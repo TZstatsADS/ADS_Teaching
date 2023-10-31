@@ -118,9 +118,11 @@
 ([starter codes](Projects_StarterCodes/Project4-MachineLearningFairness))
 
 #### Week 9 (November 1)
+
 - Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
 + [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf) ([slides used in class](https://docs.google.com/presentation/d/1RQZZpXmt1i-DyEEAZTFiBvrpuePFMJh69tXEWDPJIO8/edit#slide=id.p))
 + [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf) ([hand-written notes](Tutorials/wk10-fairness_methods.pdf))
++ Find your group for project 4 and clone the [template repository](https://github.com/TZstatsADS/Project4-MachineLearningFairness) following the video instructions. 
   
 <!--
 
