@@ -105,12 +105,10 @@
 + Q&A and Brainstorming session
 
 
-<!--
-#### Week 9 (October 30)
+
+#### Week 9 (November 1)
 
 + Project 3 submission and presentations
-
-[Finished student projects](https://github.com/TZstatsADS?q=Spring2023-project3&type=all&language=&sort=)
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) |  [Project 5](#project-cycle-5-free-topic)
@@ -119,14 +117,16 @@
 
 ([starter codes](Projects_StarterCodes/Project4-MachineLearningFairness))
 
-#### Week 9 (October 30)
+#### Week 9 (November 1)
 - Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
++ [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf) ([slides used in class](https://docs.google.com/presentation/d/1RQZZpXmt1i-DyEEAZTFiBvrpuePFMJh69tXEWDPJIO8/edit#slide=id.p))
++ [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf) ([hand-written notes](Tutorials/wk10-fairness_methods.pdf))
+  
+<!--
 
 #### Week 10 (November 6)
 
 + Recap on project 4 requirements.
-+ [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf) ([slides used in class](https://docs.google.com/presentation/d/1RQZZpXmt1i-DyEEAZTFiBvrpuePFMJh69tXEWDPJIO8/edit#slide=id.p))
-+ [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf) ([hand-written notes](Tutorials/wk10-fairness_methods.pdf))
 + Method assignment on Piazza
 
 #### Week 11 (November 13) 
