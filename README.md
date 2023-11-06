@@ -124,13 +124,13 @@
 + Updated slides: [Methods for Machine Learning Fairness](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk10-Methods-Fairness.pdf) | Previous slides: [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf) ([hand-written notes](Tutorials/wk10-fairness_methods.pdf))
 + Find your group for project 4 and clone the [template repository](https://github.com/TZstatsADS/Project4-MachineLearningFairness) following the video instructions. 
   
-<!--
 
-#### Week 10 (November 6)
+
+#### Week 10 (November 8)
 
 + Recap on project 4 requirements.
 + Method assignment on Piazza
-
+<!--
 #### Week 11 (November 13) 
 - Team meeting
   
