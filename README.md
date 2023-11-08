@@ -128,19 +128,20 @@
 
 #### Week 10 (November 8)
 
-+ Recap on project 4 requirements.
++ Talk on fairness (see slides)
++ Overview on the methods 
 + Method assignment on Piazza
-<!--
-#### Week 11 (November 13) 
-- Team meeting
+
+#### Week 11 (November 15) 
+- 1st half : Form groups and brainstorm for subject of project 5
+- 2nd half : Team meeting/helproom for project 4
   
-#### Week 12 (November 20)
+#### Week 12 (November 22)
 #### Thankgsgiving  Break (November 22) 
-#### Week 13 (November 27) 
+#### Week 13 (November 29) 
 + Project 4 presentations
 
-[Finished student projects](https://github.com/TZstatsADS?q=Spring2023-project4&type=all&language=&sort=)
-
+<!--
 ----
 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) 
