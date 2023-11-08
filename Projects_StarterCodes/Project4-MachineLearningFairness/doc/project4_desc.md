@@ -66,6 +66,9 @@ Each week, we will give a tutorial in class and having live discussion and brain
 
 4. [Fairness Beyond Disparate Treatment & Disparate Impact: Learning Classification without Disparate Mistreatment](https://arxiv.org/abs/1610.08452)
 
+5. [Fairness-aware Classifier with Prejudice Remover Regularizer](https://www.kamishima.net/archive/2012-p-ecmlpkdd-print.pdf)
+   
+6. [Handling Conditional Discrimination](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6137304)
 
 #### Existing R/Python functions that can be part of your implementation. 
 
