@@ -1,4 +1,4 @@
-### GR5243 Spring 2022 Applied Data Science
+### GR5243 Fall 2023 Applied Data Science
 ### Project 4 Machine Learning Fairness Algorithms Evaluation
 
 In this project, working in teams, you will implement, evaluate and **compare** algorithms for **Machine Learning Fairness**.
