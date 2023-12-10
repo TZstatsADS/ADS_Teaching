@@ -4,7 +4,7 @@
 - RAM: At least 16GB (32GB Recommended for the )
 - Processor: Multicore with good processing speed
 - Python: Version 3.9 or later
-- Storage: SSD with sample space for large datasets
+- Storage: SSD with ample space for large datasets
 
 ## **Introduction** <br>
 This document complies the experiences of various students with different system setups while working on the CLimSim projects. 
