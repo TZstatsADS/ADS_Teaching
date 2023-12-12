@@ -14,7 +14,7 @@ It includes the challegenges they faced and the solution they have tried.
 1. **Error in importing data_utils**
    - **Issue:** climsim_utils.data_utils not found, when import data_utils. Encountered while running locally on Mac and Google Colab.
    - **Resolution:** Cloned the ClimSim Github Repository and installed necessary packages.
-2. **Memory limitation on Microsoft and Google Colab**
+2. **Memory limitation on Microsoft PCs and Google Colab**
    - **Issue:** Out of memory error during processing.
    - **Resolution:** Resampling the data to a smaller size; building a VM with specified RAM on Google Cloud Platform for Colab
 3. **Hardware and Software Constraints**
@@ -22,7 +22,7 @@ It includes the challegenges they faced and the solution they have tried.
    - **Resolution:** Using cloud platforms with scalable resources and recommended hardware upgrades.
 4. **Loading data into Google Colab**
    - **Issue:** Inability to load data using provided code.
-   - **Resolution:** Using Git LFS for large file storage and mounted the necessary files from Google Drive.
+   - **Resolution:** Using Git LFS for large file storage and mounting the necessary files from Google Drive.
 5. **Data upload inefficiency**
    - **Issue:** Long upload times for data to Google Drive.
    - **Resolution:** Subsetted the data before upload to reduce size and time.
@@ -34,7 +34,7 @@ It includes the challegenges they faced and the solution they have tried.
    - **Issue:** Default Python version3.5 too old
    - **Resolution:** Upgraded to Python3.10 using Anaconda and configured the environment.
 8. **Python and TensorFlow Compatibility**
-   - **Issue:** Version incomptibility leading to execution failures.
+   - **Issue:** Version incompatibility leading to execution failures.
    - **Resolution:** Upgraded and downgraded to compatible versions of Python and TensorFlow. (Python3.11 might work)
 9. **Insufficient RAM for HuggingFace Datasets in Jupyter Notebook**
    - **Issue:** Jupyter Notebook through GCP couldn't handle large datasets.
@@ -45,14 +45,14 @@ It includes the challegenges they faced and the solution they have tried.
 11. **Environment Setup and Package Installation Issues**
     - **Issue:** Kernel crash due to failed ClimSim package installation issue
     - **Resolution:** Installed packages directly from the GitHub root directory.
-12. **File Path Coonfiguration**
+12. **File Path Configuration**
     - **Issue:** Incorrect file paths in local settings
     - **Resolution:** Verified and corrected file paths to match the GitHub repository structure.
 13. **Pathway and Dependency Management**
-    - **Issue:** Absolute pathways and missing dependencies causing erros.
-    - **Resolution:** Switched to relative pathways nd created a virtual environment for dependency management.
+    - **Issue:** Absolute pathways and missing dependencies causing errors.
+    - **Resolution:** Switched to relative pathways and created a virtual environment for dependency management.
 14. **Collaboration and Data Consistency**
-    - **Issue:** Inconsistent file access and paths amoung team members.
-    - **Resolution:** Established a centrralized directory on Google Drive for uniform access. 
+    - **Issue:** Inconsistent file access and paths among team members.
+    - **Resolution:** Established a centralized directory on Google Drive for uniform access. 
   
    
