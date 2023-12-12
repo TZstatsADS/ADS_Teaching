@@ -18,7 +18,7 @@ It includes the challegenges they faced and the solution they have tried.
    - **Issue:** Out of memory error during processing.
    - **Resolution:** Resampling the data to a smaller size; building a VM with specified RAM on Google Cloud Platform for Colab
 3. **Hardware and Software Constraints**
-   - **Issue:** Recusrring system crashes due to hardware limitations.
+   - **Issue:** Recurring system crashes due to hardware limitations.
    - **Resolution:** Using cloud platforms with scalable resources and recommended hardware upgrades.
 4. **Loading data into Google Colab**
    - **Issue:** Inability to load data using provided code.
