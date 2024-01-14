@@ -1,5 +1,5 @@
 # Stat GU4243/GR5243 Applied Data Science
-### Fall 2023 - Teaching Materials ([Syllabus](CourseInfo/G5243_ADS.md))
+### Spring 2024 - Teaching Materials ([Syllabus](CourseInfo/G5243_ADS.md))
 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
 
@@ -8,7 +8,7 @@
 
 ([starter codes](Projects_StarterCodes/Project1-RNotebook))
 
-#### Week 1 (September 5)
+#### Week 1 (January 15)
 
 + [Introduction to ADS](https://docs.google.com/presentation/d/1AemYDwQ1e36bONf-AVlY9Dq-Cmt8CO7qT7qyjzVFwDc/edit#slide=id.p)
 + [Project 1 description](Projects_StarterCodes/Project1-RNotebook/doc/Proj1_desc.md)([Github Classroom Link](https://classroom.github.com/a/noe7H4ud))
@@ -16,7 +16,7 @@
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified) | [Introduction to GitHub](https://docs.google.com/presentation/d/1osAuebFgVOSoTAOCVF10ZGVx7MTt7Cjn3PFQE7hELGQ/edit?usp=sharing) 
 
 
-####  Week 2 (September 11)
+####  Week 2 (January 22)
 
 + Recap on last week
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
@@ -27,7 +27,7 @@
 + Discussion and Q&A
 
 
-#### Week 3 (September 20)
+#### Week 3 (January 29)
 
 + Project 1 presentations.
 
@@ -40,7 +40,7 @@
 
 ([starter codes](Projects_StarterCodes/Project2-ShinyApp))
 
-#### Week 3 (September 20)
+#### Week 3 (January 29)
 
 + [Project 2](Projects_StarterCodes/Project2-ShinyApp) starts.
   	+ Check Piazza for your project team and follow the [video instructions](https://drive.google.com/file/d/1s2YWkf2PnMCWzzPWsshMU0bfoCOn63o7/view?usp=sharing) to clone [the starter codes](https://github.com/TZstatsADS/Project2-ShinyApp).
@@ -49,7 +49,7 @@
    		+ the project description, 
    		+ an example **toy** shiny app. 
 
-#### Week 4 (September 25)
+#### Week 4 (February 5)
 
 + [Spatial data visualization](Tutorials/wk4-DataVis.pdf)
 + Tutorial on project 2 - [Introduction to shiny app](http://tzstatsads.github.io/tutorials/wk3_Tutorial2.html) ([app](Projects_StarterCodes/Project2-ShinyApp/app/))
@@ -60,7 +60,7 @@
 + Peer review of Project 1
 + Discussion and Q&A
 
-#### Week 5 (October 2)
+#### Week 5 (February 12)
 
 + [Tutorial on SQL in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/sql.html)([zipped folder](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-sql.zip))
 + [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html), [Slides](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-RShiny%20deployment%20on%20GCP.pdf)
@@ -68,7 +68,7 @@
 + Discussion on project 2
 
 
-#### Week 6 (October 11)
+#### Week 6 (February 19)
 
 + Project 2 presentations
 
@@ -81,7 +81,7 @@
 
 ([starter codes](Projects_StarterCodes/Project3-ClimSim)) 
 
-#### Week 6 (October 11)
+#### Week 6 (February 19)
 
 + [Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md) starts.
   + Check Piazza for your project team and follow the [video instructions](https://drive.google.com/file/d/1s2YWkf2PnMCWzzPWsshMU0bfoCOn63o7/view?usp=sharing) to clone [the starter codes](https://github.com/TZstatsADS/Project3-ClimSim).
@@ -90,7 +90,7 @@
     + [Intro to Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md)
 
 
-#### Week 7 (October 18))
+#### Week 7 (February 26)
 
 
 + Presentation of ClimSim paper by Prof. Sungduk Yu
@@ -98,15 +98,15 @@
 
 
 
-#### Week 8 (October 25)
+#### Week 8 (March 4)
 
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
 + Tutorial on [Huggingface](https://github.com/erialc-cal/STATGR2022/blob/main/STATGR5243/doc/wk7-proj3-Huggingface.ipynb)
 + Q&A and Brainstorming session
 
+#### Spring Break (March 11)
 
-
-#### Week 9 (November 1)
+#### Week 9 (March 18)
 
 + Project 3 submission and presentations
 
@@ -117,7 +117,7 @@
 
 ([starter codes](Projects_StarterCodes/Project4-MachineLearningFairness))
 
-#### Week 9 (November 1)
+#### Week 9 (March 18)
 
 - Introduction to [Project 4](Projects_StarterCodes/Project4-MachineLearningFairness/doc/project4_desc.md)
 + [Machine Learning Fairness Introduction](Tutorials/wk10-Intro_ML_fairness.pdf) ([slides used in class](https://docs.google.com/presentation/d/1RQZZpXmt1i-DyEEAZTFiBvrpuePFMJh69tXEWDPJIO8/edit#slide=id.p))
@@ -126,19 +126,20 @@
   
 
 
-#### Week 10 (November 8)
+#### Week 10 (March 25)
 
 + Talk on fairness (see slides)
 + Overview on the methods 
 + Method assignment on Piazza
 
-#### Week 11 (November 15) 
+#### Week 11 (April 1) 
 - 1st half : Form groups and brainstorm for subject of project 5
 - 2nd half : Team meeting/helproom for project 4
   
-#### Week 12 (November 22)
-#### Thankgsgiving  Break (November 22) 
-#### Week 13 (November 29) 
+#### Week 12 (April 8)
+
+
+#### Week 13 (April 15) 
 + Project 4 presentations
 
 <!--
@@ -151,13 +152,13 @@
 
 + Project 5 discussions
 
-#### Week 13 (November 27)
+#### Week 13 (April 15)
 + Project 3 performance: [a summary](Tutorials/project3_summary.pdf)
 + Take home message for the class
 
-#### Week 14 (December 4)
+#### Week 14 (April 22)
 
-#### Week 15 (December 11)
+#### Week 15 (April 29)
 + Project 5 Presentations
 
 [Finished student projects](https://github.com/TZstatsADS?q=Spring2023-project5&type=all&language=&sort=)
