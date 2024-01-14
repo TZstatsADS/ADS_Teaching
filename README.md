@@ -15,6 +15,8 @@
 + [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/ybliu9/How-Americans-Vote), [Repo2](https://github.com/TZstatsADS/Spring2021-Project1-aidris21), [Repo3](https://github.com/TZstatsADS/Spring2021-Project1-OlhaMaslova), [Repo4](https://github.com/TZstatsADS/Spring2021-Project1-Yytishere) | [An example on Jupyter Notebook](https://github.com/erialc-cal/STATGR2022/blob/main/STATGR5243/doc/wk1-introduction-to-Jupyter.ipynb)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified) | [Introduction to GitHub](https://docs.google.com/presentation/d/1osAuebFgVOSoTAOCVF10ZGVx7MTt7Cjn3PFQE7hELGQ/edit?usp=sharing) 
 
+<!--
+----
 
 ####  Week 2 (January 22)
 
@@ -141,9 +143,6 @@
 
 #### Week 13 (April 15) 
 + Project 4 presentations
-
-<!--
-----
 
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) 
 
