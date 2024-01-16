@@ -1,13 +1,13 @@
 # Applied Data Science @ Columbia
-## Spring 2023
-## Project 1: A "data story" on the history of philosophy
+## Fall 2023
+## Project 1: What made you happy today?
 
-<img src="figs/100126-the-glass.jpeg" width="500">
+![image](figs/title.jpeg)
 
-### [Project Description](doc/)
-This is the first and only *individual* (as opposed to *team*) project this semester. 
+### [Project Description](doc/Proj1_desc.md)
+This is the first and only *individual* (as opposed to *team*) this semester. 
 
-Term: Spring 2023
+Term: Fall 2023
 
 + Projec title: Lorem ipsum dolor sit amet
 + This project is conducted by [your name]

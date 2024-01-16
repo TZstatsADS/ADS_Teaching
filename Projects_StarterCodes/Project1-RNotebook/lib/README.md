@@ -1,6 +1,5 @@
-# ADS Project 1:  R Notebook on the history of philosophy
+# ADS Project 1: What made you happy today?
+### Code lib Folder
 
-### Code dev/lib Folder
-
-The lib directory contains various files with function definitions and computation codes for your data analysis. 
+The lib directory contains various files with function definitions (but only function definitions - no code that actually runs).
 
