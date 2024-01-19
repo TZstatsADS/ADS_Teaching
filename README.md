@@ -15,7 +15,7 @@
 + [Tutorial 1 R Notebook](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-RNotebook/wk1-rnotebook.html) + Example: [Repo](https://github.com/TZstatsADS/Fall2018-Proj1-wanghouyaoleyao) | [Knitted HTML R Notebook](http://tzstatsads.github.io/tutorials/proj1_jiaqianyu.html) | [Presentation](https://www.youtube.com/watch?v=tBIuh_tZ98Q&feature=youtu.be) + More Examples: [Repo1](https://github.com/ybliu9/How-Americans-Vote), [Repo2](https://github.com/TZstatsADS/Spring2021-Project1-aidris21), [Repo3](https://github.com/TZstatsADS/Spring2021-Project1-OlhaMaslova), [Repo4](https://github.com/TZstatsADS/Spring2021-Project1-Yytishere) | [An example on Jupyter Notebook](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk1-introduction-to-Jupyter.ipynb)
 + [A tutorial on GitHub](Tutorials/wk1-GitHub_simplified) | [Introduction to GitHub](https://docs.google.com/presentation/d/1tnh78LAmN6IfXXBE5VGix0Er5FTBBKepEvjcLCawiKM/edit?usp=sharing) 
 
-<!--
+
 ----
 
 ####  Week 2 (January 22)
@@ -27,7 +27,7 @@
 + [Intro to word2vec slides](https://docs.google.com/presentation/d/1fpSBM5aEAZo695y_kzB25osNGlF57p3gLybjXgcr8kw/edit?usp=sharing) | [R Notebook tutorial for word2vec](https://github.com/erialc-cal/STATGR2022/blob/main/STATGR5243/doc/wk2-Tutorial-Word2vec.Rmd) | [Jupyter Notebook Tutorial for word2vec](https://github.com/erialc-cal/STATGR2022/blob/main/STATGR5243/doc/wk2-tutorial-word2vec.ipynb)
 + Submission and presentation for project 1
 + Discussion and Q&A
-
+<!--
 
 #### Week 3 (January 29)
 
