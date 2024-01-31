@@ -1,0 +1,510 @@
+---
+title: 'Changes in life values for females of different age groups'
+output: html_notebook
+---
+
+ 
+#### The whole dataset: HappyDB is a corpus of 100,000 crowd-sourced happy moments via Amazon's Mechanical Turk. You can read more about it on https://arxiv.org/abs/1801.07746. But I only use a subset of this dataset to conduct data analysis in this report.
+  
+  
+```{r, warning=FALSE, message=FALSE,echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+library(tm)
+library(tidytext)
+library(tidyverse)
+library(DT)
+library(wordcloud)
+library(scales)
+library(gridExtra)
+library(ngram)
+library(igraph)
+library(ggraph)
+library(rsconnect)
+```
+
+
+
+```{r read data, warning=FALSE, message=FALSE,echo=FALSE}
+hm_data <- read.csv('https://raw.githubusercontent.com/megagonlabs/HappyDB/master/happydb/data/cleaned_hm.csv',stringsAsFactors = FALSE)
+```
+
+
+```{r text processing in tm,warning=FALSE, message=FALSE,echo=FALSE}
+corpus <- VCorpus(VectorSource(hm_data$cleaned_hm))%>%
+  tm_map(content_transformer(tolower))%>%
+  tm_map(removePunctuation)%>%
+  tm_map(removeNumbers)%>%
+  tm_map(removeWords, character(0))%>%
+  tm_map(stripWhitespace)
+```
+
+
+```{r stemming,warning=FALSE, message=FALSE,echo=FALSE}
+stemmed <- tm_map(corpus, stemDocument) %>%
+  tidy() %>%
+  select(text)
+```
+
+
+```{r tidy dictionary,warning=FALSE, message=FALSE,echo=FALSE}
+dict <- tidy(corpus) %>%
+  select(text) %>%
+  unnest_tokens(dictionary, text)
+```
+
+
+```{r stopwords,warning=FALSE, message=FALSE,echo=FALSE}
+data("stop_words")
+
+word <- c("happy","ago","yesterday","lot","today","months","month",
+                 "happier","happiest","last","week","past","day","time")
+
+stop_words <- stop_words %>%
+  bind_rows(mutate(tibble(word), lexicon = "updated"))
+```
+
+
+```{r tidy stems with dictionary,warning=FALSE, message=FALSE,echo=FALSE}
+completed <- stemmed %>%
+  mutate(id = row_number()) %>%
+  unnest_tokens(stems, text) %>%
+  bind_cols(dict) %>%
+  anti_join(stop_words, by = c("dictionary" = "word"))
+```
+
+```{r stem completion, warning=FALSE, message=FALSE,echo=FALSE}
+completed <- completed %>%
+  group_by(stems) %>%
+  count(dictionary) %>%
+  mutate(word = dictionary[which.max(n)]) %>%
+  ungroup() %>%
+  select(stems, word) %>%
+  distinct() %>%
+  right_join(completed) %>%
+  select(-stems)
+```
+
+
+```{r reverse unnest,warning=FALSE, message=FALSE,echo=FALSE}
+completed <- completed %>%
+  group_by(id) %>%
+  summarise(text = str_c(word, collapse = " ")) %>%
+  ungroup()
+```
+
+
+```{r cleaned hm_data, warning=FALSE, message=FALSE,echo=FALSE}
+hm_data <- hm_data %>%
+  mutate(id = row_number()) %>%
+  inner_join(completed)
+```
+
+```{r export data,echo=FALSE}
+write_csv(hm_data, "result_moments.csv")  
+```
+
+First, I processed the raw textual data 'cleaned_hm.csv' saved in $ data $ file by cleaning data, removing stopwords and creating a tidy version of texts which is saved in $ output $ file.
+
+Then, I combined the processed text with demographic information 'demographic.csv' saved in $ data $ file to generate the dataset for this report.
+
+```{r, message=FALSE,echo=FALSE}
+# Step 1 - Load the processed text data along with demographic information on contributors
+
+# We use the processed data for our analysis and combine it with the demographic information available.
+hm_data <- read_csv("result_moments.csv")
+
+demo_data <- read.csv('https://raw.githubusercontent.com/megagonlabs/HappyDB/master/happydb/data/demographic.csv')
+```
+
+
+```{r combining data, message=FALSE,echo=FALSE}
+# Combine both the data sets and keep the required columns for analysis
+
+# We select a subset of the data that satisfies specific row conditions.
+hm_data <- hm_data %>%
+  inner_join(demo_data, by = "wid") %>%
+  select(wid,
+         original_hm,
+         gender, 
+         marital, 
+         parenthood,
+         reflection_period,
+         age, 
+         country, 
+         ground_truth_category, 
+         predicted_category,
+         text) %>%
+  mutate(count = sapply(hm_data$text, wordcount)) %>%
+  filter(gender %in% c("m", "f")) %>%
+  filter(marital %in% c("single", "married","divorced","separated","widowed")) %>%
+  filter(parenthood %in% c("n", "y")) %>%
+  filter(reflection_period %in% c("24h", "3m")) %>%
+  mutate(reflection_period = fct_recode(reflection_period, 
+                                        months_3 = "3m", hours_24 = "24h"))
+```
+
+
+
+## Question 1: What make Females in their 10s, 20s, 30s, and 60s happy?
+
+One of the things I do every New Year is to set goals for the new year. Establishing life values is very important to me as I try to live the new year with a new mindset that will help me become a better, happier me. From that perspective, if I could know what life values in general make each age groups happy in advance, I would be able to focus more on those things.
+Thus, I began this project by looking into which moments compose each age groups' happy moments.
+I divided the age groups into females in their 10s, 20s, 30s, and 60s.
+
+
+```{r,echo=FALSE}
+hm_data_10 <- hm_data[hm_data$gender=="f" & hm_data$age>=10 & hm_data$age<20,]
+hm_data_20 <- hm_data[hm_data$gender=="f" & hm_data$age>=20 & hm_data$age<30,]
+hm_data_30 <- hm_data[hm_data$gender=="f" & hm_data$age>=30 & hm_data$age<40,]
+hm_data_60 <- hm_data[hm_data$gender=="f" & hm_data$age>=60 & hm_data$age<70,]
+hm_data_female <- hm_data[hm_data$gender=="f",]
+```
+
+```{r,echo=FALSE}
+bag_of_words_female <-  hm_data_female %>%
+  unnest_tokens(word, text)
+
+word_count_female <- bag_of_words_female %>%
+  count(word, sort = TRUE)
+```
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+temp <- bag_of_words_female %>%
+      count(parenthood, word) %>%
+      group_by(parenthood) %>%
+      mutate(proportion = n / sum(n)) %>% 
+      select(-n) %>% 
+      spread(parenthood, proportion)
+ggplot(temp, 
+             aes_string(x = colnames(temp)[2], y = colnames(temp)[3]),
+             color = abs(colnames(temp)[3] - colnames(temp)[2])) +
+      geom_abline(color = "gray40", lty = 2) +
+      geom_jitter(alpha = 0.1, size = 1, width = 0.3, height = 0.3) +
+  labs(title="Words Proportion for females regardless of age")+
+      geom_text(aes(label = word), check_overlap = TRUE, vjust = 1.5) +
+      scale_x_log10(labels = percent_format()) +
+      scale_y_log10(labels = percent_format()) +
+      scale_color_gradient(limits = c(0, 0.001), low = "darkslategray4", high = "gray75") +
+      theme(legend.position="none")
+  
+```
+
+According to the plot above, regardless of age, females think of "friend", "husband", "family", and "birthday" in their happy moments. 
+
+This seemed very general, so I broke it down to 4 different age groups and saw what words/values pop up frequently respectively.
+
+#### Word Cloud
+
+```{r, message=FALSE,echo=FALSE}
+bag_of_words_10 <-  hm_data_10 %>%
+  unnest_tokens(word, text)
+
+word_count_10 <- bag_of_words_10 %>%
+  count(word, sort = TRUE)
+
+bag_of_words_20 <-  hm_data_20 %>%
+  unnest_tokens(word, text)
+
+word_count_20 <- bag_of_words_20 %>%
+  count(word, sort = TRUE)
+
+bag_of_words_30 <-  hm_data_30 %>%
+  unnest_tokens(word, text)
+
+word_count_30 <- bag_of_words_30 %>%
+  count(word, sort = TRUE)
+
+bag_of_words_60 <-  hm_data_60 %>%
+  unnest_tokens(word, text)
+
+word_count_60 <- bag_of_words_60 %>%
+  count(word, sort = TRUE)
+```
+
+```{r,message=FALSE,warning=FALSE,echo=FALSE}
+wordcloud(word_count_10$word,word_count_10$n ,
+          scale=c(3,0.1),
+          max.words=100,
+          min.freq=1,
+          random.order=FALSE,
+          rot.per=0.3,
+          use.r.layout=T,
+          random.color=FALSE,
+          colors=brewer.pal(9,"Oranges"))
+
+```
+
+```{r,message=FALSE,warning=FALSE,echo=FALSE}
+wordcloud(word_count_20$word,word_count_20$n ,
+          scale=c(3,0.1),
+          max.words=100,
+          min.freq=1,
+          random.order=FALSE,
+          rot.per=0.3,
+          use.r.layout=T,
+          random.color=FALSE,
+          colors=brewer.pal(9,"Oranges"))
+
+```
+
+```{r, warning=FALSE,message=FALSE,echo=FALSE}
+wordcloud(word_count_30$word,word_count_30$n ,
+          scale=c(3,0.1),
+          max.words=100,
+          min.freq=1,
+          random.order=FALSE,
+          rot.per=0.3,
+          use.r.layout=T,
+          random.color=FALSE,
+          colors=brewer.pal(9,"Oranges"))
+
+```
+
+```{r, warning=FALSE,message=FALSE,echo=FALSE}
+wordcloud(word_count_60$word,word_count_60$n ,
+          scale=c(3,0.1),
+          max.words=100,
+          min.freq=1,
+          random.order=FALSE,
+          rot.per=0.3,
+          use.r.layout=T,
+          random.color=FALSE,
+          colors=brewer.pal(9,"Oranges"))
+
+```
+
+#### Bar Charts
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+ word_count_10[1:15,] %>%
+      mutate(word = reorder(word, n)) %>%
+      ggplot(aes(word, n)) +
+      geom_col() +
+      labs(title = "Word Frequency in Happy Moments for female in their 10s")+
+      xlab(NULL) +
+      ylab("Word Frequency")+
+      coord_flip()
+``` 
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+ word_count_20[1:15,] %>%
+      mutate(word = reorder(word, n)) %>%
+      ggplot(aes(word, n)) +
+      geom_col() +
+      labs(title = "Word Frequency in Happy Moments for female in their 20s")+
+      xlab(NULL) +
+      ylab("Word Frequency")+
+      coord_flip()
+``` 
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+ word_count_30[1:15,] %>%
+      mutate(word = reorder(word, n)) %>%
+      ggplot(aes(word, n)) +
+      geom_col() +
+      labs(title = "Word Frequency in Happy Moments for female in their 30s")+
+      xlab(NULL) +
+      ylab("Word Frequency")+
+      coord_flip()
+``` 
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+ word_count_60[1:15,] %>%
+      mutate(word = reorder(word, n)) %>%
+      ggplot(aes(word, n)) +
+      geom_col() +
+      labs(title = "Word Frequency in Happy Moments for female in their 60s")+
+      xlab(NULL) +
+      ylab("Word Frequency")+
+      coord_flip()
+``` 
+ 
+From these word clouds and bar charts, we can see that "friend", "family", "husband" were commonly mentioned for all age groups.
+
+
+
+## Question 2: Other than friends and families, which factors make females happy?
+
+Since friends and families were obvious factors that consisted the female's happiness,
+I excluded those words and focused on other words that were frequently mentioned.
+
+
+#### < 10s >
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+hm_data_female_10 <- hm_data_10[grepl("boyfriend",hm_data_10$text)|grepl("passed",hm_data_10$text)|grepl("event",hm_data_10$text)|grepl("visit",hm_data_10$text)|grepl("college",hm_data_10$text),]
+nrow(hm_data_female_10)
+```
+Of the 82 happy moments that aren't related to 'friends' or 'families' for the teenage females, the frequency of the rest words are as follows:
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+
+bag_of_words_female_10 <-  hm_data_female_10 %>%
+  unnest_tokens(word, text)
+
+word_count_female_10 <- bag_of_words_female_10 %>%
+  count(word, sort = TRUE)
+
+word_count_female_10<- word_count_female_10[-c(which(word_count_female_10$word=="friend"),which(word_count_female_10$word=="family")),]
+
+word_count_female_10[1:20,] %>%
+      mutate(word = reorder(word, n)) %>%
+      ggplot(aes(word, n)) +
+      geom_col() +
+      xlab(NULL) +
+      ylab("Word Frequency")+
+      coord_flip()
+wordcloud(word_count_female_10$word,word_count_female_10$n ,
+          scale=c(3,0.1),
+          max.words=100,
+          min.freq=1,
+          random.order=FALSE,
+          rot.per=0.3,
+          use.r.layout=T,
+          random.color=FALSE,
+          colors=brewer.pal(9,"Accent"))
+```
+
+#### < 20s >
+
+For the females in their 20s, the frequency of happy moments that aren't related to 'friends' or 'families' are as follows:
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+bag_of_words_20 <-  hm_data_20 %>%
+  unnest_tokens(word, text)
+
+word_count_20 <- bag_of_words_20 %>%
+  count(word, sort = TRUE)
+
+word_count_20<- word_count_20[-c(which(word_count_20$word=="friend"),which(word_count_20$word=="family"),which(word_count_20$word=="home"),which(word_count_20$word=="husband"),which(word_count_20$word=="boyfriend"),which(word_count_20$word=="kids"),which(word_count_20$word=="son"),which(word_count_20$word=="daughter")),]
+
+word_count_20[1:20,] %>%
+      mutate(word = reorder(word, n)) %>%
+      ggplot(aes(word, n)) +
+      geom_col() +
+      xlab(NULL) +
+      ylab("Word Frequency")+
+      coord_flip()
+wordcloud(word_count_20$word,word_count_20$n ,
+          scale=c(3,0.1),
+          max.words=100,
+          min.freq=1,
+          random.order=FALSE,
+          rot.per=0.3,
+          use.r.layout=T,
+          random.color=FALSE,
+          colors=brewer.pal(9,"Accent"))
+```
+
+
+#### < 30s >
+
+For the females in their 30s, the frequency of happy moments that aren't related to 'friends' or 'families' are as follows:
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+bag_of_words_30 <-  hm_data_30 %>%
+  unnest_tokens(word, text)
+
+word_count_30 <- bag_of_words_30 %>%
+  count(word, sort = TRUE)
+
+word_count_30<- word_count_30[-c(which(word_count_30$word=="friend"),which(word_count_30$word=="family"),which(word_count_30$word=="home"),which(word_count_30$word=="son"),which(word_count_30$word=="daughter"),which(word_count_30$word=="husband"),which(word_count_30$word=="kids")),]
+
+word_count_30[1:20,] %>%
+      mutate(word = reorder(word, n)) %>%
+      ggplot(aes(word, n)) +
+      geom_col() +
+      xlab(NULL) +
+      ylab("Word Frequency")+
+      coord_flip()
+wordcloud(word_count_30$word,word_count_30$n ,
+          scale=c(3,0.1),
+          max.words=100,
+          min.freq=1,
+          random.order=FALSE,
+          rot.per=0.3,
+          use.r.layout=T,
+          random.color=FALSE,
+          colors=brewer.pal(9,"Accent"))
+```
+
+#### < 60s >
+
+For the females in their 60s, the frequency of happy moments that aren't related to 'friends' or 'families' are as follows:
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+bag_of_words_60 <-  hm_data_60 %>%
+  unnest_tokens(word, text)
+
+word_count_60 <- bag_of_words_60 %>%
+  count(word, sort = TRUE)
+
+word_count_60<- word_count_60[-c(which(word_count_60$word=="friend"),which(word_count_60$word=="family"),which(word_count_60$word=="home"),which(word_count_60$word=="son"),which(word_count_60$word=="daughter"),which(word_count_60$word=="husband"),which(word_count_60$word=="kids")),]
+
+word_count_60[1:20,] %>%
+      mutate(word = reorder(word, n)) %>%
+      ggplot(aes(word, n)) +
+      geom_col() +
+      xlab(NULL) +
+      ylab("Word Frequency")+
+      coord_flip()
+wordcloud(word_count_60$word,word_count_60$n ,
+          scale=c(3,0.1),
+          max.words=100,
+          min.freq=1,
+          random.order=FALSE,
+          rot.per=0.3,
+          use.r.layout=T,
+          random.color=FALSE,
+          colors=brewer.pal(9,"Accent"))
+```
+
+
+### 10s - boyfriend, passed, event, visit, college
+### 20s - moment, feel, life, birthday, love, job
+### 30s - watched, dinner, night, played, love
+### 60s - watched, found, visit, dog, dinner, car
+
+
+That means,
+#### for the teenagers, boyfriends or school/college related moments made them happy the most.
+#### For those in their 20s, being in some moments, feeling life and love, or job-related moments made them happy the most.
+#### For those in their 30s, we can infer from the verbs that doing something with people around made them happy the most.
+#### For those in their 60s, we can again infer from the verbs that doing something with people around made them happy the most. It is notable that dogs have appeared for the first time.
+
+
+Below are some examples of the happy moments of each age groups. 
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+hm_data_10[grepl("passed",hm_data_10$text),"original_hm"][c(1,2,7,10,11,21),]
+
+```
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+hm_data_20[grepl("birthday",hm_data_20$text),"original_hm"][c(1,2,7,10,11,21),]
+
+```
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+hm_data_30[grepl("dinner",hm_data_30$text),"original_hm"][c(1,2,7,10,11,21),]
+
+```
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
+hm_data_60[grepl("dog",hm_data_60$text),"original_hm"][c(1,2,7,10,11,21),]
+
+```
+
+
+## Conclusions
+1. 'Friends' and 'Families' were always mentioned as a top value of all different age groups.
+
+2. For females in 10s and 20s, it could be infered that they had other external factors such as 'college', 'boyfriend', 'life', or 'job' to make them happy. 
+
+3. For females in 30s and 60s, it could be infered that internal factors, or the action of doing something with people around you, inferrably friends or families, were what made them happy.
+
+ 
