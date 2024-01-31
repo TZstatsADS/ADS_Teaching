@@ -17,7 +17,7 @@
 
 ----
 
-####  Week 2 (January 22)
+####  Week 2 (January 29)
 
 + Recap on last week
 + [Overview of starter codes](Projects_StarterCodes/Project1-RNotebook)
@@ -43,7 +43,7 @@
 
 ([starter codes](Projects_StarterCodes/Project2-ShinyApp))
 
-#### Week 3 (January 29)
+#### Week 3 (January 31)
 
 + [Project 2](Projects_StarterCodes/Project2-ShinyApp) starts.
   	+ Check Piazza for your project team and follow the [video instructions](https://drive.google.com/file/d/1s2YWkf2PnMCWzzPWsshMU0bfoCOn63o7/view?usp=sharing) to clone [the starter codes](https://github.com/TZstatsADS/Project2-ShinyApp).
