@@ -32,13 +32,13 @@
 #### Week 3 (January 29)
 
 + Project 1 presentations.
-  
-<!--
 
+<!---
 [Finished student projects](TBD)
+-->
 
 ----
-##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
 
 ### Project cycle 2: Shiny App Development
 
@@ -51,7 +51,10 @@
   	+ After you join project 2, you can **clone** your team's GitHub repo to your local computer. 
   	+ You can find in the *starter codes*: 
    		+ the project description, 
-   		+ an example **toy** shiny app. 
+   		+ an example **toy** shiny app.
+
+----
+<!--
 
 #### Week 4 (February 5)
 
