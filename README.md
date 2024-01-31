@@ -27,11 +27,13 @@
 + [Intro to word2vec slides](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/Word2vec%20tutorial.pdf) | [R Notebook tutorial for word2vec](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-TextMining/doc/wk2-Tutorial-Word2vec.Rmd) | [Jupyter Notebook Tutorial for word2vec](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk2-TextMining/doc/wk2-tutorial-word2vec.ipynb)
 + Submission and presentation for project 1
 + Discussion and Q&A
-<!--
+
 
 #### Week 3 (January 29)
 
 + Project 1 presentations.
+  
+<!--
 
 [Finished student projects](TBD)
 
