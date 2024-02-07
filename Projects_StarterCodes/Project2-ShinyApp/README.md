@@ -2,7 +2,7 @@
 
 ### [Project Description](doc/project2_desc.md)
 
-Term: Fall 2023
+Term: Spring 2024
 
 ![screenshot](doc/figs/map.jpg)
 
