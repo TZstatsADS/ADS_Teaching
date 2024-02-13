@@ -62,9 +62,6 @@
 + Shiny Examples from previous semesters (Example 1: [Online](https://liqiaosally.shinyapps.io/app1/), [Repo](https://github.com/TZstatsADS/Spring2021-Project2-group6); Example 2: [Online](https://arya-ayati.shinyapps.io/Project2-Group1/), [Repo](https://github.com/TZstatsADS/Fall2021-Project2-group1))
 + Peer review of Project 1
 + Discussion and Q&A
-  
-----
-<!--
 
 #### Week 5 (February 12)
 
@@ -72,6 +69,9 @@
 + [Tutorial on RShiny Deployment in GCP](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-SQL%2BGCP/Rshiny_GCP.html), [Slides](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk5-RShiny%20deployment%20on%20GCP.pdf)
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Discussion on project 2
+
+----
+<!--
 
 
 #### Week 6 (February 19)
