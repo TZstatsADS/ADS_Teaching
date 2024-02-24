@@ -3,7 +3,7 @@
 
 ### [Full Project Description](doc/project3_desc.md)
 
-Term: Spring 2023
+Term: Spring 2024
 
 + Team ##
 + Team members
