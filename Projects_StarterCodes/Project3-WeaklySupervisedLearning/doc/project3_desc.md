@@ -1,4 +1,4 @@
-## STAT GU4243/GR5243 Spring 2022 Applied Data Science 
+## STAT GU4243/GR5243 Spring 2024 Applied Data Science 
 
 ### Project 3: Weakly supervised learning: label noise and correction
 
