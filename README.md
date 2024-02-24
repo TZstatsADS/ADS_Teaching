@@ -78,7 +78,7 @@
 [Finished student projects](TBD)
 
 ----
-##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) 
 
 ### Project cycle 3: Predictive analytics of climate data
 
