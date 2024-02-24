@@ -31,7 +31,7 @@ You could use data from any of the tiers for this project.
 #### Challenge
 This project has two subchallenges. 
 
-**Challenge I (Feb 19, 2024 - Mar 5, 2024)** Reproducibility challenge. 
+**Challenge I (Feb 26, 2024 - Mar 5, 2024)** Reproducibility challenge. 
 
 Teams attempt to reproduce [the quickstart demo notebook](https://github.com/leap-stc/ClimSim/blob/main/demo_notebooks/quickstart_example.ipynb). 
 
