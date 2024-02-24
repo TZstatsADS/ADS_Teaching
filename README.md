@@ -82,15 +82,15 @@
 
 ### Project cycle 3: Predictive analytics of climate data
 
-([starter codes](Projects_StarterCodes/Project3-ClimSim)) 
+([starter codes](Projects_StarterCodes/Project3-WeaklySupervisedLearning)) 
 
 #### Week 6 (February 19)
 
-+ [Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md) starts.
-  + Check Piazza for your project team and follow the [video instructions](https://drive.google.com/file/d/1L06KgspnQ5vMX7LaLoPkbmT1EhG8CRre/view?usp=sharing) to clone [the starter codes](https://github.com/TZstatsADS/Project3-ClimSim).
++ [Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md) starts.
+  + Check Piazza for your project team and follow the [video instructions](https://drive.google.com/file/d/1L06KgspnQ5vMX7LaLoPkbmT1EhG8CRre/view?usp=sharing) to clone [the starter codes](https://github.com/TZstatsADS/Project3-WeaklySupervisedLearning).
   + After you join project 3, you can **clone** your team's GitHub repo to your local computer. 
   + You can find in the *starter codes* 
-    + [Intro to Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md)
+    + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
 
 ----
 <!--
