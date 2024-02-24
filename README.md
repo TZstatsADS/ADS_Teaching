@@ -70,9 +70,6 @@
 + [Tutorial on giving presentations](Tutorials/wk5-MakingPresentation.pdf)
 + Discussion on project 2
 
-----
-<!--
-
 
 #### Week 6 (February 19)
 
@@ -95,6 +92,8 @@
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-ClimSim/doc/project3_desc.md)
 
+----
+<!--
 
 #### Week 7 (February 26)
 
