@@ -31,14 +31,14 @@ You could use data from any of the tiers for this project.
 #### Challenge
 This project has two subchallenges. 
 
-**Challenge I (Oct 11, 2023 - Oct 21, 2023)** Reproducibility challenge. 
+**Challenge I (Feb 19, 2024 - Mar 5, 2024)** Reproducibility challenge. 
 
 Teams attempt to reproduce [the quickstart demo notebook](https://github.com/leap-stc/ClimSim/blob/main/demo_notebooks/quickstart_example.ipynb). 
 
 * As a first step to get familiar with the dataset, reproduce the notebook on your local computer by forking the repo and following the instructions of [the quickstart guide](https://leap-stc.github.io/ClimSim/quickstart.html). 
 * Document clearly, in a report, local computing environment, steps taken for the successful reproduction, issues encountered and estimated time used for the full reproduction process. 
 
-**Challenge II (Oct 22, 2023 - Oct 30, 2023)** Machine Learning exploration challenge. 
+**Challenge II (Mar 6, 2024 - Mar 20, 2023)** Machine Learning exploration challenge. 
 
 Each team builds upon their own reproduced [quickstart demo notebook](https://github.com/leap-stc/ClimSim/blob/main/demo_notebooks/quickstart_example.ipynb) and explore in one or more of the following directions. 
 
