@@ -98,7 +98,8 @@
 + Recap on [project 3 requirements](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md) and [starter codes](Projects_StarterCodes/Project3-WeaklySupervisedLearning/). 
 + Tutorials + Q&A
 	+ Tutorials: Basic Image Analysis [in Python](Tutorials/wk7-OpenCV_tutorial/Basic_Image_Analysis.ipynb), [in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-imageanalysis_R.html) ([zipped folder](Tutorials/wk7-ImageAnalysis_R.zip))
-	+ [Overview on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.slides.html)
+	+ [Slides on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.slides.html)
+        + [Overview on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.ipynb)
 
 ----
 <!--
