@@ -92,9 +92,6 @@
   + You can find in the *starter codes* 
     + [Intro to Project 3](Projects_StarterCodes/Project3-WeaklySupervisedLearning/doc/project3_desc.md)
 
-----
-<!--
-
 #### Week 7 (February 26)
 
 
@@ -103,7 +100,8 @@
 	+ Tutorials: Basic Image Analysis [in Python](Tutorials/wk7-OpenCV_tutorial/Basic_Image_Analysis.ipynb), [in R](https://htmlpreview.github.io/?https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk7-imageanalysis_R.html) ([zipped folder](Tutorials/wk7-ImageAnalysis_R.zip))
 	+ [Overview on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.slides.html)
 
-
+----
+<!--
 
 #### Week 8 (March 4)
 
