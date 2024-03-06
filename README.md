@@ -104,6 +104,7 @@
 #### Week 8 (March 4)
 
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
++ [Tutorial on basic neural network](Tutorials/wk8-NeuralNet.pdf)
 + Project 3 reminders (on piazza)
 + Discussion
 
