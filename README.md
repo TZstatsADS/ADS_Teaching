@@ -101,9 +101,6 @@
 	+ [Slides on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.slides.html)
  	+ [Overview on Weakly Supervised Learning](Tutorials/wk7-WSL_tutorial/Tutorial_WSL.ipynb)
 
-----
-<!--
-
 #### Week 8 (March 4)
 
 + [Overview on predictive modeling](Tutorials/wk8-TutorialModelSelection.pdf)
@@ -115,6 +112,9 @@
 #### Week 9 (March 18)
 
 + Project 3 submission and presentations
+
+----
+<!--
 
 ----
 ##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) |  [Project 5](#project-cycle-5-free-topic)
