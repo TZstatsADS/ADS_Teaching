@@ -115,10 +115,7 @@
 + Project 3 submission and presentations
 
 ----
-<!--
-
-----
-##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) |  [Project 5](#project-cycle-5-free-topic)
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) |  [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) 
 
 ### Project cycle 4: Algorithm implementation and evaluation
 
@@ -131,7 +128,8 @@
 + Updated slides: [Methods for Machine Learning Fairness](https://github.com/TZstatsADS/ADS_Teaching/blob/master/Tutorials/wk10-Methods-Fairness.pdf) | Previous slides: [Overview of the Methods from the reference papers](Tutorials/wk10-Overview_Machine_Learning_Fairness_Methods.pdf) ([hand-written notes](Tutorials/wk10-fairness_methods.pdf))
 + Find your group for project 4 and clone the [template repository](https://github.com/TZstatsADS/Project4-MachineLearningFairness) following the video instructions. 
   
-
+----
+<!--
 
 #### Week 10 (March 25)
 
@@ -169,7 +167,8 @@
 
 ----
 
-##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation)
+##### Shortcuts: [Project 1](#project-cycle-1-individual-r-notebook-for-exploratory-data-analysis) | [Project 2](#project-cycle-2-shiny-app-development) | [Project 3](#project-cycle-3-predictive-modeling) | [Project 4](#project-cycle-4-algorithm-implementation-and-evaluation) | [Project 5](#project-cycle-5-free-topic)
+
 
 
 -->
