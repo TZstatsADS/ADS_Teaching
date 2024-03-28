@@ -135,13 +135,14 @@
 + Overview on the methods 
 + Method assignment on Piazza
 
+
+#### Week 11 (April 1) 
+Class canceled
+Feel free to have group brainstorm and meetings offline
+
 ----
 <!--
 
-#### Week 11 (April 1) 
-- 1st half : Form groups and brainstorm for subject of project 5
-- 2nd half : Team meeting/helproom for project 4
-  
 #### Week 12 (April 8)
 
 
