@@ -137,8 +137,8 @@
 
 
 #### Week 11 (April 1) 
-Class canceled
-Feel free to have group brainstorm and meetings offline
++ Class canceled
++ Feel free to have group brainstorm and meetings offline
 
 ----
 <!--
