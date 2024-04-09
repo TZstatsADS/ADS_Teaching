@@ -143,7 +143,7 @@
 
 #### Week 12 (April 8)
 
-Team meeting
++ Team meeting
 
 
 #### Week 13 (April 15) 
